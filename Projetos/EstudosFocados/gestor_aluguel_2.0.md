@@ -1,74 +1,109 @@
 ---
 title: "Estudos Focado: gestor_aluguel_2.0"
-description: "Análise SaaS + roadmap monetização."
+description: "Documento de estratégia para o gestor_aluguel_2.0: produto SaaS imobiliário, monetização e roadmap de AI local." 
 tags:
   - gestor
   - analise
+  - estrategia
+  - saas
+  - imobiliario
 ---
 
 # Estudos Focado: gestor_aluguel_2.0 [[README]] [[Privados/gestor_aluguel_2.0]]
 
 **Quartel-General da Estratégia**
-- Esta nota é o centro estratégico para o projeto gestor_aluguel_2.0.
-- Use-a para validar modelo de negócios, limites de MVP e prioridades de implantação.
-- Referências técnicas estão em [[../EstudosPesquisas/README|Estudos e Pesquisas]].
+- Esta nota define a estratégia do SaaS imobiliário antes de executar a próxima fase.
+- Aqui são decididas as prioridades de monetização, AI local, deploy e modelo de dados.
+- Referências técnicas: [[../EstudosPesquisas/README|Estudos e Pesquisas]].
 
-**Status Atual**:
-- Tecnologias: Next.js 15 App Router, Prisma 43 models multi-tenant, Gemini AI, Asaas pagamentos, Socket.io real-time, docs 70+ arquivos.
-- Forças: Enterprise SaaS completo (inquilinos, contratos TipTap, financeiro, portal inquilino, MFA Clerk-like, Sentry).
-- Fraquezas: Gemini custo API, Postgres local não serverless, deploy não Vercel, no offline AI.
+## Missão do projeto
+Construir uma plataforma de gestão de imóveis que permita administradoras e proprietários gerenciarem contratos, cobranças, inadimplência e comunicação de forma integrada.
 
-**Análise**:
-- Scope: SaaS imobiliária full (proprietários a inquilinos).
-- Market fit: Administradoras 10-500 imóveis/mês R$49-199.
-- Ambitions: Marketplace fornecedores, app mobile, IA preditiva vendas/vistorias.
+## Proposta de valor
+- Para administradoras: reduzir atrito operacional com contratos, financeiro e comunicação automática.
+- Para inquilinos: facilidade de pagamento e transparência via portal.
+- Para o produto: posicionar como SaaS imobiliário com AI preditiva e suporte local/ou híbrido.
 
-**Roadmap gratuito**:
+## Usuário e mercado
+**Segmento alvo**
+- Administradoras de 10 a 500 imóveis.
+- Proprietários que já usam sistemas manuais ou planilhas.
+- Pequenas imobiliárias em busca de upgrade digital.
 
-**MVP 1.0 Prod Free (1 mês)**:
-- Neon Postgres serverless free + Prisma migrate.
-- Vercel deploy hobby unlimited.
-- Clerk auth free tier (MFA/orgs).
+**Tamanho de mercado**
+- O produto se encaixa em um mercado de SaaS para gestão imobiliária com potencial de R$49-199 por imóvel/mês.
+- A diferenciação está em AI local/híbrida e integrações de pagamento.
 
-**1.5 AI Local (2 meses)**:
-- Ollama qwen2.5-coder predição inadimplência local.
-- Tesseract.js OCR docs local.
+## Métricas de sucesso
+- Número de clientes pagantes no primeiro MVP > 3.
+- Tempo para emitir contrato/recibo < 10 minutos.
+- Redução de inadimplência projetada em >10%.
+- Taxa de ativação do portal inquilino > 50%.
 
-**2.0 Monetização (4 meses)**:
-- Stripe checkout free sandbox.
-- AppSumo/IndieHackers launch.
-- Mobile PWA + Capacitor free.
+## Hipóteses estratégicas
+- O mercado aceita um MVP com deploy hobby em Vercel e banco Neon free.
+- Fallback para AI local é necessário para reduzir custo de Gemini.
+- Automatizar contratos e notificações é o valor mais importante.
+- Modelagem multi-tenant em Prisma é adequada para crescimento.
 
-**Cronograma**:
-| Fase | Tempo | Deliver |
-|------|-------|---------|
-| 1.0 Prod | 4 sem | Vercel/Neon live |
-| 1.5 AI | 8 sem | Ollama predições |
-| 2.0 Monetiz | 16 sem | Stripe + launch |
+## Situação atual e gaps
+- Produto robusto com Next.js, Prisma e muitas features.
+- Gap de deploy/infra: ainda não há produção estável e fallback offline.
+- Gap de monetização: falta checkout e fluxo de vendas claro.
+- Gap de AI: dependência Gemini e ausência de infra local barata.
 
-Recursos: [[EstudosPesquisas/gestor_aluguel_2.0]] [[Next.js-SaaS-Evolution]] #saas #neon #ollama
+## Arquitetura estratégica
+- Frontend: Next.js App Router + shadcn Tailwind.
+- Backend/DB: Prisma + Postgres, multi-tenant.
+- AI: Gemini para predição e RAG atualmente, Ollama local como fallback.
+- Pagamentos: Asaas + Stripe para B2B e cobrança.
+- Observabilidade: Sentry, Pino, audit logs.
 
-## Detalhamento Expandido
-- Escopo atual: SaaS completo de gestão de imóveis com contratos, financeiro, portal inquilino e AI de apoio.
-- Tecnologias usadas: Next.js App Router, Prisma, Postgres, Gemini, Asaas, Socket.io, Sentry.
-- Problemas atuais: uso de Gemini com custo elevado, banco local e deploy ainda não estabilizado.
-- Entregáveis chave:
-  - deploy hobby em Vercel + Neon Postgres
-  - auth via Clerk com MFA
-  - integração Asaas e Stripe para fluxos de pagamento
+## Roadmap estratégico
+### Fase 1 — MVP de deploy e vendas (4 semanas)
+- Publicar no Vercel com Neon Postgres free.
+- Implantar auth Clerk com MFA e multi-tenant básico.
+- Preparar pipeline de onboarding e documentação comercial.
+- Validar primeiro cliente piloto.
 
-### Riscos e pontos de atenção
-- Custo de Gemini pode inviabilizar o MVP se não houver fallback offline.
-- Multi-tenant exige cuidado na modelagem de dados e segurança de inquilinos.
-- Adoção do mercado depende de UX simples e onboarding rápido.
+### Fase 2 — AI local e documentos (8 semanas)
+- Criar fallback Ollama qwen2.5-coder local para predição de inadimplência.
+- Adicionar OCR local com Tesseract.js para digitalização de documentos.
+- Construir mecanismo de alertas de inadimplência.
+
+### Fase 3 — Monetização e escala (16 semanas)
+- Lançar Stripe checkout e checkout Asaas sandbox.
+- Explorar marketplace de fornecedores e parcerias.
+- Desenvolver PWA ou app móvel leve.
+
+## Dependências e decisões
+- Host: Vercel hobby vs deploy local/container.
+- AI: manter Gemini ou migrar gradualmente para Ollama.
+- Pagamentos: Asaas como principal ou Stripe direto.
+- Dados: multi-tenant isolado vs esquema único com tenantId.
+
+## Riscos
+- Custo de Gemini inviabiliza o modelo sem fallback.
+- Multi-tenant aumenta complexidade de segurança e dados.
+- UX pesado ou onboarding ruim pode bloquear adoção.
+- Dependência de Neon free limita escala inicial.
+
+## Decisões pendentes
+- Priorizar AI local ou fechar MVP sem AI avançada?
+- Abrir marketplace de fornecedores agora ou depois do lançamento do core?
+- Usar PWA para inquilino ou app mobile nativo mais tarde?
 
 ## Diário de Bordo
-- 09/04/2026 10:56:32: arquivo criado/atualizado com análise completa do produto.
-- 09/04/2026 10:56:39: roadmap de produção e monetização definido.
-- Status de versão: nota local, sem histórico Git rastreado para este arquivo.
+- 09/04/2026 10:56:32 — nota criada com visão estratégica.
+- 09/04/2026 10:56:39 — roadmap e metas de monetização definidas.
 
-### Próximas ações concretas
-- Revisar arquitetura para incluir fallback Ollama local se Gemini ficar caro.
-- Implementar deploy em Vercel e autenticação Clerk.
-- Mapear jornadas de usuário para proprietários e inquilinos.
-- Criar protótipo de marketplace de fornecedores e PWA.
+## Próximas ações imediatas
+- Criar roteiro de lançamento para piloto em Vercel.
+- Mapear jornada de vendas para administradoras.
+- Definir arquitetura de fallback Ollama local.
+- Elaborar proposta de valor e preço inicial.
+
+## Referências
+- [[../EstudosPesquisas/gestor_aluguel_2.0|Pesquisa Gestor Aluguel]]
+- [[../EstudosPesquisas/Next.js-SaaS-Evolution|Next.js SaaS Evolution]]
+- [[../Plano-de-Acao|Plano de Ação]]

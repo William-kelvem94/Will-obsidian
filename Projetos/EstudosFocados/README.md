@@ -1,45 +1,66 @@
 ---
 title: "Estudos Focados — Quartel-General da Estratégia"
-description: "Centro estratégico do vault: decisões, roadmap, prioridades e trade-offs para os principais projetos."
+description: "Central das decisões de alto nível para projetos estratégicos de IA e SaaS. Define visão, trade-offs e roadmap antes da implementação." 
 tags:
   - estudos-focados
   - analise
   - roadmap
   - estrategia
+  - decisao
 ---
 
 # Estudos Focados — Quartel-General da Estratégia [[Cerebro-Will]] [[EstudosPesquisas/README]]
 
-**Esta pasta é o quartel-general estratégico do vault.** Aqui ficam as decisões de produto, roadmap, trade-offs, prioridades e riscos antes de abrir a implementação.
+**Missão desta pasta**
+- Ser o principal lugar de decisão pré-implementação para os projetos mais estratégicos do vault.
+- Documentar hipóteses, critérios de sucesso, riscos, dependências e próximos passos.
+- Fornecer um quadro de referência para avaliar prioridades e evitar trabalho refeito.
 
-**Análise detalhada cada projeto/repos**: tecnologias atuais, forças/fraquezas, ambições, escopo MVP/1.0/2.0, cronograma realista, roadmap evolução gratuita/local.
+## Critérios para estar aqui
+Notas de `EstudosFocados` devem:
+- descrever valor do produto e público-alvo;
+- explicar por que o projeto importa para o vault;
+- mapear as principais opções de tecnologia;
+- listar riscos e dependências críticas;
+- separar o roadmap em fases com entregáveis claros.
 
-**Por Projeto**:
-- [[Auto-boletos.md]] — automação de boletos com OCR e AI.
-- [[PROJECT_JARVIS_5.0.md]] — assistente multimodal voz/vision.
-- [[gestor_aluguel_2.0.md]] — SaaS imobiliário com AI e pagamento.
-- [[IA-LOCAL.md]] — JARVIS local com memória vetorial e voz.
-- [[DEEP-LEARNING.md]] — agente AI com RAG, speech e ferramentas.
+## Projetos estratégicos atuais
+- [[Auto-boletos.md]] — automação de boletos com OCR, AI e SaaS imobiliário.
+- [[gestor_aluguel_2.0.md]] — plataforma de gestão imobiliária com AI e pagamentos.
+- [[DEEP-LEARNING.md]] — agente IA local com RAG, memória e fine-tuning PT-BR.
+- [[IA-LOCAL.md]] — assistente Jarvis offline com voz, visão e automação.
+- [[PROJECT_JARVIS_5.0.md]] — assistente multimodal de voz/vision e agentes autônomos.
 
 ## Como usar esta pasta
-- Use `Estudos Focados` para planejar e tomar decisões.
-- Cada nota deve conter:
-  - status atual
-  - tecnologias
-  - forças/fraquezas
-  - roadmap dividido em fases
-  - cronograma realista
-  - próximos passos concretos
-  - diário de bordo com datas e atividades
-- Planeje projetos ativos aqui antes de transformar em tarefas de desenvolvimento.
+1. Abra aqui antes de criar ou alterar código.
+2. Confirme se o problema está definido e se o valor está validado.
+3. Use `Plano-de-Acao.md` para priorizar e executar as ações definidas.
+4. Conecte decisões com implementação em `Projetos/Privados/` e pesquisa em `Projetos/EstudosPesquisas/`.
 
-## Diário de Bordo da pasta
-- Todos os arquivos de `Projetos/EstudosFocados` foram criados ou atualizados em 09/04/2026 entre 10:56:02 e 10:56:45.
-- O histórico Git local não contém esses arquivos rastreados atualmente, então o diário é construído a partir de metadados de arquivo e conteúdo presente.
-- Cada nota agora possui um bloco de detalhamento técnico, risks e próximos passos.
+## Pontos-chave de estratégia
+- Se não há usuário ou valor claro, o projeto não avança para execução.
+- Riscos devem ser priorizados antes de definir o próximo sprint.
+- Decisões de arquitetura devem ser registradas aqui e revisadas.
+- Roadmap é a referência para o planejamento trimestral.
 
-## Manutenção
-- Atualize esta pasta sempre que houver mudança de escopo, prioridades ou novos experimentos.
-- Use tags como `#roadmap`, `#diario`, `#estudo` para facilitar buscas.
+## Rotina de quartel-general
+- Atualize o documento sempre que a hipótese ou a prioridade mudar.
+- Registre decisões no `Diário de Bordo` com data e motivo.
+- Use tags `#estrategia`, `#prioridade`, `#decisao`, `#riscos`.
 
-**Uso**: RAG Ollama "roadmap gestor_aluguel MVP 3 meses" #rag #roadmap
+## Relação com o vault
+- `Projetos/Privados/` → execução detalhada.
+- `Projetos/EstudosPesquisas/` → pesquisas, guias e referências técnicas.
+- `Projetos/Plano-de-Acao.md` → prioridades e ações semanais.
+- `Projetos/Organizacao-Completa.md` → visão geral do vault.
+
+## Checklist do quartel-general
+- [ ] problema de usuário definido
+- [ ] proposta de valor clara
+- [ ] critérios de sucesso estabelecidos
+- [ ] hipóteses mapeadas
+- [ ] roadmap faseado documentado
+- [ ] riscos e dependências priorizados
+- [ ] ligação com implementação e pesquisa
+
+**Uso sugerido**: faça uma revisão estratégica semanal e mantenha esta pasta como fonte única de verdade para decisões de alto nível.

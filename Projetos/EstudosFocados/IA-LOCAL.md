@@ -1,70 +1,104 @@
 ---
 title: "Estudos Focado: IA-LOCAL (JARVIS)"
-description: "Análise assistente + roadmap autônomo."
+description: "Documento estratégico para IA-LOCAL: visão Jarvis, trade-offs offline/online, voz, visão e automação PC." 
 tags:
   - jarvis
   - analise
+  - estrategia
+  - voz
+  - vision
 ---
 
 # Estudos Focado: IA-LOCAL [[README]] [[Privados/IA-LOCAL]]
 
 **Quartel-General da Estratégia**
-- Esta nota é o centro estratégico para o projeto IA-LOCAL.
-- Use-a para definir escopo de Jarvis, trade-offs offline/online e integração de voz/vision.
-- Pesquise tecnologias em [[../EstudosPesquisas/README|Estudos e Pesquisas]].
+- Esta nota define a visão Jarvis local antes de migrar para implementação.
+- Esta pasta responde: qual é o Jarvis mínimo viável e onde ele adiciona valor hoje.
+- Pesquisa técnica: [[../EstudosPesquisas/README|Estudos e Pesquisas]].
 
-**Status Atual**:
-- Tecnologias: Python FAISS memory, Whisper voice, pyautogui PC control, OpenRouter LLM.
-- Forças: Memória vetorial FAISS, voice interface, start.bat fácil.
-- Fraquezas: Depend API LLM, Whisper lento CPU, pyautogui detectável, no vision/multi-modal.
+## Missão do projeto
+Construir um assistente pessoal local que entenda voz, mantenha memória e possa executar ações no PC com segurança.
 
-**Análise**:
-- Scope: Assistente texto/voz PC básico.
-- Ambitions: Jarvis full offline multi-modal (voice/vision/screen/tasks autônomas).
+## Proposta de valor
+- Para usuários individuais: ter um Jarvis local que possa administrar tarefas, notas e automações sem depender inteiramente de nuvem.
+- Para o vault: criar um template de assistente offline que pode ser replicado em outros projetos.
 
-**Roadmap gratuito**:
+## Público e casos de uso
+**Usuário primário**
+- usuário power user que quer automações de PC e notas com voz.
 
-**MVP 1.0 Offline (1 mês)**:
-- Ollama llama3.2:3b local replace OpenRouter.
-- faster-whisper + Piper TTS PT-BR.
+**Casos de uso**
+- ditado de notas e comandos de ação.
+- busca de lembretes e histórico de sessões.
+- execução de macros ou automações simples no desktop.
 
-**1.5 Vision (2 meses)**:
-- MediaPipe face/gesture + Tesseract screen OCR.
+## Métricas de sucesso
+- Tempo para converter speech-to-text < 3s.
+- Taxa de reconhecimento de comando > 85%.
+- Máximo de 5 falhas de automação por fluxo de 10 minutos.
+- Capacidade de rodar offline em hardware de laptop médio.
 
-**2.0 Autônomo (4 meses)**:
-- LangGraph multi-agent (planning + execution).
-- PyAutoGUI stealth + pydirectinput.
+## Hipóteses estratégicas
+- Usuários aceitam menos recursos mas preferem privacidade/offline.
+- Um motor local Ollama ou LLaMA 3.2:3b é viável para o MVP.
+- Voice + memory são mais valiosos que visão inicialmente.
+- A automação de PC deve ser modular e segura.
 
-**Cronograma**:
-| Fase | Tempo | Deliver |
-|------|-------|---------|
-| 1.0 Offline | 4 sem | Ollama/Piper |
-| 1.5 Vision | 8 sem | MediaPipe OCR |
-| 2.0 Agent | 16 sem | LangGraph tasks |
+## Situação atual
+- Core existente com FAISS, Whisper, pyautogui e OpenRouter.
+- Problema: dependência de LLM externo e performance de Whisper.
+- Gap: visão e multi-modalidade não consolidados.
 
-Recursos: [[EstudosPesquisas/IA-LOCAL]] [[AI-Local-Gratuita]] #ollama #mediapipe
+## Arquitetura estratégica
+- `core/` = gerenciamento de memória e agente.
+- `interfaces/` = voz, comando e PC control.
+- `models/` = configuração de LLM local ou remota.
+- `security/` = limites de automação e logs.
 
-## Detalhamento Expandido
-- Escopo atual: assistente pessoal local com memória vetorial, voz e controle básico de PC.
-- Tecnologias usadas: Python, FAISS, Whisper, pyautogui, OpenRouter.
-- Falta principal: motor offline para LLM e visão multimodal mais confiável.
-- Entregáveis chave:
-  - substituição de OpenRouter por Ollama local
-  - integração de faster-whisper e Piper TTS PT-BR
-  - visão com MediaPipe e OCR de tela
+## Roadmap estratégico
+### Fase 1 — Jarvis offline minimal (4 semanas)
+- Substituir OpenRouter por Ollama local ou modelo compatível.
+- Mudar Whisper para faster-whisper e Piper TTS PT-BR.
+- Testar comandos básicos e logs de auditoria.
 
-### Riscos e pontos de atenção
-- PyAutoGUI pode ser detectável e frágil em diferentes resoluções de tela.
-- Whisper CPU pode ser lento para uso em tempo real.
-- Mais sensores adicionam complexidade e necessidade de testes em Windows.
+### Fase 2 — Visão e OCR leve (8 semanas)
+- Implementar MediaPipe face/gesture e OCR de tela.
+- Adicionar detecção de contexto de tela para comandos mais inteligentes.
+- Criar feedback visual de ações.
+
+### Fase 3 — Autonomia segura (16 semanas)
+- Integrar LangGraph ou agentes multi-step.
+- Tornar automações de PC seguras e reversíveis.
+- Adicionar política de consentimento e logs de segurança.
+
+## Dependências e decisões
+- LLM offline: Ollama vs outros formatos.
+- TTS: Piper é prioridade para PT-BR.
+- Visão: MediaPipe versus visão embarcada leve.
+- Automação PC: pyautogui vs pydirectinput.
+
+## Riscos
+- Comandos de PC podem causar ações indesejadas.
+- Whisper CPU lento impacta usabilidade.
+- Offline LLM pode ser pesado para laptops fracos.
+- Visão adiciona complexidade de teste e performance.
+
+## Decisões pendentes
+- Focar voice+memory primeiro ou lançar visão paralela?
+- Usar modelo local grande ou modelo menor quantizado?
+- Como separar claramente dados pessoais e logs de comando?
 
 ## Diário de Bordo
-- 09/04/2026 10:56:40: arquivo criado/atualizado com foco no Jarvis local.
-- 09/04/2026 10:56:43: definido roadmap offline, visão e autonomia.
-- Status de versão: nota local, sem histórico Git rastreado para este arquivo.
+- 09/04/2026 10:56:40 — nota criada com visão de Jarvis local.
+- 09/04/2026 10:56:43 — roadmap de fases montado.
 
-### Próximas ações concretas
-- Configurar Ollama local e testar inferência no PC.
-- Trocar Whisper por faster-whisper e integrar Piper TTS.
-- Adicionar pipeline de visão com MediaPipe e OCR de tela.
-- Criar rotina de logs de uso e segurança para automações.
+## Próximas ações imediatas
+- Testar inferência local do modelo escolhido e medir latência.
+- Atualizar o pipeline de voz para faster-whisper e Piper.
+- Projetar um fluxo seguro de automação de PC.
+- Criar um documento de segurança para automações.
+
+## Referências
+- [[../EstudosPesquisas/IA-LOCAL|Pesquisa IA-LOCAL]]
+- [[../EstudosPesquisas/AI-Local-Gratuita|AI Local Gratuita]]
+- [[../Plano-de-Acao|Plano de Ação]]

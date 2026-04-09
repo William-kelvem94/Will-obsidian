@@ -1,71 +1,108 @@
 ---
 title: "Estudos Focado: PROJECT_JARVIS_5.0"
-description: "Análise + roadmap voice AI vision."
+description: "Documento estratégico do PROJECT_JARVIS_5.0: visão multimodal, voz, visão e agentes autônomos." 
 tags:
   - jarvis
   - analise
+  - estrategia
+  - voz
+  - vision
+  - livekit
 ---
 
 # Estudos Focado: PROJECT_JARVIS_5.0 [[README]] [[Privados/PROJECT_JARVIS_5.0]]
 
 **Quartel-General da Estratégia**
-- Esta nota é o centro estratégico para o projeto PROJECT_JARVIS_5.0.
-- Use-a para decidir prioridades de multimodalidade, autonomia e infraestrutura.
-- Consulte referências em [[../EstudosPesquisas/README|Estudos e Pesquisas]].
+- Esta nota define o escopo estratégico de PROJECT_JARVIS_5.0 antes de ser executado como produto completo.
+- Aqui são alinhadas as prioridades entre voz, visão, agentes e deploy.
+- Referência técnica: [[../EstudosPesquisas/README|Estudos e Pesquisas]].
 
-**Status Atual**:
-- Tecnologias: FastAPI, Next.js shadcn Tailwind, LiveKit agents voice, MediaPipe face/gesture/voice, Playwright browser.
-- Forças: Real-time low-latency voice, vision models gratuitos, dashboard monitoring, docker compose.
-- Fraquezas: Depend Gemini (custo), no offline LLM, browser não stealth.
+## Missão do projeto
+Criar um assistente multimodal que combine voz em tempo real, visão de ambiente e execução de tarefas para oferecer um Jarvis autônomo de uso pessoal e profissional.
 
-**Análise**:
-- Scope: Assistente voz/vision PC control.
-- Ambitions: Jarvis offline total (Ollama + Piper), multi-modal (vision + voice + screen), agente autônomo tasks.
+## Proposta de valor
+- Para o usuário: controle mais natural do computador com voz e visão.
+- Para o produto: provar um agente que pode ser executado localmente ou em uma infraestrutura híbrida.
+- Para o vault: elevar o nível de Jarvis para multimodalidade real e integração com desktop.
 
-**Roadmap gratuito**:
+## Público e cenários
+**Usuário primário**
+- Produtores de conteúdo, desenvolvedores e power users que precisam de um assistente PC mais avançado.
 
-**MVP 1.0 Offline (1 mês)**:
-- Ollama backend/agents_worker.py + Piper TTS.
-- YOLOv8 nano object detection.
+**Cenários**
+- ditado e comandos por voz com feedback visual.
+- reconhecimento de gestos/face para contexto de interação.
+- automação de browser e workflows com LiveKit e Playwright.
 
-**1.5 Prod (2 meses)**:
-- Docker swarm multi-node local.
-- gRPC agents + VSCode ext integration.
+## Métricas de sucesso
+- Latência de voz < 1.5s em fluxo local.
+- Reconhecimento de gesto/face estável em 70% dos casos.
+- Execução autônoma de workflow sem falha em 85%.
+- Redução de interação manual em fluxos de 3 tarefas.
 
-**2.0 Autônomo (4 meses)**:
-- LangGraph agents (multi-step reasoning).
-- Screen OCR Tesseract + voice command parse.
+## Hipóteses-chave
+- A multimodalidade é o diferencial competitivo do Jarvis.
+- LiveKit é a escolha certa para voz em tempo real neste MVP.
+- É viável usar YOLOv8 nano para visão leve em hardware comum.
+- O browser automation pode ser confiável com Playwright e scripts robustos.
 
-**Cronograma**:
-| Fase | Tempo | Deliver |
-|------|-------|---------|
-| 1.0 Offline | 4 sem | Ollama/Piper 100% local |
-| 1.5 Prod | 8 sem | Swarm monitoring |
-| 2.0 Agent | 16 sem | LangGraph autonomy |
+## Situação atual
+- Stack atual: FastAPI, Next.js, LiveKit, MediaPipe e Playwright.
+- Problemas principais: dependência Gemini e falta de stack offline consolidado.
+- Gap técnico: não há claro pipeline de produção para agentes.
 
-Recursos: [[EstudosPesquisas/PROJECT_JARVIS_5.0]] [[AI-Local-Gratuita]] #livekit #ollama
+## Arquitetura estratégica
+- `backend/` = agentes, inferência LLM, integração de visão e voz.
+- `frontend/` = dashboard Next.js com visualização e controles.
+- `agents/` = workers gRPC, orchestrator e plan.
+- `vision/` = MediaPipe, YOLOv8 e OCR de tela.
+- `audio/` = LiveKit, Piper TTS e voz em tempo real.
 
-## Detalhamento Expandido
-- Escopo atual: assistente multimodal com voz em tempo real, visão e browser automation.
-- Tecnologias usadas: FastAPI, Next.js shadcn, LiveKit, MediaPipe, Playwright.
-- Limitações atuais: dependência de Gemini e falta de LLM offline completo.
-- Entregáveis chave:
-  - backend Ollama local + Piper TTS
-  - object detection YOLOv8 nano
-  - Docker Swarm local e gRPC para agents
+## Roadmap estratégico
+### Fase 1 — MVP offline multimodal (4 semanas)
+- Implementar backend Ollama local e Piper TTS.
+- Adicionar visão leve com YOLOv8 nano.
+- Validar fluxo de voz + detecção de objeto.
+- Criar protótipo de dashboard e log.
 
-### Riscos e pontos de atenção
-- Requisitos de hardware para visão e áudio em tempo real podem ser altos.
-- Integração browser + automação precisa ser robusta contra falhas de foco.
-- Multi-modalidade aumenta a superfície de teste e manutenção.
+### Fase 2 — Produção e agentes (8 semanas)
+- Preparar Docker Swarm local para múltiplos serviços.
+- Criar gRPC agents e integração com VSCode extension.
+- Padronizar monitoramento e estado de agentes.
+
+### Fase 3 — Autonomia e workflows (16 semanas)
+- Construir LangGraph ou orquestração semelhante.
+- Adicionar OCR de tela e parsing de comandos.
+- Testar workflows autônomos e devolutiva de status.
+
+## Dependências e decisões
+- Voz: LiveKit vs Piper + stream local.
+- Modelo: Gemini como fallback ou não?
+- Visão: MediaPipe + YOLOv8 vs modelo heavier.
+- Automação: Playwright no desktop vs browser headless.
+
+## Riscos
+- Hardware exigente para multimodalidade.
+- Complexidade elevada ao combinar voz, visão e agents.
+- Dependência de Gemini encarece o produto.
+- Automação de browser é frágil e depende de foco/estado.
+
+## Decisões pendentes
+- Priorizar offline total ou usar arquitetura híbrida?
+- Lançar funcionalidade de visão primeiro ou voz primeiro?
+- Quais agentes devem ser autônomos e quais acionados manualmente?
 
 ## Diário de Bordo
-- 09/04/2026 10:56:11: arquivo criado/atualizado com visão Jarvis e stack atual.
-- 09/04/2026 10:56:14: roadmap dividido entre offline, produção e autonomia.
-- Status de versão: nota local, sem histórico Git rastreado para este arquivo.
+- 09/04/2026 10:56:11 — nota criada com versão inicial de estratégia.
+- 09/04/2026 10:56:14 — roadmap multimodal definido.
 
-### Próximas ações concretas
-- Implementar backend Ollama e testar fluxo de voz end-to-end.
-- Adicionar detecção de objetos com YOLOv8 e OCR de tela.
-- Preparar arquitetura de Docker Swarm e gRPC agents.
-- Documentar tarefas autônomas e integração com VSCode/desktop.
+## Próximas ações imediatas
+- Confirmar o fluxo de voz em LiveKit e Piper.
+- Testar YOLOv8 nano em hardware alvo.
+- Definir arquitetura de agentes e gRPC.
+- Documentar cenário de uso e critério de aceitação.
+
+## Referências
+- [[../EstudosPesquisas/PROJECT_JARVIS_5.0|Pesquisa PROJECT_JARVIS_5.0]]
+- [[../EstudosPesquisas/AI-Local-Gratuita|AI Local Gratuita]]
+- [[../Plano-de-Acao|Plano de Ação]]

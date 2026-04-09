@@ -1,69 +1,102 @@
 ---
 title: "Estudos Focado: DEEP-LEARNING"
-description: "Análise AI agent + roadmap fine-tuning local."
+description: "Documento estratégico para o projeto DEEP-LEARNING: missão, valor, arquitetura e roadmap de agente AI local." 
 tags:
   - deep-learning
   - analise
+  - estrategia
+  - ai
+  - rag
 ---
 
 # Estudos Focado: DEEP-LEARNING [[README]] [[Privados/DEEP-LEARNING]]
 
 **Quartel-General da Estratégia**
-- Esta nota é o centro estratégico para o projeto DEEP-LEARNING.
-- Use-a para alinhar roadmap, modelo de valor e riscos antes de mergulhar no código.
-- Referências técnicas estão em [[../EstudosPesquisas/README|Estudos e Pesquisas]].
+- Esta nota define a direção do projeto DEEP-LEARNING antes de investir em modelagem e deploy.
+- Aqui são avaliadas hipóteses sobre modelo offline, fine-tuning e casos de uso reais.
+- Referência técnica central: [[../EstudosPesquisas/README|Estudos e Pesquisas]].
 
-**Status Atual**:
-- Tecnologias: Python TensorFlow/PyTorch agent brain RAG speech tools calculator/search.
-- Forças: Core completo (llm, memory, rag, tools).
-- Fraquezas: No offline models, frontend basic app.js, no Docker/prod.
+## Missão do projeto
+Construir um agente AI local e leve que combine RAG, memória de sessões e ferramentas utilitárias para tarefas como análise de sentimento, previsão de vendas e atendimento conversacional.
 
-**Análise**:
-- Scope: Deep learning geral (sentimentos, vendas, chatbots).
-- Ambitions: Prod AI agent deployável Docker, fine-tuning LoRA local.
+## Proposta de valor
+- Para usuários finais: um assistente autônomo que responde questões de negócio e ajuda nas decisões sem depender 100% de APIs pagas.
+- Para o vault: criar um case de AI local replicável para outros projetos Jarvis e SaaS.
 
-**Roadmap gratuito**:
-**MVP 1.0 Local (1 mês)**:
-- Ollama/TensorFlow Lite CPU inference.
-- Docker compose + FastAPI API.
+## Usuário e contexto
+**Usuário primário**
+- Desenvolvedores ou pequenos times que precisam de um agente interno para entender dados e gerar resumos.
+**Cenários de uso**
+- análise de sentimento de texto e vendas
+- chat de atendimento/FAQ com base em documentos
+- execução de cálculos e busca com contexto
 
-**1.5 Fine-tune (2 meses)**:
-- LoRA fine-tuning HuggingFace free models PT-BR.
-- Gradio UI gratuita.
+## Métricas de sucesso
+- Latência média de resposta < 2s em CPU local para consultas básicas.
+- Precisão do agente no domínio (perguntas de negócio) > 80%.
+- Capacidade de usar fontes locais e memória de sessão sem vazamento de contexto.
+- Disponibilidade de fine-tuning PT-BR com LoRA em dataset de domínio.
 
-**2.0 Prod (4 meses)**:
-- LangServe deploy Ollama agents.
+## Hipóteses estratégicas
+- Um agente local pode ser viável sem GPT-like cloud em cenários de suporte e análise.
+- Ollama ou TensorFlow Lite podem fornecer inference suficiente para MVP.
+- Gradio é o UI mais rápido para prototipação e validação.
+- LangServe ou equivalente é uma boa etapa de produção final.
 
-**Cronograma**:
-| Fase | Tempo | Deliver |
-|------|-------|---------|
-| 1.0 Local | 4 sem | Ollama Docker |
-| 1.5 Fine-tune | 8 sem | LoRA PT-BR |
-| 2.0 Prod | 16 sem | LangServe API |
+## Estado atual e gaps
+- Core: agente, memória, RAG, ferramentas de cálculo e search.
+- Gap crítico: nenhum modelo propriamente offline/depende de serviços externos.
+- Gap de produto: frontend muito básico e sem pipeline de deploy.
 
-Recursos: [[EstudosPesquisas/AI-Local-Gratuita]] #tensorflow #ollama
+## Arquitetura estratégica
+- `core/` = lógica de agente, pipeline RAG, memória e tools.
+- `tools/` = componentes reutilizáveis de cálculo, pesquisa e evolução.
+- `api/` = FastAPI para servir o agente e endpoints de gerenciamento.
+- `frontend/` = protótipo Gradio para interação rápida.
+- `infra/` = Docker Compose, volumes, cargas e benchmark.
 
-## Detalhamento Expandido
-- Escopo atual: projeto de agente AI com core de deep learning, memória vetorial, RAG e ferramentas auxiliares.
-- Componentes projetados: modelo LLM, base de conhecimento, speech tools, calculadora e search.
-- Gap principal: falta de modelo offline e pipeline de deploy em Docker/produção.
-- Entregáveis chave:
-  - API FastAPI para inferência local
-  - inferência CPU com TensorFlow Lite ou Ollama
-  - UI Gradio e pipeline de fine-tuning LoRA PT-BR
+## Roadmap estratégico
+### Fase 1 — MVP local de agent básico (4 semanas)
+- Definir o agente com prompt template e memory store.
+- Garantir inferência local via Ollama ou TensorFlow Lite.
+- Criar protótipo funcional com FastAPI + Gradio.
+- Validar com 3 casos reais de uso de negócio.
 
-### Riscos e pontos de atenção
-- Modelos offline consomem muita memória e exigem otimização de quantização.
-- Fine-tuning LoRA precisa de datasets PT-BR bem curados para evitar overfit.
-- Deploy local em Docker exige cuidado com volumes e performance.
+### Fase 2 — Fine-tuning e qualidade (8 semanas)
+- Preparar dataset PT-BR e treinar LoRA em modelo gratuito.
+- Criar pipeline de avaliação de qualidade e overfitting.
+- Melhorar interface Gradio e suporte a upload de docs.
+- Documentar workflow de treinamento e deploy.
+
+### Fase 3 — Produção e integração (16 semanas)
+- Migrar para LangServe ou Ollama em produção local.
+- Adicionar controle de sessão e persistência de memória.
+- Gerar documentação de deploy Docker e manutenção.
+- Integrar com outros projetos de vault se fizer sentido.
+
+## Dependências e decisões
+- Modelo offline: Ollama local ou TF Lite?
+- Memória: FAISS, Chroma ou SQLite vetorial?
+- UI: Gradio para MVP vs painel Next.js mais tarde.
+- Deploy: Docker Compose local vs produção serverless.
+
+## Riscos e mitigação
+- Performance em CPU baixa: priorizar quantização e modelos pequenos.
+- Overfitting no LoRA: usar dataset diversificado e validação cruzada.
+- Drift de contexto: limitar histórico e resetar sessão.
+- Integração com voz/vision: manter o projeto focado em texto até estabilizar.
 
 ## Diário de Bordo
-- 09/04/2026 10:56:43: arquivo criado/atualizado com visão e roadmap técnico.
-- 09/04/2026 10:56:45: definido foco em Ollama/TensorFlow Lite e LangServe.
-- Status de versão: nota local, sem histórico Git rastreado para este arquivo.
+- 09/04/2026 10:56:43 — nota criada com visão de maioria de funções.
+- 09/04/2026 10:56:45 — roadmap e prioridades definidas.
 
-### Próximas ações concretas
-- Validar modelo offline CPU com Ollama e TinyLLM.
-- Criar Docker Compose para API FastAPI + frontend Gradio.
-- Preparar dataset para LoRA PT-BR e testes de qualidade.
-- Documentar benchmarks de performance e custos.
+## Próximas ações imediatas
+- Selecionar 2 modelos offline candidatos e testar inferência CPU.
+- Definir o dataset PT-BR inicial e escrever o primeiro script de preparação.
+- Estruturar o FastAPI + Gradio com endpoints mínimos de agent.
+- Documentar métricas de benchmark de inferência e memória.
+
+## Referências
+- [[../EstudosPesquisas/AI-Local-Gratuita|Guia AI Local Gratuita]]
+- [[../Plano-de-Acao|Plano de Ação]]
+

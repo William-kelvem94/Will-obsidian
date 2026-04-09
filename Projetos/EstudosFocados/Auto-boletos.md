@@ -1,76 +1,113 @@
 ---
 title: "Estudos Focado: Auto-boletos"
-description: "Análise profunda + roadmap."
+description: "Centro estratégico do projeto Auto-boletos: valor, riscos, roadmap e critérios para escalonamento." 
 tags:
   - auto-boletos
   - analise
+  - estrategia
+  - saas
+  - ocr
 ---
 
 # Estudos Focado: Auto-boletos [[README]] [[Privados/Auto-boletos]]
 
 **Quartel-General da Estratégia**
-- Esta nota é o centro estratégico para o projeto Auto-boletos.
-- Use-a para validar o roadmap, os riscos e as prioridades antes de abrir a implementação em [[Privados/Auto-boletos]].
-- Pesquise ferramentas e referências em [[../EstudosPesquisas/README|Estudos e Pesquisas]].
+- Esta nota consolida as decisões de produto e a direção do Auto-boletos antes da implementação técnica.
+- Aqui são definidas as hipóteses de valor, o plano de monetização e o roadmap de evolução.
+- Se um requisito não estiver claro, a decisão deve ser registrada neste documento.
 
-**Status Atual** (clone):
-- Tecnologias: Python Flask, Playwright login, Tesseract OCR, React/Vite Tailwind frontend, Docker compose.
-- Forças: Funcional completo (login Equatorial, OCR boleto, AI chat light/ollama), docs GUIA/DOCKER, CI GitHub.
-- Fraquezas: Regex heavy (erros edge cases), CAPTCHA manual fallback, DB SQLite (não scale), UI vanilla não shadcn.
+## Missão do projeto
+Criar uma plataforma de automação de boletos para administração de imóveis que reduz trabalho manual, aumenta a precisão da extração de dados e gera uma experiência de pagamento mais confiável.
 
-**Análise**:
-- Scope atual: MVP automação boletos 1 proprietário.
-- Market fit: Imobiliárias pequenas/médias (10-100 imóveis).
-- Ambitions: SaaS multi-prop, API Asaas pagamentos, app mobile React Native.
+## Proposta de valor
+- Para imobiliárias pequenas/médias: reduzir o tempo gasto em boletos e diminuir erros de cadastro.
+- Para proprietários: gerar boletos e relatórios mais rápidos com menos falhas de leitura.
+- Para o produto: transformar automação local em SaaS escalável com assinaturas e integração de pagamentos.
 
-**Roadmap** (gratuito/local):
+## Contexto estratégico
+- Projeto baseado em clone privado de Python/Flask com frontend React/Vite.
+- Força atual: fluxo funcional com OCR e automação de login.
+- Fraqueza principal: depende de regex e SQLite, o que limita escalabilidade e robustez.
+- O próximo ciclo precisa focar em confiabilidade e processamento semântico.
 
-**MVP 1.0 (1 mês)**:
-- Ollama qwen2.5 OCR semântico (substitua regex).
-- Postgres Neon free + Prisma.
-- Shadcn UI + dark mode.
+## Usuário e métricas de sucesso
+**Usuários-alvo**
+- Administradoras de até 100 imóveis.
+- Proprietários que precisam automatizar boletos Equatorial.
+- Pequenos síndicos sem equipe de TI.
 
-**1.5 Prod (2 meses)**:
-- Traefik HTTPS local, Portainer GUI.
-- BullMQ jobs assíncronos extração.
-- Vercel frontend deploy free.
+**Métricas chave**
+- Taxa de extração correta de boleto > 95%.
+- Tempo médio para processar um boleto < 30 segundos.
+- Disponibilidade do sistema > 99% em ambiente local/proxy.
+- Conversão de protótipo para MVP de 1 cliente piloto.
 
-**2.0 Scale (4 meses)**:
-- Multi-prop/tenant Prisma.
-- Stripe/Asaas sandbox pagamentos.
-- Mobile PWA ou React Native Expo free.
+## Hipóteses estratégicas
+- Os usuários aceitam rodar a solução local via Docker para economizar custos de SaaS completo.
+- O OCR com Tesseract e embeddings pode substituir a maioria das regex existentes.
+- Um backend PostgreSQL em Neon é suficiente para escalar de 1 a 10 clientes.
+- Pagamentos Asaas/Stripe podem ser integrados sem bloquear o MVP inicial.
 
-**Cronograma**:
-| Fase | Tempo | Deliver |
-|------|-------|---------|
-| 1.0 Ollama/Postgres | 4 sem | AI robusta, DB real |
-| 1.5 Prod | 8 sem | Deploy local/prod |
-| 2.0 SaaS | 16 sem | Multi-tenant monetizável |
+## Roadmap estratégico
+### MVP 1.0 — Confiabilidade e base de dados (4 semanas)
+- Reestruturar parser de boleto usando embeddings + regras mínimas.
+- Migrar SQLite para Neon Postgres + Prisma.
+- Refatorar backend Flask para separar extração, processamento e APIs.
+- Definir versão inicial do frontend com tema shadcn e dark mode.
 
-Recursos: [[EstudosPesquisas/Auto-boletos]] [[AI-Local-Gratuita]] #roadmap
+### 1.5 — Produção local e automação robusta (8 semanas)
+- Implementar Traefik e HTTPS local.
+- Adicionar BullMQ para extração assíncrona de boletos.
+- Criar painel de monitoramento mínimo (logs, tentativas, erros).
+- Preparar deploy frontend em Vercel com backend local híbrido.
 
-## Detalhamento Expandido
-- Escopo atual: automação de boletos para um único proprietário, com captura de login, extração de dados e suporte a chat inteligente.
-- Funcionalidades principais: login Equatorial automatizado, OCR de boleto, análise semântica de texto via AI, frontend React/Vite e Docker Compose.
-- Necessidades imediatas: reduzir regex, tratar edge cases de OCR, robustecer workflows de pagamento e adicionar DB PostgreSQL para escalabilidade.
-- Entregáveis chave:
-  - implementação semântica de extração de boleto
-  - transição SQLite -> Neon Postgres
-  - interface mais profissional com shadcn
+### 2.0 — Escala SaaS e monetização (16 semanas)
+- Lançar multi-tenant com tenant isolado no Prisma.
+- Conectar Stripe/Asaas para pagamentos e boletos de cobrança.
+- Criar PWA ou app Expo para acesso móvel básico.
 
-### Riscos e pontos de atenção
-- OCR/Tesseract falha em boletos com layout diferente.
-- CAPTCHA ou bloqueio de bot no login podem travar o fluxo.
-- SQLite não atende multi-tenant ou vários imóveis.
-- Pagamentos Asaas/Stripe exigem testes com dados sandbox e compliance.
+## Arquitetura proposta
+- `backend/` [Flask] = API principal, autenticação, jobs, integração Equatorial.
+- `extract/` = OCR + embeddings + validação de campos.
+- `frontend/` = React/Vite + shadcn + dashboards.
+- `infra/` = Docker Compose, Traefik, Postgres, Redis/BullMQ.
+
+## Dependências críticas
+- Docker local ou Compose para ambiente do cliente.
+- Neon Postgres free tier para banco persistente.
+- Ollama ou outra AI local para análise semântica.
+- Stripe/Asaas para pagamentos sandbox.
+
+## Riscos e mitigação
+- OCR falha em layout novo: criar fallback de validação e captura manual.
+- Login Equatorial bloqueado por bot: separar fluxo de CAPTCHA e alertar usuário.
+- Banco SQLite não escala: migrar imediatamente para Postgres.
+- UI confusa: priorizar fluxo principal e UX simples.
+
+## Decisões pendentes
+- Usar Ollama local ou modelo hospedado para análise semântica?
+- Executar o backend em Vercel como API proxy ou em Docker Compose puro?
+- Abrir suporte inicial somente a Equatorial ou estender para outras utilities?
+
+## Rota de execução
+1. Confirmar validação de layout de boleto com 5 casos reais.
+2. Implementar Postgres + Prisma e testar importação/consulta.
+3. Substituir parser regex por embeddings/AI no fluxo de extração.
+4. Atualizar frontend com componente de revisão manual de campos.
+5. Documentar deploy e manutenção em `Privados`.
 
 ## Diário de Bordo
-- 09/04/2026 10:56:08: arquivo criado/atualizado com visão geral e roadmap.
-- 09/04/2026 10:56:11: finalizadas as notas de status, forças, fraquezas e cronograma.
-- Status de versão: nota local, sem histórico Git rastreado para este arquivo.
+- 09/04/2026 10:56:08 — nota criada como estratégia initial.
+- 09/04/2026 10:56:11 — roadmap e prioridades definidas.
 
-### Próximas ações concretas
-- Converter parsing de boleto de regex para embeddings/OCR vetorial.
-- Migrar backend para Postgres Neon e ajustar Prisma/ORM.
-- Atualizar UI para shadcn + dark mode.
-- Construir CI/CD para Docker Compose e deploy Vercel.
+## Próximas ações imediatas
+- Documentar o fluxo completo de extração de boleto e erros conhecidos.
+- Validar a viabilidade de Neon Postgres para esse MVP.
+- Definir o mínimo de dados necessários para o primeiro cliente piloto.
+- Listar as APIs e endpoints necessários para integração Asaas/Stripe.
+
+## Referências
+- [[../EstudosPesquisas/Auto-boletos|Estudo Auto-boletos]]
+- [[../EstudosPesquisas/AI-Local-Gratuita|AI Local Gratuita]]
+- [[../Plano-de-Acao|Plano de Ação]]
+
