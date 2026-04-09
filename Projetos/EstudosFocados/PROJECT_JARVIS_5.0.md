@@ -8,6 +8,11 @@ tags:
 
 # Estudos Focado: PROJECT_JARVIS_5.0 [[README]] [[Privados/PROJECT_JARVIS_5.0]]
 
+**Quartel-General da Estratégia**
+- Esta nota é o centro estratégico para o projeto PROJECT_JARVIS_5.0.
+- Use-a para decidir prioridades de multimodalidade, autonomia e infraestrutura.
+- Consulte referências em [[../EstudosPesquisas/README|Estudos e Pesquisas]].
+
 **Status Atual**:
 - Tecnologias: FastAPI, Next.js shadcn Tailwind, LiveKit agents voice, MediaPipe face/gesture/voice, Playwright browser.
 - Forças: Real-time low-latency voice, vision models gratuitos, dashboard monitoring, docker compose.

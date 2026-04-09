@@ -8,6 +8,11 @@ tags:
 
 # Estudos Focado: Auto-boletos [[README]] [[Privados/Auto-boletos]]
 
+**Quartel-General da Estratégia**
+- Esta nota é o centro estratégico para o projeto Auto-boletos.
+- Use-a para validar o roadmap, os riscos e as prioridades antes de abrir a implementação em [[Privados/Auto-boletos]].
+- Pesquise ferramentas e referências em [[../EstudosPesquisas/README|Estudos e Pesquisas]].
+
 **Status Atual** (clone):
 - Tecnologias: Python Flask, Playwright login, Tesseract OCR, React/Vite Tailwind frontend, Docker compose.
 - Forças: Funcional completo (login Equatorial, OCR boleto, AI chat light/ollama), docs GUIA/DOCKER, CI GitHub.

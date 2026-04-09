@@ -8,6 +8,11 @@ tags:
 
 # Estudos Focado: IA-LOCAL [[README]] [[Privados/IA-LOCAL]]
 
+**Quartel-General da Estratégia**
+- Esta nota é o centro estratégico para o projeto IA-LOCAL.
+- Use-a para definir escopo de Jarvis, trade-offs offline/online e integração de voz/vision.
+- Pesquise tecnologias em [[../EstudosPesquisas/README|Estudos e Pesquisas]].
+
 **Status Atual**:
 - Tecnologias: Python FAISS memory, Whisper voice, pyautogui PC control, OpenRouter LLM.
 - Forças: Memória vetorial FAISS, voice interface, start.bat fácil.

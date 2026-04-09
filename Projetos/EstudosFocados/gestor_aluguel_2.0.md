@@ -8,6 +8,11 @@ tags:
 
 # Estudos Focado: gestor_aluguel_2.0 [[README]] [[Privados/gestor_aluguel_2.0]]
 
+**Quartel-General da Estratégia**
+- Esta nota é o centro estratégico para o projeto gestor_aluguel_2.0.
+- Use-a para validar modelo de negócios, limites de MVP e prioridades de implantação.
+- Referências técnicas estão em [[../EstudosPesquisas/README|Estudos e Pesquisas]].
+
 **Status Atual**:
 - Tecnologias: Next.js 15 App Router, Prisma 43 models multi-tenant, Gemini AI, Asaas pagamentos, Socket.io real-time, docs 70+ arquivos.
 - Forças: Enterprise SaaS completo (inquilinos, contratos TipTap, financeiro, portal inquilino, MFA Clerk-like, Sentry).

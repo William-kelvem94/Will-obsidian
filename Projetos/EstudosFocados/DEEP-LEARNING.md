@@ -8,6 +8,11 @@ tags:
 
 # Estudos Focado: DEEP-LEARNING [[README]] [[Privados/DEEP-LEARNING]]
 
+**Quartel-General da Estratégia**
+- Esta nota é o centro estratégico para o projeto DEEP-LEARNING.
+- Use-a para alinhar roadmap, modelo de valor e riscos antes de mergulhar no código.
+- Referências técnicas estão em [[../EstudosPesquisas/README|Estudos e Pesquisas]].
+
 **Status Atual**:
 - Tecnologias: Python TensorFlow/PyTorch agent brain RAG speech tools calculator/search.
 - Forças: Core completo (llm, memory, rag, tools).

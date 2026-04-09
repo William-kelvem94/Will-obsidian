@@ -1,13 +1,16 @@
 ---
-title: "Estudos Focados"
-description: "Análise profunda + escopo/roadmap/ambições para cada projeto. Base conhecimento total."
+title: "Estudos Focados — Quartel-General da Estratégia"
+description: "Centro estratégico do vault: decisões, roadmap, prioridades e trade-offs para os principais projetos."
 tags:
   - estudos-focados
   - analise
   - roadmap
+  - estrategia
 ---
 
-# Estudos Focados [[Cerebro-Will]] [[EstudosPesquisas/README]]
+# Estudos Focados — Quartel-General da Estratégia [[Cerebro-Will]] [[EstudosPesquisas/README]]
+
+**Esta pasta é o quartel-general estratégico do vault.** Aqui ficam as decisões de produto, roadmap, trade-offs, prioridades e riscos antes de abrir a implementação.
 
 **Análise detalhada cada projeto/repos**: tecnologias atuais, forças/fraquezas, ambições, escopo MVP/1.0/2.0, cronograma realista, roadmap evolução gratuita/local.
 
@@ -17,8 +20,6 @@ tags:
 - [[gestor_aluguel_2.0.md]] — SaaS imobiliário com AI e pagamento.
 - [[IA-LOCAL.md]] — JARVIS local com memória vetorial e voz.
 - [[DEEP-LEARNING.md]] — agente AI com RAG, speech e ferramentas.
-- [[openclaude-wk.md]] — CLI agent multi-provider.
-- [[DIA-DAS-MULHERES.md]] — projeto PWA/CSS de campanha.
 
 ## Como usar esta pasta
 - Use `Estudos Focados` para planejar e tomar decisões.
