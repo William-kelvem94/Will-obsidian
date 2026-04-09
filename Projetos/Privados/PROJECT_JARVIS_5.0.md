@@ -41,14 +41,26 @@ Ecossistema Jarvis: voz real-time LiveKit, Gemini/OpenAI, visão face/gesture/vo
 - [[PROJECT_JARVIS_5.0-Personality|Persona Jarvis]]
 - [[PROJECT_JARVIS_5.0-Architecture|Arquitetura Jarvis]]
 - [[PROJECT_JARVIS_5.0-Strategy|Estratégia Jarvis]]
+- [[PROJECT_JARVIS_5.0-KnowledgeBase/PROJECT_JARVIS_5.0-SecondBrain|Segundo Cérebro do Jarvis]]
+- [[PROJECT_JARVIS_5.0-KnowledgeBase/PROJECT_JARVIS_5.0-Integration|Integração da KB com projeto]]
+- [[PROJECT_JARVIS_5.0-KnowledgeBase/PROJECT_JARVIS_5.0-UseCases|Use Cases do Jarvis]]
+- [[PROJECT_JARVIS_5.0-KnowledgeBase/PROJECT_JARVIS_5.0-Tools|Ferramentas do Jarvis]]
+- [[PROJECT_JARVIS_5.0-KnowledgeBase/PROJECT_JARVIS_5.0-Map|Mapa da KB do Jarvis]]
+- [[PROJECT_JARVIS_5.0-KnowledgeBase/INDEX|Índice da KB do Jarvis]]
+- [[PROJECT_JARVIS_5.0-KnowledgeBase/RULES|Regras da KB do Jarvis]]
 - [[PROJECT_JARVIS_5.0-KnowledgeBase/CONFIG|Configuração da Knowledge Base]]
+- `PROJECT_JARVIS_5.0-KnowledgeBase` é o segundo cérebro canônico do Jarvis; o assistente deve consumir esta pasta primeiro.
 
 ## Configuração do Jarvis
 - Base de conhecimento oficial: `D:\OBSIDIAN\Will\Projetos\Privados\PROJECT_JARVIS_5.0-KnowledgeBase`
+- Pasta real do projeto de código: `C:\Users\willi\Documents\GitHub\PROJECT_JARVIS_5.0`
 - Vault raiz de organização: `D:\OBSIDIAN\Will`
 - Sugestão de variável de ambiente:
   - `JARVIS_KB_PATH=D:\OBSIDIAN\Will\Projetos\Privados\PROJECT_JARVIS_5.0-KnowledgeBase`
+  - `JARVIS_PROJECT_ROOT=C:\Users\willi\Documents\GitHub\PROJECT_JARVIS_5.0`
   - `JARVIS_VAULT_ROOT=D:\OBSIDIAN\Will`
+
+> Nota: Esta pasta de Knowledge Base é a consciência do Jarvis. O código do projeto vive em `C:\Users\willi\Documents\GitHub\PROJECT_JARVIS_5.0`.
 
 ## Status técnico
 - Backend: `backend/agents_worker.py`, `backend/app/main.py`.
