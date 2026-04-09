@@ -10,6 +10,7 @@ Projetos/
 ├── Java/            ← Atividade-01.md, Atividade-03.md
 ├── Outros/          ← DIA-DAS-MULHERES.md, Auto-boletos.md, Gestor Aluguel 2.0.md
 ├── Privados/        ← projetos clonados localmente com análise
+├── Objetivos/       ← metas, OKRs e planejamento de 90 dias
 ├── EstudosFocados/  ← roadmaps e análises profundas
 └── EstudosPesquisas/← recursos e pesquisa técnica
 ```

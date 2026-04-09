@@ -25,6 +25,7 @@ Este vault está organizado em camadas claras:
 - `Projetos/Java/`
 - `Projetos/Outros/`
 - `Projetos/Privados/`
+- `Projetos/Objetivos/`
 - `Projetos/EstudosFocados/`
 - `Projetos/EstudosPesquisas/`
 
@@ -61,6 +62,7 @@ Este vault está organizado em camadas claras:
 ## Estrutura ideal do vault
 - `Projetos/` → notas de projetos públicos finais ou MVP.
 - `Projetos/Privados/` → clones locais ou work-in-progress com análises profundas.
+- `Projetos/Objetivos/` = metas do vault, OKRs e ciclos de 90 dias.
 - `Projetos/EstudosFocados/` → decisões estratégicas e roadmaps de evolução.
 - `Projetos/EstudosPesquisas/` → coleções de recursos, tutoriais e boas práticas.
 - `Projetos/Plano-de-Acao.md` → uso diário para execução e priorização.

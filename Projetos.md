@@ -45,6 +45,10 @@ Projetos/
 - [[Projetos/EstudosFocados/README|Estudos Focados]] — roadmaps, análises e diário de bordo.
 - [[Projetos/EstudosPesquisas/README|Estudos e Pesquisas]] — referências técnicas, tutoriais e melhores práticas.
 
+### Objetivos e metas
+- [[Projetos/Objetivos/README|Objetivos]] — metas do ciclo, visão de resultados e alinhamento de prioridades.
+- [[Projetos/Objetivos/90-dias|90 dias]] — plano de 90 dias para projetos prioritários.
+
 ## 📚 Observações
 - `Projetos/GitHub-Completo.md` é a captura geral dos 67 repositórios do GitHub.
 - `Projetos/Privados/` contém clones locais com análise detalhada e foco em projetos em andamento.

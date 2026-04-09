@@ -34,8 +34,9 @@ Notas de `EstudosFocados` devem:
 ## Como usar esta pasta
 1. Abra aqui antes de criar ou alterar código.
 2. Confirme se o problema está definido e se o valor está validado.
-3. Use `Plano-de-Acao.md` para priorizar e executar as ações definidas.
-4. Conecte decisões com implementação em `Projetos/Privados/` e pesquisa em `Projetos/EstudosPesquisas/`.
+3. Use `Projetos/Objetivos/README` para transformar decisões estratégicas em objetivos claros.
+4. Use `Projetos/Plano-de-Acao.md` para priorizar e executar as ações definidas.
+5. Conecte decisões com implementação em `Projetos/Privados/` e pesquisa em `Projetos/EstudosPesquisas/`.
 
 ## Pontos-chave de estratégia
 - Se não há usuário ou valor claro, o projeto não avança para execução.

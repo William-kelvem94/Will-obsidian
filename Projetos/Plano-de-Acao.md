@@ -18,6 +18,7 @@ Transformar a organização do vault em um plano operacional: priorizar projetos
 - `Projetos/GitHub-Completo.md`: inventário geral dos 67 repositórios.
 - `Projetos/Privados/`: projetos clonados localmente com notas de análise.
 - `Projetos/EstudosFocados/`: roadmap, diário de bordo e visão estratégica.
+- `Projetos/Objetivos/`: metas do ciclo, OKRs e planejamento de 90 dias.
 - `Projetos/EstudosPesquisas/`: recursos técnicos para evolução dos projetos.
 - `Cerebro-Will.md`: perfil, skills e contexto para IA local.
 
@@ -125,13 +126,15 @@ Transformar a organização do vault em um plano operacional: priorizar projetos
   - documentar providers suportados
   - mapear workflows de dev e deploy
 
-## Notas de pesquisa e evolução
+## Notas de pesquisa, objetivos e evolução
 - `Projetos/EstudosFocados/` deve ser o repositório de decisões estratégicas.
+- `Projetos/Objetivos/` deve ser o repositório de metas e ciclos de 90 dias.
 - `Projetos/EstudosPesquisas/` deve conter guias técnicos reutilizáveis.
-- Ação: vincular cada projeto privado ao seu checklist de pesquisa relevante.
+- Ação: vincular cada projeto privado ao seu checklist de pesquisa e aos seus objetivos relevantes.
 - Próximos passos:
   - adicionar links diretos de `EstudosFocados` para `AI-Local-Gratuita`, `Docker-Prod-Gratis`, `Next.js-SaaS-Evolution`.
   - usar essas notas como base para “como evoluir” cada projeto.
+  - usar `Projetos/Objetivos/90-dias` como referência de prioridades do ciclo.
 
 ## Rotina de atualização do vault
 - Sempre que um novo projeto for adicionado, atualize `Projetos.md`, `GitHub-Completo.md` e `Plano-de-Acao.md`.
@@ -160,6 +163,7 @@ Transformar a organização do vault em um plano operacional: priorizar projetos
 - Notas públicas pequenas e linkadas em `Projetos/`.
 - Projetos com código ativo devem ter notas em `Projetos/Privados/`.
 - Roadmaps estratégicos devem ficar em `Projetos/EstudosFocados/`.
+- Objetivos e metas de ciclo devem ficar em `Projetos/Objetivos/`.
 - Recursos gerais devem ficar em `Projetos/EstudosPesquisas/`.
 
 ## Checklist de manutenção

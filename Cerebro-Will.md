@@ -23,6 +23,7 @@ tags:
 **Privados principais** (clonados): [[Projetos/Privados/PROJECT_JARVIS_5.0]], [[Privados/Auto-boletos]], [[Privados/gestor_aluguel_2.0]], [[Privados/IA-LOCAL]], DEEP-LEARNING etc.
 **Completo**: [[Projetos/GitHub-Completo]].
 - **Execução**: [[Projetos/Plano-de-Acao|Plano de Ação]]
+- **Objetivos**: [[Projetos/Objetivos/README|Objetivos]]
 - **Organização**: [[Projetos/Organizacao-Completa|Organização Completa]]
 
 ## 🧠 Projetos Clonados (estruturas + README análise)
