@@ -1,0 +1,19 @@
+# Obsidian Vault Gitignore
+# BLACKBOXAI generated
+
+# Temp files
+TODO.md
+*.tmp
+.DS_Store
+
+# Obsidian config (local)
+.obsidian/workspace*
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+
+# Logs
+*.log
+
+# OS
+Thumbs.db
+ehthumbs.db
