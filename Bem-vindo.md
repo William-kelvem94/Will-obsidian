@@ -1,13 +1,26 @@
-Este é o seu novo *Cofre*.
+# Bem-vindo
 
-Anote algo, [[crie um link]], ou tente [o Importer](https://help.obsidian.md/Plugins/Importer)!
+## Cofre de Projetos GitHub
+Este vault está organizado como um hub de projetos pessoais e de pesquisa.
 
-Quando estiver pronto, exclua esta nota e monte o cofre do seu jeito.
-#clippings
+### Principais índices
+- [[Projetos|📊 MOC Projetos]] — página principal de organização por linguagem e categorias.
+- [[Projetos/Plano-de-Acao|🚀 Plano de Ação]] — checklist e prioridades operacionais.
+- [[Projetos/GitHub-Completo|📦 GitHub Completo]] — mapa geral dos 67 repositórios.
+- [[Projetos/Privados/README|🔐 Privados Clonados]] — notas dos projetos clonados localmente.
+- [[Projetos/EstudosFocados/README|📘 Estudos Focados]] — roadmaps e análises profundas.
+- [[Projetos/EstudosPesquisas/README|🔬 Estudos e Pesquisas]] — recursos e guias técnicos.
+- [[Cerebro-Will|🧠 Cérebro Will]] — resumo de perfil, skills e estratégia de IA local.
 
-## Meus Projetos GitHub
-- [[Projetos|📊 MOC Projetos]] 
-- [[Clippings|📂 Clippings Index]]
-- [[Auto-boletos|⚡ Auto-boletos IA]]
-- [[Gestor Aluguel 2.0|🏠 SaaS Imobiliário]]
-- [[William-kelvem94 Overview|👤 Perfil GitHub]]
+## Organização atual
+- `Projetos/` → projetos públicos organizados por linguagem.
+- `Projetos/Privados/` → projetos clonados com análise e documentação local.
+- `Projetos/EstudosFocados/` → trabalhos de roadmap e diário de bordo.
+- `Projetos/EstudosPesquisas/` → materiais de pesquisa e recursos gratuitos.
+
+## Como usar
+- Abra [[Projetos]] para ver o MOC completo.
+- Use o grafico do Obsidian para navegar pelas conexões entre projetos.
+- Qualquer arquivo com `source: github.com/William-kelvem94` representa um repositório GitHub mapeado.
+
+**Dica:** mantenha esta nota como ponto de entrada principal para o vault de projetos.

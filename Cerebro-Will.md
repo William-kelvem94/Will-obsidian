@@ -22,6 +22,8 @@ tags:
 **Públicos**: Automatizador (Python GUI login), CRUD_VENDAS_WILL (PHP), DIA-DAS-MULHERES (CSS PWA), openclaude-wk fork.
 **Privados principais** (clonados): [[Projetos/Privados/PROJECT_JARVIS_5.0]], [[Privados/Auto-boletos]], [[Privados/gestor_aluguel_2.0]], [[Privados/IA-LOCAL]], DEEP-LEARNING etc.
 **Completo**: [[Projetos/GitHub-Completo]].
+- **Execução**: [[Projetos/Plano-de-Acao|Plano de Ação]]
+- **Organização**: [[Projetos/Organizacao-Completa|Organização Completa]]
 
 ## 🧠 Projetos Clonados (estruturas + README análise)
 **Projetos/Privados/**: 7 MDs com análise [[Auto-boletos]] (Flask Docker OCR), [[gestor_aluguel_2.0]] (Next SaaS Prisma AI), [[PROJECT_JARVIS_5.0]] (LiveKit vision) etc.
