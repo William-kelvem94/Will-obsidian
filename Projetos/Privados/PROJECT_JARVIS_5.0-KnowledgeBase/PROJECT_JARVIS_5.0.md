@@ -1,20 +1,13 @@
 ---
-title: "PROJECT_JARVIS_5.0 (Clonado)"
-source: "C:/Users/willi/Documents/GitHub/PROJECT_JARVIS_5.0"
-language: Python
-private: true
-description: "Jarvis 5.0 monorepo FastAPI + Next.js + LiveKit voice AI, visão face/gesture, browser autonomy."
-updated: "16h ago"
+title: "PROJECT_JARVIS_5.0 (Knowledge Base)"
+description: "Cópia da visão geral do projeto Jarvis para a base de conhecimento." 
 tags:
-  - projetos
-  - privados
-  - python
-  - nextjs
-  - livekit
-  - ai-vision
+  - jarvis
+  - knowledge
+  - project
 ---
 
-# PROJECT_JARVIS_5.0 [[../Projetos.md|Projetos]] [[GitHub-Completo]]
+# PROJECT_JARVIS_5.0 (Knowledge Base)
 
 **Private Clone | FastAPI/Next.js/LiveKit | Atualizado 16h ago**
 
@@ -36,19 +29,10 @@ Ecossistema Jarvis: voz real-time LiveKit, Gemini/OpenAI, visão face/gesture/vo
   - estabilizar a orquestração de agentes via gRPC ou outro middleware.
 
 ## Base de conhecimento e arquitetura
-- [[PROJECT_JARVIS_5.0-KnowledgeBase/README|Knowledge Base do Jarvis]]
 - [[PROJECT_JARVIS_5.0-Knowledge|Base de Conhecimento Jarvis]]
 - [[PROJECT_JARVIS_5.0-Personality|Persona Jarvis]]
 - [[PROJECT_JARVIS_5.0-Architecture|Arquitetura Jarvis]]
 - [[PROJECT_JARVIS_5.0-Strategy|Estratégia Jarvis]]
-- [[PROJECT_JARVIS_5.0-KnowledgeBase/CONFIG|Configuração da Knowledge Base]]
-
-## Configuração do Jarvis
-- Base de conhecimento oficial: `D:\OBSIDIAN\Will\Projetos\Privados\PROJECT_JARVIS_5.0-KnowledgeBase`
-- Vault raiz de organização: `D:\OBSIDIAN\Will`
-- Sugestão de variável de ambiente:
-  - `JARVIS_KB_PATH=D:\OBSIDIAN\Will\Projetos\Privados\PROJECT_JARVIS_5.0-KnowledgeBase`
-  - `JARVIS_VAULT_ROOT=D:\OBSIDIAN\Will`
 
 ## Status técnico
 - Backend: `backend/agents_worker.py`, `backend/app/main.py`.

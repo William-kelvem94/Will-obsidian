@@ -1,21 +1,15 @@
 ---
-title: "Estudos Focado: PROJECT_JARVIS_5.0"
-description: "Documento estratégico do PROJECT_JARVIS_5.0: visão multimodal, voz, visão e agentes autônomos." 
+title: "PROJECT_JARVIS_5.0 Strategy"
+description: "Estratégia do Jarvis duplicada para a base de conhecimento dedicada." 
 tags:
   - jarvis
-  - analise
-  - estrategia
-  - voz
-  - vision
-  - livekit
+  - strategy
+  - assistant
 ---
 
-# Estudos Focado: PROJECT_JARVIS_5.0 [[README]] [[Privados/PROJECT_JARVIS_5.0]]
+# PROJECT_JARVIS_5.0 Strategy
 
-**Quartel-General da Estratégia**
-- Esta nota define o escopo estratégico de PROJECT_JARVIS_5.0 antes de ser executado como produto completo.
-- Aqui são alinhadas as prioridades entre voz, visão, agentes e deploy.
-- Referência técnica: [[../EstudosPesquisas/README|Estudos e Pesquisas]].
+Esta nota é a cópia da estratégia do Jarvis para a base de conhecimento dedicada.
 
 ## Missão do projeto
 Criar um assistente multimodal que combine voz em tempo real, visão de ambiente e execução de tarefas para oferecer um Jarvis autônomo de uso pessoal e profissional.
@@ -47,15 +41,9 @@ Criar um assistente multimodal que combine voz em tempo real, visão de ambiente
 - O browser automation pode ser confiável com Playwright e scripts robustos.
 
 ## Situação atual
-- Stack atual: FastAPI backend, Next.js shadcn frontend, LiveKit voz em tempo real, MediaPipe visão e Playwright automation.
-- Problemas principais: dependência Gemini, ausência de modelo offline definido e falta de pipeline de produção confiável para agentes.
-- Gap técnico: arquitetura de agentes não está formalizada, e não há integração de deploy/monitoramento para cargas locais.
-- Status de implementação: projeto clonado e com componentes iniciais, mas precisa de decisão de arquitetura e priorização de MVP.
-
-## Vínculo com execução
-- A implementação técnica deve ser detalhada em `Projetos/Privados/PROJECT_JARVIS_5.0.md`.
-- Esta nota deve permanecer como fonte de verdade para decisões de arquitetura, prioridades e trade-offs.
-- Critério de passagem para execução: quando a escolha entre offline total vs arquitetura híbrida estiver definida e os principais casos de uso estiverem documentados.
+- Stack atual: FastAPI, Next.js, LiveKit, MediaPipe e Playwright.
+- Problemas principais: dependência Gemini e falta de stack offline consolidado.
+- Gap técnico: não há claro pipeline de produção para agentes.
 
 ## Arquitetura estratégica
 - `backend/` = agentes, inferência LLM, integração de visão e voz.
@@ -86,11 +74,6 @@ Criar um assistente multimodal que combine voz em tempo real, visão de ambiente
 - Modelo: Gemini como fallback ou não?
 - Visão: MediaPipe + YOLOv8 vs modelo heavier.
 - Automação: Playwright no desktop vs browser headless.
-
-## Documentos de suporte
-- [[../Privados/PROJECT_JARVIS_5.0-Knowledge|Base de Conhecimento Jarvis]]
-- [[../Privados/PROJECT_JARVIS_5.0-Personality|Persona Jarvis]]
-- [[../Privados/PROJECT_JARVIS_5.0-Architecture|Arquitetura Jarvis]]
 
 ## Riscos
 - Hardware exigente para multimodalidade.
