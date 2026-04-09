@@ -47,9 +47,15 @@ Criar um assistente multimodal que combine voz em tempo real, visão de ambiente
 - O browser automation pode ser confiável com Playwright e scripts robustos.
 
 ## Situação atual
-- Stack atual: FastAPI, Next.js, LiveKit, MediaPipe e Playwright.
-- Problemas principais: dependência Gemini e falta de stack offline consolidado.
-- Gap técnico: não há claro pipeline de produção para agentes.
+- Stack atual: FastAPI backend, Next.js shadcn frontend, LiveKit voz em tempo real, MediaPipe visão e Playwright automation.
+- Problemas principais: dependência Gemini, ausência de modelo offline definido e falta de pipeline de produção confiável para agentes.
+- Gap técnico: arquitetura de agentes não está formalizada, e não há integração de deploy/monitoramento para cargas locais.
+- Status de implementação: projeto clonado e com componentes iniciais, mas precisa de decisão de arquitetura e priorização de MVP.
+
+## Vínculo com execução
+- A implementação técnica deve ser detalhada em `Projetos/Privados/PROJECT_JARVIS_5.0.md`.
+- Esta nota deve permanecer como fonte de verdade para decisões de arquitetura, prioridades e trade-offs.
+- Critério de passagem para execução: quando a escolha entre offline total vs arquitetura híbrida estiver definida e os principais casos de uso estiverem documentados.
 
 ## Arquitetura estratégica
 - `backend/` = agentes, inferência LLM, integração de visão e voz.
