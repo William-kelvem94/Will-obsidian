@@ -34,7 +34,7 @@ Projetos/
 - **Total arquivos:** 20+ (públicos detalhados)
 - **Graph conexões:** Completo (raiz limpa) ✅
 
-**Status:** Organização completa! Graph navegável e raiz limpa.
+**Status:** Organização completa! Graph navegável, raiz limpa. GitHub 67 repos mapeados em [[GitHub-Completo]].
 
 ## 🔗 **Privados** (do Overview - não mapeados)
 PROJECT_JARVIS_5.0, WILLFINANCE-9.0, IA-LOCAL, etc. (~20)
