@@ -15,6 +15,7 @@ Este vault está organizado como um hub de projetos pessoais e de pesquisa.
 - [[Projetos/EstudosPesquisas/README|🔬 Estudos e Pesquisas]] — recursos e guias técnicos.
 - [[Will-Pessoal/README|🌱 Will-Pessoal]] — hub pessoal de perfil, vida e objetivos.
 - [[Will-Pessoal/Perfil/Cerebro-Will|🧠 Cérebro Will]] — resumo de perfil, skills e estratégia de IA local.
+- [[IA-LOCAL.canvas|📐 IA-LOCAL Canvas]] — visão e arquitetura do agente local.
 
 ## Organização atual
 - `Projetos/` → projetos públicos organizados por linguagem.

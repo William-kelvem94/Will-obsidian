@@ -22,6 +22,8 @@ updated: 2026-04-09
 | [[Ferramentas]] | Tecnologias e ferramentas do stack |
 | [[CasosDeUso]] | Cenários reais que o Jarvis deve resolver |
 | [[Integracao]] | Como integrar a KB com o código backend |
+| [[IA-LOCAL-Local-Agent]] | Arquitetura do agente IA-LOCAL local e uso do vault clonado |
+| [[IA-LOCAL-Obsidian-Usage]] | Guia de uso do vault clonado para IA-LOCAL |
 | [[SegundoCerebro]] | Definição e regras do segundo cérebro |
 | [[Mapa]] | Mapa de relacionamentos entre as notas |
 | [[Regras]] | Regras para manter a KB organizada |
