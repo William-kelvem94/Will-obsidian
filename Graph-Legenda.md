@@ -6,7 +6,7 @@ Este arquivo descreve as categorias do gráfico do Obsidian, as tags recomendada
 
 ## Como funciona
 - O gráfico usa `colorGroups` em `.obsidian/graph.json`.
-- Cada grupo é ativado por tags e por caminho (`path:`).
+- Cada grupo é ativado por tags.
 - Use as tags listadas aqui em cada nota-chave e índice para manter a cor consistente.
 
 ## Tags e pastas principais
@@ -83,3 +83,7 @@ Este arquivo descreve as categorias do gráfico do Obsidian, as tags recomendada
 
 ## Observação
 Se o gráfico não exibir cores na primeira vez, feche e reabra o vault ou a visualização do gráfico.
+
+## Plugins recomendados
+- Se o Obsidian nativo não aplicar cores de forma clara, o plugin `Juggl` costuma oferecer visualização de gráfico mais avançada e com suporte a nós coloridos.
+- Outra opção é usar `Graph Analysis` / `Graph View` plugins adicionais que tenham suporte a grupos de cor e filtros por tag.

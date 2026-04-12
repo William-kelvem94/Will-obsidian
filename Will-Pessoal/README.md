@@ -6,6 +6,8 @@ tags:
   - segundo-cerebro
   - will-pessoal
   - pk
+  - hub
+  - perfil
 ---
 
 # Will-Pessoal — Vida e Conhecimento
