@@ -8,20 +8,20 @@ Estrutura de skills e Model Context Protocol (MCP) para usar modelos de IA no VS
 - Integrar operações de VS Code com leitura/edição de arquivos e comandos de terminal.
 
 ## Estrutura
-- `README.md` — visão geral e como usar.
-- `mcp.md` — padrões de MCP e mapeamento de tools.
-- `prompts.md` — prompts prontos para tarefas de código, refatoração e docs.
-- `mcp-operators.md` — operadores MCP e regras de ação.
-- `skills-categories.md` — categorias de skills por domínio técnico.
-- `use-cases.md` — casos de uso passo a passo para tarefas comuns.
-- `advanced-workflows.md` — workflows avançados para projetos complexos.
-- `templates.md` — modelos de prompt reutilizáveis para agentes de IA.
-- `quick-start.md` — comandos específicos para seu ambiente Windows e VS Code.
-- `project-jarvis-prompts.md` — prompts focados no projeto `PROJECT_JARVIS_5.0`.
-- `mini-agent.md` — mini-agent de IA com fluxo de leitura/edição/validação.
-- `direct-agent-prompts.md` — prompts prontos para copiar e colar no seu chat local.
-- `best-practices.md` — boas práticas para usar IA no VS Code de forma segura e eficiente.
-- `quick-reference.md` — resumo rápido de operadores, prompts e workflows.
+- [[README|Visão geral e como usar]]
+- [[mcp|Padrões de MCP e mapeamento de tools]]
+- [[prompts|Prompts prontos para tarefas de código, refatoração e docs]]
+- [[mcp-operators|Operadores MCP e regras de ação]]
+- [[skills-categories|Categorias de skills por domínio técnico]]
+- [[use-cases|Casos de uso passo a passo para tarefas comuns]]
+- [[advanced-workflows|Workflows avançados para projetos complexos]]
+- [[templates|Modelos de prompt reutilizáveis para agentes de IA]]
+- [[quick-start|Comandos específicos para seu ambiente Windows e VS Code]]
+- [[project-jarvis-prompts|Prompts focados no projeto PROJECT_JARVIS_5.0]]
+- [[mini-agent|Mini-agent de IA com fluxo de leitura/edição/validação]]
+- [[direct-agent-prompts|Prompts prontos para copiar e colar no seu chat local]]
+- [[best-practices|Boas práticas para usar IA no VS Code de forma segura e eficiente]]
+- [[quick-reference|Resumo rápido de operadores, prompts e workflows]]
 
 ## Como usar
 1. Abra `skills/vscode-ai/README.md` como ponto de entrada.

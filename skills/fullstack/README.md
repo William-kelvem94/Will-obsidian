@@ -3,9 +3,9 @@
 Esta pasta reúne skills e prompts para desenvolvimento fullstack com foco em IA, automação e projetos práticos.
 
 ## Estrutura
-- `frontend.md` — prompts e MCP para React, Vue e interfaces.
-- `backend.md` — prompts e MCP para APIs, serviços e Python/Node.
-- `database.md` — prompts e MCP para bancos SQL/NoSQL e migrações.
+- [[frontend|Frontend]] — prompts e MCP para React, Vue e interfaces.
+- [[backend|Backend]] — prompts e MCP para APIs, serviços e Python/Node.
+- [[database|Database]] — prompts e MCP para bancos SQL/NoSQL e migrações.
 
 ## Como usar
 1. Abra o arquivo que corresponde ao domínio em que está trabalhando.

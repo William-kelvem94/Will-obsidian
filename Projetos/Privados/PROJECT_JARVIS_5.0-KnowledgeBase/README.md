@@ -32,6 +32,7 @@ Esta pasta é a base de conhecimento dedicada do Jarvis. Ela contém cópias dos
 - [[PROJECT_JARVIS_5.0-Personality|PROJECT_JARVIS_5.0-Personality.md]] — persona, tom e estilo do Jarvis.
 - [[PROJECT_JARVIS_5.0-Architecture|PROJECT_JARVIS_5.0-Architecture.md]] — arquitetura de alto nível do assistente.
 - [[PROJECT_JARVIS_5.0-Strategy|PROJECT_JARVIS_5.0-Strategy.md]] — estratégia e roadmap multimodal.
+- [[MOVIDO|MOVIDO.md]] — notas de migração e arquivos movidos para o novo vault.
 
 ### Integração e execução
 - [[PROJECT_JARVIS_5.0-Integration|PROJECT_JARVIS_5.0-Integration.md]] — como integrar a KB com o código Jarvis.

@@ -23,6 +23,7 @@ Esta pasta é a extensão pessoal do vault: o lugar onde Will documenta seu perf
 - [[Will-Pessoal/Conhecimento/Leituras|Conhecimento]] — leituras, cursos e aprendizagem contínua.
 - [[Will-Pessoal/Rede/Pessoas|Rede]] — contatos, networking e parcerias.
 - [[Will-Pessoal/Objetivos/README|Objetivos]] — metas, OKRs e visão de curto/médio prazo.
+- [[Will-Pessoal/Ideia_Pessoal|Ideia Pessoal]] — ideias e insights em andamento.
 
 ## Como usar
 

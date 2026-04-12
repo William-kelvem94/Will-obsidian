@@ -13,8 +13,11 @@ Este vault está organizado como um hub de projetos pessoais e de pesquisa.
 - [[Projetos/Privados/README|🔐 Privados Clonados]] — notas dos projetos clonados localmente.
 - [[Projetos/EstudosFocados/README|📘 Estudos Focados]] — roadmaps e análises profundas.
 - [[Projetos/EstudosPesquisas/README|🔬 Estudos e Pesquisas]] — recursos e guias técnicos.
+- [[skills/README|🧠 Skills Hub]] — prompts, MCPs e workflows para IA e VS Code.
+- [[JARVIS/README|🧠 JARVIS Hub]] — mente operacional, memórias e segundo cérebro.
 - [[Will-Pessoal/README|🌱 Will-Pessoal]] — hub pessoal de perfil, vida e objetivos.
 - [[Will-Pessoal/Perfil/Cerebro-Will|🧠 Cérebro Will]] — resumo de perfil, skills e estratégia de IA local.
+- [[Isolated-Notes-Audit|🧩 Auditoria de notas isoladas]] — análise de nós soltos e ajustes realizados.
 - [[IA-LOCAL.canvas|📐 IA-LOCAL Canvas]] — visão e arquitetura do agente local.
 
 ## Organização atual
