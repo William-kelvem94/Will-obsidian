@@ -1,9 +1,11 @@
 # Clippings GitHub
 
+#clippings #hub
+
 Coleção de READMEs e perfis importantes.
 
 ## 📂 Projetos Selecionados
-- [[William-kelvem94 Overview]] ← Perfil principal + 35 repositórios
+- [[Will-Pessoal/Perfil/William-kelvem94 Overview|William-kelvem94 Overview]] ← Perfil principal + 35 repositórios
 - [[Auto-boletos]] ← Automação + IA Local
 - [[Gestor Aluguel 2.0]] ← SaaS Imobiliário Next.js
 

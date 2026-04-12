@@ -7,7 +7,7 @@ tags: [jarvis, will, perfil, questionario, onboarding]
 # Questionário — Quem é Will?
 
 > Este é o questionário de onboarding que o Jarvis usa para conhecer Will.
-> As respostas alimentam `Sobre-Will/Perfil.md`, `Preferencias.md`, `Objetivos.md` e `Rotina.md`.
+> As respostas alimentam `Will-Pessoal/Perfil/Perfil.md`, `Will-Pessoal/Perfil/Preferencias.md`, `Will-Pessoal/Objetivos/README.md` e `Will-Pessoal/Vida/Rotina.md`.
 > Marcar [x] quando a pergunta for respondida e a resposta já estiver no arquivo correto.
 
 ## 👤 Identidade e Vida

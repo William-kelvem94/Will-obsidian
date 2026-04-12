@@ -5,6 +5,7 @@ tags:
   - estudos
   - pesquisas
   - evolucao
+  - hub
 ---
 
 # Estudos e Pesquisas [[../Projetos.md]]

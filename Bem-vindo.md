@@ -1,5 +1,7 @@
 # Bem-vindo
 
+#hub #projetos
+
 ## Cofre de Projetos GitHub
 Este vault está organizado como um hub de projetos pessoais e de pesquisa.
 
@@ -11,7 +13,8 @@ Este vault está organizado como um hub de projetos pessoais e de pesquisa.
 - [[Projetos/Privados/README|🔐 Privados Clonados]] — notas dos projetos clonados localmente.
 - [[Projetos/EstudosFocados/README|📘 Estudos Focados]] — roadmaps e análises profundas.
 - [[Projetos/EstudosPesquisas/README|🔬 Estudos e Pesquisas]] — recursos e guias técnicos.
-- [[Cerebro-Will|🧠 Cérebro Will]] — resumo de perfil, skills e estratégia de IA local.
+- [[Will-Pessoal/README|🌱 Will-Pessoal]] — hub pessoal de perfil, vida e objetivos.
+- [[Will-Pessoal/Perfil/Cerebro-Will|🧠 Cérebro Will]] — resumo de perfil, skills e estratégia de IA local.
 
 ## Organização atual
 - `Projetos/` → projetos públicos organizados por linguagem.
@@ -23,6 +26,7 @@ Este vault está organizado como um hub de projetos pessoais e de pesquisa.
 ## Como usar
 - Abra [[Projetos]] para ver o MOC completo.
 - Use o grafico do Obsidian para navegar pelas conexões entre projetos.
+- Veja [[Graph-Legenda]] para o mapa de cores e categorias do gráfico.
 - Qualquer arquivo com `source: github.com/William-kelvem94` representa um repositório GitHub mapeado.
 
 **Dica:** mantenha esta nota como ponto de entrada principal para o vault de projetos.

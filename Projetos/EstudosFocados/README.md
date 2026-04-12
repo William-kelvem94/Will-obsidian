@@ -7,9 +7,10 @@ tags:
   - roadmap
   - estrategia
   - decisao
+  - hub
 ---
 
-# Estudos Focados — Quartel-General da Estratégia [[Cerebro-Will]] [[EstudosPesquisas/README]]
+# Estudos Focados — Quartel-General da Estratégia [[Will-Pessoal/Perfil/Cerebro-Will|Cérebro Will]] [[EstudosPesquisas/README]]
 
 **Missão desta pasta**
 - Ser o principal lugar de decisão pré-implementação para os projetos mais estratégicos do vault.

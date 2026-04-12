@@ -5,6 +5,7 @@ tags:
   - organizacao
   - projetos
   - vault
+  - hub
 ---
 
 # Organização Completa do Vault de Projetos
@@ -56,7 +57,7 @@ Este vault está organizado em camadas claras:
 - [[Projetos/EstudosFocados/README|Estudos Focados]]
 - [[Projetos/EstudosPesquisas/README|Estudos e Pesquisas]]
 - [[Projetos/Plano-de-Acao|Plano de Ação]]
-- [[Cerebro-Will|Cérebro Will]]
+- [[Will-Pessoal/Perfil/Cerebro-Will|Cérebro Will]]
 - [[Bem-vindo|Bem-vindo]]
 
 ## Estrutura ideal do vault

@@ -6,9 +6,10 @@ tags:
   - rag
   - perfil
   - projetos
+  - hub
 ---
 
-# Cérebro Will [[Projetos]] [[William-kelvem94 Overview]] 
+# Cérebro Will [[Projetos]] [[Will-Pessoal/Perfil/William-kelvem94 Overview|William-kelvem94 Overview]] 
 
 **Base de conhecimento para IA local** (Ollama RAG): Perfil, skills, projetos GitHub (67 repos), clones locais, estudos pesquisas.
 

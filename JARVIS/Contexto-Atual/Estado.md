@@ -25,9 +25,9 @@ updated: 2026-04-09
 
 ## 🧠 Contexto Carregado
 
-- Perfil de Will: [[../Sobre-Will/Perfil]]
-- Projetos ativos: [[../Sobre-Will/Projetos-Ativos]]
-- Objetivos: [[../Sobre-Will/Objetivos]]
+- Perfil de Will: [[Will-Pessoal/Perfil/Perfil]]
+- Projetos ativos: [[Will-Pessoal/Perfil/Projetos-Ativos]]
+- Objetivos: [[Will-Pessoal/Objetivos/README]]
 
 ## ⚡ Modo de Operação
 

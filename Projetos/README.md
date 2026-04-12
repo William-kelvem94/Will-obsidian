@@ -1,5 +1,7 @@
 # Projetos GitHub Organizados por Linguagem
 
+#projetos #hub
+
 Esta pasta é o hub principal de projetos públicos e privados mapeados no vault.
 
 ## Estrutura Atual

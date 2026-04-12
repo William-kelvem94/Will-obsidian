@@ -7,6 +7,7 @@ tags:
   - projetos
   - github
   - completo
+  - hub
 ---
 
 # GitHub Completo - William-kelvem94 (67 Repos)
@@ -41,4 +42,4 @@ tags:
 ## Outros Privados (mapeados)
 - PROJECT_JARVIS_5.0, Gerenciador_Financeiro-7.0, WILLFINANCE-9.0 etc (~40)
 
-**Links**: [[Projetos]] | [[Projetos/Plano-de-Acao]] | [[Projetos/Organizacao-Completa]] | [[William-kelvem94 Overview]] #github #repos #mapeado #67
+**Links**: [[Projetos]] | [[Projetos/Plano-de-Acao]] | [[Projetos/Organizacao-Completa]] | [[Will-Pessoal/Perfil/William-kelvem94 Overview|William-kelvem94 Overview]] #github #repos #mapeado #67

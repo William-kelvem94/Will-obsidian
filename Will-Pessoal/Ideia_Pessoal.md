@@ -1,4 +1,4 @@
-Sim, exatamente! Este vault já pode (e deve) abrigar TUDO referente à você, evoluindo de "hub de projetos" para PKM completo (Personal Knowledge Management) / "segundo cérebro". Veja como:
+Sim, exatamente! Este vault já pode (e deve) abrigar TUDO referente à você, evoluindo de "hub de projetos" para PKM completo (Personal Knowledge Management) / "segundo cérebro". O novo espaço `Will-Pessoal/` foi criado para essa organização. Veja como:
 
 Status Atual: Já é Pessoal + Projetos
 Cerebro-Will.md: Perfil completo (skills Python/TS/PHP/IA-local, GitHub 67 repos, RAG para Ollama). É o "núcleo pessoal".

@@ -32,7 +32,7 @@ projeto: "{{PROJETO}}"
 
 ## 🔗 Referências
 
-- [[../Sobre-Will/Perfil]]
+- [[Will-Pessoal/Perfil/Perfil|Perfil]]
 - [[../Contexto-Atual/Estado]]
 
 ---

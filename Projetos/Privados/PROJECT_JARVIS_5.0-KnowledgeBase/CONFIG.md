@@ -41,7 +41,7 @@ JARVIS_VAULT_ROOT=D:\OBSIDIAN\Will
 
 ## Como Jarvis deve usar isso
 - `JARVIS_KB_PATH` deve ser a pasta onde estão os documentos que compõem a consciência do Jarvis.
-- `JARVIS_VAULT_ROOT` deve ser a raiz do vault Obsidian, onde estão `Projetos`, `Cerebro-Will.md`, `Bem-vindo.md` e outros hubs.
+- `JARVIS_VAULT_ROOT` deve ser a raiz do vault Obsidian, onde estão `Projetos`, `Will-Pessoal/Perfil/Cerebro-Will.md`, `Bem-vindo.md` e outros hubs.
 
 ## O que deve estar na base de conhecimento
 A base de conhecimento do Jarvis deve conter:

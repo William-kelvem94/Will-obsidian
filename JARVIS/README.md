@@ -1,7 +1,7 @@
 ---
 title: "JARVIS — Segundo Cérebro"
 description: "Pasta raiz da mente operacional do Jarvis. Tudo que ele precisa para lembrar, aprender e decidir."
-tags: [jarvis, segundo-cerebro, memoria, conhecimento]
+tags: [jarvis, segundo-cerebro, memoria, conhecimento, hub]
 updated: 2026-04-09
 ---
 
@@ -14,7 +14,7 @@ Esta pasta é a **mente viva do Jarvis**. Não é documentação — é memória
 | Pasta | Propósito |
 |---|---|
 | [[JARVIS/KnowledgeBase/INDEX\|KnowledgeBase/]] | Consciência técnica: personalidade, arquitetura, estratégia, tools |
-| [[JARVIS/Sobre-Will/Perfil\|Sobre-Will/]] | Quem é Will: perfil, preferências, rotina, projetos, objetivos |
+| [[Will-Pessoal/Perfil/README\|Perfil pessoal]] | Quem é Will: perfil, preferências, rotina, projetos, objetivos |
 | [[JARVIS/Memorias/Diario\|Memorias/Diario/]] | Diário de interações por data (YYYY-MM-DD.md) |
 | [[JARVIS/Memorias/Episodicas\|Memorias/Episodicas/]] | Memórias episódicas importantes de sessões |
 | [[JARVIS/Aprendizado/INDEX\|Aprendizado/]] | O que Jarvis aprendeu — técnico, pessoal, padrões de Will |
@@ -24,7 +24,7 @@ Esta pasta é a **mente viva do Jarvis**. Não é documentação — é memória
 
 ## Como o Jarvis usa esta pasta
 
-1. **No startup**: carrega `Sobre-Will/` e `Contexto-Atual/` como contexto base
+1. **No startup**: carrega `Will-Pessoal/Perfil/` e `Contexto-Atual/` como contexto base
 2. **A cada interação**: verifica memórias episódicas e diário do dia
 3. **Ao aprender algo novo**: salva em `Aprendizado/` ou cria entrada em `Memorias/Episodicas/`
 4. **Ao final de sessão**: salva resumo em `Memorias/Diario/YYYY-MM-DD.md`

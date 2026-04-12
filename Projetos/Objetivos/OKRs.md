@@ -28,7 +28,7 @@ tags:
 ## Objetivo 4: Melhorar o fluxo de planejamento do vault
 - KR1: Criar e manter a pasta `Projetos/Objetivos/` como fonte de metas e 90 dias.
 - KR2: Integrar `EstudosFocados`, `Objetivos` e `Plano-de-Acao` em um processo único.
-- KR3: Adicionar links e referências objetivos no `Bem-vindo.md` e no `Cerebro-Will.md`.
+- KR3: Adicionar links e referências objetivos no `Bem-vindo.md` e no `Will-Pessoal/Perfil/Cerebro-Will.md`.
 
 ## Como usar este documento
 - Consulte os OKRs a cada revisão de planejamento.

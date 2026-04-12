@@ -1,4 +1,6 @@
-# Projetos William-kelvem94 [[William-kelvem94 Overview]] (16+ Públicos Mapeados via API)
+# Projetos William-kelvem94 [[Will-Pessoal/Perfil/William-kelvem94 Overview|William-kelvem94 Overview]] (16+ Públicos Mapeados via API)
+
+#projetos #hub
 
 Atualizado: 2026-04-09 via BLACKBOXAI GitHub API
 
@@ -55,4 +57,4 @@ Projetos/
 - `Projetos/EstudosFocados/` contém notas estratégicas com cronograma e entregáveis.
 - `Projetos/EstudosPesquisas/` contém guias para tecnologias usadas pelos projetos.
 
-**Links:** [[Bem-vindo]] | [[Projetos/GitHub-Completo]] | [[Cerebro-Will]]
+**Links:** [[Bem-vindo]] | [[Projetos/GitHub-Completo]] | [[Will-Pessoal/Perfil/Cerebro-Will|Cérebro Will]]
