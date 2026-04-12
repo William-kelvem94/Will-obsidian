@@ -35,5 +35,6 @@ Projetos/
 - [[Projetos/Privados/IA-LOCAL|IA-LOCAL]]
 - [[Projetos/EstudosFocados/IA-LOCAL|IA-LOCAL (Estudos Focados)]]
 - [[Projetos/EstudosPesquisas/AI-Local-Gratuita|AI-Local-Gratuita]]
+- [[Projetos/Objetivos/OKRs|OKRs]]
 
 **Graph limpo e navegável!** Use [[Projetos]] como MOC principal.

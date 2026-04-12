@@ -30,6 +30,26 @@ Esta pasta é a **mente viva do Jarvis**. Não é documentação — é memória
 4. **Ao final de sessão**: salva resumo em `Memorias/Diario/YYYY-MM-DD.md`
 5. **Ao detectar decisão importante**: registra em `Decisoes/`
 
+## Links diretos úteis
+- [[JARVIS/Memorias/Diario/2026-04-09|Diário 2026-04-09]]
+- [[JARVIS/Memorias/Diario/2026-04-10|Diário 2026-04-10]]
+- [[JARVIS/Memorias/Episodicas/2026-04-09-configuração-do-segundo-cérebro-do-jarvis|Memória episódica]]
+- [[JARVIS/Aprendizado/Tecnico|Aprendizado Técnico]]
+- [[JARVIS/Templates/Template-Diario|Template Diário]]
+- [[JARVIS/Templates/Template-Perfil-Will|Template Perfil Will]]
+- [[JARVIS/KnowledgeBase/Index|JARVIS KnowledgeBase Index]]
+- [[JARVIS/KnowledgeBase/Visao-Geral|Visão Geral]]
+- [[JARVIS/KnowledgeBase/Personalidade|Personalidade]]
+- [[JARVIS/KnowledgeBase/Estrategia|Estratégia]]
+- [[JARVIS/KnowledgeBase/Arquitetura|Arquitetura]]
+- [[JARVIS/KnowledgeBase/Conhecimento|Conhecimento]]
+- [[JARVIS/KnowledgeBase/Ferramentas|Ferramentas]]
+- [[JARVIS/KnowledgeBase/CasosDeUso|Casos de Uso]]
+- [[JARVIS/KnowledgeBase/Integracao|Integração]]
+- [[JARVIS/KnowledgeBase/SegundoCerebro|Segundo Cérebro]]
+- [[JARVIS/KnowledgeBase/Mapa|Mapa da KB]]
+- [[JARVIS/KnowledgeBase/Regras|Regras da KB]]
+
 ## Princípio
 
 > O Jarvis não apenas responde — ele **lembra, aprende e evolui** com base em cada interação com Will.

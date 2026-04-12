@@ -19,6 +19,9 @@ Este vault está organizado como um hub de projetos pessoais e de pesquisa.
 - [[Will-Pessoal/Perfil/Cerebro-Will|🧠 Cérebro Will]] — resumo de perfil, skills e estratégia de IA local.
 - [[Isolated-Notes-Audit|🧩 Auditoria de notas isoladas]] — análise de nós soltos e ajustes realizados.
 - [[IA-LOCAL.canvas|📐 IA-LOCAL Canvas]] — visão e arquitetura do agente local.
+- [[2026-04-12|📓 Nota recente: 2026-04-12]]
+- [[skills/mcp-tools|MCP Tools]] — ferramentas do MCP para VS Code e terminal.
+- [[Graph-Legenda]] — legenda do gráfico de links.
 
 ## Organização atual
 - `Projetos/` → projetos públicos organizados por linguagem.

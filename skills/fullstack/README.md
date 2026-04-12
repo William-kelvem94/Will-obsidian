@@ -3,6 +3,7 @@
 Esta pasta reúne skills e prompts para desenvolvimento fullstack com foco em IA, automação e projetos práticos.
 
 ## Estrutura
+- [[INDEX|Índice completo do hub]] — índice de notas do Fullstack.
 - [[frontend|Frontend]] — prompts e MCP para React, Vue e interfaces.
 - [[backend|Backend]] — prompts e MCP para APIs, serviços e Python/Node.
 - [[database|Database]] — prompts e MCP para bancos SQL/NoSQL e migrações.

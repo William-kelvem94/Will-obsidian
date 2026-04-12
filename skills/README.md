@@ -28,3 +28,5 @@ Organização de skills para usar com OpenClaude (LM Studio local).
 
 ## MCP
 - [[mcp-tools]] File/terminal MCPs
+- [[skills/vscode-ai/INDEX|VS Code AI Index]]
+- [[skills/fullstack/INDEX|Fullstack Index]]

@@ -9,6 +9,7 @@ Estrutura de skills e Model Context Protocol (MCP) para usar modelos de IA no VS
 
 ## Estrutura
 - [[README|Visão geral e como usar]]
+- [[INDEX|Índice completo do hub]]
 - [[mcp|Padrões de MCP e mapeamento de tools]]
 - [[prompts|Prompts prontos para tarefas de código, refatoração e docs]]
 - [[mcp-operators|Operadores MCP e regras de ação]]

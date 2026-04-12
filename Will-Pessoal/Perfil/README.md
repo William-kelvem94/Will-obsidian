@@ -21,7 +21,16 @@ Esta área reúne as notas principais do perfil pessoal de Will.
 - [[Will-Pessoal/Perfil/Perfil|Perfil]] — identidade, stack e estilo de trabalho.
 - [[Will-Pessoal/Perfil/Preferencias|Preferências]] — estilo de comunicação e preferências pessoais.
 - [[Will-Pessoal/Perfil/Projetos-Ativos|Projetos Ativos]] — estado atual e prioridades de projeto.
+- [[Will-Pessoal/Perfil/INDEX|Índice do Perfil]] — índice de todas as notas de perfil.
 - [[Will-Pessoal/Objetivos/README|Objetivos]] — metas e OKRs pessoais.
 
 ## Uso
 Use este índice para navegar rapidamente pelo perfil pessoal e manter o seu contexto central atualizado.
+
+## Vida pessoal e conhecimento
+- [[Will-Pessoal/Vida/Habitos|Hábitos]]
+- [[Will-Pessoal/Vida/Financas|Finanças]]
+- [[Will-Pessoal/Vida/Rotina|Rotina]]
+- [[Will-Pessoal/Vida/Saude|Saúde]]
+- [[Will-Pessoal/Conhecimento/Leituras|Leituras]]
+- [[Will-Pessoal/Rede/Pessoas|Rede]]
