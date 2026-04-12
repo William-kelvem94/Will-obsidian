@@ -1,4 +1,5 @@
 import urllib.request
+import urllib.error
 import json
 import os
 import re
@@ -16,8 +17,12 @@ def get_json(url):
         with urllib.request.urlopen(req) as response:
             if response.getcode() == 200:
                 return json.loads(response.read().decode())
+    except urllib.error.HTTPError as e:
+        if e.code == 409: # Repository is empty
+            return []
+        print(f"Erro HTTP {e.code} ao acessar {url}: {e.reason}")
     except Exception as e:
-        print(f"Erro ao acessar {url}: {e}")
+        print(f"Erro inesperado ao acessar {url}: {e}")
     return None
 
 def get_repositories(username):
