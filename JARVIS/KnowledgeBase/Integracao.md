@@ -56,3 +56,10 @@ Esta nota descreve como o Jarvis deve integrar a base de conhecimento localizada
 - O código de Jarvis não deve copiar a pasta inteira para dentro do repositório.
 - Em vez disso, use variáveis de ambiente para apontar o runtime ao caminho do KB.
 - O projeto `C:\Users\willi\Documents\GitHub\PROJECT_JARVIS_5.0` deve carregar o conhecimento dinamicamente.
+
+## IA-LOCAL local
+
+Este vault clonado também serve de base para o projeto `IA-LOCAL` local.
+
+- Veja `IA-LOCAL-Local-Agent.md` para a arquitetura do agente local.
+- Veja `IA-LOCAL-Obsidian-Usage.md` para o guia de configuração e uso do vault clonado.
