@@ -69,15 +69,15 @@ c (2025-02-08) | chore: add stale issue management configuration (2025-02-08) | 
 - [crud_basico](https://github.com/William-kelvem94/crud_basico) (PHP) - att aula prog web att 03
     - *Últimos:* primeiro commit (2023-10-20)
 - [crud_basico-2.0](https://github.com/William-kelvem94/crud_basico-2.0) (N/A) - att 3 aula prog web att 03
-    - *Últimos:* Sem histórico recente
+    - *Últimos:* primeiro commit (2023-10-20)
 - [att_18_ago](https://github.com/William-kelvem94/att_18_ago) (PHP) - Sem descrição
-    - *Últimos:* Sem histórico recente
+    - *Últimos:* Add files via upload (2023-08-31)
 - [postifolio-will](https://github.com/William-kelvem94/postifolio-will) (CSS) - Sem descrição
-    - *Últimos:* Sem histórico recente
+    - *Últimos:* Create README.md (2022-09-15) | Initial commit (2022-09-14)
 - [William-kelvem94](https://github.com/William-kelvem94/William-kelvem94) (N/A) - Config files for my GitHub profile.
-    - *Últimos:* Sem histórico recente
+    - *Últimos:* Create README.md (2022-03-24)
 - [teste](https://github.com/William-kelvem94/teste) (N/A) - Sem descrição
     - *Últimos:* Sem histórico recente
 - [Atividade-03](https://github.com/William-kelvem94/Atividade-03) (Java) - Sem descrição
-    - *Últimos:* Sem histórico recente
+    - *Últimos:* 27/09/2021 (2021-09-28) | Initial commit (2021-09-28)
 

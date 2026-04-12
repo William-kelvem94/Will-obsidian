@@ -1,4 +1,7 @@
 {
+  "enabledSnippets": [
+    "vault-theme"
+  ],
   "showUnsupportedFiles": false,
   "userIgnoreFilters": [
     ".scripts/**",
