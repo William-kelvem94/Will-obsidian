@@ -1,5 +1,11 @@
 # Prompt Templates para VS Code AI
 
+## Padrões de prompt
+- Seja específico: inclua arquivo, objetivo e formato de saída.
+- Peça passos numerados quando a tarefa for complexa.
+- Oriente o estilo: "Use linguagem objetiva" ou "Responda como desenvolvedor sênior".
+- Use follow-up para ajustar detalhes após a primeira resposta.
+
 ## Desenvolvimento
 - "Crie um componente React com Tailwind para [descrição específica]."
 - "Implemente um endpoint REST em Express que salve dados de usuário no banco Postgres."

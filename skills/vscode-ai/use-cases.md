@@ -59,3 +59,7 @@ Exemplo:
 
 Exemplo:
 - "Gerar prompt padrão para revisão de PR focada em performance e segurança."
+
+## 8. Leituras relacionadas
+- Veja `mcp-operators.md` para operadores avançados.
+- Veja `advanced-workflows.md` para fluxos mais completos.

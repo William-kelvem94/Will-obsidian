@@ -9,6 +9,7 @@
 - Modelos: Ollama, Claude, Mistral, Llama, Falcon.
 - RAG: embeddings, FAISS, Chroma, memória persistente.
 - Agentes: fluxo de prompts, tomada de decisão, data augmentation.
+- Memória: ingestão, indexação, recuperação, atualização incremental.
 
 ## Infra e DevOps
 - Docker, docker-compose, Traefik, nginx.
@@ -30,6 +31,13 @@
 - Workflow iterativo: analisar, planejar, agir, validar, resumir.
 - Use alterações pequenas e verificações frequentes.
 - Documente cada passo em notas quando trabalhar com IA.
+- Use `mcp-operators.md` para entender operadores avançados e regras de segurança.
+
+## Prompt engineering
+- Prefira instruções claras, diretas e com contexto técnico.
+- Use exemplos e descrições de formato desejado.
+- Peça sempre validação ou revisão quando fizer mudanças de código.
+- Peça um resumo final com arquivos alterados e comandos executados.
 
 ## Notes para VS Code
 - Adapte cada skill ao contexto do projeto.

@@ -63,6 +63,10 @@ Model Context Protocol (MCP) define como agentes de IA interagem com arquivos, c
   3. `edit_file` aplicando a correção
   4. `execute_command` rodar `pytest tests/test_service.py`
 
+## Dicas adicionais
+- Consulte `mcp-operators.md` para operadores avançados.
+- Use `advanced-workflows.md` para aplicar o padrão em projetos maiores.
+
 ## Comandos úteis
 - `npm install`
 - `pnpm lint`
