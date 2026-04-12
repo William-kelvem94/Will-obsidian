@@ -1,16 +1,24 @@
-# Projetos William-kelvem94 [[Will-Pessoal/Perfil/William-kelvem94 Overview|William-kelvem94 Overview]] (16+ Públicos Mapeados via API)
+# 🛠️ Hub de Projetos [[Will-Pessoal/Perfil/Cerebro-Will|Cérebro Will]] 
 
 #projetos #hub
 
-Atualizado: 2026-04-09 via BLACKBOXAI GitHub API
+## 📡 Radar de Projetos (Ativos)
+| Projeto | Status | Prioridade | Tech Stack |
+|---|---|---|---|
+| [[Privados/gestor_aluguel_2.0\|Gestor Aluguel]] | 🚀 Produção | 🔥 Alta | Next.js, Prisma, Gemini |
+| [[Privados/IA-LOCAL\|JARVIS Core]] | 🏗️ Dev | 🔥 Alta | Python, FAISS, Whisper |
+| [[Privados/Auto-boletos\|Auto-boletos]] | 🏗️ Dev | ⚡ Média | Flask, Playwright, OCR |
+| [[Privados/PROJECT_JARVIS_5.0\|JARVIS 5.0]] | 🧪 Pesquisa | ⚡ Média | FastAPI, LiveKit |
+| [[Privados/openclaude-wk\|OpenClaude WK]] | 🛠️ Manutenção | 🧊 Baixa | TypeScript, CLI |
 
 ## 📈 Stats Gerais
 | Métrica | Valor |
 |---|---|
-| Públicos mapeados | 12
-| Privados clonados com análise | 7
-| Repositórios capturados em GitHub-Completo | 67
-| Mais recentes | Automatizador, openclaude-wk, DEEP-LEARNING |
+| Públicos mapeados | 16+ |
+| Privados clonados | 8+ |
+| Repos total (GitHub) | 67 |
+| Última Sincronização | 2026-04-12 |
+
 
 ## 📁 Organização do Vault
 ### Públicos em `Projetos/`
@@ -30,8 +38,8 @@ Projetos/
 │   └── [[Java/Atividade-03|Atividade-03]]
 └── Outros/
     ├── [[Outros/DIA-DAS-MULHERES|DIA-DAS-MULHERES]]
-    ├── [[Outros/Auto-boletos|Auto-boletos]]
-    └── [[Outros/Gestor Aluguel 2.0|Gestor Aluguel 2.0]]
+    ├── [[Privados/Auto-boletos|Auto-boletos]]
+    └── [[Privados/gestor_aluguel_2.0|Gestor Aluguel 2.0]]
 ```
 
 ### Privados clonados em `Projetos/Privados/`

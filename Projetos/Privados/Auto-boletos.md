@@ -1,38 +1,30 @@
 ---
 title: "Auto-boletos (Clonado)"
-source: "C:/Users/willi/Documents/GitHub/Auto-boletos"
+source: "d:/Documents/GitHub/Auto-boletos"
 language: Python
 private: true
-description: "Sistema de automação de boletos Equatorial com IA local, Flask backend, Docker, frontend React/Vite. Completo com OCR, CAPTCHA, API REST."
-updated: "2026"
-tags:
-  - projetos
-  - privados
-  - privados
-  - python
-  - flask
-  - docker
-  - ia
-  - automacao
+description: "Automação de boletos Equatorial com IA local, Flask, Docker e OCR."
+updated: 2026-04-12
+tags: [privados, python, flask, docker, ia, automacao]
 ---
 
 # Auto-boletos [[../Projetos.md|Projetos]] [[GitHub-Completo]]
 
-**Private Clone | Python/Flask/Docker | Atualizado 16h ago**
+**Status**: 🏗️ Em Desenvolvimento
+**Foco**: Automação crítica e processamento de documentos com IA.
 
-Sistema moderno para associar imóveis a dados da Equatorial Energy + **IA Local integrada** (OCR Tesseract, análise texto).
+## 🌐 Visão Geral (Pública)
+Sistema moderno e completo que associa imóveis cadastrados aos dados oficiais da plataforma Equatorial Energy, com **Sistema de IA Local integrado** para análise de débitos e predição de consumo.
 
-**Estrutura** (completa):
-- `src/` (app.py, models.py, equatorial_automation_facade.py, AI services)
-- `frontend/` (React/Vite Tailwind, login.jsx)
-- `docs/` (GUIA_NOVOS_RECURSOS.md, DOCKER.md)
-- Docker compose, requirements.txt, tests
+## 🛠️ Detalhes de Engenharia (Privado)
+- **Backend**: Flask + SQLAlchemy (migrando para Neon DB).
+- **Automação**: Playwright (Equatorial Facade) com CAPTCHA handling.
+- **IA**: OCR Tesseract + Memória local (Ollama).
+- **Frontend**: React/Vite com design responsivo (Tailwind).
 
-**Funcionalidades** (de README):
-- Temas dark/light, AI Chat, automação login Playwright, CAPTCHA handling
-- Modos AI Light/Advanced (Ollama)
-- Mobile optimized, CI/CD GitHub Actions
+## 🏗️ Estrutura
+- `src/`: Lógica de automação e modelos de dados.
+- `frontend/`: Dashboard de controle dos boletos.
+- `docs/`: Documentação de infraestrutura e deployment.
 
-**Run**: `docker compose up -d`
-
-**Links**: [[Projetos/Outros/Auto-boletos]] (versão anterior) | [[GitHub-Completo]] #flask #playwright #ocr
+**Links:** [[GitHub-Completo]] | [[skills/Skill-Project-Matrix|📊 Matriz Skills]] #flask #playwright #ocr #python
