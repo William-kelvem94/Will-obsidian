@@ -3,6 +3,7 @@ title: "Evolução Auto-boletos"
 description: "Melhorias gratuitas/locais: Ollama AI avançada, Docker prod, Playwright headless."
 tags:
   - auto-boletos
+  - projetos
   - evolucao
 ---
 

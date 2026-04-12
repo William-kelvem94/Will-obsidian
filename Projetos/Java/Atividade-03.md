@@ -7,6 +7,7 @@ description: "Atividade Java 03 - Placeholder"
 updated: "2026-04-09"
 tags:
   - projetos
+  - projetos
   - publicos
   - java
 ---

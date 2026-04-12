@@ -3,6 +3,7 @@ title: "Hábitos — rotina e trackers"
 description: "Hábitos principais para manter foco, produtividade e bem-estar." 
 tags:
   - habitos
+  - perfil
   - rotina
   - tracker
 ---

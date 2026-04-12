@@ -3,6 +3,7 @@ title: "Estudos Focados — Quartel-General da Estratégia"
 description: "Central das decisões de alto nível para projetos estratégicos de IA e SaaS. Define visão, trade-offs e roadmap antes da implementação." 
 tags:
   - estudos-focados
+  - projetos
   - analise
   - roadmap
   - estrategia

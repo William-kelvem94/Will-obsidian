@@ -3,6 +3,7 @@ title: "AI Local Gratuita"
 description: "Ollama, Whisper, TTS, RAG, FAISS para Jarvis/Auto-boletos/DEEP-LEARNING."
 tags:
   - ai
+  - projetos
   - local
   - gratuita
 ---

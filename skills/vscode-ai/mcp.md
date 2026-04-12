@@ -1,3 +1,7 @@
+---
+tags: [skills]
+---
+
 # MCP para VS Code AI
 
 ## O que é MCP

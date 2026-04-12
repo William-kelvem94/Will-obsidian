@@ -1,6 +1,7 @@
 ---
 title: "⚠️ MOVIDO — Esta pasta foi consolidada"
 tags: [movido, redirecionamento]
+  - privados
 ---
 
 # ⚠️ Esta pasta foi movida

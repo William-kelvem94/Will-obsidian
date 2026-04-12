@@ -8,6 +8,7 @@ updated: "last week"
 tags:
   - projetos
   - privados
+  - privados
   - python
   - ai
   - rag

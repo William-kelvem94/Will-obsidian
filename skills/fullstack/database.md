@@ -1,3 +1,7 @@
+---
+tags: [skills]
+---
+
 # Database Skills - SQL/NoSQL
 
 ## Prompts para design de dados

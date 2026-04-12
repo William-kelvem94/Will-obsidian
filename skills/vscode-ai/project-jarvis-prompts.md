@@ -1,3 +1,7 @@
+---
+tags: [skills]
+---
+
 # Prompts para PROJECT_JARVIS_5.0
 
 Este arquivo contém prompts focados no projeto `PROJECT_JARVIS_5.0`, com ênfase em IA local, RAG, memória e integração.

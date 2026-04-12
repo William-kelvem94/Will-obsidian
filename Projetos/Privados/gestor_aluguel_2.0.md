@@ -1,36 +1,46 @@
 ---
 title: "gestor_aluguel_2.0 (Clonado)"
-source: "C:/Users/willi/Documents/GitHub/gestor_aluguel_2.0"
+source: "d:/Documents/GitHub/gestor_aluguel_2.0"
 language: TypeScript
 private: true
-description: "SaaS Imobiliário Next.js 15 enterprise com Prisma, AI Gemini, multi-tenant, Asaas pagamentos, portal inquilino."
-updated: "16h ago"
-tags:
-  - projetos
-  - privados
-  - nextjs
-  - typescript
-  - prisma
-  - saas
-  - ai
+description: "Plataforma SaaS Imobiliária Enterprise: Next.js 15, Multi-tenant, AI-Driven."
+updated: 2026-04-12
+tags: [privados, nextjs, typescript, prisma, saas, ai]
 ---
 
-# gestor_aluguel_2.0 [[../Projetos.md|Projetos]] [[GitHub-Completo]]
+# Gestor de Aluguel 2.0 🏠 [[../Projetos.md|Projetos]] [[GitHub-Completo]]
 
-**Private Clone | Next.js 15.5.6/TS | Atualizado 16h ago**
+**Status**: 🚀 Produção / Estabilização
+**Escala**: Enterprise Multi-tenant (43+ Models Prisma)
 
-Plataforma SaaS gestão imobiliária: imóveis, inquilinos, contratos TipTap Yjs, financeiro Asaas, manutenção, AI Gemini (predição inadimplência, OCR), multi-tenant Prisma 43 models.
+O projeto mais robusto do portfolio, focando em automação total do ciclo de vida imobiliário, desde o anúncio até a gestão de inadimplência assistida por IA.
 
-**Estrutura** (enterprise):
-- `src/` (middleware-tenant, lib/ai, services, hooks)
-- `docs/` (~70 arquivos: AI_SYSTEM.md, DEPLOY_CHECKLIST.md)
-- Prisma schema, Docker, scripts data-massive, tests e2e Playwright
+## 🛠️ Enterprise Tech Stack
+| Camada | Tecnologia |
+|---|---|
+| **Framework** | Next.js 15 (App Router) |
+| **Linguagem** | TypeScript (Strict Mode) |
+| **ORM / DB** | Prisma + PostgreSQL / MongoDB |
+| **Autenticação** | NextAuth.js + MFA/TOTP |
+| **Inteligência** | Google Gemini API (Análise de Risco/OCR) |
+| **Financeiro** | Asaas (Webhooks / Split de Pagamentos) |
+| **Infra** | Docker + Traefik + Sentry |
 
-**Funcionalidades** (de README):
-- MFA/TOTP, rate limiting, audit log, real-time Socket.io
-- Portal inquilino separado, n8n integrações, WhatsApp WAHA
-- Sentry, Pino logging, Dependabot security
+## 🏗️ Arquitetura e Estrutura
+- `src/app/(auth)` / `(dashboard)` / `(tenant)`: Estrutura de rotas protegidas e multi-tenancy.
+- `src/lib/ai/`: Wrappers para Gemini e análise preditiva de pagamentos.
+- `prisma/schema.prisma`: Schema complexo com 43 modelos (Imóveis, Contratos, Tickets, AuditLogs).
+- `infrastructure/`: Configurações de CI/CD e Docker de produção.
 
-**Run**: `npm run docker:dev`
+## 💎 Funcionalidades Nucleares
+- **Multi-tenancy Físico/Lógico**: Separação rigorosa de dados por imobiliária.
+- **Contratos Dinâmicos**: Editor TipTap com colaboração real-time via Yjs.
+- **Inteligência de Risco**: Predição de inadimplência baseada em histórico de pagamentos Asaas.
+- **Manutenção Automatizada**: Abertura de tickets via WhatsApp (integrado com WAHA).
 
-**Links**: [[Projetos/Outros/Gestor Aluguel 2.0]] (versão anterior) | [[GitHub-Completo]] #saas #prisma #gemini
+## 🚀 Próximas Implementações (Sprint Atual)
+- [ ] Refatoração da camada de `UserService` para padrões de Clean Architecture.
+- [ ] Implementação de Testes E2E complexos com Playwright.
+- [ ] Integração nativa com o hub JARVIS para automação via voz de relatórios.
+
+**Links:** [[Projetos/Outros/Gestor Aluguel 2.0]] | [[GitHub-Completo]] | [[Projetos/EstudosPesquisas/Prisma-Performance|Guia Prisma]] #saas #enterprise #nextjs

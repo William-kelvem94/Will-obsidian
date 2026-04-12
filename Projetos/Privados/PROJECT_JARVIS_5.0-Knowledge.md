@@ -6,6 +6,7 @@ tag:
   - knowledge
   - assistant
   - fullstack
+tags: [privados]
 ---
 
 # PROJECT_JARVIS_5.0 Knowledge Base

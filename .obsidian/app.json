@@ -1,3 +1,7 @@
 {
-  "showUnsupportedFiles": true
+  "showUnsupportedFiles": false,
+  "userIgnoreFilters": [
+    ".scripts/**",
+    ".git/**"
+  ]
 }

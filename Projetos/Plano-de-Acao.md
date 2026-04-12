@@ -3,6 +3,7 @@ title: "Plano de Ação dos Projetos"
 description: "Checklist detalhado de ações, prioridades e próximos passos para os projetos do vault Obsidian."
 tags:
   - plano
+  - projetos
   - acoes
   - projetos
   - hub

@@ -1,3 +1,7 @@
+---
+tags: [projetos]
+---
+
   ---
 title: "Evolução openclaude-wk"
 description: "Ollama providers + Bun runtime, Firecrawl scrape free tier."

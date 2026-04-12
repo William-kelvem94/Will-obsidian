@@ -1,3 +1,7 @@
+---
+tags: [skills]
+---
+
 # Prompts Prontos para Agente de Chat Local
 
 Use estes prompts diretamente no seu agente de chat local (Ollama, OpenClaude, Claude, etc.). Eles foram formulados para o projeto `PROJECT_JARVIS_5.0` e para tarefas de desenvolvimento em VS Code.

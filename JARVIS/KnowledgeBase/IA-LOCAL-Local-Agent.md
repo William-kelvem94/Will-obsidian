@@ -3,6 +3,7 @@ title: "IA-LOCAL Local Agent"
 description: "Documentação do agente IA-LOCAL rodando localmente com Obsidian como base de conhecimento."
 tags:
   - ia-local
+  - jarvis
   - agent
   - local
   - obsidian

@@ -1,0 +1,30 @@
+/* Coloring for tags in Obsidian */
+.tag {
+    font-weight: 600;
+    padding: 1px 6px;
+    border-radius: 4px;
+}
+
+.tag[href="#hub"] { background-color: #f97316 !important; color: white !important; }
+.tag[href="#projetos"] { background-color: #22c55e !important; color: white !important; }
+.tag[href="#privados"] { background-color: #15803d !important; color: white !important; }
+.tag[href="#jarvis"] { background-color: #2563eb !important; color: white !important; }
+.tag[href="#estudos"], .tag[href="#pesquisas"] { background-color: #c084fc !important; color: white !important; }
+.tag[href="#memoria"], .tag[href="#decisao"] { background-color: #dc2626 !important; color: white !important; }
+.tag[href="#perfil"] { background-color: #0ea5e9 !important; color: white !important; }
+.tag[href="#template"] { background-color: #14b8a6 !important; color: white !important; }
+
+/* Dashboard-like improvements */
+.markdown-rendered h1 {
+    border-bottom: 2px solid var(--interactive-accent);
+    padding-bottom: 0.5rem;
+}
+
+.markdown-rendered table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.markdown-rendered th {
+    background-color: var(--background-secondary-alt);
+}

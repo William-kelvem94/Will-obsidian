@@ -3,6 +3,7 @@ title: "Finanças — orçamento e metas"
 description: "Resumo das finanças pessoais, metas e controle de fluxo de caixa." 
 tags:
   - financeiro
+  - perfil
   - finanças
   - orçamento
 ---

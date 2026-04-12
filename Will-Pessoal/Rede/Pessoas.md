@@ -3,6 +3,7 @@ title: "Rede — contatos e parcerias"
 description: "Registro de pessoas, parceiros e conexões importantes para projetos e aprendizado." 
 tags:
   - rede
+  - perfil
   - pessoas
   - networking
 ---

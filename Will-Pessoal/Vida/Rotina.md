@@ -2,6 +2,7 @@
 title: "Rotina — Will"
 description: "Padrões de rotina, horários e hábitos de Will para o Jarvis contextualizar interações."
 tags: [will, rotina, habitos, contexto, jarvis]
+  - perfil
 updated: 2026-04-09
 ---
 

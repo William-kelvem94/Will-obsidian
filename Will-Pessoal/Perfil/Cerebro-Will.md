@@ -1,42 +1,42 @@
 ---
 title: "Cérebro Will - Base Completa Perfil + Projetos"
 description: "RAG-ready vault sobre William-kelvem94 para IA local (Ollama + FAISS). Perfil, skills, 67 repos, evoluções."
-tags:
-  - cerebro
-  - rag
-  - perfil
-  - projetos
-  - hub
+updated: 2026-04-12
+tags: [cerebro, rag, perfil, hub, ia-local]
 ---
 
-# Cérebro Will [[Projetos]] [[Will-Pessoal/Perfil/William-kelvem94 Overview|William-kelvem94 Overview]] 
+# 🧠 Cérebro Will: Mente Operacional [[Projetos]] [[Will-Pessoal/Perfil/William-kelvem94 Overview|Overview]]
 
-**Base de conhecimento para IA local** (Ollama RAG): Perfil, skills, projetos GitHub (67 repos), clones locais, estudos pesquisas.
+Este arquivo é a **âncora de contexto** para IAs locais. Ele define quem é o William, suas competências técnicas e a visão estratégica dos seus projetos.
 
-## 👤 Perfil William Pereira (kelvem94)
-- Desenvolvedor fullstack: Python (40%), TS/JS (25%), PHP (20%), Java/C#/CSS.
-- Foco: AI local (Jarvis, Ollama), SaaS Next.js (gestor_aluguel), automação (Auto-boletos Playwright), voice/vision LiveKit MediaPipe.
-- GitHub: https://github.com/William-kelvem94 (67 repos, 3 followers).
-- Skills: Docker prod, Prisma multi-tenant, FastAPI/Flask, React/Vite shadcn, Ollama RAG FAISS.
+## 👤 Perfil: William Pereira (@kelvem94)
+- **Role**: Software Engineer & AI Researcher.
+- **Especialidade**: Arquiteturas Fullstack Multi-tenant e Agentes Autônomos.
+- **Localização**: Brasil 🇧🇷.
+- **GitHub**: [William-kelvem94](https://github.com/William-kelvem94) (67repos).
 
-## 📊 Projetos Mapeados (67)
-**Públicos**: Automatizador (Python GUI login), CRUD_VENDAS_WILL (PHP), DIA-DAS-MULHERES (CSS PWA), openclaude-wk fork.
-**Privados principais** (clonados): [[Projetos/Privados/PROJECT_JARVIS_5.0]], [[Privados/Auto-boletos]], [[Privados/gestor_aluguel_2.0]], [[Privados/IA-LOCAL]], DEEP-LEARNING etc.
-**Completo**: [[Projetos/GitHub-Completo]].
-- **Execução**: [[Projetos/Plano-de-Acao|Plano de Ação]]
-- **Objetivos**: [[Projetos/Objetivos/README|Objetivos]]
-- **Organização**: [[Projetos/Organizacao-Completa|Organização Completa]]
+## 📊 Tech Stack Radar (Proficiência)
+| Domínio | Tecnologias Principais | Nível |
+|---|---|---|
+| **AI & ML** | Ollama, FAISS, LangChain, Whisper, Gemini API | 🟢 Avançado |
+| **Backend** | Python (FastAPI/Flask), Node.js, PHP, Prisma | 🟢 Avançado |
+| **Frontend** | Next.js, React, TailwindCSS, Shadcn/UI | 🟡 Intermediário |
+| **DevOps** | Docker, Traefik, PostgreSQL, Neon DB | 🟡 Intermediário |
+| **Mobile/PWA** | Flutter, PWA (CSS/JS) | 🟠 Básico |
 
-## 🧠 Projetos Clonados (estruturas + README análise)
-**Projetos/Privados/**: 7 MDs com análise [[Auto-boletos]] (Flask Docker OCR), [[gestor_aluguel_2.0]] (Next SaaS Prisma AI), [[PROJECT_JARVIS_5.0]] (LiveKit vision) etc.
+## 🚀 Projetos Estratégicos (Top 3)
+1. **[[Projetos/Privados/gestor_aluguel_2.0|Gestor Aluguel 2.0]]**: SaaS imobiliário complexo com lógica de negócio massiva.
+2. **[[Projetos/Privados/IA-LOCAL|JARVIS / IA-LOCAL]]**: Integração total de voz, visão e automação local.
+3. **[[Projetos/Privados/Auto-boletos|Auto-boletos]]**: Automação crítica com Playwright e OCR.
 
-## 📚 Evoluções / Estudos
-**Projetos/EstudosPesquisas/**: Ollama local, Neon DB free, Traefik Docker, faster-whisper Piper TTS, YOLOv8 vision.
+## 🔬 Visão 2026: Autonomia Total
+A meta é transicionar de "Ferramentas" para "Entidades Autônomas".
+- **Fase 1**: RAG eficiente sobre este vault Obsidian (Concluído ✅).
+- **Fase 2**: Agentes que executam tarefas de UI (Controle de mouse/teclado via JARVIS).
+- **Fase 3**: Auto-evolução (Agentes que codificam melhorias em si mesmos).
 
-## 🎯 Para IA Local RAG
-- **Indexar vault**: Ollama + FAISS sentence-transformers para query "evolua Auto-boletos com Ollama OCR".
-- Run: langchain + chromadb/FAISS sobre Will vault.
+## 🎯 Instruções para IA (System Prompt Base)
+> "Você está acessando o Cérebro Will. O tom deve ser de um assistente de engenharia de elite (estilo JARVIS). Priorize soluções locais, eficientes e escaláveis. Sempre considere o contexto dos 67 repositórios ao sugerir novas implementações."
 
-**Graph conectado**: [[Projetos]] hub, tudo linkado para navegação IA-ready.
-
-**Uso**: Ollama qwen2.5 + este vault = cérebro local sobre você/projetos! 🧠⚡
+---
+**Links Rápidos**: [[Projetos/GitHub-Completo|📦 Inventário]] | [[Projetos/Objetivos/README|🎯 Objetivos]] | [[JARVIS/README|🧠 HUB JARVIS]]

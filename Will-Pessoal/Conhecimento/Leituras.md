@@ -3,6 +3,7 @@ title: "Leituras e cursos — aprendizado contínuo"
 description: "Registro de livros, cursos e estudos que alimentam o conhecimento pessoal e técnico." 
 tags:
   - leitura
+  - perfil
   - estudo
   - aprendizado
 ---

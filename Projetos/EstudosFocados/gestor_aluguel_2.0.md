@@ -3,6 +3,7 @@ title: "Estudos Focado: gestor_aluguel_2.0"
 description: "Documento de estratégia para o gestor_aluguel_2.0: produto SaaS imobiliário, monetização e roadmap de AI local." 
 tags:
   - gestor
+  - projetos
   - analise
   - estrategia
   - saas

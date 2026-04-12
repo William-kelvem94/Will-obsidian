@@ -3,6 +3,7 @@ title: "Jarvis Knowledge Base Integration"
 description: "Guia de integração entre a base de conhecimento do Jarvis e o código real do projeto." 
 tags:
   - jarvis
+  - privados
   - integration
   - knowledge
   - config

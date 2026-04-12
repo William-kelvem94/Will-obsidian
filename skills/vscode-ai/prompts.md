@@ -1,3 +1,7 @@
+---
+tags: [skills]
+---
+
 # Prompt Templates para VS Code AI
 
 ## Padrões de prompt

@@ -3,6 +3,7 @@ title: "PROJECT_JARVIS_5.0 Knowledge"
 description: "Base de conhecimento para Jarvis ser um assistente virtual completo e integrado." 
 tags:
   - jarvis
+  - privados
   - knowledge
   - assistant
 ---

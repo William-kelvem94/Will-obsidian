@@ -3,6 +3,7 @@ title: "Objetivos do Vault de Projetos"
 description: "Pasta de objetivos e metas para organizar prioridades, OKRs e ciclos de 90 dias no vault de projetos." 
 tags:
   - objetivos
+  - projetos
   - metas
   - projetos
   - estrategia

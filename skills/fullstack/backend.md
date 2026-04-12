@@ -1,3 +1,7 @@
+---
+tags: [skills]
+---
+
 # Backend Skills - Node/Express/Python
 
 ## Prompts para desenvolvimento backend

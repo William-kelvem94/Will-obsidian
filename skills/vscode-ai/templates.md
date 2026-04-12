@@ -1,3 +1,7 @@
+---
+tags: [skills]
+---
+
 # Templates de Prompt — VS Code AI
 
 Use estes modelos como base para criar prompts consistentes e reutilizáveis.

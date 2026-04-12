@@ -3,6 +3,7 @@ title: "Saúde — bem-estar e energia"
 description: "Registro de hábitos de saúde, sono, alimentação e bem-estar mental." 
 tags:
   - saúde
+  - perfil
   - bem-estar
   - energia
 ---

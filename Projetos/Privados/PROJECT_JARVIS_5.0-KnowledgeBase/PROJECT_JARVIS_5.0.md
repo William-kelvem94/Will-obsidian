@@ -3,6 +3,7 @@ title: "PROJECT_JARVIS_5.0 (Knowledge Base)"
 description: "Cópia da visão geral do projeto Jarvis para a base de conhecimento." 
 tags:
   - jarvis
+  - privados
   - knowledge
   - project
 ---

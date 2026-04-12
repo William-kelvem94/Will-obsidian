@@ -26,7 +26,11 @@ Organização de skills para usar com OpenClaude (LM Studio local).
 - [[vscode-ai/best-practices|Boas Práticas]] — recomendações para uso adequado de IA no VS Code
 - [[vscode-ai/quick-reference|Referência Rápida]] — atalho para operadores, prompts e workflows
 
-## MCP
-- [[mcp-tools]] File/terminal MCPs
+## MCP & Automação
+- [[mcp-tools]] — File/terminal MCPs e padrões.
+- [[autonomous-workflow]] — Protocolos para agentes autônomos.
+- `.scripts/mcp-vault-server/` — Servidor MCP local para o Vault.
+
+## Índices
 - [[skills/vscode-ai/INDEX|VS Code AI Index]]
 - [[skills/fullstack/INDEX|Fullstack Index]]

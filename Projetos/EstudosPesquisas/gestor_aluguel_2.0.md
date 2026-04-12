@@ -3,6 +3,7 @@ title: "Evolução gestor_aluguel_2.0"
 description: "SaaS Next.js: Supabase free tier, Ollama AI local, Prisma Neon serverless."
 tags:
   - gestor
+  - projetos
   - evolucao
 ---
 

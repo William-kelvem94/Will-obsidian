@@ -1,15 +1,16 @@
 # Obsidian Vault Gitignore
-# BLACKBOXAI generated
 
 # Temp files
 TODO.md
 *.tmp
 .DS_Store
 
-# Obsidian config (local)
+# Obsidian config (local e dinâmico)
 .obsidian/workspace*
 .obsidian/workspace.json
 .obsidian/workspace-mobile.json
+.obsidian/page-preview.json
+.obsidian/webviewer.json
 
 # Logs
 *.log
@@ -17,3 +18,8 @@ TODO.md
 # OS
 Thumbs.db
 ehthumbs.db
+
+# Technical Folders (Ignore dependencies but keep scripts)
+**/node_modules/
+.scripts/**/node_modules/
+.scripts/mcp-vault-server/package-lock.json

@@ -3,6 +3,7 @@ title: "Estudos e Pesquisas"
 description: "Recursos gratuitos/locais para evoluir projetos (Jarvis, Auto-boletos, gestor_aluguel, IA-LOCAL etc.). Tutoriais, docs, best practices."
 tags:
   - estudos
+  - projetos
   - pesquisas
   - evolucao
   - hub

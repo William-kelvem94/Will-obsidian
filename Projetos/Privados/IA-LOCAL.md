@@ -1,27 +1,50 @@
 ---
 title: "IA-LOCAL (Clonado)"
-source: "C:/Users/willi/Documents/GitHub/IA-LOCAL"
+source: "d:/Documents/GitHub/IA-LOCAL"
 language: Python
 private: true
-description: "JARVIS IA assistente com memória FAISS, voz Whisper/TTS, PC control pyautogui."
-updated: "2 weeks ago"
-tags:
-  - projetos
-  - privados
-  - python
-  - jarvis
-  - voice
+description: "Assistente de IA avançado (JARVIS) com memória vetorial, processamento de voz e capacidades de automação de desktop."
+updated: 2026-04-12
+tags: [privados, python, jarvis, ai, voice]
 ---
 
-# IA-LOCAL [[../Projetos.md|Projetos]] [[GitHub-Completo]]
+# IA-LOCAL: JARVIS Core 🧠 [[../Projetos.md|Projetos]] [[GitHub-Completo]]
 
-**Private Clone | Python JARVIS | 2 weeks ago**
+**Status**: 🏗️ Em Desenvolvimento Ativo
+**Foco**: Autonomia Local e Memória Persistente
 
-JARVIS assistente com memória vetorial FAISS, voice Whisper/TTS, PC controller, aprendizado. start.bat instala tudo.
+O **IA-LOCAL** é o motor principal por trás do JARVIS, integrando modelos de linguagem locais e remotos com um sistema de memória vetorial para criar um "segundo cérebro" operacional.
 
-**Estrutura**:
-- `jarvis_project/core/` (jarvis_brain.py, memory_manager.py)
-- `interfaces/` (voice_interface.py, pc_controller.py)
-- requirements.txt, .env (OpenRouter API)
+## 🛠️ Tech Stack
+| Categoria | Tecnologia |
+|---|---|
+| **Linguagem** | Python 3.8+ |
+| **Memória** | FAISS + Sentence Transformers |
+| **Voz** | OpenAI Whisper (STT) + PyTTsx3/TTS |
+| **Automação** | PyAutoGUI + Keyboard |
+| **Modelos** | Llama.cpp / OpenRouter API |
+| **Infra** | Docker + Docker Compose |
 
-**Links**: [[GitHub-Completo]] #jarvis #faiss #whisper
+## 🏗️ Arquitetura do Sistema
+- `jarvis_project/core/`:
+    - `jarvis_brain.py`: Motor de decisão e lógica de conversação.
+    - `memory_manager.py`: Interface com banco vetorial para RAG.
+- `jarvis_project/interfaces/`:
+    - `pc_controller.py`: Módulo de visão e controle de hardware.
+    - `voice_interface.py`: Gerenciamento de buffers de áudio e transcrição.
+- `jarvis_project/learning/`:
+    - `dream_generator.py`: Processamento em background de memórias para evolução criativa.
+
+## 🚀 Roadmap de Evolução
+- [x] Memória Vetorial Persistente
+- [x] Interface de Voz Experimental
+- [ ] **Visão Computacional**: Screenshot analysis para contexto visual.
+- [ ] **API REST**: Interface para conexão com dashboards externos.
+- [ ] **Fine-Tuning Loop**: Automação da coleta de dados para treinamento LoRA.
+
+## 🔗 Conexões no Vault
+- [[JARVIS/README|🧠 Hub JARVIS]]: Central de memórias e decisões.
+- [[Projetos/EstudosPesquisas/README|🔬 Recursos]]: Documentação local de IA.
+- [[skills/autonomous-workflow|🧠 Workflow AAW]]: Como gerenciar este código como agente.
+
+**Links:** [[GitHub-Completo]] | [[Projetos/Plano-de-Acao|Plano de Ação]] #jarvis #faiss #whisper #python

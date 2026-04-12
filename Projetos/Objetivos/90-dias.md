@@ -3,6 +3,7 @@ title: "90 Dias de Objetivos"
 description: "Plano de 90 dias para projetos prioritários do vault, com metas e entregáveis concretos." 
 tags:
   - objetivos
+  - projetos
   - 90-dias
   - metas
 ---

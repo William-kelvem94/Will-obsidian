@@ -3,6 +3,7 @@ title: "PROJECT_JARVIS_5.0 Architecture"
 description: "Arquitetura do Jarvis duplicada para a base de conhecimento." 
 tags:
   - jarvis
+  - privados
   - architecture
   - assistente
 ---

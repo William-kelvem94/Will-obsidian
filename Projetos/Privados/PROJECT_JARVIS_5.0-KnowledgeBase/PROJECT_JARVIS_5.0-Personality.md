@@ -3,6 +3,7 @@ title: "PROJECT_JARVIS_5.0 Personality"
 description: "Persona do Jarvis duplicada para a base de conhecimento dedicada." 
 tags:
   - jarvis
+  - privados
   - personality
   - assistant
 ---

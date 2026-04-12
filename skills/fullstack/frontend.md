@@ -1,3 +1,7 @@
+---
+tags: [skills]
+---
+
 # Frontend Skills - React/Vue/JS
 
 ## Prompts para OpenClaude

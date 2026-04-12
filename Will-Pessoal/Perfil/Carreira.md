@@ -3,6 +3,7 @@ title: "Carreira — trajetória e objetivos"
 description: "Registro das experiências, aprendizados e metas de carreira de William." 
 tags:
   - carreira
+  - perfil
   - objetivos
   - historia
 ---

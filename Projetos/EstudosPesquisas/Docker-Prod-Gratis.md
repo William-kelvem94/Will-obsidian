@@ -3,6 +3,7 @@ title: "Docker Prod Gratuito"
 description: "Traefik, Portainer CE, Watchtower auto-update para Jarvis/Auto-boletos."
 tags:
   - docker
+  - projetos
   - prod
   - gratuita
 ---

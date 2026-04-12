@@ -3,6 +3,7 @@ title: "Evolução IA-LOCAL (JARVIS)"
 description: "FAISS memória avançada, Whisper Turbo, Piper TTS PT-BR, pyautogui stealth."
 tags:
   - jarvis
+  - projetos
   - evolucao
 ---
 

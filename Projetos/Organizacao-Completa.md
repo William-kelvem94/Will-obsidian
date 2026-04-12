@@ -4,6 +4,7 @@ description: "Visão geral da estrutura, índices, projetos públicos, privados 
 tags:
   - organizacao
   - projetos
+  - projetos
   - vault
   - hub
 ---

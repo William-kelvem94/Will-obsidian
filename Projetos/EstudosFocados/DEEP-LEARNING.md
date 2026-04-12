@@ -3,6 +3,7 @@ title: "Estudos Focado: DEEP-LEARNING"
 description: "Documento estratégico para o projeto DEEP-LEARNING: missão, valor, arquitetura e roadmap de agente AI local." 
 tags:
   - deep-learning
+  - projetos
   - analise
   - estrategia
   - ai

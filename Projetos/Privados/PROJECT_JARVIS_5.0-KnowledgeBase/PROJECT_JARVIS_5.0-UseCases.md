@@ -3,6 +3,7 @@ title: "Jarvis Use Cases"
 description: "Lista de casos de uso estratégicos que o Jarvis deve resolver com sua base de conhecimento e código." 
 tags:
   - jarvis
+  - privados
   - usecases
   - knowledge
 ---

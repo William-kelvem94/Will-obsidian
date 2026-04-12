@@ -8,6 +8,7 @@ updated: "2026"
 tags:
   - projetos
   - privados
+  - privados
   - python
   - flask
   - docker

@@ -3,6 +3,7 @@ title: "OKRs do Vault de Projetos"
 description: "Objetivos e resultados-chave para guiar o progresso dos projetos estratégicos do vault." 
 tags:
   - okr
+  - projetos
   - objetivos
   - metas
   - projetos

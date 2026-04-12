@@ -7,6 +7,7 @@ description: "CLI coding-agent multi-provider (OpenAI, Gemini, Ollama, GitHub Mo
 tags:
   - projetos
   - privados
+  - privados
   - typescript
   - cli
   - ai-agent

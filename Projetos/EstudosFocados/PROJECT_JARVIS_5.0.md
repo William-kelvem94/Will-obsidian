@@ -3,6 +3,7 @@ title: "Estudos Focado: PROJECT_JARVIS_5.0"
 description: "Documento estratégico do PROJECT_JARVIS_5.0: visão multimodal, voz, visão e agentes autônomos." 
 tags:
   - jarvis
+  - projetos
   - analise
   - estrategia
   - voz

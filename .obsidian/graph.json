@@ -6,17 +6,74 @@
   "hideUnresolved": true,
   "showOrphans": true,
   "collapse-color-groups": true,
-  "colorGroups": [],
+  "colorGroups": [
+    {
+      "query": "tag:#hub OR path:Bem-vindo.md OR path:Projetos.md",
+      "color": {
+        "a": 1,
+        "rgb": 16347926
+      }
+    },
+    {
+      "query": "tag:#projetos OR path:Projetos/",
+      "color": {
+        "a": 1,
+        "rgb": 2278750
+      }
+    },
+    {
+      "query": "tag:#privados OR path:Projetos/Privados/",
+      "color": {
+        "a": 1,
+        "rgb": 1409341
+      }
+    },
+    {
+      "query": "tag:#jarvis OR path:JARVIS/",
+      "color": {
+        "a": 1,
+        "rgb": 2450411
+      }
+    },
+    {
+      "query": "tag:#estudos OR tag:#pesquisas OR path:Projetos/EstudosPesquisas/ OR path:Projetos/EstudosFocados/",
+      "color": {
+        "a": 1,
+        "rgb": 12616956
+      }
+    },
+    {
+      "query": "tag:#memoria OR tag:#decisao OR path:JARVIS/Memorias/ OR path:JARVIS/Decisoes/",
+      "color": {
+        "a": 1,
+        "rgb": 14427686
+      }
+    },
+    {
+      "query": "tag:#perfil OR path:Will-Pessoal/",
+      "color": {
+        "a": 1,
+        "rgb": 959977
+      }
+    },
+    {
+      "query": "tag:#template OR path:JARVIS/Templates/",
+      "color": {
+        "a": 1,
+        "rgb": 1357990
+      }
+    }
+  ],
   "collapse-display": true,
   "showArrow": false,
   "textFadeMultiplier": 0,
-  "nodeSizeMultiplier": 1,
+  "nodeSizeMultiplier": 1.2,
   "lineSizeMultiplier": 1,
   "collapse-forces": true,
   "centerStrength": 0.708333333333333,
   "repelStrength": 11.25,
   "linkStrength": 1,
   "linkDistance": 250,
-  "scale": 0.19450022690615804,
+  "scale": 0.19450022690615765,
   "close": true
 }

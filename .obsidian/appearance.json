@@ -1,4 +1,7 @@
 {
   "accentColor": "#a1f55c",
-  "nativeMenus": true
+  "nativeMenus": true,
+  "enabledSnippets": [
+    "vault-theme"
+  ]
 }

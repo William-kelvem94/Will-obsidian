@@ -3,6 +3,7 @@ title: "Biografia — William Pereira"
 description: "Breve narrativa pessoal sobre origem, motivação e visão de Will." 
 tags:
   - bio
+  - perfil
   - pessoal
   - identidade
 ---
