@@ -22,6 +22,14 @@ Sistema moderno e completo que associa imóveis cadastrados aos dados oficiais d
 - **IA**: OCR Tesseract + Memória local (Ollama).
 - **Frontend**: React/Vite com design responsivo (Tailwind).
 
+## 🎯 Meta 90 Dias (Ciclo Abr/Jun 2026)
+- [ ] Parser OCR semântico implementado.
+- [ ] Neon Postgres e Prisma operando.
+- [ ] Frontend shadcn com revisão de boleto.
+- [ ] Documentação de deploy local e CI.
+
+**Estratégia**: [[../EstudosFocados/Auto-boletos|Análise Técnica de Automação]]
+
 ## 🏗️ Estrutura
 - `src/`: Lógica de automação e modelos de dados.
 - `frontend/`: Dashboard de controle dos boletos.

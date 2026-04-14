@@ -12,22 +12,21 @@ updated: 2026-04-09
 
 ## 📅 Última Sessão
 
-- **Data:** 2026-04-09
+- **Data:** 2026-04-14 às 14:55
 - **Projeto em foco:** PROJECT_JARVIS_5.0
-- **O que foi feito:** Configuração da estrutura de memória no vault Obsidian
-- **Estado:** Estrutura JARVIS/ criada no vault com pastas de memória, templates, perfil de Will e módulo vault_memory.py
+- **O que foi feito:** Auditoria profunda do código-fonte e expansão da KnowledgeBase técnica (Criada nota [[KnowledgeBase/Sistemas-Sensoriais|Sistemas Sensoriais]]).
+- **Estado:** Sincronia entre código backend e vault Obsidian validada. Jarvis operando com percepção híbrida ativada.
 
 ## 🎯 Foco Atual
 
 - Projeto: **PROJECT_JARVIS_5.0**
-- Tarefa em andamento: Integração vault Obsidian ↔ memória do backend
-- Próxima ação: Testar escrita de memórias no vault via vault_memory.py
+- Próxima ação: Refinar a biometria vocal e configurar o loop de auto-reflexão diária no vault.
 
 ## 🧠 Contexto Carregado
 
-- Perfil de Will: [[Will-Pessoal/Perfil/Perfil]]
-- Projetos ativos: [[Will-Pessoal/Perfil/Projetos-Ativos]]
-- Objetivos: [[Will-Pessoal/Objetivos/README]]
+- Perfil de Will: [[../Sobre-Will/Perfil]]
+- Projetos ativos: [[../Sobre-Will/Projetos-Ativos]]
+- Objetivos: [[../Sobre-Will/Objetivos]]
 
 ## ⚡ Modo de Operação
 

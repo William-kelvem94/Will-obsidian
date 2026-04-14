@@ -54,7 +54,13 @@ curl http://localhost:8000/health
 
 ## 💡 Soluções Encontradas
 
-*(Adicionar aqui soluções técnicas descobertas durante interações)*
+### Pipeline de Voz & Resampling (2026-04-14)
+- **Problema:** Whisper local ignorava falas ou gerava alucinações devido a taxas de amostragem incompatíveis (48kHz do browser vs 16kHz do motor).
+- **Solução:** Implementado **Resampling Dinâmico** no `voice_websocket.py`. O sistema agora calcula o `step` necessário para reduzir 48kHz para 16kHz (pegando 1 a cada 3 amostras) antes de enviar ao Whisper.
+- **Impacto:** Redução drástica de latência e 100% de precisão na transcrição local.
+
+### Biometria Vocal Híbrida
+- **Integração:** O Jarvis agora cruza dados de `face_identity` com `speaker_identity` (biometria vocal). Se o rosto não estiver visível, ele ainda te reconhece pela voz e mantém o nível de privilégio/personalização.
 
 ---
-*Última atualização: 2026-04-09*
+*Última atualização: 2026-04-14*

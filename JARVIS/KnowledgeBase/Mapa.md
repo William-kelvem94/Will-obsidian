@@ -14,21 +14,22 @@ Este documento mapeia toda a base de conhecimento do Jarvis e mostra como cada p
 
 ## Visão geral da estrutura
 
-- `D:\OBSIDIAN\Will\Projetos\Privados\PROJECT_JARVIS_5.0-KnowledgeBase`
+- `JARVIS/KnowledgeBase/`
   - [[README|README.md]] — guia principal e explicação da KB.
   - [[CONFIG|CONFIG.md]] — variáveis de ambiente e caminhos de configuração.
   - [[INDEX|INDEX.md]] — índice textual dos arquivos e seus propósitos.
-  - [[RULES|RULES.md]] — regras de criação e atualização da base.
-  - [[PROJECT_JARVIS_5.0-Map|PROJECT_JARVIS_5.0-Map.md]] — mapa visual da KB e suas relações.
-  - [[PROJECT_JARVIS_5.0-SecondBrain|PROJECT_JARVIS_5.0-SecondBrain.md]] — definição do segundo cérebro e ingestão de conhecimento.
-  - [[PROJECT_JARVIS_5.0|PROJECT_JARVIS_5.0.md]] — visão geral do projeto, status e conexões.
-  - [[PROJECT_JARVIS_5.0-Knowledge|PROJECT_JARVIS_5.0-Knowledge.md]] — conteúdo técnico e humano que o Jarvis deve conhecer.
-  - [[PROJECT_JARVIS_5.0-Personality|PROJECT_JARVIS_5.0-Personality.md]] — persona, estilo, tom e respostas.
-  - [[PROJECT_JARVIS_5.0-Architecture|PROJECT_JARVIS_5.0-Architecture.md]] — arquitetura de alto nível e fluxo de dados.
-  - [[PROJECT_JARVIS_5.0-Strategy|PROJECT_JARVIS_5.0-Strategy.md]] — roadmap, metas e planos de desenvolvimento.
-  - [[PROJECT_JARVIS_5.0-Integration|PROJECT_JARVIS_5.0-Integration.md]] — como integrar a KB com o código real do projeto.
-  - [[PROJECT_JARVIS_5.0-UseCases|PROJECT_JARVIS_5.0-UseCases.md]] — casos de uso prioritários para Jarvis.
-  - [[PROJECT_JARVIS_5.0-Tools|PROJECT_JARVIS_5.0-Tools.md]] — tecnologias e papéis dos componentes.
+  - [[Regras|Regras.md]] — regras de criação e atualização da base.
+  - [[Mapa|Mapa.md]] — mapa visual da KB e suas relações.
+  - [[SegundoCerebro|SegundoCerebro.md]] — definição do segundo cérebro e ingestão de conhecimento.
+  - [[Visao-Geral|Visao-Geral.md]] — visão geral do projeto, status e conexões.
+  - [[Conhecimento|Conhecimento.md]] — conteúdo técnico e humano que o Jarvis deve conhecer.
+  - [[Personalidade|Personalidade.md]] — persona, estilo, tom e respostas.
+  - [[Arquitetura|Arquitetura.md]] — arquitetura de alto nível e fluxo de dados.
+  - [[Estrategia|Estrategia.md]] — roadmap, metas e planos de desenvolvimento.
+  - [[Integracao|Integracao.md]] — como integrar a KB com o código real do projeto.
+  - [[CasosDeUso|CasosDeUso.md]] — casos de uso prioritários para Jarvis.
+  - [[Ferramentas|Ferramentas.md]] — tecnologias e papéis dos componentes.
+  - [[Sistemas-Sensoriais|Sistemas-Sensoriais.md]] — visão, voz e biometria.
 
 ## Mapa de relacionamentos
 

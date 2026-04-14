@@ -22,6 +22,7 @@ updated: 2026-04-09
 | [[Ferramentas]] | Tecnologias e ferramentas do stack |
 | [[CasosDeUso]] | Cenários reais que o Jarvis deve resolver |
 | [[Integracao]] | Como integrar a KB com o código backend |
+| [[Sistemas-Sensoriais]] | Detalhamento técnico de visão, voz e biometria |
 | [[IA-LOCAL-Local-Agent]] | Arquitetura do agente IA-LOCAL local e uso do vault clonado |
 | [[IA-LOCAL-Obsidian-Usage]] | Guia de uso do vault clonado para IA-LOCAL |
 | [[SegundoCerebro]] | Definição e regras do segundo cérebro |
@@ -34,6 +35,7 @@ updated: 2026-04-09
 2. `Conhecimento.md` — o que sei
 3. `Estrategia.md` — para onde vou
 4. `Arquitetura.md` — como funciono
-5. `CasosDeUso.md` — o que faço
-6. `Ferramentas.md` — com o que trabalho
-7. Demais arquivos — contexto de suporte
+5. `Sistemas-Sensoriais.md` — como percebo o mundo
+6. `CasosDeUso.md` — o que faço
+7. `Ferramentas.md` — com o que trabalho
+8. Demais arquivos — contexto de suporte

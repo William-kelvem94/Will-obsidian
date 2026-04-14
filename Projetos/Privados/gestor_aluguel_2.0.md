@@ -22,4 +22,12 @@ Plataforma SaaS imobiliário completo com gestão de imóveis, inquilinos, contr
 - **Integrações**: WhatsApp (WAHA) e n8n para webhooks.
 - **Segurança**: MFA/TOTP, Audit Logs e Rate Limiting.
 
+## 🎯 Meta 90 Dias (Ciclo Abr/Jun 2026)
+- [ ] Deploy do frontend em Vercel.
+- [ ] Banco Postgres em Neon configurado.
+- [ ] Autenticação Clerk com MFA funcionando.
+- [ ] Fluxo de pagamento sandbox com Asaas/Stripe.
+
+**Estratégia**: [[../EstudosFocados/gestor_aluguel_2.0|Roadmap de Evolução SaaS]]
+
 **Links:** [[GitHub-Completo]] | [[Projetos/EstudosPesquisas/README|🔬 Recursos]] #saas #enterprise #nextjs #prisma

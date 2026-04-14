@@ -31,6 +31,14 @@ Organização de skills para usar com OpenClaude (LM Studio local).
 - [[autonomous-workflow]] — Protocolos para agentes autônomos.
 - `.scripts/mcp-vault-server/` — Servidor MCP local para o Vault.
 
-## Índices
-- [[skills/vscode-ai/INDEX|VS Code AI Index]]
-- [[skills/fullstack/INDEX|Fullstack Index]]
+## Pragmatic Execution Matrix (Internal Use)
+
+| Skill | Tool/Source | Quando usar |
+|---|---|---|
+| **Arquitetura Fullstack** | [[fullstack/README\|Fullstack Hub]] | Ao planejar novos módulos ou refatorar backend/frontend. |
+| **Automação Browser** | [[vscode-ai/mcp-operators\|MCP Operators]] | Tarefas de raspagem, login ou UI Testing. |
+| **Agent Workflow** | [[vscode-ai/mini-agent\|Mini-Agent]] | Protocolo padrão para leitura/edição/validação de código. |
+| **Jarvis Specialist** | [[vscode-ai/project-jarvis-prompts\|Jarvis Prompts]] | Ao codificar especificamente para o motor JARVIS 5.0. |
+
+---
+**Índices:** [[skills/vscode-ai/INDEX|VS Code AI]] | [[skills/fullstack/INDEX|Fullstack Architecture]]

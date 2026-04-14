@@ -29,14 +29,17 @@ Esta nota resume o estado atual do vault e os ajustes feitos para reduzir a bagu
 ## O que pode ser ajustado em seguida
 
 - Converter listas de arquivos em `skills/vscode-ai/README.md` e `skills/fullstack/README.md` para links ativos se quiser que eles apareçam mais claramente no grafo.
-- Criar um índice de `Will-Pessoal/Perfil` com links diretos para todas as notas do perfil.
+- Criar um índice de `Will-Pessoal/Perfil` com links diretos para todas as notas do perfil. (Iniciado via `JARVIS/Sobre-Will/Perfil.md`)
 - Adicionar um índice de `JARVIS/Memorias` se quiser que as memórias de diário e episódicas apareçam como parte da navegação.
+- **[Concluído 2026-04-14]** Reorganização da KnowledgeBase e criação do módulo `Sobre-Will/` para personalização profunda.
+- **[Concluído 2026-04-14]** Adição da nota técnica `Sistemas-Sensoriais.md` e limpeza de links legados no `Mapa.md`.
 
 ## Notas sobre arquivos que não precisam ser deletados
 
 Alguns arquivos podem parecer "soltos" no grafo, mas são normais:
 
-- `JARVIS/Memorias/Diario/*.md` e `JARVIS/Memorias/Episodicas/*.md` são entradas de memória temporal.
+- `JARVIS/Memorias/Diario/*.md` e `JARVIS/Memorias/Episodicas/*.md` são entradas de memória temporal. (Garantida persistência no Git via `.gitignore`)
+- `JARVIS/Sobre-Will/*.md` contém o contexto de personalização do usuário.
 - `skills/vscode-ai/*.md` e `skills/fullstack/*.md` são conteúdos de skill que já têm um hub central (`skills/README.md`).
 - Arquivos de perfil pessoal como `Will-Pessoal/Perfil/Bio.md` e `Will-Pessoal/Vida/Habitos.md` são notas de referência e não precisam de links internos em todos os lugares.
 

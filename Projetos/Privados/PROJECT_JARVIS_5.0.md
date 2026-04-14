@@ -53,13 +53,9 @@ Ecossistema Jarvis: voz real-time LiveKit, Gemini/OpenAI, visão face/gesture/vo
 - `PROJECT_JARVIS_5.0-KnowledgeBase` é o segundo cérebro canônico do Jarvis; o assistente deve consumir esta pasta primeiro.
 
 ## Configuração do Jarvis
-- Base de conhecimento oficial: `D:\OBSIDIAN\Will\Projetos\Privados\PROJECT_JARVIS_5.0-KnowledgeBase`
+- Base de conhecimento oficial: [[../../JARVIS/KnowledgeBase/INDEX|JARVIS KnowledgeBase]]
 - Pasta real do projeto de código: `C:\Users\willi\Documents\GitHub\PROJECT_JARVIS_5.0`
 - Vault raiz de organização: `D:\OBSIDIAN\Will`
-- Sugestão de variável de ambiente:
-  - `JARVIS_KB_PATH=D:\OBSIDIAN\Will\Projetos\Privados\PROJECT_JARVIS_5.0-KnowledgeBase`
-  - `JARVIS_PROJECT_ROOT=C:\Users\willi\Documents\GitHub\PROJECT_JARVIS_5.0`
-  - `JARVIS_VAULT_ROOT=D:\OBSIDIAN\Will`
 
 > Nota: Esta pasta de Knowledge Base é a consciência do Jarvis. O código do projeto vive em `C:\Users\willi\Documents\GitHub\PROJECT_JARVIS_5.0`.
 
@@ -81,9 +77,12 @@ Ecossistema Jarvis: voz real-time LiveKit, Gemini/OpenAI, visão face/gesture/vo
 - A automação via Playwright exige cuidado com foco de tela e estado do browser.
 - O uso de Gemini no backend aumenta custo e risco de dependência.
 
-## Próximos passos específicos
-- Extrair e documentar os comandos de `backend/`, `frontend/` e `docker/`.
-- Criar uma checklist de setup local para novo desenvolvedor.
-- Registrar o estado atual do modelo de voz e do modelo de visão.
+## 🎯 Meta 90 Dias (Ciclo Abr/Jun 2026)
+- [ ] Backend Ollama local integrado.
+- [ ] Pipeline de voz em LiveKit + Piper.
+- [ ] Visão leve com YOLOv8 nano.
+- [ ] Roteiro de agentes e orquestração inicial.
+
+**Estratégia**: [[../EstudosFocados/PROJECT_JARVIS_5.0|Pesquisa Multimodal Avançada]]
 
 **Links**: [[GitHub-Completo]] #livekit #mediapipe #fastapi

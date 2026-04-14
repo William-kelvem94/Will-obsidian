@@ -16,3 +16,9 @@ Coleção de READMEs e perfis importantes.
 **Tag:** #clippings
 
 > Todos arquivos em `./Clippings/` são recortes automáticos de GitHub.
+
+# Clippings
+Pasta destinada a capturas da web, artigos técnicos e pesquisas rápidas.
+
+> [!TIP]
+> **Otimização:** Utilize o plugin **MarkDownload** (browser) configurado para salvar arquivos nesta pasta com a tag `#pesquisa`. Isso alimentará a base de conhecimento do Jarvis com conteúdos externos de forma estruturada.
