@@ -6,6 +6,7 @@ tags:
   - perfil
   - estudo
   - aprendizado
+updated: 2026-04-15
 ---
 
 # Leituras e cursos

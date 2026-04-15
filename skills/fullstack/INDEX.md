@@ -1,3 +1,8 @@
+---
+tags: [skills]
+updated: 2026-04-15
+---
+
 # Fullstack Skills — Index
 
 Índice das notas do hub `skills/fullstack`.

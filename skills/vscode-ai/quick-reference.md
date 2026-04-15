@@ -1,3 +1,8 @@
+---
+tags: [skills]
+updated: 2026-04-15
+---
+
 # Referência Rápida — VS Code AI
 
 Use este arquivo como atalho rápido para operadores, prompts e workflows essenciais.

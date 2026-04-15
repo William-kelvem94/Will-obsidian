@@ -6,6 +6,7 @@ tags:
   - perfil
   - finanças
   - orçamento
+updated: 2026-04-15
 ---
 
 # Finanças

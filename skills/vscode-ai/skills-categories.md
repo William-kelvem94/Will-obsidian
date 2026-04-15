@@ -1,3 +1,8 @@
+---
+tags: [skills]
+updated: 2026-04-15
+---
+
 # Categorias de Skills para IA no VS Code
 
 ## Fullstack

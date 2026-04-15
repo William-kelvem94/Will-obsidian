@@ -7,6 +7,7 @@ tags:
   - privados
   - analise
   - hub
+updated: 2026-04-15
 ---
 
 # Projetos Privados Clonados
@@ -22,6 +23,11 @@ Esta pasta contém repositórios privados clonados localmente e documentados com
 - [[IA-LOCAL]] — JARVIS local, FAISS, Whisper, pyautogui.
 - [[openclaude-wk]] — TS CLI agent multi-provider.
 - [[PROJECT_JARVIS_5.0]] — FastAPI, Next.js, LiveKit, visão e voz.
+
+## Papel desta pasta
+Cada arquivo em `Projetos/Privados/` é a nota canônica do projeto quando há um clone local ou trabalho ativo.
+Notas em `Projetos/EstudosFocados/` devem ser usadas para estratégia, execução e diário de bordo.
+Notas em `Projetos/EstudosPesquisas/` devem ser usadas para pesquisa técnica, referências e estudos de suporte.
 
 ## Como usar
 - Cada nota em `Projetos/Privados/` é uma visão do projeto e contém links para o mapa completo em [[Projetos/GitHub-Completo]].

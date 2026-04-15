@@ -1,3 +1,8 @@
+---
+tags: [skills]
+updated: 2026-04-15
+---
+
 # Boas Práticas — VS Code AI
 
 Este guia reúne boas práticas para usar IA no VS Code e manter a organização do seu vault.

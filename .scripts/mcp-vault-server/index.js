@@ -9,7 +9,7 @@ const {
 const fs = require("fs");
 const path = require("path");
 
-const VAULT_ROOT = "D:/Documents/GitHub/Will-obsidian";
+const VAULT_ROOT = path.resolve(__dirname, "..", "..");
 
 const server = new Server(
   {

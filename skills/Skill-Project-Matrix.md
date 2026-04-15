@@ -1,3 +1,8 @@
+---
+tags: [skills]
+updated: 2026-04-15
+---
+
 # 📊 Matriz de Skills x Projetos
 
 Esta matriz mapeia quais competências técnicas (Skills) estão sendo aplicadas em cada projeto ativo do portfolio.

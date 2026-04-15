@@ -1,3 +1,8 @@
+---
+tags: [skills]
+updated: 2026-04-15
+---
+
 # Mini-Agent de IA para VS Code
 
 Este mini-agent é um guia de fluxo para usar IA no VS Code com leitura, edição e validação de código.

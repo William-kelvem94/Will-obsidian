@@ -1,5 +1,6 @@
 ---
 tags: [skills]
+updated: 2026-04-15
 ---
 
 # Frontend Skills - React/Vue/JS

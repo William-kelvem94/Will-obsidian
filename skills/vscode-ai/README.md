@@ -1,3 +1,8 @@
+---
+tags: [skills]
+updated: 2026-04-15
+---
+
 # VS Code AI Skills & MCP
 
 Estrutura de skills e Model Context Protocol (MCP) para usar modelos de IA no VS Code em projetos seus.

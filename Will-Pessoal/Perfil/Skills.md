@@ -5,6 +5,7 @@ tags:
   - skills
   - perfil
   - talento
+updated: 2026-04-15
 ---
 
 # Skills

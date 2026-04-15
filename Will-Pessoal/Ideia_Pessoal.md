@@ -1,3 +1,8 @@
+---
+tags: [perfil]
+updated: 2026-04-15
+---
+
 Sim, exatamente! Este vault já pode (e deve) abrigar TUDO referente à você, evoluindo de "hub de projetos" para PKM completo (Personal Knowledge Management) / "segundo cérebro". O novo espaço `Will-Pessoal/` foi criado para essa organização. Veja como:
 
 Status Atual: Já é Pessoal + Projetos

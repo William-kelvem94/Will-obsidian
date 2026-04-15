@@ -6,6 +6,7 @@ tags:
   - projetos
   - saas
   - evolucao
+updated: 2026-04-15
 ---
 
 # Next.js SaaS Evolução [[README]]

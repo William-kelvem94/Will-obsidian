@@ -1,3 +1,8 @@
+---
+tags: [projetos]
+updated: 2026-04-15
+---
+
 # Projetos GitHub Organizados por Linguagem
 
 #projetos #hub
@@ -24,6 +29,7 @@ Projetos/
 - `Projetos/EstudosPesquisas/` → recursos gratuitos para AI local, Docker, Next.js, visão e voz.
 - [[Projetos/Plano-de-Acao|Projetos/Plano-de-Acao.md]] → checklist operacional e prioridades.
 - [[Projetos/Organizacao-Completa|Projetos/Organizacao-Completa.md]] → visão mestre da estrutura do vault.
+- [[Vault-Ops|Manutenção do Vault]] — scripts e checklist para manter o cofre alinhado.
 - [[Projetos/GitHub-Completo|Projetos/GitHub-Completo.md]] → captura geral dos 67 repositórios do GitHub.
 
 ## Links rápidos

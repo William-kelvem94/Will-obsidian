@@ -1,3 +1,8 @@
+---
+tags: [skills]
+updated: 2026-04-15
+---
+
 # Quick Start — VS Code AI
 
 Este guia mostra como configurar rapidamente o ambiente de IA no seu workspace `d:\Documents\GitHub\Will-obsidian`.

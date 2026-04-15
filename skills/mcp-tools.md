@@ -1,3 +1,8 @@
+---
+tags: [skills]
+updated: 2026-04-15
+---
+
 # MCP Tools for OpenClaude
 
 ## O que é Model Context Protocol (MCP)

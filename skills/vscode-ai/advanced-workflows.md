@@ -1,3 +1,8 @@
+---
+tags: [skills]
+updated: 2026-04-15
+---
+
 # Workflows Avançados — VS Code AI
 
 Workflows avançados ajudam a aplicar MCP de forma estruturada em projetos complexos.

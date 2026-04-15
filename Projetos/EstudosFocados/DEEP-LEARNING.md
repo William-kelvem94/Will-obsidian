@@ -8,6 +8,7 @@ tags:
   - estrategia
   - ai
   - rag
+updated: 2026-04-15
 ---
 
 # Estudos Focado: DEEP-LEARNING [[README]] [[Privados/DEEP-LEARNING]]

@@ -1,3 +1,8 @@
+---
+tags: [skills]
+updated: 2026-04-15
+---
+
 # Operadores MCP para VS Code AI
 
 Este arquivo descreve operadores de ação comuns para agentes que usam MCP em projetos de código.

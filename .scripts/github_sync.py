@@ -6,8 +6,9 @@ import re
 from datetime import datetime
 
 # Configurações
+SCRIPT_ROOT = os.path.dirname(os.path.abspath(__file__))
 GITHUB_USERNAME = "William-kelvem94"
-VAULT_PATH = "d:/Documents/GitHub/Will-obsidian"
+VAULT_PATH = os.path.normpath(os.path.join(SCRIPT_ROOT, ".."))
 TARGET_FILE = os.path.join(VAULT_PATH, "Projetos/GitHub-Completo.md")
 
 def get_json(url):

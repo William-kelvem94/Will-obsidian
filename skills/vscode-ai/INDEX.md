@@ -1,3 +1,8 @@
+---
+tags: [skills]
+updated: 2026-04-15
+---
+
 # VS Code AI Skills — Index
 
 Esta página lista todas as notas do hub `skills/vscode-ai` como um índice dedicado.

@@ -5,6 +5,7 @@ tags:
   - jarvis
   - tools
   - tech
+updated: 2026-04-15
 ---
 
 # Jarvis Tools and Technologies

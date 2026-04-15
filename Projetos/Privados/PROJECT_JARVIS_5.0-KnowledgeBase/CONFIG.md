@@ -6,6 +6,7 @@ tags:
   - privados
   - config
   - knowledge
+updated: 2026-04-15
 ---
 
 # Jarvis Knowledge Base Config

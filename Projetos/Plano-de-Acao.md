@@ -7,6 +7,7 @@ tags:
   - acoes
   - projetos
   - hub
+updated: 2026-04-15
 ---
 
 # Plano de Ação dos Projetos
@@ -23,6 +24,7 @@ Transformar a organização do vault em um plano operacional: priorizar projetos
 - `Projetos/Objetivos/`: metas do ciclo, OKRs e planejamento de 90 dias.
 - `Projetos/EstudosPesquisas/`: recursos técnicos para evolução dos projetos.
 - `Will-Pessoal/Perfil/Cerebro-Will.md`: perfil, skills e contexto para IA local.
+- `Vault-Ops.md`: guia de manutenção do vault, automação e metadados.
 
 ## Ação imediata (hoje)
 1. Abra `Projetos/Plano-de-Acao.md` como checklist central.

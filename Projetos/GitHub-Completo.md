@@ -9,6 +9,7 @@ tags:
   - github
   - completo
   - hub
+updated: 2026-04-15
 ---
 
 # GitHub Completo - William-kelvem94 (67 Repos)
@@ -39,6 +40,9 @@ tags:
 - [[Privados/IA-LOCAL|IA-LOCAL]] (Python JARVIS voice memory FAISS) ✓
 - [[Privados/openclaude-wk|openclaude-wk]] (TS CLI agent multi-provider) ✓
 - [[Privados/PROJECT_JARVIS_5.0|PROJECT_JARVIS_5.0]] (FastAPI Next LiveKit vision) ✓
+
+> Observação: as notas em `Projetos/Privados/` são canônicas para esses clones locais.
+> `Projetos/EstudosFocados/` e `Projetos/EstudosPesquisas/` são notas de estratégia e pesquisa de apoio.
 
 ## Outros Privados (mapeados)
 - PROJECT_JARVIS_5.0, Gerenciador_Financeiro-7.0, WILLFINANCE-9.0 etc (~40)

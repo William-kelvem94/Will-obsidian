@@ -7,6 +7,7 @@ tags:
   - objetivos
   - metas
   - projetos
+updated: 2026-04-15
 ---
 
 # OKRs do Vault de Projetos

@@ -1,3 +1,8 @@
+---
+tags: [skills]
+updated: 2026-04-15
+---
+
 # Autonomous Agent Workflows (AAW)
 
 ## Visão Geral

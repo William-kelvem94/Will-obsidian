@@ -14,6 +14,7 @@ Este vault está organizado como um hub de projetos pessoais e de pesquisa.
 - [[Projetos/EstudosFocados/README|📘 Estudos Focados]] — roadmaps e análises profundas.
 - [[Projetos/EstudosPesquisas/README|🔬 Estudos e Pesquisas]] — recursos e guias técnicos.
 - [[skills/README|🧠 Skills Hub]] — prompts, MCPs e workflows para IA e VS Code.
+- [[Vault-Ops|🧰 Manutenção do Vault]] — guia operacional para organização e automação.
 - [[JARVIS/README|🧠 JARVIS Hub]] — mente operacional, memórias e segundo cérebro.
 - [[Will-Pessoal/README|🌱 Will-Pessoal]] — hub pessoal de perfil, vida e objetivos.
 - [[Will-Pessoal/Perfil/Cerebro-Will|🧠 Cérebro Will]] — resumo de perfil, skills e estratégia de IA local.

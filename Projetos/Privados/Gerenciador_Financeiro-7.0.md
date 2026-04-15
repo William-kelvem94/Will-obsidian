@@ -7,7 +7,7 @@ tags:
   - privados
   - financeiro
   - nodejs
-updated: 2026-04-12
+updated: 2026-04-15
 ---
 
 # Gerenciador Financeiro 7.0 [[../Projetos.md|Projetos]]

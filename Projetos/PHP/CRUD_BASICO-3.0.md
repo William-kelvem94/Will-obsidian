@@ -4,7 +4,7 @@ source: "https://github.com/William-kelvem94/CRUD_BASICO-3.0"
 private: false
 language: PHP
 description: "CRUD Básico 3.0 - Placeholder"
-updated: "2026-04-09"
+updated: 2026-04-15
 tags:
   - projetos
   - publicos

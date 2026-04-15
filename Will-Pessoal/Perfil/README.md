@@ -6,6 +6,7 @@ tags:
   - will-pessoal
   - indice
   - hub
+updated: 2026-04-15
 ---
 
 # Perfil — Will-Pessoal
@@ -26,6 +27,11 @@ Esta área reúne as notas principais do perfil pessoal de Will.
 
 ## Uso
 Use este índice para navegar rapidamente pelo perfil pessoal e manter o seu contexto central atualizado.
+
+## Como o Cérebro Will funciona
+- `Will-Pessoal/Perfil/Cerebro-Will.md` é o núcleo do seu cérebro pessoal.
+- Ele deve conter o perfil, as prioridades de projeto e a visão estratégica que os agentes locais precisam usar.
+- As demais notas (`Skills`, `Carreira`, `Projetos Ativos`) são camadas de suporte, não o núcleo.
 
 ## Vida pessoal e conhecimento
 - [[Will-Pessoal/Vida/Habitos|Hábitos]]

@@ -8,6 +8,7 @@ tags:
   - estrategia
   - voz
   - vision
+updated: 2026-04-15
 ---
 
 # Estudos Focado: IA-LOCAL [[README]] [[Privados/IA-LOCAL]]

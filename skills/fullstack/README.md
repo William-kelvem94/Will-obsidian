@@ -1,3 +1,8 @@
+---
+tags: [skills]
+updated: 2026-04-15
+---
+
 # Fullstack Skills
 
 Esta pasta reúne skills e prompts para desenvolvimento fullstack com foco em IA, automação e projetos práticos.

@@ -6,6 +6,7 @@ tags:
   - privados
   - usecases
   - knowledge
+updated: 2026-04-15
 ---
 
 # Jarvis Use Cases

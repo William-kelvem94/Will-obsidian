@@ -1,13 +1,19 @@
 ---
 title: "Cérebro Will - Base Completa Perfil + Projetos"
 description: "RAG-ready vault sobre William-kelvem94 para IA local (Ollama + FAISS). Perfil, skills, 67 repos, evoluções."
-updated: 2026-04-12
+updated: 2026-04-15
 tags: [cerebro, rag, perfil, hub, ia-local]
 ---
 
 # 🧠 Cérebro Will: Mente Operacional [[Projetos]] [[Will-Pessoal/Perfil/William-kelvem94 Overview|Overview]]
 
 Este arquivo é a **âncora de contexto** para IAs locais. Ele define quem é o William, suas competências técnicas e a visão estratégica dos seus projetos.
+
+## 📍 Organização do Cérebro
+- `Will-Pessoal/Perfil/Cerebro-Will.md` é a base pessoal canônica para IA local e RAG.
+- `JARVIS/README.md` e `JARVIS/KnowledgeBase/SegundoCerebro.md` são o segundo cérebro operacional e de memória ativa.
+- `Projetos/` e `Projetos/EstudosFocados/` fornecem o contexto de execução e planejamento de projetos.
+- Use `Will-Pessoal/Perfil/Cerebro-Will.md` como primeiro ponto de consulta para qualquer agente que precise entender o Will.
 
 ## 👤 Perfil: William Pereira (@kelvem94)
 - **Role**: Software Engineer & AI Researcher.

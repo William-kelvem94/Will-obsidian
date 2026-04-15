@@ -7,6 +7,7 @@ tags:
   - integration
   - knowledge
   - config
+updated: 2026-04-15
 ---
 
 # Jarvis Knowledge Base Integration

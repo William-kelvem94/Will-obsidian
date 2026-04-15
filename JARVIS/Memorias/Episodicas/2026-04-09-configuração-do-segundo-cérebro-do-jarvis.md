@@ -6,6 +6,7 @@ tags: [jarvis, memoria, episodica, obsidian, vault, segundo-cerebro, memoria, ja
 keywords: [obsidian, vault, segundo-cerebro, memoria, jarvis]
 importancia: "ALTA"
 projeto: "PROJECT_JARVIS_5.0"
+updated: 2026-04-15
 ---
 
 # Configuração do Segundo Cérebro do Jarvis

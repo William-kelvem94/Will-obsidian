@@ -7,6 +7,7 @@ tags:
   - agent
   - local
   - obsidian
+updated: 2026-04-15
 ---
 
 # IA-LOCAL Local Agent

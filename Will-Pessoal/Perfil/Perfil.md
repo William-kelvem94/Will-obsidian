@@ -2,7 +2,7 @@
 title: "Perfil — William Pereira (kelvem94)"
 description: "Quem é Will: identidade, habilidades, projetos, estilo de trabalho e contexto de vida."
 tags: [will, perfil, identidade, jarvis]
-updated: 2026-04-09
+updated: 2026-04-15
 ---
 
 # Perfil — William Pereira (kelvem94)

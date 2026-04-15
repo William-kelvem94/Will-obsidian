@@ -1,3 +1,8 @@
+---
+tags: [skills]
+updated: 2026-04-15
+---
+
 # OpenClaude Skills para Fullstack & MCP
 
 Organização de skills para usar com OpenClaude (LM Studio local).

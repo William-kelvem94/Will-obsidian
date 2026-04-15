@@ -5,6 +5,7 @@ tags:
   - jarvis
   - projetos
   - evolucao
+updated: 2026-04-15
 ---
 
 # Evolução IA-LOCAL (JARVIS) [[README]]

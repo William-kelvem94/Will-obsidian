@@ -7,6 +7,7 @@ tags:
   - projetos
   - vault
   - hub
+updated: 2026-04-15
 ---
 
 # Organização Completa do Vault de Projetos

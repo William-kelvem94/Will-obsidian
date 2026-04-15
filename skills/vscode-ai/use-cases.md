@@ -1,3 +1,8 @@
+---
+tags: [skills]
+updated: 2026-04-15
+---
+
 # Casos de Uso — VS Code AI
 
 ## 1. Refatoração de código existente

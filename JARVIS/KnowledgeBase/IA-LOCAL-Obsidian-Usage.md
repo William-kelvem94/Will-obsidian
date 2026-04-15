@@ -7,6 +7,7 @@ tags:
   - vault
   - ia-local
   - configuration
+updated: 2026-04-15
 ---
 
 # IA-LOCAL Obsidian Usage

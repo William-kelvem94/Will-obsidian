@@ -6,6 +6,7 @@ tags:
   - projetos
   - prod
   - gratuita
+updated: 2026-04-15
 ---
 
 # Docker Prod Gratuito [[README]]

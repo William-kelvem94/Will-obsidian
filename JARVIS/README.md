@@ -2,12 +2,14 @@
 title: "JARVIS — Segundo Cérebro"
 description: "Pasta raiz da mente operacional do Jarvis. Tudo que ele precisa para lembrar, aprender e decidir."
 tags: [jarvis, segundo-cerebro, memoria, conhecimento, hub]
-updated: 2026-04-09
+updated: 2026-04-15
 ---
 
 # JARVIS — Segundo Cérebro 🧠
 
 Esta pasta é a **mente viva do Jarvis**. Não é documentação — é memória ativa.
+
+> O Jarvis usa `Will-Pessoal/Perfil/Cerebro-Will.md` como contexto pessoal base e `JARVIS/KnowledgeBase/SegundoCerebro.md` como seu segundo cérebro operacional.
 
 ## Estrutura
 

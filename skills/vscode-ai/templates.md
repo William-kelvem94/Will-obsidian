@@ -1,5 +1,6 @@
 ---
 tags: [skills]
+updated: 2026-04-15
 ---
 
 # Templates de Prompt — VS Code AI

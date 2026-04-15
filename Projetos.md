@@ -38,9 +38,9 @@ Projetos/
 │   └── [[Java/Atividade-03|Atividade-03]]
 └── Outros/
     ├── [[Outros/DIA-DAS-MULHERES|DIA-DAS-MULHERES]]
-    ├── [[Privados/Auto-boletos|Auto-boletos]]
-    └── [[Privados/gestor_aluguel_2.0|Gestor Aluguel 2.0]]
 ```
+
+> Nota: projetos privados ativos como `Auto-boletos`, `gestor_aluguel_2.0`, `IA-LOCAL` e `PROJECT_JARVIS_5.0` devem ser documentados principalmente em `Projetos/Privados/`.
 
 ### Privados clonados em `Projetos/Privados/`
 - [[Privados/Auto-boletos|Auto-boletos]]

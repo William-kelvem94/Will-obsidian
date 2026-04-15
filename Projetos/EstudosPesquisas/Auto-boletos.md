@@ -5,6 +5,7 @@ tags:
   - auto-boletos
   - projetos
   - evolucao
+updated: 2026-04-15
 ---
 
 # Evolução Auto-boletos [[README]]

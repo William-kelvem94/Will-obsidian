@@ -2,6 +2,7 @@
 title: "Índice de Templates — Jarvis"
 description: "Templates para o Jarvis capturar informações estruturadas sobre Will."
 tags: [jarvis, templates]
+updated: 2026-04-15
 ---
 
 # Templates — Jarvis

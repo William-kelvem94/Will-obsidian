@@ -6,6 +6,7 @@ tags:
   - perfil
   - objetivos
   - historia
+updated: 2026-04-15
 ---
 
 # Carreira

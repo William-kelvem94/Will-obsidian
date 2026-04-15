@@ -2,6 +2,7 @@
 title: "⚠️ MOVIDO — Esta pasta foi consolidada"
 tags: [movido, redirecionamento]
   - privados
+updated: 2026-04-15
 ---
 
 # ⚠️ Esta pasta foi movida

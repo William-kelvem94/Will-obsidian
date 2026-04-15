@@ -2,7 +2,7 @@
 title: "Índice de Aprendizado — Jarvis"
 description: "O que o Jarvis aprendeu sobre Will, sobre os projetos e sobre o mundo."
 tags: [jarvis, aprendizado, conhecimento, evolucao]
-updated: 2026-04-09
+updated: 2026-04-15
 ---
 
 # Índice de Aprendizado — Jarvis
