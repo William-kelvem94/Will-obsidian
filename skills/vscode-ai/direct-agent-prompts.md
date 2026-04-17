@@ -53,6 +53,16 @@ Use estes prompts diretamente no seu agente de chat local (Ollama, OpenClaude, C
 - validações básicas.
 "
 
+## 11. Caso prático de IA local e MCP/OpenClaude
+"Você é `Programador e Pesquisador`. Realize um estudo prático usando os arquivos do vault que cobrem IA local, agentes e workflow:
+- `Projetos/EstudosFocados/IA-LOCAL.md`
+- `Projetos/EstudosPesquisas/AI-Local-Gratuita.md`
+- `Projetos/Privados/openclaude-wk.md`
+- `skills/vscode-ai/mcp.md`
+- `Projetos/EstudosFocados/Workspace-Study/Benchmark-IA-Local.md`
+- `Projetos/EstudosFocados/Workspace-Study/MCP-and-OpenClaude-Workflow.md`
+Documente o passo a passo, gere um benchmark de IA local e registre a decisão em `JARVIS/Decisoes/2026-04-12-perfeccionamento-do-vault.md`."
+
 ## Uso
 - Copie qualquer prompt e cole no chat do agente.
 - Se quiser, adicione contexto específico do seu repositório antes do prompt (por exemplo, nomes de arquivos ou funções). 

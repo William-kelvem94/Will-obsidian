@@ -83,6 +83,13 @@ Este guia mostra como configurar rapidamente o ambiente de IA no seu workspace `
 ## 8. Use o mini-agent de IA no VS Code
 - Abra `skills/vscode-ai/mini-agent.md`.
 - Copie os prompts e fluxos para seu agente local ou extensão de chat.
+- Consulte `Projetos/EstudosFocados/Workspace-Study/README` para notas práticas de benchmark e MCP.
+- Abra `Projetos/EstudosFocados/Workspace-Study/Practical-Example-Maximum-Files` para um exemplo direto que usa o máximo de arquivos.
+
+### Prompt de exemplo para copiar
+```text
+Você é Programador e Pesquisador. Analise Projetos/EstudosFocados/IA-LOCAL.md e Projetos/EstudosPesquisas/AI-Local-Gratuita.md. Execute um benchmark de IA local, documente o processo em Projetos/EstudosFocados/Workspace-Study/Benchmark-IA-Local.md, e crie um fluxo MCP/OpenClaude em Projetos/EstudosFocados/Workspace-Study/MCP-and-OpenClaude-Workflow.md. Use openclaude-wk como referência e registre a decisão em JARVIS/Decisoes/2026-04-12-perfeccionamento-do-vault.md.
+```
 
 ## Dicas rápidas
 - Use `skills/vscode-ai/prompts.md` para gerar tarefas automaticamente.

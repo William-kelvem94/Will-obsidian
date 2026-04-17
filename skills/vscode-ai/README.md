@@ -55,4 +55,6 @@ Estrutura de skills e Model Context Protocol (MCP) para usar modelos de IA no VS
 1. Abra a pasta do projeto no VS Code.
 2. Use `skills/vscode-ai/prompts.md` para gerar prompts específicos.
 3. Use `skills/vscode-ai/mcp.md` para guiar passos de leitura e edição.
-4. Salve padrões úteis em `skills/vscode-ai/templates.md` ou em `Will-Pessoal/Conhecimento/Leituras.md`.
+4. Consulte `Projetos/EstudosFocados/Workspace-Study/README` para pesquisa prática sobre IA local e agentes.
+5. Consulte `Projetos/EstudosFocados/Workspace-Study/Practical-Example-Maximum-Files` para um caso prático direto.
+6. Salve padrões úteis em `skills/vscode-ai/templates.md` ou em `Will-Pessoal/Conhecimento/Leituras.md`.

@@ -22,6 +22,7 @@ Organização de skills para usar com OpenClaude (LM Studio local).
 - [[vscode-ai/README|VS Code AI Skills]] — estrutura de prompts e MCP para usar IA no VS Code
 - [[vscode-ai/use-cases|Casos de Uso]] — workflows práticos para refatoração, docs, testes e IA local
 - [[vscode-ai/advanced-workflows|Workflows Avançados]] — fluxos para projetos complexos
+- [[Projetos/EstudosFocados/Workspace-Study/README|Workspace Study Hub]] — estudo prático e benchmark do vault
 - [[vscode-ai/mcp-operators|Operadores MCP]] — operadores e regras de ação
 - [[vscode-ai/templates|Templates de Prompt]] — modelos prontos para agentes e prompts reutilizáveis
 - [[vscode-ai/quick-start|Quick Start]] — comandos específicos para seu ambiente Windows e VS Code

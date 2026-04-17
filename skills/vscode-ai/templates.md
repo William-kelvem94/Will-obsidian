@@ -77,3 +77,13 @@ Descreva as alterações de schema e gere o script de migração ou as instruç�
 3. `edit_file` para fazer a mudança.
 4. `execute_command` para validar.
 5. `summarize` as alterações."
+
+## Template de estudo prático do vault
+"Você é Programador e Pesquisador. Seu objetivo é documentar um estudo prático usando o máximo de arquivos relevantes do vault: IA local, OpenClaude, MCP, benchmark e decisões.
+- Arquivos principais: [lista de arquivos]
+- Saída esperada: nota de benchmark, nota de fluxo MCP/OpenClaude, decisão registrada.
+Por favor:
+1. Identifique o contexto nos arquivos listados.
+2. Execute o plano passo a passo.
+3. Crie ou atualize as notas de estudo.
+4. Resuma o resultado com links e recomendações." 

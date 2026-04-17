@@ -60,6 +60,16 @@ Model Context Protocol (MCP) define como agentes de IA interagem com arquivos, c
   5. `execute_command` rodar `pytest` ou `pnpm test`
   6. `create_file` ou `edit_file` para atualizar documentação se necessário
 
+## Caso prático: IA local + OpenClaude
+- Objetivo: documentar um caso de estudo direto no vault com benchmark e fluxo de agentes.
+- Passos:
+  1. `search_files` por `IA-LOCAL.md`, `AI-Local-Gratuita.md`, `openclaude-wk.md` e `MCP-and-OpenClaude-Workflow.md`.
+  2. `read_file` nos arquivos encontrados para entender a arquitetura, a stack local e o agente CLI.
+  3. Planeje um roteiro de benchmark e criação de workflow usando `Practical-Example-Maximum-Files.md`.
+  4. `edit_file` para atualizar/expandir `Benchmark-IA-Local.md` e `MCP-and-OpenClaude-Workflow.md`.
+  5. `execute_command` para validar dependências e scripts básicos, por exemplo `pip install`, `ollama run` ou comandos do OpenClaude.
+  6. `create_file` ou `edit_file` para registrar a conclusão em `JARVIS/Decisoes` e no `Workspace-Study`.
+
 ## Exemplo de MCP para correção de bug
 - Objetivo: corrigir função X no arquivo `src/service.py`
 - Passos:
@@ -71,6 +81,7 @@ Model Context Protocol (MCP) define como agentes de IA interagem com arquivos, c
 ## Dicas adicionais
 - Consulte `mcp-operators.md` para operadores avançados.
 - Use `advanced-workflows.md` para aplicar o padrão em projetos maiores.
+- Veja `Projetos/EstudosFocados/Workspace-Study/Benchmark-IA-Local` e `Projetos/EstudosFocados/Workspace-Study/MCP-and-OpenClaude-Workflow` para exemplos práticos de MCP no vault.
 
 ## Comandos úteis
 - `npm install`

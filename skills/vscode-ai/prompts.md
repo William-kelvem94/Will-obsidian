@@ -42,6 +42,7 @@ updated: 2026-04-15
 - "Liste os passos para integrar um LLM local com pesquisa semântica e recuperação de contexto." 
 - "Crie um diagrama texto passo a passo para ingestão de documentos, geração de embeddings e recuperação de contexto no Jarvis." 
 - "Explique como configurar um pipeline local de `text-embedding-3-large` com FAISS e busca semântica." 
+- "Você é Programador e Pesquisador. Avalie a viabilidade de IA local no vault, documente um benchmark em `Benchmark-IA-Local.md` e crie um fluxo MCP/OpenClaude com arquivos relevantes do projeto." 
 
 ## Prompt de arquitetura
 - "Explique a arquitetura de `PROJECT_JARVIS_5.0` com foco em backend, front-end e memória local." 

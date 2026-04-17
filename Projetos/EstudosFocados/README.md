@@ -33,6 +33,7 @@ Notas de `EstudosFocados` devem:
 - [[DEEP-LEARNING.md]] — agente IA local com RAG, memória e fine-tuning PT-BR.
 - [[IA-LOCAL.md]] — assistente Jarvis offline com voz, visão e automação.
 - [[PROJECT_JARVIS_5.0.md]] — assistente multimodal de voz/vision e agentes autônomos.
+- [[Workspace-Study/README|Workspace Study Hub]] — análise do vault atual, estudos gerais e trilhas práticas de benchmark e agentes.
 
 ## Como usar esta pasta
 1. Abra aqui antes de criar ou alterar código.
