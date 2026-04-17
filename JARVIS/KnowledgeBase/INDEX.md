@@ -21,6 +21,7 @@ updated: 2026-04-15
 | [[Conhecimento]] | Domínios técnicos que o Jarvis deve dominar |
 | [[Ferramentas]] | Tecnologias e ferramentas do stack |
 | [[CasosDeUso]] | Cenários reais que o Jarvis deve resolver |
+| [[Workflows-Praticos]] | Exemplos práticos de workflows e implementações |
 | [[Integracao]] | Como integrar a KB com o código backend |
 | [[Brain-Integration]] | Como conectar o segundo cérebro ao vault e agentes |
 | [[Sistemas-Sensoriais]] | Detalhamento técnico de visão, voz e biometria |
@@ -29,6 +30,7 @@ updated: 2026-04-15
 | [[SegundoCerebro]] | Definição e regras do segundo cérebro |
 | [[Mapa]] | Mapa de relacionamentos entre as notas |
 | [[Regras]] | Regras para manter a KB organizada |
+| [[CONFIG]] | Variáveis de ambiente e configurações do sistema |
 
 ## Prioridade de leitura (Jarvis startup)
 
