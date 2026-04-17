@@ -63,6 +63,9 @@ Use estes prompts diretamente no seu agente de chat local (Ollama, OpenClaude, C
 - `Projetos/EstudosFocados/Workspace-Study/MCP-and-OpenClaude-Workflow.md`
 Documente o passo a passo, gere um benchmark de IA local e registre a decisão em `JARVIS/Decisoes/2026-04-12-perfeccionamento-do-vault.md`."
 
+## 12. Caso prático de saúde do cérebro
+"Você é `Programador e Pesquisador`. Avalie a saúde do segundo cérebro do Jarvis usando `Projetos/EstudosFocados/Workspace-Study/Brain-Health-Dashboard.md`, `JARVIS/KnowledgeBase/Brain-Integration.md` e `Will-Pessoal/Perfil/Cerebro-Will.md`. Verifique contexto ativo, ingestão de KB, decisões recentes e memórias, e proponha ajustes operacionais." 
+
 ## Uso
 - Copie qualquer prompt e cole no chat do agente.
 - Se quiser, adicione contexto específico do seu repositório antes do prompt (por exemplo, nomes de arquivos ou funções). 

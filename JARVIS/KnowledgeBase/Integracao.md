@@ -64,3 +64,4 @@ Este vault clonado também serve de base para o projeto `IA-LOCAL` local.
 
 - Veja `IA-LOCAL-Local-Agent.md` para a arquitetura do agente local.
 - Veja `IA-LOCAL-Obsidian-Usage.md` para o guia de configuração e uso do vault clonado.
+- Veja `Brain-Integration.md` para conectar o segundo cérebro com o resto do vault e os agentes.

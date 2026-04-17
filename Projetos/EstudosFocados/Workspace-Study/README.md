@@ -23,6 +23,7 @@ Este é o ponto de entrada para a investigação do vault, a análise de sua est
 - [[Projetos/EstudosFocados/Workspace-Study/MCP-and-Agents-Research|MCP and Agents Research]]
 - [[Projetos/EstudosFocados/Workspace-Study/DevOps-and-Infrastructure|DevOps and Infrastructure Research]]
 - [[Projetos/EstudosFocados/Workspace-Study/VSCode-and-Workflow|VS Code and Workflow Research]]
+- [[Projetos/EstudosFocados/Workspace-Study/Brain-Health-Dashboard|Brain Health Dashboard]]
 - [[Projetos/EstudosFocados/Workspace-Study/Practical-Example-Maximum-Files|Practical Example: Máximo de Arquivos]]
 
 ## Principais trilhas de estudo

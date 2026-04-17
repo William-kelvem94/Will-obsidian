@@ -22,6 +22,7 @@ updated: 2026-04-15
 | [[Ferramentas]] | Tecnologias e ferramentas do stack |
 | [[CasosDeUso]] | Cenários reais que o Jarvis deve resolver |
 | [[Integracao]] | Como integrar a KB com o código backend |
+| [[Brain-Integration]] | Como conectar o segundo cérebro ao vault e agentes |
 | [[Sistemas-Sensoriais]] | Detalhamento técnico de visão, voz e biometria |
 | [[IA-LOCAL-Local-Agent]] | Arquitetura do agente IA-LOCAL local e uso do vault clonado |
 | [[IA-LOCAL-Obsidian-Usage]] | Guia de uso do vault clonado para IA-LOCAL |
