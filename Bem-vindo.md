@@ -21,7 +21,7 @@ Este vault está organizado como um hub de projetos pessoais e de pesquisa.
 - [[Isolated-Notes-Audit|🧩 Auditoria de notas isoladas]] — análise de nós soltos e ajustes realizados.
 - [[IA-LOCAL.canvas|📐 IA-LOCAL Canvas]] — visão e arquitetura do agente local.
 - [[2026-04-12|📓 Nota recente: 2026-04-12]]
-- [[skills/mcp-tools|MCP Tools]] — ferramentas do MCP para VS Code e terminal.
+- [[skills/03-infrastructure-mcp/mcp-servers|MCP Tools]] — ferramentas do MCP para VS Code e terminal.
 - [[Graph-Legenda]] — legenda do gráfico de links.
 
 ## Organização atual

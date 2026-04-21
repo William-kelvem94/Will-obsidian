@@ -25,13 +25,13 @@ Esta pasta centraliza o registro das experiências do Jarvis e as notas de conti
 ## Uso
 - Abra esta página para navegar por memórias recentes e episódios importantes.
 - Use `#memoria` para notas de registro histórico e `#decisao` para decisões relacionadas.
-- Links recomendados: `[[JARVIS/Decisoes/INDEX]]`, `[[JARVIS/Contexto-Atual/Estado]]`, `[[JARVIS/Aprendizado/INDEX]]`.
+- Links recomendados: `[[JARVIS/02-Operational/Decisions/INDEX]]`, `[[JARVIS/02-Operational/Context/Estado]]`, `[[JARVIS/05-System/Evolution/INDEX]]`.
 
 ## Memórias recentes
 - [[2026-04-12]] — nota rápida de sessão e observação do dia
-- [[JARVIS/Memorias/Diario/2026-04-09]] — diário de sessão
-- [[JARVIS/Memorias/Diario/2026-04-10]] — diário de sessão
-- [[JARVIS/Memorias/Episodicas/2026-04-09-configuração-do-segundo-cérebro-do-jarvis]] — memória episódica importante
+- [[JARVIS/03-Memory/Logs/2026-04-09]] — diário de sessão
+- [[JARVIS/03-Memory/Logs/2026-04-10]] — diário de sessão
+- [[JARVIS/03-Memory/Snapshots/2026-04-09-configuração-do-segundo-cérebro-do-jarvis]] — memória episódica importante
 
 ## Recomendações de tag
 - `#memoria` → todos os arquivos de `JARVIS/Memorias/`

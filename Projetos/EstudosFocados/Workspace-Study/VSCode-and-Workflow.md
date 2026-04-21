@@ -77,6 +77,6 @@ Registrar como o vault usa VS Code, Copilot e MCP para suportar desenvolvimento 
 
 ## Links de referência
 - [[skills/README|OpenClaude Skills para Fullstack & MCP]]
-- [[skills/vscode-ai/mcp|MCP para VS Code AI]]
-- [[skills/vscode-ai/programador-pesquisador.agent|Programador e Pesquisador Agent]]
-- [[skills/vscode-ai/quick-start|Quick Start]]
+- [[skills/01-agentic-intelligence/vscode-ai/mcp|MCP para VS Code AI]]
+- [[skills/01-agentic-intelligence/vscode-ai/programador-pesquisador.agent|Programador e Pesquisador Agent]]
+- [[skills/01-agentic-intelligence/vscode-ai/quick-start|Quick Start]]

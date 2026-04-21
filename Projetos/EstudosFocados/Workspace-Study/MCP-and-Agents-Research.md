@@ -67,6 +67,6 @@ Mapear o uso de MCP, agentes e workflows no vault para guiar a integração téc
 - Criar uma nota de referência rápida para “MCP + VS Code + JARVIS”.
 
 ## Links de referência
-- [[skills/vscode-ai/mcp|MCP para VS Code AI]]
-- [[skills/vscode-ai/programador-pesquisador.agent|Programador e Pesquisador Agent]]
+- [[skills/01-agentic-intelligence/vscode-ai/mcp|MCP para VS Code AI]]
+- [[skills/01-agentic-intelligence/vscode-ai/programador-pesquisador.agent|Programador e Pesquisador Agent]]
 - [[JARVIS/README|JARVIS Hub]]

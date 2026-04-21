@@ -311,8 +311,8 @@ Implementação de autenticação JWT no backend FastAPI.
 - Testes de segurança evitaram 2 vulnerabilidades
 
 ## Referências
-- [[JARVIS/KnowledgeBase/Conhecimento|Conhecimento]]
-- [[JARVIS/KnowledgeBase/Arquitetura|Arquitetura]]
+- [[JARVIS/04-Engineering/Wiki/Conhecimento|Conhecimento]]
+- [[JARVIS/04-Engineering/Architecture/Arquitetura|Arquitetura]]
 ```
 
 ### Métricas
