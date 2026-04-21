@@ -44,7 +44,7 @@ O **IA-LOCAL** é o motor principal por trás do JARVIS, integrando modelos de l
 
 ## 🔗 Conexões no Vault
 - [[JARVIS/README|🧠 Hub JARVIS]]: Central de memórias e decisões.
-- [[Projetos/EstudosPesquisas/README|🔬 Recursos]]: Documentação local de IA.
+- [[Projetos/03-Estudos/EstudosPesquisas/README|🔬 Recursos]]: Documentação local de IA.
 - [[skills/01-agentic-intelligence/autonomous-workflow|🧠 Workflow AAW]]: Como gerenciar este código como agente.
 
-**Links:** [[GitHub-Completo]] | [[Projetos/Plano-de-Acao|Plano de Ação]] #jarvis #faiss #whisper #python
+**Links:** [[GitHub-Completo]] | [[Projetos/01-Ativos/Plano-de-Acao|Plano de Ação]] #jarvis #faiss #whisper #python

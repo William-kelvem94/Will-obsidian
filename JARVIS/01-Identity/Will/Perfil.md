@@ -6,7 +6,7 @@ updated: 2026-04-15
 
 # 👤 William Pereira (@kelvem94)
 
-**Nota Transparente:** Este arquivo é o espelho do [[Will-Pessoal/Perfil/William-kelvem94 Overview|Perfil Principal]], mas otimizado para a leitura sistêmica do Jarvis.
+**Nota Transparente:** Este arquivo é o espelho do [[Will-Pessoal/01-Identidade/Perfil/William-kelvem94 Overview|Perfil Principal]], mas otimizado para a leitura sistêmica do Jarvis.
 
 ## 🚀 Bio Técnica
 - **Foco:** Software Engineer & AI Researcher.

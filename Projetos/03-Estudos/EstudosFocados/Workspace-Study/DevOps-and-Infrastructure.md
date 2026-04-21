@@ -71,5 +71,5 @@ Consolidar a pesquisa de infraestrutura do vault e criar um plano de estudo para
 
 ## Links de referência
 - [[Vault-Ops|Vault Ops — Manutenção do Cofre]]
-- [[Projetos/EstudosPesquisas/Next.js-SaaS-Evolution|Next.js SaaS Evolução]]
+- [[Projetos/03-Estudos/EstudosPesquisas/Next.js-SaaS-Evolution|Next.js SaaS Evolução]]
 - `.scripts/mcp-vault-server` — servidor local MCP do vault

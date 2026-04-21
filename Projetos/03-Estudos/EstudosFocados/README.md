@@ -12,7 +12,7 @@ tags:
 updated: 2026-04-15
 ---
 
-# Estudos Focados — Quartel-General da Estratégia [[Will-Pessoal/Perfil/Cerebro-Will|Cérebro Will]] [[EstudosPesquisas/README]]
+# Estudos Focados — Quartel-General da Estratégia [[Will-Pessoal/01-Identidade/Perfil/Cerebro-Will|Cérebro Will]] [[EstudosPesquisas/README]]
 
 **Missão desta pasta**
 - Ser o principal lugar de decisão pré-implementação para os projetos mais estratégicos do vault.

@@ -24,4 +24,4 @@ Sistema avançado de gestão financeira pessoal. Parte da série de evolução d
 ## Contexto
 Este projeto é a sétima iteração do gerenciador financeiro, focando em performance e UX modular.
 
-**Links:** [[Projetos/GitHub-Completo|GitHub Completo]] | [[Will-Pessoal/Perfil/Cerebro-Will|Cérebro Will]] #privados #nodejs
+**Links:** [[Projetos/04-Master-Plan/GitHub-Completo|GitHub Completo]] | [[Will-Pessoal/01-Identidade/Perfil/Cerebro-Will|Cérebro Will]] #privados #nodejs

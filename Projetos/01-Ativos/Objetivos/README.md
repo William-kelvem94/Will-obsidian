@@ -33,8 +33,8 @@ Ela deve ser usada para alinhar visão, priorização e resultados esperados em 
 - `OKRs.md` → objetivos e resultados-chave mensuráveis.
 
 ## Arquivos nesta pasta
-- [[Projetos/Objetivos/90-dias|90 dias]]
-- [[Projetos/Objetivos/OKRs|OKRs]]
+- [[Projetos/01-Ativos/Objetivos/90-dias|90 dias]]
+- [[Projetos/01-Ativos/Objetivos/OKRs|OKRs]]
 
 ## Onde este conteúdo se encaixa
 - `Projetos/EstudosFocados/` = decisões estratégicas por projeto.

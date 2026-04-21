@@ -47,7 +47,7 @@ updated: 2026-04-15
 ## Outros Privados (mapeados)
 - PROJECT_JARVIS_5.0, Gerenciador_Financeiro-7.0, WILLFINANCE-9.0 etc (~40)
 
-**Links**: [[Projetos]] | [[Projetos/Plano-de-Acao]] | [[Projetos/Organizacao-Completa]] | [[Will-Pessoal/Perfil/William-kelvem94 Overview|William-kelvem94 Overview]] #github #repos #mapeado #67
+**Links**: [[Projetos]] | [[Projetos/01-Ativos/Plano-de-Acao]] | [[Projetos/04-Master-Plan/Organizacao-Completa]] | [[Will-Pessoal/01-Identidade/Perfil/William-kelvem94 Overview|William-kelvem94 Overview]] #github #repos #mapeado #67
 
 
 ## Lista de Repositórios (Automática)

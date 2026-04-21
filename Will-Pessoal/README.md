@@ -17,14 +17,14 @@ Esta pasta é a extensão pessoal do vault: o lugar onde Will documenta seu perf
 
 ## Estrutura
 
-- [[Will-Pessoal/Perfil/README|Perfil]] — identidade, carreira, habilidades e visão pessoal.
-- [[Will-Pessoal/Vida/Habitos|Hábitos]] — rotina, trackers e hábitos de alto impacto.
-- [[Will-Pessoal/Vida/Financas|Finanças]] — orçamento, metas financeiras e controle de fluxo.
-- [[Will-Pessoal/Vida/Saude|Saúde]] — bem-estar, energia e cuidados pessoais.
-- [[Will-Pessoal/Conhecimento/Leituras|Conhecimento]] — leituras, cursos e aprendizagem contínua.
-- [[Will-Pessoal/Rede/Pessoas|Rede]] — contatos, networking e parcerias.
-- [[Will-Pessoal/Objetivos/README|Objetivos]] — metas, OKRs e visão de curto/médio prazo.
-- [[Will-Pessoal/Perfil/INDEX|Perfil — Índice completo]]
+- [[Will-Pessoal/01-Identidade/Perfil/README|Perfil]] — identidade, carreira, habilidades e visão pessoal.
+- [[Will-Pessoal/03-Vida-Estilo/Vida/Habitos|Hábitos]] — rotina, trackers e hábitos de alto impacto.
+- [[Will-Pessoal/03-Vida-Estilo/Vida/Financas|Finanças]] — orçamento, metas financeiras e controle de fluxo.
+- [[Will-Pessoal/03-Vida-Estilo/Vida/Saude|Saúde]] — bem-estar, energia e cuidados pessoais.
+- [[Will-Pessoal/03-Vida-Estilo/Conhecimento/Leituras|Conhecimento]] — leituras, cursos e aprendizagem contínua.
+- [[Will-Pessoal/04-Social/Rede/Pessoas|Rede]] — contatos, networking e parcerias.
+- [[Will-Pessoal/02-Visao/Objetivos/README|Objetivos]] — metas, OKRs e visão de curto/médio prazo.
+- [[Will-Pessoal/01-Identidade/Perfil/INDEX|Perfil — Índice completo]]
 - [[Will-Pessoal/Ideia_Pessoal|Ideia Pessoal]] — ideias e insights em andamento.
 
 ## Como usar

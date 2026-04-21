@@ -30,9 +30,9 @@ Notas em `Projetos/EstudosFocados/` devem ser usadas para estratégia, execuçã
 Notas em `Projetos/EstudosPesquisas/` devem ser usadas para pesquisa técnica, referências e estudos de suporte.
 
 ## Como usar
-- Cada nota em `Projetos/Privados/` é uma visão do projeto e contém links para o mapa completo em [[Projetos/GitHub-Completo]].
-- Para ver o planejamento geral dos projetos, abra [[Projetos/Plano-de-Acao]].
-- Para ver as metas trimestrais e o alinhamento do portfolio, abra [[Projetos/Objetivos/README]].
+- Cada nota em `Projetos/Privados/` é uma visão do projeto e contém links para o mapa completo em [[Projetos/04-Master-Plan/GitHub-Completo]].
+- Para ver o planejamento geral dos projetos, abra [[Projetos/01-Ativos/Plano-de-Acao]].
+- Para ver as metas trimestrais e o alinhamento do portfolio, abra [[Projetos/01-Ativos/Objetivos/README]].
 - Use esta página como central de acesso para os projetos privados do vault.
 
 ## Organização

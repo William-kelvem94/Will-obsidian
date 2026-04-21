@@ -5,7 +5,7 @@ updated: 2026-04-15
 tags: [cerebro, rag, perfil, hub, ia-local]
 ---
 
-# 🧠 Cérebro Will: Mente Operacional [[Projetos]] [[Will-Pessoal/Perfil/William-kelvem94 Overview|Overview]]
+# 🧠 Cérebro Will: Mente Operacional [[Projetos]] [[Will-Pessoal/01-Identidade/Perfil/William-kelvem94 Overview|Overview]]
 
 Este arquivo é a **âncora de contexto** para IAs locais. Ele define quem é o William, suas competências técnicas e a visão estratégica dos seus projetos.
 
@@ -31,9 +31,9 @@ Este arquivo é a **âncora de contexto** para IAs locais. Ele define quem é o 
 | **Mobile/PWA** | Flutter, PWA (CSS/JS) | 🟠 Básico |
 
 ## 🚀 Projetos Estratégicos (Top 3)
-1. **[[Projetos/Privados/gestor_aluguel_2.0|Gestor Aluguel 2.0]]**: SaaS imobiliário complexo com lógica de negócio massiva.
-2. **[[Projetos/Privados/IA-LOCAL|JARVIS / IA-LOCAL]]**: Integração total de voz, visão e automação local.
-3. **[[Projetos/Privados/Auto-boletos|Auto-boletos]]**: Automação crítica com Playwright e OCR.
+1. **[[Projetos/01-Ativos/Privados/gestor_aluguel_2.0|Gestor Aluguel 2.0]]**: SaaS imobiliário complexo com lógica de negócio massiva.
+2. **[[Projetos/01-Ativos/Privados/IA-LOCAL|JARVIS / IA-LOCAL]]**: Integração total de voz, visão e automação local.
+3. **[[Projetos/01-Ativos/Privados/Auto-boletos|Auto-boletos]]**: Automação crítica com Playwright e OCR.
 
 ## 🔬 Visão 2026: Autonomia Total
 A meta é transicionar de "Ferramentas" para "Entidades Autônomas".
@@ -79,4 +79,4 @@ A meta é transicionar de "Ferramentas" para "Entidades Autônomas".
 - sempre verifique se a ação proposta respeita o limite de dados do usuário.
 
 ---
-**Links Rápidos**: [[Projetos/GitHub-Completo|📦 Inventário]] | [[Projetos/Objetivos/README|🎯 Objetivos]] | [[JARVIS/README|🧠 HUB JARVIS]]
+**Links Rápidos**: [[Projetos/04-Master-Plan/GitHub-Completo|📦 Inventário]] | [[Projetos/01-Ativos/Objetivos/README|🎯 Objetivos]] | [[JARVIS/README|🧠 HUB JARVIS]]

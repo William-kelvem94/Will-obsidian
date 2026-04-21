@@ -9,11 +9,19 @@ REPORT_PATH = os.path.join(SCRIPT_ROOT, "vault_cleanup_report.md")
 MAPPING = {
     "Projetos/Privados": "#privados",
     "Projetos": "#projetos",
-    "JARVIS/Memorias": "#memoria",
-    "JARVIS/Decisoes": "#decisao",
-    "JARVIS/Aprendizado": "#aprendizado",
+    "JARVIS/01-Identity": "#jarvis-identidade",
+    "JARVIS/02-Operational": "#jarvis-operacao",
+    "JARVIS/03-Memory": "#jarvis-memoria",
+    "JARVIS/04-Engineering": "#jarvis-engenharia",
+    "JARVIS/05-System": "#jarvis-sistema",
     "JARVIS": "#jarvis",
+    "Will-Pessoal/01-Identity": "#perfil-identidade",
+    "Will-Pessoal/02-Vision": "#perfil-visao",
     "Will-Pessoal": "#perfil",
+    "skills/01-agentic-intelligence": "#skills-ai",
+    "skills/02-software-engineering": "#skills-eng",
+    "skills/03-infrastructure-mcp": "#skills-mcp",
+    "skills/04-knowledge-systems": "#skills-knowledge",
     "skills": "#skills"
 }
 

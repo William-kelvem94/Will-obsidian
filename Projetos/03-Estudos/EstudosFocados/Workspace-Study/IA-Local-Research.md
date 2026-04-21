@@ -75,6 +75,6 @@ Documentar o estado da pesquisa de IA local no vault e sugerir prioridades de es
 5. Extraia conclusões sobre a viabilidade do Jarvis offline.
 
 ## Links de referência
-- [[Projetos/EstudosFocados/IA-LOCAL|IA-LOCAL (Estudos Focados)]]
-- [[Projetos/EstudosPesquisas/AI-Local-Gratuita|AI Local Gratuita]]
-- [[Projetos/EstudosFocados/DEEP-LEARNING|DEEP-LEARNING]]
+- [[Projetos/03-Estudos/EstudosFocados/IA-LOCAL|IA-LOCAL (Estudos Focados)]]
+- [[Projetos/03-Estudos/EstudosPesquisas/AI-Local-Gratuita|AI Local Gratuita]]
+- [[Projetos/03-Estudos/EstudosFocados/DEEP-LEARNING|DEEP-LEARNING]]

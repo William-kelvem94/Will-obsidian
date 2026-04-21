@@ -42,5 +42,5 @@ Monitorar a saúde do segundo cérebro do Jarvis e garantir que o contexto, a in
 - [[JARVIS/KnowledgeBase/Brain-Integration|Brain Integration]]
 - [[JARVIS/04-Engineering/Architecture/SegundoCerebro|Segundo Cérebro]]
 - [[JARVIS/02-Operational/Config/Integracao|Integration]]
-- [[Will-Pessoal/Perfil/Cerebro-Will|Cérebro Will]]
-- [[Projetos/EstudosFocados/Workspace-Study/Practical-Example-Maximum-Files|Practical Example: Máximo de Arquivos]]
+- [[Will-Pessoal/01-Identidade/Perfil/Cerebro-Will|Cérebro Will]]
+- [[Projetos/03-Estudos/EstudosFocados/Workspace-Study/Practical-Example-Maximum-Files|Practical Example: Máximo de Arquivos]]

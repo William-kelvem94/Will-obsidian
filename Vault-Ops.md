@@ -97,9 +97,29 @@ node .\index.js
 - `Will-Pessoal/README.md` → hub pessoal para perfil, vida e objetivos.
 - `JARVIS/README.md` → hub do segundo cérebro e memória ativa.
 
-## Próximos passos
+## 🏛️ Arquitetura de Camadas (Tiered)
 
-- Adicionar um dashboard de status para os projetos com prioridade e metas de 30 dias.
-- Criar templates de frontmatter padrão para notas de projeto e notas de decisão.
-- Usar Dataview ou plugins similares para transformar notas em painéis dinâmicos.
-- Reunir os projetos duplicados entre `Projetos/Outros/` e `Projetos/Privados/` e alinhar suas versões.
+Em 2026-04-21, o vault foi migrado para uma estrutura em camadas para otimizar a performance de agentes de IA:
+- **01-Identity/Active**: Core vital.
+- **02-Operational/Vision**: Contexto de ação.
+- **03-Memory/Learning**: Histórico.
+- **04-Engineering/Social**: Conhecimento técnico.
+- **05-System/Archive**: Manutenção e histórico legacy.
+
+## 🕵️ Auditoria e Qualidade
+
+As auditorias periódicas (antigo `Isolated-Notes-Audit.md`) focam em:
+- **Conectividade**: Garantir que novos hubs não criem orfandade de notas.
+- **Normalização**: Aplicar tags e metadados via `.scripts/vault_cleanup.py`.
+- **Integridade de Links**: Atualização global após movimentação de pastas (realizada via scripts de S/R).
+
+### Resultados de Auditoria Recente
+- Hubs `Bem-vindo.md`, `Projetos.md` e `JARVIS/README.md` totalmente integrados à nova arquitetura.
+- Consolidado arquivos de meta-pesquisa em `Projetos/03-Estudos/`.
+- Limpeza de scripts e logs temporários concluída.
+
+## 📈 Próximos passos
+
+- [ ] Implementar dashboard via Dataview para o radar de projetos ativos.
+- [ ] Criar templates de frontmatter automatizados no VS Code.
+- [ ] Expandir o `04-Engineering/Wiki` com a stack de AI Generativa local.

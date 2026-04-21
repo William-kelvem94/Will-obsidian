@@ -24,4 +24,4 @@ Central de conhecimento técnico categorizado para guiar a evolução dos projet
 - [[python-best-practices]] — Estrutura de projetos robustos em FastAPI/Flask.
 
 ---
-**Links Rápidos**: [[Projetos/Plano-de-Acao|🚀 Plano de Ação]] | [[skills/Skill-Project-Matrix|📊 Matriz Skills]] #estudos #pesquisas
+**Links Rápidos**: [[Projetos/01-Ativos/Plano-de-Acao|🚀 Plano de Ação]] | [[skills/Skill-Project-Matrix|📊 Matriz Skills]] #estudos #pesquisas

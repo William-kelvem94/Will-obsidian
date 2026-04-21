@@ -30,4 +30,4 @@ Plataforma SaaS imobiliário completo com gestão de imóveis, inquilinos, contr
 
 **Estratégia**: [[../EstudosFocados/gestor_aluguel_2.0|Roadmap de Evolução SaaS]]
 
-**Links:** [[GitHub-Completo]] | [[Projetos/EstudosPesquisas/README|🔬 Recursos]] #saas #enterprise #nextjs #prisma
+**Links:** [[GitHub-Completo]] | [[Projetos/03-Estudos/EstudosPesquisas/README|🔬 Recursos]] #saas #enterprise #nextjs #prisma

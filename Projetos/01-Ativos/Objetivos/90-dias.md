@@ -59,9 +59,9 @@ Este documento reúne as prioridades do vault para o próximo ciclo de 90 dias, 
   - fluxo seguro de automação de PC.
 
 ## Objetivos de pesquisa
-- Validar referências de AI local em [[Projetos/EstudosPesquisas/AI-Local-Gratuita|AI-Local-Gratuita]].
-- Documentar deploy Docker gratuito em [[Projetos/EstudosPesquisas/Docker-Prod-Gratis|Docker-Prod-Gratis]].
-- Capturar boas práticas de SaaS Next.js em [[Projetos/EstudosPesquisas/Next.js-SaaS-Evolution|Next.js-SaaS-Evolution]].
+- Validar referências de AI local em [[Projetos/03-Estudos/EstudosPesquisas/AI-Local-Gratuita|AI-Local-Gratuita]].
+- Documentar deploy Docker gratuito em [[Projetos/03-Estudos/EstudosPesquisas/Docker-Prod-Gratis|Docker-Prod-Gratis]].
+- Capturar boas práticas de SaaS Next.js em [[Projetos/03-Estudos/EstudosPesquisas/Next.js-SaaS-Evolution|Next.js-SaaS-Evolution]].
 
 ## Resultado esperado no final do ciclo
 - Uma pasta de objetivos clara com foco em execução.

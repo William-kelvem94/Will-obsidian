@@ -1,68 +1,39 @@
-# 🛠️ Hub de Projetos [[Will-Pessoal/Perfil/Cerebro-Will|Cérebro Will]] 
+---
+title: "Hub de Projetos (MOC)"
+description: "Mapa de Conteúdo para todos os projetos públicos e privados."
+tags: [hub, projetos, moc]
+updated: 2026-04-21
+---
 
-#projetos #hub
+# 🛠️ Hub de Projetos — [[Will-Pessoal/01-Identidade/Perfil/Cerebro-Will|Cérebro Will]] 
 
 ## 📡 Radar de Projetos (Ativos)
 | Projeto | Status | Prioridade | Tech Stack |
 |---|---|---|---|
-| [[Privados/gestor_aluguel_2.0\|Gestor Aluguel]] | 🚀 Produção | 🔥 Alta | Next.js, Prisma, Gemini |
-| [[Privados/IA-LOCAL\|JARVIS Core]] | 🏗️ Dev | 🔥 Alta | Python, FAISS, Whisper |
-| [[Privados/Auto-boletos\|Auto-boletos]] | 🏗️ Dev | ⚡ Média | Flask, Playwright, OCR |
-| [[Privados/PROJECT_JARVIS_5.0\|JARVIS 5.0]] | 🧪 Pesquisa | ⚡ Média | FastAPI, LiveKit |
-| [[Privados/openclaude-wk\|OpenClaude WK]] | 🛠️ Manutenção | 🧊 Baixa | TypeScript, CLI |
+| [[Projetos/01-Ativos/Privados/gestor_aluguel_2.0\|Gestor Aluguel]] | 🚀 Produção | 🔥 Alta | Next.js, Prisma, Gemini |
+| [[Projetos/01-Ativos/Privados/IA-LOCAL\|JARVIS Core]] | 🏗️ Dev | 🔥 Alta | Python, FAISS, Whisper |
+| [[Projetos/01-Ativos/Privados/Auto-boletos\|Auto-boletos]] | 🏗️ Dev | ⚡ Média | Flask, Playwright, OCR |
+| [[Projetos/01-Ativos/Privados/PROJECT_JARVIS_5.0\|JARVIS 5.0]] | 🧪 Pesquisa | ⚡ Média | FastAPI, LiveKit |
 
-## 📈 Stats Gerais
-| Métrica | Valor |
-|---|---|
-| Públicos mapeados | 16+ |
-| Privados clonados | 8+ |
-| Repos total (GitHub) | 67 |
-| Última Sincronização | 2026-04-12 |
+## 📂 Coleções por Categoria
 
+### 🚀 01. Ativos (Em Execução)
+- [[Projetos/01-Ativos/Privados/README|MOC Privados]] — Projetos de alto valor.
+- [[Projetos/01-Ativos/Python/README|Python Stack]] — Automações e scripts ativos.
 
-## 📁 Organização do Vault
-### Públicos em `Projetos/`
-```
-Projetos/
-├── Python/
-│   ├── [[Python/Automatizador|Automatizador]]
-│   └── [[Python/TRADUTOR-WKP|TRADUTOR-WKP]]
-├── PHP/
-│   ├── [[PHP/CRUD_VENDAS_WILL|CRUD_VENDAS_WILL]]
-│   ├── [[PHP/CRUD_BASICO4.0|CRUD_BASICO4.0]]
-│   ├── [[PHP/CRUD_BASICO-3.0|CRUD_BASICO-3.0]]
-│   ├── [[PHP/CRUD_BASICO-2.0|CRUD_BASICO-2.0]]
-│   └── [[PHP/crud_basico|crud_basico]]
-├── Java/
-│   ├── [[Java/Atividade-01|Atividade-01]]
-│   └── [[Java/Atividade-03|Atividade-03]]
-└── Outros/
-    ├── [[Outros/DIA-DAS-MULHERES|DIA-DAS-MULHERES]]
-```
+### 📚 03. Estudos & Roadmaps
+- [[Projetos/03-Estudos/EstudosFocados/README|Estudos Focados]] — Diário de bordo técnico.
+- [[Projetos/03-Estudos/EstudosPesquisas/README|Estudos e Pesquisas]] — Referências de mercado.
 
-> Nota: projetos privados ativos como `Auto-boletos`, `gestor_aluguel_2.0`, `IA-LOCAL` e `PROJECT_JARVIS_5.0` devem ser documentados principalmente em `Projetos/Privados/`.
+### 🗄️ 02. Arquivo Histórico
+- [[Projetos/02-Arquivo/PHP/README|Legacy PHP]] — CRUDs e sistemas antigos.
+- [[Projetos/02-Arquivo/Java/README|Legacy Java]] — Atividades acadêmicas.
+- [[Projetos/02-Arquivo/Outros/README|Outros]] — Design e projetos variados.
 
-### Privados clonados em `Projetos/Privados/`
-- [[Privados/Auto-boletos|Auto-boletos]]
-- [[Privados/DEEP-LEARNING|DEEP-LEARNING]]
-- [[Privados/DIA-DAS-MULHERES|DIA DAS MULHERES]]
-- [[Privados/gestor_aluguel_2.0|gestor_aluguel_2.0]]
-- [[Privados/IA-LOCAL|IA-LOCAL]]
-- [[Privados/openclaude-wk|openclaude-wk]]
-- [[Privados/PROJECT_JARVIS_5.0|PROJECT_JARVIS_5.0]]
+---
 
-### Estudos e pesquisa
-- [[Projetos/EstudosFocados/README|Estudos Focados]] — roadmaps, análises e diário de bordo.
-- [[Projetos/EstudosPesquisas/README|Estudos e Pesquisas]] — referências técnicas, tutoriais e melhores práticas.
+## 📈 Inteligência de Repositórios
+- [[Projetos/04-Master-Plan/GitHub-Completo|📦 Inventário GitHub]] — Mapeamento de 67 repositórios.
+- [[Projetos/04-Master-Plan/Organizacao-Completa|📐 Planejamento de Estrutura]] — Visão de longo prazo.
 
-### Objetivos e metas
-- [[Projetos/Objetivos/README|Objetivos]] — metas do ciclo, visão de resultados e alinhamento de prioridades.
-- [[Projetos/Objetivos/90-dias|90 dias]] — plano de 90 dias para projetos prioritários.
-
-## 📚 Observações
-- `Projetos/GitHub-Completo.md` é a captura geral dos 67 repositórios do GitHub.
-- `Projetos/Privados/` contém clones locais com análise detalhada e foco em projetos em andamento.
-- `Projetos/EstudosFocados/` contém notas estratégicas com cronograma e entregáveis.
-- `Projetos/EstudosPesquisas/` contém guias para tecnologias usadas pelos projetos.
-
-**Links:** [[Bem-vindo]] | [[Projetos/GitHub-Completo]] | [[Will-Pessoal/Perfil/Cerebro-Will|Cérebro Will]]
+**Links:** [[Bem-vindo]] | [[Projetos/01-Ativos/Plano-de-Acao|🚀 Plano de Ação]] | [[Vault-Ops]]

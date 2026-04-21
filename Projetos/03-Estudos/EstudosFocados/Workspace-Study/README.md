@@ -15,16 +15,16 @@ Este é o ponto de entrada para a investigação do vault, a análise de sua est
 - Criar um espaço de estudo antes de partir para implementação.
 
 ## Notas neste hub
-- [[Projetos/EstudosFocados/Workspace-Study/Workspace-Analysis-2026-04-17|Workspace Analysis 2026-04-17]]
-- [[Projetos/EstudosFocados/Workspace-Study/Benchmark-IA-Local|Benchmark IA Local]]
-- [[Projetos/EstudosFocados/Workspace-Study/MCP-and-OpenClaude-Workflow|MCP and OpenClaude Workflow]]
-- [[Projetos/EstudosFocados/Workspace-Study/Workspace-Structure-Map|Workspace Structure Map]]
-- [[Projetos/EstudosFocados/Workspace-Study/IA-Local-Research|IA Local Research]]
-- [[Projetos/EstudosFocados/Workspace-Study/MCP-and-Agents-Research|MCP and Agents Research]]
-- [[Projetos/EstudosFocados/Workspace-Study/DevOps-and-Infrastructure|DevOps and Infrastructure Research]]
-- [[Projetos/EstudosFocados/Workspace-Study/VSCode-and-Workflow|VS Code and Workflow Research]]
-- [[Projetos/EstudosFocados/Workspace-Study/Brain-Health-Dashboard|Brain Health Dashboard]]
-- [[Projetos/EstudosFocados/Workspace-Study/Practical-Example-Maximum-Files|Practical Example: Máximo de Arquivos]]
+- [[Projetos/03-Estudos/EstudosFocados/Workspace-Study/Workspace-Analysis-2026-04-17|Workspace Analysis 2026-04-17]]
+- [[Projetos/03-Estudos/EstudosFocados/Workspace-Study/Benchmark-IA-Local|Benchmark IA Local]]
+- [[Projetos/03-Estudos/EstudosFocados/Workspace-Study/MCP-and-OpenClaude-Workflow|MCP and OpenClaude Workflow]]
+- [[Projetos/03-Estudos/EstudosFocados/Workspace-Study/Workspace-Structure-Map|Workspace Structure Map]]
+- [[Projetos/03-Estudos/EstudosFocados/Workspace-Study/IA-Local-Research|IA Local Research]]
+- [[Projetos/03-Estudos/EstudosFocados/Workspace-Study/MCP-and-Agents-Research|MCP and Agents Research]]
+- [[Projetos/03-Estudos/EstudosFocados/Workspace-Study/DevOps-and-Infrastructure|DevOps and Infrastructure Research]]
+- [[Projetos/03-Estudos/EstudosFocados/Workspace-Study/VSCode-and-Workflow|VS Code and Workflow Research]]
+- [[Projetos/03-Estudos/EstudosFocados/Workspace-Study/Brain-Health-Dashboard|Brain Health Dashboard]]
+- [[Projetos/03-Estudos/EstudosFocados/Workspace-Study/Practical-Example-Maximum-Files|Practical Example: Máximo de Arquivos]]
 
 ## Principais trilhas de estudo
 - **IA local**: voz, visão, RAG e modelos offline.

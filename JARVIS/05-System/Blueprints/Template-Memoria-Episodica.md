@@ -33,7 +33,7 @@ updated: 2026-04-15
 
 ## 🔗 Referências
 
-- [[Will-Pessoal/Perfil/Perfil|Perfil]]
+- [[Will-Pessoal/01-Identidade/Perfil/Perfil|Perfil]]
 - [[../Contexto-Atual/Estado]]
 
 ---

@@ -33,8 +33,8 @@ Este vault está organizado em camadas claras:
 - `Projetos/EstudosPesquisas/`
 
 ## Projetos públicos mapeados em `Projetos/`
-- [[Projetos/Python/Automatizador|Automatizador]]
-- [[Projetos/Python/TRADUTOR-WKP|TRADUTOR-WKP]]
+- [[Projetos/01-Ativos/Python/Automatizador|Automatizador]]
+- [[Projetos/01-Ativos/Python/TRADUTOR-WKP|TRADUTOR-WKP]]
 - [[Projetos/PHP/CRUD_VENDAS_WILL|CRUD_VENDAS_WILL]]
 - [[Projetos/PHP/CRUD_BASICO4.0|CRUD_BASICO4.0]]
 - [[Projetos/PHP/CRUD_BASICO-3.0|CRUD_BASICO-3.0]]
@@ -47,19 +47,19 @@ Este vault está organizado em camadas claras:
 - [[Projetos/Outros/Gestor Aluguel 2.0|Gestor Aluguel 2.0]]
 
 ## Projetos privados clonados com análise
-- [[Projetos/Privados/Auto-boletos|Auto-boletos]]
-- [[Projetos/Privados/DEEP-LEARNING|DEEP-LEARNING]]
-- [[Projetos/Privados/DIA-DAS-MULHERES|DIA DAS MULHERES]]
-- [[Projetos/Privados/gestor_aluguel_2.0|gestor_aluguel_2.0]]
-- [[Projetos/Privados/IA-LOCAL|IA-LOCAL]]
-- [[Projetos/Privados/openclaude-wk|openclaude-wk]]
-- [[Projetos/Privados/PROJECT_JARVIS_5.0|PROJECT_JARVIS_5.0]]
+- [[Projetos/01-Ativos/Privados/Auto-boletos|Auto-boletos]]
+- [[Projetos/01-Ativos/Privados/DEEP-LEARNING|DEEP-LEARNING]]
+- [[Projetos/01-Ativos/Privados/DIA-DAS-MULHERES|DIA DAS MULHERES]]
+- [[Projetos/01-Ativos/Privados/gestor_aluguel_2.0|gestor_aluguel_2.0]]
+- [[Projetos/01-Ativos/Privados/IA-LOCAL|IA-LOCAL]]
+- [[Projetos/01-Ativos/Privados/openclaude-wk|openclaude-wk]]
+- [[Projetos/01-Ativos/Privados/PROJECT_JARVIS_5.0|PROJECT_JARVIS_5.0]]
 
 ## Notas de pesquisa e suporte
-- [[Projetos/EstudosFocados/README|Estudos Focados]]
-- [[Projetos/EstudosPesquisas/README|Estudos e Pesquisas]]
-- [[Projetos/Plano-de-Acao|Plano de Ação]]
-- [[Will-Pessoal/Perfil/Cerebro-Will|Cérebro Will]]
+- [[Projetos/03-Estudos/EstudosFocados/README|Estudos Focados]]
+- [[Projetos/03-Estudos/EstudosPesquisas/README|Estudos e Pesquisas]]
+- [[Projetos/01-Ativos/Plano-de-Acao|Plano de Ação]]
+- [[Will-Pessoal/01-Identidade/Perfil/Cerebro-Will|Cérebro Will]]
 - [[Bem-vindo|Bem-vindo]]
 
 ## Estrutura ideal do vault

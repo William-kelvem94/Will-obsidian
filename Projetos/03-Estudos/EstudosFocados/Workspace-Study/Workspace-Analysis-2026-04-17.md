@@ -113,14 +113,14 @@ A estrutura atual combina:
 - evitar notas soltas com `Workspace Structure Map`.
 
 ## Novas notas criadas
-- [[Projetos/EstudosFocados/Workspace-Study/Workspace-Structure-Map|Workspace Structure Map]]
-- [[Projetos/EstudosFocados/Workspace-Study/IA-Local-Research|IA Local Research]]
-- [[Projetos/EstudosFocados/Workspace-Study/Benchmark-IA-Local|Benchmark IA Local]]
-- [[Projetos/EstudosFocados/Workspace-Study/MCP-and-Agents-Research|MCP and Agents Research]]
-- [[Projetos/EstudosFocados/Workspace-Study/MCP-and-OpenClaude-Workflow|MCP and OpenClaude Workflow]]
-- [[Projetos/EstudosFocados/Workspace-Study/DevOps-and-Infrastructure|DevOps and Infrastructure Research]]
-- [[Projetos/EstudosFocados/Workspace-Study/VSCode-and-Workflow|VS Code and Workflow Research]]
-- [[Projetos/EstudosFocados/Workspace-Study/Practical-Example-Maximum-Files|Practical Example: Máximo de Arquivos]]
+- [[Projetos/03-Estudos/EstudosFocados/Workspace-Study/Workspace-Structure-Map|Workspace Structure Map]]
+- [[Projetos/03-Estudos/EstudosFocados/Workspace-Study/IA-Local-Research|IA Local Research]]
+- [[Projetos/03-Estudos/EstudosFocados/Workspace-Study/Benchmark-IA-Local|Benchmark IA Local]]
+- [[Projetos/03-Estudos/EstudosFocados/Workspace-Study/MCP-and-Agents-Research|MCP and Agents Research]]
+- [[Projetos/03-Estudos/EstudosFocados/Workspace-Study/MCP-and-OpenClaude-Workflow|MCP and OpenClaude Workflow]]
+- [[Projetos/03-Estudos/EstudosFocados/Workspace-Study/DevOps-and-Infrastructure|DevOps and Infrastructure Research]]
+- [[Projetos/03-Estudos/EstudosFocados/Workspace-Study/VSCode-and-Workflow|VS Code and Workflow Research]]
+- [[Projetos/03-Estudos/EstudosFocados/Workspace-Study/Practical-Example-Maximum-Files|Practical Example: Máximo de Arquivos]]
 
 ## Próximas ações imediatas
 - confirmar a arquitetura do workspace com `Workspace Structure Map`.
