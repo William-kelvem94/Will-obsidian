@@ -53,7 +53,9 @@ updated: 2026-04-15
 ## Lista de Repositórios (Automática)
 
 - [openclaude-wk](https://github.com/William-kelvem94/openclaude-wk) (TypeScript) - Open Claude Is Open-source coding-agent CLI for OpenAI, Gemini, DeepSeek, Ollama, Codex, GitHub Models, and 200+ models via OpenAI-compatible APIs.
-    - *Últimos:* docs: corrige formatação do comando de instalação  (2026-04-12) | Implement feature X to enhance user experience and (2026-04-11) | chore: adiciona dependências aws-sdk, mcpb e types (2026-04-10)
+    - *Últimos:* feat: adiciona script start-openclaude.ps1 para co (2026-04-18) | refactor: atualiza scripts de build e adiciona nov (2026-04-15) | docs: corrige formatação do comando de instalação  (2026-04-12)
+- [pixel-agents](https://github.com/William-kelvem94/pixel-agents) (N/A) - Pixel office.
+    - *Últimos:* fix: subagent characters not despawning on complet (2026-04-14) | feat: hooks-first session management with dual-mod (2026-04-11) | fix: add shared/ to lint, format, and lint-staged  (2026-04-05)
 - [DIA-DAS-MULHERES](https://github.com/William-kelvem94/DIA-DAS-MULHERES) (CSS) - Sem descrição
     - *Últimos:* gera novo pacote offline com correções (2026-03-08) | corrige travamento do scroll causado pela timeline (2026-03-08) | adiciona ferramenta para gerar pacote offline (2026-03-08)
 - [Automatizador](https://github.com/William-kelvem94/Automatizador) (Python) - Sistema profissional de automaÃ§Ã£o inteligente de login em sites web - Python com interface grÃ¡fica moderna
@@ -82,6 +84,4 @@ c (2025-02-08) | chore: add stale issue management configuration (2025-02-08) | 
     - *Últimos:* Create README.md (2022-03-24)
 - [teste](https://github.com/William-kelvem94/teste) (N/A) - Sem descrição
     - *Últimos:* Sem histórico recente
-- [Atividade-03](https://github.com/William-kelvem94/Atividade-03) (Java) - Sem descrição
-    - *Últimos:* 27/09/2021 (2021-09-28) | Initial commit (2021-09-28)
 
