@@ -1,50 +1,43 @@
 ---
-tags: [skills]
-updated: 2026-04-15
+tags: [skills, hub, index]
+updated: 2026-04-21
 ---
 
-# OpenClaude Skills para Fullstack & MCP
+# 🧠 Skills Knowledge Base (Neural Architecture)
 
-Organização de skills para usar com OpenClaude (LM Studio local).
+Bem-vindo ao centro nevrálgico do seu "Second Brain". Esta diretório contém a destilação técnica de competências necessárias para construir, operar e escalar sistemas de IA agentes e aplicações fullstack modernas.
 
-## Como usar
-1. No OpenClaude: `/config` ou editar `~/.claude/settings.json`.
-2. Carregue skills como tools/prompts.
-3. [[Projetos]] | [[JARVIS]]
+## 📂 Arquitetura de Domínios
 
-## Fullstack
-- [[fullstack/README|Fullstack]] — visão geral e links para Frontend, Backend e Database.
-- [[fullstack/frontend|Frontend]] — React/Vue/JS, UX e componentes.
-- [[fullstack/backend|Backend]] — APIs, serviços e integração.
-- [[fullstack/database|Database]] — modelagem, queries e migrações.
+### 🤖 01. Agentic Intelligence
+*A mente por trás da automação.*
+- [[01-agentic-intelligence/multi-agent-orchestration|Multi-Agent Orchestration]] — Coordenação de pipelines de agentes.
+- [[01-agentic-intelligence/autonomous-workflow|Autonomous Workflows]] — Protocolos de execução autônoma.
+- [[01-agentic-intelligence/vscode-ai/INDEX|VS Code AI Hub]] — Prompts e setups para desenvolvimento assistido.
+- [[01-agentic-intelligence/vscode-ai/project-jarvis-prompts|Project JARVIS 5.0]] — Core prompts do sistema Jarvis.
 
-## VS Code AI
-- [[vscode-ai/README|VS Code AI Skills]] — estrutura de prompts e MCP para usar IA no VS Code
-- [[vscode-ai/use-cases|Casos de Uso]] — workflows práticos para refatoração, docs, testes e IA local
-- [[vscode-ai/advanced-workflows|Workflows Avançados]] — fluxos para projetos complexos
-- [[Projetos/EstudosFocados/Workspace-Study/README|Workspace Study Hub]] — estudo prático e benchmark do vault
-- [[vscode-ai/mcp-operators|Operadores MCP]] — operadores e regras de ação
-- [[vscode-ai/templates|Templates de Prompt]] — modelos prontos para agentes e prompts reutilizáveis
-- [[vscode-ai/quick-start|Quick Start]] — comandos específicos para seu ambiente Windows e VS Code
-- [[vscode-ai/project-jarvis-prompts|Project JARVIS 5.0]] — prompts focados no seu projeto Jarvis
-- [[vscode-ai/mini-agent|Mini-Agent]] — fluxo de leitura/edição/validação para IA
-- [[vscode-ai/direct-agent-prompts|Prompts prontos]] — prompts prontos para copiar no chat do agente local
-- [[vscode-ai/best-practices|Boas Práticas]] — recomendações para uso adequado de IA no VS Code
-- [[vscode-ai/quick-reference|Referência Rápida]] — atalho para operadores, prompts e workflows
+### 🛠️ 02. Software Engineering
+*Fundação técnica e implementação.*
+- [[02-software-engineering/frontend|Frontend Mastery]] — React, Next.js e UX/UI Moderno.
+- [[02-software-engineering/backend|Backend & Python]] — APIs robustas e scripts de automação.
+- [[02-software-engineering/database|Data Modeling]] — SQL, Prisma e persistência.
 
-## MCP & Automação
-- [[mcp-tools]] — File/terminal MCPs e padrões.
-- [[autonomous-workflow]] — Protocolos para agentes autônomos.
-- `.scripts/mcp-vault-server/` — Servidor MCP local para o Vault.
+### 🌐 03. Infrastructure & MCP
+*Conectividade e processamento local.*
+- [[03-infrastructure-mcp/local-llm-ops|Local LLM Ops]] — Otimização de modelos (LM Studio, Ollama).
+- [[03-infrastructure-mcp/mcp-servers|MCP Servers]] — Pontes de contexto entre IA e Sistema Operacional.
 
-## Pragmatic Execution Matrix (Internal Use)
-
-| Skill | Tool/Source | Quando usar |
-|---|---|---|
-| **Arquitetura Fullstack** | [[fullstack/README\|Fullstack Hub]] | Ao planejar novos módulos ou refatorar backend/frontend. |
-| **Automação Browser** | [[vscode-ai/mcp-operators\|MCP Operators]] | Tarefas de raspagem, login ou UI Testing. |
-| **Agent Workflow** | [[vscode-ai/mini-agent\|Mini-Agent]] | Protocolo padrão para leitura/edição/validação de código. |
-| **Jarvis Specialist** | [[vscode-ai/project-jarvis-prompts\|Jarvis Prompts]] | Ao codificar especificamente para o motor JARVIS 5.0. |
+### 📚 04. Knowledge Systems
+*Memória e recuperação semântica.*
+- [[04-knowledge-systems/obsidian-neural-vault|Obsidian Neural Vault]] — RAG e gestão de conhecimento com IA.
+- [[04-knowledge-systems/memory-management|Long-term Memory]] — (Em breve) Persistência de contexto para agentes.
 
 ---
-**Índices:** [[skills/vscode-ai/INDEX|VS Code AI]] | [[skills/fullstack/INDEX|Fullstack Architecture]]
+
+## 🗺️ Ferramentas Rápidas
+- **Matriz de Aplicação**: [[Skill-Project-Matrix|Onde as skills encontram os projetos]]
+- **Configurações MCP**: [[03-infrastructure-mcp/mcp-servers#Configuration (JSON)|JSON Snippets]]
+- **Prompts de Elite**: [[01-agentic-intelligence/vscode-ai/prompts|Prompt Library]]
+
+---
+*Mantenha suas skills afiadas. O progresso é iterativo.*
