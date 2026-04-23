@@ -51,6 +51,8 @@ O script também gera um relatório em `.scripts/vault_cleanup_report.md` com as
 
 Usado para sincronizar o inventário de repositórios GitHub com a nota `Projetos/GitHub-Completo.md`.
 
+Agora o script também marca se um repositório tem clone local em `Projetos/Privados/`.
+
 Uso:
 
 ```powershell
@@ -58,7 +60,7 @@ Set-Location 'c:\Users\willi\Documents\GitHub\Will-obsidian\.scripts'
 python .\github_sync.py
 ```
 
-Isso ajuda a manter o inventário atualizado com os últimos commits e o status dos repositórios mapeados.
+Isso ajuda a manter o inventário atualizado com os últimos commits, o status de nuvem e quais repositórios já têm análise local.
 
 ### `.scripts/mcp-vault-server/index.js`
 

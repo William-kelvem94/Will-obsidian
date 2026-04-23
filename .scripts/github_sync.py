@@ -10,6 +10,7 @@ SCRIPT_ROOT = os.path.dirname(os.path.abspath(__file__))
 GITHUB_USERNAME = "William-kelvem94"
 VAULT_PATH = os.path.normpath(os.path.join(SCRIPT_ROOT, ".."))
 TARGET_FILE = os.path.join(VAULT_PATH, "Projetos/GitHub-Completo.md")
+LOCAL_PRIVADOS_DIR = os.path.normpath(os.path.join(VAULT_PATH, "Projetos/Privados"))
 
 def get_json(url):
     headers = {"User-Agent": "Mozilla/5.0"}
@@ -37,8 +38,22 @@ def get_commits(owner, repo):
         return [f"{c['commit']['message'][:50]} ({c['commit']['author']['date'][:10]})" for c in data]
     return ["Sem histórico recente"]
 
+
+def get_local_clone_names():
+    if not os.path.isdir(LOCAL_PRIVADOS_DIR):
+        return set()
+    results = set()
+    for entry in os.listdir(LOCAL_PRIVADOS_DIR):
+        if os.path.isdir(os.path.join(LOCAL_PRIVADOS_DIR, entry)):
+            results.add(entry.lower())
+        elif entry.lower().endswith('.md'):
+            results.add(os.path.splitext(entry)[0].lower())
+    return results
+
+
 def update_markdown(repos):
     now = datetime.now().strftime("%Y-%m-%d %H:%M")
+    local_clones = get_local_clone_names()
     
     # Gerar a lista de repositórios com commits
     repo_md_lines = []
@@ -47,7 +62,8 @@ def update_markdown(repos):
         name = repo['name']
         commits = get_commits(GITHUB_USERNAME, name)
         commits_str = " | ".join(commits)
-        line = f"- [{name}]({repo['html_url']}) ({repo['language'] or 'N/A'}) - {repo['description'] or 'Sem descrição'}\n    - *Últimos:* {commits_str}"
+        status = "🔒 Clone local" if name.lower() in local_clones else "☁️ GitHub"
+        line = f"- [{name}]({repo['html_url']}) ({repo['language'] or 'N/A'}) - {repo['description'] or 'Sem descrição'} ({status})\n    - *Últimos:* {commits_str}"
         repo_md_lines.append(line)
         print(f"  ✓ {name} processado.")
     
