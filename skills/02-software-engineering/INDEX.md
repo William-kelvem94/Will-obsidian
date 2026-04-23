@@ -13,3 +13,4 @@ updated: 2026-04-15
 - [[frontend|Frontend]]
 - [[backend|Backend]]
 - [[database|Database]]
+- [[advanced-backend-architecture|Arquitetura Backend Avançada (Python & TS)]]

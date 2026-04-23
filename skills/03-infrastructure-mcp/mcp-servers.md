@@ -7,6 +7,9 @@ updated: 2026-04-21
 
 Model Context Protocol (MCP) is the bridge between the LLM and your local system.
 
+## Padrões Avançados de MCP (Referência)
+Para aprofundamento veja: [[advanced-mcp-integrations|Integrações MCP Avançadas e LLMs Locais]]
+
 ## Standard MCP Servers
 - **Filesystem**: `read_file`, `write_file`, `list_dir`. The core of local coding assistance.
 - **Terminal/Shell**: `run_command`. Critical for running tests, build scripts, and git operations.
