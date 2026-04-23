@@ -1,40 +1,54 @@
-# Bem-vindo
+---
+title: "Bem-vindo ao Neural Hub"
+description: "Ponto de entrada central para o ecossistema de projetos e o Segundo Cérebro do Will."
+tags: [hub, entrypoint, main]
+updated: 2026-04-21
+---
 
-#hub #projetos
+# 🛸 Neural Hub — Bem-vindo
 
-## Cofre de Projetos GitHub
-Este vault está organizado como um hub de projetos pessoais e de pesquisa.
+Este vault é o centro nevrálgico de operação, pesquisa e desenvolvimento do **Projeto JARVIS** e do portfólio de engenharia do Will.
 
-### Principais índices
-- [[Projetos|📊 MOC Projetos]] — página principal de organização por linguagem e categorias.
-- [[Projetos/Plano-de-Acao|🚀 Plano de Ação]] — checklist e prioridades operacionais.
-- [[Projetos/GitHub-Completo|📦 GitHub Completo]] — mapa geral dos 67 repositórios.
-- [[Projetos/Objetivos/README|🎯 Objetivos]] — metas e resultados para o próximo ciclo.
-- [[Projetos/Privados/README|🔐 Privados Clonados]] — notas dos projetos clonados localmente.
-- [[Projetos/EstudosFocados/README|📘 Estudos Focados]] — roadmaps e análises profundas.
-- [[Projetos/EstudosPesquisas/README|🔬 Estudos e Pesquisas]] — recursos e guias técnicos.
-- [[skills/README|🧠 Skills Hub]] — prompts, MCPs e workflows para IA e VS Code.
-- [[Vault-Ops|🧰 Manutenção do Vault]] — guia operacional para organização e automação.
-- [[JARVIS/README|🧠 JARVIS Hub]] — mente operacional, memórias e segundo cérebro.
-- [[Will-Pessoal/README|🌱 Will-Pessoal]] — hub pessoal de perfil, vida e objetivos.
-- [[Will-Pessoal/Perfil/Cerebro-Will|🧠 Cérebro Will]] — resumo de perfil, skills e estratégia de IA local.
-- [[Isolated-Notes-Audit|🧩 Auditoria de notas isoladas]] — análise de nós soltos e ajustes realizados.
-- [[IA-LOCAL.canvas|📐 IA-LOCAL Canvas]] — visão e arquitetura do agente local.
-- [[2026-04-12|📓 Nota recente: 2026-04-12]]
-- [[skills/mcp-tools|MCP Tools]] — ferramentas do MCP para VS Code e terminal.
-- [[Graph-Legenda]] — legenda do gráfico de links.
+---
 
-## Organização atual
-- `Projetos/` → projetos públicos organizados por linguagem.
-- `Projetos/Privados/` → projetos clonados com análise e documentação local.
-- `Projetos/EstudosFocados/` → trabalhos de roadmap e diário de bordo.
-- `Projetos/Objetivos/` → metas do vault, OKRs e planejamento de 90 dias.
-- `Projetos/EstudosPesquisas/` → materiais de pesquisa e recursos gratuitos.
+## ⚡ Acesso Rápido (Top Tiers)
 
-## Como usar
-- Abra [[Projetos]] para ver o MOC completo.
-- Use o grafico do Obsidian para navegar pelas conexões entre projetos.
-- Veja [[Graph-Legenda]] para o mapa de cores e categorias do gráfico.
-- Qualquer arquivo com `source: github.com/William-kelvem94` representa um repositório GitHub mapeado.
+| Domínio | Descrição | Hub Principal |
+|---|---|---|
+| **🤖 JARVIS** | Inteligência, Memória e Identidade | [[JARVIS/README\|JARVIS Command Center]] |
+| **🚀 Projetos** | Portfolio Ativo e Arquivo Técnico | [[Projetos\|Hub de Projetos]] |
+| **🧠 Skills** | Competências, Prompts e MCPs | [[skills/README\|Skills Hub]] |
+| **🌱 Pessoal** | Perfil, Visão e Vida | [[Will-Pessoal/README\|Will-Pessoal Hub]] |
 
-**Dica:** mantenha esta nota como ponto de entrada principal para o vault de projetos.
+---
+
+## 🛠️ Navegação Estratégica
+
+### 🎯 Execução & Foco
+- [[Projetos/01-Ativos/Plano-de-Acao|🚀 Plano de Ação]] — Checklist de prioridades.
+- [[Projetos/01-Ativos/Objetivos/README|🎯 Objetivos & OKRs]] — Aonde estamos indo?
+- [[Projetos/01-Ativos/Privados/README|🔐 Projetos Privados]] — Desenvolvimento core e IP.
+
+### 📚 Conhecimento & Growth
+- [[skills/01-agentic-intelligence/multi-agent-orchestration|🤖 Agentic Intelligence]] — Orquestração de agentes.
+- [[Projetos/03-Estudos/EstudosFocados/README|📘 Estudos Focados]] — Aprendizado profundo.
+- [[skills/03-infrastructure-mcp/mcp-servers|🛠️ MCP Ecosystem]] — Infraestrutura de contexto.
+
+### ⚙️ Gestão de Sistema
+- [[Vault-Ops|🧰 Vault Operations]] — Manutenção e Automação.
+- [[Graph-Legenda|📊 Legenda do Grafo]] — Entenda as conexões visuais.
+- [[Master-Glossary|📖 Glossário Mestre]] — Terminologia unificada.
+
+---
+
+## 🗺️ Mapa de Camadas (Tiers)
+Este vault utiliza uma arquitetura **Tiered** para facilitar a ingestão por IA:
+- **01. Active/Identity**: O que é vital e está acontecendo agora.
+- **02. Operational/Vision**: Planejamento e contexto de execução.
+- **03. Memory/Learning**: O histórico e o processo de aprendizado.
+- **04. Engineering/Network**: A wiki técnica e conexões sociais.
+- **05. System/Archive**: O arquivo histórico e blueprints.
+
+---
+**Dica:** Utilize o atalho `Ctrl+G` para ver a rede neural de conexões deste vault.
+[[Master-Glossary]] | [[Vault-Hierarchy-Map]] | [[Vault-Ops]]

@@ -1,20 +1,23 @@
 ---
-tags: [skills]
-updated: 2026-04-15
+tags: [skills, matrix, organization]
+updated: 2026-04-21
 ---
 
-# 📊 Matriz de Skills x Projetos
+# 📊 Matriz de Skills x Projetos (Neural Edition)
 
-Esta matriz mapeia quais competências técnicas (Skills) estão sendo aplicadas em cada projeto ativo do portfolio.
+Esta matriz mapeia quais competências técnicas (Skills) estão sendo aplicadas em cada projeto ativo do portfolio, utilizando a nova estrutura organizada.
 
-| Skill | Projeto(s) Relacionado(s) | Nota de Skill |
-|---|---|---|
-| **IA & LLMs** | [[Privados/gestor_aluguel_2.0|Gestor Aluguel]], [[Privados/IA-LOCAL|JARVIS Core]] | [[skills/mcp-tools|MCP Tools]] |
-| **Python Backend** | [[Privados/Auto-boletos|Auto-boletos]], [[Privados/IA-LOCAL|IA-LOCAL]] | [[skills/fullstack/backend|Backend]] |
-| **Next.js & React** | [[Privados/gestor_aluguel_2.0|Gestor Aluguel]] | [[skills/fullstack/frontend|Frontend]] |
-| **Prisma / SQL** | [[Privados/gestor_aluguel_2.0|Gestor Aluguel]] | [[skills/fullstack/database|Database]] |
-| **Docker / Infra** | [[Privados/gestor_aluguel_2.0|Gestor Aluguel]], [[Privados/Auto-boletos|Auto-boletos]] | [[skills/README|Skills Hub]] |
-| **Automação (Playwright)**| [[Privados/Auto-boletos|Auto-boletos]] | [[skills/autonomous-workflow|Autonomous Workflows]] |
+## 🧠 Matriz de Aplicação
+
+| Domínio | Skill Primária | Projetos Relacionados | Link de Referência |
+|---|---|---|---|
+| **01 Agentic** | Multi-Agent Orchestration | [[JARVIS 5.0]], [[Hermes Agent]] | [[01-agentic-intelligence/multi-agent-orchestration\|Orchestration]] |
+| **01 Agentic** | Autonomous Workflows | [[Auto-boletos]], [[GitHub Sync]] | [[01-agentic-intelligence/autonomous-workflow\|Workflows]] |
+| **02 Engineering** | Python Mastery | [[IA-LOCAL]], [[GitHub Sync]] | [[02-software-engineering/backend\|Backend/Python]] |
+| **02 Engineering** | Fullstack (NextJS/React) | [[Gestor Aluguel 2.0]] | [[02-software-engineering/frontend\|Frontend]] |
+| **03 Infrastructure** | Local LLM Ops | [[LM Studio]], [[Ollama]] | [[03-infrastructure-mcp/local-llm-ops\|LLMOps]] |
+| **03 Infrastructure** | MCP Connectivity | [[VS Code AI]], [[Jarvis Perception]] | [[03-infrastructure-mcp/mcp-servers\|MCP Servers]] |
+| **04 Knowledge** | Neural Vault (RAG) | [[Obsidian Second Brain]] | [[04-knowledge-systems/obsidian-neural-vault\|Neural Vault]] |
 
 ---
-*Atualizado em: 2026-04-12* #skills #matriz #organizacao
+*Atualizado em: 2026-04-21* #skills #matriz #neural-architecture
