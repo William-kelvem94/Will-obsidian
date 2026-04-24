@@ -18,6 +18,7 @@ Este vault é o centro nevrálgico de operação, pesquisa e desenvolvimento do 
 | **🤖 JARVIS** | Inteligência, Memória e Identidade | [[JARVIS/README\|JARVIS Command Center]] |
 | **🚀 Projetos** | Portfolio Ativo e Arquivo Técnico | [[Projetos\|Hub de Projetos]] |
 | **🧠 Skills** | Competências, Prompts e MCPs | [[skills/README\|Skills Hub]] |
+| **🌍 Humanidades** | Psicologia, Filosofia, Cultura e Ética | [[Conhecimento-Geral/INDEX\|Hub de Conhecimento Geral]] |
 | **🌱 Pessoal** | Perfil, Visão e Vida | [[Will-Pessoal/README\|Will-Pessoal Hub]] |
 
 ---
@@ -33,6 +34,7 @@ Este vault é o centro nevrálgico de operação, pesquisa e desenvolvimento do 
 - [[skills/01-agentic-intelligence/multi-agent-orchestration|🤖 Agentic Intelligence]] — Orquestração de agentes.
 - [[Projetos/03-Estudos/EstudosFocados/README|📘 Estudos Focados]] — Aprendizado profundo.
 - [[skills/03-infrastructure-mcp/mcp-servers|🛠️ MCP Ecosystem]] — Infraestrutura de contexto.
+- [[Conhecimento-Geral/INDEX|🌍 Conhecimento Geral]] — Filosofia, Psicologia e Cultura.
 
 ### ⚙️ Gestão de Sistema
 - [[Vault-Ops|🧰 Vault Operations]] — Manutenção e Automação.
