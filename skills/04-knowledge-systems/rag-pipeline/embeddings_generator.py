@@ -107,8 +107,12 @@ class EmbeddingsGenerator:
         Returns:
             List of chunk dicts with text and metadata
         """
-        with open(file_path, 'r', encoding='utf-8') as f:
-            content = f.read()
+        try:
+            with open(file_path, 'r', encoding='utf-8') as f:
+                content = f.read()
+        except UnicodeDecodeError:
+            with open(file_path, 'r', encoding='latin-1') as f:
+                content = f.read()
         
         chunks = []
         current_chunk = []
