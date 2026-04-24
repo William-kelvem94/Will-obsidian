@@ -16,8 +16,8 @@ TODO.md
 *.log
 
 # OS
-Thumbs.db
-ehthumbs.db
+# Thumbs.db
+# ehthumbs.db
 
 # Technical Folders (Ignore dependencies but keep scripts)
 **/node_modules/
@@ -31,5 +31,5 @@ ehthumbs.db
 **/.env
 
 # JARVIS Data Persistence (Keep diaries and memories)
-!JARVIS/Memorias/Diario/*.md
-!JARVIS/Memorias/Episodicas/*.md
+# !JARVIS/Memorias/Diario/*.md
+# !JARVIS/Memorias/Episodicas/*.md
