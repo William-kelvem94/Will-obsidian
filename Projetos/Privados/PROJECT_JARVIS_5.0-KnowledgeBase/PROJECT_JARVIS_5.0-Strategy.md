@@ -3,8 +3,11 @@ title: "PROJECT_JARVIS_5.0 Strategy"
 description: "Estratégia do Jarvis duplicada para a base de conhecimento dedicada." 
 tags:
   - jarvis
+  - privados
   - strategy
   - assistant
+date: 2026-04-27
+updated: 2026-04-27
 ---
 
 # PROJECT_JARVIS_5.0 Strategy

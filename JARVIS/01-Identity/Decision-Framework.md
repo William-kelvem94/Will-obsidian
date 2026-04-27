@@ -1,8 +1,9 @@
 ---
 title: "Decision Framework — Fast Technical Choices"
 description: "Step-by-step framework for making technical decisions quickly and consistently"
-tags: [identity, decision-making, framework, process]
-updated: 2026-04-23
+tags: [identity, decision-making, framework, process, jarvis-identidade]
+updated: 2026-04-27
+date: 2026-04-27
 ---
 
 # ⚡ Decision Framework

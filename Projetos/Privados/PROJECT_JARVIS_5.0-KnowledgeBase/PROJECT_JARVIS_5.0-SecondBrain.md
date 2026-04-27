@@ -3,9 +3,12 @@ title: "PROJECT_JARVIS_5.0 Second Brain"
 description: "Definição e regras do segundo cérebro do Jarvis, incluindo ingestão de conhecimento e prioridades de uso." 
 tags:
   - jarvis
+  - privados
   - second-brain
   - knowledge
   - ingestion
+date: 2026-04-27
+updated: 2026-04-27
 ---
 
 # PROJECT_JARVIS_5.0 Second Brain

@@ -1,8 +1,9 @@
 ---
 title: "Port Already in Use — Quick Fix"
 description: "Resolve 'address already in use' errors"
-tags: [troubleshooting, port, process, network, playbook]
-updated: 2026-04-23
+tags: [troubleshooting, port, process, network, playbook, jarvis-engenharia]
+updated: 2026-04-27
+date: 2026-04-27
 ---
 
 # 🔌 Port Already in Use

@@ -1,6 +1,8 @@
 ---
-tags: [skills]
-updated: 2026-04-23
+tags: [skills, skills-ai]
+updated: 2026-04-27
+title: "Operadores MCP para VS Code AI"
+date: 2026-04-27
 ---
 
 # Operadores MCP para VS Code AI

@@ -6,7 +6,8 @@ tags:
   - perfil
   - bem-estar
   - energia
-updated: 2026-04-15
+updated: 2026-04-27
+date: 2026-04-27
 ---
 
 # Saúde

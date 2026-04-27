@@ -1,6 +1,8 @@
 ---
-tags: [skills]
-updated: 2026-04-15
+tags: [skills, skills-ai]
+updated: 2026-04-27
+title: "Quick Start — VS Code AI"
+date: 2026-04-27
 ---
 
 # Quick Start — VS Code AI

@@ -3,8 +3,11 @@ title: "Jarvis Tools and Technologies"
 description: "Lista de ferramentas e tecnologias usadas pelo Jarvis e seus papéis no projeto." 
 tags:
   - jarvis
+  - privados
   - tools
   - tech
+date: 2026-04-27
+updated: 2026-04-27
 ---
 
 # Jarvis Tools and Technologies

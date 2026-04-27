@@ -4,11 +4,12 @@ source: https://github.com/William-kelvem94/TRADUTOR-WKP
 private: false
 language: Python
 description: 
-updated: 2026-04-15
+updated: 2026-04-27
 tags:
   - projetos
   - publicos
   - python
+date: 2026-04-27
 ---
 
 # TRADUTOR-WKP [[../Projetos.md|Projetos]]

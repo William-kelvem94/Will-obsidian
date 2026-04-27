@@ -3,9 +3,11 @@ title: "PROJECT_JARVIS_5.0 Architecture"
 description: "Arquitetura do Jarvis duplicada para a base de conhecimento." 
 tags:
   - jarvis
+  - jarvis-engenharia
   - architecture
   - assistente
-updated: 2026-04-15
+updated: 2026-04-27
+date: 2026-04-27
 ---
 
 # PROJECT_JARVIS_5.0 Architecture

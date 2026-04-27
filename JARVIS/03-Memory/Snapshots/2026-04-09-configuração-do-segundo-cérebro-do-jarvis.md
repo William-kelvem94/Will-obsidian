@@ -2,11 +2,11 @@
 title: "Configuração do Segundo Cérebro do Jarvis"
 date: "2026-04-09"
 hora: "18:09"
-tags: [jarvis, memoria, episodica, obsidian, vault, segundo-cerebro, memoria, jarvis]
+tags: [jarvis, memoria, episodica, obsidian, vault, segundo-cerebro, memoria, jarvis, jarvis-memoria]
 keywords: [obsidian, vault, segundo-cerebro, memoria, jarvis]
 importancia: "ALTA"
 projeto: "PROJECT_JARVIS_5.0"
-updated: 2026-04-15
+updated: 2026-04-27
 ---
 
 # Configuração do Segundo Cérebro do Jarvis

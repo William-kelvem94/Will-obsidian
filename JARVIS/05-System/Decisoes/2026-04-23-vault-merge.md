@@ -3,6 +3,8 @@ title: "Vault Merge Report"
 date: 2026-04-23
 operation: "D:\\OBSIDIAN\\Will → C:\\Users\\willi\\Documents\\GitHub\\Will-obsidian"
 status: "✅ COMPLETED"
+tags: [jarvis-sistema]
+updated: 2026-04-27
 ---
 
 # Vault Merge Report - 23/04/2026

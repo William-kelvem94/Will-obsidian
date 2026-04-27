@@ -1,6 +1,8 @@
 ---
-tags: [skills, agent]
-updated: 2026-04-15
+tags: [skills, agent, skills-ai]
+updated: 2026-04-27
+title: "Programador Agent"
+date: 2026-04-27
 ---
 
 # Programador Agent

@@ -3,9 +3,12 @@ title: "Jarvis Knowledge Base Map"
 description: "Mapa da base de conhecimento do Jarvis com a estrutura, as relações e os caminhos principais." 
 tags:
   - jarvis
+  - privados
   - map
   - structure
   - knowledge
+date: 2026-04-27
+updated: 2026-04-27
 ---
 
 # Jarvis Knowledge Base Map

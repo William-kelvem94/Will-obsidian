@@ -4,11 +4,12 @@ source: "https://github.com/William-kelvem94/CRUD_BASICO-2.0"
 private: false
 language: PHP
 description: "CRUD Básico 2.0 - Placeholder"
-updated: "2026-04-09"
+updated: 2026-04-27
 tags:
   - projetos
   - publicos
   - php
+date: 2026-04-27
 ---
 
 # CRUD_BASICO-2.0 [[../Projetos.md|Projetos]]

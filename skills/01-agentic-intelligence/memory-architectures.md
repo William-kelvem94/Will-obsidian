@@ -1,7 +1,9 @@
 ---
 title: "Arquitetura de Memória para Agentes: Episódica, Semântica e Trabalho"
 description: "Guia profundo sobre como estruturar a memória de longo e curto prazo para que agentes IA mantenham consistência de identidade e contexto."
-tags: [agentic, memory, rag, context, arquitetura]
+tags: [agentic, memory, rag, context, arquitetura, skills-ai]
+date: 2026-04-27
+updated: 2026-04-27
 ---
 
 # 🧠 Arquitetura de Memória para Agentes Autônomos

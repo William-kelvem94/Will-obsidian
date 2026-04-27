@@ -1,6 +1,8 @@
 ---
 tags: [skills, matrix, organization]
-updated: 2026-04-21
+updated: 2026-04-27
+title: "📊 Matriz de Skills x Projetos (Neural Edition)"
+date: 2026-04-27
 ---
 
 # 📊 Matriz de Skills x Projetos (Neural Edition)

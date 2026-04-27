@@ -1,8 +1,9 @@
 ---
 title: "Preferências de Will — Jarvis 5.0"
 description: "Configurações antropocêntricas: como Will gosta de trabalhar, horários, tom de voz e prioridades."
-tags: [will, perfil, preferencias, configuracao, pessoal, jarvis]
-updated: 2026-04-15
+tags: [will, perfil, preferencias, configuracao, pessoal, jarvis, jarvis-identidade]
+updated: 2026-04-27
+date: 2026-04-27
 ---
 
 # Preferências de Will ⚙️👤

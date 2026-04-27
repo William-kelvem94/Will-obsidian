@@ -1,3 +1,10 @@
+---
+title: "Evolução openclaude-wk [[README]]"
+date: 2026-04-27
+tags: [projetos]
+updated: 2026-04-27
+---
+
   ---
 title: "Evolução openclaude-wk"
 description: "Ollama providers + Bun runtime, Firecrawl scrape free tier."

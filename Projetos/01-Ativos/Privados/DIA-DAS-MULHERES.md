@@ -4,13 +4,14 @@ source: "C:/Users/willi/Documents/GitHub/DIA DAS MULHERES"
 language: CSS
 private: true
 description: "PWA Dia das Mulheres CSS com index.html, style.css, sw.js, assets icons/music/fotos."
-updated: 2026-04-15
+updated: 2026-04-27
 tags:
   - projetos
   - privados
   - privados
   - css
   - pwa
+date: 2026-04-27
 ---
 
 # DIA DAS MULHERES [[../Projetos.md|Projetos]] [[GitHub-Completo]]

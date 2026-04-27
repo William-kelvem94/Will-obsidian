@@ -4,11 +4,12 @@ source: "https://github.com/William-kelvem94/DIA-DAS-MULHERES"
 private: false
 language: CSS
 description: "Projeto Dia das Mulheres - CSS/Outros - Placeholder"
-updated: "2026-04-09"
+updated: 2026-04-27
 tags:
   - projetos
   - publicos
   - css
+date: 2026-04-27
 ---
 
 # DIA-DAS-MULHERES [[../Projetos.md|Projetos]]

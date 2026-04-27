@@ -4,11 +4,12 @@ source: "https://github.com/William-kelvem94/Atividade-01"
 private: false
 language: Java
 description: "Atividade Java 01 - Placeholder"
-updated: "2026-04-09"
+updated: 2026-04-27
 tags:
   - projetos
   - publicos
   - java
+date: 2026-04-27
 ---
 
 # Atividade-01 [[../Projetos.md|Projetos]]

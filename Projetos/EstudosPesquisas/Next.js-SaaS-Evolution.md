@@ -3,8 +3,11 @@ title: "Next.js SaaS Evolução"
 description: "Vercel Edge, Neon serverless, Clerk auth free, TanStack start UI."
 tags:
   - nextjs
+  - projetos
   - saas
   - evolucao
+date: 2026-04-27
+updated: 2026-04-27
 ---
 
 # Next.js SaaS Evolução [[README]]

@@ -3,9 +3,11 @@ title: "Skills — William Pereira"
 description: "Resumo das principais habilidades e áreas de domínio técnico, criativo e estratégico." 
 tags:
   - skills
+  - perfil-identidade
   - perfil
   - talento
-updated: 2026-04-15
+updated: 2026-04-27
+date: 2026-04-27
 ---
 
 # Skills

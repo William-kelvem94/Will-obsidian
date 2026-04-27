@@ -3,10 +3,12 @@ title: "Biografia — William Pereira"
 description: "Breve narrativa pessoal sobre origem, motivação e visão de Will." 
 tags:
   - bio
+  - perfil-identidade
   - perfil
   - pessoal
   - identidade
-updated: 2026-04-15
+updated: 2026-04-27
+date: 2026-04-27
 ---
 
 # Bio

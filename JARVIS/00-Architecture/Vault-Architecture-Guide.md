@@ -1,7 +1,9 @@
 ---
 title: "Vault Architecture Guide"
 description: "Complete guide to the 5-tier neural hub architecture"
-updated: 2026-04-23
+updated: 2026-04-27
+date: 2026-04-27
+tags: [jarvis]
 ---
 
 # 🏗️ Vault Architecture Guide

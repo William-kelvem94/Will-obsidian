@@ -1,3 +1,10 @@
+---
+title: "Code Snippets Library"
+date: 2026-04-27
+tags: [jarvis-engenharia]
+updated: 2026-04-27
+---
+
 # Code Snippets Library
 
 Reusable code snippets for common patterns and tasks.

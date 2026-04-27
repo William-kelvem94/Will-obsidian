@@ -5,7 +5,7 @@ author:
   - "William Pereira"
 published:
 created: 2026-04-09
-description: "Resumo técnico do repositório Gestor de Aluguel 2.0, com arquitetura, stack e recursos principais."
+description: "Resumo tÃ©cnico do repositÃ³rio Gestor de Aluguel 2.0, com arquitetura, stack e recursos principais."
 tags:
   - projetos
   - clippings
@@ -13,30 +13,32 @@ tags:
   - saas
   - prisma
   - ai
+date: 2026-04-27
+updated: 2026-04-27
 ---
 
 ## ?? Gestor de Aluguel 2.0 [[../Projetos|Projetos]]
 
-> Plataforma SaaS para gestão imobiliária de alto desempenho. Desenvolvida com **Next.js 15.5.6 (App Router)**, **TypeScript 5.7**, **Prisma 5.22**, **PostgreSQL**, **Docker** e integração com inteligência artificial generativa.
+> Plataforma SaaS para gestÃ£o imobiliÃ¡ria de alto desempenho. Desenvolvida com **Next.js 15.5.6 (App Router)**, **TypeScript 5.7**, **Prisma 5.22**, **PostgreSQL**, **Docker** e integraÃ§Ã£o com inteligÃªncia artificial generativa.
 
-## ?? Visão Geral
+## ?? VisÃ£o Geral
 
-- Sistema completo para administradoras e imobiliárias com **multitenant**, gestão de imóveis, inquilinos, contratos, financeiro, manutenção, calendário e notificações.
-- Portal do gestor e **PWA móvel** com navegação adaptada e experiência de app em tela pequena.
-- Integração com **AI**, chat contextual, OCR de documentos e automação de eventos.
-- Proposta de produto: um ERP imobiliário moderno com foco em usabilidade e performance.
+- Sistema completo para administradoras e imobiliÃ¡rias com **multitenant**, gestÃ£o de imÃ³veis, inquilinos, contratos, financeiro, manutenÃ§Ã£o, calendÃ¡rio e notificaÃ§Ãµes.
+- Portal do gestor e **PWA mÃ³vel** com navegaÃ§Ã£o adaptada e experiÃªncia de app em tela pequena.
+- IntegraÃ§Ã£o com **AI**, chat contextual, OCR de documentos e automaÃ§Ã£o de eventos.
+- Proposta de produto: um ERP imobiliÃ¡rio moderno com foco em usabilidade e performance.
 
 ## ?? O que entrega
 
 - **Painel administrativo** (`src/app/(protected)/`)
-- **Autenticação** com cadastro, login, convite e sessão segura
+- **AutenticaÃ§Ã£o** com cadastro, login, convite e sessÃ£o segura
 - **Multi-tenant** isolado por `saasTenantId`
 - **Assistente IA** contextual via Gemini
 - **Editor colaborativo** de contratos com Yjs + TipTap
-- **Pagamentos** via integrações e boletos
-- **Portal de notificações** com filtro e exportação
-- **Configurações completas** de perfil, segurança, equipe e integrações
-- **PWA / mobile** com navegação bottom nav e experiência nativa
+- **Pagamentos** via integraÃ§Ãµes e boletos
+- **Portal de notificaÃ§Ãµes** com filtro e exportaÃ§Ã£o
+- **ConfiguraÃ§Ãµes completas** de perfil, seguranÃ§a, equipe e integraÃ§Ãµes
+- **PWA / mobile** com navegaÃ§Ã£o bottom nav e experiÃªncia nativa
 
 ## ?? Tecnologias principais
 
@@ -46,84 +48,84 @@ tags:
 - **Backend**: Next.js API Routes, Node.js 20, bcryptjs, NextAuth.js v4
 - **Banco**: PostgreSQL + Prisma 5.22 + Redis
 - **AI / OCR**: @google/generative-ai, Tesseract.js
-- **Integrações**: Asaas, WAHA WhatsApp, n8n, Nodemailer / SMTP / AWS SES
+- **IntegraÃ§Ãµes**: Asaas, WAHA WhatsApp, n8n, Nodemailer / SMTP / AWS SES
 - **Logs / Observabilidade**: Pino, Sentry
 - **Testes**: Jest, Playwright
 
-## ??? Arquitetura e organização
+## ??? Arquitetura e organizaÃ§Ã£o
 
 ### Pasta principal
 
-- `src/app/` — rotas do Next.js App Router.
-- `src/app/auth/` — fluxo de login / registro / convite.
-- `src/app/(protected)/` — painel autenticado.
-- `src/app/api/` — API routes e backend custom.
-- `src/components/` — componentes compartilhados e UI.
-- `src/lib/` — serviços, utilitários, integração e regras de negócio.
-- `src/middleware-tenant.ts` — middleware responsável pelo isolamento de tenant em APIs.
-- `config/docker/` — compose e ambiente Docker.
+- `src/app/` Â— rotas do Next.js App Router.
+- `src/app/auth/` Â— fluxo de login / registro / convite.
+- `src/app/(protected)/` Â— painel autenticado.
+- `src/app/api/` Â— API routes e backend custom.
+- `src/components/` Â— componentes compartilhados e UI.
+- `src/lib/` Â— serviÃ§os, utilitÃ¡rios, integraÃ§Ã£o e regras de negÃ³cio.
+- `src/middleware-tenant.ts` Â— middleware responsÃ¡vel pelo isolamento de tenant em APIs.
+- `config/docker/` Â— compose e ambiente Docker.
 
-### Arquitetura de restrição
+### Arquitetura de restriÃ§Ã£o
 
-- `src/middleware-tenant.ts` extrai `tenantId` do usuário e insere `x-tenant-id` nas requisições.
+- `src/middleware-tenant.ts` extrai `tenantId` do usuÃ¡rio e insere `x-tenant-id` nas requisiÃ§Ãµes.
 - `src/lib/tenant/isolation.ts` e `src/lib/prisma` garantem que queries Prisma usem o tenant correto.
 - Login e convite criam `SAAS Tenant` + `TeamMember OWNER` automaticamente.
 
-## ?? Módulos-chave do produto
+## ?? MÃ³dulos-chave do produto
 
 ### Core
 
-- **Dashboard** — visão geral de KPIs e atividade.
-- **Imóveis** — CRUD, fotos, filtros, mapas e situação.
-- **Inquilinos** — cadastro, score, documentos e histórico.
-- **Contratos** — editor colaborativo, templates e assinatura.
-- **Financeiro** — lançamentos, pagamentos e cobranças.
-- **Manutenção** — chamados, fornecedores e histórico.
-- **Calendário** — vencimentos, inspeções e eventos.
-- **Notificações** — central com filtros, exportação e ações em lote.
-- **Configurações** — perfil, notificações, preferências, segurança, time, titulares e suporte.
+- **Dashboard** Â— visÃ£o geral de KPIs e atividade.
+- **ImÃ³veis** Â— CRUD, fotos, filtros, mapas e situaÃ§Ã£o.
+- **Inquilinos** Â— cadastro, score, documentos e histÃ³rico.
+- **Contratos** Â— editor colaborativo, templates e assinatura.
+- **Financeiro** Â— lanÃ§amentos, pagamentos e cobranÃ§as.
+- **ManutenÃ§Ã£o** Â— chamados, fornecedores e histÃ³rico.
+- **CalendÃ¡rio** Â— vencimentos, inspeÃ§Ãµes e eventos.
+- **NotificaÃ§Ãµes** Â— central com filtros, exportaÃ§Ã£o e aÃ§Ãµes em lote.
+- **ConfiguraÃ§Ãµes** Â— perfil, notificaÃ§Ãµes, preferÃªncias, seguranÃ§a, time, titulares e suporte.
 
-### Integração de IA
+### IntegraÃ§Ã£o de IA
 
-- **Assistente** com contexto financeiro/jurídico/técnico.
-- **Análise de risco** de contratos e inquilinos.
-- **Predição de inadimplência**.
-- **Extração OCR** de documentos e imagens.
-- **Recomendações** e insights proativos.
+- **Assistente** com contexto financeiro/jurÃ­dico/tÃ©cnico.
+- **AnÃ¡lise de risco** de contratos e inquilinos.
+- **PrediÃ§Ã£o de inadimplÃªncia**.
+- **ExtraÃ§Ã£o OCR** de documentos e imagens.
+- **RecomendaÃ§Ãµes** e insights proativos.
 
-### Integrações específicas
+### IntegraÃ§Ãµes especÃ­ficas
 
-- **WAHA/WhatsApp** — controle de sessão e envio via API.
-- **Asaas** — cobrança PIX/Boleto.
-- **n8n** — orquestração e automações.
-- **Email** — SMTP/SendGrid/SES.
+- **WAHA/WhatsApp** Â— controle de sessÃ£o e envio via API.
+- **Asaas** Â— cobranÃ§a PIX/Boleto.
+- **n8n** Â— orquestraÃ§Ã£o e automaÃ§Ãµes.
+- **Email** Â— SMTP/SendGrid/SES.
 
-## ?? Segurança
+## ?? SeguranÃ§a
 
-- Honeypot anti-bot no registro (`website` + validação server-side).
-- **NextAuth** com autenticação social/base.
+- Honeypot anti-bot no registro (`website` + validaÃ§Ã£o server-side).
+- **NextAuth** com autenticaÃ§Ã£o social/base.
 - **Senha segura** com bcryptjs.
 - **MFA/TOTP** via `otplib`.
-- **Audit log** de ações importantes.
+- **Audit log** de aÃ§Ãµes importantes.
 - **Rate limiting** e controles de API.
-- **Sessões adaptativas** e timeout de inatividade.
+- **SessÃµes adaptativas** e timeout de inatividade.
 
 ## ?? PWA e mobile
 
 - Design responsivo com `BottomNav` e layout adaptado.
-- Experiência mobile-first em `src/components/layout/BottomNav.tsx` e `AIFloatingWidget.tsx`.
-- Página de ajuda / onboarding móvel disponível.
-- Uso consistente de `safe-area-inset` para rodapés e botões flutuantes.
+- ExperiÃªncia mobile-first em `src/components/layout/BottomNav.tsx` e `AIFloatingWidget.tsx`.
+- PÃ¡gina de ajuda / onboarding mÃ³vel disponÃ­vel.
+- Uso consistente de `safe-area-inset` para rodapÃ©s e botÃµes flutuantes.
 
-## ?? Observações de implementação
+## ?? ObservaÃ§Ãµes de implementaÃ§Ã£o
 
-- `package.json` contém scripts de Docker, testes, geração de Prisma e workflows de AI.
-- Dependências incluem `@google/generative-ai`, `@tiptap/*`, `yjs`, `socket.io`, `bullmq`, `tesseract.js`.
-- Há suporte a geração de releases manuais via `docker:build:optimized`.
-- O projeto já faz `useTransition` em várias telas para melhorar INP.
-- `src/app/api/whatsapp/` gerencia integração WAHA com autenticação via API key.
+- `package.json` contÃ©m scripts de Docker, testes, geraÃ§Ã£o de Prisma e workflows de AI.
+- DependÃªncias incluem `@google/generative-ai`, `@tiptap/*`, `yjs`, `socket.io`, `bullmq`, `tesseract.js`.
+- HÃ¡ suporte a geraÃ§Ã£o de releases manuais via `docker:build:optimized`.
+- O projeto jÃ¡ faz `useTransition` em vÃ¡rias telas para melhorar INP.
+- `src/app/api/whatsapp/` gerencia integraÃ§Ã£o WAHA com autenticaÃ§Ã£o via API key.
 
-## ?? Documentação interna relevante
+## ?? DocumentaÃ§Ã£o interna relevante
 
 - `docs/ANALISE_TELA_IA_COMPLETA.md`
 - `docs/ANALISE_COMPLETA_CONFIGURACOES_SISTEMA.md`
@@ -136,19 +138,19 @@ tags:
 
 ## ?? Estrutura resumida do projeto
 
-- `src/components/ui/` — primitives UI e componentes customizados.
-- `src/components/settings/` — abas de perfil, notificações, preferências, segurança, team, suporte.
-- `src/components/ai/` — widgets de assistente e chat.
-- `src/components/layout/` — layouts, header e navegação.
-- `src/lib/ai/` — serviços, workers e integração de IA.
-- `src/lib/push-notifications/` — push e notificações.
-- `src/lib/services/` — backend services para imóveis, contratos, pagamentos, etc.
-- `src/app/api/` — endpoints de API usados pelo painel e integrações externas.
+- `src/components/ui/` Â— primitives UI e componentes customizados.
+- `src/components/settings/` Â— abas de perfil, notificaÃ§Ãµes, preferÃªncias, seguranÃ§a, team, suporte.
+- `src/components/ai/` Â— widgets de assistente e chat.
+- `src/components/layout/` Â— layouts, header e navegaÃ§Ã£o.
+- `src/lib/ai/` Â— serviÃ§os, workers e integraÃ§Ã£o de IA.
+- `src/lib/push-notifications/` Â— push e notificaÃ§Ãµes.
+- `src/lib/services/` Â— backend services para imÃ³veis, contratos, pagamentos, etc.
+- `src/app/api/` Â— endpoints de API usados pelo painel e integraÃ§Ãµes externas.
 
-## ?? Pontos de atenção atuais
+## ?? Pontos de atenÃ§Ã£o atuais
 
-- O projeto já é robusto e encontro mais detalhes operacionais do que lacunas essenciais.
-- A documentação do Obsidian precisava de um resumo técnico mais profundo, com arquitetura, tecnologia e módulos reais.
-- Se for expandir, incluir também o **roadmap de produto** e o **fluxo do portal de inquilino PWA**.
+- O projeto jÃ¡ Ã© robusto e encontro mais detalhes operacionais do que lacunas essenciais.
+- A documentaÃ§Ã£o do Obsidian precisava de um resumo tÃ©cnico mais profundo, com arquitetura, tecnologia e mÃ³dulos reais.
+- Se for expandir, incluir tambÃ©m o **roadmap de produto** e o **fluxo do portal de inquilino PWA**.
 
 **Links:** [[../Projetos]] | [[../../Bem-vindo]] | [[../../Clippings]] #projetos #saas #typescript #nextjs #prisma #ai

@@ -1,8 +1,9 @@
 ---
 title: "MCP and OpenClaude Workflow"
 description: "Guia prático de fluxo de agentes, OpenClaude, antigravity e MCP no vault." 
-tags: [mcp, openclaude, workflow, agentes]
-updated: 2026-04-17
+tags: [mcp, openclaude, workflow, agentes, projetos]
+updated: 2026-04-27
+date: 2026-04-27
 ---
 
 # MCP and OpenClaude Workflow

@@ -3,8 +3,11 @@ title: "PROJECT_JARVIS_5.0 Knowledge Base Rules"
 description: "Regras para criar, editar e expandir a base de conhecimento do Jarvis." 
 tags:
   - jarvis
+  - privados
   - rules
   - knowledge
+date: 2026-04-27
+updated: 2026-04-27
 ---
 
 # PROJECT_JARVIS_5.0 Knowledge Base Rules

@@ -1,6 +1,8 @@
 ---
-tags: [skills]
-updated: 2026-04-15
+tags: [skills, skills-ai]
+updated: 2026-04-27
+title: "Mini-Agent de IA para VS Code"
+date: 2026-04-27
 ---
 
 # Mini-Agent de IA para VS Code

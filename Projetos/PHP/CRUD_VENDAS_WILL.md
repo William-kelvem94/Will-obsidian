@@ -4,11 +4,12 @@ source: https://github.com/William-kelvem94/CRUD_VENDAS_WILL
 private: false
 language: PHP
 description: 
-updated: 2023-12-21
+updated: 2026-04-27
 tags:
   - projetos
   - publicos
   - php
+date: 2026-04-27
 ---
 
 # CRUD_VENDAS_WILL [[../Projetos.md|Projetos]]

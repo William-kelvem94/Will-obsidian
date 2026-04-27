@@ -1,7 +1,9 @@
 ---
 title: "Orquestração e Consenso Multi-Agentes"
 description: "Como arquitetar sistemas onde múltiplos agentes especializados colaboram, debatem e chegam a um consenso para resolver tarefas complexas."
-tags: [multi-agent, orchestration, consensus, swarm]
+tags: [multi-agent, orchestration, consensus, swarm, skills-ai]
+date: 2026-04-27
+updated: 2026-04-27
 ---
 
 # 🤖 Orquestração e Consenso Multi-Agentes

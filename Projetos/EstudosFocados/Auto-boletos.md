@@ -3,10 +3,13 @@ title: "Estudos Focado: Auto-boletos"
 description: "Centro estratégico do projeto Auto-boletos: valor, riscos, roadmap e critérios para escalonamento." 
 tags:
   - auto-boletos
+  - projetos
   - analise
   - estrategia
   - saas
   - ocr
+date: 2026-04-27
+updated: 2026-04-27
 ---
 
 # Estudos Focado: Auto-boletos [[README]] [[Privados/Auto-boletos]]

@@ -1,6 +1,8 @@
 ---
-tags: [skills]
-updated: 2026-04-15
+tags: [skills, skills-eng]
+updated: 2026-04-27
+title: "Database Skills - SQL/NoSQL"
+date: 2026-04-27
 ---
 
 # Database Skills - SQL/NoSQL

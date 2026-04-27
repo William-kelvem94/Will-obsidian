@@ -3,10 +3,13 @@ title: "Estudos Focado: IA-LOCAL (JARVIS)"
 description: "Documento estratégico para IA-LOCAL: visão Jarvis, trade-offs offline/online, voz, visão e automação PC." 
 tags:
   - jarvis
+  - projetos
   - analise
   - estrategia
   - voz
   - vision
+date: 2026-04-27
+updated: 2026-04-27
 ---
 
 # Estudos Focado: IA-LOCAL [[README]] [[Privados/IA-LOCAL]]

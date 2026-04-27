@@ -9,7 +9,8 @@ tags:
   - estrategia
   - decisao
   - hub
-updated: 2026-04-15
+updated: 2026-04-27
+date: 2026-04-27
 ---
 
 # Estudos Focados — Quartel-General da Estratégia [[Will-Pessoal/01-Identidade/Perfil/Cerebro-Will|Cérebro Will]] [[EstudosPesquisas/README]]

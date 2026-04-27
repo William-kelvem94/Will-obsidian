@@ -13,6 +13,13 @@
 .tag[href="#memoria"], .tag[href="#decisao"] { background-color: #dc2626 !important; color: white !important; }
 .tag[href="#perfil"] { background-color: #0ea5e9 !important; color: white !important; }
 .tag[href="#template"] { background-color: #14b8a6 !important; color: white !important; }
+.tag[href="#skills/frontend"] { background-color: #61DAFB !important; color: #1a1a1a !important; }
+.tag[href="#skills/backend"] { background-color: #68A063 !important; color: white !important; }
+.tag[href="#skills/devops"] { background-color: #FF8C00 !important; color: #1a1a1a !important; }
+.tag[href="#skills/ai"] { background-color: #FF6F00 !important; color: white !important; }
+.tag[href="#skills/softskills"] { background-color: #9B59B6 !important; color: white !important; }
+.tag[href="#conhecimento/raiz"] { background-color: #2ECC71 !important; color: #1a1a1a !important; }
+.tag[href="#conceito"] { background-color: #3498DB !important; color: white !important; }
 
 /* Dashboard-like improvements */
 .markdown-rendered h1 {

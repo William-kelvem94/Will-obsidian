@@ -5,6 +5,8 @@ Monitors vault changes and updates embeddings automatically
 
 import os
 import sys
+import gzip
+import json
 from pathlib import Path
 from datetime import datetime
 import time
@@ -60,7 +62,7 @@ class KnowledgeIndexer:
         self.generator = EmbeddingsGenerator(
             vault_path=str(self.vault_path),
             model_name=self.model_name,
-            cache_dir=".knowledge_index/.embeddings_cache"
+            cache_dir=".knowledge_index"
         )
     
     def log(self, message: str):
@@ -88,11 +90,33 @@ class KnowledgeIndexer:
             # 1. Generate embeddings
             self.log("📊 Generating embeddings...")
             embeddings_data = self.generator.generate_embeddings(force_regenerate=force)
-            
-            # 2. Save embeddings
-            self.log("💾 Saving embeddings...")
-            self.generator.save_embeddings(embeddings_data, output_file=self.embeddings_file.name)
-            
+            stats = embeddings_data["stats"]
+
+            if stats["processed"] == 0:
+                if self.embeddings_file.exists() and self._embeddings_file_has_chunks():
+                    self.log("✅ No new files changed; using existing embeddings file")
+                    self.log(f"   Embeddings target: {self.embeddings_file}")
+                    self.log(f"   Exists: {self.embeddings_file.exists()}")
+                else:
+                    self.log("⚠️ No new files changed, but embeddings cache is empty or missing; regenerating all files")
+                    embeddings_data = self.generator.generate_embeddings(force_regenerate=True)
+                    stats = embeddings_data["stats"]
+                    self.log("💾 Saving embeddings...")
+                    output_filename = self.embeddings_file.name
+                    if output_filename.endswith('.gz'):
+                        output_filename = output_filename[:-3]
+                    self.generator.save_embeddings(embeddings_data, output_file=output_filename)
+                    self.log(f"   Embeddings target: {self.embeddings_file}")
+                    self.log(f"   Exists: {self.embeddings_file.exists()}")
+            else:
+                self.log("💾 Saving embeddings...")
+                output_filename = self.embeddings_file.name
+                if output_filename.endswith('.gz'):
+                    output_filename = output_filename[:-3]
+                self.generator.save_embeddings(embeddings_data, output_file=output_filename)
+                self.log(f"   Embeddings target: {self.embeddings_file}")
+                self.log(f"   Exists: {self.embeddings_file.exists()}")
+
             # 3. Build FAISS index
             self.log("🔨 Building FAISS index...")
             store = VectorStore(dimension=384)  # all-MiniLM-L6-v2 dimension
@@ -129,12 +153,18 @@ class KnowledgeIndexer:
             stats = embeddings_data["stats"]
             
             if stats['processed'] == 0:
-                self.log("✅ Index up to date, no changes detected")
-                return True
+                if self.embeddings_file.exists() and self._embeddings_file_has_chunks():
+                    self.log("✅ Index up to date, no changes detected")
+                    return True
+                self.log("⚠️ No changes detected, but embeddings cache is empty or missing; rebuilding from scratch")
+                return self.build_full_index(force=True)
             
             # Rebuild index with new embeddings
             self.log(f"🔨 Rebuilding index ({stats['processed']} files changed)...")
-            self.generator.save_embeddings(embeddings_data, output_file=self.embeddings_file.name)
+            output_filename = self.embeddings_file.name
+            if output_filename.endswith('.gz'):
+                output_filename = output_filename[:-3]
+            self.generator.save_embeddings(embeddings_data, output_file=output_filename)
             
             store = VectorStore(dimension=384)
             store.load_embeddings(self.embeddings_file)
@@ -169,6 +199,17 @@ class KnowledgeIndexer:
         except KeyboardInterrupt:
             self.log("\n👋 Watch mode stopped")
     
+    def _embeddings_file_has_chunks(self) -> bool:
+        """Check whether the cached embeddings file contains any chunks"""
+        if not self.embeddings_file.exists():
+            return False
+        try:
+            with gzip.open(self.embeddings_file, 'rt', encoding='utf-8') as f:
+                data = json.load(f)
+            return len(data.get('chunks', [])) > 0
+        except Exception:
+            return False
+
     def stats(self):
         """Show index statistics"""
         if not self.index_file.exists():

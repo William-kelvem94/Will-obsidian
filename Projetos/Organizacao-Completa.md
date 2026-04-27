@@ -5,6 +5,8 @@ tags:
   - organizacao
   - projetos
   - vault
+date: 2026-04-27
+updated: 2026-04-27
 ---
 
 # Organização Completa do Vault de Projetos

@@ -1,6 +1,8 @@
 ---
-tags: [agentic, intelligence, orchestration]
-updated: 2026-04-21
+tags: [agentic, intelligence, orchestration, skills-ai]
+updated: 2026-04-27
+title: "Multi-Agent Orchestration & Subagent Pipelines"
+date: 2026-04-27
 ---
 
 # Multi-Agent Orchestration & Subagent Pipelines

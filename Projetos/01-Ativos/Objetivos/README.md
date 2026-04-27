@@ -7,7 +7,8 @@ tags:
   - metas
   - projetos
   - estrategia
-updated: 2026-04-15
+updated: 2026-04-27
+date: 2026-04-27
 ---
 
 # Objetivos do Vault de Projetos

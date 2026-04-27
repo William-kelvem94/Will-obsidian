@@ -1,9 +1,10 @@
 ---
 title: "PostgreSQL Avançado: A Arquitetura do Titã de Dados e a Revolução Vetorial em IA"
 description: "Um tratado exaustivo sobre a engenharia interna do PostgreSQL. Aborda MVCC profundo, indexação algorítmica (GIN, BRIN, HNSW), CTEs Recursivos, JSONB, Full Text Search, Tunning Analítico e a adoção massiva do pgvector como Banco de Memória Semântica para Agentes de IA."
-tags: [postgresql, database, sql, performance, mvcc, pgvector, ai, data-engineering]
+tags: [postgresql, database, sql, performance, mvcc, pgvector, ai, data-engineering, skills-eng]
 author: "Jules (Agent)"
 date: 2026-04-21
+updated: 2026-04-27
 ---
 
 # 🐘 PostgreSQL Avançado: O Banco de Dados de Elite

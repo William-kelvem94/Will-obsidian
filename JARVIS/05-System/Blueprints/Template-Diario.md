@@ -1,9 +1,9 @@
 ---
 title: "Diário — {{DATA}}"
 date: "{{DATA}}"
-tags: [jarvis, diario, {{DATA}}]
+tags: [jarvis, diario, {{DATA}}, jarvis-sistema]
 sessoes: {{NUMERO_DE_SESSOES}}
-updated: 2026-04-15
+updated: 2026-04-27
 ---
 
 # Diário — {{DATA}}

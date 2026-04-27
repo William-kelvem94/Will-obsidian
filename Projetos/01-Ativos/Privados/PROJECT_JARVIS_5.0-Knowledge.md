@@ -6,8 +6,9 @@ tag:
   - knowledge
   - assistant
   - fullstack
-tags: [privados]
-updated: 2026-04-15
+tags: [privados, projetos]
+updated: 2026-04-27
+date: 2026-04-27
 ---
 
 # PROJECT_JARVIS_5.0 Knowledge Base

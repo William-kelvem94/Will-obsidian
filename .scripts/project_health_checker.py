@@ -260,6 +260,106 @@ class ProjectHealthChecker:
         return md
 
 
+def parse_frontmatter_tags(content):
+    """Extract YAML list values from frontmatter."""
+    fm = re.search(r"^---\s*\n(.*?)\n---\s*\n", content, re.DOTALL)
+    if not fm:
+        return []
+
+    frontmatter = fm.group(1)
+    match = re.search(r"skills:\s*\[(.*?)\]", frontmatter, re.DOTALL)
+    if not match:
+        return []
+
+    tags = [tag.strip().strip('"\'') for tag in match.group(1).split(',') if tag.strip()]
+    return tags
+
+
+def load_defined_skills(skills_root):
+    """Collect defined skills from skills markdown files."""
+    skills = set()
+    for path in Path(skills_root).rglob('*.md'):
+        if path.name.lower() == 'readme.md':
+            continue
+
+        content = path.read_text(encoding='utf-8', errors='ignore')
+        title_match = re.search(r'^title:\s*"?(.*?)"?\s*$', content, re.MULTILINE)
+        if title_match:
+            skills.add(title_match.group(1).strip().lower())
+        else:
+            skills.add(path.stem.lower())
+
+    return skills
+
+
+def extract_project_skills(project_note):
+    """Extract referenced skills from a project note."""
+    if not project_note.exists():
+        return set()
+
+    content = project_note.read_text(encoding='utf-8', errors='ignore')
+    tags = parse_frontmatter_tags(content)
+    skills = set(tag.lower() for tag in tags)
+
+    inline_skills = re.findall(r'#skills[\/\w-]*', content)
+    for inline in inline_skills:
+        skills.add(inline.lstrip('#').lower())
+
+    return skills
+
+
+def check_skills_gap(projects_dir, skills_dir, output_path):
+    """Generate a skills gap report comparing defined skills and project references."""
+    skills = load_defined_skills(skills_dir)
+    missing = []
+    orphan_skills = set(skills)
+
+    if not projects_dir.exists():
+        print(f"⚠️ Projects directory not found for skills gap: {projects_dir}")
+        return
+
+    for project_path in projects_dir.iterdir():
+        if not project_path.is_dir() or project_path.name.startswith('.'):
+            continue
+
+        project_note = project_path.parent / f"{project_path.name}.md"
+        project_skills = extract_project_skills(project_note)
+
+        for skill in project_skills:
+            if skill not in skills:
+                missing.append((project_path.name, skill))
+            else:
+                orphan_skills.discard(skill)
+
+    output_path.parent.mkdir(parents=True, exist_ok=True)
+    lines = [
+        '# Skills Gap Report',
+        '',
+        f'Generated: {datetime.now().strftime("%Y-%m-%d %H:%M:%S")}',
+        '',
+        '## Missing Skills Referenced by Projects',
+        ''
+    ]
+
+    if missing:
+        for project, skill in missing:
+            lines.append(f'- {project}: {skill}')
+    else:
+        lines.append('- None found')
+
+    lines.extend(['', '## Defined Skills Not Referenced by Projects', ''])
+    if orphan_skills:
+        for skill in sorted(orphan_skills):
+            lines.append(f'- {skill}')
+    else:
+        lines.append('- None found')
+
+    with open(output_path, 'w', encoding='utf-8') as f:
+        f.write('\n'.join(lines))
+
+    print(f"✅ Skills gap report generated: {output_path}")
+
+
 def scan_projects():
     """Scan all projects in the Privados directory"""
     if not PROJECTS_DIR.exists():
@@ -362,6 +462,10 @@ def main():
         return
     
     print(f"📊 Analyzed {len(projects)} projects")
+
+    # Generate skills gap report
+    skills_gap_path = VAULT_PATH / ".logs" / "skills_gap.md"
+    check_skills_gap(PROJECTS_DIR, VAULT_PATH / "skills", skills_gap_path)
     
     # Generate report
     report = generate_full_report(projects)

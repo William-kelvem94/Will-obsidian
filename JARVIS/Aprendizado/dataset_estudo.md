@@ -1,3 +1,10 @@
+---
+title: "Base de Conhecimento: Dataset de Destilacao"
+date: 2026-04-27
+tags: [jarvis]
+updated: 2026-04-27
+---
+
 # Base de Conhecimento: Dataset de Destilacao
 
 ## JARVIS, abre o VS Code e cria um novo projeto Python chamado 'jarvis-core' com a estrutura básica de

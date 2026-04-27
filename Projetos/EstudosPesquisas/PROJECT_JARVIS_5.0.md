@@ -3,7 +3,10 @@ title: "Evolução PROJECT_JARVIS_5.0"
 description: "Melhorias LiveKit + Ollama local, MediaPipe vision gratuita, FastAPI scaling."
 tags:
   - jarvis
+  - projetos
   - evolucao
+date: 2026-04-27
+updated: 2026-04-27
 ---
 
 # Evolução PROJECT_JARVIS_5.0 [[README]]

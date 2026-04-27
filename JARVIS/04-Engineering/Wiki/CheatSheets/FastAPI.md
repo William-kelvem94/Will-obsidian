@@ -1,8 +1,9 @@
 ---
 title: "FastAPI Cheat Sheet"
 description: "Quick reference for FastAPI development"
-tags: [cheatsheet, fastapi, python, api, backend]
-updated: 2026-04-23
+tags: [cheatsheet, fastapi, python, api, backend, jarvis-engenharia]
+updated: 2026-04-27
+date: 2026-04-27
 ---
 
 # FastAPI Cheat Sheet

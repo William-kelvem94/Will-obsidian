@@ -3,8 +3,11 @@ title: "Jarvis Knowledge Base Config"
 description: "Guia de configuração para apontar o Jarvis à base de conhecimento e ao vault do Obsidian." 
 tags:
   - jarvis
+  - privados
   - config
   - knowledge
+date: 2026-04-27
+updated: 2026-04-27
 ---
 
 # Jarvis Knowledge Base Config

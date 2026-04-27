@@ -4,13 +4,14 @@ source: "C:/Users/willi/Documents/GitHub/IA-LOCAL"
 language: Python
 private: true
 description: "JARVIS IA assistente com memória FAISS, voz Whisper/TTS, PC control pyautogui."
-updated: "2 weeks ago"
+updated: 2026-04-27
 tags:
   - projetos
   - privados
   - python
   - jarvis
   - voice
+date: 2026-04-27
 ---
 
 # IA-LOCAL [[../Projetos.md|Projetos]] [[GitHub-Completo]]

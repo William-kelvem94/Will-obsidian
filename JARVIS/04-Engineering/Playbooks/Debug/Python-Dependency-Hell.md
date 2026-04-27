@@ -1,8 +1,9 @@
 ---
 title: "Python Dependency Hell — Troubleshooting"
 description: "Resolve Python package conflicts and installation issues"
-tags: [troubleshooting, python, pip, dependencies, playbook]
-updated: 2026-04-23
+tags: [troubleshooting, python, pip, dependencies, playbook, jarvis-engenharia]
+updated: 2026-04-27
+date: 2026-04-27
 ---
 
 # 🐍 Python Dependency Hell

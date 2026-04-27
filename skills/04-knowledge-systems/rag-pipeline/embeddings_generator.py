@@ -244,16 +244,21 @@ class EmbeddingsGenerator:
     
     def save_embeddings(self, embeddings_data: Dict, output_file: str = "embeddings.json"):
         """Save embeddings to file"""
+        # Normalize output filename to avoid double .gz
+        if output_file.endswith('.gz'):
+            output_file = output_file[:-3]
+
         output_path = self.cache_dir / output_file
         
         # Embeddings are large, save compressed
         import gzip
         
-        with gzip.open(str(output_path) + ".gz", 'wt', encoding='utf-8') as f:
+        gz_path = output_path.with_suffix(output_path.suffix + ".gz")
+        with gzip.open(str(gz_path), 'wt', encoding='utf-8') as f:
             json.dump(embeddings_data, f)
         
-        print(f"💾 Embeddings saved to: {output_path}.gz")
-        print(f"   Size: {(output_path.stat().st_size / 1024 / 1024):.2f} MB (compressed)")
+        print(f"💾 Embeddings saved to: {gz_path}")
+        print(f"   Size: {(gz_path.stat().st_size / 1024 / 1024):.2f} MB (compressed)")
 
 
 def main():

@@ -1,110 +1,18 @@
 # Vault Cleanup Report
 
-Gerado: 2026-04-15 08:56
+Gerado: 2026-04-27 14:54
 
 ## Ações realizadas
 
-- Adicionado updated em c:\Users\willi\Documents\GitHub\Will-obsidian\Projetos/Privados\openclaude-wk.md
-- Adicionado updated em c:\Users\willi\Documents\GitHub\Will-obsidian\Projetos/Privados\PROJECT_JARVIS_5.0-Architecture.md
-- Adicionado updated em c:\Users\willi\Documents\GitHub\Will-obsidian\Projetos/Privados\PROJECT_JARVIS_5.0-Knowledge.md
-- Adicionado updated em c:\Users\willi\Documents\GitHub\Will-obsidian\Projetos/Privados\PROJECT_JARVIS_5.0-Personality.md
-- Adicionado updated em c:\Users\willi\Documents\GitHub\Will-obsidian\Projetos/Privados\README.md
-- Adicionado updated em c:\Users\willi\Documents\GitHub\Will-obsidian\Projetos/Privados\PROJECT_JARVIS_5.0-KnowledgeBase\CONFIG.md
-- Adicionado updated em c:\Users\willi\Documents\GitHub\Will-obsidian\Projetos/Privados\PROJECT_JARVIS_5.0-KnowledgeBase\INDEX.md
-- Adicionado updated em c:\Users\willi\Documents\GitHub\Will-obsidian\Projetos/Privados\PROJECT_JARVIS_5.0-KnowledgeBase\MOVIDO.md
-- Adicionado updated em c:\Users\willi\Documents\GitHub\Will-obsidian\Projetos/Privados\PROJECT_JARVIS_5.0-KnowledgeBase\PROJECT_JARVIS_5.0-Architecture.md
-- Adicionado updated em c:\Users\willi\Documents\GitHub\Will-obsidian\Projetos/Privados\PROJECT_JARVIS_5.0-KnowledgeBase\PROJECT_JARVIS_5.0-Integration.md
-- Adicionado updated em c:\Users\willi\Documents\GitHub\Will-obsidian\Projetos/Privados\PROJECT_JARVIS_5.0-KnowledgeBase\PROJECT_JARVIS_5.0-Knowledge.md
-- Adicionado updated em c:\Users\willi\Documents\GitHub\Will-obsidian\Projetos/Privados\PROJECT_JARVIS_5.0-KnowledgeBase\PROJECT_JARVIS_5.0-Map.md
-- Adicionado updated em c:\Users\willi\Documents\GitHub\Will-obsidian\Projetos/Privados\PROJECT_JARVIS_5.0-KnowledgeBase\PROJECT_JARVIS_5.0-Personality.md
-- Adicionado updated em c:\Users\willi\Documents\GitHub\Will-obsidian\Projetos/Privados\PROJECT_JARVIS_5.0-KnowledgeBase\PROJECT_JARVIS_5.0-SecondBrain.md
-- Adicionado updated em c:\Users\willi\Documents\GitHub\Will-obsidian\Projetos/Privados\PROJECT_JARVIS_5.0-KnowledgeBase\PROJECT_JARVIS_5.0-Strategy.md
-- Adicionado updated em c:\Users\willi\Documents\GitHub\Will-obsidian\Projetos/Privados\PROJECT_JARVIS_5.0-KnowledgeBase\PROJECT_JARVIS_5.0-Tools.md
-- Adicionado updated em c:\Users\willi\Documents\GitHub\Will-obsidian\Projetos/Privados\PROJECT_JARVIS_5.0-KnowledgeBase\PROJECT_JARVIS_5.0-UseCases.md
-- Adicionado updated em c:\Users\willi\Documents\GitHub\Will-obsidian\Projetos/Privados\PROJECT_JARVIS_5.0-KnowledgeBase\PROJECT_JARVIS_5.0.md
-- Adicionado updated em c:\Users\willi\Documents\GitHub\Will-obsidian\Projetos/Privados\PROJECT_JARVIS_5.0-KnowledgeBase\README.md
-- Adicionado updated em c:\Users\willi\Documents\GitHub\Will-obsidian\Projetos/Privados\PROJECT_JARVIS_5.0-KnowledgeBase\RULES.md
-- Adicionado updated em c:\Users\willi\Documents\GitHub\Will-obsidian\Projetos\GitHub-Completo.md
-- Adicionado updated em c:\Users\willi\Documents\GitHub\Will-obsidian\Projetos\Organizacao-Completa.md
-- Adicionado updated em c:\Users\willi\Documents\GitHub\Will-obsidian\Projetos\Plano-de-Acao.md
-- Criado frontmatter em c:\Users\willi\Documents\GitHub\Will-obsidian\Projetos\README.md
-- Adicionado updated em c:\Users\willi\Documents\GitHub\Will-obsidian\Projetos\EstudosFocados\Auto-boletos.md
-- Adicionado updated em c:\Users\willi\Documents\GitHub\Will-obsidian\Projetos\EstudosFocados\DEEP-LEARNING.md
-- Adicionado updated em c:\Users\willi\Documents\GitHub\Will-obsidian\Projetos\EstudosFocados\gestor_aluguel_2.0.md
-- Adicionado updated em c:\Users\willi\Documents\GitHub\Will-obsidian\Projetos\EstudosFocados\IA-LOCAL.md
-- Adicionado updated em c:\Users\willi\Documents\GitHub\Will-obsidian\Projetos\EstudosFocados\PROJECT_JARVIS_5.0.md
-- Adicionado updated em c:\Users\willi\Documents\GitHub\Will-obsidian\Projetos\EstudosFocados\README.md
-- Adicionado updated em c:\Users\willi\Documents\GitHub\Will-obsidian\Projetos\EstudosPesquisas\AI-Local-Gratuita.md
-- Adicionado updated em c:\Users\willi\Documents\GitHub\Will-obsidian\Projetos\EstudosPesquisas\Auto-boletos.md
-- Adicionado updated em c:\Users\willi\Documents\GitHub\Will-obsidian\Projetos\EstudosPesquisas\Docker-Prod-Gratis.md
-- Adicionado updated em c:\Users\willi\Documents\GitHub\Will-obsidian\Projetos\EstudosPesquisas\gestor_aluguel_2.0.md
-- Adicionado updated em c:\Users\willi\Documents\GitHub\Will-obsidian\Projetos\EstudosPesquisas\IA-LOCAL.md
-- Adicionado updated em c:\Users\willi\Documents\GitHub\Will-obsidian\Projetos\EstudosPesquisas\Next.js-SaaS-Evolution.md
-- Adicionado updated em c:\Users\willi\Documents\GitHub\Will-obsidian\Projetos\EstudosPesquisas\openclaude-wk.md
-- Adicionado updated em c:\Users\willi\Documents\GitHub\Will-obsidian\Projetos\EstudosPesquisas\PROJECT_JARVIS_5.0.md
-- Adicionado updated em c:\Users\willi\Documents\GitHub\Will-obsidian\Projetos\Objetivos\90-dias.md
-- Adicionado updated em c:\Users\willi\Documents\GitHub\Will-obsidian\Projetos\Objetivos\OKRs.md
-- Adicionado updated em c:\Users\willi\Documents\GitHub\Will-obsidian\Projetos\Objetivos\README.md
-- Adicionado updated em c:\Users\willi\Documents\GitHub\Will-obsidian\JARVIS/Memorias\README.md
-- Adicionado updated em c:\Users\willi\Documents\GitHub\Will-obsidian\JARVIS/Memorias\Diario\2026-04-09.md
-- Adicionado updated em c:\Users\willi\Documents\GitHub\Will-obsidian\JARVIS/Memorias\Diario\2026-04-10.md
-- Criado frontmatter em c:\Users\willi\Documents\GitHub\Will-obsidian\JARVIS/Memorias\Diario\2026-04-12.md
-- Adicionado updated em c:\Users\willi\Documents\GitHub\Will-obsidian\JARVIS/Memorias\Episodicas\2026-04-09-configuração-do-segundo-cérebro-do-jarvis.md
-- Adicionado updated em c:\Users\willi\Documents\GitHub\Will-obsidian\JARVIS/Decisoes\2026-04-12-perfeccionamento-do-vault.md
-- Adicionado updated em c:\Users\willi\Documents\GitHub\Will-obsidian\JARVIS\KnowledgeBase\Arquitetura.md
-- Adicionado updated em c:\Users\willi\Documents\GitHub\Will-obsidian\JARVIS\KnowledgeBase\CasosDeUso.md
-- Adicionado updated em c:\Users\willi\Documents\GitHub\Will-obsidian\JARVIS\KnowledgeBase\Conhecimento.md
-- Adicionado updated em c:\Users\willi\Documents\GitHub\Will-obsidian\JARVIS\KnowledgeBase\Estrategia.md
-- Adicionado updated em c:\Users\willi\Documents\GitHub\Will-obsidian\JARVIS\KnowledgeBase\Ferramentas.md
-- Adicionado updated em c:\Users\willi\Documents\GitHub\Will-obsidian\JARVIS\KnowledgeBase\IA-LOCAL-Local-Agent.md
-- Adicionado updated em c:\Users\willi\Documents\GitHub\Will-obsidian\JARVIS\KnowledgeBase\IA-LOCAL-Obsidian-Usage.md
-- Adicionado updated em c:\Users\willi\Documents\GitHub\Will-obsidian\JARVIS\KnowledgeBase\Integracao.md
-- Adicionado updated em c:\Users\willi\Documents\GitHub\Will-obsidian\JARVIS\KnowledgeBase\Mapa.md
-- Adicionado updated em c:\Users\willi\Documents\GitHub\Will-obsidian\JARVIS\KnowledgeBase\Personalidade.md
-- Adicionado updated em c:\Users\willi\Documents\GitHub\Will-obsidian\JARVIS\KnowledgeBase\Regras.md
-- Adicionado updated em c:\Users\willi\Documents\GitHub\Will-obsidian\JARVIS\KnowledgeBase\SegundoCerebro.md
-- Adicionado updated em c:\Users\willi\Documents\GitHub\Will-obsidian\JARVIS\KnowledgeBase\Visao-Geral.md
-- Atualizado tags em c:\Users\willi\Documents\GitHub\Will-obsidian\JARVIS\Sobre-Will\Perfil.md: jarvis
-- Adicionado updated em c:\Users\willi\Documents\GitHub\Will-obsidian\JARVIS\Sobre-Will\Perfil.md
-- Atualizado tags em c:\Users\willi\Documents\GitHub\Will-obsidian\JARVIS\Sobre-Will\Preferencias.md: jarvis
-- Adicionado updated em c:\Users\willi\Documents\GitHub\Will-obsidian\JARVIS\Templates\INDEX.md
-- Adicionado updated em c:\Users\willi\Documents\GitHub\Will-obsidian\JARVIS\Templates\Template-Diario.md
-- Adicionado updated em c:\Users\willi\Documents\GitHub\Will-obsidian\JARVIS\Templates\Template-Memoria-Episodica.md
-- Adicionado updated em c:\Users\willi\Documents\GitHub\Will-obsidian\JARVIS\Templates\Template-Perfil-Will.md
-- Criado frontmatter em c:\Users\willi\Documents\GitHub\Will-obsidian\Will-Pessoal\Ideia_Pessoal.md
-- Adicionado updated em c:\Users\willi\Documents\GitHub\Will-obsidian\Will-Pessoal\README.md
-- Adicionado updated em c:\Users\willi\Documents\GitHub\Will-obsidian\Will-Pessoal\Conhecimento\Leituras.md
-- Adicionado updated em c:\Users\willi\Documents\GitHub\Will-obsidian\Will-Pessoal\Perfil\Bio.md
-- Adicionado updated em c:\Users\willi\Documents\GitHub\Will-obsidian\Will-Pessoal\Perfil\Carreira.md
-- Adicionado updated em c:\Users\willi\Documents\GitHub\Will-obsidian\Will-Pessoal\Perfil\INDEX.md
-- Adicionado updated em c:\Users\willi\Documents\GitHub\Will-obsidian\Will-Pessoal\Perfil\README.md
-- Adicionado updated em c:\Users\willi\Documents\GitHub\Will-obsidian\Will-Pessoal\Perfil\Skills.md
-- Adicionado updated em c:\Users\willi\Documents\GitHub\Will-obsidian\Will-Pessoal\Perfil\William-kelvem94 Overview.md
-- Adicionado updated em c:\Users\willi\Documents\GitHub\Will-obsidian\Will-Pessoal\Rede\Pessoas.md
-- Adicionado updated em c:\Users\willi\Documents\GitHub\Will-obsidian\Will-Pessoal\Vida\Financas.md
-- Adicionado updated em c:\Users\willi\Documents\GitHub\Will-obsidian\Will-Pessoal\Vida\Habitos.md
-- Adicionado updated em c:\Users\willi\Documents\GitHub\Will-obsidian\Will-Pessoal\Vida\Saude.md
-- Criado frontmatter em c:\Users\willi\Documents\GitHub\Will-obsidian\skills\autonomous-workflow.md
-- Criado frontmatter em c:\Users\willi\Documents\GitHub\Will-obsidian\skills\mcp-tools.md
-- Criado frontmatter em c:\Users\willi\Documents\GitHub\Will-obsidian\skills\README.md
-- Criado frontmatter em c:\Users\willi\Documents\GitHub\Will-obsidian\skills\Skill-Project-Matrix.md
-- Adicionado updated em c:\Users\willi\Documents\GitHub\Will-obsidian\skills\fullstack\backend.md
-- Adicionado updated em c:\Users\willi\Documents\GitHub\Will-obsidian\skills\fullstack\database.md
-- Adicionado updated em c:\Users\willi\Documents\GitHub\Will-obsidian\skills\fullstack\frontend.md
-- Criado frontmatter em c:\Users\willi\Documents\GitHub\Will-obsidian\skills\fullstack\INDEX.md
-- Criado frontmatter em c:\Users\willi\Documents\GitHub\Will-obsidian\skills\fullstack\README.md
-- Criado frontmatter em c:\Users\willi\Documents\GitHub\Will-obsidian\skills\vscode-ai\advanced-workflows.md
-- Criado frontmatter em c:\Users\willi\Documents\GitHub\Will-obsidian\skills\vscode-ai\best-practices.md
-- Adicionado updated em c:\Users\willi\Documents\GitHub\Will-obsidian\skills\vscode-ai\direct-agent-prompts.md
-- Criado frontmatter em c:\Users\willi\Documents\GitHub\Will-obsidian\skills\vscode-ai\INDEX.md
-- Criado frontmatter em c:\Users\willi\Documents\GitHub\Will-obsidian\skills\vscode-ai\mcp-operators.md
-- Adicionado updated em c:\Users\willi\Documents\GitHub\Will-obsidian\skills\vscode-ai\mcp.md
-- Criado frontmatter em c:\Users\willi\Documents\GitHub\Will-obsidian\skills\vscode-ai\mini-agent.md
-- Adicionado updated em c:\Users\willi\Documents\GitHub\Will-obsidian\skills\vscode-ai\project-jarvis-prompts.md
-- Adicionado updated em c:\Users\willi\Documents\GitHub\Will-obsidian\skills\vscode-ai\prompts.md
-- Criado frontmatter em c:\Users\willi\Documents\GitHub\Will-obsidian\skills\vscode-ai\quick-reference.md
-- Criado frontmatter em c:\Users\willi\Documents\GitHub\Will-obsidian\skills\vscode-ai\quick-start.md
-- Criado frontmatter em c:\Users\willi\Documents\GitHub\Will-obsidian\skills\vscode-ai\README.md
-- Criado frontmatter em c:\Users\willi\Documents\GitHub\Will-obsidian\skills\vscode-ai\skills-categories.md
-- Adicionado updated em c:\Users\willi\Documents\GitHub\Will-obsidian\skills\vscode-ai\templates.md
-- Criado frontmatter em c:\Users\willi\Documents\GitHub\Will-obsidian\skills\vscode-ai\use-cases.md
+- Atualizado tags em C:\Users\willi\Documents\GitHub\Will-obsidian\Will-Pessoal/01-Identidade\Perfil\Bio.md: perfil-identidade
+- Atualizado tags em C:\Users\willi\Documents\GitHub\Will-obsidian\Will-Pessoal/01-Identidade\Perfil\Carreira.md: perfil-identidade
+- Atualizado tags em C:\Users\willi\Documents\GitHub\Will-obsidian\Will-Pessoal/01-Identidade\Perfil\Cerebro-Will.md: perfil-identidade
+- Atualizado tags em C:\Users\willi\Documents\GitHub\Will-obsidian\Will-Pessoal/01-Identidade\Perfil\INDEX.md: perfil-identidade
+- Atualizado tags em C:\Users\willi\Documents\GitHub\Will-obsidian\Will-Pessoal/01-Identidade\Perfil\Perfil.md: perfil-identidade
+- Atualizado tags em C:\Users\willi\Documents\GitHub\Will-obsidian\Will-Pessoal/01-Identidade\Perfil\Preferencias.md: perfil-identidade
+- Atualizado tags em C:\Users\willi\Documents\GitHub\Will-obsidian\Will-Pessoal/01-Identidade\Perfil\Projetos-Ativos.md: perfil-identidade
+- Atualizado tags em C:\Users\willi\Documents\GitHub\Will-obsidian\Will-Pessoal/01-Identidade\Perfil\README.md: perfil-identidade
+- Atualizado tags em C:\Users\willi\Documents\GitHub\Will-obsidian\Will-Pessoal/01-Identidade\Perfil\Skills.md: perfil-identidade
+- Atualizado tags em C:\Users\willi\Documents\GitHub\Will-obsidian\Will-Pessoal/01-Identidade\Perfil\William-kelvem94 Overview.md: perfil-identidade
+- Atualizado tags em C:\Users\willi\Documents\GitHub\Will-obsidian\Will-Pessoal/02-Visao\Ideia_Pessoal.md: perfil-visao
+- Atualizado tags em C:\Users\willi\Documents\GitHub\Will-obsidian\Will-Pessoal/02-Visao\Objetivos\README.md: perfil-visao

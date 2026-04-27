@@ -1,6 +1,8 @@
 ---
-tags: [skills]
-updated: 2026-04-15
+tags: [skills, skills-eng]
+updated: 2026-04-27
+title: "Fullstack Skills"
+date: 2026-04-27
 ---
 
 # Fullstack Skills

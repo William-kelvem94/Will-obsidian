@@ -3,11 +3,13 @@ title: "Workflows Práticos do Jarvis"
 description: "Exemplos práticos de workflows, integrações e casos de uso reais implementados."
 tags:
   - jarvis
+  - jarvis-engenharia
   - workflows
   - praticos
   - exemplos
   - implementacao
-updated: 2026-04-17
+updated: 2026-04-27
+date: 2026-04-27
 ---
 
 # Workflows Práticos do Jarvis

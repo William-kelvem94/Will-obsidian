@@ -1,6 +1,8 @@
 ---
-tags: [mcp, infrastructure, automation]
-updated: 2026-04-21
+tags: [mcp, infrastructure, automation, skills-mcp]
+updated: 2026-04-27
+title: "MCP Ecosystem & Servers"
+date: 2026-04-27
 ---
 
 # MCP Ecosystem & Servers

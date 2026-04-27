@@ -7,7 +7,8 @@ tags:
   - acoes
   - projetos
   - hub
-updated: 2026-04-15
+updated: 2026-04-27
+date: 2026-04-27
 ---
 
 # Plano de Ação dos Projetos

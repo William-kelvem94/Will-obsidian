@@ -3,9 +3,11 @@ title: "Perfil — Índice"
 description: "Índice das notas do perfil pessoal de Will." 
 tags:
   - perfil
+  - perfil-identidade
   - indice
   - will-pessoal
-updated: 2026-04-15
+updated: 2026-04-27
+date: 2026-04-27
 ---
 
 # Perfil — Índice

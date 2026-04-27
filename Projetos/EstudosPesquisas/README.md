@@ -5,6 +5,8 @@ tags:
   - estudos
   - pesquisas
   - evolucao
+date: 2026-04-27
+updated: 2026-04-27
 ---
 
 # Estudos e Pesquisas [[../Projetos.md]]

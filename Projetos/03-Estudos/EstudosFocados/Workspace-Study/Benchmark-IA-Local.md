@@ -1,8 +1,9 @@
 ---
 title: "Benchmark IA Local"
 description: "Plano de benchmark para avaliar Ollama, Whisper, Piper, RAG e desempenho do vault em hardware local." 
-tags: [ia, benchmark, local, pesquisa]
-updated: 2026-04-17
+tags: [ia, benchmark, local, pesquisa, projetos]
+updated: 2026-04-27
+date: 2026-04-27
 ---
 
 # Benchmark IA Local

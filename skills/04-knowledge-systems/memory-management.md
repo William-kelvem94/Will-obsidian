@@ -1,7 +1,9 @@
 ---
 title: "Gestão de Memória Long-Term (LTM)"
 description: "Padrões de persistência de contexto em bancos de dados vetoriais para continuidade de sessão em agentes de IA."
-tags: [memory, long-term-memory, vector-db, chromadb]
+tags: [memory, long-term-memory, vector-db, chromadb, skills-knowledge]
+date: 2026-04-27
+updated: 2026-04-27
 ---
 
 # 🧠 Gestão de Memória Long-Term (LTM)

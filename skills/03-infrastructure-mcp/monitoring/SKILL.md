@@ -1,8 +1,9 @@
 ---
 title: "Application Monitoring"
 description: "Observability, logging, and performance monitoring for production systems"
-tags: [monitoring, observability, logging, metrics, performance, devops]
-updated: 2026-04-23
+tags: [monitoring, observability, logging, metrics, performance, devops, skills-mcp]
+updated: 2026-04-27
+date: 2026-04-27
 ---
 
 # Application Monitoring Skill

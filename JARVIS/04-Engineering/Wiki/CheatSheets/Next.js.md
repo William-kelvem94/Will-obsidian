@@ -1,8 +1,9 @@
 ---
 title: "Next.js Cheat Sheet"
 description: "Quick reference for Next.js 14+ App Router"
-tags: [cheatsheet, nextjs, react, frontend, typescript]
-updated: 2026-04-23
+tags: [cheatsheet, nextjs, react, frontend, typescript, jarvis-engenharia]
+updated: 2026-04-27
+date: 2026-04-27
 ---
 
 # Next.js Cheat Sheet

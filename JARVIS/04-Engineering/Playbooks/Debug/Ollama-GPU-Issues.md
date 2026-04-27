@@ -1,8 +1,9 @@
 ---
 title: "Ollama GPU Issues — Troubleshooting"
 description: "Fix GPU detection and performance issues with Ollama"
-tags: [troubleshooting, ollama, gpu, nvidia, llm, playbook]
-updated: 2026-04-23
+tags: [troubleshooting, ollama, gpu, nvidia, llm, playbook, jarvis-engenharia]
+updated: 2026-04-27
+date: 2026-04-27
 ---
 
 # 🎮 Ollama GPU Issues

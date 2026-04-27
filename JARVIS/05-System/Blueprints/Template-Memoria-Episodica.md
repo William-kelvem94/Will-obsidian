@@ -2,12 +2,12 @@
 title: "{{TITULO}}"
 date: "{{DATA}}"
 hora: "{{HORA}}"
-tags: [jarvis, memoria, episodica, {{TAGS}}]
+tags: [jarvis, memoria, episodica, {{TAGS}}, jarvis-sistema]
 categoria: "{{CATEGORIA}}"
 keywords: [{{KEYWORDS}}]
 importancia: "{{BAIXA|MEDIA|ALTA}}"
 projeto: "{{PROJETO}}"
-updated: 2026-04-15
+updated: 2026-04-27
 ---
 
 # {{TITULO}}

@@ -1,8 +1,9 @@
 ---
 title: "Docker Cheat Sheet"
 description: "Quick reference for Docker commands and best practices"
-tags: [cheatsheet, docker, containers, devops, deployment]
-updated: 2026-04-23
+tags: [cheatsheet, docker, containers, devops, deployment, jarvis-engenharia]
+updated: 2026-04-27
+date: 2026-04-27
 ---
 
 # Docker Cheat Sheet

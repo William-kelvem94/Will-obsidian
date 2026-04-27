@@ -1,3 +1,10 @@
+---
+title: "Fatos Rapidos"
+date: 2026-04-27
+tags: [jarvis]
+updated: 2026-04-27
+---
+
 
 - [2026-04-13T11:41:51.956607] (fact): Você está conseguindo meu dia.
 - [2026-04-13T11:45:57.049062] (fact): Vem, vem, vem, vem.
@@ -14,3 +21,4 @@
 - [2026-04-25T10:06:02.952343] (fact): Teste de resposta curta
 - [2026-04-27T09:15:59.052738] (fact): oi
 - [2026-04-27T09:16:15.686380] (fact): responda por voz
+- [2026-04-27T11:37:08.318659] (fact): hello
