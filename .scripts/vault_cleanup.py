@@ -172,10 +172,10 @@ def run_cleanup(check_only=False):
     if check_only:
         if report:
             write_report(report)
-            print("❌ Foram encontradas inconsistências no frontmatter do vault.")
+            print("Falharam verificações de frontmatter no vault.")
             print(f"Veja o relatório em: {REPORT_PATH}")
             sys.exit(1)
-        print("✅ Verificação completa. Não há inconsistências de frontmatter.")
+        print("Verificacao completa. Nao ha inconsistencias de frontmatter.")
         sys.exit(0)
 
     write_report(report)
