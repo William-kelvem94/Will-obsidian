@@ -4,7 +4,7 @@ source: https://github.com/William-kelvem94/Automatizador
 private: false
 language: Python
 description: Sistema profissional de automação inteligente de login em sites web - Python com interface gráfica moderna
-updated: 2026-04-27
+updated: 2026-04-29
 tags:
   - projetos
   - publicos

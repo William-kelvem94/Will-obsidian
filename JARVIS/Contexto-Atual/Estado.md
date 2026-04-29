@@ -2,7 +2,7 @@
 title: "Estado Atual — Jarvis"
 description: "O que está acontecendo agora: projeto em foco, modo de operação, último contexto."
 tags: [jarvis, contexto, estado, atual]
-updated: 2026-04-27
+updated: 2026-04-29
 date: 2026-04-27
 ---
 

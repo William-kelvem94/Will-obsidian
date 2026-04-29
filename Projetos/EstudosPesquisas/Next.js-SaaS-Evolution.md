@@ -7,7 +7,7 @@ tags:
   - saas
   - evolucao
 date: 2026-04-27
-updated: 2026-04-27
+updated: 2026-04-29
 ---
 
 # Next.js SaaS Evolução [[README]]

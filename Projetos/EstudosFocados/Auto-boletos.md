@@ -9,7 +9,7 @@ tags:
   - saas
   - ocr
 date: 2026-04-27
-updated: 2026-04-27
+updated: 2026-04-29
 ---
 
 # Estudos Focado: Auto-boletos [[README]] [[Privados/Auto-boletos]]

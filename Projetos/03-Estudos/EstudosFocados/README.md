@@ -9,7 +9,7 @@ tags:
   - estrategia
   - decisao
   - hub
-updated: 2026-04-27
+updated: 2026-04-29
 date: 2026-04-27
 ---
 

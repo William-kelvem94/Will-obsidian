@@ -2,7 +2,7 @@
 title: "Docker Not Starting — Troubleshooting"
 description: "Systematic approach to fix Docker startup issues"
 tags: [troubleshooting, docker, debug, playbook, jarvis-engenharia]
-updated: 2026-04-27
+updated: 2026-04-29
 date: 2026-04-27
 ---
 

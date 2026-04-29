@@ -3,7 +3,7 @@ title: "Integrações MCP e Infraestrutura Local de IA"
 description: "Estudo aprofundado sobre Model Context Protocol (MCP), LLMs locais (Ollama) e como criar servidores de contexto poderosos."
 tags: [mcp, infrastructure, local-llm, ollama, skills-mcp]
 date: 2026-04-27
-updated: 2026-04-27
+updated: 2026-04-29
 ---
 
 # 🔌 Infraestrutura MCP e LLMs Locais

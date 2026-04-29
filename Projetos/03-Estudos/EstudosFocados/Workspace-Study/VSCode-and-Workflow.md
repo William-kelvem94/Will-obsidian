@@ -2,7 +2,7 @@
 title: "VS Code and Workflow Research"
 description: "Resumo de como usar VS Code + Copilot + MCP no vault e como estruturar o trabalho com agentes locais." 
 tags: [vscode, workflow, copilot, pesquisa, projetos]
-updated: 2026-04-27
+updated: 2026-04-29
 date: 2026-04-27
 ---
 

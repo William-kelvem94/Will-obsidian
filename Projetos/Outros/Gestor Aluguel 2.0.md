@@ -14,7 +14,7 @@ tags:
   - prisma
   - ai
 date: 2026-04-27
-updated: 2026-04-27
+updated: 2026-04-29
 ---
 
 ## ?? Gestor de Aluguel 2.0 [[../Projetos|Projetos]]

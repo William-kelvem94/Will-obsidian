@@ -2,7 +2,7 @@
 title: "Workspace Study Hub"
 description: "Hub de estudo para análise do vault, ligação entre projetos ativos e próximos passos de conhecimento."
 tags: [estudos, pesquisa, workspace, analise]
-updated: 2026-04-27
+updated: 2026-04-29
 date: 2026-04-27
 ---
 

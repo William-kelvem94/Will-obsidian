@@ -2,7 +2,7 @@
 title: "RAG Implementation"
 description: "Retrieval Augmented Generation for LLM knowledge systems"
 tags: [rag, embeddings, semantic-search, vector-store, llm, knowledge-base, skills-knowledge]
-updated: 2026-04-27
+updated: 2026-04-29
 date: 2026-04-27
 ---
 

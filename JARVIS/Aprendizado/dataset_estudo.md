@@ -2,7 +2,7 @@
 title: "Base de Conhecimento: Dataset de Destilacao"
 date: 2026-04-27
 tags: [jarvis]
-updated: 2026-04-27
+updated: 2026-04-29
 ---
 
 # Base de Conhecimento: Dataset de Destilacao

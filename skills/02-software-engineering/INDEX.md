@@ -3,7 +3,7 @@ title: "Software Engineering & Architecture - Index"
 description: "Hub principal da engenharia de software avançada. Linguagens, Bancos de Dados, Web e DevOps."
 tags: [software-engineering, index, hub, skills-eng]
 date: 2026-04-27
-updated: 2026-04-27
+updated: 2026-04-29
 ---
 
 # 🏗️ Software Engineering & Architecture

@@ -2,7 +2,7 @@
 title: "Prompt Engineering"
 description: "Techniques for crafting effective LLM prompts"
 tags: [llm, prompt-engineering, ai, copilot, chatgpt, best-practices, skills-ai]
-updated: 2026-04-27
+updated: 2026-04-29
 date: 2026-04-27
 ---
 

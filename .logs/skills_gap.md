@@ -1,6 +1,6 @@
 # Skills Gap Report
 
-Generated: 2026-04-27 11:42:42
+Generated: 2026-04-29 12:06:51
 
 ## Missing Skills Referenced by Projects
 
@@ -9,47 +9,52 @@ Generated: 2026-04-27 11:42:42
 ## Defined Skills Not Referenced by Projects
 
 - advanced reasoning patterns: react, tot e reflexion
-- advanced-workflows
 - application monitoring
 - arquitetura backend avançada (python & ts)
 - arquitetura de memória para agentes: episódica, semântica e trabalho
-- autonomous-workflow
-- backend
-- best-practices
+- autonomous agent workflows (aaw)
+- backend skills - node/express/python
+- boas práticas — vs code ai
+- casos de uso — vs code ai
+- categorias de skills para ia no vs code
 - comunicação técnica
-- database
-- direct-agent-prompts
+- database skills - sql/nosql
 - engenharia de prompts
 - estratégias avançadas de rag (graphrag e híbrido)
 - finops
-- frontend
+- frontend skills - react/vue/js
+- generative models
 - gestão de memória long-term (ltm)
-- index
 - integrações mcp e infraestrutura local de ia
-- local-llm-ops
+- kubernetes
+- local llm operations (llmops)
 - mapeamento sfia
-- mcp
-- mcp-operators
-- mcp-servers
-- mini-agent
+- mcp ecosystem & servers
+- mcp para vs code ai
+- mini-agent de ia para vs code
 - mlops
-- multi-agent-orchestration
-- obsidian-neural-vault
+- multi-agent orchestration & subagent pipelines
+- observabilidade
+- obsidian neural vault
+- operadores mcp para vs code ai
 - orquestração e consenso multi-agentes
 - postgresql avançado: a arquitetura do titã de dados e a revolução vetorial em ia
-- programador-pesquisador.agent
-- programador.agent
-- project-jarvis-prompts
+- product management
+- programador agent
+- programador e pesquisador agent
 - prompt engineering
-- prompts
-- quick-reference
-- quick-start
+- prompt templates para vs code ai
+- prompts para project_jarvis_5.0
+- prompts prontos para agente de chat local
+- quick start — vs code ai
 - rag implementation
+- referência rápida — vs code ai
+- reinforcement learning
 - sistemas de conhecimento e rag avançado
-- skill-project-matrix
-- skills-categories
 - software engineering & architecture - index
-- templates
+- templates de prompt — vs code ai
 - testing architecture
-- use-cases
+- vs code ai skills — index
 - web components
+- workflows avançados — vs code ai
+- 📊 matriz de skills x projetos (neural edition)

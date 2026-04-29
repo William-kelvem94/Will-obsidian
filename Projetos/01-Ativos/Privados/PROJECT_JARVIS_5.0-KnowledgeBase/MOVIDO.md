@@ -2,7 +2,7 @@
 title: "⚠️ MOVIDO — Esta pasta foi consolidada"
 tags: [movido, redirecionamento, projetos]
   - privados
-updated: 2026-04-27
+updated: 2026-04-29
 date: 2026-04-27
 ---
 

@@ -1,6 +1,6 @@
 ---
 tags: [skills, skills-ai]
-updated: 2026-04-27
+updated: 2026-04-29
 title: "Categorias de Skills para IA no VS Code"
 date: 2026-04-27
 ---
