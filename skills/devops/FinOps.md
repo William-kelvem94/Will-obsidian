@@ -2,15 +2,15 @@
 title: "FinOps"
 category: "DevOps"
 level: 3
-description: "Otimização de custos em nuvem e eficiência financeira em infraestrutura, garantindo valor pelo investimento em IA."
+description: "Práticas para otimizar custos em nuvem, alinhar gastos com valor e apoiar operações de IA sustentáveis."
 projects:
   - "JARVIS Core"
 related_skills:
   - "MLOps"
   - "Kubernetes"
 resources:
-  - "Práticas de FinOps"
-  - "Guias de otimização de custo de nuvem"
+  - "FinOps Foundation"
+  - "Cloud cost optimization guides"
 date: 2026-04-29
 tags: [skills]
 updated: 2026-04-29
@@ -18,15 +18,15 @@ updated: 2026-04-29
 
 # FinOps
 
-FinOps é o conjunto de práticas que une finanças e operações de nuvem para controlar custos e maximizar valor.
+FinOps é a disciplina que integra finanças e operações de nuvem para controlar custos e maximizar valor operacional.
 
 ## Por que é importante?
 
-Reduz gastos desnecessários e aumenta a eficiência de projetos em nuvem. Para WILL, isso significa liberar orçamento para experimentação em IA enquanto mantém a infraestrutura sustentável.
+Para WILL, FinOps mantém a infraestrutura de JARVIS sustentável e permite experimentar IA sem comprometer o orçamento. Ele ajuda a balancear performance, disponibilidade e custo em ambientes híbridos.
 
 ## Nível de Competência Atual
 
-Defino orçamentos, tags de custo, otimização de recursos e práticas de governança financeira para ambiente de nuvem e operações híbridas.
+Defino orçamentos, estruturas de tagging e otimização de recursos; estabeleço métricas de custo por serviço e práticas de governança financeira em nuvem.
 
 ## Projetos Relacionados
 - [[Projetos/01-Ativos/Privados/IA-LOCAL|JARVIS Core]]
@@ -35,8 +35,9 @@ Defino orçamentos, tags de custo, otimização de recursos e práticas de gover
 
 - Implementar monitoramento de custos e alertas centralizados.
 - Automatizar relatórios de uso e ROI por projeto.
-- Revisar recursos e otimizar instâncias, armazenamento e serviços.
+- Revisar instâncias, armazenamento e serviços para eliminar desperdício.
 
 ## Referências
-- Práticas de FinOps
-- Estudos de eficiência financeira para infra de IA
+- FinOps Foundation
+- Guias de otimização de custo de nuvem
+- Estudos sobre eficiência financeira para operações de IA

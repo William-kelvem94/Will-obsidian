@@ -3,28 +3,34 @@ title: "Redes Neurais Biológicas"
 date: 2026-04-29
 area: "Neurociência Cognitiva"
 tags: [conhecimento, conceito, neurociencia]
-related: []
-aliases: []
+related: ["Conhecimento-Geral/Neurociencia/Sistemas-de-Memoria", "Conhecimento-Geral/Matematica/Algebra-Linear-Essencial"]
+aliases: ["Neurônio Biológico"]
 ---
 
 # Redes Neurais Biológicas
 
 ## Definição
 
-Redes neurais biológicas são sistemas de células nervosas conectadas no cérebro e no sistema nervoso que processam informação por meio de sinais elétricos e químicos.
+Um neurônio biológico processa sinais recebidos por dendritos, integra-os no soma e transmite um pulso elétrico pelo axônio até sinapses. Cada sinapse ajusta sua força em função da história de disparos, criando uma rede dinâmica de processamento distribuído.
+
+Um perceptron artificial é uma unidade simples de computação que soma entradas ponderadas, aplica uma função de ativação e produz uma saída. Ele é inspirado na forma como neurônios biológicos acumulam sinais e disparam em regime binário ou contínuo.
 
 ## Contexto Histórico/Filosófico
 
-A pesquisa em neurociência começou com estudos anatômicos de Santiago Ramón y Cajal e evoluiu para modelos computacionais inspirados no funcionamento dos neurônios.
+Do trabalho de Ramón y Cajal sobre a célula nervosa ao modelo formal de McCulloch e Pitts, a neurociência forneceu metáforas estruturais para a primeira geração de redes neurais. A relação entre biologia e computação sempre foi análoga, mas não idêntica, e evolui para incluir mecanismos de plasticidade e aprendizado adaptativo.
 
 ## Relações com Outros Conceitos
-- [[Conhecimento-Geral/Matematica/Algebra-Linear-Essencial|Álgebra Linear Essencial]]
-- [[Conhecimento-Geral/Neurociencia/Sistemas-de-Memoria|Sistemas de Memória]]
+- [[Conhecimento-Geral/Neurociencia/Sistemas-de-Memoria|Sistemas de Memória]] — o hipocampo e o replay dependem de redes de neurônios que reforçam conexões relevantes durante consolidação.
+- [[Conhecimento-Geral/Matematica/Algebra-Linear-Essencial|Álgebra Linear Essencial]] — vetores e matrizes descrevem o fluxo de informação entre unidades e a transformação de sinais em redes artificiais.
+- [[Conhecimento-Geral/Neurociencia/Consciencia-e-Cerebro|Consciência e Cérebro]] — a integração global de sinais e a emergência de estados conscientes são explicadas por redes amplamente conectadas.
 
 ## Aplicações Práticas (para IA)
 
-Comparar neurônios biológicos com artificiais ajuda a entender por que arquiteturas como redes profundas são eficientes para representação e aprendizado. A plasticidade sináptica inspira técnicas de adaptação online, e o aprendizado hebbiano sugere mecanismos de reforço e associação implícita.
+A plasticidade sináptica biológica inspira a adaptação contínua de pesos em redes neurais artificiais. Mecanismos como LTP e LTD permitem que uma rede biológica aumente ou diminua a força sináptica com base na co-ativação de neurônios, semelhante a atualizações de parâmetros por gradiente.
+
+O aprendizado Hebbiano, resumido em "neurons that fire together wire together", aparece em algoritmos de associação e em regularização de representações latentes. A janela STDP (spike-timing-dependent plasticity) sugere que a sequência temporal de atividade também codifica valor, o que é análogo a modelos sequenciais e atenção temporal em IA.
 
 ## Referências
 - Hebb, D. O. (1949). The Organization of Behavior.
-- Research sobre plasticidade sináptica e aprendizado implícito.
+- Biologia de LTP/LTD e plasticidade sináptica.
+- Estudos de STDP e aprendizado temporal em redes neurais.

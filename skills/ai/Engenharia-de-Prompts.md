@@ -2,7 +2,7 @@
 title: "Engenharia de Prompts"
 category: "AI"
 level: 4
-description: "Técnicas para projetar prompts eficazes, reduzir alucinações e extrair valor máximo de LLMs."
+description: "Domínio de técnicas para projetar prompts claros, estruturados e robustos que extraem respostas precisas de modelos de linguagem e reduzem alucinações."
 projects:
   - "JARVIS Core"
   - "RAG-Local-Guide"
@@ -11,7 +11,8 @@ related_skills:
   - "Reinforcement Learning"
 resources:
   - "OpenAI Cookbook"
-  - "Prompt Engineering Papers"
+  - "AI21 Prompt Design Guide"
+  - "Papers on prompt engineering"
 date: 2026-04-29
 tags: [skills]
 updated: 2026-04-29
@@ -19,15 +20,15 @@ updated: 2026-04-29
 
 # Engenharia de Prompts
 
-Prompt engineering é a prática de formular consultas para modelos de linguagem de forma precisa, clara e orientada ao resultado.
+Engenharia de prompts é a prática de criar consultas e instruções para LLMs de forma a maximizar precisão, relevância e consistência dos resultados.
 
 ## Por que é importante?
 
-Prompts bem construídos aumentam a precisão, a consistência e a utilidade das respostas de LLMs. Para WILL, isso significa reduzir o custo de iteração, evitar alucinações e criar interações confiáveis entre JARVIS e o vault.
+Para WILL, prompts eficazes tornam JARVIS mais confiável e produtivo. Bons prompts reduzem a necessidade de revisões manuais, mantêm a resposta focada no contexto do vault e ajudam a mitigar vieses e alucinações.
 
 ## Nível de Competência Atual
 
-Avalio tipos de prompt como direct prompts, few-shot, chain-of-thought e prompt templates, e experimento variações que melhoram desempenho em tarefas de geração e compreensão.
+Eu utilizo prompts diretos, few-shot, chain-of-thought, prompt templates e técnicas de decomposição. Testo variações de instruções para melhorar a precisão em tarefas de resumo, classificação e geração de código.
 
 ## Projetos Relacionados
 - [[JARVIS/04-Engineering/RAG-Local-Guide]]
@@ -35,11 +36,12 @@ Avalio tipos de prompt como direct prompts, few-shot, chain-of-thought e prompt 
 
 ## Plano de Desenvolvimento
 
-- Aprender e documentar técnicas de ReAct, chain-of-thought e auto-feedback.
-- Construir e testar bibliotecas de prompt templates para tarefas recorrentes de JARVIS.
-- Registrar resultados e métricas de prompt em experimentos reais.
+- Documentar padrões de prompt para tarefas de pesquisa, diagnóstico e planejamento.
+- Construir uma biblioteca de prompt templates com placeholders e exemplos.
+- Medir resultados com métricas de cobertura de contexto, fidelidade de resposta e taxa de alucinação.
+- Experimentar técnicas de ReAct, self-consistency e prompt chaining em diferentes modelos.
 
 ## Referências
 - OpenAI Cookbook
-- Papers on prompt engineering
-- Recursos de few-shot learning e prompt chaining
+- AI21 Prompt Design Guide
+- Artigos sobre chain-of-thought e prompt optimization

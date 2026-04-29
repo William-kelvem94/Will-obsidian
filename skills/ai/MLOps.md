@@ -2,7 +2,7 @@
 title: "MLOps"
 category: "AI"
 level: 3
-description: "Ciclo de vida de modelos, automação, monitoramento e deploy de ML em produção, com foco em confiabilidade e governança."
+description: "Operacionalização de modelos de IA através de pipelines de treinamento, deployment, monitoramento e governança contínua."
 projects:
   - "JARVIS Core"
   - "RAG-Local-Guide"
@@ -10,8 +10,9 @@ related_skills:
   - "FinOps"
   - "Observabilidade"
 resources:
-  - "MLOps práticas de mercado"
-  - "Papers sobre pipeline e drift detection"
+  - "Google Cloud MLOps Guide"
+  - "Papers sobre drift detection"
+  - "MLOps frameworks"
 date: 2026-04-29
 tags: [skills]
 updated: 2026-04-29
@@ -19,15 +20,15 @@ updated: 2026-04-29
 
 # MLOps
 
-MLOps trata da operacionalização de modelos de machine learning, incluindo treinamento, deploy, monitoramento de drift e governança.
+MLOps é a prática de levar modelos de machine learning da experimentação para produção, com automação confiável, validação e governança.
 
 ## Por que é importante?
 
-Suporta a escalabilidade e confiabilidade de sistemas de IA no mundo real. Para WILL, MLOps garante que modelos usados por JARVIS sejam reproduzíveis, auditáveis e preparados para atualizações contínuas.
+Para WILL, MLOps garante que modelos usados por JARVIS sejam reproduzíveis, auditáveis e mantidos ao longo do tempo. Sistemas de IA precisam de pipelines claros para treinar, versionar, deployar e monitorar desempenho em produção.
 
 ## Nível de Competência Atual
 
-Defino pipelines de dados, automação com CI/CD, monitoramento de desempenho e estratégias para lidar com drift e qualidade do modelo.
+Defino pipelines de dados, treino e inferência com CI/CD, e implemento monitoramento de métricas de qualidade de modelo e drift. Sei como garantir que um modelo em produção possa ser rollbackado e atualizado sem interromper o serviço.
 
 ## Projetos Relacionados
 - [[JARVIS/04-Engineering/RAG-Local-Guide]]
@@ -35,10 +36,11 @@ Defino pipelines de dados, automação com CI/CD, monitoramento de desempenho e 
 
 ## Plano de Desenvolvimento
 
-- Criar pipeline completo de treinamento, validação e deploy para modelos de IA.
-- Configurar métricas de drift, avaliação contínua e governança de modelo.
-- Documentar processos de rollback e versionamento.
+- Criar e documentar pipelines de treinamento, validação e deploy para modelos usados por JARVIS.
+- Implementar monitoramento de drift e métricas de qualidade de dados.
+- Estabelecer versionamento de modelos, testes automatizados e processos de rollback.
 
 ## Referências
-- MLOps práticas de mercado
-- Guias de monitoramento e deployment de ML
+- Google Cloud MLOps Guide
+- Papers sobre drift detection e governance
+- Artigos sobre pipeline de ML e deploy contínuo

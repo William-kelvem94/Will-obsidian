@@ -2,14 +2,15 @@
 title: "Web Components"
 category: "Frontend"
 level: 3
-description: "Padrões de componentes reutilizáveis para interfaces web modernas, com foco em interoperabilidade e manutenção."
+description: "Padrões para construir componentes web modulares, encapsulados e reutilizáveis, independentes de framework."
 projects:
   - "Gestor Aluguel"
 related_skills:
   - "Kubernetes"
+  - "Observabilidade"
 resources:
-  - "Documentação de Web Components"
-  - "Tutorials de custom elements"
+  - "Web Components documentation"
+  - "Articles on Shadow DOM and custom elements"
 date: 2026-04-29
 tags: [skills]
 updated: 2026-04-29
@@ -17,25 +18,25 @@ updated: 2026-04-29
 
 # Web Components
 
-Web Components permitem criar elementos reutilizáveis, encapsulados e compatíveis com diferentes frameworks.
+Web Components permitem criar elementos reutilizáveis, encapsulados e compatíveis com diferentes frameworks, com base em custom elements, templates e Shadow DOM.
 
 ## Por que é importante?
 
-Melhora a modularidade e a manutenção de interfaces front-end. Para WILL, isso significa construir UIs consistentes e independentes de frameworks, ideais para painéis de monitoramento e dashboards de JARVIS.
+Melhora a modularidade, manutenção e interoperabilidade de interfaces. Para WILL, Web Components são úteis em painéis e dashboards de JARVIS, onde consistência visual e isolamento de estilos são críticos.
 
 ## Nível de Competência Atual
 
-Implemento custom elements, shadow DOM e templates, com foco em interoperabilidade e encapsulamento de estilo.
+Implemento custom elements, Shadow DOM e HTML templates. Uso componentização para separar lógica, estilo e comportamento em UIs mais fáceis de manter.
 
 ## Projetos Relacionados
 - [[Projetos/01-Ativos/Privados/gestor_aluguel_2.0|Gestor Aluguel]]
 
 ## Plano de Desenvolvimento
 
-- Construir bibliotecas de componentes reutilizáveis.
-- Integrar com frameworks modernos e aplicações web existentes.
-- Documentar padrões de design e estilos base.
+- Construir uma biblioteca de componentes reutilizáveis.
+- Integrar Web Components em aplicações web existentes.
+- Documentar padrões de design, theming e encapsulamento.
 
 ## Referências
 - Documentação de Web Components
-- Guias de design de componentes reutilizáveis
+- Tutoriais de Shadow DOM e custom elements

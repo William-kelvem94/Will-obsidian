@@ -10,6 +10,7 @@ related_skills:
   - "Kubernetes"
 resources:
   - "Product management frameworks"
+  - "Lean Startup"
 date: 2026-04-29
 tags: [skills]
 updated: 2026-04-29
@@ -17,15 +18,15 @@ updated: 2026-04-29
 
 # Product Management
 
-Product management é a disciplina que prioriza necessidades do usuário, define roadmap e garante que soluções gerem valor real.
+Product management é a disciplina que define valor, valida soluções com usuários e garante que o desenvolvimento entregue impacto real.
 
 ## Por que é importante?
 
-Ajuda a manter a engenharia focada em problemas relevantes e a transformar ideias de IA em produtos úteis. Para WILL, isso significa alinhar o desenvolvimento de JARVIS com resultados práticos e metas estratégicas.
+Ajuda a manter a engenharia focada em problemas relevantes e a transformar ideias de IA em produtos úteis. Para WILL, Product Management alinha JARVIS com objetivos estratégicos e resultados mensuráveis.
 
 ## Nível de Competência Atual
 
-Compreendo ciclos de descoberta, definição de MVP, validação com usuários e comunicação entre equipes.
+Compreendo discovery, definição de MVP, validação com usuários e comunicação entre equipes. Sei priorizar funcionalidades com base em impacto, esforço e risco.
 
 ## Projetos Relacionados
 - [[Projetos/01-Ativos/Privados/IA-LOCAL|JARVIS Core]]
@@ -33,9 +34,9 @@ Compreendo ciclos de descoberta, definição de MVP, validação com usuários e
 ## Plano de Desenvolvimento
 
 - Definir metas claras para cada release de JARVIS.
-- Mapear stakeholders e resultados esperados.
-- Usar feedback contínuo para ajustar prioridades.
+- Mapear stakeholders, problemas e resultados esperados.
+- Coletar feedback contínuo para ajustar prioridades e roadmap.
 
 ## Referências
-- Frameworks de gestão de produtos
-- Boas práticas de discovery e roadmap
+- Frameworks de Product Management
+- Lean Startup e métodos de discovery

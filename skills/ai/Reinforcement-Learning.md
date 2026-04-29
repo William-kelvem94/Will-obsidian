@@ -2,14 +2,15 @@
 title: "Reinforcement Learning"
 category: "AI"
 level: 3
-description: "Aprendizado por reforço para agentes que aprendem através de recompensas e interação sequencial."
+description: "Aprendizado por reforço para desenvolver agentes que aprendem políticas ótimas por meio de interação e recompensas."
 projects:
   - "JARVIS Core"
 related_skills:
   - "MLOps"
   - "Generative Models"
 resources:
-  - "RL papers and tutorials"
+  - "Sutton & Barto"
+  - "RL course materials"
 date: 2026-04-29
 tags: [skills]
 updated: 2026-04-29
@@ -17,25 +18,26 @@ updated: 2026-04-29
 
 # Reinforcement Learning
 
-Reinforcement Learning (RL) é o ramo de aprendizado de máquina em que agentes aprendem ações ótimas ao interagir com um ambiente e receber recompensas.
+Reinforcement Learning (RL) é a área de aprendizado de máquina que ensina agentes a tomar decisões ótimas por meio de interação sequencial com um ambiente e recompensas.
 
 ## Por que é importante?
 
-RL é essencial para ensinar agentes a tomar decisões em sequências de ações, balanceando exploração e exploração. Para WILL, isso permite desenvolver mecanismos de feedback adaptativo em JARVIS e melhorar comportamento em tarefas iterativas.
+RL é essencial para agentes que precisam aprender comportamento adaptativo, equilibrando exploração e exploração. Para WILL, isso permite criar mecanismos de feedback e ajuste contínuo para JARVIS em cenários de decisão complexos.
 
 ## Nível de Competência Atual
 
-Compreendo estados, ações, recompensas, políticas e algoritmos como Q-learning, policy gradients e métodos de actor-critic.
+Compreendo estados, ações, recompensas e políticas, e trabalho com algoritmos como Q-learning, SARSA, policy gradients e métodos actor-critic.
 
 ## Projetos Relacionados
 - [[Projetos/01-Ativos/Privados/IA-LOCAL|JARVIS Core]]
 
 ## Plano de Desenvolvimento
 
-- Estudar implementações básicas de Q-learning e PPO.
-- Aplicar RL em experimentos de ajuste de agentes de diálogo.
-- Documentar casos de uso e métricas de performance.
+- Implementar experimentos simples de Q-learning e PPO.
+- Aplicar RL em agentes de diálogo e controle de processos.
+- Documentar métricas de recompensas, convergência e exploração.
 
 ## Referências
 - Sutton & Barto
-- Papers de RL moderno e aplicações em agentes.
+- Papers sobre PPO, DQN e actor-critic
+- Tutoriais de RL para agentes adaptativos
