@@ -2,14 +2,19 @@
 title: "MLOps"
 category: "AI"
 level: 3
-description: "Ciclo de vida de modelos, automação, monitoramento e deploy de ML em produção."
-projects: []
-related_skills: []
+description: "Ciclo de vida de modelos, automação, monitoramento e deploy de ML em produção, com foco em confiabilidade e governança."
+projects:
+  - "JARVIS Core"
+  - "RAG-Local-Guide"
+related_skills:
+  - "FinOps"
+  - "Observabilidade"
 resources:
-  - 
-date: 2026-04-27
+  - "MLOps práticas de mercado"
+  - "Papers sobre pipeline e drift detection"
+date: 2026-04-29
 tags: [skills]
-updated: 2026-04-27
+updated: 2026-04-29
 ---
 
 # MLOps
@@ -18,19 +23,22 @@ MLOps trata da operacionalização de modelos de machine learning, incluindo tre
 
 ## Por que é importante?
 
-Suporta a escalabilidade e confiabilidade de sistemas de IA no mundo real.
+Suporta a escalabilidade e confiabilidade de sistemas de IA no mundo real. Para WILL, MLOps garante que modelos usados por JARVIS sejam reproduzíveis, auditáveis e preparados para atualizações contínuas.
 
 ## Nível de Competência Atual
 
-Define pipelines de dados, automação com CI/CD e monitoramento de desempenho.
+Defino pipelines de dados, automação com CI/CD, monitoramento de desempenho e estratégias para lidar com drift e qualidade do modelo.
 
 ## Projetos Relacionados
 - [[JARVIS/04-Engineering/RAG-Local-Guide]]
+- [[Projetos/01-Ativos/Privados/IA-LOCAL|JARVIS Core]]
 
 ## Plano de Desenvolvimento
 
-- Criar pipeline de treinamento e inferência.
-- Configurar alertas de drift e métricas de desempenho.
+- Criar pipeline completo de treinamento, validação e deploy para modelos de IA.
+- Configurar métricas de drift, avaliação contínua e governança de modelo.
+- Documentar processos de rollback e versionamento.
 
 ## Referências
 - MLOps práticas de mercado
+- Guias de monitoramento e deployment de ML

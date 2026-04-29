@@ -26,12 +26,20 @@ SORT area ASC, file.mtime DESC
 - [[Conhecimento-Geral/Etica/INDEX|Ética e Alinhamento]]
 - [[Conhecimento-Geral/Psicologia/INDEX|Psicologia e Comportamento Humano]]
 - [[Conhecimento-Geral/Cultura/INDEX|Cultura, História e Sociedade]]
+- [[Conhecimento-Geral/Neurociencia/INDEX|Neurociência Cognitiva]]
+- [[Conhecimento-Geral/Matematica/INDEX|Matemática para IA]]
+- [[Conhecimento-Geral/Economia-Digital/INDEX|Economia, Trabalho e Sociedade Digital]]
+- [[Conhecimento-Geral/Direito-Digital/INDEX|Direito e Regulação de IA]]
 
 ## Notas de conceito iniciais
 
 - [[Conhecimento-Geral/Filosofia/Conceitos-Fundamentais|Conceitos Fundamentais de Filosofia]]
 - [[Conhecimento-Geral/Etica/Consequencialismo|Consequencialismo]]
 - [[Conhecimento-Geral/Psicologia/Vieses-Cognitivos|Vieses Cognitivos e Comportamento]]
+- [[Conhecimento-Geral/Neurociencia/Redes-Neurais-Biologicas|Redes Neurais Biológicas]]
+- [[Conhecimento-Geral/Matematica/Algebra-Linear-Essencial|Álgebra Linear Essencial]]
+- [[Conhecimento-Geral/Economia-Digital/Automacao-e-Desemprego|Automação e Desemprego]]
+- [[Conhecimento-Geral/Direito-Digital/GDPR-e-Privacidade|GDPR e Privacidade]]
 
 ## Objetivo
 
