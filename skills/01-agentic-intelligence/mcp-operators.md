@@ -1,6 +1,8 @@
 ---
-tags: [skills]
-updated: 2026-04-15
+tags: [skills, skills-ai]
+updated: 2026-04-29
+title: "Operadores MCP para VS Code AI"
+date: 2026-04-27
 ---
 
 # Operadores MCP para VS Code AI
@@ -25,6 +27,14 @@ Este arquivo descreve operadores de ação comuns para agentes que usam MCP em p
 - `get_file_stats(path)` — retorna tamanho, data de modificação e existência.
 - `read_yaml(path)` — lê dados estruturados de YAML.
 - `write_yaml(path, data)` — grava dados estruturados em YAML.
+
+## Operadores de inspeção e ação diretas
+- `grep_search(query, isRegexp, includePattern?, maxResults?)` — busca padrões de texto ou regex no código.
+- `get_errors(filePaths?)` — valida erros e diagnostics para arquivos ou diretórios.
+- `get_changed_files(repositoryPath?, sourceControlState?)` — mostra arquivos alterados no repositório.
+- `replace_string_in_file(filePath, oldString, newString)` — substitui texto exato em um arquivo.
+- `multi_replace_string_in_file(replacements)` — aplica várias substituições atômicas em um ou mais arquivos.
+- `run_in_terminal(command, explanation, goal, mode, timeout)` — executa um comando no terminal para validação ou edição externa.
 
 ## Padrões de uso
 ### 1. Contexto antes da mudança

@@ -1,15 +1,22 @@
 ---
-tags: [skills]
-updated: 2026-04-15
+title: "Software Engineering & Architecture - Index"
+description: "Hub principal da engenharia de software avançada. Linguagens, Bancos de Dados, Web e DevOps."
+tags: [software-engineering, index, hub, skills-eng]
+date: 2026-04-27
+updated: 2026-04-29
 ---
 
-# Fullstack Skills — Index
+# 🏗️ Software Engineering & Architecture
 
-Índice das notas do hub `skills/fullstack`.
+Bem-vindo ao braço de Engenharia do Segundo Cérebro. Aqui cobrimos desde os internos da V8 e do CPython até o planejamento de malhas em Kubernetes e Vector Databases para IA.
 
-## Notas
+## 📂 Sub-Domínios
 
-- [[README|Visão geral do Fullstack Skills]]
-- [[frontend|Frontend]]
-- [[backend|Backend]]
-- [[database|Database]]
+- [[Linguagens/Python-Advanced|🐍 Python Avançado: Metaprogramação, Assincronismo e Arquitetura]]
+- [[Linguagens/TypeScript-Advanced|🟨 TypeScript e JavaScript: V8, Event Loop e Tipagem Avançada]]
+- [[Bancos-de-Dados/PostgreSQL-Advanced|🐘 PostgreSQL Avançado: Arquitetura, Performance e Vetores para IA]]
+- [[DevOps-Infraestrutura/Docker-Kubernetes-Architecture|🐳 Arquitetura Avançada de Contêineres: Docker Internals e Kubernetes]]
+- [[Desenvolvimento-Web-APIs/Advanced-API-Design-REST-GraphQL-gRPC|🌐 Design de APIs Avançado: REST, GraphQL, gRPC e WebSockets]]
+- [[Seguranca-Informacao/Cryptography-Zero-Trust|🛡️ Segurança de Elite: Criptografia, Autenticação e Zero Trust]]
+- [[Machine-Learning-IA/Transformer-Architecture-LLMs|🧠 A Arquitetura Transformer e LLMs]]
+- [[advanced-backend-architecture|Arquitetura Backend Avançada]]

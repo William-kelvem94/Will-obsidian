@@ -3,10 +3,12 @@ title: "PROJECT_JARVIS_5.0 Knowledge Base Index"
 description: "Índice da base de conhecimento do Jarvis com resumo dos principais documentos e seu propósito." 
 tags:
   - jarvis
+  - projetos
   - privados
   - knowledge
   - index
-updated: 2026-04-15
+updated: 2026-04-29
+date: 2026-04-27
 ---
 
 # PROJECT_JARVIS_5.0 Knowledge Base Index

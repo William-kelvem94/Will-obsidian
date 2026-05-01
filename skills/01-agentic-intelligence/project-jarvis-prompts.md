@@ -1,6 +1,8 @@
 ---
-tags: [skills]
-updated: 2026-04-15
+tags: [skills, skills-ai]
+updated: 2026-04-29
+title: "Prompts para PROJECT_JARVIS_5.0"
+date: 2026-04-27
 ---
 
 # Prompts para PROJECT_JARVIS_5.0

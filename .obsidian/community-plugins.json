@@ -1,0 +1,10 @@
+{
+  "installed": [
+    "dataview",
+    "templater"
+  ],
+  "enabled": [
+    "dataview",
+    "templater"
+  ]
+}

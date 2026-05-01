@@ -1,8 +1,9 @@
 ---
 title: "IA Local Research"
 description: "Pesquisa de IA local para Jarvis, incluindo voz, visão, RAG, Ollama e arquitetura offline." 
-tags: [ia, jarvis, pesquisa, local]
-updated: 2026-04-17
+tags: [ia, jarvis, pesquisa, local, projetos]
+updated: 2026-04-29
+date: 2026-04-27
 ---
 
 # IA Local Research

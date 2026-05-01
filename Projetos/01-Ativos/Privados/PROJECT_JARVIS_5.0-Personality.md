@@ -3,11 +3,13 @@ title: "PROJECT_JARVIS_5.0 Personality"
 description: "Definição de persona para Jarvis: amigo, professor, filósofo, sarcástico e consciente." 
 tags:
   - jarvis
+  - projetos
   - privados
   - persona
   - assistant
   - estilo
-updated: 2026-04-15
+updated: 2026-04-29
+date: 2026-04-27
 ---
 
 # PROJECT_JARVIS_5.0 Personality

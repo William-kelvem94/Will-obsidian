@@ -1,8 +1,9 @@
 ---
 title: "Sistemas Sensoriais e Percepção — JARVIS 5.0"
 description: "Detalhamento técnico de como o Jarvis vê, ouve e sente o ambiente através de hardware local."
-tags: [jarvis, percepcao, visão, voz, biometria, engenharia]
-updated: 2026-04-15
+tags: [jarvis, percepcao, visão, voz, biometria, engenharia, jarvis-engenharia]
+updated: 2026-04-29
+date: 2026-04-27
 ---
 
 # Sistemas Sensoriais e Percepção 🧠👁️🎙️

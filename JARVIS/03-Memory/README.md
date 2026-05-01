@@ -3,10 +3,12 @@ title: "Memórias do Jarvis"
 description: "Índice das memórias e entradas episódicas do Jarvis, organizadas por data e tipo."
 tags:
   - jarvis
+  - jarvis-memoria
   - memoria
   - hub
   - continuidade
-updated: 2026-04-15
+updated: 2026-04-29
+date: 2026-04-27
 ---
 
 # Memórias do Jarvis

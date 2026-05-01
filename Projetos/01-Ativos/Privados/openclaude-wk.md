@@ -11,7 +11,8 @@ tags:
   - typescript
   - cli
   - ai-agent
-updated: 2026-04-15
+updated: 2026-04-29
+date: 2026-04-27
 ---
 
 # openclaude-wk [[../Projetos.md|Projetos]] [[GitHub-Completo]]

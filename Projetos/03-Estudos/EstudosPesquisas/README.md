@@ -1,8 +1,9 @@
 ---
 title: "📚 Biblioteca de Recursos: Estudos e Pesquisas"
 description: "Hub técnico categorizado para suporte aos projetos ativos do vault."
-updated: 2026-04-15
+updated: 2026-04-29
 tags: [estudos, pesquisas, hub, evolucao]
+date: 2026-04-27
 ---
 
 # 📚 Biblioteca de Recursos [[../Projetos.md|Projetos]]

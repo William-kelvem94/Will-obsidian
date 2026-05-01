@@ -4,7 +4,7 @@ source: "C:/Users/willi/Documents/GitHub/PROJECT_JARVIS_5.0"
 language: Python
 private: true
 description: "Jarvis 5.0 monorepo FastAPI + Next.js + LiveKit voice AI, visão face/gesture, browser autonomy."
-updated: 2026-04-15
+updated: 2026-04-29
 tags:
   - projetos
   - privados
@@ -13,6 +13,7 @@ tags:
   - nextjs
   - livekit
   - ai-vision
+date: 2026-04-27
 ---
 
 # PROJECT_JARVIS_5.0 [[../Projetos.md|Projetos]] [[GitHub-Completo]]

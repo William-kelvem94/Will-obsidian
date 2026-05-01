@@ -3,11 +3,13 @@ title: "IA-LOCAL Obsidian Usage"
 description: "Guia de configuração e uso do vault Obsidian clonado para o IA-LOCAL."
 tags:
   - obsidian
+  - jarvis-engenharia
   - jarvis
   - vault
   - ia-local
   - configuration
-updated: 2026-04-15
+updated: 2026-04-29
+date: 2026-04-27
 ---
 
 # IA-LOCAL Obsidian Usage

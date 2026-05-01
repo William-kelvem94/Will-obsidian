@@ -5,7 +5,8 @@ tags:
   - gestor
   - projetos
   - evolucao
-updated: 2026-04-15
+updated: 2026-04-29
+date: 2026-04-27
 ---
 
 # Evolução gestor_aluguel_2.0 [[README]]

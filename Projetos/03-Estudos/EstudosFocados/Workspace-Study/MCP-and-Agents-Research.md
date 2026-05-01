@@ -1,8 +1,9 @@
 ---
 title: "MCP and Agents Research"
 description: "Pesquisa sobre Model Context Protocol, agentes de IA e como o vault usa VS Code + workflows de agente." 
-tags: [mcp, agentes, IA, pesquisa]
-updated: 2026-04-17
+tags: [mcp, agentes, IA, pesquisa, projetos]
+updated: 2026-04-29
+date: 2026-04-27
 ---
 
 # MCP and Agents Research

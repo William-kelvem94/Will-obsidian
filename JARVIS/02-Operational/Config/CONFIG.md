@@ -3,10 +3,12 @@ title: "Configuração do Jarvis"
 description: "Variáveis de ambiente, caminhos e configurações centralizadas do sistema Jarvis."
 tags:
   - jarvis
+  - jarvis-operacao
   - config
   - ambiente
   - setup
-updated: 2026-04-17
+updated: 2026-04-29
+date: 2026-04-27
 ---
 
 # Configuração do Jarvis

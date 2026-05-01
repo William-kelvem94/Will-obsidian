@@ -2,7 +2,8 @@
 title: "JARVIS — Neural Command Center"
 description: "Ponto central da inteligência JARVIS 5.0. Estrutura em camadas para memória, identidade e operação."
 tags: [jarvis, hub, brain, intelligence]
-updated: 2026-04-21
+updated: 2026-04-29
+date: 2026-04-27
 ---
 
 # JARVIS — Neural Command Center 🧠

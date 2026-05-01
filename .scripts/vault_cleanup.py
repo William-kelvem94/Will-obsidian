@@ -1,5 +1,7 @@
+import argparse
 import os
 import re
+import sys
 from datetime import datetime
 
 SCRIPT_ROOT = os.path.dirname(os.path.abspath(__file__))
@@ -15,8 +17,8 @@ MAPPING = {
     "JARVIS/04-Engineering": "#jarvis-engenharia",
     "JARVIS/05-System": "#jarvis-sistema",
     "JARVIS": "#jarvis",
-    "Will-Pessoal/01-Identity": "#perfil-identidade",
-    "Will-Pessoal/02-Vision": "#perfil-visao",
+    "Will-Pessoal/01-Identidade": "#perfil-identidade",
+    "Will-Pessoal/02-Visao": "#perfil-visao",
     "Will-Pessoal": "#perfil",
     "skills/01-agentic-intelligence": "#skills-ai",
     "skills/02-software-engineering": "#skills-eng",
@@ -26,10 +28,28 @@ MAPPING = {
 }
 
 
-def normalize_frontmatter(frontmatter, tag, report, filepath):
+def _infer_title(filepath, body):
+    match = re.search(r"^#\s+(.*)", body, re.MULTILINE)
+    if match:
+        return match.group(1).strip()
+
+    name = os.path.splitext(os.path.basename(filepath))[0]
+    return name.replace('-', ' ').replace('_', ' ').strip().title()
+
+
+def normalize_frontmatter(frontmatter, tag, report, filepath, body):
     clean_tag = tag.replace('#', '')
     updated = datetime.now().strftime("%Y-%m-%d")
     new_frontmatter = frontmatter
+
+    if "title:" not in frontmatter:
+        title = _infer_title(filepath, body)
+        new_frontmatter += f'\ntitle: "{title}"'
+        report.append(f"Adicionado title em {filepath}")
+
+    if "date:" not in frontmatter:
+        new_frontmatter += f"\ndate: {updated}"
+        report.append(f"Adicionado date em {filepath}")
 
     if "tags:" not in frontmatter:
         new_frontmatter += f"\ntags: [{clean_tag}]"
@@ -56,9 +76,9 @@ def normalize_frontmatter(frontmatter, tag, report, filepath):
     return new_frontmatter
 
 
-def add_tag_to_file(filepath, tag, report):
+def add_tag_to_file(filepath, tag, report, write=True):
     if not filepath.endswith(".md"):
-        return
+        return False
 
     try:
         with open(filepath, "r", encoding="utf-8") as f:
@@ -69,23 +89,41 @@ def add_tag_to_file(filepath, tag, report):
                 content = f.read()
         except Exception as e:
             report.append(f"Falha ao ler {filepath}: {e}")
-            return
+            return False
 
     clean_tag = tag.replace('#', '')
     frontmatter_match = re.search(r"^---\s*\n(.*?)\n---\s*\n", content, re.DOTALL)
+    updated = datetime.now().strftime("%Y-%m-%d")
+    modified = False
 
     if frontmatter_match:
         frontmatter = frontmatter_match.group(1)
-        new_frontmatter = normalize_frontmatter(frontmatter, tag, report, filepath)
+        body = content[frontmatter_match.end():]
+        new_frontmatter = normalize_frontmatter(frontmatter, tag, report, filepath, body)
         if new_frontmatter != frontmatter:
-            content = content.replace(frontmatter, new_frontmatter, 1)
+            modified = True
+            if write:
+                content = content.replace(frontmatter, new_frontmatter, 1)
     else:
-        today = datetime.now().strftime("%Y-%m-%d")
-        content = f"---\ntags: [{clean_tag}]\nupdated: {today}\n---\n\n" + content
+        modified = True
+        title = _infer_title(filepath, content)
+        date = updated
+        content = (
+            f"---\n"
+            f"title: \"{title}\"\n"
+            f"date: {date}\n"
+            f"tags: [{clean_tag}]\n"
+            f"updated: {updated}\n"
+            f"---\n\n"
+            + content
+        )
         report.append(f"Criado frontmatter em {filepath}")
 
-    with open(filepath, "w", encoding="utf-8") as f:
-        f.write(content)
+    if modified and write:
+        with open(filepath, "w", encoding="utf-8") as f:
+            f.write(content)
+
+    return modified
 
 
 def write_report(actions):
@@ -109,7 +147,7 @@ def write_report(actions):
         f.write("\n".join(lines))
 
 
-def run_cleanup():
+def run_cleanup(check_only=False):
     report = []
 
     for folder, tag in MAPPING.items():
@@ -129,11 +167,23 @@ def run_cleanup():
             for file in files:
                 if file.endswith(".md"):
                     path = os.path.join(root, file)
-                    add_tag_to_file(path, best_tag, report)
+                    add_tag_to_file(path, best_tag, report, write=not check_only)
+
+    if check_only:
+        if report:
+            write_report(report)
+            print("Falharam verificações de frontmatter no vault.")
+            print(f"Veja o relatório em: {REPORT_PATH}")
+            sys.exit(1)
+        print("Verificacao completa. Nao ha inconsistencias de frontmatter.")
+        sys.exit(0)
 
     write_report(report)
     print(f"Relatório de limpeza gerado em: {REPORT_PATH}")
 
 
 if __name__ == "__main__":
-    run_cleanup()
+    parser = argparse.ArgumentParser(description="Vault cleanup and frontmatter hygiene")
+    parser.add_argument("--check-only", action="store_true", help="Verifica inconsistências sem alterar arquivos")
+    args = parser.parse_args()
+    run_cleanup(check_only=args.check_only)

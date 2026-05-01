@@ -9,7 +9,8 @@ tags:
   - github
   - completo
   - hub
-updated: 2026-04-15
+updated: 2026-04-29
+date: 2026-04-27
 ---
 
 # GitHub Completo - William-kelvem94 (67 Repos)
@@ -26,6 +27,11 @@ updated: 2026-04-15
 - `Projetos/Privados/` → projetos clonados localmente com análise.
 - `Projetos/EstudosFocados/` → roadmaps e diário de bordo.
 - `Projetos/EstudosPesquisas/` → pesquisa técnica e recursos.
+
+## Status GitHub vs Local
+- `☁️ GitHub` = repositório está disponível na nuvem GitHub.
+- `🔒 Clone local` = há uma nota/clone correspondente em `Projetos/Privados/`.
+- A lista automática abaixo identifica quais projetos têm cópia local e quais estão apenas em nuvem.
 
 ## Públicos (selecionados da tela)
 - openclaude-wk (TS, fork, coding-agent CLI)

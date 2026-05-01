@@ -1,6 +1,8 @@
 ---
-tags: [skills]
-updated: 2026-04-15
+tags: [skills, skills-ai]
+updated: 2026-04-29
+title: "Workflows Avançados — VS Code AI"
+date: 2026-04-27
 ---
 
 # Workflows Avançados — VS Code AI

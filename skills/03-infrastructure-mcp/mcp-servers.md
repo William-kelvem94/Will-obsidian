@@ -1,11 +1,16 @@
 ---
-tags: [mcp, infrastructure, automation]
-updated: 2026-04-21
+tags: [mcp, infrastructure, automation, skills-mcp]
+updated: 2026-04-29
+title: "MCP Ecosystem & Servers"
+date: 2026-04-27
 ---
 
 # MCP Ecosystem & Servers
 
 Model Context Protocol (MCP) is the bridge between the LLM and your local system.
+
+## Padrões Avançados de MCP (Referência)
+Para aprofundamento veja: [[advanced-mcp-integrations|Integrações MCP Avançadas e LLMs Locais]]
 
 ## Standard MCP Servers
 - **Filesystem**: `read_file`, `write_file`, `list_dir`. The core of local coding assistance.

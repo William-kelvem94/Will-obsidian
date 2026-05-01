@@ -5,9 +5,11 @@ language: JavaScript/Node.js
 description: "Sistema avançado de gestão financeira pessoal com integração de APIs e dashboards."
 tags:
   - privados
+  - projetos
   - financeiro
   - nodejs
-updated: 2026-04-15
+updated: 2026-04-29
+date: 2026-04-27
 ---
 
 # Gerenciador Financeiro 7.0 [[../Projetos.md|Projetos]]

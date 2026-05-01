@@ -1,9 +1,10 @@
 ---
 title: "Índice de Decisões — Jarvis"
 description: "Decisões importantes registradas com contexto, data e raciocínio."
-tags: [jarvis, decisoes, historico]
+tags: [jarvis, decisoes, historico, jarvis-operacao]
   - decisao
-updated: 2026-04-15
+updated: 2026-04-29
+date: 2026-04-27
 ---
 
 # Índice de Decisões — Jarvis

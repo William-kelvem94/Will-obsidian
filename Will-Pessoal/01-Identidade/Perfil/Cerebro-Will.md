@@ -1,8 +1,9 @@
 ---
 title: "Cérebro Will - Base Completa Perfil + Projetos"
 description: "RAG-ready vault sobre William-kelvem94 para IA local (Ollama + FAISS). Perfil, skills, 67 repos, evoluções."
-updated: 2026-04-15
-tags: [cerebro, rag, perfil, hub, ia-local]
+updated: 2026-04-29
+tags: [cerebro, rag, perfil, hub, ia-local, perfil-identidade]
+date: 2026-04-27
 ---
 
 # 🧠 Cérebro Will: Mente Operacional [[Projetos]] [[Will-Pessoal/01-Identidade/Perfil/William-kelvem94 Overview|Overview]]

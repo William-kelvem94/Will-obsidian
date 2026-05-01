@@ -6,7 +6,8 @@ tags:
   - projetos
   - 90-dias
   - metas
-updated: 2026-04-15
+updated: 2026-04-29
+date: 2026-04-27
 ---
 
 # Objetivos para os Próximos 90 Dias

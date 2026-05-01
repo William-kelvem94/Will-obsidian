@@ -1,0 +1,732 @@
+﻿{
+    "NewerFiles":  [
+
+                   ],
+    "Timestamp":  "2026-04-23 18:01:04",
+    "Errors":  [
+
+               ],
+    "Statistics":  {
+                       "FilesError":  0,
+                       "FilesAnalyzed":  101,
+                       "FilesNewer":  0,
+                       "FilesCopied":  97,
+                       "FilesSkipped":  0,
+                       "FilesConflict":  4
+                   },
+    "NewFiles":  [
+                     {
+                         "Target":  "C:\\Users\\willi\\Documents\\GitHub\\Will-obsidian\\Cerebro-Will.md",
+                         "Modified":  "\/Date(1775758798382)\/",
+                         "Source":  "D:\\OBSIDIAN\\Will\\Cerebro-Will.md",
+                         "Size":  2159,
+                         "RelativePath":  "Cerebro-Will.md"
+                     },
+                     {
+                         "Target":  "C:\\Users\\willi\\Documents\\GitHub\\Will-obsidian\\Clippings.md",
+                         "Modified":  "\/Date(1775739740353)\/",
+                         "Source":  "D:\\OBSIDIAN\\Will\\Clippings.md",
+                         "Size":  490,
+                         "RelativePath":  "Clippings.md"
+                     },
+                     {
+                         "Target":  "C:\\Users\\willi\\Documents\\GitHub\\Will-obsidian\\Ideia_Pessoal.md",
+                         "Modified":  "\/Date(1775873254250)\/",
+                         "Source":  "D:\\OBSIDIAN\\Will\\Ideia_Pessoal.md",
+                         "Size":  2160,
+                         "RelativePath":  "Ideia_Pessoal.md"
+                     },
+                     {
+                         "Target":  "C:\\Users\\willi\\Documents\\GitHub\\Will-obsidian\\Sem título.canvas",
+                         "Modified":  "\/Date(1776256092964)\/",
+                         "Source":  "D:\\OBSIDIAN\\Will\\Sem título.canvas",
+                         "Size":  2,
+                         "RelativePath":  "Sem título.canvas"
+                     },
+                     {
+                         "Target":  "C:\\Users\\willi\\Documents\\GitHub\\Will-obsidian\\TODO.md",
+                         "Modified":  "\/Date(1775741420206)\/",
+                         "Source":  "D:\\OBSIDIAN\\Will\\TODO.md",
+                         "Size":  1206,
+                         "RelativePath":  "TODO.md"
+                     },
+                     {
+                         "Target":  "C:\\Users\\willi\\Documents\\GitHub\\Will-obsidian\\William-kelvem94 Overview.md",
+                         "Modified":  "\/Date(1775739775216)\/",
+                         "Source":  "D:\\OBSIDIAN\\Will\\William-kelvem94 Overview.md",
+                         "Size":  462,
+                         "RelativePath":  "William-kelvem94 Overview.md"
+                     },
+                     {
+                         "Target":  "C:\\Users\\willi\\Documents\\GitHub\\Will-obsidian\\JARVIS\\Aprendizado\\dataset_estudo.md",
+                         "Modified":  "\/Date(1776091939712)\/",
+                         "Source":  "D:\\OBSIDIAN\\Will\\JARVIS\\Aprendizado\\dataset_estudo.md",
+                         "Size":  604547,
+                         "RelativePath":  "JARVIS\\Aprendizado\\dataset_estudo.md"
+                     },
+                     {
+                         "Target":  "C:\\Users\\willi\\Documents\\GitHub\\Will-obsidian\\JARVIS\\Aprendizado\\INDEX.md",
+                         "Modified":  "\/Date(1775769005261)\/",
+                         "Source":  "D:\\OBSIDIAN\\Will\\JARVIS\\Aprendizado\\INDEX.md",
+                         "Size":  1539,
+                         "RelativePath":  "JARVIS\\Aprendizado\\INDEX.md"
+                     },
+                     {
+                         "Target":  "C:\\Users\\willi\\Documents\\GitHub\\Will-obsidian\\JARVIS\\Aprendizado\\Tecnico.md",
+                         "Modified":  "\/Date(1775769005265)\/",
+                         "Source":  "D:\\OBSIDIAN\\Will\\JARVIS\\Aprendizado\\Tecnico.md",
+                         "Size":  1647,
+                         "RelativePath":  "JARVIS\\Aprendizado\\Tecnico.md"
+                     },
+                     {
+                         "Target":  "C:\\Users\\willi\\Documents\\GitHub\\Will-obsidian\\JARVIS\\Contexto-Atual\\Estado.md",
+                         "Modified":  "\/Date(1775769005261)\/",
+                         "Source":  "D:\\OBSIDIAN\\Will\\JARVIS\\Contexto-Atual\\Estado.md",
+                         "Size":  1492,
+                         "RelativePath":  "JARVIS\\Contexto-Atual\\Estado.md"
+                     },
+                     {
+                         "Target":  "C:\\Users\\willi\\Documents\\GitHub\\Will-obsidian\\JARVIS\\Decisoes\\INDEX.md",
+                         "Modified":  "\/Date(1775769005272)\/",
+                         "Source":  "D:\\OBSIDIAN\\Will\\JARVIS\\Decisoes\\INDEX.md",
+                         "Size":  1962,
+                         "RelativePath":  "JARVIS\\Decisoes\\INDEX.md"
+                     },
+                     {
+                         "Target":  "C:\\Users\\willi\\Documents\\GitHub\\Will-obsidian\\JARVIS\\KnowledgeBase\\Arquitetura.md",
+                         "Modified":  "\/Date(1775856389372)\/",
+                         "Source":  "D:\\OBSIDIAN\\Will\\JARVIS\\KnowledgeBase\\Arquitetura.md",
+                         "Size":  1791,
+                         "RelativePath":  "JARVIS\\KnowledgeBase\\Arquitetura.md"
+                     },
+                     {
+                         "Target":  "C:\\Users\\willi\\Documents\\GitHub\\Will-obsidian\\JARVIS\\KnowledgeBase\\CasosDeUso.md",
+                         "Modified":  "\/Date(1775873138749)\/",
+                         "Source":  "D:\\OBSIDIAN\\Will\\JARVIS\\KnowledgeBase\\CasosDeUso.md",
+                         "Size":  2231,
+                         "RelativePath":  "JARVIS\\KnowledgeBase\\CasosDeUso.md"
+                     },
+                     {
+                         "Target":  "C:\\Users\\willi\\Documents\\GitHub\\Will-obsidian\\JARVIS\\KnowledgeBase\\Conhecimento.md",
+                         "Modified":  "\/Date(1775757246572)\/",
+                         "Source":  "D:\\OBSIDIAN\\Will\\JARVIS\\KnowledgeBase\\Conhecimento.md",
+                         "Size":  2771,
+                         "RelativePath":  "JARVIS\\KnowledgeBase\\Conhecimento.md"
+                     },
+                     {
+                         "Target":  "C:\\Users\\willi\\Documents\\GitHub\\Will-obsidian\\JARVIS\\KnowledgeBase\\Estrategia.md",
+                         "Modified":  "\/Date(1775757398988)\/",
+                         "Source":  "D:\\OBSIDIAN\\Will\\JARVIS\\KnowledgeBase\\Estrategia.md",
+                         "Size":  4165,
+                         "RelativePath":  "JARVIS\\KnowledgeBase\\Estrategia.md"
+                     },
+                     {
+                         "Target":  "C:\\Users\\willi\\Documents\\GitHub\\Will-obsidian\\JARVIS\\KnowledgeBase\\Ferramentas.md",
+                         "Modified":  "\/Date(1775759098512)\/",
+                         "Source":  "D:\\OBSIDIAN\\Will\\JARVIS\\KnowledgeBase\\Ferramentas.md",
+                         "Size":  2210,
+                         "RelativePath":  "JARVIS\\KnowledgeBase\\Ferramentas.md"
+                     },
+                     {
+                         "Target":  "C:\\Users\\willi\\Documents\\GitHub\\Will-obsidian\\JARVIS\\KnowledgeBase\\INDEX.md",
+                         "Modified":  "\/Date(1775769005419)\/",
+                         "Source":  "D:\\OBSIDIAN\\Will\\JARVIS\\KnowledgeBase\\INDEX.md",
+                         "Size":  1526,
+                         "RelativePath":  "JARVIS\\KnowledgeBase\\INDEX.md"
+                     },
+                     {
+                         "Target":  "C:\\Users\\willi\\Documents\\GitHub\\Will-obsidian\\JARVIS\\KnowledgeBase\\Integracao.md",
+                         "Modified":  "\/Date(1775759880391)\/",
+                         "Source":  "D:\\OBSIDIAN\\Will\\JARVIS\\KnowledgeBase\\Integracao.md",
+                         "Size":  2862,
+                         "RelativePath":  "JARVIS\\KnowledgeBase\\Integracao.md"
+                     },
+                     {
+                         "Target":  "C:\\Users\\willi\\Documents\\GitHub\\Will-obsidian\\JARVIS\\KnowledgeBase\\Mapa.md",
+                         "Modified":  "\/Date(1775759828897)\/",
+                         "Source":  "D:\\OBSIDIAN\\Will\\JARVIS\\KnowledgeBase\\Mapa.md",
+                         "Size":  4578,
+                         "RelativePath":  "JARVIS\\KnowledgeBase\\Mapa.md"
+                     },
+                     {
+                         "Target":  "C:\\Users\\willi\\Documents\\GitHub\\Will-obsidian\\JARVIS\\KnowledgeBase\\Personalidade.md",
+                         "Modified":  "\/Date(1775757246577)\/",
+                         "Source":  "D:\\OBSIDIAN\\Will\\JARVIS\\KnowledgeBase\\Personalidade.md",
+                         "Size":  2144,
+                         "RelativePath":  "JARVIS\\KnowledgeBase\\Personalidade.md"
+                     },
+                     {
+                         "Target":  "C:\\Users\\willi\\Documents\\GitHub\\Will-obsidian\\JARVIS\\KnowledgeBase\\Regras.md",
+                         "Modified":  "\/Date(1775759828885)\/",
+                         "Source":  "D:\\OBSIDIAN\\Will\\JARVIS\\KnowledgeBase\\Regras.md",
+                         "Size":  2442,
+                         "RelativePath":  "JARVIS\\KnowledgeBase\\Regras.md"
+                     },
+                     {
+                         "Target":  "C:\\Users\\willi\\Documents\\GitHub\\Will-obsidian\\JARVIS\\KnowledgeBase\\SegundoCerebro.md",
+                         "Modified":  "\/Date(1775759828903)\/",
+                         "Source":  "D:\\OBSIDIAN\\Will\\JARVIS\\KnowledgeBase\\SegundoCerebro.md",
+                         "Size":  2671,
+                         "RelativePath":  "JARVIS\\KnowledgeBase\\SegundoCerebro.md"
+                     },
+                     {
+                         "Target":  "C:\\Users\\willi\\Documents\\GitHub\\Will-obsidian\\JARVIS\\KnowledgeBase\\Visao-Geral.md",
+                         "Modified":  "\/Date(1775757246571)\/",
+                         "Source":  "D:\\OBSIDIAN\\Will\\JARVIS\\KnowledgeBase\\Visao-Geral.md",
+                         "Size":  2681,
+                         "RelativePath":  "JARVIS\\KnowledgeBase\\Visao-Geral.md"
+                     },
+                     {
+                         "Target":  "C:\\Users\\willi\\Documents\\GitHub\\Will-obsidian\\JARVIS\\Memorias\\fatos_rapidos.md",
+                         "Modified":  "\/Date(1776453675437)\/",
+                         "Source":  "D:\\OBSIDIAN\\Will\\JARVIS\\Memorias\\fatos_rapidos.md",
+                         "Size":  1515,
+                         "RelativePath":  "JARVIS\\Memorias\\fatos_rapidos.md"
+                     },
+                     {
+                         "Target":  "C:\\Users\\willi\\Documents\\GitHub\\Will-obsidian\\JARVIS\\Memorias\\Diario\\2026-04-09.md",
+                         "Modified":  "\/Date(1775856379191)\/",
+                         "Source":  "D:\\OBSIDIAN\\Will\\JARVIS\\Memorias\\Diario\\2026-04-09.md",
+                         "Size":  947,
+                         "RelativePath":  "JARVIS\\Memorias\\Diario\\2026-04-09.md"
+                     },
+                     {
+                         "Target":  "C:\\Users\\willi\\Documents\\GitHub\\Will-obsidian\\JARVIS\\Memorias\\Diario\\2026-04-10.md",
+                         "Modified":  "\/Date(1775856376604)\/",
+                         "Source":  "D:\\OBSIDIAN\\Will\\JARVIS\\Memorias\\Diario\\2026-04-10.md",
+                         "Size":  595,
+                         "RelativePath":  "JARVIS\\Memorias\\Diario\\2026-04-10.md"
+                     },
+                     {
+                         "Target":  "C:\\Users\\willi\\Documents\\GitHub\\Will-obsidian\\JARVIS\\Memorias\\Diario\\2026-04-13.md",
+                         "Modified":  "\/Date(1776091557192)\/",
+                         "Source":  "D:\\OBSIDIAN\\Will\\JARVIS\\Memorias\\Diario\\2026-04-13.md",
+                         "Size":  7272,
+                         "RelativePath":  "JARVIS\\Memorias\\Diario\\2026-04-13.md"
+                     },
+                     {
+                         "Target":  "C:\\Users\\willi\\Documents\\GitHub\\Will-obsidian\\JARVIS\\Memorias\\Diario\\2026-04-17.md",
+                         "Modified":  "\/Date(1776456040264)\/",
+                         "Source":  "D:\\OBSIDIAN\\Will\\JARVIS\\Memorias\\Diario\\2026-04-17.md",
+                         "Size":  1173,
+                         "RelativePath":  "JARVIS\\Memorias\\Diario\\2026-04-17.md"
+                     },
+                     {
+                         "Target":  "C:\\Users\\willi\\Documents\\GitHub\\Will-obsidian\\JARVIS\\Memorias\\Episodicas\\2026-04-09-configuração-do-segundo-cérebro-do-jarvis.md",
+                         "Modified":  "\/Date(1775852855838)\/",
+                         "Source":  "D:\\OBSIDIAN\\Will\\JARVIS\\Memorias\\Episodicas\\2026-04-09-configuração-do-segundo-cérebro-do-jarvis.md",
+                         "Size":  724,
+                         "RelativePath":  "JARVIS\\Memorias\\Episodicas\\2026-04-09-configuração-do-segundo-cérebro-do-jarvis.md"
+                     },
+                     {
+                         "Target":  "C:\\Users\\willi\\Documents\\GitHub\\Will-obsidian\\JARVIS\\Sobre-Will\\Objetivos.md",
+                         "Modified":  "\/Date(1775769005255)\/",
+                         "Source":  "D:\\OBSIDIAN\\Will\\JARVIS\\Sobre-Will\\Objetivos.md",
+                         "Size":  1520,
+                         "RelativePath":  "JARVIS\\Sobre-Will\\Objetivos.md"
+                     },
+                     {
+                         "Target":  "C:\\Users\\willi\\Documents\\GitHub\\Will-obsidian\\JARVIS\\Sobre-Will\\Perfil.md",
+                         "Modified":  "\/Date(1775769005254)\/",
+                         "Source":  "D:\\OBSIDIAN\\Will\\JARVIS\\Sobre-Will\\Perfil.md",
+                         "Size":  2329,
+                         "RelativePath":  "JARVIS\\Sobre-Will\\Perfil.md"
+                     },
+                     {
+                         "Target":  "C:\\Users\\willi\\Documents\\GitHub\\Will-obsidian\\JARVIS\\Sobre-Will\\Preferencias.md",
+                         "Modified":  "\/Date(1775769005255)\/",
+                         "Source":  "D:\\OBSIDIAN\\Will\\JARVIS\\Sobre-Will\\Preferencias.md",
+                         "Size":  1574,
+                         "RelativePath":  "JARVIS\\Sobre-Will\\Preferencias.md"
+                     },
+                     {
+                         "Target":  "C:\\Users\\willi\\Documents\\GitHub\\Will-obsidian\\JARVIS\\Sobre-Will\\Projetos-Ativos.md",
+                         "Modified":  "\/Date(1775769005258)\/",
+                         "Source":  "D:\\OBSIDIAN\\Will\\JARVIS\\Sobre-Will\\Projetos-Ativos.md",
+                         "Size":  1318,
+                         "RelativePath":  "JARVIS\\Sobre-Will\\Projetos-Ativos.md"
+                     },
+                     {
+                         "Target":  "C:\\Users\\willi\\Documents\\GitHub\\Will-obsidian\\JARVIS\\Sobre-Will\\Rotina.md",
+                         "Modified":  "\/Date(1775769005256)\/",
+                         "Source":  "D:\\OBSIDIAN\\Will\\JARVIS\\Sobre-Will\\Rotina.md",
+                         "Size":  1460,
+                         "RelativePath":  "JARVIS\\Sobre-Will\\Rotina.md"
+                     },
+                     {
+                         "Target":  "C:\\Users\\willi\\Documents\\GitHub\\Will-obsidian\\JARVIS\\Templates\\INDEX.md",
+                         "Modified":  "\/Date(1775769005292)\/",
+                         "Source":  "D:\\OBSIDIAN\\Will\\JARVIS\\Templates\\INDEX.md",
+                         "Size":  610,
+                         "RelativePath":  "JARVIS\\Templates\\INDEX.md"
+                     },
+                     {
+                         "Target":  "C:\\Users\\willi\\Documents\\GitHub\\Will-obsidian\\JARVIS\\Templates\\Template-Diario.md",
+                         "Modified":  "\/Date(1775769005395)\/",
+                         "Source":  "D:\\OBSIDIAN\\Will\\JARVIS\\Templates\\Template-Diario.md",
+                         "Size":  825,
+                         "RelativePath":  "JARVIS\\Templates\\Template-Diario.md"
+                     },
+                     {
+                         "Target":  "C:\\Users\\willi\\Documents\\GitHub\\Will-obsidian\\JARVIS\\Templates\\Template-Memoria-Episodica.md",
+                         "Modified":  "\/Date(1775769005364)\/",
+                         "Source":  "D:\\OBSIDIAN\\Will\\JARVIS\\Templates\\Template-Memoria-Episodica.md",
+                         "Size":  732,
+                         "RelativePath":  "JARVIS\\Templates\\Template-Memoria-Episodica.md"
+                     },
+                     {
+                         "Target":  "C:\\Users\\willi\\Documents\\GitHub\\Will-obsidian\\JARVIS\\Templates\\Template-Perfil-Will.md",
+                         "Modified":  "\/Date(1775769005408)\/",
+                         "Source":  "D:\\OBSIDIAN\\Will\\JARVIS\\Templates\\Template-Perfil-Will.md",
+                         "Size":  2655,
+                         "RelativePath":  "JARVIS\\Templates\\Template-Perfil-Will.md"
+                     },
+                     {
+                         "Target":  "C:\\Users\\willi\\Documents\\GitHub\\Will-obsidian\\Projetos\\GitHub-Completo.md",
+                         "Modified":  "\/Date(1775853383988)\/",
+                         "Source":  "D:\\OBSIDIAN\\Will\\Projetos\\GitHub-Completo.md",
+                         "Size":  1882,
+                         "RelativePath":  "Projetos\\GitHub-Completo.md"
+                     },
+                     {
+                         "Target":  "C:\\Users\\willi\\Documents\\GitHub\\Will-obsidian\\Projetos\\Organizacao-Completa.md",
+                         "Modified":  "\/Date(1775747035861)\/",
+                         "Source":  "D:\\OBSIDIAN\\Will\\Projetos\\Organizacao-Completa.md",
+                         "Size":  3827,
+                         "RelativePath":  "Projetos\\Organizacao-Completa.md"
+                     },
+                     {
+                         "Target":  "C:\\Users\\willi\\Documents\\GitHub\\Will-obsidian\\Projetos\\Plano-de-Acao.md",
+                         "Modified":  "\/Date(1775747035863)\/",
+                         "Source":  "D:\\OBSIDIAN\\Will\\Projetos\\Plano-de-Acao.md",
+                         "Size":  8090,
+                         "RelativePath":  "Projetos\\Plano-de-Acao.md"
+                     },
+                     {
+                         "Target":  "C:\\Users\\willi\\Documents\\GitHub\\Will-obsidian\\Projetos\\EstudosFocados\\Auto-boletos.md",
+                         "Modified":  "\/Date(1775744745290)\/",
+                         "Source":  "D:\\OBSIDIAN\\Will\\Projetos\\EstudosFocados\\Auto-boletos.md",
+                         "Size":  5306,
+                         "RelativePath":  "Projetos\\EstudosFocados\\Auto-boletos.md"
+                     },
+                     {
+                         "Target":  "C:\\Users\\willi\\Documents\\GitHub\\Will-obsidian\\Projetos\\EstudosFocados\\DEEP-LEARNING.md",
+                         "Modified":  "\/Date(1775744745291)\/",
+                         "Source":  "D:\\OBSIDIAN\\Will\\Projetos\\EstudosFocados\\DEEP-LEARNING.md",
+                         "Size":  4715,
+                         "RelativePath":  "Projetos\\EstudosFocados\\DEEP-LEARNING.md"
+                     },
+                     {
+                         "Target":  "C:\\Users\\willi\\Documents\\GitHub\\Will-obsidian\\Projetos\\EstudosFocados\\gestor_aluguel_2.0.md",
+                         "Modified":  "\/Date(1775746532560)\/",
+                         "Source":  "D:\\OBSIDIAN\\Will\\Projetos\\EstudosFocados\\gestor_aluguel_2.0.md",
+                         "Size":  4654,
+                         "RelativePath":  "Projetos\\EstudosFocados\\gestor_aluguel_2.0.md"
+                     },
+                     {
+                         "Target":  "C:\\Users\\willi\\Documents\\GitHub\\Will-obsidian\\Projetos\\EstudosFocados\\IA-LOCAL.md",
+                         "Modified":  "\/Date(1775744745293)\/",
+                         "Source":  "D:\\OBSIDIAN\\Will\\Projetos\\EstudosFocados\\IA-LOCAL.md",
+                         "Size":  4130,
+                         "RelativePath":  "Projetos\\EstudosFocados\\IA-LOCAL.md"
+                     },
+                     {
+                         "Target":  "C:\\Users\\willi\\Documents\\GitHub\\Will-obsidian\\Projetos\\EstudosFocados\\PROJECT_JARVIS_5.0.md",
+                         "Modified":  "\/Date(1775757141518)\/",
+                         "Source":  "D:\\OBSIDIAN\\Will\\Projetos\\EstudosFocados\\PROJECT_JARVIS_5.0.md",
+                         "Size":  5342,
+                         "RelativePath":  "Projetos\\EstudosFocados\\PROJECT_JARVIS_5.0.md"
+                     },
+                     {
+                         "Target":  "C:\\Users\\willi\\Documents\\GitHub\\Will-obsidian\\Projetos\\EstudosFocados\\README.md",
+                         "Modified":  "\/Date(1775747035853)\/",
+                         "Source":  "D:\\OBSIDIAN\\Will\\Projetos\\EstudosFocados\\README.md",
+                         "Size":  3208,
+                         "RelativePath":  "Projetos\\EstudosFocados\\README.md"
+                     },
+                     {
+                         "Target":  "C:\\Users\\willi\\Documents\\GitHub\\Will-obsidian\\Projetos\\EstudosPesquisas\\AI-Local-Gratuita.md",
+                         "Modified":  "\/Date(1775742536399)\/",
+                         "Source":  "D:\\OBSIDIAN\\Will\\Projetos\\EstudosPesquisas\\AI-Local-Gratuita.md",
+                         "Size":  1304,
+                         "RelativePath":  "Projetos\\EstudosPesquisas\\AI-Local-Gratuita.md"
+                     },
+                     {
+                         "Target":  "C:\\Users\\willi\\Documents\\GitHub\\Will-obsidian\\Projetos\\EstudosPesquisas\\Auto-boletos.md",
+                         "Modified":  "\/Date(1775742539837)\/",
+                         "Source":  "D:\\OBSIDIAN\\Will\\Projetos\\EstudosPesquisas\\Auto-boletos.md",
+                         "Size":  1150,
+                         "RelativePath":  "Projetos\\EstudosPesquisas\\Auto-boletos.md"
+                     },
+                     {
+                         "Target":  "C:\\Users\\willi\\Documents\\GitHub\\Will-obsidian\\Projetos\\EstudosPesquisas\\Docker-Prod-Gratis.md",
+                         "Modified":  "\/Date(1775742569968)\/",
+                         "Source":  "D:\\OBSIDIAN\\Will\\Projetos\\EstudosPesquisas\\Docker-Prod-Gratis.md",
+                         "Size":  971,
+                         "RelativePath":  "Projetos\\EstudosPesquisas\\Docker-Prod-Gratis.md"
+                     },
+                     {
+                         "Target":  "C:\\Users\\willi\\Documents\\GitHub\\Will-obsidian\\Projetos\\EstudosPesquisas\\gestor_aluguel_2.0.md",
+                         "Modified":  "\/Date(1775742565834)\/",
+                         "Source":  "D:\\OBSIDIAN\\Will\\Projetos\\EstudosPesquisas\\gestor_aluguel_2.0.md",
+                         "Size":  1068,
+                         "RelativePath":  "Projetos\\EstudosPesquisas\\gestor_aluguel_2.0.md"
+                     },
+                     {
+                         "Target":  "C:\\Users\\willi\\Documents\\GitHub\\Will-obsidian\\Projetos\\EstudosPesquisas\\IA-LOCAL.md",
+                         "Modified":  "\/Date(1775742614737)\/",
+                         "Source":  "D:\\OBSIDIAN\\Will\\Projetos\\EstudosPesquisas\\IA-LOCAL.md",
+                         "Size":  1351,
+                         "RelativePath":  "Projetos\\EstudosPesquisas\\IA-LOCAL.md"
+                     },
+                     {
+                         "Target":  "C:\\Users\\willi\\Documents\\GitHub\\Will-obsidian\\Projetos\\EstudosPesquisas\\Next.js-SaaS-Evolution.md",
+                         "Modified":  "\/Date(1775742618089)\/",
+                         "Source":  "D:\\OBSIDIAN\\Will\\Projetos\\EstudosPesquisas\\Next.js-SaaS-Evolution.md",
+                         "Size":  939,
+                         "RelativePath":  "Projetos\\EstudosPesquisas\\Next.js-SaaS-Evolution.md"
+                     },
+                     {
+                         "Target":  "C:\\Users\\willi\\Documents\\GitHub\\Will-obsidian\\Projetos\\EstudosPesquisas\\openclaude-wk.md",
+                         "Modified":  "\/Date(1775742626538)\/",
+                         "Source":  "D:\\OBSIDIAN\\Will\\Projetos\\EstudosPesquisas\\openclaude-wk.md",
+                         "Size":  627,
+                         "RelativePath":  "Projetos\\EstudosPesquisas\\openclaude-wk.md"
+                     },
+                     {
+                         "Target":  "C:\\Users\\willi\\Documents\\GitHub\\Will-obsidian\\Projetos\\EstudosPesquisas\\PROJECT_JARVIS_5.0.md",
+                         "Modified":  "\/Date(1775742559844)\/",
+                         "Source":  "D:\\OBSIDIAN\\Will\\Projetos\\EstudosPesquisas\\PROJECT_JARVIS_5.0.md",
+                         "Size":  1211,
+                         "RelativePath":  "Projetos\\EstudosPesquisas\\PROJECT_JARVIS_5.0.md"
+                     },
+                     {
+                         "Target":  "C:\\Users\\willi\\Documents\\GitHub\\Will-obsidian\\Projetos\\EstudosPesquisas\\README.md",
+                         "Modified":  "\/Date(1775744167207)\/",
+                         "Source":  "D:\\OBSIDIAN\\Will\\Projetos\\EstudosPesquisas\\README.md",
+                         "Size":  1451,
+                         "RelativePath":  "Projetos\\EstudosPesquisas\\README.md"
+                     },
+                     {
+                         "Target":  "C:\\Users\\willi\\Documents\\GitHub\\Will-obsidian\\Projetos\\Java\\Atividade-01.md",
+                         "Modified":  "\/Date(1775741332103)\/",
+                         "Source":  "D:\\OBSIDIAN\\Will\\Projetos\\Java\\Atividade-01.md",
+                         "Size":  420,
+                         "RelativePath":  "Projetos\\Java\\Atividade-01.md"
+                     },
+                     {
+                         "Target":  "C:\\Users\\willi\\Documents\\GitHub\\Will-obsidian\\Projetos\\Java\\Atividade-03.md",
+                         "Modified":  "\/Date(1775741334731)\/",
+                         "Source":  "D:\\OBSIDIAN\\Will\\Projetos\\Java\\Atividade-03.md",
+                         "Size":  420,
+                         "RelativePath":  "Projetos\\Java\\Atividade-03.md"
+                     },
+                     {
+                         "Target":  "C:\\Users\\willi\\Documents\\GitHub\\Will-obsidian\\Projetos\\Objetivos\\90-dias.md",
+                         "Modified":  "\/Date(1775747035870)\/",
+                         "Source":  "D:\\OBSIDIAN\\Will\\Projetos\\Objetivos\\90-dias.md",
+                         "Size":  2864,
+                         "RelativePath":  "Projetos\\Objetivos\\90-dias.md"
+                     },
+                     {
+                         "Target":  "C:\\Users\\willi\\Documents\\GitHub\\Will-obsidian\\Projetos\\Objetivos\\OKRs.md",
+                         "Modified":  "\/Date(1775747035893)\/",
+                         "Source":  "D:\\OBSIDIAN\\Will\\Projetos\\Objetivos\\OKRs.md",
+                         "Size":  1842,
+                         "RelativePath":  "Projetos\\Objetivos\\OKRs.md"
+                     },
+                     {
+                         "Target":  "C:\\Users\\willi\\Documents\\GitHub\\Will-obsidian\\Projetos\\Objetivos\\README.md",
+                         "Modified":  "\/Date(1775747035864)\/",
+                         "Source":  "D:\\OBSIDIAN\\Will\\Projetos\\Objetivos\\README.md",
+                         "Size":  1677,
+                         "RelativePath":  "Projetos\\Objetivos\\README.md"
+                     },
+                     {
+                         "Target":  "C:\\Users\\willi\\Documents\\GitHub\\Will-obsidian\\Projetos\\Outros\\Auto-boletos.md",
+                         "Modified":  "\/Date(1775741382774)\/",
+                         "Source":  "D:\\OBSIDIAN\\Will\\Projetos\\Outros\\Auto-boletos.md",
+                         "Size":  606,
+                         "RelativePath":  "Projetos\\Outros\\Auto-boletos.md"
+                     },
+                     {
+                         "Target":  "C:\\Users\\willi\\Documents\\GitHub\\Will-obsidian\\Projetos\\Outros\\DIA-DAS-MULHERES.md",
+                         "Modified":  "\/Date(1775741337604)\/",
+                         "Source":  "D:\\OBSIDIAN\\Will\\Projetos\\Outros\\DIA-DAS-MULHERES.md",
+                         "Size":  455,
+                         "RelativePath":  "Projetos\\Outros\\DIA-DAS-MULHERES.md"
+                     },
+                     {
+                         "Target":  "C:\\Users\\willi\\Documents\\GitHub\\Will-obsidian\\Projetos\\Outros\\Gestor Aluguel 2.0.md",
+                         "Modified":  "\/Date(1775755488534)\/",
+                         "Source":  "D:\\OBSIDIAN\\Will\\Projetos\\Outros\\Gestor Aluguel 2.0.md",
+                         "Size":  6541,
+                         "RelativePath":  "Projetos\\Outros\\Gestor Aluguel 2.0.md"
+                     },
+                     {
+                         "Target":  "C:\\Users\\willi\\Documents\\GitHub\\Will-obsidian\\Projetos\\PHP\\CRUD_BASICO-2.0.md",
+                         "Modified":  "\/Date(1775741355354)\/",
+                         "Source":  "D:\\OBSIDIAN\\Will\\Projetos\\PHP\\CRUD_BASICO-2.0.md",
+                         "Size":  419,
+                         "RelativePath":  "Projetos\\PHP\\CRUD_BASICO-2.0.md"
+                     },
+                     {
+                         "Target":  "C:\\Users\\willi\\Documents\\GitHub\\Will-obsidian\\Projetos\\PHP\\CRUD_BASICO-3.0.md",
+                         "Modified":  "\/Date(1775741352993)\/",
+                         "Source":  "D:\\OBSIDIAN\\Will\\Projetos\\PHP\\CRUD_BASICO-3.0.md",
+                         "Size":  419,
+                         "RelativePath":  "Projetos\\PHP\\CRUD_BASICO-3.0.md"
+                     },
+                     {
+                         "Target":  "C:\\Users\\willi\\Documents\\GitHub\\Will-obsidian\\Projetos\\PHP\\crud_basico.md",
+                         "Modified":  "\/Date(1775741357538)\/",
+                         "Source":  "D:\\OBSIDIAN\\Will\\Projetos\\PHP\\crud_basico.md",
+                         "Size":  403,
+                         "RelativePath":  "Projetos\\PHP\\crud_basico.md"
+                     },
+                     {
+                         "Target":  "C:\\Users\\willi\\Documents\\GitHub\\Will-obsidian\\Projetos\\PHP\\CRUD_BASICO4.0.md",
+                         "Modified":  "\/Date(1775741350664)\/",
+                         "Source":  "D:\\OBSIDIAN\\Will\\Projetos\\PHP\\CRUD_BASICO4.0.md",
+                         "Size":  416,
+                         "RelativePath":  "Projetos\\PHP\\CRUD_BASICO4.0.md"
+                     },
+                     {
+                         "Target":  "C:\\Users\\willi\\Documents\\GitHub\\Will-obsidian\\Projetos\\PHP\\CRUD_VENDAS_WILL.md",
+                         "Modified":  "\/Date(1775740980916)\/",
+                         "Source":  "D:\\OBSIDIAN\\Will\\Projetos\\PHP\\CRUD_VENDAS_WILL.md",
+                         "Size":  359,
+                         "RelativePath":  "Projetos\\PHP\\CRUD_VENDAS_WILL.md"
+                     },
+                     {
+                         "Target":  "C:\\Users\\willi\\Documents\\GitHub\\Will-obsidian\\Projetos\\Privados\\Auto-boletos.md",
+                         "Modified":  "\/Date(1775742405428)\/",
+                         "Source":  "D:\\OBSIDIAN\\Will\\Projetos\\Privados\\Auto-boletos.md",
+                         "Size":  1238,
+                         "RelativePath":  "Projetos\\Privados\\Auto-boletos.md"
+                     },
+                     {
+                         "Target":  "C:\\Users\\willi\\Documents\\GitHub\\Will-obsidian\\Projetos\\Privados\\DEEP-LEARNING.md",
+                         "Modified":  "\/Date(1775742411520)\/",
+                         "Source":  "D:\\OBSIDIAN\\Will\\Projetos\\Privados\\DEEP-LEARNING.md",
+                         "Size":  878,
+                         "RelativePath":  "Projetos\\Privados\\DEEP-LEARNING.md"
+                     },
+                     {
+                         "Target":  "C:\\Users\\willi\\Documents\\GitHub\\Will-obsidian\\Projetos\\Privados\\DIA-DAS-MULHERES.md",
+                         "Modified":  "\/Date(1775742414790)\/",
+                         "Source":  "D:\\OBSIDIAN\\Will\\Projetos\\Privados\\DIA-DAS-MULHERES.md",
+                         "Size":  743,
+                         "RelativePath":  "Projetos\\Privados\\DIA-DAS-MULHERES.md"
+                     },
+                     {
+                         "Target":  "C:\\Users\\willi\\Documents\\GitHub\\Will-obsidian\\Projetos\\Privados\\gestor_aluguel_2.0.md",
+                         "Modified":  "\/Date(1775853434405)\/",
+                         "Source":  "D:\\OBSIDIAN\\Will\\Projetos\\Privados\\gestor_aluguel_2.0.md",
+                         "Size":  1248,
+                         "RelativePath":  "Projetos\\Privados\\gestor_aluguel_2.0.md"
+                     },
+                     {
+                         "Target":  "C:\\Users\\willi\\Documents\\GitHub\\Will-obsidian\\Projetos\\Privados\\IA-LOCAL.md",
+                         "Modified":  "\/Date(1775742418156)\/",
+                         "Source":  "D:\\OBSIDIAN\\Will\\Projetos\\Privados\\IA-LOCAL.md",
+                         "Size":  786,
+                         "RelativePath":  "Projetos\\Privados\\IA-LOCAL.md"
+                     },
+                     {
+                         "Target":  "C:\\Users\\willi\\Documents\\GitHub\\Will-obsidian\\Projetos\\Privados\\openclaude-wk.md",
+                         "Modified":  "\/Date(1775742420826)\/",
+                         "Source":  "D:\\OBSIDIAN\\Will\\Projetos\\Privados\\openclaude-wk.md",
+                         "Size":  796,
+                         "RelativePath":  "Projetos\\Privados\\openclaude-wk.md"
+                     },
+                     {
+                         "Target":  "C:\\Users\\willi\\Documents\\GitHub\\Will-obsidian\\Projetos\\Privados\\PROJECT_JARVIS_5.0-Architecture.md",
+                         "Modified":  "\/Date(1775757141520)\/",
+                         "Source":  "D:\\OBSIDIAN\\Will\\Projetos\\Privados\\PROJECT_JARVIS_5.0-Architecture.md",
+                         "Size":  4708,
+                         "RelativePath":  "Projetos\\Privados\\PROJECT_JARVIS_5.0-Architecture.md"
+                     },
+                     {
+                         "Target":  "C:\\Users\\willi\\Documents\\GitHub\\Will-obsidian\\Projetos\\Privados\\PROJECT_JARVIS_5.0-Knowledge.md",
+                         "Modified":  "\/Date(1775757141519)\/",
+                         "Source":  "D:\\OBSIDIAN\\Will\\Projetos\\Privados\\PROJECT_JARVIS_5.0-Knowledge.md",
+                         "Size":  6793,
+                         "RelativePath":  "Projetos\\Privados\\PROJECT_JARVIS_5.0-Knowledge.md"
+                     },
+                     {
+                         "Target":  "C:\\Users\\willi\\Documents\\GitHub\\Will-obsidian\\Projetos\\Privados\\PROJECT_JARVIS_5.0-Personality.md",
+                         "Modified":  "\/Date(1775757141519)\/",
+                         "Source":  "D:\\OBSIDIAN\\Will\\Projetos\\Privados\\PROJECT_JARVIS_5.0-Personality.md",
+                         "Size":  4510,
+                         "RelativePath":  "Projetos\\Privados\\PROJECT_JARVIS_5.0-Personality.md"
+                     },
+                     {
+                         "Target":  "C:\\Users\\willi\\Documents\\GitHub\\Will-obsidian\\Projetos\\Privados\\PROJECT_JARVIS_5.0.md",
+                         "Modified":  "\/Date(1775759828881)\/",
+                         "Source":  "D:\\OBSIDIAN\\Will\\Projetos\\Privados\\PROJECT_JARVIS_5.0.md",
+                         "Size":  4441,
+                         "RelativePath":  "Projetos\\Privados\\PROJECT_JARVIS_5.0.md"
+                     },
+                     {
+                         "Target":  "C:\\Users\\willi\\Documents\\GitHub\\Will-obsidian\\Projetos\\Privados\\README.md",
+                         "Modified":  "\/Date(1775747035860)\/",
+                         "Source":  "D:\\OBSIDIAN\\Will\\Projetos\\Privados\\README.md",
+                         "Size":  1600,
+                         "RelativePath":  "Projetos\\Privados\\README.md"
+                     },
+                     {
+                         "Target":  "C:\\Users\\willi\\Documents\\GitHub\\Will-obsidian\\Projetos\\Privados\\PROJECT_JARVIS_5.0-KnowledgeBase\\CONFIG.md",
+                         "Modified":  "\/Date(1775759098507)\/",
+                         "Source":  "D:\\OBSIDIAN\\Will\\Projetos\\Privados\\PROJECT_JARVIS_5.0-KnowledgeBase\\CONFIG.md",
+                         "Size":  2481,
+                         "RelativePath":  "Projetos\\Privados\\PROJECT_JARVIS_5.0-KnowledgeBase\\CONFIG.md"
+                     },
+                     {
+                         "Target":  "C:\\Users\\willi\\Documents\\GitHub\\Will-obsidian\\Projetos\\Privados\\PROJECT_JARVIS_5.0-KnowledgeBase\\INDEX.md",
+                         "Modified":  "\/Date(1775759828882)\/",
+                         "Source":  "D:\\OBSIDIAN\\Will\\Projetos\\Privados\\PROJECT_JARVIS_5.0-KnowledgeBase\\INDEX.md",
+                         "Size":  2257,
+                         "RelativePath":  "Projetos\\Privados\\PROJECT_JARVIS_5.0-KnowledgeBase\\INDEX.md"
+                     },
+                     {
+                         "Target":  "C:\\Users\\willi\\Documents\\GitHub\\Will-obsidian\\Projetos\\Privados\\PROJECT_JARVIS_5.0-KnowledgeBase\\MOVIDO.md",
+                         "Modified":  "\/Date(1775769005446)\/",
+                         "Source":  "D:\\OBSIDIAN\\Will\\Projetos\\Privados\\PROJECT_JARVIS_5.0-KnowledgeBase\\MOVIDO.md",
+                         "Size":  1448,
+                         "RelativePath":  "Projetos\\Privados\\PROJECT_JARVIS_5.0-KnowledgeBase\\MOVIDO.md"
+                     },
+                     {
+                         "Target":  "C:\\Users\\willi\\Documents\\GitHub\\Will-obsidian\\Projetos\\Privados\\PROJECT_JARVIS_5.0-KnowledgeBase\\PROJECT_JARVIS_5.0-Architecture.md",
+                         "Modified":  "\/Date(1775757246577)\/",
+                         "Source":  "D:\\OBSIDIAN\\Will\\Projetos\\Privados\\PROJECT_JARVIS_5.0-KnowledgeBase\\PROJECT_JARVIS_5.0-Architecture.md",
+                         "Size":  1870,
+                         "RelativePath":  "Projetos\\Privados\\PROJECT_JARVIS_5.0-KnowledgeBase\\PROJECT_JARVIS_5.0-Architecture.md"
+                     },
+                     {
+                         "Target":  "C:\\Users\\willi\\Documents\\GitHub\\Will-obsidian\\Projetos\\Privados\\PROJECT_JARVIS_5.0-KnowledgeBase\\PROJECT_JARVIS_5.0-Integration.md",
+                         "Modified":  "\/Date(1775759880391)\/",
+                         "Source":  "D:\\OBSIDIAN\\Will\\Projetos\\Privados\\PROJECT_JARVIS_5.0-KnowledgeBase\\PROJECT_JARVIS_5.0-Integration.md",
+                         "Size":  2862,
+                         "RelativePath":  "Projetos\\Privados\\PROJECT_JARVIS_5.0-KnowledgeBase\\PROJECT_JARVIS_5.0-Integration.md"
+                     },
+                     {
+                         "Target":  "C:\\Users\\willi\\Documents\\GitHub\\Will-obsidian\\Projetos\\Privados\\PROJECT_JARVIS_5.0-KnowledgeBase\\PROJECT_JARVIS_5.0-Knowledge.md",
+                         "Modified":  "\/Date(1775757246572)\/",
+                         "Source":  "D:\\OBSIDIAN\\Will\\Projetos\\Privados\\PROJECT_JARVIS_5.0-KnowledgeBase\\PROJECT_JARVIS_5.0-Knowledge.md",
+                         "Size":  2771,
+                         "RelativePath":  "Projetos\\Privados\\PROJECT_JARVIS_5.0-KnowledgeBase\\PROJECT_JARVIS_5.0-Knowledge.md"
+                     },
+                     {
+                         "Target":  "C:\\Users\\willi\\Documents\\GitHub\\Will-obsidian\\Projetos\\Privados\\PROJECT_JARVIS_5.0-KnowledgeBase\\PROJECT_JARVIS_5.0-Map.md",
+                         "Modified":  "\/Date(1775759828897)\/",
+                         "Source":  "D:\\OBSIDIAN\\Will\\Projetos\\Privados\\PROJECT_JARVIS_5.0-KnowledgeBase\\PROJECT_JARVIS_5.0-Map.md",
+                         "Size":  4578,
+                         "RelativePath":  "Projetos\\Privados\\PROJECT_JARVIS_5.0-KnowledgeBase\\PROJECT_JARVIS_5.0-Map.md"
+                     },
+                     {
+                         "Target":  "C:\\Users\\willi\\Documents\\GitHub\\Will-obsidian\\Projetos\\Privados\\PROJECT_JARVIS_5.0-KnowledgeBase\\PROJECT_JARVIS_5.0-Personality.md",
+                         "Modified":  "\/Date(1775757246577)\/",
+                         "Source":  "D:\\OBSIDIAN\\Will\\Projetos\\Privados\\PROJECT_JARVIS_5.0-KnowledgeBase\\PROJECT_JARVIS_5.0-Personality.md",
+                         "Size":  2144,
+                         "RelativePath":  "Projetos\\Privados\\PROJECT_JARVIS_5.0-KnowledgeBase\\PROJECT_JARVIS_5.0-Personality.md"
+                     },
+                     {
+                         "Target":  "C:\\Users\\willi\\Documents\\GitHub\\Will-obsidian\\Projetos\\Privados\\PROJECT_JARVIS_5.0-KnowledgeBase\\PROJECT_JARVIS_5.0-SecondBrain.md",
+                         "Modified":  "\/Date(1775759828903)\/",
+                         "Source":  "D:\\OBSIDIAN\\Will\\Projetos\\Privados\\PROJECT_JARVIS_5.0-KnowledgeBase\\PROJECT_JARVIS_5.0-SecondBrain.md",
+                         "Size":  2671,
+                         "RelativePath":  "Projetos\\Privados\\PROJECT_JARVIS_5.0-KnowledgeBase\\PROJECT_JARVIS_5.0-SecondBrain.md"
+                     },
+                     {
+                         "Target":  "C:\\Users\\willi\\Documents\\GitHub\\Will-obsidian\\Projetos\\Privados\\PROJECT_JARVIS_5.0-KnowledgeBase\\PROJECT_JARVIS_5.0-Strategy.md",
+                         "Modified":  "\/Date(1775757398988)\/",
+                         "Source":  "D:\\OBSIDIAN\\Will\\Projetos\\Privados\\PROJECT_JARVIS_5.0-KnowledgeBase\\PROJECT_JARVIS_5.0-Strategy.md",
+                         "Size":  4165,
+                         "RelativePath":  "Projetos\\Privados\\PROJECT_JARVIS_5.0-KnowledgeBase\\PROJECT_JARVIS_5.0-Strategy.md"
+                     },
+                     {
+                         "Target":  "C:\\Users\\willi\\Documents\\GitHub\\Will-obsidian\\Projetos\\Privados\\PROJECT_JARVIS_5.0-KnowledgeBase\\PROJECT_JARVIS_5.0-Tools.md",
+                         "Modified":  "\/Date(1775759098512)\/",
+                         "Source":  "D:\\OBSIDIAN\\Will\\Projetos\\Privados\\PROJECT_JARVIS_5.0-KnowledgeBase\\PROJECT_JARVIS_5.0-Tools.md",
+                         "Size":  2210,
+                         "RelativePath":  "Projetos\\Privados\\PROJECT_JARVIS_5.0-KnowledgeBase\\PROJECT_JARVIS_5.0-Tools.md"
+                     },
+                     {
+                         "Target":  "C:\\Users\\willi\\Documents\\GitHub\\Will-obsidian\\Projetos\\Privados\\PROJECT_JARVIS_5.0-KnowledgeBase\\PROJECT_JARVIS_5.0-UseCases.md",
+                         "Modified":  "\/Date(1775759098511)\/",
+                         "Source":  "D:\\OBSIDIAN\\Will\\Projetos\\Privados\\PROJECT_JARVIS_5.0-KnowledgeBase\\PROJECT_JARVIS_5.0-UseCases.md",
+                         "Size":  2283,
+                         "RelativePath":  "Projetos\\Privados\\PROJECT_JARVIS_5.0-KnowledgeBase\\PROJECT_JARVIS_5.0-UseCases.md"
+                     },
+                     {
+                         "Target":  "C:\\Users\\willi\\Documents\\GitHub\\Will-obsidian\\Projetos\\Privados\\PROJECT_JARVIS_5.0-KnowledgeBase\\PROJECT_JARVIS_5.0.md",
+                         "Modified":  "\/Date(1775757246571)\/",
+                         "Source":  "D:\\OBSIDIAN\\Will\\Projetos\\Privados\\PROJECT_JARVIS_5.0-KnowledgeBase\\PROJECT_JARVIS_5.0.md",
+                         "Size":  2681,
+                         "RelativePath":  "Projetos\\Privados\\PROJECT_JARVIS_5.0-KnowledgeBase\\PROJECT_JARVIS_5.0.md"
+                     },
+                     {
+                         "Target":  "C:\\Users\\willi\\Documents\\GitHub\\Will-obsidian\\Projetos\\Privados\\PROJECT_JARVIS_5.0-KnowledgeBase\\README.md",
+                         "Modified":  "\/Date(1775759880391)\/",
+                         "Source":  "D:\\OBSIDIAN\\Will\\Projetos\\Privados\\PROJECT_JARVIS_5.0-KnowledgeBase\\README.md",
+                         "Size":  4024,
+                         "RelativePath":  "Projetos\\Privados\\PROJECT_JARVIS_5.0-KnowledgeBase\\README.md"
+                     },
+                     {
+                         "Target":  "C:\\Users\\willi\\Documents\\GitHub\\Will-obsidian\\Projetos\\Privados\\PROJECT_JARVIS_5.0-KnowledgeBase\\RULES.md",
+                         "Modified":  "\/Date(1775759828885)\/",
+                         "Source":  "D:\\OBSIDIAN\\Will\\Projetos\\Privados\\PROJECT_JARVIS_5.0-KnowledgeBase\\RULES.md",
+                         "Size":  2442,
+                         "RelativePath":  "Projetos\\Privados\\PROJECT_JARVIS_5.0-KnowledgeBase\\RULES.md"
+                     },
+                     {
+                         "Target":  "C:\\Users\\willi\\Documents\\GitHub\\Will-obsidian\\Projetos\\Python\\Automatizador.md",
+                         "Modified":  "\/Date(1775740966999)\/",
+                         "Source":  "D:\\OBSIDIAN\\Will\\Projetos\\Python\\Automatizador.md",
+                         "Size":  590,
+                         "RelativePath":  "Projetos\\Python\\Automatizador.md"
+                     },
+                     {
+                         "Target":  "C:\\Users\\willi\\Documents\\GitHub\\Will-obsidian\\Projetos\\Python\\TRADUTOR-WKP.md",
+                         "Modified":  "\/Date(1775740969400)\/",
+                         "Source":  "D:\\OBSIDIAN\\Will\\Projetos\\Python\\TRADUTOR-WKP.md",
+                         "Size":  363,
+                         "RelativePath":  "Projetos\\Python\\TRADUTOR-WKP.md"
+                     }
+                 ],
+    "Conflicts":  [
+                      {
+                          "Source":  "D:\\OBSIDIAN\\Will\\Bem-vindo.md",
+                          "DiffSeconds":  -1227368,
+                          "TargetModified":  "\/Date(1776974403807)\/",
+                          "RelativePath":  "Bem-vindo.md",
+                          "SourceModified":  "\/Date(1775747035856)\/",
+                          "Target":  "C:\\Users\\willi\\Documents\\GitHub\\Will-obsidian\\Bem-vindo.md"
+                      },
+                      {
+                          "Source":  "D:\\OBSIDIAN\\Will\\Projetos.md",
+                          "DiffSeconds":  -1227368,
+                          "TargetModified":  "\/Date(1776974404052)\/",
+                          "RelativePath":  "Projetos.md",
+                          "SourceModified":  "\/Date(1775747035856)\/",
+                          "Target":  "C:\\Users\\willi\\Documents\\GitHub\\Will-obsidian\\Projetos.md"
+                      },
+                      {
+                          "Source":  "D:\\OBSIDIAN\\Will\\JARVIS\\README.md",
+                          "DiffSeconds":  -1205399,
+                          "TargetModified":  "\/Date(1776974404043)\/",
+                          "RelativePath":  "JARVIS\\README.md",
+                          "SourceModified":  "\/Date(1775769005254)\/",
+                          "Target":  "C:\\Users\\willi\\Documents\\GitHub\\Will-obsidian\\JARVIS\\README.md"
+                      },
+                      {
+                          "Source":  "D:\\OBSIDIAN\\Will\\Projetos\\README.md",
+                          "DiffSeconds":  -1227369,
+                          "TargetModified":  "\/Date(1776974404590)\/",
+                          "RelativePath":  "Projetos\\README.md",
+                          "SourceModified":  "\/Date(1775747035859)\/",
+                          "Target":  "C:\\Users\\willi\\Documents\\GitHub\\Will-obsidian\\Projetos\\README.md"
+                      }
+                  ]
+}

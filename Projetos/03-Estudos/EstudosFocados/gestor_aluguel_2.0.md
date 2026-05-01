@@ -8,7 +8,8 @@ tags:
   - estrategia
   - saas
   - imobiliario
-updated: 2026-04-15
+updated: 2026-04-29
+date: 2026-04-27
 ---
 
 # Estudos Focado: gestor_aluguel_2.0 [[README]] [[Privados/gestor_aluguel_2.0]]
