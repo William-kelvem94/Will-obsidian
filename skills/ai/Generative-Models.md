@@ -13,7 +13,7 @@ resources:
   - "Papers on generative models"
 date: 2026-04-29
 tags: [skills]
-updated: 2026-04-29
+updated: 2026-05-03
 ---
 
 # Generative Models

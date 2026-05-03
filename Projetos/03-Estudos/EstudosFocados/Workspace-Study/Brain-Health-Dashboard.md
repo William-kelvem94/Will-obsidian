@@ -2,7 +2,7 @@
 title: "Brain Health Dashboard"
 description: "Painel de saúde do cérebro do Jarvis: indicadores de contexto, ingestão, relevância e sincronização." 
 tags: [workspace-study, brain-health, jarvis, analytics, projetos]
-updated: 2026-04-29
+updated: 2026-05-03
 date: 2026-04-27
 ---
 

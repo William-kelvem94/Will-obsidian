@@ -1,6 +1,6 @@
 ---
 tags: [projetos]
-updated: 2026-04-29
+updated: 2026-05-03
 title: "Evolução openclaude-wk [[README]]"
 date: 2026-04-27
 ---

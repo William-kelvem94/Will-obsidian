@@ -3,7 +3,7 @@ title: "Estratégias Avançadas de RAG (GraphRAG e Híbrido)"
 description: "Análise profunda sobre como recuperar dados para IAs além do Vector Search tradicional."
 tags: [rag, graphrag, hybrid-search, embeddings, skills-knowledge]
 date: 2026-04-27
-updated: 2026-04-29
+updated: 2026-05-03
 ---
 
 # 🔍 Estratégias Avançadas de RAG (Retrieval-Augmented Generation)

@@ -1,6 +1,6 @@
 ---
 tags: [projetos]
-updated: 2026-04-29
+updated: 2026-05-03
 title: "Projetos GitHub Organizados por Linguagem"
 date: 2026-04-27
 ---

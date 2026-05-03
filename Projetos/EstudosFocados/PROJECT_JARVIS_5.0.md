@@ -10,7 +10,7 @@ tags:
   - vision
   - livekit
 date: 2026-04-27
-updated: 2026-04-29
+updated: 2026-05-03
 ---
 
 # Estudos Focado: PROJECT_JARVIS_5.0 [[README]] [[Privados/PROJECT_JARVIS_5.0]]

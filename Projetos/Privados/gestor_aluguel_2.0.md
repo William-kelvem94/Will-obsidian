@@ -4,7 +4,7 @@ source: "C:/Users/willi/Documents/GitHub/gestor_aluguel_2.0"
 language: TypeScript
 private: true
 description: "SaaS Imobiliário Next.js 15 enterprise com Prisma, AI Gemini, multi-tenant, Asaas pagamentos, portal inquilino."
-updated: 2026-04-29
+updated: 2026-05-03
 tags:
   - projetos
   - privados

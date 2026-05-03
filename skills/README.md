@@ -1,6 +1,6 @@
 ---
 tags: [skills, hub, index]
-updated: 2026-04-29
+updated: 2026-05-03
 title: "🧠 Skills - Taxonomia Pessoal"
 date: 2026-04-27
 ---

@@ -1,6 +1,6 @@
 ---
 tags: [skills, skills-ai]
-updated: 2026-04-29
+updated: 2026-05-03
 title: "VS Code AI Skills — Index"
 date: 2026-04-27
 ---

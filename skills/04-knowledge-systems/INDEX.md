@@ -3,7 +3,7 @@ title: "Sistemas de Conhecimento e RAG Avançado"
 description: "Hub central para sistemas de gestão de conhecimento, pipelines RAG modernos (GraphRAG, Híbrido) e gestão de memória."
 tags: [knowledge-systems, rag, memoria, hub, skills-knowledge]
 date: 2026-04-27
-updated: 2026-04-29
+updated: 2026-05-03
 ---
 
 # 📚 Sistemas de Conhecimento (Knowledge Systems)

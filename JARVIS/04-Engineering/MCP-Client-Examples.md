@@ -2,7 +2,7 @@
 title: "MCP Client Examples"
 description: "Exemplos de chamadas Python e curl para usar read_vault_file e search_vault via MCP."
 tags: [jarvis, mcp, exemplos, jarvis-engenharia]
-updated: 2026-04-29
+updated: 2026-05-03
 date: 2026-04-29
 ---
 

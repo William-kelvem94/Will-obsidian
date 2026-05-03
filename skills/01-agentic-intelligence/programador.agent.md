@@ -1,6 +1,6 @@
 ---
 tags: [skills, agent, skills-ai]
-updated: 2026-04-29
+updated: 2026-05-03
 title: "Programador Agent"
 date: 2026-04-27
 ---

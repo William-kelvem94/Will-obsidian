@@ -1,0 +1,13 @@
+# Core dependencies for Vault scripts
+pathlib
+datetime
+
+# Knowledge Indexing (RAG Pipeline)
+sentence-transformers
+faiss-cpu
+numpy
+tqdm
+
+# API & Sync
+# requests # Descomente se migrar urllib para requests
+python-dotenv

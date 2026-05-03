@@ -8,7 +8,7 @@ tags:
   - estrategia
   - decisao
 date: 2026-04-27
-updated: 2026-04-29
+updated: 2026-05-03
 ---
 
 # Estudos Focados — Quartel-General da Estratégia [[Cerebro-Will]] [[EstudosPesquisas/README]]

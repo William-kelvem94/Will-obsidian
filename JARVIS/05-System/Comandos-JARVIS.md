@@ -2,7 +2,7 @@
 title: "Comandos do JARVIS"
 tags: [jarvis, system, mcp, jarvis-sistema]
 date: 2026-04-27
-updated: 2026-04-29
+updated: 2026-05-03
 ---
 
 # 📟 Comandos Internos (via servidor MCP)

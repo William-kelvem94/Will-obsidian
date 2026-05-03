@@ -2,7 +2,7 @@
 title: "RAG Local – Como Consultar o Cérebro"
 tags: [rag, embeddings, internals, agente, jarvis-engenharia]
 date: 2026-04-27
-updated: 2026-04-29
+updated: 2026-05-03
 ---
 
 # 🔍 Retrieval Augmented Generation Local

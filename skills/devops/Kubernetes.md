@@ -13,7 +13,7 @@ resources:
   - "Helm and k8s best practices"
 date: 2026-04-29
 tags: [skills]
-updated: 2026-04-29
+updated: 2026-05-03
 ---
 
 # Kubernetes

@@ -1,316 +1,160 @@
 ---
 title: "Vault Ops — Manutenção do Cofre"
-description: "Guia de manutenção, scripts e boas práticas para organizar e expandir o vault Obsidian."
-tags:
-  - vault
-  - manutencao
-  - automacao
-  - ops
-  - hub
-updated: 2026-04-23
+description: "Guia operacional completo para manter o vault organizado, automatizado, saudável e alinhado com o Projeto JARVIS. Inclui scripts, rotinas, métricas e boas práticas."
+tags: [vault, manutencao, automacao, ops, hub, second-brain]
+updated: 2026-05-02
 ---
 
 # Vault Ops — Manutenção do Cofre
 
-Este documento é o guia operacional para manter o vault organizado, automatizado e alinhado com o fluxo de trabalho do segundo cérebro.
+Este é o **manual vivo** do Neural Hub. Aqui está registrado tudo que preciso fazer para manter o vault organizado, indexado, automatizado e pronto para uso humano + agentes de IA.
 
-## Objetivo
-
-Manter os índices, tags e notas principais sempre atualizados, com automação para reduzir trabalho manual.
-
-## Principais pontos de manutenção
-
-- Atualizar os hubs centrais: `Bem-vindo.md`, `Projetos.md`, `Projetos/README.md` e `JARVIS/README.md`.
-- Manter a estrutura de pastas clara entre `Projetos/`, `Projetos/Privados/`, `Projetos/EstudosFocados/`, `Projetos/EstudosPesquisas/` e `Will-Pessoal/`.
-- Usar metadados padronizados em notas importantes: `title`, `description`, `tags`, `updated`, `source` e `status`.
-- Executar limpeza de metadados sempre que uma nova nota for criada ou quando arquivos forem movidos.
-
-## Scripts disponíveis
-
-### `.scripts/vault_cleanup.py`
-
-Roda limpeza e normalização de frontmatter em notas Markdown do vault.
-
-Uso:
-
-```powershell
-Set-Location 'c:\Users\willi\Documents\GitHub\Will-obsidian\.scripts'
-python .\vault_cleanup.py
-```
-
-O script garante que cada nota Markdown tenha:
-
-- blocos de frontmatter YAML válidos
-- `tags:` como array ou lista estruturada
-- `updated:` com a data da última normalização
-- tags de pasta relacionadas, como `#projetos`, `#privados`, `#jarvis` e `#perfil`
-
-O script também gera um relatório em `.scripts/vault_cleanup_report.md` com as ações realizadas.
-
-### `.scripts/github_sync.py`
-
-Usado para sincronizar o inventário de repositórios GitHub com a nota `Projetos/GitHub-Completo.md`.
-
-Agora o script também marca se um repositório tem clone local em `Projetos/Privados/`.
-
-Uso:
-
-```powershell
-Set-Location 'c:\Users\willi\Documents\GitHub\Will-obsidian\.scripts'
-python .\github_sync.py
-```
-
-Isso ajuda a manter o inventário atualizado com os últimos commits, o status de nuvem e quais repositórios já têm análise local.
-
-**Indicadores:**
-- 🔒 Clone local existe
-- ☁️ Repositório apenas na nuvem
+O objetivo final é ter um Second Brain que **cresce sozinho**, com mínima intervenção manual, mas com máxima qualidade e consistência.
 
 ---
 
-### `.scripts/vault_merge.ps1`
+## 🎯 Objetivo Geral
 
-Script PowerShell para mesclar vaults externos mantendo as versões mais recentes.
-
-**Recursos:**
-- Comparação MD5 para arquivos idênticos
-- Resolução de conflitos baseada em timestamp
-- Backup automático de arquivos sobrescritos
-- Relatório JSON detalhado
-
-Uso:
-
-```powershell
-# Análise sem alterações (DRY RUN)
-Set-Location 'c:\Users\willi\Documents\GitHub\Will-obsidian\.scripts'
-.\vault_merge.ps1 -DryRun:$true -SourcePath "D:\OBSIDIAN\Will"
-
-# Executar merge real
-.\vault_merge.ps1 -DryRun:$false -SourcePath "D:\OBSIDIAN\Will"
-
-# Ver relatório detalhado
-Get-Content .\vault_merge_report.json | ConvertFrom-Json
-```
-
-**Última execução**: 2026-04-23 - 97 arquivos mesclados de D:\OBSIDIAN\Will
+- Manter todos os hubs centrais atualizados (`Bem-vindo.md`, `Cerebro-Will.md`, `Projetos.md`, `JARVIS/README.md`).
+- Garantir que a estrutura de pastas reflita a arquitetura de 5 tiers.
+- Usar metadados padronizados em **todas** as notas importantes (frontmatter YAML).
+- Executar automações regularmente para limpeza, indexação RAG e sincronização.
+- Manter o vault **RAG-friendly** (notas atômicas, bem linkadas, com bom conteúdo).
 
 ---
 
-### `.scripts/daily_logger.py`
+## 📋 Principais Pontos de Manutenção
 
-Gera logs diários automáticos baseados no histórico git.
-
-Uso:
-
-```powershell
-python .scripts/daily_logger.py
-# Saída: JARVIS/03-Memory/Logs/YYYY-MM-DD.md
-```
-
-**Dados capturados:**
-- Commits git com mensagens
-- Arquivos modificados/criados/deletados
-- Resumo agregado de atividades
-
----
-
-### `.scripts/project_health_checker.py`
-
-Analisa completude de projetos e gera scores de saúde (0-100).
-
-Uso:
-
-```powershell
-python .scripts/project_health_checker.py
-# Saída: Projetos/01-Ativos/Privados/[project]/_HEALTH.md
-```
-
-**Critérios de pontuação:**
-- README.md (20 pts)
-- Testes (25 pts)
-- Setup Docker (20 pts)
-- Dependências (20 pts)
-- Documentação (15 pts)
+- **HUBS**: Atualizar sempre que houver mudança significativa em projetos ou skills.
+- **Estrutura de Pastas**: Manter clara a separação entre `Projetos/01-Ativos/`, `Privados/`, `EstudosFocados/`, `EstudosPesquisas/`, `Will-Pessoal/` e `JARVIS/`.
+- **Frontmatter Padrão** (obrigatório em notas importantes):
+  ```yaml
+  ---
+  title: "..."
+  description: "Resumo claro de 1-2 linhas"
+  tags: [tag1, tag2, #hub]
+  updated: YYYY-MM-DD
+  status: active | archived | draft
+  source: "link ou origem"
+  ---
+  ```
+- **Limpeza**: Rodar `vault_cleanup.py` após criar ou mover muitas notas.
 
 ---
 
-### `.scripts/knowledge_indexer.py`
+## 🛠️ Scripts Disponíveis (Documentação Completa)
 
-Constrói e mantém índice vetorial RAG para busca semântica.
-
-Uso:
-
+### 1. `vault_cleanup.py`
+**Objetivo**: Normalizar frontmatter, corrigir tags, adicionar `updated` e tags de contexto.  
+**Quando rodar**: Sempre após grande edição ou importação.  
+**Uso**:
 ```powershell
-# Rebuild completo
-python .scripts/knowledge_indexer.py --build
-
-# Update incremental
-python .scripts/knowledge_indexer.py --update
-
-# Modo watch (auto-update a cada 5 min)
-python .scripts/knowledge_indexer.py --watch
-
-# Verificar integridade
-python .scripts/knowledge_indexer.py --verify
+cd .\scripts
+python vault_cleanup.py
 ```
+**O que ele faz**:
+- Valida YAML
+- Converte tags para array
+- Adiciona tags automáticas baseadas na pasta (#projetos, #jarvis, etc.)
+- Gera relatório em `vault_cleanup_report.md`
 
-**Dependências:**
-- `skills/04-knowledge-systems/rag-pipeline/embeddings_generator.py`
-- `skills/04-knowledge-systems/rag-pipeline/vector_store.py`
+### 2. `github_sync.py`
+**Objetivo**: Manter atualizado o inventário dos 67 repositórios.  
+**Benefício**: Saber exatamente quais repos tenho localmente e quais precisam de análise.  
+**Uso**: Semanal.
 
----
+### 3. `vault_merge.ps1`
+**Objetivo**: Mesclar vaults de diferentes máquinas mantendo a versão mais recente.  
+**Recursos**: Comparação MD5, backup automático, relatório JSON.  
+**Uso recomendado**:
+- Sempre use `-DryRun` primeiro.
 
-### `.scripts/mcp-vault-server/index.js`
+### 4. `daily_logger.py`
+**Objetivo**: Gerar log diário automático a partir do histórico git.  
+**Saída**: Nota em `JARVIS/03-Memory/Logs/`.
 
-Servidor local MCP para expor o vault como recurso e ferramenta estruturada.
+### 5. `project_health_checker.py`
+**Objetivo**: Dar nota 0-100 para cada projeto ativo.  
+**Critérios principais**: README, testes, Docker, documentação, dependências.
 
-Uso:
+### 6. `knowledge_indexer.py`
+**Objetivo**: Manter o índice vetorial RAG atualizado (o mais importante para IA).  
+**Modos**:
+- `--build` (completo)
+- `--update` (incremental)
+- `--watch` (monitoramento contínuo)
 
+### 7. `mcp-vault-server/index.js`
+**Objetivo**: Expor o vault inteiro como ferramenta para agentes externos (Claude, etc.).  
+**Comando**:
 ```powershell
-Set-Location 'c:\Users\willi\Documents\GitHub\Will-obsidian\.scripts\mcp-vault-server'
-node .\index.js
+cd .scripts\mcp-vault-server
+node index.js
 ```
 
 ---
 
-## 🔄 Tarefas de Manutenção
+## 🔄 Rotina Recomendada
 
-### Semanais
+### Diária (5-10 min)
+- Rodar `daily_logger.py`
+- Atualizar `Plano-de-Acao.md` com o que foi feito
 
-```powershell
-# 1. Atualizar inventário GitHub
-python .scripts/github_sync.py
+### Semanal
+1. `github_sync.py`
+2. `project_health_checker.py`
+3. `knowledge_indexer.py --update`
+4. Revisar notas órfãs
 
-# 2. Verificar saúde dos projetos
-python .scripts/project_health_checker.py
-
-# 3. Atualizar índice de conhecimento
-python .scripts/knowledge_indexer.py --update
-
-# 4. Revisar notas órfãs
-# Verificar: Isolated-Notes-Audit.md
-```
-
-### Mensais
-
-```powershell
-# 1. Rebuild completo do índice RAG
-python .scripts/knowledge_indexer.py --build
-
-# 2. Arquivar projetos concluídos
-# Mover de Projetos/01-Ativos/ para Projetos/02-Arquivo/
-
-# 3. Limpar backups antigos (>3 meses)
-Get-ChildItem .backups -Directory | Where-Object {
-    $_.CreationTime -lt (Get-Date).AddMonths(-3)
-} | Remove-Item -Recurse
-
-# 4. Atualizar OKRs
-# Editar: Projetos/Objetivos/OKRs.md
-```
+### Mensal
+1. `knowledge_indexer.py --build`
+2. Arquivar projetos concluídos
+3. Revisão geral dos OKRs
+4. Limpeza de backups antigos
 
 ---
 
-## 📊 Monitoramento de Saúde
+## 📊 Monitoramento de Saúde do Vault
 
-### Métricas do Vault
+**Métricas chave**:
+- Total de notas
+- % de notas órfãs (< 5% é meta)
+- Cobertura RAG (> 90%)
+- Média de health score dos projetos (> 75)
+- Commits recentes
 
-```powershell
-# Total de notas
-(Get-ChildItem -Recurse -Filter "*.md").Count
-
-# Score de isolamento
-Select-String "Isolated notes:" Isolated-Notes-Audit.md
-
-# Cobertura RAG
-python .scripts/knowledge_indexer.py --verify
-
-# Status do repositório Git
-git status --short
-```
-
-### Metas de Saúde
-- **Score de isolamento**: <5% de notas órfãs
-- **Cobertura RAG**: >90% dos arquivos markdown
-- **Saúde de projetos**: >70 média para projetos ativos
-- **Logs diários**: Gerados automaticamente
+**Metas de Excelência**:
+- Zero notas sem tags ou frontmatter
+- Graph limpo e denso de conexões
+- Todos os projetos ativos com análise completa
 
 ---
 
-## 📅 Operações Recentes
+## Fluxo para Novos Projetos (Passo a Passo)
 
-| Data | Operação | Status | Detalhes |
-|------|-----------|--------|---------|
-| 2026-04-23 | Vault Merge | ✅ Completo | 97 arquivos de D:\OBSIDIAN |
-| 2026-04-23 | Expansão Vault | ✅ Completo | Roadmap 30 dias (26 arquivos) |
-| 2026-04-23 | GitHub Sync | ✅ Completo | 67 repositórios rastreados |
+1. Criar nota no local correto (`Projetos/` ou `Privados/`).
+2. Preencher frontmatter completo.
+3. Adicionar ao hub correspondente.
+4. Rodar `vault_cleanup.py`.
+5. Atualizar `Plano-de-Acao.md` e `Projetos.md`.
+6. Se for privado importante → criar nota de análise técnica detalhada.
 
-## Fluxo recomendado para novos projetos
+---
 
-1. Criar a nota pública em `Projetos/` ou `Projetos/Outros/`.
-2. Se for um clone local com trabalho ativo, criar nota de análise em `Projetos/Privados/`.
-3. Adicionar `source:` e `updated:` no frontmatter da nota.
-4. Incluir a nota no hub apropriado: `Projetos.md`, `Projetos/README.md` ou `Projetos/Privados/README.md`.
-5. Executar `.scripts/vault_cleanup.py` para normalizar tags e metadados.
-6. Atualizar `Projetos/Plano-de-Acao.md` com próxima ação e estado do projeto.
+## Boas Práticas Gerais
 
-## Boas práticas de organização
+- Prefira notas atômicas (uma ideia por nota).
+- Sempre linke para hubs e glossário.
+- Use Dataview para dashboards dinâmicos.
+- Mantenha o `Master-Glossary` atualizado.
+- Faça backup antes de merges grandes.
 
-- Use `#hub` apenas para notas de índice ou entrada principal.
-- Use `#projetos`, `#privados`, `#jarvis`, `#perfil`, `#skills` de forma consistente.
-- Separe notas de pesquisa (`EstudosPesquisas`) das notas de execução (`EstudosFocados`).
-- Evite nomes de arquivo com espaços em pastas principais sempre que possível.
+**Últimas Operações Registradas**:
+- 2026-04-23: Merge de 97 arquivos
+- 2026-04-23: Expansão inicial do vault
 
-## Relacionamentos importantes
+---
 
-### Arquivos de Entrada
-- [Bem-vindo.md](Bem-vindo.md) → porta de entrada principal do vault
-- [Cerebro-Will.md](Cerebro-Will.md) → visão conceitual do segundo cérebro
-- [TODO.md](TODO.md) → lista de tarefas globais
+**Este documento é vivo.** Atualize sempre que criar um novo script ou mudar um fluxo.
 
-### Hubs Principais
-- [Projetos.md](Projetos.md) → MOC de projetos públicos por categoria
-- [Projetos/README.md](Projetos/README.md) → hub de projetos mapeados por linguagem
-- [Projetos/Plano-de-Acao.md](Projetos/Plano-de-Acao.md) → lista de ações e prioridades
-- [Projetos/Privados/README.md](Projetos/Privados/README.md) → hub dos clones locais
-- [Will-Pessoal/README.md](Will-Pessoal/README.md) → hub pessoal para perfil e objetivos
-- [JARVIS/README.md](JARVIS/README.md) → hub do segundo cérebro e memória ativa
-
-### Documentação Técnica
-- [JARVIS/00-Architecture/Vault-Architecture-Guide.md](JARVIS/00-Architecture/Vault-Architecture-Guide.md) → guia completo da arquitetura 5-tier
-- [JARVIS/01-Identity/Decision-Framework.md](JARVIS/01-Identity/Decision-Framework.md) → templates de decisão
-- [JARVIS/01-Identity/Will/Engineering-Principles.md](JARVIS/01-Identity/Will/Engineering-Principles.md) → princípios técnicos
-- [JARVIS/02-Operational/Dashboard.md](JARVIS/02-Operational/Dashboard.md) → estado operacional atual
-- [skills/README.md](skills/README.md) → índice de habilidades técnicas
-
-### Decisões e Histórico
-- [JARVIS/05-System/Decisoes/](JARVIS/05-System/Decisoes/) → registro de decisões importantes
-- [JARVIS/03-Memory/Logs/](JARVIS/03-Memory/Logs/) → logs de atividade automáticos
-- [JARVIS/03-Memory/Diario/](JARVIS/03-Memory/Diario/) → diários pessoais
-
-## 🏛️ Arquitetura de Camadas (Tiered)
-
-Em 2026-04-21, o vault foi migrado para uma estrutura em camadas para otimizar a performance de agentes de IA:
-- **01-Identity/Active**: Core vital.
-- **02-Operational/Vision**: Contexto de ação.
-- **03-Memory/Learning**: Histórico.
-- **04-Engineering/Social**: Conhecimento técnico.
-- **05-System/Archive**: Manutenção e histórico legacy.
-
-## 🕵️ Auditoria e Qualidade
-
-As auditorias periódicas (antigo `Isolated-Notes-Audit.md`) focam em:
-- **Conectividade**: Garantir que novos hubs não criem orfandade de notas.
-- **Normalização**: Aplicar tags e metadados via `.scripts/vault_cleanup.py`.
-- **Integridade de Links**: Atualização global após movimentação de pastas (realizada via scripts de S/R).
-
-### Resultados de Auditoria Recente
-- Hubs `Bem-vindo.md`, `Projetos.md` e `JARVIS/README.md` totalmente integrados à nova arquitetura.
-- Consolidado arquivos de meta-pesquisa em `Projetos/03-Estudos/`.
-- Limpeza de scripts e logs temporários concluída.
-
-## 📈 Próximos passos
-
-- [ ] Implementar dashboard via Dataview para o radar de projetos ativos.
-- [ ] Criar templates de frontmatter automatizados no VS Code.
-- [ ] Expandir o `04-Engineering/Wiki` com a stack de AI Generativa local.
+[[Bem-vindo]] | [[Cerebro-Will]] | [[Projetos]] | [[Vault-Hierarchy-Map]]

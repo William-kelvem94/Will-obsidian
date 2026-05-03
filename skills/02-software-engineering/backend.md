@@ -1,6 +1,6 @@
 ---
 tags: [skills, skills-eng]
-updated: 2026-04-29
+updated: 2026-05-03
 title: "Backend Skills - Node/Express/Python"
 date: 2026-04-27
 ---

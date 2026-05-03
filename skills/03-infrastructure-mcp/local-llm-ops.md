@@ -1,6 +1,6 @@
 ---
 tags: [infrastructure, llm, local-ai, skills-mcp]
-updated: 2026-04-29
+updated: 2026-05-03
 title: "Local LLM Operations (LLMOps)"
 date: 2026-04-27
 ---

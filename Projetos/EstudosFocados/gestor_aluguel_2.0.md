@@ -9,7 +9,7 @@ tags:
   - saas
   - imobiliario
 date: 2026-04-27
-updated: 2026-04-29
+updated: 2026-05-03
 ---
 
 # Estudos Focado: gestor_aluguel_2.0 [[README]] [[Privados/gestor_aluguel_2.0]]

@@ -1,41 +1,62 @@
 ---
 title: "Cérebro Will - Base Completa Perfil + Projetos"
-description: "RAG-ready vault sobre William-kelvem94 para IA local (Ollama + FAISS). Perfil, skills, 67 repos, evoluções."
-tags:
-  - cerebro
-  - rag
-  - perfil
-  - projetos
+description: "Base de conhecimento RAG-ready completa sobre William Pereira (kelvem94) para uso com Ollama + FAISS. Perfil detalhado, skills, 67 repositórios, clones locais e visão de futuro."
+tags: [cerebro, rag, perfil, projetos, second-brain]
+updated: 2026-05-02
 ---
 
-# Cérebro Will [[Projetos]] [[William-kelvem94 Overview]] 
+# Cérebro Will — Meu Segundo Cérebro Completo para IA Local
 
-**Base de conhecimento para IA local** (Ollama RAG): Perfil, skills, projetos GitHub (67 repos), clones locais, estudos pesquisas.
+Este arquivo é a **fonte da verdade** que eu entrego para qualquer modelo local (Ollama + FAISS + LangChain). Ele contém meu perfil, stack, trajetória, projetos e visão de longo prazo.
 
 ## 👤 Perfil William Pereira (kelvem94)
-- Desenvolvedor fullstack: Python (40%), TS/JS (25%), PHP (20%), Java/C#/CSS.
-- Foco: AI local (Jarvis, Ollama), SaaS Next.js (gestor_aluguel), automação (Auto-boletos Playwright), voice/vision LiveKit MediaPipe.
-- GitHub: https://github.com/William-kelvem94 (67 repos, 3 followers).
-- Skills: Docker prod, Prisma multi-tenant, FastAPI/Flask, React/Vite shadcn, Ollama RAG FAISS.
 
-## 📊 Projetos Mapeados (67)
-**Públicos**: Automatizador (Python GUI login), CRUD_VENDAS_WILL (PHP), DIA-DAS-MULHERES (CSS PWA), openclaude-wk fork.
-**Privados principais** (clonados): [[Projetos/Privados/PROJECT_JARVIS_5.0]], [[Privados/Auto-boletos]], [[Privados/gestor_aluguel_2.0]], [[Privados/IA-LOCAL]], DEEP-LEARNING etc.
-**Completo**: [[Projetos/GitHub-Completo]].
-- **Execução**: [[Projetos/Plano-de-Acao|Plano de Ação]]
-- **Objetivos**: [[Projetos/Objetivos/README|Objetivos]]
-- **Organização**: [[Projetos/Organizacao-Completa|Organização Completa]]
+- **Nome completo**: William Pereira  
+- **GitHub**: [William-kelvem94](https://github.com/William-kelvem94) (67 repositórios públicos + privados)  
+- **Especialização principal**: Fullstack + AI Local + Automação  
+- **Linguagens dominantes**: Python (40%), TypeScript/JavaScript (25%), PHP (20%), Java/C# (15%)  
+- **Foco atual (2026)**: Construção do **Projeto JARVIS** (agente local multimodal), SaaS com Next.js + Prisma multi-tenant e automações de alto valor (Playwright, OCR, voice/vision).
 
-## 🧠 Projetos Clonados (estruturas + README análise)
-**Projetos/Privados/**: 7 MDs com análise [[Auto-boletos]] (Flask Docker OCR), [[gestor_aluguel_2.0]] (Next SaaS Prisma AI), [[PROJECT_JARVIS_5.0]] (LiveKit vision) etc.
+**Características pessoais que definem meu trabalho**:
+- Obsessão por sistemas que se mantêm sozinhos (automação pesada).
+- Preferência por soluções locais e open-source (Ollama, FAISS, Docker, Traefik).
+- Mentalidade de engenheiro de conhecimento: tudo deve ser indexável, versionado e consultável por IA.
 
-## 📚 Evoluções / Estudos
-**Projetos/EstudosPesquisas/**: Ollama local, Neon DB free, Traefik Docker, faster-whisper Piper TTS, YOLOv8 vision.
+## 🧠 Skills Principais (detalhadas)
 
-## 🎯 Para IA Local RAG
-- **Indexar vault**: Ollama + FAISS sentence-transformers para query "evolua Auto-boletos com Ollama OCR".
-- Run: langchain + chromadb/FAISS sobre Will vault.
+- Docker em produção + multi-stage + Traefik
+- Prisma + multi-tenant SaaS (Next.js 15)
+- FastAPI / Flask + autenticação robusta
+- RAG completo (embeddings, vector store, retrieval, re-ranking)
+- Playwright + automações de boletos e OCR
+- LiveKit + MediaPipe (voice + visão em tempo real)
+- MCP (Model Context Protocol) + servidores locais
 
-**Graph conectado**: [[Projetos]] hub, tudo linkado para navegação IA-ready.
+## 📊 Projetos Mapeados (67 repositórios)
 
-**Uso**: Ollama qwen2.5 + este vault = cérebro local sobre você/projetos! 🧠⚡
+**Principais públicos**: Automatizador (Python GUI), CRUD_VENDAS_WILL, DIA-DAS-MULHERES (PWA), openclaude-wk fork.
+
+**Principais privados (com análise profunda no vault)**:
+- PROJECT_JARVIS_5.0 (LiveKit + visão + agentes)
+- Auto-boletos (Flask + Docker + OCR)
+- gestor_aluguel_2.0 (SaaS completo com IA)
+- IA-LOCAL (pipeline RAG local)
+
+**Lista completa e atualizada**: [[Projetos/04-Master-Plan/GitHub-Completo|GitHub-Completo]]
+
+**Clones locais analisados**: 7 projetos com nota técnica completa em `Projetos/Privados/`.
+
+## 🎯 Visão de Futuro (2026-2027)
+
+- JARVIS completamente agentic e multimodal
+- Todos os projetos com health score > 85
+- Vault 100% indexado e consumido por múltiplos agentes
+- Criação de produtos SaaS rentáveis usando o próprio JARVIS
+
+**Uso recomendado para IA local**:
+```bash
+# Exemplo de query poderosa
+"Analise o estado atual do Auto-boletos e sugira evolução usando OCR + Ollama"
+```
+
+[[Projetos]] | [[Projetos/Plano-de-Acao]] | [[skills/README]]

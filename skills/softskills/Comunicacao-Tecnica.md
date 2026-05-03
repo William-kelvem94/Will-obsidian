@@ -9,7 +9,7 @@ resources:
   - 
 date: 2026-04-27
 tags: [skills]
-updated: 2026-04-29
+updated: 2026-05-03
 ---
 
 # Comunicação Técnica
