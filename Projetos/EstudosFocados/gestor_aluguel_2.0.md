@@ -9,7 +9,7 @@ tags:
   - saas
   - imobiliario
 date: 2026-04-27
-updated: 2026-05-03
+updated: 2026-05-10
 ---
 
 # Estudos Focado: gestor_aluguel_2.0 [[README]] [[Privados/gestor_aluguel_2.0]]
@@ -50,40 +50,80 @@ Construir uma plataforma de gestão de imóveis que permita administradoras e pr
 - Modelagem multi-tenant em Prisma é adequada para crescimento.
 
 ## Situação atual e gaps
-- Produto robusto com Next.js, Prisma e muitas features.
-- Gap de deploy/infra: ainda não há produção estável e fallback offline.
-- Gap de monetização: falta checkout e fluxo de vendas claro.
-- Gap de AI: dependência Gemini e ausência de infra local barata.
+- Produto robusto com Next.js 15, Prisma e muitos módulos já conectados.
+- Gap de deploy/infra: ainda vale validar a esteira de produção e o comportamento de runtime.
+- Gap de monetização: ainda precisa de uma visão comercial fechada e repetível.
+- Gap de AI: há bastante IA no código, mas o custo/operacional ainda merece estratégia.
 
 ## Arquitetura estratégica
-- Frontend: Next.js App Router + shadcn Tailwind.
-- Backend/DB: Prisma + Postgres, multi-tenant.
-- AI: Gemini para predição e RAG atualmente, Ollama local como fallback.
-- Pagamentos: Asaas + Stripe para B2B e cobrança.
-- Observabilidade: Sentry, Pino, audit logs.
+- Frontend: Next.js App Router + Tailwind + Radix/shadcn.
+- Backend/DB: Prisma + Postgres com `saasTenantId` em toda a base.
+- AI: Gemini, OCR, RAG, treinamento e microserviço Python de apoio.
+- Pagamentos: Asaas como integração principal observada no código.
+- Observabilidade: Sentry, Pino, audit logs, health checks e métricas.
+
+## Mapa técnico confirmado no código
+
+- **Entrada**: `server.ts` e `src/app/layout.tsx`.
+- **Rotas protegidas**: `src/app/(protected)/dashboard`, `usuarios`, `perfil`, `relatorios`.
+- **Portal do inquilino**: `src/app/portal` com APIs próprias.
+- **Core de negócio**: imóveis, inquilinos, contratos, pagamentos, manutenção, documentos, notificações e equipe.
+- **Integrações**: Asaas, n8n, WAHA/WhatsApp, email, Supabase Storage, push notifications.
+- **IA**: `src/lib/ai`, `src/app/api/ai`, `infrastructure/microservices/ai-service`.
+- **Base de dados**: `prisma/schema.prisma` com tenant isolation e tabelas de suporte para auditoria, chat, webhooks e preferências.
 
 ## Roadmap estratégico
 ### Fase 1 — MVP de deploy e vendas (4 semanas)
-- Publicar no Vercel com Neon Postgres free.
-- Implantar auth Clerk com MFA e multi-tenant básico.
-- Preparar pipeline de onboarding e documentação comercial.
+- Publicar/estabilizar ambiente de produção com a stack atual.
+- Fechar onboarding, cadastro e jornada principal do gestor.
 - Validar primeiro cliente piloto.
 
 ### Fase 2 — AI local e documentos (8 semanas)
-- Criar fallback Ollama qwen2.5-coder local para predição de inadimplência.
-- Adicionar OCR local com Tesseract.js para digitalização de documentos.
-- Construir mecanismo de alertas de inadimplência.
+- Avaliar custo real de IA e pontos onde o fallback local faz sentido.
+- Consolidar OCR e extração de dados de documentos.
+- Refinar previsões e alertas de inadimplência.
 
 ### Fase 3 — Monetização e escala (16 semanas)
-- Lançar Stripe checkout e checkout Asaas sandbox.
-- Explorar marketplace de fornecedores e parcerias.
-- Desenvolver PWA ou app móvel leve.
+- Definir modelo comercial e pricing.
+- Explorar automações, parceiros e fluxos de retenção.
+- Evoluir mobile/PWA só se isso entrar como vantagem clara.
 
 ## Dependências e decisões
 - Host: Vercel hobby vs deploy local/container.
 - AI: manter Gemini ou migrar gradualmente para Ollama.
 - Pagamentos: Asaas como principal ou Stripe direto.
 - Dados: multi-tenant isolado vs esquema único com tenantId.
+
+## Fluxos principais confirmados
+
+- **Contrato**: UI/API de contratos -> `ContractService` -> valida tenant -> cria contrato -> gera cronograma financeiro -> pode abrir cobrança Asaas -> atualiza propriedade/inquilino -> audit log -> e-mail.
+- **Pagamento**: UI/API de payments -> `PaymentService` -> valida contrato/tenant -> cria pagamento local -> histórico + auditoria -> sincroniza Asaas quando aplicável.
+- **Portal do inquilino**: `/portal` -> login/registro por token -> `portal/layout.tsx` -> `TenantAuthGuard` -> páginas protegidas e APIs próprias do portal.
+
+## Checklist provável de correção
+
+- Tenant isolation
+- Sincronia contrato -> parcelas -> Asaas
+- Webhook Asaas atualizando pagamento local
+- Token do portal e guard de autenticação
+- Status de property/tenant/contract após transições
+- Auditoria e histórico nas mutações
+- Rotas do portal e contratos vinculados
+- Regressões de UI nas páginas cliente
+
+## Arquivos-chave por fluxo
+
+- Contrato: `src/app/(protected)/contratos/page.tsx`, `src/app/api/contracts/route.ts`, `src/lib/services/contract-service.ts`
+- Pagamento: `src/app/(protected)/financeiro/page.tsx`, `src/app/api/payments/route.ts`, `src/lib/services/payment-service.ts`
+- Portal: `src/app/portal/page.tsx`, `src/app/portal/layout.tsx`, `src/components/portal/TenantAuthGuard.tsx`, `src/app/portal/api/contracts/route.ts`, `src/lib/auth/tenant-auth.ts`
+
+## Tabela curta
+
+| Fluxo | Tela | API | Service | Banco | Risco |
+|---|---|---|---|---|---|
+| Contrato | Contratos admin | `src/app/api/contracts/route.ts` | `src/lib/services/contract-service.ts` | `Contract`, `Payment`, `Tenant`, `Property` | tenant scope e cronograma |
+| Pagamento | Financeiro admin | `src/app/api/payments/route.ts` | `src/lib/services/payment-service.ts` | `Payment`, `Contract` | status divergente do Asaas |
+| Portal | Portal do inquilino | `src/app/portal/api/contracts/route.ts` | `src/lib/auth/tenant-auth.ts` | `TenantUser`, `TenantContract` | vazamento entre tenants |
 
 ## Riscos
 - Custo de Gemini inviabiliza o modelo sem fallback.
