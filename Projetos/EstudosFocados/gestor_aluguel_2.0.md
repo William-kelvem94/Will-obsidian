@@ -165,3 +165,33 @@ Construir uma plataforma de gestÃ£o de imÃ³veis que permita administradoras e pr
 - [[../EstudosPesquisas/gestor_aluguel_2.0|Pesquisa Gestor Aluguel]]
 - [[../EstudosPesquisas/Next.js-SaaS-Evolution|Next.js SaaS Evolution]]
 - [[../Plano-de-Acao|Plano de AÃ§Ã£o]]
+
+## WhatsApp + n8n
+
+Status atual:
+- O app já tem clientes, rotas e dashboard para WAHA/n8n.
+- Os clientes agora aceitam `WAHA_API_URL`/`WAHA_URL` e `N8N_WEBHOOK_URL`/`N8N_URL`.
+- O repositório ainda não contém todos os workflows exportados do n8n para importação 1-clique.
+
+O que já existe no projeto:
+- `src/lib/integrations/whatsapp-client.ts`
+- `src/lib/integrations/n8n-client.ts`
+- `src/lib/services/webhook-service.ts`
+- `src/app/api/whatsapp/start/route.ts`
+- `src/app/api/whatsapp/session/route.ts`
+- `src/app/api/integrations/whatsapp/send/route.ts`
+- `src/app/api/integrations/whatsapp/status/route.ts`
+- `src/app/api/n8n/payments/route.ts`
+- `src/app/api/n8n/contracts/route.ts`
+- `src/app/api/n8n/properties/route.ts`
+- `src/app/api/n8n/notify/route.ts`
+- `src/app/api/webhooks/trigger/route.ts`
+- `src/app/api/webhooks/receive/route.ts`
+- `src/components/integrations/IntegrationDashboard.tsx`
+
+Próximo passo recomendado:
+1. Subir Docker com app + n8n + WAHA.
+2. Configurar `N8N_API_KEY`, `N8N_WEBHOOK_SECRET`, `WAHA_API_URL`, `WAHA_API_KEY`, `WAHA_SESSION_NAME`.
+3. Conectar a sessão default no WAHA.
+4. Importar/criar os workflows de lembrete no n8n.
+5. Testar `/api/integrations/n8n/test` e `/api/integrations/whatsapp/status`.
