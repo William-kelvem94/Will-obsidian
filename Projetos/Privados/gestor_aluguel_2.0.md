@@ -237,6 +237,36 @@ flowchart TB
 | Portal pagamentos | `src/app/portal/contracts/[id]/payments/page.tsx` | `src/app/api/contracts/[id]/payments/route.ts` | `src/lib/auth/tenant-auth.ts` | `Payment` | Dados de parcela fora de sincronia |
 | Portal notificações | `src/app/portal/notifications/page.tsx` | `src/app/portal/api/notifications/route.ts` | `src/lib/auth/tenant-auth.ts` | `Notification` | Leitura/estado de notificação inconsistente |
 
+## Auditoria Técnica
+
+### Erros que precisam entrar na fila
+
+1. O webhook do Asaas pode quebrar com `500` quando o token recebido e o esperado têm tamanhos diferentes, porque `timingSafeEqual` lança exceção nesse caso sem proteção extra. Arquivo: `src/app/api/integrations/asaas/webhooks/route.ts`
+2. O fluxo de cobrança automática do contrato está inconsistente: `ContractBillingService` cria parcelas sem `method`, e `AsaasService` converte método ausente para `UNDEFINED`, o que pode gerar cobrança inválida no Asaas. Arquivos: `src/lib/services/contract-billing-service.ts` e `src/lib/services/asaas-service.ts`
+3. O contrato aceita status `DRAFT`, mas a criação ainda marca a propriedade como `OCCUPIED`, quebrando o estado do domínio. Arquivos: `src/app/api/contracts/route.ts` e `src/lib/services/contract-service.ts`
+4. Existe um stub incompleto em `billingNextMonth` dentro do serviço de faturamento. Se alguém chamar esse método, nada acontece. Arquivo: `src/lib/services/contract-billing-service.ts`
+5. O `GET /api/contracts` faz mutação de estado ao listar, porque chama `syncAllExpiredContracts` antes de devolver a resposta. Isso cria side effect em rota de leitura. Arquivo: `src/lib/services/contract-service.ts`
+6. O `GET /api/payments/[id]` tenta ler `payment.tenant.documents`, mas o include do tenant não traz esse campo. A resposta fica inconsistente nesse trecho. Arquivo: `src/app/api/payments/[id]/route.ts`
+7. O mesmo `GET /api/payments/[id]` faz `JSON.parse` direto em campos persistidos como string sem proteção para dado legado corrompido. Um registro malformado pode derrubar a rota. Arquivo: `src/app/api/payments/[id]/route.ts`
+8. O portal do inquilino retorna o JWT no corpo da resposta e também grava o mesmo token em cookie. Isso enfraquece o benefício do `httpOnly`, porque o token continua exposto ao JS da aplicação. Arquivos: `src/app/portal/api/auth/login/route.ts` e `src/contexts/tenant-context.tsx`
+9. O build do Next está configurado para ignorar erros de TypeScript e ESLint quando `DOCKER_BUILD=true`. Isso pode permitir ship de código quebrado em container. Arquivo: `next.config.js`
+10. O `openGraph.url` está hardcoded para `http://localhost:3002`, então a metadata social em produção fica errada sem override externo. Arquivo: `src/app/layout.tsx`
+11. O `AsaasService` engole falhas e retorna `null` em vez de marcar retry ou propagar erro. Isso cria sucesso parcial silencioso em sincronização. Arquivo: `src/lib/services/asaas-service.ts`
+12. A listagem de contratos faz sincronização de expirados durante o próprio read path. Isso é risco de performance e comportamento inesperado em telas de consulta. Arquivo: `src/lib/services/contract-service.ts`
+
+### Melhorias que estabilizam
+
+- Remover `ignoreBuildErrors` e `ignoreDuringBuilds` do build normal e manter isso só para exceções controladas.
+- Colocar rate limit e proteção anti brute force nos endpoints públicos do portal, principalmente login e registro.
+- Padronizar uma única estratégia de sessão do portal, sem expor token em JSON se o cookie `httpOnly` já existe.
+- Criar helper seguro para ler blobs JSON do banco, evitando `JSON.parse` direto em rota.
+- Separar side effects de leitura: sincronização de expirados, atualização de status e tarefas de manutenção devem sair do `GET`.
+- Validar explicitamente `billingType` antes de chamar a API externa do Asaas.
+- Tratar webhook do Asaas com comparação de token protegida contra mismatch de tamanho.
+- Reduzir uso de `any` em rotas e serviços mais sensíveis, principalmente portal, pagamentos, webhooks e auth.
+- Adicionar testes para contrato, cronograma, pagamento, webhook do Asaas, login do portal e isolamento de tenant.
+- Rever metadata global de produção, incluindo `openGraph.url` e qualquer valor fixo de localhost.
+
 **Run**: `npm run docker:dev`
 
 **Links**: [[Projetos/Outros/Gestor Aluguel 2.0]] (versão anterior) | [[GitHub-Completo]] #saas #prisma #gemini #nextjs

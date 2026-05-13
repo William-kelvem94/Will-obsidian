@@ -1,0 +1,238 @@
+GUIA DE BETA TESTER - GESTOR DE ALUGUEL 2.0
+
+OBJETIVO
+Roteiro de validacao ponta a ponta para testes manuais, com foco no uso real do usuario final e no comportamento esperado do sistema.
+
+ESCOPO
+Frontend, backend, rotas, integracoes, portal do inquilino, estabilidade, permissao, fluxos de negocio e sinais de falha.
+
+ORDEM DE EXECUCAO
+1. Validar ambiente e login.
+2. Testar o painel principal.
+3. Testar cadastros basicos.
+4. Testar contrato fim a fim.
+5. Testar pagamento fim a fim.
+6. Testar portal do inquilino.
+7. Testar notificacoes, manutencao, IA e integracoes.
+8. Repetir os fluxos com erro proposital para verificar resiliencia.
+
+CASOS DE TESTE
+CT-01 - Abertura inicial do sistema
+Pre-condicao: ambiente iniciado e usuario deslogado.
+Passos:
+1. Abrir a URL principal.
+2. Aguardar carregamento completo.
+3. Observar header, sidebar e area central.
+Resultado esperado:
+- a tela abre sem erro visual
+- o layout base aparece consistente
+- nao ha loop de carregamento
+
+CT-02 - Login do painel principal
+Pre-condicao: credencial valida de teste.
+Passos:
+1. Ir para a tela de login.
+2. Informar email e senha.
+3. Confirmar o acesso.
+Resultado esperado:
+- usuario entra no painel
+- sessao fica persistente ao refresh
+- redirecionamento vai para area correta
+
+CT-03 - Login invalido
+Pre-condicao: usuario deslogado.
+Passos:
+1. Informar senha errada.
+2. Tentar entrar.
+Resultado esperado:
+- a aplicacao bloqueia o acesso
+- mensagem de erro clara aparece
+- nada quebra na interface
+
+CT-04 - Navegacao do painel
+Pre-condicao: login ativo.
+Passos:
+1. Abrir dashboard.
+2. Entrar em propriedades.
+3. Entrar em inquilinos.
+4. Entrar em contratos.
+5. Entrar em pagamentos.
+Resultado esperado:
+- cada rota abre corretamente
+- menus ativos acompanham a pagina
+- nao ha tela em branco
+
+CT-05 - Criacao de propriedade
+Pre-condicao: usuario autenticado.
+Passos:
+1. Abrir formulario de propriedade.
+2. Preencher dados obrigatorios.
+3. Salvar.
+4. Reabrir a listagem.
+Resultado esperado:
+- propriedade aparece na lista
+- dados permanecem apos refresh
+- validacoes obrigatorias funcionam
+
+CT-06 - Criacao de inquilino
+Pre-condicao: propriedade disponivel para uso.
+Passos:
+1. Abrir formulario de inquilino.
+2. Preencher nome, email e telefone.
+3. Salvar.
+Resultado esperado:
+- inquilino criado com sucesso
+- registro aparece na busca/lista
+- campos invalidos sao rejeitados
+
+CT-07 - Criacao de contrato em rascunho
+Pre-condicao: propriedade e inquilino cadastrados.
+Passos:
+1. Abrir formulario de contrato.
+2. Escolher propriedade e inquilino.
+3. Preencher valores, datas e status de rascunho.
+4. Salvar.
+Resultado esperado:
+- contrato fica visivel como rascunho
+- o estado nao se comporta como ativo
+- a pagina exibe informacoes coerentes
+
+CT-08 - Criacao de contrato ativo
+Pre-condicao: dados basicos prontos.
+Passos:
+1. Abrir formulario de contrato.
+2. Preencher informacoes obrigatorias.
+3. Marcar como ativo.
+4. Salvar.
+Resultado esperado:
+- contrato e salvo
+- cronograma financeiro e gerado
+- propriedade passa a refletir o estado esperado
+
+CT-09 - Edicao de contrato existente
+Pre-condicao: contrato criado.
+Passos:
+1. Abrir contrato salvo.
+2. Alterar valor ou data.
+3. Salvar.
+Resultado esperado:
+- alteracao persiste
+- relacao com propriedade e inquilino continua valida
+- historico nao se perde
+
+CT-10 - Listagem de pagamentos
+Pre-condicao: existir ao menos um contrato com parcelas.
+Passos:
+1. Abrir financeiro/pagamentos.
+2. Verificar cards e listagem.
+3. Abrir um item.
+Resultado esperado:
+- listagem carrega
+- totais batem com o banco
+- detalhe abre sem erro
+
+CT-11 - Pagamento manual
+Pre-condicao: pagamento pendente.
+Passos:
+1. Abrir o pagamento.
+2. Marcar como pago.
+3. Salvar.
+Resultado esperado:
+- status muda corretamente
+- data de pagamento aparece
+- historico registra a acao
+
+CT-12 - Detalhe de pagamento com dados antigos
+Pre-condicao: existir pagamento com campos armazenados em JSON.
+Passos:
+1. Abrir o detalhe.
+2. Conferir imagens, termos e documentos.
+Resultado esperado:
+- tela nao quebra
+- dados legados sao tratados sem derrubar a pagina
+
+CT-13 - Portal do inquilino
+Pre-condicao: tenant ativo e convite ou conta criada.
+Passos:
+1. Abrir /portal.
+2. Fazer login ou cadastro.
+3. Entrar no dashboard do portal.
+Resultado esperado:
+- usuario entra apenas no proprio escopo
+- interface do portal carrega
+- menu e guardas funcionam
+
+CT-14 - Contratos no portal
+Pre-condicao: portal autenticado.
+Passos:
+1. Abrir contratos.
+2. Conferir dados do contrato.
+3. Conferir mensagens e documentos vinculados.
+Resultado esperado:
+- contrato correto aparece
+- informacoes batem com o painel principal
+- nenhum dado de outro tenant aparece
+
+CT-15 - Pagamentos no portal
+Pre-condicao: portal autenticado e com pagamentos.
+Passos:
+1. Abrir pagamentos.
+2. Abrir o detalhe.
+3. Verificar situacao da cobranca.
+Resultado esperado:
+- status e valores corretos
+- links ou comprovantes funcionam
+- layout permanece consistente
+
+CT-16 - Convite do portal
+Pre-condicao: convite valido e nao expirado.
+Passos:
+1. Abrir link de convite.
+2. Criar conta ou autenticar.
+3. Aceitar convite.
+Resultado esperado:
+- convite e processado
+- conta fica vinculada ao contrato
+- redirecionamento final e correto
+
+CT-17 - Logout e limpeza de sessao
+Pre-condicao: usuario logado.
+Passos:
+1. Fazer logout.
+2. Recarregar a pagina.
+3. Tentar voltar a rota protegida.
+Resultado esperado:
+- token e sessao sao limpos
+- usuario nao volta sozinho
+- acesso e bloqueado ate novo login
+
+CT-18 - Webhook de pagamento
+Pre-condicao: payload de teste do Asaas ou simulacao equivalente.
+Passos:
+1. Disparar o webhook.
+2. Conferir atualizacao do pagamento.
+3. Abrir a UI de pagamentos.
+Resultado esperado:
+- status local acompanha o evento
+- nenhum erro de parse ou token derruba a rota
+
+CT-19 - Erro proposital de rede
+Pre-condicao: usuario em rota funcional.
+Passos:
+1. Desligar ou degradar rede.
+2. Executar uma acao de salvar.
+3. Repetir depois de restaurar a rede.
+Resultado esperado:
+- erro e exibido de forma clara
+- pagina nao trava de forma permanente
+- acao pode ser repetida
+
+CT-20 - Refresh em meio ao fluxo
+Pre-condicao: formulario ou pagina aberta com dados.
+Passos:
+1. Preencher parte do formulario.
+2. Dar refresh.
+3. Reabrir o fluxo.
+Resultado esperado:
+- o sistema recupera estado esperado ou limpa de forma segura
+- nao fica em estado corrompido

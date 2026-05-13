@@ -125,6 +125,21 @@ Construir uma plataforma de gestão de imóveis que permita administradoras e pr
 | Pagamento | Financeiro admin | `src/app/api/payments/route.ts` | `src/lib/services/payment-service.ts` | `Payment`, `Contract` | status divergente do Asaas |
 | Portal | Portal do inquilino | `src/app/portal/api/contracts/route.ts` | `src/lib/auth/tenant-auth.ts` | `TenantUser`, `TenantContract` | vazamento entre tenants |
 
+## Auditoria resumida
+
+- Webhook Asaas com risco de falha por `timingSafeEqual`
+- Cobrança automática com risco de `UNDEFINED` no tipo do Asaas
+- Contrato `DRAFT` marcando imóvel como `OCCUPIED`
+- Stub incompleto em `billingNextMonth`
+- `GET /api/contracts` com side effect de mutação
+- `GET /api/payments/[id]` com `JSON.parse` frágil e campo ausente
+- Portal expondo token também no JSON
+- Build ignorando erros de TS/ESLint em Docker
+- `openGraph.url` hardcoded para localhost
+- Falhas do Asaas retornando `null` silenciosamente
+- Side effects de expiração em leitura de contratos
+- Melhorias: reduzir `any`, padronizar sessão do portal, adicionar testes
+
 ## Riscos
 - Custo de Gemini inviabiliza o modelo sem fallback.
 - Multi-tenant aumenta complexidade de segurança e dados.
