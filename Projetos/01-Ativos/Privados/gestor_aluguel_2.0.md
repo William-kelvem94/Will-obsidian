@@ -31,4 +31,10 @@ Plataforma SaaS imobiliário completo com gestão de imóveis, inquilinos, contr
 
 **Estratégia**: [[../EstudosFocados/gestor_aluguel_2.0|Roadmap de Evolução SaaS]]
 
+## 📈 Atualizações Recentes (Maio 2026)
+- **Editor de Contratos (TipTap)**: Implementada a `VariableExtension` atômica para proteger variáveis dinâmicas (`{{chave}}`) no modo de edição, preservando retrocompatibilidade total de regex.
+- **Autosave Preditivo**: Introdução de salvamento automático com *debounce* reativo no `CollaborativeContractEditor.tsx`.
+- **Governança de UI**: Formulários públicos protegidos com cooldown/rate limiting. Tela de recuperação de senha mantida em BLACKLIST de edição (`/auth/forgot-password`).
+- **Resiliência de CI/CD**: Solução definitiva de falhas no Build/Lint/Type Check na Vercel via correção da árvore de JSX, escopo léxico de Hooks (`useEditor`) e higienização estrita de `react-hooks/exhaustive-deps`.
+
 **Links:** [[GitHub-Completo]] | [[Projetos/03-Estudos/EstudosPesquisas/README|🔬 Recursos]] #saas #enterprise #nextjs #prisma
