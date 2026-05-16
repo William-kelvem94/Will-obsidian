@@ -27,7 +27,7 @@ date: 2026-04-27
 
 ### [2026-04-09] Vault Obsidian como segundo cérebro do Jarvis
 - **Projeto/Contexto:** PROJECT_JARVIS_5.0
-- **Decisão:** Usar `D:\OBSIDIAN\Will\JARVIS\` como estrutura de memória persistente do Jarvis
+- **Decisão:** Usar `D:\GitHub\Will-obsidian\JARVIS\` como estrutura de memória persistente do Jarvis
 - **Alternativas consideradas:** Somente SQLite, somente Mem0 cloud
 - **Raciocínio:** Obsidian é editável pelo Will, legível por humanos, versionável e indexável. Combina com a filosofia de segundo cérebro. O SQLite continua como cache local rápido.
 - **Impacto:** Jarvis grava memórias em .md após cada sessão; carrega contexto rico no startup

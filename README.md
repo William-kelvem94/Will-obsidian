@@ -9,6 +9,7 @@ Repositório central do meu Cérebro Digital (Vault do Obsidian). Este projeto o
 - **`Projetos/`**: Gerenciamento de projetos ativos, parados e arquivados.
 - **`Templates/`**: Modelos para notas, reuniões e logs.
 - **`skills/`**: Base de conhecimento técnico e sistemas de IA (RAG).
+- **`Conhecimento-Geral/`**: Base de conhecimento expandida com 10 domínios (Filosofia, Psicologia, Neurociência, Matemática, Ética, Cultura, Economia Digital, Direito Digital, Tecnologia e Sociedade, Linguística) — conteúdo RAG-ready para consumo humano e por agentes de IA.
 
 ## 🛠️ Automações (Scripts)
 
@@ -35,7 +36,7 @@ Repositório central do meu Cérebro Digital (Vault do Obsidian). Este projeto o
 
 O vault conta com dashboards dinâmicos para visualização de estado:
 - **[[JARVIS/05-System/Vault-Health-Dashboard|Vault Health Dashboard]]**: Visão geral da saúde do vault, notas recentes e projetos ativos.
-- **[[Projetos/Projetos|Painel de Projetos]]**: Listagem automática de projetos por status e prioridade.
+- **[[Projetos|Painel de Projetos]]**: Listagem automática de projetos por status e prioridade.
 
 ## 📦 Como Clonar e Usar
 

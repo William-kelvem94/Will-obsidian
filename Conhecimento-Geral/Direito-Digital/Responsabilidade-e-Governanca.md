@@ -3,7 +3,7 @@ title: "Responsabilidade e Governança"
 date: 2026-05-16
 area: "Direito e Regulação de IA"
 tags: [conhecimento, conceito, direito-digital, governanca, responsabilidade, auditoria, accountability]
-related: ["Conhecimento-Geral/Direito-Digital/GDPR-e-Privacidade", "Conhecimento-Geral/Direito-Digital/EU-AI-Act", "Conhecimento-Geral/Etica/Transparencia-Algoritmica", "Conhecimento-Geral/Tecnologia-e-Sociedade/Vies-Algoritmico", "Conhecimento-Geral/Tecnologia-e-Sociedade/Vigilancia-Algoritmica"]
+related: ["Conhecimento-Geral/Direito-Digital/GDPR-e-Privacidade", "Conhecimento-Geral/Direito-Digital/EU-AI-Act", "Conhecimento-Geral/Etica/Transparencia-Algoritmica", "Conhecimento-Geral/Tecnologia-e-Sociedade/Vigilancia-Algoritmica", "Conhecimento-Geral/Tecnologia-e-Sociedade/Vigilancia-Algoritmica"]
 aliases: ["Accountability", "Governança de IA", "Responsabilidade Algorítmica"]
 ---
 
@@ -911,6 +911,6 @@ Nível 5 — Líder
 - [[Conhecimento-Geral/Direito-Digital/EU-AI-Act|EU AI Act]]
 - [[Conhecimento-Geral/Direito-Digital/GDPR-e-Privacidade|GDPR e Privacidade]]
 - [[Conhecimento-Geral/Etica/Transparencia-Algoritmica|Transparência Algorítmica]]
-- [[Conhecimento-Geral/Tecnologia-e-Sociedade/Vies-Algoritmico|Viés Algorítmico]]
+- [[Conhecimento-Geral/Tecnologia-e-Sociedade/Vigilancia-Algoritmica|Viés Algorítmico]]
 - [[Conhecimento-Geral/Tecnologia-e-Sociedade/Vigilancia-Algoritmica|Vigilância Algorítmica]]
 - [[Conhecimento-Geral/Economia-Digital/Economia-dos-Dados|Economia dos Dados]]

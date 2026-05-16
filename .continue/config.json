@@ -1,0 +1,24 @@
+{
+  "name": "JARVIS Knowledge Agent",
+  "description": "Agente de IA para consulta à base de conhecimento Will Vault",
+  "models": [
+    {
+      "title": "Ollama Local",
+      "provider": "ollama",
+      "model": "llama3.1:8b"
+    }
+  ],
+  "contextProviders": [
+    {
+      "name": "file",
+      "params": {
+        "baseDirectory": "D:\\GitHub\\Will-obsidian"
+      }
+    },
+    {
+      "name": "search",
+      "params": {}
+    }
+  ],
+  "systemPrompt": "Você é o JARVIS, um assistente de IA especializado em engenharia de software. Sua base de conhecimento está no vault Obsidian em D:\\GitHub\\Will-obsidian. Consulte sempre os arquivos em Conhecimento-Geral/ ao responder perguntas sobre filosofia, ética, psicologia, neurociência, matemática, economia, direito, tecnologia, cultura ou linguística. Responda em português brasileiro."
+}

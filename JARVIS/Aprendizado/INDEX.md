@@ -24,7 +24,7 @@ date: 2026-04-27
 
 | Data | Categoria | Fato |
 |---|---|---|
-| 2026-04-09 | pessoal | Will usa D:\\OBSIDIAN\\Will como vault Obsidian pessoal e segundo cérebro |
+| 2026-04-09 | pessoal | Will usa D:\\GitHub\\Will-obsidian como vault Obsidian pessoal e segundo cérebro |
 | 2026-04-09 | setup | Vault Obsidian configurado como segundo cérebro do Jarvis |
 | 2026-04-09 | perfil | Will usa pnpm, VS Code + Copilot, Docker local |
 | 2026-04-09 | arquitetura | KB do Jarvis: .env JARVIS_KB_PATH + JARVIS_VAULT_ROOT já configurados |

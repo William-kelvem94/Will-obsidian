@@ -728,4 +728,4 @@ print(f"Usuário apagado: {user_id not in recsys.users}")
 - [[Conhecimento-Geral/Economia-Digital/Economia-dos-Dados|Economia dos Dados]]
 - [[Conhecimento-Geral/Etica/Transparencia-Algoritmica|Transparência Algorítmica]]
 - [[Conhecimento-Geral/Tecnologia-e-Sociedade/Vigilancia-Algoritmica|Vigilância Algorítmica]]
-- [[Conhecimento-Geral/Tecnologia-e-Sociedade/Vies-Algoritmico|Viés Algorítmico]]
+- [[Conhecimento-Geral/Tecnologia-e-Sociedade/Vigilancia-Algoritmica|Viés Algorítmico]]

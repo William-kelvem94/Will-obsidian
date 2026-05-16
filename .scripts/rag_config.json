@@ -1,0 +1,12 @@
+{
+  "base_dir": "Conhecimento-Geral",
+  "embedding_model": "all-MiniLM-L6-v2",
+  "chunk_size": 500,
+  "chunk_overlap": 50,
+  "index_dir": ".knowledge_index",
+  "prioritized_dirs": [
+    "Matematica", "Etica", "Filosofia", "Psicologia",
+    "Neurociencia", "Economia-Digital", "Direito-Digital",
+    "Tecnologia-e-Sociedade", "Linguistica", "Cultura", "Computacao"
+  ]
+}

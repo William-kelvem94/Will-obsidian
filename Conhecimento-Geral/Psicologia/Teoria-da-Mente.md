@@ -239,7 +239,7 @@ Em *Mindblindness: An Essay on Autism and Theory of Mind*, Baron-Cohen propôs q
 
 - **Modelo de Inteligência Emocional-Visual (Kana et al., 2016):** Autistas usam estratégias visuoespaciais para compensar dificuldades verbais em ToM.
 - **Diferença de processamento bottom-up:** Enquanto neurotípicos priorizam informação social (rostos, olhos), autistas processam estímulos sociais e não-sociais de forma mais indistinta.
-- **Intervenções baseadas em ToM:** Treinamento de mentalização, video-modelagem, e [[Conhecimento-Geral/Inteligencia-Artificial/Agentes-Terapeuticos|agentes terapêuticos]] de IA para prática de interações sociais.
+- **Intervenções baseadas em ToM:** Treinamento de mentalização, video-modelagem, e agentes terapêuticos de IA para prática de interações sociais.
 
 ---
 
@@ -625,5 +625,5 @@ Identifique: (1) Em que momento a IA demonstra ToM? (2) O que a IA **falha** em 
 - [[Conhecimento-Geral/Psicologia/Vieses-Cognitivos|Vieses Cognitivos]]
 - [[Conhecimento-Geral/Psicologia/Vieses-em-LLMs|Vieses em LLMs]]
 - [[Conhecimento-Geral/Etica/Deontologia|Deontologia]]
-- [[Conhecimento-Geral/Inteligencia-Artificial/Aprendizado-Por-Fortalecimento|Aprendizado por Reforço]]
-- [[Conhecimento-Geral/Inteligencia-Artificial/Agentes-Terapeuticos|Agentes Terapêuticos]]
+- [[skills/01-agentic-intelligence/reinforcement-learning|Aprendizado por Reforço]]
+- Agentes Terapêuticos

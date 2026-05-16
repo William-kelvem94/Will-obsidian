@@ -8,7 +8,7 @@ related:
   - "Conhecimento-Geral/Etica/Conceitos-de-Alinhamento"
   - "Conhecimento-Geral/Neurociencia/Redes-Neurais-Biologicas"
   - "Conhecimento-Geral/Neurociencia/Sistemas-de-Memoria"
-  - "Conhecimento-Geral/Filosofia/Problema-Dificil"
+  - "Conhecimento-Geral/Filosofia/Qualia"
 aliases: ["NCC", "Teoria da Consciência", "Neural Correlates of Consciousness"]
 ---
 
@@ -547,7 +547,7 @@ Active Inference Agent:
 ## Veja Também
 
 - [[Conhecimento-Geral/Filosofia/Qualia]] — dimensão subjetiva da experiência
-- [[Conhecimento-Geral/Filosofia/Problema-Dificil]] — o problema difícil de Chalmers
+- [[Conhecimento-Geral/Filosofia/Qualia]] — o problema difícil de Chalmers
 - [[Conhecimento-Geral/Etica/Conceitos-de-Alinhamento]] — implicações éticas da consciência artificial
 - [[Conhecimento-Geral/Neurociencia/Redes-Neurais-Biologicas]] — substrato neural dos NCCs
 - [[Conhecimento-Geral/Neurociencia/Sistemas-de-Memoria]] — relação entre memória de trabalho e consciência

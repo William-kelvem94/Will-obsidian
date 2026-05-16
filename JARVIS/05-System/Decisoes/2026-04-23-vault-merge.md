@@ -1,7 +1,7 @@
 ---
 title: "Vault Merge Report"
 date: 2026-04-23
-operation: "D:\\OBSIDIAN\\Will → C:\\Users\\willi\\Documents\\GitHub\\Will-obsidian"
+operation: "D:\\GitHub\\Will-obsidian → C:\\Users\\willi\\Documents\\GitHub\\Will-obsidian"
 status: "✅ COMPLETED"
 tags: [jarvis-sistema]
 updated: 2026-05-03
@@ -11,7 +11,7 @@ updated: 2026-05-03
 
 ## 📋 Executive Summary
 
-Successfully merged legacy vault from `D:\OBSIDIAN\Will` into current GitHub-tracked vault, recovering 97 files including critical historical data, personal profile information, and legacy projects.
+Successfully merged legacy vault from `D:\GitHub\Will-obsidian` into current GitHub-tracked vault, recovering 97 files including critical historical data, personal profile information, and legacy projects.
 
 ---
 
@@ -127,7 +127,7 @@ Successfully merged legacy vault from `D:\OBSIDIAN\Will` into current GitHub-tra
 
 | Date | Event |
 |------|-------|
-| 09/04/2026 | Original D:\OBSIDIAN vault last updated |
+| 09/04/2026 | Original D:\GitHub\Will-obsidian vault last updated |
 | 23/04/2026 | Current vault expanded (30-day roadmap) |
 | 23/04/2026 | **Merge executed** - 97 files recovered |
 

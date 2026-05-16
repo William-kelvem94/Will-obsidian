@@ -16,7 +16,7 @@ Esta pasta contém repositórios privados clonados localmente e documentados com
 ## Projetos clonados com notas
 - [[Auto-boletos]] — Python Flask, Playwright, Tesseract OCR, Docker, AI.
 - [[DEEP-LEARNING]] — Python, agent AI, RAG, speech tools.
-- [[DIA DAS MULHERES]] — CSS/PWA, design de landing page.
+- [[DIA-DAS-MULHERES]] — CSS/PWA, design de landing page.
 - [[gestor_aluguel_2.0]] — Next.js SaaS, Prisma, Gemini AI, Asaas.
 - [[IA-LOCAL]] — JARVIS local, FAISS, Whisper, pyautogui.
 - [[openclaude-wk]] — TS CLI agent multi-provider.

@@ -7,8 +7,8 @@ related:
   - "Conhecimento-Geral/Neurociencia/Redes-Neurais-Biologicas"
   - "Conhecimento-Geral/Neurociencia/Consciencia-e-Cerebro"
   - "Conhecimento-Geral/Matematica/Teoria-da-Informacao"
-  - "Conhecimento-Geral/Matematica/Estatistica-e-Probabilidade"
-  - "Conhecimento-Geral/Computacao/Aprendizado-por-Reforco"
+  - "Conhecimento-Geral/Matematica/Probabilidade-e-Estatistica"
+  - "skills/01-agentic-intelligence/reinforcement-learning"
 aliases: ["Memória Cognitiva", "Sistemas de Memória Humana", "Taxonomia da Memória"]
 ---
 
@@ -738,7 +738,7 @@ class RetrievalAugmentedMemory:
 - [[Conhecimento-Geral/Neurociencia/Redes-Neurais-Biologicas]] — LTP, LTD, STDP e plasticidade como base molecular da memória
 - [[Conhecimento-Geral/Neurociencia/Consciencia-e-Cerebro]] — consciência e memória de trabalho
 - [[Conhecimento-Geral/Matematica/Teoria-da-Informacao]] — capacidade de memória e compressão
-- [[Conhecimento-Geral/Matematica/Estatistica-e-Probabilidade]] — modelagem de recall, reconhecimento e ruído
-- [[Conhecimento-Geral/Computacao/Aprendizado-por-Reforco]] — experience replay, episodic control, TD-learning
+- [[Conhecimento-Geral/Matematica/Probabilidade-e-Estatistica]] — modelagem de recall, reconhecimento e ruído
+- [[skills/01-agentic-intelligence/reinforcement-learning]] — experience replay, episodic control, TD-learning
 - [[Conhecimento-Geral/Filosofia/Qualia]] — relação entre memória episódica e self
-- [[Conhecimento-Geral/Filosofia/Identidade-Pessoal]] — memória como constitutiva do self (Locke)
+- [[Conhecimento-Geral/Filosofia/Conceitos-Fundamentais]] — memória como constitutiva do self (Locke)

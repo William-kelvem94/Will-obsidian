@@ -51,6 +51,11 @@ Este arquivo descreve as categorias do gráfico do Obsidian, as tags recomendada
   - Pasta: `JARVIS/Templates/`.
   - Tag principal: `#template`
 
+- **Conhecimento-Geral** — âmbar `#f59e0b`
+  - Aplica a toda a base de conhecimento multidisciplinar com 10 domínios.
+  - Pasta: `Conhecimento-Geral/`.
+  - Tag principal: `#conhecimento`
+
 ## Mapas de tags por pasta
 - `Bem-vindo.md` → `#hub #projetos`
 - `Projetos.md` → `#hub #projetos`
@@ -66,6 +71,7 @@ Este arquivo descreve as categorias do gráfico do Obsidian, as tags recomendada
 - `JARVIS/Templates/INDEX.md` → `#jarvis #template`
 - `Will-Pessoal/Perfil/README.md` → `#perfil #will`
 - `Will-Pessoal/README.md` → `#perfil #will`
+- `Conhecimento-Geral/INDEX.md` → `#hub #conhecimento`
 
 ## Uso recomendado
 1. Abra `Bem-vindo.md` para entrar no cofre.
@@ -73,7 +79,8 @@ Este arquivo descreve as categorias do gráfico do Obsidian, as tags recomendada
 3. Use `Projetos/Privados/README.md` para acessar clones privados.
 4. Use `JARVIS/README.md` como hub do segundo cérebro.
 5. Use `JARVIS/Memorias/README.md` para buscar memórias e decisões.
-6. Atualize os tags de cada nota nova no início do arquivo.
+6. Use `Conhecimento-Geral/INDEX.md` para navegar pelos 10 domínios de conhecimento.
+7. Atualize os tags de cada nota nova no início do arquivo.
 
 ## Boas práticas de organização
 - Mantenha cada projeto dentro da pasta certa: `Projetos/` ou `Projetos/Privados/`.

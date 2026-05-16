@@ -2,14 +2,14 @@
 title: "Operational Dashboard — Current State"
 description: "Real-time snapshot of active projects, energy, blockers, and weekly metrics"
 tags: [operational, dashboard, status, focus, jarvis-operacao]
-updated: 2026-05-03
-date: 2026-04-27
+updated: 2026-05-16
+date: 2026-05-16
 ---
 
 # 📊 Operational Dashboard
 
-**Current Date:** 2026-04-23 (Tue)
-**Week:** 17/52
+**Current Date:** 2026-05-16 (Sat)
+**Week:** 20/52
 **Quarter:** Q2 2026
 
 ---
@@ -141,6 +141,21 @@ date: 2026-04-27
 
 ---
 
+## 📚 Knowledge Base Status
+
+| Metric | Value |
+|--------|-------|
+| Domains | 11 domains |
+| Total files | 50 arquivos |
+| Total chunks (RAG) | 6.477 chunks |
+| Embedding model | all-MiniLM-L6-v2 |
+| Last expansion | 2026-05-16 |
+| INDEX | [[Conhecimento-Geral/INDEX]] |
+
+**Domains:** Computação, Cultura, Direito-Digital, Economia-Digital, Ética, Filosofia, Linguística, Matemática, Neurociência, Psicologia, Tecnologia-e-Sociedade
+
+---
+
 ## 🔥 Hot Issues (Needs Immediate Attention)
 
 1. **Issue:** [Description]
@@ -170,7 +185,9 @@ Quick capture for ideas that came up today:
 - [[JARVIS/02-Operational/Decisions/INDEX|Recent Decisions]]
 
 ### Resources
+- [[Conhecimento-Geral/INDEX|Knowledge Base (Conhecimento-Geral)]]
 - [[JARVIS/04-Engineering/Playbooks/Workflows-Praticos|Workflows]]
+- [[JARVIS/04-Engineering/Playbooks/Knowledge-Consultation|Playbook: Consulta à Base de Conhecimento]]
 - [[skills/README|Skills Hub]]
 - [[JARVIS/01-Identity/Will/Engineering-Principles|Engineering Principles]]
 

@@ -7,7 +7,7 @@ related:
   - "Conhecimento-Geral/Neurociencia/Sistemas-de-Memoria"
   - "Conhecimento-Geral/Neurociencia/Consciencia-e-Cerebro"
   - "Conhecimento-Geral/Matematica/Algebra-Linear-Essencial"
-  - "Conhecimento-Geral/Matematica/Equacoes-Diferenciais"
+  - "Conhecimento-Geral/Matematica/Calculo-e-Otimizacao"
   - "Conhecimento-Geral/Fisica/Eletromagnetismo"
 aliases: ["Neurônio Biológico", "Plasticidade Sináptica", "Rede Neural Biológica"]
 ---
@@ -750,6 +750,6 @@ print(f"Trem de spikes (primeiros 50 ms): {''.join(str(s) for s in spike_train[:
 - [[Conhecimento-Geral/Neurociencia/Sistemas-de-Memoria]] — plasticidade hipocampal, consolidação e replay
 - [[Conhecimento-Geral/Neurociencia/Consciencia-e-Cerebro]] — atividade neural global e emergência da consciência
 - [[Conhecimento-Geral/Matematica/Algebra-Linear-Essencial]] — base matemática para operações em redes neurais
-- [[Conhecimento-Geral/Matematica/Equacoes-Diferenciais]] — modelagem de dinâmica de membrana e populações
+- [[Conhecimento-Geral/Matematica/Calculo-e-Otimizacao]] — modelagem de dinâmica de membrana e populações
 - [[Conhecimento-Geral/Matematica/Teoria-da-Informacao]] — codificação de informação em spikes
-- [[Conhecimento-Geral/Computacao/Aprendizado-por-Reforco]] — paralelos com plasticidade por recompensa (dopamina)
+- [[skills/01-agentic-intelligence/reinforcement-learning]] — paralelos com plasticidade por recompensa (dopamina)

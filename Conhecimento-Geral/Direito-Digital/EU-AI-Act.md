@@ -3,7 +3,7 @@ title: "EU AI Act"
 date: 2026-05-16
 area: "Direito e Regulação de IA"
 tags: [conhecimento, conceito, direito-digital, regulacao-europeia, ia-governanca, risco]
-related: ["Conhecimento-Geral/Direito-Digital/GDPR-e-Privacidade", "Conhecimento-Geral/Direito-Digital/Responsabilidade-e-Governanca", "Conhecimento-Geral/Etica/Transparencia-Algoritmica", "Conhecimento-Geral/Tecnologia-e-Sociedade/Vies-Algoritmico"]
+related: ["Conhecimento-Geral/Direito-Digital/GDPR-e-Privacidade", "Conhecimento-Geral/Direito-Digital/Responsabilidade-e-Governanca", "Conhecimento-Geral/Etica/Transparencia-Algoritmica", "Conhecimento-Geral/Tecnologia-e-Sociedade/Vigilancia-Algoritmica"]
 aliases: ["AI Act", "Regulação de IA", "Regulamento 2024/1689", "EU AI Regulation"]
 ---
 
@@ -487,6 +487,6 @@ PMEs e startups têm incentivos: isenção de certas obrigações (Art. 58), par
 - [[Conhecimento-Geral/Direito-Digital/GDPR-e-Privacidade|GDPR e Privacidade]]
 - [[Conhecimento-Geral/Direito-Digital/Responsabilidade-e-Governanca|Responsabilidade e Governança]]
 - [[Conhecimento-Geral/Etica/Transparencia-Algoritmica|Transparência Algorítmica]]
-- [[Conhecimento-Geral/Tecnologia-e-Sociedade/Vies-Algoritmico|Viés Algorítmico]]
+- [[Conhecimento-Geral/Tecnologia-e-Sociedade/Vigilancia-Algoritmica|Viés Algorítmico]]
 - [[Conhecimento-Geral/Tecnologia-e-Sociedade/Vigilancia-Algoritmica|Vigilância Algorítmica]]
 - [[Conhecimento-Geral/Economia-Digital/Economia-dos-Dados|Economia dos Dados]]

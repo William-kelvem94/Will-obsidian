@@ -36,7 +36,7 @@ Diferentemente de um computador digital, porém, o processador humano possui **c
 3. **Natureza hierárquica:** Processos cognitivos ocorrem em múltiplos níveis, desde a detecção sensorial até o raciocínio abstrato.
 4. **Limitantes computacionais:** A cognição é constrangida por recursos finitos de atenção, memória de trabalho e tempo de processamento.
 
-Aplicações diretas desses princípios em IA incluem sistemas de [[Conhecimento-Geral/Inteligencia-Artificial/Aprendizado-Por-Fortalecimento|aprendizado por reforço]] que modelam a curiosidade, arquiteturas [[Conhecimento-Geral/Inteligencia-Artificial/Redes-Neurais|neurais]] com mecanismos de atenção (Vaswani et al., 2017) e assistentes pessoais que adaptam seu tom com base no estado emocional do usuário.
+Aplicações diretas desses princípios em IA incluem sistemas de [[skills/01-agentic-intelligence/reinforcement-learning|aprendizado por reforço]] que modelam a curiosidade, arquiteturas [[Conhecimento-Geral/Neurociencia/Redes-Neurais-Biologicas|neurais]] com mecanismos de atenção (Vaswani et al., 2017) e assistentes pessoais que adaptam seu tom com base no estado emocional do usuário.
 
 ---
 
@@ -84,7 +84,7 @@ Capacidade virtualmente ilimitada com duração de minutos a décadas. Divide-se
 
 ### Implicações para IA
 
-- **Janela de contexto vs. MLP:** Modelos como GPT-4 possuem memória de curto prazo muito maior que a humana (128k tokens), mas carecem de um mecanismo nativo de longa duração — daí a necessidade de [[Conhecimento-Geral/Inteligencia-Artificial/RAG|RAG]] (Retrieval-Augmented Generation).
+- **Janela de contexto vs. MLP:** Modelos como GPT-4 possuem memória de curto prazo muito maior que a humana (128k tokens), mas carecem de um mecanismo nativo de longa duração — daí a necessidade de [[skills/04-knowledge-systems/advanced-rag-strategies|RAG]] (Retrieval-Augmented Generation).
 - **Curva de esquecimento de Ebbinghaus:** Humanos esquecem ~50% do conteúdo em 1 hora sem revisão. Um assistente inteligente deve *repetir informações críticas* em vez de assumir que o usuário as lembra.
 
 ---
@@ -307,7 +307,7 @@ Philip Johnson-Laird propôs que raciocinamos não com regras lógicas abstratas
 
 - **Modelagem do usuário:** O agente deve inferir o modelo mental que o usuário tem do sistema e adaptar as explicações.
 - **Detecção de surpresa:** Se o usuário age de forma inconsistente com o modelo inferido, o agente deve revisar seu modelo.
-- **Narrativas e personas:** [[Conhecimento-Geral/Inteligencia-Artificial/Personagens-Digitais|Personagens digitais]] podem ser implementados como conjuntos de scripts e frames.
+- **Narrativas e personas:** Personagens digitais podem ser implementados como conjuntos de scripts e frames.
 
 ---
 
@@ -632,7 +632,7 @@ head_i = Attention(Q W_i^Q, K W_i^K, V W_i^V)
 2. **Resumo de Texto:** Atenção sobre sentenças relevantes (como a atenção seletiva humana).
 3. **Tradução Automática:** Alinhamento entre palavras fonte e alvo.
 4. **RAG:** Atenção entre a consulta e documentos recuperados.
-5. **Modelagem do Usuário:** [[Conhecimento-Geral/Inteligencia-Artificial/Agentes-Reativos|Agentes reativos]] que ponderam informações contextuais sobre o usuário.
+5. **Modelagem do Usuário:** [[skills/01-agentic-intelligence/autonomous-workflow|Agentes reativos]] que ponderam informações contextuais sobre o usuário.
 
 ---
 
@@ -730,7 +730,7 @@ Compare ACT-R e Transformers ao responder:
 - [[Conhecimento-Geral/Psicologia/Vieses-Cognitivos|Vieses Cognitivos]]
 - [[Conhecimento-Geral/Psicologia/Teoria-da-Mente|Teoria da Mente]]
 - [[Conhecimento-Geral/Psicologia/Vieses-em-LLMs|Vieses em LLMs]]
-- [[Conhecimento-Geral/Inteligencia-Artificial/Aprendizado-Por-Fortalecimento|Aprendizado por Reforço]]
-- [[Conhecimento-Geral/Inteligencia-Artificial/Redes-Neurais|Redes Neurais]]
-- [[Conhecimento-Geral/Inteligencia-Artificial/RAG|Retrieval-Augmented Generation]]
-- [[Conhecimento-Geral/Inteligencia-Artificial/Agentes-Reativos|Agentes Reativos]]
+- [[skills/01-agentic-intelligence/reinforcement-learning|Aprendizado por Reforço]]
+- [[Conhecimento-Geral/Neurociencia/Redes-Neurais-Biologicas|Redes Neurais]]
+- [[skills/04-knowledge-systems/advanced-rag-strategies|Retrieval-Augmented Generation]]
+- [[skills/01-agentic-intelligence/autonomous-workflow|Agentes Reativos]]

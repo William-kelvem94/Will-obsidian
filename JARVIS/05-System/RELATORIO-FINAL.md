@@ -2,7 +2,7 @@
 title: "Relatório de Expansão — Ondas 1, 2 e 3"
 date: 2026-04-27
 tags: [meta, sistema, relatorio, jarvis-sistema]
-updated: 2026-05-03
+updated: 2026-05-16
 ---
 
 # 📊 Relatório de Consolidação do Vault
@@ -11,7 +11,7 @@ updated: 2026-05-03
 - **Graph.json:** 17 grupos de cores ativos
 - **Dashboards Dataview:** 5 (Projetos, Skills, Mapa do Conhecimento, Daily-Log, Health Check)
 - **Templates:** 4 (Base, Diário, Conceito, Skill)
-- **Notas de conhecimento:** 15 (+4 da última onda)
+- **Notas de conhecimento:** 25 (+10 da expansão para 10 domínios)
 - **Notas de skills:** 7 novas (total)
 - **Scripts atualizados:** `vault_cleanup.py`, `project_health_checker.py`, `knowledge_indexer.py`
 - **Índice FAISS:** atualizado com todas as notas de conhecimento e 3282 chunks
@@ -31,7 +31,7 @@ updated: 2026-05-03
 
 ## Estrutura consolidada
 - `JARVIS/` — governança, sistema e onboarding do agente
-- `Conhecimento-Geral/` — áreas de filosofia, ética, psicologia e tecnologia
+- `Conhecimento-Geral/` — 10 domínios: Filosofia, Psicologia, Neurociência, Matemática, Ética, Cultura, Economia Digital, Direito Digital, Tecnologia e Sociedade, Linguística
 - `skills/` — categorias de skills técnicas e agenticas
 - `Templates/` — padrões reutilizáveis para criação de notas
 - `.scripts/` — automações operacionais do vault

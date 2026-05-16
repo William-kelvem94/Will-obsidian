@@ -34,9 +34,9 @@ aliases: ["Sumário de Linguística"]
 
 - [[Conhecimento-Geral/Psicologia/Psicologia-Cognitiva]] — processamento cognitivo da linguagem
 - [[Conhecimento-Geral/Filosofia/Filosofia-da-Mente]] — intencionalidade, Chinese Room, consciência
-- [[Conhecimento-Geral/Computacao/NLP-Fundamentos]] — aspectos técnicos de PLN
-- [[Conhecimento-Geral/Antropologia/Antropologia-Linguistica]] — linguagem e cultura
-- [[Conhecimento-Geral/Computacao/Ciencia-da-Computacao]] — hierarquia de Chomsky, autômatos
+- [[Conhecimento-Geral/Computacao/NLP-Fundamentos]] — aspectos técnicos de PLN (tokenização, embeddings, Transformers, BERT, GPT)
+- [[Conhecimento-Geral/Computacao/Algoritmos-e-Estruturas]] — algoritmos de busca e DP aplicados a NLP
+- [[Conhecimento-Geral/Computacao/Ciencia-da-Computacao]] — hierarquia de Chomsky, autômatos, computabilidade
 
 ## Tags para Navegação
 `#linguistica` `#semiotica` `#linguagem` `#nlp` `#pln` `#pragmatica` `#chomsky` `#saussure` `#peirce` `#barthes` `#eco` `#transformers` `#llm`
