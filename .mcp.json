@@ -1,0 +1,21 @@
+{
+  "mcpServers": {
+    "will-obsidian-vault": {
+      "command": "node",
+      "args": [
+        ".scripts/mcp-vault-server/index.js"
+      ],
+      "env": {},
+      "disabled": false,
+      "autoApprove": [
+        "list_vault_files",
+        "read_vault_file", 
+        "write_vault_file",
+        "vault_graph_query",
+        "vault_search_regex",
+        "vault_tag_taxonomy",
+        "vault_stats"
+      ]
+    }
+  }
+}

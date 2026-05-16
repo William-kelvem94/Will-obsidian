@@ -18,6 +18,16 @@
     {
       "name": "search",
       "params": {}
+    },
+    {
+      "name": "mcp",
+      "params": {
+        "serverName": "will-obsidian-vault",
+        "command": "node",
+        "args": [
+          ".scripts/mcp-vault-server/index.js"
+        ]
+      }
     }
   ],
   "systemPrompt": "Você é o JARVIS, um assistente de IA especializado em engenharia de software. Sua base de conhecimento está no vault Obsidian em D:\\GitHub\\Will-obsidian. Consulte sempre os arquivos em Conhecimento-Geral/ ao responder perguntas sobre filosofia, ética, psicologia, neurociência, matemática, economia, direito, tecnologia, cultura ou linguística. Responda em português brasileiro."
