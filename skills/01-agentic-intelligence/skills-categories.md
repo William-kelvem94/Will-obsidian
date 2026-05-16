@@ -1,57 +1,124 @@
 ---
-tags: [skills, skills-ai]
-updated: 2026-05-03
-title: "Categorias de Skills para IA no VS Code"
-date: 2026-04-27
+tags: [skills, skills-ai, categories, taxonomy]
+updated: 2026-05-16
+title: "Categorias de Skills para IA"
 ---
 
-# Categorias de Skills para IA no VS Code
+# Categorias de Skills para IA
 
-## Fullstack
-- Frontend: React, Next.js, Vite, Tailwind, componentes, CSS.
-- Backend: Node, Express, Python, FastAPI, Flask, autenticação, APIs.
-- Database: SQL, Postgres, MySQL, Prisma, MongoDB, Redis.
+Este arquivo categoriza todas as skills do hub `skills/01-agentic-intelligence/` por dominio tecnico, com descricoes detalhadas, exemplos de uso e matriz de sobreposicao entre categorias.
 
-## IA local
-- Modelos: Ollama, Claude, Mistral, Llama, Falcon.
-- RAG: embeddings, FAISS, Chroma, memória persistente.
-- Agentes: fluxo de prompts, tomada de decisão, data augmentation.
-- Memória: ingestão, indexação, recuperação, atualização incremental.
+## Categorias Principais
 
-## Infra e DevOps
-- Docker, docker-compose, Traefik, nginx.
-- Deploy local, containers, CI/CD, scripts de build.
-- Configuração de ambiente: `.env`, `docker-compose.yml`, `GitHub Actions`.
+### 1. Inteligencia Agentica (Core)
+Skills relacionadas a agentes de IA, orquestracao, consenso e padroes de raciocinio.
 
-## Automação e produtividade
-- Scripts de automação (Playwright, Selenium, scraping).
-- Integração contínua com testes e lint.
-- Documentação, README e templates de projeto.
+**Arquivos**: `01-agentic-intelligence/`
+**Quando usar**: tarefas que exigem coordenacao entre multiplos agentes, raciocinio estruturado ou tomada de decisao autonomia.
 
-## Agentes e assistentes
-- Prompt chaining para workflows complexos.
-- Memória de sessão e contexto em prompt.
-- Resultados esperados, validação e fallback.
+### 2. Desenvolvimento Fullstack
+Frontend, backend e database.
 
-## MCP & VS Code
-- Ações de leitura/escrita: `read_file`, `edit_file`, `create_file`, `search_files`, `execute_command`.
-- Workflow iterativo: analisar, planejar, agir, validar, resumir.
-- Use alterações pequenas e verificações frequentes.
-- Documente cada passo em notas quando trabalhar com IA.
-- Use `mcp-operators.md` para entender operadores avançados e regras de segurança.
+**Exemplos de uso**:
+- Criar componente React com Tailwind.
+- Implementar API REST em FastAPI.
+- Modelar schema Prisma ou SQL.
 
-## Prompt engineering
-- Prefira instruções claras, diretas e com contexto técnico.
-- Use exemplos e descrições de formato desejado.
-- Peça sempre validação ou revisão quando fizer mudanças de código.
-- Peça um resumo final com arquivos alterados e comandos executados.
+**Ferramentas**: React, Next.js, Express, FastAPI, Postgres, Prisma, Redis.
 
-## Notes para VS Code
-- Adapte cada skill ao contexto do projeto.
-- Use tags `#skill`, `#mcp`, `#vscode`, `#ai` nos arquivos de referência.
-- Prefira exemplos práticos em vez de descrições gerais.
+### 3. IA Local e RAG
+Modelos locais, embeddings, bancos vetoriais e pipelines de memoria.
 
-## Exemplo de uso
-- `skills/vscode-ai/prompts.md` para gerar mensagens de IA.
-- `skills/vscode-ai/mcp.md` para definir ações de leitura/edição/comando.
-- `skills/fullstack/*.md` para domínios técnicos específicos.
+**Exemplos de uso**:
+- Configurar Ollama com Mistral para desenvolvimento local.
+- Implementar pipeline de RAG com FAISS e Chroma.
+- Criar sistema de memoria persistente para agente autonomo.
+
+**Ferramentas**: Ollama, LM Studio, FAISS, Chroma, sentence-transformers.
+
+### 4. Infraestrutura e DevOps
+Docker, containers, CI/CD e configuracao de ambiente.
+
+**Exemplos de uso**:
+- Criar `Dockerfile` e `docker-compose.yml` para projeto fullstack.
+- Configurar GitHub Actions para CI/CD.
+- Gerenciar variaveis de ambiente com `.env`.
+
+**Ferramentas**: Docker, docker-compose, Nginx, GitHub Actions, Terraform.
+
+### 5. Automacao e Produtividade
+Scripts de automacao, scraping, documentacao automatica.
+
+**Exemplos de uso**:
+- Automatizar geracao de README com template.
+- Criar script de backup do vault Obsidian.
+- Configurar pipeline de pre-commit para lint + testes.
+
+**Ferramentas**: Playwright, Selenium, pre-commit, shell script.
+
+### 6. Agentes e Assistentes
+Definicao de agentes, system prompts, workflows multi-turn.
+
+**Exemplos de uso**:
+- Definir agente `Programador` com ferramentas MCP.
+- Criar workflow de pesquisa com agente `Pesquisador`.
+- Orquestrar debate entre agentes para decisao de arquitetura.
+
+**Ferramentas**: [[programador.agent]], [[programador-pesquisador.agent]], [[multi-agent-orchestration]].
+
+### 7. MCP e Operacoes
+Model Context Protocol, operadores de arquivo, terminal e busca.
+
+**Exemplos de uso**:
+- Executar pipeline de leitura-editacao-validacao com MCP.
+- Usar operadores avancados como `grep_search` e `diff_file`.
+- Compor operadores em pipelines complexos.
+
+**Ferramentas**: [[mcp-operators]], [[mcp]], [[mini-agent]].
+
+### 8. Prompt Engineering
+Templates, tecnicas de prompt, avaliacao e refinamento.
+
+**Exemplos de uso**:
+- Usar Chain-of-Thought para problemas complexos.
+- Aplicar few-shot learning com exemplos no prompt.
+- Avaliar qualidade de saida com metrica de relevancia.
+
+**Ferramentas**: [[prompts]], [[templates]], [[direct-agent-prompts]].
+
+## Matriz de Sobreposicao entre Categorias
+
+```
+              | Agentica | Fullstack | IA Local | DevOps | Automacao | Agentes | MCP | PromptEng
+--------------|----------|-----------|----------|--------|-----------|---------|-----|----------
+Agentica      |    X     |    M      |    A     |   B    |    M      |    A    |  A  |    A
+Fullstack     |    M     |    X      |    B     |   M    |    M      |    M    |  M  |    B
+IA Local      |    A     |    B      |    X     |   B    |    B      |    A    |  M  |    M
+DevOps        |    B     |    M      |    B     |   X    |    A      |    B    |  B  |    B
+Automacao     |    M     |    M      |    B     |   A    |    X      |    M    |  A  |    M
+Agentes       |    A     |    M      |    A     |   B    |    M      |    X    |  A  |    A
+MCP           |    A     |    M      |    M     |   B    |    A      |    A    |  X  |    B
+PromptEng     |    A     |    B      |    M     |   B    |    M      |    A    |  B  |    X
+
+Legenda: A = Alta sobreposicao, M = Media, B = Baixa
+```
+
+## Guia de Selecao de Categoria
+
+| Se voce precisa... | Use a categoria... | E comeco por... |
+|-------------------|-------------------|-----------------|
+| Coordenar agentes | Inteligencia Agentica | [[multi-agent-orchestration]] |
+| Codar uma feature | Desenvolvimento Fullstack | skills/fullstack/ |
+| Adicionar memoria | IA Local e RAG | [[memory-architectures]] |
+| Configurar ambiente | DevOps | skills/infra/ |
+| Automatizar tarefa | Automacao | skills/automation/ |
+| Definir um agente | Agentes | [[programador.agent]] |
+| Usar ferramentas | MCP | [[mcp-operators]] |
+| Criar prompts | Prompt Engineering | [[prompts]] |
+
+## Referencias
+
+- [[INDEX]] — Indice completo do hub.
+- [[use-cases]] — Casos de uso por categoria.
+- [[best-practices]] — Boas praticas para todas as categorias.
+- [[quick-reference]] — Referencia rapida por ferramenta.

@@ -1,62 +1,118 @@
 ---
-tags: [skills, skills-ai]
-updated: 2026-05-03
-title: "VS Code AI Skills & MCP"
-date: 2026-04-27
+tags: [skills, skills-ai, inteligencia-agentica, hub]
+updated: 2026-05-16
+title: "Inteligencia Agentica — Hub de Skills JARVIS"
 ---
 
-# VS Code AI Skills & MCP
+# Inteligencia Agentica — Hub de Skills JARVIS
 
-Estrutura de skills e Model Context Protocol (MCP) para usar modelos de IA no VS Code em projetos seus.
+Este hub reune skills, padroes e ferramentas de **Inteligencia Agentica** para o ecossistema JARVIS. Aqui voce encontra definicoes de agentes, protocolos MCP, padroes de raciocinio, arquiteturas de memoria e templates de prompt.
 
-## Propósito
-- Reunir prompts, padrões e ferramentas para acelerar tarefas de desenvolvimento com IA.
-- Oferecer referência clara para usar IA local (OpenClaude, Ollama, Claude) ou APIs.
-- Integrar operações de VS Code com leitura/edição de arquivos e comandos de terminal.
+## Proposito
 
-## Estrutura
-- [[README|Visão geral e como usar]]
-- [[INDEX|Índice completo do hub]]
-- [[mcp|Padrões de MCP e mapeamento de tools]]
-- [[prompts|Prompts prontos para tarefas de código, refatoração e docs]]
-- [[mcp-operators|Operadores MCP e regras de ação]]
-- [[skills-categories|Categorias de skills por domínio técnico]]
-- [[use-cases|Casos de uso passo a passo para tarefas comuns]]
-- [[advanced-workflows|Workflows avançados para projetos complexos]]
-- [[templates|Modelos de prompt reutilizáveis para agentes de IA]]
-- [[quick-start|Comandos específicos para seu ambiente Windows e VS Code]]
-- [[project-jarvis-prompts|Prompts focados no projeto PROJECT_JARVIS_5.0]]
-- [[mini-agent|Mini-agent de IA com fluxo de leitura/edição/validação]]
-- [[direct-agent-prompts|Prompts prontos para copiar e colar no seu chat local]]
-- [[best-practices|Boas práticas para usar IA no VS Code de forma segura e eficiente]]
-- [[quick-reference|Resumo rápido de operadores, prompts e workflows]]
+- Reunir prompts, padroes e ferramentas para acelerar tarefas de desenvolvimento com IA.
+- Oferecer referencia clara para usar IA local (Ollama, LM Studio, Claude) ou APIs.
+- Integrar operacoes com leitura/edicao de arquivos, comandos de terminal e orquestracao multi-agente.
 
-## Como usar
-1. Abra `skills/vscode-ai/README.md` como ponto de entrada.
-2. Use `skills/vscode-ai/mcp.md` como referência para padrões de ação.
-3. Copie templates de `skills/vscode-ai/prompts.md` para seu agente ou prompt builder.
-4. Adapte os exemplos para seu projeto em `Projetos/` ou `Will-Pessoal/`.
+## Arquitetura do Hub
 
-## Recomendações importantes
-- Marque as notas-chave com tags como `#ai`, `#vscode`, `#mcp`, `#skill`.
-- Use o mesmo estilo de naming para pastas de skills: `skills/vscode-ai/`.
-- Mantenha as skills curtas e com exemplos práticos.
-- Prefira modelos locais quando possível, como Ollama ou Mistral, para segurança e rapidez.
+```
++----------------------------------------------------+
+|            skills/01-agentic-intelligence/           |
+|                                                      |
+|  [README]---[INDEX]---[quick-reference]              |
+|      |         |            |                        |
+|      v         v            v                        |
+|  +--------+ +--------+ +----------+                |
+|  |Agentes | |MCP     | |Raciocinio|                |
+|  |        | |        | |          |                |
+|  |prog    | |mcp-op  | |ReAct     |                |
+|  |prog-pes| |mini    | |ToT       |                |
+|  |dir-prom| |        | |Reflexion |                |
+|  +--------+ +--------+ +----------+                |
+|       |            |            |                    |
+|       v            v            v                    |
+|  +--------+ +--------+ +----------+                |
+|  |Memoria | |Praticas| |Prompts   |                |
+|  |        | |        | |          |                |
+|  |mem-arch| |best-pr | |project-j |                |
+|  |        | |use-cases| |templates |                |
+|  |        | |skills-c| |prompts   |                |
+|  +--------+ +--------+ +----------+                |
++----------------------------------------------------+
+```
 
-## Casos de uso
-- `skills/vscode-ai/use-cases.md` — passo a passo para refatoração, bugfix, documentação, testes, RAG e deploy.
-- `skills/vscode-ai/prompts.md` — prompts prontos para tarefas comuns.
-- `skills/vscode-ai/mcp.md` — protocolos de ação para agentes e IA.
+## Navegacao Rapida
 
-## Opções de modelos
-- Ollama: ideal para IA local e RAG.
-- Mistral e Llama: bons para tarefas de desenvolvimento e análise.
-- Claude: útil se deseja respostas mais conversacionais.
+### Agentes e Prompts
+- [[programador.agent]] — Agente especializado em desenvolvimento de software.
+- [[programador-pesquisador.agent]] — Agente hibrido de codigo e pesquisa.
+- [[direct-agent-prompts]] — Prompts prontos para copiar no chat local.
+- [[project-jarvis-prompts]] — Prompts focados no projeto JARVIS 5.0.
+- [[prompts]] — Biblioteca categorizada de templates de prompt.
+- [[templates]] — Templates reutilizaveis para agentes e workflows.
 
-## Como conectar com seus projetos
+### Protocolos e Operacoes
+- [[mcp]] — Model Context Protocol: padroes e mapeamento de tools.
+- [[mcp-operators]] — Operadores MCP com composicao e pipelines.
+- [[mini-agent]] — Agente leve com fluxo completo de leitura/edicao/validacao.
+
+### Padroes de Raciocinio
+- [[advanced-reasoning-patterns]] — ReAct, Tree-of-Thought, Reflexion.
+- [[multi-agent-orchestration]] — Orquestracao multi-agente com subagentes.
+- [[multi-agent-consensus]] — Consenso, votacao e resolucao de conflitos.
+
+### Memoria e Dados
+- [[memory-architectures]] — Arquiteturas de memoria: episodica, semantica e de trabalho.
+
+### Praticas e Referencias
+- [[quick-reference]] — Cheat sheet de comandos, operadores e padroes.
+- [[best-practices]] — Boas praticas, anti-padroes e checklist.
+- [[skills-categories]] — Categorias de skills por dominio tecnico.
+- [[use-cases]] — Casos de uso reais com configuracoes e resultados.
+- [[quick-start]] — Guia de inicio rapido para Windows e VS Code.
+- [[advanced-workflows]] — Workflows complexos para projetos avancados.
+- [[autonomous-workflow]] — Workflow autonomo com ciclo completo.
+
+## Como Usar
+
+1. Comece por [[INDEX]] para uma visao geral da estrutura.
+2. Use [[quick-reference]] para consultas rapidas de operadores.
+3. Defina um agente com [[programador.agent]] ou [[programador-pesquisador.agent]].
+4. Copie templates de [[prompts]] para seu agente ou prompt builder.
+5. Estude [[advanced-reasoning-patterns]] para problemas complexos.
+6. Configure memoria com [[memory-architectures]] e [[mcp-operators]].
+7. Adapte os exemplos para seu projeto em `Projetos/` ou `Will-Pessoal/`.
+
+## Modelos Suportados
+
+| Modelo | Uso | Provider | Custo |
+|--------|-----|----------|-------|
+| Ollama Mistral 7B | Tarefas gerais, codigo | Local | Gratuito |
+| Ollama Llama 3 8B | Raciocinio, analise | Local | Gratuito |
+| Ollama CodeLlama 7B | Programacao | Local | Gratuito |
+| Claude 3.5 Sonnet | Tarefas complexas | API | Pago |
+| GPT-4o | Raciocinio avancado | API | Pago |
+
+## Integracao com Projetos
+
 1. Abra a pasta do projeto no VS Code.
-2. Use `skills/vscode-ai/prompts.md` para gerar prompts específicos.
-3. Use `skills/vscode-ai/mcp.md` para guiar passos de leitura e edição.
-4. Consulte `Projetos/EstudosFocados/Workspace-Study/README` para pesquisa prática sobre IA local e agentes.
-5. Consulte `Projetos/EstudosFocados/Workspace-Study/Practical-Example-Maximum-Files` para um caso prático direto.
-6. Salve padrões úteis em `skills/vscode-ai/templates.md` ou em `Will-Pessoal/Conhecimento/Leituras.md`.
+2. Use [[direct-agent-prompts]] para gerar prompts especificos.
+3. Use [[mcp-operators]] para guiar passos de leitura e edicao.
+4. Consulte `Projetos/EstudosFocados/Workspace-Study/README` para pesquisa pratica.
+5. Salve padroes uteis em [[templates]] ou em `Will-Pessoal/Conhecimento/Leituras.md`.
+6. Registre decisoes em `JARVIS/Decisoes/` com timestamp e contexto.
+
+## Recomendacoes Importantes
+
+- Marque notas-chave com tags como `#agentic`, `#mcp`, `#memory`, `#skill`.
+- Mantenha skills curtas e com exemplos praticos.
+- Prefira modelos locais (Ollama, Mistral) para seguranca e rapidez.
+- Consulte [[best-practices]] para garantir qualidade nas implementacoes.
+
+## Referencias
+
+- [[INDEX]] — Indice completo com taxonomia.
+- [[use-cases]] — Passo a passo para tarefas comuns.
+- [[best-practices]] — Boas praticas para uso seguro e eficiente.
+- [[prompt-engineering/SKILL]] — Skill dedicada a engenharia de prompt.
