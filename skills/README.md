@@ -37,6 +37,15 @@ SORT category asc, level desc
 - Mantenha o frontmatter completo e vincule skills relacionadas.
 - Registre projetos práticos em `projects` para conectar aprendizado e execução.
 
+## Skills para Agentes e Memoria
+
+- [[skills/01-agentic-intelligence/context-engineering-checklist|Context Engineering Checklist]]
+- [[skills/01-agentic-intelligence/response-evaluation-rubric|Response Evaluation Rubric]]
+- [[skills/01-agentic-intelligence/human-agent-collaboration-loop|Human-Agent Collaboration Loop]]
+- [[skills/04-knowledge-systems/rag-friendly-note-design|RAG-Friendly Note Design]]
+- [[skills/04-knowledge-systems/memory-curation-for-agents|Memory Curation for Agents]]
+- [[skills/frontend/INDEX-Addon|Frontend Agent Playbooks]]
+
 ---
 
 *Mantenha suas skills afiadas. O progresso é iterativo.*

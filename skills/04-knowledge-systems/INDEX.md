@@ -18,3 +18,5 @@ O armazenamento e a recuperação de conhecimento são o coração de um agente 
 - [[obsidian-neural-vault|Obsidian Neural Vault]] — A base do "Segundo Cérebro".
 - [[advanced-rag-strategies|Estratégias Avançadas de RAG]] — GraphRAG, Chunking Semântico, Busca Híbrida.
 - [[memory-management|Gestão de Memória Long-Term]] — Estruturação de bancos de dados vetoriais.
+- [[rag-friendly-note-design|RAG-Friendly Note Design]] — Como escrever notas recuperaveis.
+- [[memory-curation-for-agents|Memory Curation for Agents]] — Como selecionar e promover memorias de agentes.

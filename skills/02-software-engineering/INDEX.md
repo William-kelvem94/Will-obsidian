@@ -20,3 +20,18 @@ Bem-vindo ao braço de Engenharia do Segundo Cérebro. Aqui cobrimos desde os in
 - [[Seguranca-Informacao/Cryptography-Zero-Trust|🛡️ Segurança de Elite: Criptografia, Autenticação e Zero Trust]]
 - [[Machine-Learning-IA/Transformer-Architecture-LLMs|🧠 A Arquitetura Transformer e LLMs]]
 - [[advanced-backend-architecture|Arquitetura Backend Avançada]]
+
+## Agent-Assisted Work
+
+- [[agentic-debugging|Agentic Debugging]]
+- [[agentic-code-review|Agentic Code Review]]
+- [[agentic-testing|Agentic Testing]]
+
+## Agent Playbooks
+
+- [[integration-patterns-for-agents|Integration Patterns for Agents]]
+- [[test-pyramid-realistic-for-agents|Test Pyramid (Realistic) for Agents]]
+- [[api-contracts-and-compatibility|API Contracts and Compatibility]]
+- [[db-migrations-and-zero-downtime|DB Migrations and Zero Downtime]]
+- [[rollback-and-release-strategies|Rollback and Release Strategies]]
+- [[feature-flags-for-agents|Feature Flags for Agents]]

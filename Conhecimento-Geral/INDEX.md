@@ -23,5 +23,8 @@ Filosofia moral, dilemas éticos, utilitarismo, deontologia e a aplicação mode
 ### 🌐 [[Conhecimento-Geral/Cultura/INDEX|Cultura, História e Sociedade]]
 Evolução humana, estruturas sociais, movimentos culturais, mitologia e sociologia. Fornece contexto sobre a bagagem cultural da humanidade para que a IA compreenda referências, humor e normas sociais.
 
+### [[Conhecimento-Geral/IA-para-Programacao/INDEX|IA para Programacao]]
+Conhecimento operacional sobre agentes de programacao, engenharia de contexto, memoria externa, notas RAG-friendly e avaliacao de respostas de IA. Serve como base comum para JARVIS, modelos locais e assistentes de codigo.
+
 ---
 *Para um agente ser verdadeiramente inteligente, ele não deve apenas calcular, deve compreender.*

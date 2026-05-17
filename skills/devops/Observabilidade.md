@@ -40,3 +40,15 @@ Sei capturar e correlacionar métricas, logs e traces para analisar a saúde de 
 ## Referências
 - Práticas de Prometheus e Grafana
 - Guias de tracing distribuído
+
+## Notas Praticas (Agentes)
+
+- [[observability-practical|Observability Practical]]
+- [[logging-practical|Logging Practical]]
+- [[metrics-practical|Metrics Practical]]
+- [[tracing-practical|Tracing Practical]]
+- [[slo-sli-sla-basics|SLO/SLI/SLA Basics]]
+- [[incident-response-practical|Incident Response Practical]]
+- [[runbooks-for-agents|Runbooks for Agents]]
+- [[minimal-alerting-policy|Minimal Alerting Policy]]
+- [[opsec-minimum|OPSEC Minimum]]
