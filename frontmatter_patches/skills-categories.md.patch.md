@@ -1,0 +1,13 @@
+---
+created: ''
+description: ''
+embedding_ignore: false
+id: skills/01-agentic-intelligence/skills-categories.md
+publish: false
+status: draft
+tags: []
+title: skills-categories
+type: note
+updated: ''
+---
+

@@ -1,0 +1,8 @@
+# High-level dependency manifest for pip-tools
+# Use this file with `pip-compile requirements.in` to generate a locked requirements file.
+python-dotenv
+numpy
+tqdm
+sentence-transformers
+torch
+faiss-cpu

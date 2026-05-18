@@ -1,0 +1,13 @@
+---
+created: ''
+description: ''
+embedding_ignore: false
+id: Conhecimento-Geral/Matematica/Probabilidade-e-Estatistica.md
+publish: false
+status: draft
+tags: []
+title: Probabilidade-e-Estatistica
+type: note
+updated: ''
+---
+

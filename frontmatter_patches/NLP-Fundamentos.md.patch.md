@@ -1,0 +1,13 @@
+---
+created: ''
+description: ''
+embedding_ignore: false
+id: Conhecimento-Geral/Computacao/NLP-Fundamentos.md
+publish: false
+status: draft
+tags: []
+title: NLP-Fundamentos
+type: note
+updated: ''
+---
+

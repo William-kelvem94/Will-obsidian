@@ -1,0 +1,13 @@
+---
+created: ''
+description: ''
+embedding_ignore: false
+id: 02-software-engineering/Bancos-de-Dados/PostgreSQL-Advanced.md
+publish: false
+status: draft
+tags: []
+title: PostgreSQL-Advanced
+type: note
+updated: ''
+---
+

@@ -1,0 +1,13 @@
+---
+created: ''
+description: ''
+embedding_ignore: false
+id: Conhecimento-Geral/Programacao/APIs-e-Integracoes.md
+publish: false
+status: draft
+tags: []
+title: APIs-e-Integracoes
+type: note
+updated: ''
+---
+

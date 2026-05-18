@@ -1,0 +1,13 @@
+---
+created: ''
+description: ''
+embedding_ignore: false
+id: Will-obsidian/.logs/skills_gap.md
+publish: false
+status: draft
+tags: []
+title: skills_gap
+type: note
+updated: ''
+---
+

@@ -1,0 +1,13 @@
+---
+created: ''
+description: ''
+embedding_ignore: false
+id: Conhecimento-Geral/Programacao/Design-Patterns.md
+publish: false
+status: draft
+tags: []
+title: Design-Patterns
+type: note
+updated: ''
+---
+

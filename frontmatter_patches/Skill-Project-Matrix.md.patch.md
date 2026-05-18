@@ -1,0 +1,13 @@
+---
+created: ''
+description: ''
+embedding_ignore: false
+id: Will-obsidian/skills/Skill-Project-Matrix.md
+publish: false
+status: draft
+tags: []
+title: Skill-Project-Matrix
+type: note
+updated: ''
+---
+

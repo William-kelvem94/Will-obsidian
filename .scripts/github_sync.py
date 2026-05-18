@@ -1,9 +1,10 @@
-import urllib.request
-import urllib.error
 import json
 import os
 import re
 from datetime import datetime
+import requests
+from requests.adapters import HTTPAdapter
+from urllib3.util.retry import Retry
 
 # Configurações
 SCRIPT_ROOT = os.path.dirname(os.path.abspath(__file__))
@@ -12,28 +13,48 @@ VAULT_PATH = os.path.normpath(os.path.join(SCRIPT_ROOT, ".."))
 TARGET_FILE = os.path.join(VAULT_PATH, "Projetos/GitHub-Completo.md")
 LOCAL_PRIVADOS_DIR = os.path.normpath(os.path.join(VAULT_PATH, "Projetos/Privados"))
 
-def get_json(url):
-    headers = {"User-Agent": "Mozilla/5.0"}
-    req = urllib.request.Request(url, headers=headers)
+def build_session():
+    """Build a requests.Session with retries and optional Authorization header.
+
+    Reads GITHUB_TOKEN from env and adds Authorization header if present.
+    """
+    session = requests.Session()
+    retries = Retry(total=3, backoff_factor=1, status_forcelist=(429, 500, 502, 503, 504))
+    adapter = HTTPAdapter(max_retries=retries)
+    session.mount("https://", adapter)
+    session.mount("http://", adapter)
+
+    headers = {"User-Agent": "Will-Vault-Sync/1.0"}
+    token = os.getenv("GITHUB_TOKEN")
+    if token:
+        headers["Authorization"] = f"token {token}"
+    session.headers.update(headers)
+    return session
+
+
+def get_json(url, session=None):
+    if session is None:
+        session = build_session()
     try:
-        with urllib.request.urlopen(req) as response:
-            if response.getcode() == 200:
-                return json.loads(response.read().decode())
-    except urllib.error.HTTPError as e:
-        if e.code == 409: # Repository is empty
+        resp = session.get(url, timeout=30)
+        if resp.status_code == 200:
+            return resp.json()
+        if resp.status_code == 409:  # Repository is empty
             return []
-        print(f"Erro HTTP {e.code} ao acessar {url}: {e.reason}")
-    except Exception as e:
+        print(f"Erro HTTP {resp.status_code} ao acessar {url}: {resp.text[:200]}")
+    except requests.RequestException as e:
         print(f"Erro inesperado ao acessar {url}: {e}")
     return None
 
 def get_repositories(username):
+    session = build_session()
     url = f"https://api.github.com/users/{username}/repos?per_page=100&sort=updated"
-    return get_json(url) or []
+    return get_json(url, session=session) or []
 
 def get_commits(owner, repo):
+    session = build_session()
     url = f"https://api.github.com/repos/{owner}/{repo}/commits?per_page=3"
-    data = get_json(url)
+    data = get_json(url, session=session)
     if data:
         return [f"{c['commit']['message'][:50]} ({c['commit']['author']['date'][:10]})" for c in data]
     return ["Sem histórico recente"]

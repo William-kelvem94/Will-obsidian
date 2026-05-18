@@ -1,0 +1,13 @@
+---
+created: ''
+description: ''
+embedding_ignore: false
+id: Conhecimento-Geral/Tecnologia-e-Sociedade/Vigilancia-Algoritmica.md
+publish: false
+status: draft
+tags: []
+title: Vigilancia-Algoritmica
+type: note
+updated: ''
+---
+

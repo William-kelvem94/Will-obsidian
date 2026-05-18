@@ -1,0 +1,13 @@
+---
+created: ''
+description: ''
+embedding_ignore: false
+id: Conhecimento-Geral/Linguistica/Linguistica-e-Semiotica.md
+publish: false
+status: draft
+tags: []
+title: Linguistica-e-Semiotica
+type: note
+updated: ''
+---
+

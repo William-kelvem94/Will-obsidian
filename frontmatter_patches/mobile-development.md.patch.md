@@ -1,0 +1,13 @@
+---
+created: ''
+description: ''
+embedding_ignore: false
+id: skills/02-software-engineering/mobile-development.md
+publish: false
+status: draft
+tags: []
+title: mobile-development
+type: note
+updated: ''
+---
+

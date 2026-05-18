@@ -1,0 +1,13 @@
+---
+created: ''
+description: ''
+embedding_ignore: false
+id: Will-obsidian/Templates/Skill-Template.md
+publish: false
+status: draft
+tags: []
+title: Skill-Template
+type: note
+updated: ''
+---
+

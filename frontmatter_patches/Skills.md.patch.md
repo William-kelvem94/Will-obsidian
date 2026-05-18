@@ -1,0 +1,13 @@
+---
+created: ''
+description: ''
+embedding_ignore: false
+id: 01-Identidade/Perfil/Skills.md
+publish: false
+status: draft
+tags: []
+title: Skills
+type: note
+updated: ''
+---
+

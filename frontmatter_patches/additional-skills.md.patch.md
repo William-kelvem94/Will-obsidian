@@ -1,0 +1,13 @@
+---
+created: ''
+description: ''
+embedding_ignore: false
+id: firebase-basics/references/additional-skills.md
+publish: false
+status: draft
+tags: []
+title: additional-skills
+type: note
+updated: ''
+---
+
