@@ -1,55 +1,155 @@
 ---
-title: "Software Engineering & Architecture - Index"
-description: "Hub principal da engenharia de software avançada. Arquitetura backend, bancos de dados vetoriais, testes e qualidade."
-tags: [software-engineering, index, hub, skills-eng]
-date: 2026-04-27
+tags: [software-engineering, index, hub, skills-eng, taxonomy]
 updated: 2026-05-16
+title: "Software Engineering & Architecture - Index"
 ---
 
 # Software Engineering & Architecture
 
-Bem-vindo ao braço de Engenharia do Segundo Cérebro. Aqui a profundidade técnica vai além do superficial — desde padrões arquiteturais de sistemas distribuídos até a engenharia interna de bancos de dados relacionais com extensões vetoriais para IA.
+Hub central da engenharia de software do JARVIS. Este dominio cobre desde fundamentos de desenvolvimento full-stack ate arquitetura de sistemas distribuidos em escala de producao. Cada nota e autocontida, com exemplos praticos e referencias cruzadas para navegacao eficiente.
 
-## Notas ativas
+## Taxonomia Completa
 
-### [[advanced-backend-architecture|Arquitetura Backend Avançada]]
-Guia profundo sobre padrões de design avançados em Python e TypeScript para construção de serviços massivos e orquestradores de IA. Aborda microservices vs. monólitos (incluindo o _Strangler Fig Pattern_ para migração), arquitetura _event-driven_ (RabbitMQ, Kafka, Redis Streams), CQRS e _Event Sourcing_, API Gateways e _Service Mesh_ (Consul, Envoy), padrões de banco de dados (_read replicas_, _sharding_), estratégias de cache multi-camada (L1 RAM, L2 Redis, L3 CDN), observabilidade (logs estruturados com structlog, métricas Prometheus, tracing OpenTelemetry), filas de tarefas (Celery), e padrões de resiliência (_Circuit Breaker_, _Bulkhead_). Cada seção inclui código funcional em Python e TypeScript. A nota é a referência arquitetural central para construir o backend do JARVIS e qualquer sistema de IA em produção.
+```
+02-software-engineering/
+├── INDEX.md ....................... Hub central (voce esta aqui)
+├── backend.md ..................... Fundamentos de backend (FastAPI, Node.js)
+├── frontend.md .................... Fundamentos de frontend (Next.js, React)
+├── database.md .................... Bancos de dados relacionais e NoSQL
+├── api-design.md .................. Design de APIs (REST, GraphQL, gRPC)
+├── performance.md ................. Engenharia de performance
+├── advanced-backend-architecture.md  Arquitetura backend avancada
+├── seguranca/
+│   ├── INDEX.md ................... Hub de seguranca
+│   ├── owasp-top-10.md ............ OWASP Top 10 2026
+│   ├── prompt-injection-defense.md  Defesas contra injecao de prompt
+│   ├── secrets-management.md ...... Gerenciamento de segredos
+│   ├── secure-coding.md ........... Codigo seguro (SAST, DAST)
+│   └── supply-chain-security.md ... Seguranca da cadeia de suprimentos
+├── testing/
+│   └── SKILL.md ................... Estrategias de teste full-stack
+└── Bancos-de-Dados/
+    └── PostgreSQL-Advanced.md ..... PostgreSQL avancado + pgvector
+```
 
-### [[Bancos-de-Dados/PostgreSQL-Advanced|PostgreSQL Avançado]]
-Um tratado exaustivo sobre a engenharia interna do PostgreSQL — o banco de dados que se tornou a plataforma dominante para IA relacional + vetorial. Aborda: arquitetura _process-per-connection_ (Postmaster, _fork_, PgBouncer), MVCC e gerenciamento de concorrência (_dead tuples_, `xmin`/`xmax`, Autovacuum), Write-Ahead Log (WAL) e _crash recovery_, indexação algorítmica (B-Tree, GIN, BRIN, _partial indexes_, _covering indexes_), CTEs recursivas para dados hierárquicos, _Window Functions_ para análises temporais, _Full Text Search_ (tsvector/tsquery) com stemming em português, JSONB e operações NoSQL híbridas, e a revolução pgvector (HNSW, IVFFlat) para RAG. A nota termina com _tuning_ avançado (EXPLAIN ANALYZE, work_mem, hash vs. nested loop joins) e replicação lógica.
+## Notas Ativas
 
-### [[testing/SKILL.md|Testing Architecture]]
-Guia completo de estratégias de teste para aplicações _full-stack_, do unitário ao E2E. Aborda a pirâmide de testes, padrões AAA (_Arrange-Act-Assert_) e BDD (_Given-When-Then_), boas práticas de fixtures e factories, e configuração de CI/CD com GitHub Actions para execução automática. Cobre ferramentas específicas: pytest e httpx para Python (FastAPI), Jest e Testing Library para TypeScript (Next.js), e Playwright para testes E2E. Inclui também o que testar (lógica de negócio, bordas, tratamento de erros) e o que não testar (bibliotecas de terceiros, detalhes de implementação, código trivial). A nota serve como _playbook_ de qualidade para todo o ecossistema JARVIS.
+### [[backend|Backend Fundamentals]]
+Fundamentos de desenvolvimento backend com Python (FastAPI) e Node.js (Express/NestJS). Cobre roteamento, middleware, validacao de entrada, tratamento de erros, logging estruturado, e padroes de organizacao de codigo (controllers, services, repositories). Inclue exemplos de autenticacao JWT, upload de arquivos, e integracao com bancos de dados.
 
-### [[INDEX|Este Índice]]
-O hub central da engenharia de software. Use este índice como ponto de partida para navegar entre arquitetura, bancos de dados e testes.
+### [[frontend|Frontend Fundamentals]]
+Desenvolvimento frontend moderno com Next.js, React e TypeScript. Aborda Server Components, Server Actions, roteamento por App Router, gestao de estado (Zustand, React Query), otimizacao de performance (lazy loading, code splitting), e acessibilidade. Inclui padroes de composicao de componentes e integracao com APIs backend.
 
-## Domínios cobertos
+### [[database|Database Fundamentals]]
+Modelagem de dados, SQL avancado, e comparativo entre bancos relacionais (PostgreSQL, MySQL) e NoSQL (MongoDB, Redis, DynamoDB). Cobre indices, transacoes ACID, normalizacao, e padroes de migracao de schema. Base para entender escolhas arquiteturais de persistencia.
 
-| Domínio | Nota principal | Tecnologias |
+### [[api-design|API Design]]
+Design de APIs com abordagem contract-first. Cobre OpenAPI 3.x, REST vs GraphQL vs gRPC, versionamento, padroes de erro (RFC 7807), rate limiting, paginacao, autenticacao (OAuth2, JWT, API keys), idempotencia, e documentacao-as-code. Referencia para construir APIs consistentes e bem documentadas.
+
+### [[performance|Performance Engineering]]
+Engenharia de performance full-stack. Cobre profiling (cProfile, Chrome DevTools), otimizacao de queries, caching strategies (Redis, CDN), load testing (k6, Locust), monitoring (OpenTelemetry, Datadog), e budgets de performance. Guia para identificar e resolver gargalos em producao.
+
+### [[advanced-backend-architecture|Advanced Backend Architecture]]
+Arquitetura backend avancada para sistemas distribuidos. Cobre microservices vs monolitos, event-driven architecture (RabbitMQ, Kafka, Redis Streams), CQRS e Event Sourcing, API Gateways, Service Mesh, estrategias de cache multi-camada, observabilidade (Prometheus, OpenTelemetry), filas de tarefas (Celery), e padroes de resiliencia (Circuit Breaker, Bulkhead).
+
+### [[Bancos-de-Dados/PostgreSQL-Advanced|PostgreSQL Avancado]]
+Tratado exaustivo sobre PostgreSQL com extensao pgvector para IA. Cobre arquitetura interna (MVCC, WAL, Postmaster), indexacao algoritmica (B-Tree, GIN, BRIN, HNSW), CTEs recursivas, Window Functions, Full Text Search, JSONB, e tuning avancado (EXPLAIN ANALYZE, work_mem). Referencia para RAG e buscas vetoriais.
+
+### [[seguranca/INDEX|Seguranca]]
+Hub de seguranca aplicacional. Cobre OWASP Top 10, defesas contra prompt injection, gerenciamento de segredos (Vault, SOPS), secure coding (SAST/DAST), e seguranca da cadeia de suprimentos (SBOM, supply chain attacks). Essencial para hardening de sistemas em producao.
+
+### [[testing/SKILL|Testing Architecture]]
+Estrategias de teste full-stack. Cobre piramide de testes, pytest (Python), Jest (TypeScript), Playwright (E2E), fixtures, factories, BDD, e CI/CD com GitHub Actions. Playbook de qualidade para o ecossistema JARVIS.
+
+## Guia de Navegacao
+
+### Iniciante -> Avancado
+
+```
+Iniciante:
+  backend.md -> database.md -> frontend.md
+     |              |              |
+     v              v              v
+Intermediario:
+  api-design.md -> testing/SKILL.md -> seguranca/INDEX.md
+     |                    |                  |
+     v                    v                  v
+Avancado:
+  advanced-backend-architecture.md -> Bancos-de-Dados/PostgreSQL-Advanced.md
+     |
+     v
+Especialista:
+  performance.md + seguranca/supply-chain-security.md
+```
+
+### Por Trilha de Aprendizado
+
+| Trilha | Sequencia | Objetivo |
 |---|---|---|
-| Arquitetura de sistemas | [[advanced-backend-architecture]] | Python, TypeScript, RabbitMQ, Kafka, Redis |
-| Bancos de dados | [[Bancos-de-Dados/PostgreSQL-Advanced]] | PostgreSQL, pgvector, SQL, PL/pgSQL |
-| Qualidade de software | [[testing/SKILL.md]] | pytest, Jest, Playwright, Vitest |
+| Backend Developer | [[backend]] -> [[database]] -> [[api-design]] -> [[advanced-backend-architecture]] | Construir APIs robustas |
+| Full-Stack Developer | [[backend]] -> [[frontend]] -> [[database]] -> [[testing/SKILL]] | Desenvolver aplicacoes completas |
+| Data Engineer | [[database]] -> [[Bancos-de-Dados/PostgreSQL-Advanced]] -> [[performance]] | Otimizar camada de dados |
+| Security Engineer | [[seguranca/INDEX]] -> [[seguranca/owasp-top-10]] -> [[seguranca/secure-coding]] -> [[seguranca/supply-chain-security]] | Hardening de sistemas |
+| SRE / Platform | [[advanced-backend-architecture]] -> [[performance]] -> [[testing/SKILL]] -> [[seguranca/secrets-management]] | Operar em escala |
+| AI Engineer | [[Bancos-de-Dados/PostgreSQL-Advanced]] -> [[advanced-backend-architecture]] -> [[seguranca/prompt-injection-defense]] | Sistemas de IA em producao |
 
-## Roteiro de estudo
+## Referencias Cruzadas
 
-1. **Fundação arquitetural** — Estude [[advanced-backend-architecture|Arquitetura Backend Avançada]] para entender os padrões que sustentam sistemas distribuídos de IA.
-2. **Persistência inteligente** — Mergulhe em [[Bancos-de-Dados/PostgreSQL-Advanced|PostgreSQL Avançado]] para dominar a camada de dados, especialmente pgvector para RAG.
-3. **Qualidade e confiabilidade** — Finalize com [[testing/SKILL.md|Testing Architecture]] para garantir que tudo o que você constrói seja testável e resiliente.
+### Outros Dominios de Skills
 
-## Princípios de engenharia adotados
+| Dominio | Notas Relevantes | Conexao |
+|---|---|---|
+| [[../01-agentic-intelligence/INDEX|Agentic Intelligence]] | Agentes autonomos, LLM orchestration | Backend de agentes usa padroes deste dominio |
+| [[../03-infrastructure-mcp/INDEX|Infrastructure & MCP]] | MCP servers, monitoring, local LLM ops | Infraestrutura que suporta o software |
+| [[../04-knowledge-systems/INDEX|Knowledge Systems]] | Obsidian vaults, RAG pipelines | Conhecimento gerado por este dominio |
+| [[../devops/Observabilidade|Observabilidade]] | Logging, metrics, tracing | Complementa advanced-backend-architecture |
+| [[../devops/ci-cd|CI/CD]] | Pipelines de deploy | Integra com testing/SKILL.md |
+| [[../data-engineering/INDEX|Data Engineering]] | ETL, streaming, data pipelines | Usa database.md e performance.md |
+| [[../frontend/INDEX|Frontend Skills]] | React patterns, state management | Complementa frontend.md |
 
-- **Composição sobre herança** — Sistemas modulares com interfaces bem definidas.
-- **Observabilidade primeiro** — Logs, métricas e tracing não são opcionais; são requisitos.
-- **Resiliência por design** — _Circuit breakers_, _retries_ com _backoff_, _bulkheads_.
-- **Dados como produto** — Cada serviço é dono dos seus dados e os expõe via API.
-- **Privacidade embedded** — _Privacy by design_ em cada camada da arquitetura.
+### Conhecimento Geral
 
-## Pré-requisitos recomendados
+| Nota | Conexao |
+|---|---|
+| [[../../Conhecimento-Geral/Computacao/Algoritmos-e-Estruturas|Algoritmos e Estruturas]] | Base para decisoes de performance |
+| [[../../Conhecimento-Geral/Computacao/Ciencia-da-Computacao|Ciencia da Computacao]] | Fundamentos teoricos |
+| [[../../Conhecimento-Geral/Computacao/NLP-Fundamentos|NLP Fundamentos]] | Para integracao com IA |
 
-- [[Conhecimento-Geral/Matematica/Algebra-Linear-Essencial|Álgebra Linear Essencial]] — Para entender embeddings e operações vetoriais.
-- [[Conhecimento-Geral/Matematica/Probabilidade-e-Estatistica|Probabilidade e Estatística]] — Para métricas, benchmarks e testes A/B.
-- [[skills/04-knowledge-systems/obsidian-neural-vault|Obsidian Neural Vault]] — Para entender o contexto dos sistemas sendo construídos.
+## Principios de Engenharia
 
-## Áreas relacionadas
+- **Composicao sobre heranca** — Sistemas modulares com interfaces bem definidas
+- **Observabilidade primeiro** — Logs, metricas e tracing sao requisitos, nao opcionais
+- **Resiliencia por design** — Circuit breakers, retries com backoff, bulkheads
+- **Dados como produto** — Cada servico e dono dos seus dados e os expoe via API
+- **Privacidade embedded** — Privacy by design em cada camada
+- **Contract-first** — APIs definidas antes da implementacao (OpenAPI, protobuf)
+- **Fail fast, recover faster** — Detecao rapida de falhas com recuperacao automatica
+
+## Pre-requisitos Recomendados
+
+- [[../../Conhecimento-Geral/Matematica/Algebra-Linear-Essencial|Algebra Linear Essencial]] — Para embeddings e operacoes vetoriais
+- [[../../Conhecimento-Geral/Matematica/Probabilidade-e-Estatistica|Probabilidade e Estatistica]] — Para metricas, benchmarks e testes A/B
+- [[../04-knowledge-systems/obsidian-neural-vault|Obsidian Neural Vault]] — Contexto dos sistemas sendo construidos
+- [[../01-agentic-intelligence/agent-architectures|Agent Architectures]] — Para entender agentes que consomem estas APIs
+
+## Como Usar Este Hub
+
+1. **Identifique sua trilha** na tabela acima
+2. **Siga a sequencia** de notas na ordem recomendada
+3. **Use as referencias cruzadas** para aprofundar em topicos relacionados
+4. **Consulte os principios** ao tomar decisoes arquiteturais
+5. **Contribua** adicionando exemplos praticos e atualizando referencias
+
+## Status do Dominio
+
+| Area | Cobertura | Ultima Atualizacao |
+|---|---|---|
+| Backend | Completa | 2026-05-16 |
+| Frontend | Completa | 2026-05-16 |
+| Database | Completa | 2026-05-16 |
+| API Design | Nova | 2026-05-16 |
+| Performance | Nova | 2026-05-16 |
+| Arquitetura Avancada | Completa | 2026-05-16 |
+| PostgreSQL Avancado | Completa | 2026-05-16 |
+| Seguranca | Completa | 2026-05-16 |
+| Testing | Completa | 2026-05-16 |
