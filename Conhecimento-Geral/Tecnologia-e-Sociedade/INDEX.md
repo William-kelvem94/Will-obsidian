@@ -46,6 +46,23 @@ Para um agente de IA, compreender o impacto social da tecnologia é essencial po
 **Tópicos cobertos (~1300+ linhas):**
 
 - **Definição e escopo**: características distintivas vs. vigilância tradicional, definição operacional
+
+### [[Conhecimento-Geral/Tecnologia-e-Sociedade/SHAP-LIME-COMPAS-Tutorial]]
+
+**SHAP e LIME no COMPAS** — tutorial prático de explicabilidade e fairness em machine learning.
+
+**Tópicos cobertos (~800+ linhas):**
+
+- **Introdução teórica**: SHAP (Shapley Additive exPlanations), LIME (Local Interpretable Model-agnostic Explanations), fairness em ML
+- **Carga do dataset COMPAS**: via aif360, download manual ProPublica e Kaggle
+- **Treinamento de classificadores**: LogisticRegression e RandomForest para predizer reincidência criminal
+- **SHAP aplicado**: summary plot, force plot, dependence plot, waterfall plot com interpretação em Português Brasileiro
+- **LIME aplicado**: explicação de predição individual, comparação SHAP vs. LIME
+- **Métricas de fairness**: Disparate Impact Ratio (regra dos 80%), Equal Opportunity Difference, Predictive Parity
+- **Discussão crítica**: o que as explicações revelam sobre viés racial no COMPAS, limitações da abordagem
+- **Troubleshooting**: erros comuns e soluções
+- **Datasets alternativos**: Adult Income, German Credit, Bank Marketing
+- **Adaptação para outros modelos**: XGBoost, Redes Neurais, SVM
 - **História e evolução**: pré-história (século XIX), computação e burocracia (1950–1970), scoring (1980–1990), rastreamento digital (2000), big data e ML (2010), IA generativa (2020)
 - **Métodos e técnicas**: tracking (cookies, fingerprinting), profiling (inferência demográfica, psicográfica), scoring (crédito, seguro, emprego), classificação, predição, reconhecimento biométrico
 - **Capitalismo de Vigilância (Zuboff)**: excedente comportamental, mercados de futuros comportamentais, meios de modificação comportamental

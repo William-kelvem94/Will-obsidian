@@ -13,6 +13,7 @@ Fundamentação do pensamento crítico e da compreensão da existência.
 | Nota | Descrição |
 |------|-----------|
 | [[Conhecimento-Geral/Filosofia/Conceitos-Fundamentais\|Conceitos Fundamentais]] | Epistemologia, ontologia, metafísica e lógica — as bases do pensamento filosófico |
+| [[Conhecimento-Geral/Filosofia/Metafisica\|Metafísica]] | O ser enquanto ser, substância, causalidade, potência e ato — de Aristóteles à metafísica informacional (~1006 linhas) |
 | [[Conhecimento-Geral/Filosofia/Filosofia-da-Mente\|Filosofia da Mente]] | O problema difícil da consciência (Hard Problem), dualismo vs. materialismo, identidade mente-cérebro |
 | [[Conhecimento-Geral/Filosofia/Chinese-Room\|Chinese Room]] | O Argumento do Quarto Chinês de Searle contra a possibilidade de IA forte |
 | [[Conhecimento-Geral/Filosofia/Problema-do-Controle\|Problema do Controle]] | Como garantir que sistemas de IA superinteligentes ajam de acordo com os valores humanos |

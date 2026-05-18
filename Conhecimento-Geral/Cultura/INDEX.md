@@ -14,6 +14,9 @@ A bagagem coletiva da experiência humana ao longo do tempo — das primeiras tr
 ### [[Conhecimento-Geral/Cultura/Cultura-Sociologia\|Cultura e Sociologia]]
 Explora a relação entre cultura, identidade e estrutura social. A nota cobre as teorias clássicas da sociologia — Durkheim (fatos sociais, solidariedade mecânica e orgânica), Weber (ação social, burocracia, desencantamento do mundo) e Bourdieu (capital cultural, _habitus_, campos sociais) — e suas aplicações contemporâneas. Discute como a globalização e a internet transformaram a produção e o consumo cultural, a formação de identidades em redes sociais digitais e o conceito de "cultura digital" como um novo estrato da experiência humana. Relevante para IA: como modelos de linguagem incorporam e reproduzem estruturas culturais, e o problema do viés cultural em datasets de treinamento.
 
+### [[Conhecimento-Geral/Cultura/Astrologia\|Astrologia]]
+Análise crítica e antropológica da astrologia: história (Babilônia, Ptolomeu, Renascença), fundamentos técnicos (signos, planetas, casas, aspectos), relação com astronomia, status científico (Carlson 1985, Dean & Kelly), perspectiva junguiana (arquétipos, sincronicidade), e seu papel cultural na contemporaneidade (~1033 linhas).
+
 ## Tópicos futuros planejados
 
 ### Sociologia e Estruturas Sociais

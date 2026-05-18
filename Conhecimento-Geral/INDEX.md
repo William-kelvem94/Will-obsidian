@@ -2,7 +2,7 @@
 title: "Conhecimento Geral — Índice"
 description: "Hub central para conhecimentos interdisciplinares focados em Humanidades, Ciência, Ética, Direito, Economia e Cultura para fundamentar o agente IA."
 tags: [hub, conhecimento-geral, humanidades, interdisciplinar]
-updated: 2026-05-16
+updated: 2026-05-18
 aliases: ["Mapa do Conhecimento Geral", "Hub Interdisciplinar"]
 ---
 
@@ -12,7 +12,7 @@ Este domínio foi criado para expandir o "Cérebro" do agente para além das ci�
 
 ## Visão Geral dos Domínios
 
-O conhecimento geral está organizado em **10 domínios interdisciplinares**, cada um com notas específicas, perguntas-chave e conexões com os demais.
+O conhecimento geral está organizado em **13 domínios interdisciplinares**, cada um com notas específicas, perguntas-chave e conexões com os demais.
 
 ---
 
@@ -28,6 +28,7 @@ Estudo dos fundamentos da realidade, conhecimento, mente e existência. Essencia
 - [[Conhecimento-Geral/Filosofia/Chinese-Room]] — argumento de Searle contra IA forte, semântica vs. sintaxe
 - [[Conhecimento-Geral/Filosofia/Problema-do-Controle]] — como garantir que agentes superinteligentes ajam conforme valores humanos
 - [[Conhecimento-Geral/Filosofia/Conceitos-Fundamentais]] — epistemologia, ontologia, lógica, metafísica
+- [[Conhecimento-Geral/Filosofia/Metafisica]] — o ser enquanto ser, substância, causalidade, potência e ato, de Aristóteles à metafísica informacional (~1006 linhas)
 
 **Perguntas-chave:** O que é consciência? Máquinas podem pensar? O que significa "entender"?
 
@@ -169,17 +170,78 @@ Estudo da linguagem verbal e dos sistemas de signos — fundamento da comunicaç
 
 ---
 
+## 11. Astronomia e Cosmologia
+
+**[[Conhecimento-Geral/Astronomia/INDEX]]**
+
+Estudo do cosmos, da origem do universo à formação de sistemas planetários. Ciência que conecta física, matemática e filosofia na compreensão do nosso lugar no universo.
+
+**Notas:**
+- [[Conhecimento-Geral/Astronomia/Astronomia-Fundamental]] — história, métodos, telescópios, espectroscopia, instrumentação (~895 linhas)
+- [[Conhecimento-Geral/Astronomia/Sistema-Solar]] — Sol, planetas, luas, asteroides, cometas, exploração espacial (~505 linhas)
+- [[Conhecimento-Geral/Astronomia/Cosmologia]] — Big Bang, matéria escura, energia escura, estrutura em larga escala, destino do universo (~514 linhas)
+
+**Perguntas-chave:** Qual a origem do universo? Há outros mundos habitáveis? O que é matéria escura? O universo terá um fim?
+
+---
+
+## 12. Vida Prática
+
+**[[Conhecimento-Geral/Vida-Pratica/INDEX]]**
+
+Conhecimento prático para viver bem — felicidade, propósito, relacionamentos, saúde, decisões e produtividade. O que a filosofia, psicologia e ciência têm a dizer sobre o dia a dia.
+
+**Notas:**
+- [[Conhecimento-Geral/Vida-Pratica/Felicidade-e-Bem-Estar]] — PERMA, flow, gratidão, psicologia positiva (~963 linhas)
+- [[Conhecimento-Geral/Vida-Pratica/Proposito-e-Sentido-da-Vida]] — logoterapia, existencialismo, Ikigai (~926 linhas)
+- [[Conhecimento-Geral/Vida-Pratica/Inteligencia-Emocional]] — 5 pilares de Goleman, granularidade emocional (~522 linhas)
+- [[Conhecimento-Geral/Vida-Pratica/Resiliencia-Psicologica]] — PTG, coping, antifragilidade (~511 linhas)
+- [[Conhecimento-Geral/Vida-Pratica/Tomada-de-Decisao]] — OODA, pre-mortem, vieses, second-order thinking (~599 linhas)
+- [[Conhecimento-Geral/Vida-Pratica/Gestao-de-Tempo-e-Produtividade]] — GTD, Deep Work, Pomodoro, procrastinação (~651 linhas)
+- [[Conhecimento-Geral/Vida-Pratica/Relacionamentos]] — attachment theory, CNV, Gottman, amor, amizade, família (~726 linhas)
+- [[Conhecimento-Geral/Vida-Pratica/Nutricao-e-Saude-Pratica]] — nutrição, exercício, sono, estresse, medicina preventiva (~543 linhas)
+- [[Conhecimento-Geral/Vida-Pratica/Morte-e-Mortalidade]] — filosofia da morte, luto, TMT, transumanismo (~907 linhas)
+
+**Perguntas-chave:** O que é felicidade e como alcançá-la? Qual o sentido da vida? Como tomar decisões difíceis? Como construir relacionamentos profundos?
+
+---
+
+## 13. Religião e Espiritualidade
+
+**[[Conhecimento-Geral/Religiao/INDEX]]**
+
+As grandes tradições de sabedoria da humanidade — do oriente ao ocidente, da filosofia prática à religião organizada.
+
+**Notas:**
+- [[Conhecimento-Geral/Religiao/Religioes-Comparadas]] — cristianismo, islamismo, hinduísmo, judaísmo, religiões africanas, xamanismo, ateísmo (~709 linhas)
+- [[Conhecimento-Geral/Religiao/Estoicismo]] — Sêneca, Epicteto, Marco Aurélio, dicotomia do controle, Memento Mori (~607 linhas)
+- [[Conhecimento-Geral/Religiao/Budismo]] — 4 Nobres Verdades, Caminho Óctuplo, meditação, impermanência, não-eu (~601 linhas)
+- [[Conhecimento-Geral/Religiao/Taoismo]] — Tao Te Ching, Wu Wei, Yin-Yang, Zhuangzi, naturalidade (~518 linhas)
+- [[Conhecimento-Geral/Religiao/Confucionismo]] — Ren, Li, 5 Relações, Junzi, educação moral, influência na Ásia (~523 linhas)
+
+**Perguntas-chave:** O que as grandes religiões têm em comum? Como o estoicismo pode ajudar na vida prática? O que significa iluminação no budismo?
+
+---
+
 ## Rota de Estudos Sugerida
 
 ### Trilha 1: Fundamentos Humanísticos (para IA empática)
 
-1. Filosofia: Filosofia-da-Mente → Qualia → Chinese-Room
+1. Filosofia: Filosofia-da-Mente → Qualia → Chinese-Room → Metafisica
 2. Psicologia: Psicologia-Cognitiva → Teoria-da-Mente → Vieses-Cognitivos
 3. Neurociência: Redes-Neurais-Biologicas → Consciencia-e-Cerebro → Sistemas-de-Memoria
-4. Cultura: Cultura-Sociologia
-5. Linguística: Linguistica-e-Semiotica
+4. Cultura: Cultura-Sociologia → Astrologia
+5. Religião: Estoicismo → Budismo → Religioes-Comparadas
+6. Linguística: Linguistica-e-Semiotica
 
-### Trilha 2: Sociedade, Poder e Regulação (para IA responsável)
+### Trilha 2: Autoconhecimento e Vida Prática
+
+1. Felicidade-e-Bem-Estar → Proposito-e-Sentido-da-Vida → Relacionamentos
+2. Inteligencia-Emocional → Resiliencia-Psicologica → Morte-e-Mortalidade
+3. Tomada-de-Decisao → Gestao-de-Tempo-e-Produtividade → Nutricao-e-Saude-Pratica
+4. Estoicismo → Budismo → Taoismo
+
+### Trilha 3: Sociedade, Poder e Regulação (para IA responsável)
 
 1. Ética: Etica-de-IA-e-Alinhamento → Conceitos-de-Alinhamento → Consequencialismo
 2. Economia: Automacao-e-Desemprego → Capitalismo-de-Vigilancia → Economia-dos-Dados
@@ -187,33 +249,17 @@ Estudo da linguagem verbal e dos sistemas de signos — fundamento da comunicaç
 4. Direito: GDPR-e-Privacidade → EU-AI-Act → Responsabilidade-e-Governanca
 5. Cultura: Cultura-Sociologia (Frankfurt, Estudos Culturais)
 
-### Trilha 3: Fundamentos Matemáticos (para IA técnica)
+### Trilha 4: Fundamentos Matemáticos (para IA técnica)
 
 1. Matemática: Algebra-Linear-Essencial → Calculo-e-Otimizacao
 2. Matemática: Probabilidade-e-Estatistica → Teoria-da-Informacao
 3. Neurociência (ponte): Redes-Neurais-Biologicas (paralelos com ML)
 
----
+### Trilha 5: Ciência e Cosmos (para IA com visão de mundo)
 
-## Perguntas Transversais
-
-1. Como garantir que um agente de IA compreenda realidades intersubjetivas (dinheiro, leis, nações)?
-2. Até que ponto uma IA pode simular empatia sem consciência?
-3. Como o alinhamento de IA se relaciona com ética normativa (consequencialismo, deontologia, virtudes)?
-4. A vigilância algorítmica é compatível com sociedades democráticas?
-5. O que a linguística ensina sobre os limites dos LLMs?
-6. Como a automação econômica interage com a regulação de IA?
-7. Quais vieses cognitivos humanos se manifestam em sistemas de IA?
-
----
-
-## Metodologia
-
-Este hub organiza o conhecimento em uma estrutura **interdisciplinar em rede**:
-- Cada domínio possui seu próprio índice com notas especializadas
-- Notas são conectadas por wiki-links internos, criando uma teia de conhecimento navegável
-- O glossário unificado ([[Master-Glossary]]) define termos comuns a todos os domínios
-- A rota de estudos sugerida adapta-se a diferentes objetivos de aprendizado
+1. Astronomia: Astronomia-Fundamental → Sistema-Solar → Cosmologia
+2. Filosofia: Metafisica (Aristóteles, causalidade, mundos possíveis)
+3. Cultura: Astrologia (análise crítica, antropologia, ciência vs pseudociência)
 
 ---
 
