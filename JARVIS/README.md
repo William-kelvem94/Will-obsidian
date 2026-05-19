@@ -33,6 +33,7 @@ Esta pasta é o **Núcleo do Cérebro** do JARVIS. Reorganizado para uma arquite
 *O motor técnico e base de conhecimento.*
 - [[04-Engineering/Architecture/SegundoCerebro|System Architecture]] — Como o Jarvis é construído.
 - [[04-Engineering/Playbooks/Workflows-Praticos|Playbooks]] — Fluxos de trabalho testados para coding e automação.
+- [[04-Engineering/Codebase-Maps/INDEX|Codebase Maps]] — Mapas de repositórios para agentes de programação.
 - [[04-Engineering/Wiki/Conhecimento|Technical Wiki]] — Base de conhecimento técnica expandida.
 - [[04-Engineering/Architecture/Neural-Indexing|Neural Indexing]] — Como otimizar RAG para este vault.
 
@@ -41,6 +42,8 @@ Esta pasta é o **Núcleo do Cérebro** do JARVIS. Reorganizado para uma arquite
 - [[05-System/Evolution/INDEX|Learning Base]] — Novos padrões e conhecimentos adquiridos.
 - [[05-System/Blueprints/INDEX|Mind Templates]] — Modelos para captura e estruturação de dados.
 - [[05-System/Maps/INDEX|Nexus Map]] — Visão geral da conexão entre todos os arquivos.
+- [[05-System/Guides/INDEX|System Guides]] — Governança operacional para agentes e melhorias.
+- [[05-System/Improvements/INDEX|Improvement Queue]] — Sugestões automáticas pendentes de revisão.
 
 ---
 
@@ -50,6 +53,7 @@ Qualquer IA operando neste diretório deve seguir o fluxo:
 2. Ler `02-Operational/Context/` para entender o foco.
 3. Carregar o Sub-Persona apropriado em `01-Identity/Persona/Task-Subroutines.md`.
 4. Consultar `04-Engineering/Playbooks/` para executar ações padronizadas.
+5. Seguir `05-System/AGENT-CONTRACT.md` antes de escrever no vault.
 
 ---
 *Mantenha o cérebro limpo. Evolua sempre.*

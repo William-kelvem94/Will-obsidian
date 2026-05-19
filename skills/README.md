@@ -88,6 +88,15 @@ skills/
 
 As categorias nao sao isoladas — skills se complementam:
 
+## Skills para Agentes e Memoria
+
+- [[skills/01-agentic-intelligence/context-engineering-checklist|Context Engineering Checklist]]
+- [[skills/01-agentic-intelligence/response-evaluation-rubric|Response Evaluation Rubric]]
+- [[skills/01-agentic-intelligence/human-agent-collaboration-loop|Human-Agent Collaboration Loop]]
+- [[skills/04-knowledge-systems/rag-friendly-note-design|RAG-Friendly Note Design]]
+- [[skills/04-knowledge-systems/memory-curation-for-agents|Memory Curation for Agents]]
+- [[skills/frontend/INDEX-Addon|Frontend Agent Playbooks]]
+
 - **Backend + Database + MLOps** = Pipeline de dados para RAG
 - **Engenharia de Prompts + Knowledge Systems** = Agente RAG completo
 - **Kubernetes + Observabilidade + FinOps** = Infraestrutura sustentavel

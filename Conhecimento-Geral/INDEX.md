@@ -14,6 +14,9 @@ Este domínio foi criado para expandir o "Cérebro" do agente para além das ci�
 
 O conhecimento geral está organizado em **13 domínios interdisciplinares**, cada um com notas específicas, perguntas-chave e conexões com os demais.
 
+### [[Conhecimento-Geral/IA-para-Programacao/INDEX|IA para Programacao]]
+Conhecimento operacional sobre agentes de programacao, engenharia de contexto, memoria externa, notas RAG-friendly e avaliacao de respostas de IA. Serve como base comum para JARVIS, modelos locais e assistentes de codigo.
+
 ---
 
 ## 1. Filosofia e Pensamento Crítico

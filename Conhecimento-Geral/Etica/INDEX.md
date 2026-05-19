@@ -19,6 +19,19 @@ O estudo de como devemos agir e tomar decisões.
 | [[Conhecimento-Geral/Etica/Etica-das-Virtudes\|Ética das Virtudes]] | Aristóteles, caráter moral, flourishing humano e aplicações na liderança ética |
 | [[Conhecimento-Geral/Etica/Transparencia-Algoritmica\|Transparência Algorítmica]] | Explainability, accountability, viés em modelos e governança de algoritmos |
 
+## Ética para Agentes (Pacote Adicional)
+
+| Nota | Descrição |
+|------|-----------|
+| [[Conhecimento-Geral/Etica/Auditoria-de-Agentes-e-Evidencias\|Auditoria de Agentes e Evidências]] | Framework de auditoria para sistemas autônomos |
+| [[Conhecimento-Geral/Etica/Limites-de-Automacao-e-Consentimento\|Limites de Automação e Consentimento]] | Quando automatizar e como obter consentimento informado |
+| [[Conhecimento-Geral/Etica/Minimizacao-de-Dados-para-RAG-e-Agentes\|Minimização de Dados para RAG]] | Coleta mínima necessária em sistemas de recuperação |
+| [[Conhecimento-Geral/Etica/Politica-de-Logs-para-Agentes\|Política de Logs para Agentes]] | Registro ético e retenção de interações de agentes |
+| [[Conhecimento-Geral/Etica/Privacidade-by-Default-para-Agentes\|Privacidade by Default]] | Design de agentes com privacidade incorporada |
+| [[Conhecimento-Geral/Etica/Seguranca-vs-Utilidade-Tradeoffs\|Segurança vs Utilidade]] | Tradeoffs entre segurança e funcionalidade em agentes |
+| [[Conhecimento-Geral/Etica/Transparencia-de-Decisao-e-Rastreabilidade\|Transparência e Rastreabilidade]] | Decisões auditáveis e rastreáveis em sistemas de IA |
+| [[Conhecimento-Geral/Etica/Vies-de-Poder-e-Assimetria\|Viés de Poder e Assimetria]] | Assimetrias de poder em interações humano-agente |
+
 ## Conexões com outras áreas
 
 - [[Conhecimento-Geral/Filosofia/INDEX\|Filosofia]] — Fundamentos ontológicos e epistemológicos da moral

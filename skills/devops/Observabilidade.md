@@ -266,3 +266,14 @@ with tracer.start_as_current_span("query-rag") as span:
 - [[skills/devops/FinOps|FinOps]] — Custo por metrica e economia otimizada
 - [[skills/ai/MLOps|MLOps]] — Monitoramento de drift e qualidade de modelo
 - [[skills/03-infrastructure-mcp/advanced-mcp-integrations|MCP Avancado]] — Monitoramento de servidores MCP
+## Notas Praticas (Agentes)
+
+- [[observability-practical|Observability Practical]]
+- [[logging-practical|Logging Practical]]
+- [[metrics-practical|Metrics Practical]]
+- [[tracing-practical|Tracing Practical]]
+- [[slo-sli-sla-basics|SLO/SLI/SLA Basics]]
+- [[incident-response-practical|Incident Response Practical]]
+- [[runbooks-for-agents|Runbooks for Agents]]
+- [[minimal-alerting-policy|Minimal Alerting Policy]]
+- [[opsec-minimum|OPSEC Minimum]]
