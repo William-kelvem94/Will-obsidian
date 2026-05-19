@@ -61,6 +61,13 @@ tR += okrOutput;
 - [ ] Movimento físico (≥ 20 min)
 - [ ] Telas desligadas 30 min antes de dormir
 
+## 🍅 Pomodoros do Dia
+
+- [ ] Projeto: 0 pomodoros #pomodoro
+- [ ] Projeto: 0 pomodoros #pomodoro
+- [ ] Projeto: 0 pomodoros #pomodoro
+- [ ] Projeto: 0 pomodoros #pomodoro
+
 ## 📝 O que aprendi hoje
 
 -
@@ -72,5 +79,9 @@ tR += okrOutput;
 ## → Ações
 
 -
+
+## 📊 Resumo do Dia
+- **Total Pomodoros:** `= sum(filter(file.lists, (x) => contains(x.tags, "pomodoro")).numerics)`
+- **Horas de Foco:** `= round(sum(filter(file.lists, (x) => contains(x.tags, "pomodoro")).numerics) * 25 / 60, 1)`
 
 <% tp.cursor %>
