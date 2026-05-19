@@ -1,0 +1,890 @@
+{
+  "last_run": "2026-05-19 10:34:52",
+  "skills": {
+    "01-agentic-intelligence/advanced-reasoning-patterns.md": {
+      "title": "Advanced Reasoning Patterns: ReAct, ToT, CoT e Reflexion",
+      "xp": 91,
+      "level": 1
+    },
+    "01-agentic-intelligence/advanced-workflows.md": {
+      "title": "Workflows Avançados — VS Code AI",
+      "xp": 57,
+      "level": 1
+    },
+    "01-agentic-intelligence/autonomous-workflow.md": {
+      "title": "Autonomous Agent Workflows (AAW)",
+      "xp": 105,
+      "level": 2
+    },
+    "01-agentic-intelligence/best-practices.md": {
+      "title": "Boas Praticas — Inteligencia Agentica",
+      "xp": 113,
+      "level": 2
+    },
+    "01-agentic-intelligence/direct-agent-prompts.md": {
+      "title": "Prompts Prontos para Agente de Chat Local",
+      "xp": 96,
+      "level": 1
+    },
+    "01-agentic-intelligence/INDEX.md": {
+      "title": "Indice de Inteligencia Agentica — JARVIS",
+      "xp": 623,
+      "level": 4
+    },
+    "01-agentic-intelligence/mcp-operators.md": {
+      "title": "Operadores MCP para Inteligencia Agentica",
+      "xp": 117,
+      "level": 2
+    },
+    "01-agentic-intelligence/mcp.md": {
+      "title": "MCP para VS Code AI",
+      "xp": 67,
+      "level": 1
+    },
+    "01-agentic-intelligence/memory-architectures.md": {
+      "title": "Arquitetura de Memoria para Agentes: Episodica, Semantica e Trabalho",
+      "xp": 103,
+      "level": 2
+    },
+    "01-agentic-intelligence/mini-agent.md": {
+      "title": "Mini-Agent de IA para VS Code",
+      "xp": 82,
+      "level": 1
+    },
+    "01-agentic-intelligence/multi-agent-consensus.md": {
+      "title": "Orquestracao e Consenso Multi-Agentes",
+      "xp": 82,
+      "level": 1
+    },
+    "01-agentic-intelligence/multi-agent-orchestration.md": {
+      "title": "Orquestracao Multi-Agente e Pipelines de Subagentes",
+      "xp": 112,
+      "level": 2
+    },
+    "01-agentic-intelligence/programador-pesquisador.agent.md": {
+      "title": "Programador e Pesquisador Agent",
+      "xp": 97,
+      "level": 1
+    },
+    "01-agentic-intelligence/programador.agent.md": {
+      "title": "Programador Agent",
+      "xp": 102,
+      "level": 2
+    },
+    "01-agentic-intelligence/project-jarvis-prompts.md": {
+      "title": "Prompts para PROJECT_JARVIS_5.0",
+      "xp": 91,
+      "level": 1
+    },
+    "01-agentic-intelligence/prompt-engineering/SKILL.md": {
+      "title": "Prompt Engineering",
+      "xp": 86,
+      "level": 1
+    },
+    "01-agentic-intelligence/prompts.md": {
+      "title": "Prompt Templates para VS Code AI",
+      "xp": 76,
+      "level": 1
+    },
+    "01-agentic-intelligence/quick-reference.md": {
+      "title": "Referencia Rapida — Inteligencia Agentica",
+      "xp": 149,
+      "level": 2
+    },
+    "01-agentic-intelligence/quick-start.md": {
+      "title": "Quick Start — VS Code AI",
+      "xp": 41,
+      "level": 1
+    },
+    "01-agentic-intelligence/README.md": {
+      "title": "Inteligencia Agentica — Hub de Skills JARVIS",
+      "xp": 560,
+      "level": 4
+    },
+    "01-agentic-intelligence/skills-categories.md": {
+      "title": "Categorias de Skills para IA",
+      "xp": 153,
+      "level": 2
+    },
+    "01-agentic-intelligence/templates.md": {
+      "title": "Templates de Prompt — VS Code AI",
+      "xp": 48,
+      "level": 1
+    },
+    "01-agentic-intelligence/use-cases.md": {
+      "title": "Casos de Uso — Inteligencia Agentica",
+      "xp": 98,
+      "level": 1
+    },
+    "02-software-engineering/advanced-backend-architecture.md": {
+      "title": "Arquitetura Backend Avançada (Python & TS)",
+      "xp": 138,
+      "level": 2
+    },
+    "02-software-engineering/algorithms-data-structures.md": {
+      "title": "Algoritmos e Estruturas de Dados Avancados",
+      "xp": 81,
+      "level": 1
+    },
+    "02-software-engineering/api-design.md": {
+      "title": "API Design - Contract-First API Development",
+      "xp": 114,
+      "level": 2
+    },
+    "02-software-engineering/architecture-patterns.md": {
+      "title": "Architecture Patterns - Software Architecture",
+      "xp": 100,
+      "level": 2
+    },
+    "02-software-engineering/backend.md": {
+      "title": "Backend Skills - FastAPI, Express, Autenticacao",
+      "xp": 148,
+      "level": 2
+    },
+    "02-software-engineering/Bancos-de-Dados/PostgreSQL-Advanced.md": {
+      "title": "PostgreSQL Avançado: A Arquitetura do Titã de Dados e a Revolução Vetorial em IA",
+      "xp": 86,
+      "level": 1
+    },
+    "02-software-engineering/cloud-architecture.md": {
+      "title": "Cloud Architecture",
+      "xp": 70,
+      "level": 1
+    },
+    "02-software-engineering/database.md": {
+      "title": "Database Skills - SQL, NoSQL, Otimizacao",
+      "xp": 110,
+      "level": 2
+    },
+    "02-software-engineering/design-patterns.md": {
+      "title": "Design Patterns - GoF Catalog",
+      "xp": 331,
+      "level": 3
+    },
+    "02-software-engineering/distributed-systems.md": {
+      "title": "Distributed Systems",
+      "xp": 70,
+      "level": 1
+    },
+    "02-software-engineering/frontend.md": {
+      "title": "Frontend Skills - React, Vue, Gerenciamento de Estado",
+      "xp": 109,
+      "level": 2
+    },
+    "02-software-engineering/INDEX.md": {
+      "title": "Software Engineering & Architecture - Index",
+      "xp": 668,
+      "level": 4
+    },
+    "02-software-engineering/mobile-development.md": {
+      "title": "Desenvolvimento Mobile - React Native, Flutter e Padroes Nativos",
+      "xp": 78,
+      "level": 1
+    },
+    "02-software-engineering/performance.md": {
+      "title": "Performance Engineering - Full-Stack Performance",
+      "xp": 112,
+      "level": 2
+    },
+    "02-software-engineering/README.md": {
+      "title": "Fullstack Skills",
+      "xp": 465,
+      "level": 3
+    },
+    "02-software-engineering/seguranca/INDEX.md": {
+      "title": "Seguranca da Informacao - Index",
+      "xp": 483,
+      "level": 3
+    },
+    "02-software-engineering/seguranca/owasp-top-10.md": {
+      "title": "OWASP Top 10 (2021)",
+      "xp": 98,
+      "level": 1
+    },
+    "02-software-engineering/seguranca/prompt-injection-defense.md": {
+      "title": "Prompt Injection Defense",
+      "xp": 94,
+      "level": 1
+    },
+    "02-software-engineering/seguranca/secrets-management.md": {
+      "title": "Secrets Management",
+      "xp": 98,
+      "level": 1
+    },
+    "02-software-engineering/seguranca/secure-coding.md": {
+      "title": "Secure Coding Practices",
+      "xp": 106,
+      "level": 2
+    },
+    "02-software-engineering/seguranca/supply-chain-security.md": {
+      "title": "Supply Chain Security",
+      "xp": 109,
+      "level": 2
+    },
+    "02-software-engineering/solid-clean-code.md": {
+      "title": "SOLID Principles and Clean Code",
+      "xp": 120,
+      "level": 2
+    },
+    "02-software-engineering/testing/SKILL.md": {
+      "title": "Testing Architecture",
+      "xp": 91,
+      "level": 1
+    },
+    "02-software-engineering/testing-advanced.md": {
+      "title": "Testing Advanced",
+      "xp": 79,
+      "level": 1
+    },
+    "02-software-engineering/typescript-advanced.md": {
+      "title": "TypeScript Avancado - Sistema de Tipos, Genericos e Programacao em Nivel de Tipo",
+      "xp": 75,
+      "level": 1
+    },
+    "02-software-engineering/web-advanced.md": {
+      "title": "Desenvolvimento Web Avancado - WebSockets, WebRTC, PWA, Performance e Seguranca",
+      "xp": 75,
+      "level": 1
+    },
+    "03-infrastructure-mcp/advanced-mcp-integrations.md": {
+      "title": "Integracoes MCP Avancadas e Infraestrutura Local de IA",
+      "xp": 82,
+      "level": 1
+    },
+    "03-infrastructure-mcp/local-llm-ops.md": {
+      "title": "Local LLM Operations (LLMOps)",
+      "xp": 98,
+      "level": 1
+    },
+    "03-infrastructure-mcp/mcp-servers.md": {
+      "title": "MCP Ecosystem & Servers",
+      "xp": 104,
+      "level": 2
+    },
+    "03-infrastructure-mcp/monitoring/SKILL.md": {
+      "title": "Application Monitoring",
+      "xp": 86,
+      "level": 1
+    },
+    "04-knowledge-systems/advanced-rag-strategies.md": {
+      "title": "Estratégias Avançadas de RAG (GraphRAG e Híbrido)",
+      "xp": 162,
+      "level": 2
+    },
+    "04-knowledge-systems/INDEX.md": {
+      "title": "Sistemas de Conhecimento e RAG Avancado",
+      "xp": 538,
+      "level": 4
+    },
+    "04-knowledge-systems/memory-management.md": {
+      "title": "Gestão de Memória Long-Term (LTM)",
+      "xp": 143,
+      "level": 2
+    },
+    "04-knowledge-systems/obsidian-neural-vault.md": {
+      "title": "Obsidian Neural Vault",
+      "xp": 140,
+      "level": 2
+    },
+    "04-knowledge-systems/rag-implementation/SKILL.md": {
+      "title": "RAG Implementation",
+      "xp": 91,
+      "level": 1
+    },
+    "ai/Computacao-Distribuida-e-Edge-AI.md": {
+      "title": "Computacao Distribuida E Edge Ai",
+      "xp": 58,
+      "level": 1
+    },
+    "ai/Computer-Vision.md": {
+      "title": "Computer Vision",
+      "xp": 70,
+      "level": 1
+    },
+    "ai/Engenharia-de-Prompts.md": {
+      "title": "Engenharia de Prompts",
+      "xp": 103,
+      "level": 2
+    },
+    "ai/Generative-Models.md": {
+      "title": "Generative Models",
+      "xp": 88,
+      "level": 1
+    },
+    "ai/INDEX.md": {
+      "title": "Index",
+      "xp": 494,
+      "level": 3
+    },
+    "ai/LLM-Fine-Tuning.md": {
+      "title": "LLM Fine-Tuning",
+      "xp": 81,
+      "level": 1
+    },
+    "ai/LLMOps.md": {
+      "title": "LLMOps",
+      "xp": 80,
+      "level": 1
+    },
+    "ai/Meta-Learning-e-AutoML.md": {
+      "title": "Meta Learning E Automl",
+      "xp": 53,
+      "level": 1
+    },
+    "ai/MLOps.md": {
+      "title": "MLOps",
+      "xp": 126,
+      "level": 2
+    },
+    "ai/Reinforcement-Learning.md": {
+      "title": "Reinforcement Learning",
+      "xp": 97,
+      "level": 1
+    },
+    "ai/XAI-Fairness-Accountability.md": {
+      "title": "Xai Fairness Accountability",
+      "xp": 58,
+      "level": 1
+    },
+    "alloydb-basics/references/cli-usage.md": {
+      "title": "Cli Usage",
+      "xp": 11,
+      "level": 1
+    },
+    "alloydb-basics/references/client-library-usage.md": {
+      "title": "Client Library Usage",
+      "xp": 50,
+      "level": 1
+    },
+    "alloydb-basics/references/core-concepts.md": {
+      "title": "Core Concepts",
+      "xp": 21,
+      "level": 1
+    },
+    "alloydb-basics/references/iac-usage.md": {
+      "title": "Iac Usage",
+      "xp": 32,
+      "level": 1
+    },
+    "alloydb-basics/references/iam-security.md": {
+      "title": "Iam Security",
+      "xp": 43,
+      "level": 1
+    },
+    "alloydb-basics/references/mcp-usage.md": {
+      "title": "Mcp Usage",
+      "xp": 13,
+      "level": 1
+    },
+    "alloydb-basics/SKILL.md": {
+      "title": "Skill",
+      "xp": 59,
+      "level": 1
+    },
+    "bigquery-basics/references/cli-usage.md": {
+      "title": "Cli Usage",
+      "xp": 20,
+      "level": 1
+    },
+    "bigquery-basics/references/client-library-usage.md": {
+      "title": "Client Library Usage",
+      "xp": 22,
+      "level": 1
+    },
+    "bigquery-basics/references/core-concepts.md": {
+      "title": "Core Concepts",
+      "xp": 34,
+      "level": 1
+    },
+    "bigquery-basics/references/iac-usage.md": {
+      "title": "Iac Usage",
+      "xp": 17,
+      "level": 1
+    },
+    "bigquery-basics/references/iam-security.md": {
+      "title": "Iam Security",
+      "xp": 19,
+      "level": 1
+    },
+    "bigquery-basics/references/mcp-usage.md": {
+      "title": "Mcp Usage",
+      "xp": 23,
+      "level": 1
+    },
+    "bigquery-basics/SKILL.md": {
+      "title": "Skill",
+      "xp": 83,
+      "level": 1
+    },
+    "cloud-run-basics/references/cli-usage.md": {
+      "title": "Cli Usage",
+      "xp": 24,
+      "level": 1
+    },
+    "cloud-run-basics/references/client-library-usage.md": {
+      "title": "Client Library Usage",
+      "xp": 34,
+      "level": 1
+    },
+    "cloud-run-basics/references/core-concepts.md": {
+      "title": "Core Concepts",
+      "xp": 50,
+      "level": 1
+    },
+    "cloud-run-basics/references/iac-usage.md": {
+      "title": "Iac Usage",
+      "xp": 20,
+      "level": 1
+    },
+    "cloud-run-basics/references/iam-security.md": {
+      "title": "Iam Security",
+      "xp": 39,
+      "level": 1
+    },
+    "cloud-run-basics/references/mcp-usage.md": {
+      "title": "Mcp Usage",
+      "xp": 19,
+      "level": 1
+    },
+    "cloud-run-basics/SKILL.md": {
+      "title": "Skill",
+      "xp": 86,
+      "level": 1
+    },
+    "cloud-sql-basics/references/cli-usage.md": {
+      "title": "Cli Usage",
+      "xp": 14,
+      "level": 1
+    },
+    "cloud-sql-basics/references/client-library-usage.md": {
+      "title": "Client Library Usage",
+      "xp": 29,
+      "level": 1
+    },
+    "cloud-sql-basics/references/core-concepts.md": {
+      "title": "Core Concepts",
+      "xp": 20,
+      "level": 1
+    },
+    "cloud-sql-basics/references/iac-usage.md": {
+      "title": "Iac Usage",
+      "xp": 12,
+      "level": 1
+    },
+    "cloud-sql-basics/references/iam-security.md": {
+      "title": "Iam Security",
+      "xp": 30,
+      "level": 1
+    },
+    "cloud-sql-basics/references/mcp-usage.md": {
+      "title": "Mcp Usage",
+      "xp": 25,
+      "level": 1
+    },
+    "cloud-sql-basics/SKILL.md": {
+      "title": "Skill",
+      "xp": 71,
+      "level": 1
+    },
+    "Data-Cleaning.md": {
+      "title": "Data Cleaning — Limpeza e Pré-processamento de Dados",
+      "xp": 172,
+      "level": 2
+    },
+    "data-engineering/etl-pipelines.md": {
+      "title": "ETL/ELT Pipelines - Data Pipeline Engineering",
+      "xp": 123,
+      "level": 2
+    },
+    "data-engineering/INDEX.md": {
+      "title": "Data Engineering - Index",
+      "xp": 548,
+      "level": 4
+    },
+    "data-engineering/streaming.md": {
+      "title": "Stream Processing - Real-Time Data Engineering",
+      "xp": 93,
+      "level": 1
+    },
+    "devops/ci-cd/environment-promotion.md": {
+      "title": "Environment Promotion",
+      "xp": 89,
+      "level": 1
+    },
+    "devops/ci-cd/github-actions.md": {
+      "title": "GitHub Actions",
+      "xp": 111,
+      "level": 2
+    },
+    "devops/ci-cd/INDEX.md": {
+      "title": "CI/CD e GitOps - Index",
+      "xp": 483,
+      "level": 3
+    },
+    "devops/ci-cd/semantic-release.md": {
+      "title": "Semantic Release",
+      "xp": 84,
+      "level": 1
+    },
+    "devops/FinOps.md": {
+      "title": "FinOps",
+      "xp": 104,
+      "level": 2
+    },
+    "devops/Kubernetes.md": {
+      "title": "Kubernetes",
+      "xp": 113,
+      "level": 2
+    },
+    "devops/Observabilidade.md": {
+      "title": "Observabilidade",
+      "xp": 146,
+      "level": 2
+    },
+    "Explainable-AI.md": {
+      "title": "Explainable AI (XAI)",
+      "xp": 92,
+      "level": 1
+    },
+    "firebase-basics/references/additional-skills.md": {
+      "title": "Additional Skills",
+      "xp": 50,
+      "level": 1
+    },
+    "firebase-basics/references/cli-usage.md": {
+      "title": "Cli Usage",
+      "xp": 9,
+      "level": 1
+    },
+    "firebase-basics/references/client-library-usage.md": {
+      "title": "Client Library Usage",
+      "xp": 17,
+      "level": 1
+    },
+    "firebase-basics/references/core-concepts.md": {
+      "title": "Core Concepts",
+      "xp": 28,
+      "level": 1
+    },
+    "firebase-basics/references/iac-usage.md": {
+      "title": "Iac Usage",
+      "xp": 13,
+      "level": 1
+    },
+    "firebase-basics/references/iam-security.md": {
+      "title": "Iam Security",
+      "xp": 31,
+      "level": 1
+    },
+    "firebase-basics/references/mcp-usage.md": {
+      "title": "Mcp Usage",
+      "xp": 17,
+      "level": 1
+    },
+    "firebase-basics/SKILL.md": {
+      "title": "Skill",
+      "xp": 68,
+      "level": 1
+    },
+    "frontend/Web-Components.md": {
+      "title": "Web Components",
+      "xp": 79,
+      "level": 1
+    },
+    "gemini-api/references/advanced_features.md": {
+      "title": "Advanced Features",
+      "xp": 44,
+      "level": 1
+    },
+    "gemini-api/references/bounding_box.md": {
+      "title": "Bounding Box",
+      "xp": 18,
+      "level": 1
+    },
+    "gemini-api/references/embeddings.md": {
+      "title": "Embeddings",
+      "xp": 30,
+      "level": 1
+    },
+    "gemini-api/references/live_api.md": {
+      "title": "Live Api",
+      "xp": 10,
+      "level": 1
+    },
+    "gemini-api/references/media_generation.md": {
+      "title": "Media Generation",
+      "xp": 30,
+      "level": 1
+    },
+    "gemini-api/references/model_tuning.md": {
+      "title": "Model Tuning",
+      "xp": 9,
+      "level": 1
+    },
+    "gemini-api/references/safety.md": {
+      "title": "Safety",
+      "xp": 18,
+      "level": 1
+    },
+    "gemini-api/references/structured_and_tools.md": {
+      "title": "Structured And Tools",
+      "xp": 37,
+      "level": 1
+    },
+    "gemini-api/references/text_and_multimodal.md": {
+      "title": "Text And Multimodal",
+      "xp": 23,
+      "level": 1
+    },
+    "gemini-api/SKILL.md": {
+      "title": "Skill",
+      "xp": 86,
+      "level": 1
+    },
+    "Gestao-de-Projetos.md": {
+      "title": "Gestão de Projetos — Metodologias Ágeis, Scrum, Kanban e Estratégia",
+      "xp": 115,
+      "level": 2
+    },
+    "gke-basics/references/cli-reference.md": {
+      "title": "Cli Reference",
+      "xp": 50,
+      "level": 1
+    },
+    "gke-basics/references/client-library-usage.md": {
+      "title": "Client Library Usage",
+      "xp": 23,
+      "level": 1
+    },
+    "gke-basics/references/core-concepts.md": {
+      "title": "Core Concepts",
+      "xp": 28,
+      "level": 1
+    },
+    "gke-basics/references/gke-app-onboarding.md": {
+      "title": "Gke App Onboarding",
+      "xp": 43,
+      "level": 1
+    },
+    "gke-basics/references/gke-backup-dr.md": {
+      "title": "Gke Backup Dr",
+      "xp": 24,
+      "level": 1
+    },
+    "gke-basics/references/gke-batch-hpc.md": {
+      "title": "Gke Batch Hpc",
+      "xp": 41,
+      "level": 1
+    },
+    "gke-basics/references/gke-cluster-creation.md": {
+      "title": "Gke Cluster Creation",
+      "xp": 50,
+      "level": 1
+    },
+    "gke-basics/references/gke-compute-classes.md": {
+      "title": "Gke Compute Classes",
+      "xp": 45,
+      "level": 1
+    },
+    "gke-basics/references/gke-cost.md": {
+      "title": "Gke Cost",
+      "xp": 50,
+      "level": 1
+    },
+    "gke-basics/references/gke-golden-path.md": {
+      "title": "Gke Golden Path",
+      "xp": 44,
+      "level": 1
+    },
+    "gke-basics/references/gke-inference.md": {
+      "title": "Gke Inference",
+      "xp": 50,
+      "level": 1
+    },
+    "gke-basics/references/gke-multitenancy.md": {
+      "title": "Gke Multitenancy",
+      "xp": 40,
+      "level": 1
+    },
+    "gke-basics/references/gke-networking.md": {
+      "title": "Gke Networking",
+      "xp": 50,
+      "level": 1
+    },
+    "gke-basics/references/gke-observability.md": {
+      "title": "Gke Observability",
+      "xp": 50,
+      "level": 1
+    },
+    "gke-basics/references/gke-reliability.md": {
+      "title": "Gke Reliability",
+      "xp": 50,
+      "level": 1
+    },
+    "gke-basics/references/gke-scaling.md": {
+      "title": "Gke Scaling",
+      "xp": 50,
+      "level": 1
+    },
+    "gke-basics/references/gke-security.md": {
+      "title": "Gke Security",
+      "xp": 50,
+      "level": 1
+    },
+    "gke-basics/references/gke-storage.md": {
+      "title": "Gke Storage",
+      "xp": 40,
+      "level": 1
+    },
+    "gke-basics/references/gke-upgrades.md": {
+      "title": "Gke Upgrades",
+      "xp": 50,
+      "level": 1
+    },
+    "gke-basics/references/iac-usage.md": {
+      "title": "Iac Usage",
+      "xp": 21,
+      "level": 1
+    },
+    "gke-basics/references/mcp-usage.md": {
+      "title": "Mcp Usage",
+      "xp": 30,
+      "level": 1
+    },
+    "gke-basics/SKILL.md": {
+      "title": "Skill",
+      "xp": 83,
+      "level": 1
+    },
+    "google-cloud-networking-observability/references/cloud-nat-analysis.md": {
+      "title": "Cloud Nat Analysis",
+      "xp": 27,
+      "level": 1
+    },
+    "google-cloud-networking-observability/references/connectivity-tests.md": {
+      "title": "Connectivity Tests",
+      "xp": 14,
+      "level": 1
+    },
+    "google-cloud-networking-observability/references/firewall-analysis.md": {
+      "title": "Firewall Analysis",
+      "xp": 30,
+      "level": 1
+    },
+    "google-cloud-networking-observability/references/mcp-usage.md": {
+      "title": "Mcp Usage",
+      "xp": 26,
+      "level": 1
+    },
+    "google-cloud-networking-observability/references/metrics-analysis.md": {
+      "title": "Metrics Analysis",
+      "xp": 30,
+      "level": 1
+    },
+    "google-cloud-networking-observability/references/threat-analysis.md": {
+      "title": "Threat Analysis",
+      "xp": 50,
+      "level": 1
+    },
+    "google-cloud-networking-observability/references/vpc-flow-analysis.md": {
+      "title": "Vpc Flow Analysis",
+      "xp": 49,
+      "level": 1
+    },
+    "google-cloud-networking-observability/SKILL.md": {
+      "title": "Skill",
+      "xp": 86,
+      "level": 1
+    },
+    "google-cloud-recipe-auth/SKILL.md": {
+      "title": "Skill",
+      "xp": 86,
+      "level": 1
+    },
+    "google-cloud-recipe-onboarding/reference/google-cloud-setup.md": {
+      "title": "Google Cloud Setup",
+      "xp": 50,
+      "level": 1
+    },
+    "google-cloud-recipe-onboarding/SKILL.md": {
+      "title": "Skill",
+      "xp": 86,
+      "level": 1
+    },
+    "google-cloud-waf-cost-optimization/SKILL.md": {
+      "title": "Skill",
+      "xp": 86,
+      "level": 1
+    },
+    "google-cloud-waf-reliability/SKILL.md": {
+      "title": "Skill",
+      "xp": 86,
+      "level": 1
+    },
+    "google-cloud-waf-security/SKILL.md": {
+      "title": "Skill",
+      "xp": 86,
+      "level": 1
+    },
+    "Governanca/Governanca-Dados-Avancada.md": {
+      "title": "Governanca Dados Avancada",
+      "xp": 58,
+      "level": 1
+    },
+    "Governanca/Mapeamento-Curricular-Internacional.md": {
+      "title": "Mapeamento Curricular Internacional",
+      "xp": 88,
+      "level": 1
+    },
+    "Kaggle-Datasets.md": {
+      "title": "Kaggle — Datasets, Competições e Aprendizado em Ciência de Dados",
+      "xp": 140,
+      "level": 2
+    },
+    "mobile/Desenvolvimento-Mobile.md": {
+      "title": "Desenvolvimento Mobile",
+      "xp": 65,
+      "level": 1
+    },
+    "PromptLayer.md": {
+      "title": "PromptLayer — Gerenciamento e Observabilidade de Prompts",
+      "xp": 90,
+      "level": 1
+    },
+    "README.md": {
+      "title": "Skills - Taxonomia Pessoal",
+      "xp": 442,
+      "level": 3
+    },
+    "Scikit-Learn.md": {
+      "title": "Scikit-Learn — Machine Learning em Python",
+      "xp": 123,
+      "level": 2
+    },
+    "Security/AI-Security-Etica-Operacional.md": {
+      "title": "Ai Security Etica Operacional",
+      "xp": 58,
+      "level": 1
+    },
+    "SFIA-Mapping.md": {
+      "title": "Mapeamento SFIA",
+      "xp": 293,
+      "level": 3
+    },
+    "Skill-Project-Matrix.md": {
+      "title": "Matriz Skills-Projetos",
+      "xp": 68,
+      "level": 1
+    },
+    "softskills/Comunicacao-Tecnica.md": {
+      "title": "Comunicação Técnica",
+      "xp": 80,
+      "level": 1
+    },
+    "softskills/Product-Management.md": {
+      "title": "Product Management",
+      "xp": 73,
+      "level": 1
+    }
+  }
+}

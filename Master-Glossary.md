@@ -1,6 +1,6 @@
 ---
 tags: [glossary, terminology, hub]
-updated: 2026-05-16
+updated: 2026-05-19
 aliases: ["Glossário Mestre", "Terminologia Unificada"]
 ---
 
@@ -127,6 +127,55 @@ Este glossário define os termos técnicos e conceituais utilizados em todo o ec
 - **Embedding (Word Embedding)**: representação vetorial densa de palavras (ou tokens) em um espaço contínuo de baixa dimensionalidade. Palavras com significados similares têm vetores próximos (word2vec, GloVe, embeddings contextuais de BERT/GPT).
 - **Pragmática (Austin, Searle, Grice)**: estudo do uso da linguagem em contexto. Atos de fala (Austin: locucionário, ilocucionário, perlocucionário); implicaturas conversacionais e máximas de Grice (quantidade, qualidade, relação, modo).
 - **Hipótese de Sapir-Whorf**: teoria de que a linguagem molda o pensamento (relatividade linguística). Versão forte (determinismo): a linguagem determina o pensamento. Versão fraca (influência): a linguagem influencia padrões cognitivos. Evidências: navegação espacial em línguas com direções cardeais obrigatórias.
+
+---
+
+## Geopolítica e Relações Internacionais
+
+- **Heartland (Mackinder)**: região central da Eurásia — "quem controla a Europa Oriental comanda o Heartland; quem comanda o Heartland comanda a World Island; quem comanda a World Island comanda o mundo". Teoria clássica da geopolítica (1904).
+- **Rimland (Spykman)**: faixa costeira ao redor do Heartland (Europa Ocidental, Oriente Médio, Sul da Ásia, Sudeste Asiático). Spykman: "quem controla o Rimland comanda a Eurásia; quem comanda a Eurásia controla o destino do mundo".
+- **Hard Power / Soft Power / Smart Power (Nye)**: hard power é coerção militar e econômica; soft power é atração cultural e valores; smart power é a combinação estratégica de ambos.
+- **BATNA (Best Alternative to a Negotiated Agreement)**: curso de ação alternativo caso a negociação fracasse. Seu poder real na mesa — quanto melhor sua BATNA, mais forte sua posição. Conceito fundamental do Método Harvard de Negociação (Fisher & Ury, 1981).
+- **ZOPA (Zone of Possible Agreement)**: faixa de sobreposição entre os valores de reserva das partes. Se não há ZOPA, acordo é impossível a menos que um dos lados revise seu valor de reserva.
+- **Dilema de Segurança (Security Dilemma)**: situação onde ações de um Estado para aumentar sua segurança (ex.: militarização) reduzem a segurança de outros Estados, gerando uma espiral de tensão e corrida armamentista. Conceito central do realismo nas Relações Internacionais.
+- **Guerra Híbrida**: combinação de guerra convencional, guerra irregular, guerra cibernética, desinformação, pressão econômica e diplomática. Ex.: Guerra Rússia-Ucrânia.
+- **Belt and Road Initiative (BRI)**: megaprojeto chinês de infraestrutura e investimento global (2013-presente). "Nova Rota da Seda". Maior programa de infraestrutura da história, envolvendo 140+ países.
+
+## Geografia e Ciências da Terra
+
+- **Placas Tectônicas**: grandes fragmentos da litosfera terrestre que se movem sobre a astenosfera. Limites: convergentes (colisão: Himalaia), divergentes (separação: dorsal meso-oceânica), transformantes (deslizamento: Falha de San Andreas).
+- **Efeito Estufa**: processo natural onde gases atmosféricos (CO2, CH4, H2O) retêm calor irradiado pela superfície terrestre. Essencial para vida (Terra ~15°C vs -18°C sem efeito estufa). Intensificação antrópica causa aquecimento global.
+- **COP (Conference of the Parties)**: conferência anual da UNFCCC (Convenção-Quadro da ONU sobre Mudança do Clima). COP21 (Paris, 2015) produziu o Acordo de Paris. COP28 (Dubai, 2023) focou em transição energética.
+- **ESG (Environmental, Social, Governance)**: conjunto de critérios ambientais, sociais e de governança para avaliar sustentabilidade e impacto ético de investimentos. Surgiu do Pacto Global UN (2004). Frameworks: GRI, SASB, TCFD.
+
+## Sistemas e Métodos
+
+- **Teoria Geral dos Sistemas (Bertalanffy, 1968)**: abordagem interdisciplinar que estuda sistemas como totalidades organizadas, com propriedades emergentes, feedback, homeostase e hierarquia. Aplica-se a biologia, engenharia, gestão, ecologia e ciências sociais.
+- **Emergência (Emergence)**: propriedades que surgem da interação de componentes de um sistema e não existem nos componentes isoladamente. Ex.: consciência (do cérebro), vida (das moléculas), mercado (dos agentes econômicos).
+- **Auto-organização (Prigogine, 1977)**: capacidade de sistemas complexos de gerar ordem espontaneamente sem controle central. Ex.: formigueiros, cérebro, turbulência, mercado. Prigogine: estruturas dissipativas em sistemas longe do equilíbrio.
+- **Teoria do Caos (Lorenz, 1963)**: sistemas deterministas não-lineares com sensibilidade extrema a condições iniciais (efeito borboleta). Comportamento imprevisível a longo prazo, mesmo sendo deterministicamente gerado.
+- **Small-World (Watts-Strogatz, 1998)**: propriedade de redes onde a distância média entre nós cresce logaritmicamente com o tamanho da rede — "seis graus de separação". Alta clustering + caminho curto.
+- **Scale-Free (Barabási-Albert, 1999)**: redes onde a distribuição de graus segue uma lei de potência (poucos hubs com muitas conexões, muitos nós com poucas). Universal: internet, redes sociais, proteínas, citações.
+- **Teoria dos Jogos**: estudo matemático de interações estratégicas. Equilíbrio de Nash (1950): conjunto de estratégias onde nenhum jogador pode melhorar unilateralmente. Dilema do Prisioneiro: cooperação vs traição em situação de informação incompleta.
+
+## Modelos Mentais e Vieses
+
+- **Mapa não é Território (Korzybski, 1933)**: princípio geral da semântica geral — nossas representações mentais da realidade não SÃO a realidade. Confundir mapa com território leva a erros de julgamento.
+- **Círculo de Competência (Buffett/Munger)**: conhecer os limites do seu conhecimento é mais importante que o conhecimento em si. Operar dentro do círculo onde se tem real expertise; expandi-lo gradualmente.
+- **Pensamento Inverso (Invert, Always Invert)**: resolver problemas ao avesso — em vez de perguntar "como ter sucesso?", perguntar "como garantir o fracasso?" e evitar essas ações. Munger: inversão sistemática.
+- **Navalha de Occam**: a explicação mais simples (com menos suposições) é geralmente a preferível. Não afirma que a mais simples é sempre verdadeira, mas é o melhor ponto de partida.
+- **Navalha de Hanlon**: não atribua à malícia o que pode ser adequadamente explicado por ignorância, estupidez ou incompetência.
+- **Lei de Conway (Conway, 1968)**: sistemas de software espelham as estruturas de comunicação da organização que os criou. Organizações com equipes modulares produzem sistemas modulares.
+- **Antifragilidade (Taleb, 2012)**: propriedade de sistemas que se fortalecem com choques, volatilidade e desordem. Além de robustos (resistem) ou frágeis (quebram) — o antifrágil beneficia-se do caos.
+- **Lei de Lindy**: a expectativa de vida futura de uma ideia, tecnologia ou instituição não-perecível é proporcional à sua idade atual. O que existe há muito tempo tende a existir por mais tempo.
+- **Regressão à Média (Galton)**: após um evento extremo, o próximo evento tende a ser mais próximo da média. Ignorar este princípio leva a superstições e falácias.
+- **Segundo Nível de Pensamento (Howard Marks)**: pensar sobre o que os outros estão pensando, não apenas sobre o objeto do pensamento. "Primeiro nível: essa empresa vai bem, compro. Segundo nível: essa empresa vai bem e todo mundo sabe, então está sobrevalorizada — não compro."
+
+## Direito
+
+- **Pirâmide de Kelsen**: hierarquia das normas jurídicas. Constituição (topo) → leis complementares e ordinárias → decretos, portarias, instruções normativas. Norma inferior só é válida se compatível com norma superior.
+- **Cláusulas Pétreas (CF/88, Art. 60 §4º)**: dispositivos constitucionais que não podem ser abolidos por emenda: forma federativa de Estado, voto direto, separação dos Poderes, direitos e garantias individuais.
+- **Due Process of Law (Devido Processo Legal)**: princípio que garante a todos os litigantes o direito a um processo justo, com contraditório, ampla defesa, juiz natural e duração razoável (CF/88 Art. 5º, LIV-LV).
 
 ---
 

@@ -1,0 +1,111 @@
+/*
+ * ===== FOCUS MODE — Modo Foco para Obsidian =====
+ *
+ * ATIVAÇÃO:
+ *   Por comando:  Ctrl/Cmd + P → "Focus Mode" (se houver plugin)
+ *   Por hotkey:   Configurações → Hotkeys → "Focus Mode" (se houver plugin)
+ *   Alternativa:  Adicione a classe "focus-mode" ao <body> via:
+ *                 1. Plugin "Toggle Focus Mode" (recomendado)
+ *                 2. CSS snippet com script customizado
+ *                 3. Botão na toolbar (com Commander plugin)
+ *
+ * Este snippet requer que a classe .focus-mode esteja presente no <body>.
+ * Por padrão, o Obsidian não expõe essa classe — é necessário um plugin
+ * (ex: "Focus Mode" de sidharthv, ou "Toggle Focus Mode") ou um hotkey
+ * via JavaScript customizado no Community Plugin System.
+ *
+ * COMPATIBILIDADE:
+ *   Usa variáveis CSS do tema padrão do Obsidian.
+ *   Funciona com temas claros e escuros.
+ *   Sem dependências externas.
+ */
+
+/* ── Estado padrão (nada muda) ── */
+body:not(.focus-mode) .workspace-split.mod-left-split,
+body:not(.focus-mode) .workspace-split.mod-right-split,
+body:not(.focus-mode) .workspace-ribbon,
+body:not(.focus-mode) .status-bar {
+  opacity: 1;
+  transition: opacity 0.3s ease;
+}
+
+/* ── FOCUS MODE ATIVO ── */
+body.focus-mode {
+  /* Fundo com tonalidade suave para reduzir cansaço visual */
+  --focus-tint: var(--background-primary-alt, #f0f0f0);
+  background-color: var(--focus-tint);
+  transition: background-color 0.3s ease;
+}
+
+/* Esconde barra lateral esquerda */
+body.focus-mode .workspace-split.mod-left-split {
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.3s ease;
+  width: 0 !important;
+  min-width: 0 !important;
+}
+
+/* Esconde barra lateral direita */
+body.focus-mode .workspace-split.mod-right-split {
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.3s ease;
+  width: 0 !important;
+  min-width: 0 !important;
+}
+
+/* Esconde a ribbon (ícones da lateral esquerda) */
+body.focus-mode .workspace-ribbon {
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.3s ease;
+  width: 0 !important;
+  min-width: 0 !important;
+}
+
+/* Esconde a barra de status inferior */
+body.focus-mode .status-bar {
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.3s ease;
+  height: 0;
+  overflow: hidden;
+  padding: 0;
+  margin: 0;
+  border: none;
+}
+
+/* Expande o editor para altura total da viewport */
+body.focus-mode .workspace-split.mod-root {
+  height: 100vh;
+}
+
+body.focus-mode .workspace-leaf-content {
+  height: 100vh;
+}
+
+body.focus-mode .view-content {
+  height: 100vh;
+}
+
+/* Centraliza o conteúdo do editor */
+body.focus-mode .markdown-source-view,
+body.focus-mode .markdown-preview-view {
+  max-width: 900px;
+  margin: 0 auto;
+  padding-left: 40px;
+  padding-right: 40px;
+  width: 100%;
+}
+
+/* Aumenta a largura máxima do conteúdo no preview */
+body.focus-mode .markdown-preview-view {
+  max-width: 900px;
+}
+
+body.focus-mode .markdown-source-view .cm-content,
+body.focus-mode .markdown-source-view .cm-scroller {
+  max-width: 900px;
+  margin: 0 auto;
+}

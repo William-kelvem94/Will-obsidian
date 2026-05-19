@@ -17,6 +17,7 @@ aliases: ["Sumário de Computação"]
 |------|-----------|
 | [[Conhecimento-Geral/Computacao/Ciencia-da-Computacao]] | Fundamentos teóricos: história, Turing, von Neumann, Chomsky, computabilidade, complexidade, P vs NP (~500 linhas) |
 | [[Conhecimento-Geral/Computacao/NLP-Fundamentos]] | Processamento de Linguagem Natural: tokenização, embeddings, RNNs, Transformers, BERT, GPT, LLaMA, fine-tuning, RLHF (~400 linhas) |
+| [[Conhecimento-Geral/Computacao/Cronologia-da-IA]] | Cronologia completa da inteligência artificial: McCulloch & Pitts, Turing, Perceptron, Dartmouth, AlexNet, Transformers, GPT, ChatGPT, Sora, regulamentação (~430 linhas) |
 | [[Conhecimento-Geral/Computacao/Algoritmos-e-Estruturas]] | Algoritmos e estruturas de dados: análise assintótica, sorting, searching, grafos, DP, paralelismo, implementações Python (~500 linhas) |
 
 ## Estrutura da Nota Principal (Ciencia-da-Computacao)

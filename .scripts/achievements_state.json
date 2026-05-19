@@ -1,0 +1,52 @@
+{
+  "primeiro-commit": {
+    "name": "Primeiro Commit",
+    "date_unlocked": "2026-05-19",
+    "xp": 5
+  },
+  "100-notas": {
+    "name": "100 Notas",
+    "date_unlocked": "2026-05-19",
+    "xp": 10
+  },
+  "500-notas": {
+    "name": "500 Notas",
+    "date_unlocked": "2026-05-19",
+    "xp": 25
+  },
+  "mestre-conexoes": {
+    "name": "Mestre das Conexões",
+    "date_unlocked": "2026-05-19",
+    "xp": 10
+  },
+  "arquiteto-grafos": {
+    "name": "Arquiteto de Grafos",
+    "date_unlocked": "2026-05-19",
+    "xp": 30
+  },
+  "bibliotecario": {
+    "name": "Bibliotecário",
+    "date_unlocked": "2026-05-19",
+    "xp": 15
+  },
+  "primeiro-gap": {
+    "name": "Primeiro Gap Fechado",
+    "date_unlocked": "2026-05-19",
+    "xp": 10
+  },
+  "escritor-fertil": {
+    "name": "Escritor Fértil",
+    "date_unlocked": "2026-05-19",
+    "xp": 30
+  },
+  "power-user": {
+    "name": "Power User",
+    "date_unlocked": "2026-05-19",
+    "xp": 20
+  },
+  "cartografo": {
+    "name": "Cartógrafo",
+    "date_unlocked": "2026-05-19",
+    "xp": 10
+  }
+}

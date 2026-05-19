@@ -11,6 +11,9 @@ Esta área aborda como o cérebro humano processa informação, aprende e gera c
 
 ## Notas principais
 
+### [[Conhecimento-Geral/Neurociencia/Neurociencia-Computacional|Neurociência Computacional]]
+Modelos matemáticos e computacionais de neurônios e redes biológicas. Cobre desde o modelo de Hodgkin-Huxley (4 EDOs acopladas) até o eficiente modelo de Izhikevich, passando por LIF, plasticidade sináptica (Hebb, STDP), simulação (NEURON, Brian2, NEST) e a interseção com IA — spiking neural networks, neuromorphic computing e neural ODEs. Esta nota é a ponte quantitativa entre a biologia dos neurônios e os algoritmos de aprendizado de máquina.
+
 ### [[Conhecimento-Geral/Neurociencia/Redes-Neurais-Biologicas|Redes Neurais Biológicas]]
 Explora o funcionamento dos neurônios biológicos, sinapses, potencial de ação e plasticidade sináptica. Diferentemente dos neurônios artificiais (que são meras funções de ativação), o neurônio biológico opera em um sistema temporal complexo com mais de 100 tipos distintos de neurotransmissores. Esta nota estabelece a ponte entre o modelo de Hodgkin-Huxley e o perceptron moderno, discutindo tópicos como _spiking neural networks_, aprendizado hebbiano (que inspirou o PCA e o aprendizado não-supervisionado) e a plasticidade dependente de temporização de picos (STDP). A relação com a IA moderna é traçada através de conceitos como _backpropagation_ biológico (crédito-assignment) e algoritmos inspirados no cérebro como o _Forward-Forward Algorithm_.
 
@@ -41,6 +44,7 @@ Uma taxonomia completa dos sistemas de memória humana: memória declarativa (ep
 
 ## Intersecção com IA
 
+- **Neurociência Computacional** → Modelos de neurônio, simulação de redes, plasticidade, SNNs, neural ODEs.
 - **Redes Neurais Biológicas** → Fundamentos do _deep learning_, _spiking neural networks_, aprendizado hebbiano.
 - **Consciência e Cérebro** → Debate AGI, ética de IA, teorias de integração da informação (IIT) aplicadas a LLMs.
 - **Sistemas de Memória** → RAG, _memory-augmented neural networks_, _experience replay_, arquiteturas de agentes com memória de longo prazo.
@@ -48,8 +52,9 @@ Uma taxonomia completa dos sistemas de memória humana: memória declarativa (ep
 ## Roteiro de estudo
 
 1. Comece por [[Conhecimento-Geral/Neurociencia/Redes-Neurais-Biologicas|Redes Neurais Biológicas]] para entender o hardware biológico.
-2. Avance para [[Conhecimento-Geral/Neurociencia/Sistemas-de-Memoria|Sistemas de Memória]] e veja como o cérebro armazena e recupera informação — fundamento para RAG e agentes com memória.
-3. Finalize com [[Conhecimento-Geral/Neurociencia/Consciencia-e-Cerebro|Consciência e Cérebro]] para as questões filosóficas sobre AGI e senciência.
+2. Aprofunde-se em [[Conhecimento-Geral/Neurociencia/Neurociencia-Computacional|Neurociência Computacional]] para os modelos matemáticos e simulações de neurônios e redes.
+3. Avance para [[Conhecimento-Geral/Neurociencia/Sistemas-de-Memoria|Sistemas de Memória]] e veja como o cérebro armazena e recupera informação — fundamento para RAG e agentes com memória.
+4. Finalize com [[Conhecimento-Geral/Neurociencia/Consciencia-e-Cerebro|Consciência e Cérebro]] para as questões filosóficas sobre AGI e senciência.
 
 ## Referências
 

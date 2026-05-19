@@ -1,0 +1,23 @@
+---
+title: "🗺️ Cartógrafo"
+date: 2026-05-19
+tags: [conquista, badge]
+xp_reward: 10
+---
+
+# 🗺️ Cartógrafo
+
+**Desbloqueado em:** 2026-05-19
+**Recompensa:** +10 XP
+
+---
+
+Três ou mais notas MOC/Índice criadas no vault.
+
+## O que isso significa
+
+Esta conquista representa um marco importante na jornada de conhecimento dentro deste vault. Cada badge é um lembrete do progresso contínuo e da dedicação em construir um segundo cérebro cada vez mais rico e conectado.
+
+## Próximos Passos
+
+Continue explorando, escrevendo e conectando ideias. Novas conquistas esperam por você!

@@ -1,0 +1,26 @@
+name: Teste de Embeddings/Recall
+
+on:
+  pull_request:
+    paths:
+      - preprocess_incremental.jsonl
+      - 'scripts/**'
+
+jobs:
+  rag_recall:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.10'
+      - name: Install requirements
+        run: |
+          pip install -r requirements.txt
+      - name: Processa embedding
+        run: |
+          python scripts/preprocess_incremental.py
+      - name: Testa queries sentinela
+        run: |
+          python scripts/test_embedding_queries.py

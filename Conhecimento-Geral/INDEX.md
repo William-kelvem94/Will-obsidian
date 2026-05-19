@@ -2,7 +2,7 @@
 title: "Conhecimento Geral — Índice"
 description: "Hub central para conhecimentos interdisciplinares focados em Humanidades, Ciência, Ética, Direito, Economia e Cultura para fundamentar o agente IA."
 tags: [hub, conhecimento-geral, humanidades, interdisciplinar]
-updated: 2026-05-18
+updated: 2026-05-19
 aliases: ["Mapa do Conhecimento Geral", "Hub Interdisciplinar"]
 ---
 
@@ -12,7 +12,7 @@ Este domínio foi criado para expandir o "Cérebro" do agente para além das ci�
 
 ## Visão Geral dos Domínios
 
-O conhecimento geral está organizado em **13 domínios interdisciplinares**, cada um com notas específicas, perguntas-chave e conexões com os demais.
+O conhecimento geral está organizado em **20 domínios interdisciplinares**, cada um com notas específicas, perguntas-chave e conexões com os demais.
 
 ### [[Conhecimento-Geral/IA-para-Programacao/INDEX|IA para Programacao]]
 Conhecimento operacional sobre agentes de programacao, engenharia de contexto, memoria externa, notas RAG-friendly e avaliacao de respostas de IA. Serve como base comum para JARVIS, modelos locais e assistentes de codigo.
@@ -26,12 +26,17 @@ Conhecimento operacional sobre agentes de programacao, engenharia de contexto, m
 Estudo dos fundamentos da realidade, conhecimento, mente e existência. Essencial para modelagem de raciocínio abstrato, reflexão sobre consciência e compreensão dos limites do conhecimento.
 
 **Notas:**
+- [[Conhecimento-Geral/Filosofia/Conceitos-Fundamentais]] — epistemologia, ontologia, lógica, metafísica
 - [[Conhecimento-Geral/Filosofia/Filosofia-da-Mente]] — dualismo, materialismo, funcionalismo, o problema difícil da consciência
 - [[Conhecimento-Geral/Filosofia/Qualia]] — a experiência subjetiva da consciência, o que é "ser como" algo
 - [[Conhecimento-Geral/Filosofia/Chinese-Room]] — argumento de Searle contra IA forte, semântica vs. sintaxe
 - [[Conhecimento-Geral/Filosofia/Problema-do-Controle]] — como garantir que agentes superinteligentes ajam conforme valores humanos
-- [[Conhecimento-Geral/Filosofia/Conceitos-Fundamentais]] — epistemologia, ontologia, lógica, metafísica
-- [[Conhecimento-Geral/Filosofia/Metafisica]] — o ser enquanto ser, substância, causalidade, potência e ato, de Aristóteles à metafísica informacional (~1006 linhas)
+- [[Conhecimento-Geral/Filosofia/Metafisica]] — o ser enquanto ser, substância, causalidade, potência e ato, de Aristóteles à metafísica informacional
+- [[Conhecimento-Geral/Filosofia/Epistemologia]] — teoria do conhecimento, crença, justificação, Gettier, confiabilismo
+- [[Conhecimento-Geral/Filosofia/Filosofia-Politica]] — justiça, poder, Estado, contratualismo, liberalismo, marxismo
+- [[Conhecimento-Geral/Filosofia/Filosofia-da-Tecnologia]] — técnica, determinismo, pós-humanismo, IA e sociedade
+- [[Conhecimento-Geral/Filosofia/Existencialismo-e-Sentido]] — Sartre, Camus, Kierkegaard, angústia, liberdade, absurdo
+- [[Conhecimento-Geral/Filosofia/Transumanismo-e-Pos-Humanismo]] — enhancement, imortalidade, pós-humanidade, críticas
 
 **Perguntas-chave:** O que é consciência? Máquinas podem pensar? O que significa "entender"?
 
@@ -45,8 +50,13 @@ Estudo da mente, processos cognitivos, emoções, vieses e comportamento. Essenc
 
 **Notas:**
 - [[Conhecimento-Geral/Psicologia/Psicologia-Cognitiva]] — memória, atenção, percepção, sistema 1/2
+- [[Conhecimento-Geral/Psicologia/Psicologia-Clinica]] — transtornos, terapias, TCC, psicopatologia
+- [[Conhecimento-Geral/Psicologia/Psicologia-Social-Desenvolvimento-Personalidade]] — atribuição, grupos, Piaget, Erikson, Big Five
 - [[Conhecimento-Geral/Psicologia/Teoria-da-Mente]] — capacidade de atribuir estados mentais a outros
 - [[Conhecimento-Geral/Psicologia/Vieses-Cognitivos]] — heurísticas e erros sistemáticos do pensamento
+- [[Conhecimento-Geral/Psicologia/Catalogo-de-Vieses-Cognitivos]] — catálogo exaustivo de ~200 vieses
+- [[Conhecimento-Geral/Psicologia/Modelos-Mentais]] — latticework de modelos mentais (Munger, Farnam Street)
+- [[Conhecimento-Geral/Psicologia/Psicanalise]] — Freud, Jung, Lacan, inconsciente, mecanismos de defesa
 - [[Conhecimento-Geral/Psicologia/Vieses-em-LLMs]] — como vieses humanos se manifestam em modelos de linguagem
 
 **Perguntas-chave:** Como a mente humana processa informação? Quais vieses afetam o julgamento? Como simular empatia?
@@ -79,6 +89,9 @@ Fundamentos matemáticos que suportam modelagem, otimização e análise de IA.
 - [[Conhecimento-Geral/Matematica/Calculo-e-Otimizacao]] — gradiente, gradiente descendente, otimização convexa
 - [[Conhecimento-Geral/Matematica/Probabilidade-e-Estatistica]] — distribuições, MLE, inferência bayesiana
 - [[Conhecimento-Geral/Matematica/Teoria-da-Informacao]] — entropia, divergência KL, informação mútua, perplexidade
+- [[Conhecimento-Geral/Matematica/Teoria-dos-Sistemas]] — Bertalanffy, feedback, emergência, sistemas complexos, caos
+- [[Conhecimento-Geral/Matematica/Teoria-de-Redes]] — small-world, scale-free, comunidades, propagação, centralidade
+- [[Conhecimento-Geral/Matematica/Teoria-dos-Jogos]] — Nash, dilema do prisioneiro, equilíbrio, cooperação, sinalização
 
 **Perguntas-chave:** Como quantificar incerteza? O que é entropia? Como a divergência KL mede diferença entre distribuições?
 
@@ -110,12 +123,125 @@ Evolução humana, estruturas sociais, movimentos culturais, mitologia e sociolo
 
 **Notas:**
 - [[Conhecimento-Geral/Cultura/Cultura-Sociologia]] — Marx, Durkheim, Weber, Geertz, Frankfurt, Hall, Baudrillard, memes, plataformas
+- [[Conhecimento-Geral/Cultura/Teorias-Sociologicas]] — Sociologia expandida: estrutura, ação, conflito, redes, modernidade
+- [[Conhecimento-Geral/Cultura/Antropologia-Cultural]] — cultura, parentesco, ritual, simbolismo, evolução cultural, etnografia
+- [[Conhecimento-Geral/Cultura/Estetica-e-Arte]] — filosofia da arte, beleza, sublime, vanguarda, estética computacional
+- [[Conhecimento-Geral/Cultura/Geografia]] — geografia física, humana, política, cartografia, geografia do Brasil
+- [[Conhecimento-Geral/Cultura/Mudancas-Climaticas]] — clima, aquecimento, mitigação, adaptação, ESG, sustentabilidade
+- [[Conhecimento-Geral/Cultura/Geologia]] — tectônica, rochas, minerais, tempo geológico, recursos naturais
+- [[Conhecimento-Geral/Cultura/Paleontologia]] — fósseis, eras geológicas, dinossauros, extinções, evolução da vida
+- [[Conhecimento-Geral/Cultura/Oceanografia]] — oceanos, correntes, biologia marinha, acidificação, poluição
+- [[Conhecimento-Geral/Cultura/Direito]] — constitucional, penal, civil, trabalhista, processo, direito digital
+- [[Conhecimento-Geral/Cultura/Biografias-de-Pensadores]] — 114 biografias dos pensadores mais fundamentais da história
 
 **Perguntas-chave:** Como a cultura molda o comportamento? O que é indústria cultural? Como algoritmos afetam a cultura?
 
 ---
 
-## 7. Economia Digital
+## 7. História e Geopolítica
+
+**[[Conhecimento-Geral/Historia/INDEX]]**
+
+Estudo dos eventos, processos e relações de poder que moldaram a humanidade, da pré-história ao mundo contemporâneo, incluindo geopolítica e relações internacionais.
+
+**Notas:**
+- [[Conhecimento-Geral/Historia/Historia-Mundial]] — da Pré-história ao século XXI, guerras, revoluções, impérios, globalização
+- [[Conhecimento-Geral/Historia/Historia-do-Brasil]] — colônia, império, república, regimes, redemocratização
+- [[Conhecimento-Geral/Historia/Geopolitica]] — escolas geopolíticas, Heartland, Rimland, balança de poder, cenário contemporâneo
+
+**Perguntas-chave:** Como o passado molda o presente? Quais as causas das guerras? Como a geopolítica explica o mundo atual?
+
+---
+
+## 8. Física
+
+**[[Conhecimento-Geral/Fisica/INDEX]]**
+
+Estudo da matéria, energia, espaço e tempo — da mecânica clássica à física quântica, explorando os fundamentos da realidade física.
+
+**Notas:**
+- [[Conhecimento-Geral/Fisica/Fisica-Fundamental]] — mecânica, termodinâmica, eletromagnetismo, relatividade
+- [[Conhecimento-Geral/Fisica/Fisica-Quantica]] — dualidade, incerteza, spin, emaranhamento, formalismo quântico
+- [[Conhecimento-Geral/Fisica/Interpretacoes-Quanticas]] — Copenhagen, Many-Worlds, Bohm, QBism, colapso objetivo
+- [[Conhecimento-Geral/Fisica/Mecanica-Quantica-e-Realidade]] — ontologia quântica, não-localidade, realismo local
+- [[Conhecimento-Geral/Fisica/Consciencia-e-Quantica]] — relações entre consciência e fenômenos quânticos
+
+**Perguntas-chave:** O que é realidade? O tempo é fundamental ou emergente? O que a física quântica diz sobre a natureza?
+
+---
+
+## 9. Biologia
+
+**[[Conhecimento-Geral/Biologia/INDEX]]**
+
+Estudo da vida em suas múltiplas escalas — da célula ao ecossistema, da genética à fisiologia.
+
+**Notas:**
+- [[Conhecimento-Geral/Biologia/Biologia-Celular-e-Molecular]] — célula, DNA, RNA, proteínas, divisão, metabolismo
+- [[Conhecimento-Geral/Biologia/Evolucao-e-Genetica]] — seleção natural, deriva, especiação, genética populacional
+- [[Conhecimento-Geral/Biologia/Fisiologia-Humana]] — sistemas corporais, homeostase, neurofisiologia
+
+**Perguntas-chave:** O que é vida? Como a evolução funciona? Qual a relação entre genética e comportamento?
+
+---
+
+## 10. Química
+
+**[[Conhecimento-Geral/Quimica/INDEX]]**
+
+Estudo da matéria, suas propriedades, composição, estrutura e transformações.
+
+**Notas:**
+- [[Conhecimento-Geral/Quimica/Quimica-Geral]] — átomos, moléculas, reações, tabela periódica, ligações, soluções
+
+**Perguntas-chave:** Como a matéria se transforma? Qual a base química da vida?
+
+---
+
+## 11. Lógica e Pensamento Crítico
+
+**[[Conhecimento-Geral/Logica/INDEX]]**
+
+Estudo dos princípios do raciocínio válido, argumentação, paradoxos e experimentos mentais.
+
+**Notas:**
+- [[Conhecimento-Geral/Logica/Experimentos-Mentais-Classicos]] — catálogo de experimentos mentais da filosofia, ciência e ética
+
+**Perguntas-chave:** O que torna um argumento válido? Como experimentos mentais expandem o pensamento?
+
+---
+
+## 12. Cosmologia
+
+**[[Conhecimento-Geral/Cosmologia/INDEX]]**
+
+Estudo do universo em sua totalidade — origem, estrutura, evolução e significado cosmológico.
+
+**Notas:**
+- [[Conhecimento-Geral/Cosmologia/Cosmologia]] — Big Bang, matéria escura, energia escura, estrutura em larga escala
+- [[Conhecimento-Geral/Cosmologia/Astronomia]] — observação, estrelas, galáxias, evolução estelar, buracos negros
+- [[Conhecimento-Geral/Cosmologia/Filosofia-da-Cosmologia]] — fine-tuning, princípio antrópico, multiverso
+
+**Perguntas-chave:** Qual a origem do universo? Há outros mundos habitáveis? O universo terá um fim?
+
+---
+
+## 13. Metafísica
+
+**[[Conhecimento-Geral/Metafisica/INDEX]]**
+
+Estudo da realidade além do físico — ser, substância, tempo, causalidade, categorias do real.
+
+**Notas:**
+- [[Conhecimento-Geral/Metafisica/Metafisica-Geral]] — ser, substância, causalidade, potência e ato, transcendenciais
+- [[Conhecimento-Geral/Metafisica/Ontologia]] — categorias, particulares vs universais, mereologia, metaontologia
+- [[Conhecimento-Geral/Metafisica/Filosofia-do-Tempo]] — presentismo vs eternalismo, seta do tempo, tempo e consciência
+
+**Perguntas-chave:** O que significa existir? O tempo é real? O que são universais?
+
+---
+
+## 14. Economia Digital
 
 **[[Conhecimento-Geral/Economia-Digital/INDEX]]**
 
@@ -131,7 +257,7 @@ Impacto econômico e social da IA e da automação na era digital. Capitalismo d
 
 ---
 
-## 8. Direito e Regulação Digital
+## 15. Direito e Regulação Digital
 
 **[[Conhecimento-Geral/Direito-Digital/INDEX]]**
 
@@ -146,7 +272,7 @@ Marcos legais e princípios que regem o uso de IA, proteção de dados e respons
 
 ---
 
-## 9. Tecnologia e Sociedade
+## 16. Tecnologia e Sociedade
 
 **[[Conhecimento-Geral/Tecnologia-e-Sociedade/INDEX]]**
 
@@ -160,7 +286,7 @@ Impactos sociais, políticos e éticos das tecnologias digitais — vigilância,
 
 ---
 
-## 10. Linguística e Semiótica
+## 17. Linguística e Semiótica
 
 **[[Conhecimento-Geral/Linguistica/INDEX]]**
 
@@ -173,22 +299,22 @@ Estudo da linguagem verbal e dos sistemas de signos — fundamento da comunicaç
 
 ---
 
-## 11. Astronomia e Cosmologia
+## 18. Astronomia
 
 **[[Conhecimento-Geral/Astronomia/INDEX]]**
 
-Estudo do cosmos, da origem do universo à formação de sistemas planetários. Ciência que conecta física, matemática e filosofia na compreensão do nosso lugar no universo.
+Estudo do cosmos observável — estrelas, galáxias, planetas, instrumentação astronômica e sistema solar.
 
 **Notas:**
-- [[Conhecimento-Geral/Astronomia/Astronomia-Fundamental]] — história, métodos, telescópios, espectroscopia, instrumentação (~895 linhas)
-- [[Conhecimento-Geral/Astronomia/Sistema-Solar]] — Sol, planetas, luas, asteroides, cometas, exploração espacial (~505 linhas)
-- [[Conhecimento-Geral/Astronomia/Cosmologia]] — Big Bang, matéria escura, energia escura, estrutura em larga escala, destino do universo (~514 linhas)
+- [[Conhecimento-Geral/Astronomia/Astronomia-Fundamental]] — história, métodos, telescópios, espectroscopia, instrumentação
+- [[Conhecimento-Geral/Astronomia/Sistema-Solar]] — Sol, planetas, luas, asteroides, cometas, exploração espacial
+- [[Conhecimento-Geral/Astronomia/Cosmologia]] — Big Bang, matéria escura, energia escura, estrutura em larga escala
 
-**Perguntas-chave:** Qual a origem do universo? Há outros mundos habitáveis? O que é matéria escura? O universo terá um fim?
+**Perguntas-chave:** Qual a origem do universo? Há outros mundos habitáveis? O que é matéria escura?
 
 ---
 
-## 12. Vida Prática
+## 19. Vida Prática
 
 **[[Conhecimento-Geral/Vida-Pratica/INDEX]]**
 
@@ -202,14 +328,16 @@ Conhecimento prático para viver bem — felicidade, propósito, relacionamentos
 - [[Conhecimento-Geral/Vida-Pratica/Tomada-de-Decisao]] — OODA, pre-mortem, vieses, second-order thinking (~599 linhas)
 - [[Conhecimento-Geral/Vida-Pratica/Gestao-de-Tempo-e-Produtividade]] — GTD, Deep Work, Pomodoro, procrastinação (~651 linhas)
 - [[Conhecimento-Geral/Vida-Pratica/Relacionamentos]] — attachment theory, CNV, Gottman, amor, amizade, família (~726 linhas)
-- [[Conhecimento-Geral/Vida-Pratica/Nutricao-e-Saude-Pratica]] — nutrição, exercício, sono, estresse, medicina preventiva (~543 linhas)
-- [[Conhecimento-Geral/Vida-Pratica/Morte-e-Mortalidade]] — filosofia da morte, luto, TMT, transumanismo (~907 linhas)
+- [[Conhecimento-Geral/Vida-Pratica/Nutricao-e-Saude-Pratica]] — nutrição, exercício, sono, estresse, medicina preventiva
+- [[Conhecimento-Geral/Vida-Pratica/Morte-e-Mortalidade]] — filosofia da morte, luto, TMT, transumanismo
+- [[Conhecimento-Geral/Vida-Pratica/Negociacao]] — BATNA, ZOPA, Método Harvard, preparação, táticas, psicologia
+- [[Conhecimento-Geral/Vida-Pratica/Administracao]] — estratégia, RH, finanças, operações, qualidade, empreendedorismo
 
 **Perguntas-chave:** O que é felicidade e como alcançá-la? Qual o sentido da vida? Como tomar decisões difíceis? Como construir relacionamentos profundos?
 
 ---
 
-## 13. Religião e Espiritualidade
+## 20. Religião e Espiritualidade
 
 **[[Conhecimento-Geral/Religiao/INDEX]]**
 
@@ -229,40 +357,42 @@ As grandes tradições de sabedoria da humanidade — do oriente ao ocidente, da
 ## Rota de Estudos Sugerida
 
 ### Trilha 1: Fundamentos Humanísticos (para IA empática)
-
-1. Filosofia: Filosofia-da-Mente → Qualia → Chinese-Room → Metafisica
-2. Psicologia: Psicologia-Cognitiva → Teoria-da-Mente → Vieses-Cognitivos
-3. Neurociência: Redes-Neurais-Biologicas → Consciencia-e-Cerebro → Sistemas-de-Memoria
-4. Cultura: Cultura-Sociologia → Astrologia
-5. Religião: Estoicismo → Budismo → Religioes-Comparadas
-6. Linguística: Linguistica-e-Semiotica
+1. Filosofia: Filosofia-da-Mente → Qualia → Chinese-Room → Epistemologia
+2. Psicologia: Psicologia-Cognitiva → Teoria-da-Mente → Vieses-Cognitivos → Modelos-Mentais
+3. Psicologia Social: Psicologia-Social → Psicanalise → Catalogo-de-Vieses
+4. Neurociência: Redes-Neurais-Biologicas → Consciencia-e-Cerebro → Sistemas-de-Memoria
+5. Cultura: Cultura-Sociologia → Antropologia → Geografia → História
+6. Religião: Estoicismo → Budismo → Religioes-Comparadas
+7. Linguística: Linguistica-e-Semiotica
 
 ### Trilha 2: Autoconhecimento e Vida Prática
-
 1. Felicidade-e-Bem-Estar → Proposito-e-Sentido-da-Vida → Relacionamentos
 2. Inteligencia-Emocional → Resiliencia-Psicologica → Morte-e-Mortalidade
-3. Tomada-de-Decisao → Gestao-de-Tempo-e-Produtividade → Nutricao-e-Saude-Pratica
-4. Estoicismo → Budismo → Taoismo
+3. Tomada-de-Decisao → Gestao-de-Tempo-e-Produtividade → Administracao
+4. Negociacao → Modelos-Mentais → Catalogo-de-Vieses
+5. Estoicismo → Budismo → Taoismo
 
 ### Trilha 3: Sociedade, Poder e Regulação (para IA responsável)
-
 1. Ética: Etica-de-IA-e-Alinhamento → Conceitos-de-Alinhamento → Consequencialismo
 2. Economia: Automacao-e-Desemprego → Capitalismo-de-Vigilancia → Economia-dos-Dados
 3. Tecnologia: Panoptico-Digital → Vigilancia-Algoritmica
-4. Direito: GDPR-e-Privacidade → EU-AI-Act → Responsabilidade-e-Governanca
-5. Cultura: Cultura-Sociologia (Frankfurt, Estudos Culturais)
+4. Direito: Direito (constitucional/penal/civil) → GDPR → EU-AI-Act
+5. Geopolítica: Geopolitica → Ciencia-Politica → Filosofia-Politica
+6. Cultura: Cultura-Sociologia → Teorias-Sociologicas
 
-### Trilha 4: Fundamentos Matemáticos (para IA técnica)
-
+### Trilha 4: Fundamentos Matemáticos e Sistêmicos (para IA técnica)
 1. Matemática: Algebra-Linear-Essencial → Calculo-e-Otimizacao
-2. Matemática: Probabilidade-e-Estatistica → Teoria-da-Informacao
-3. Neurociência (ponte): Redes-Neurais-Biologicas (paralelos com ML)
+2. Matemática: Probabilidade-e-Estatistica → Teoria-da-Informacao → Teoria-dos-Jogos
+3. Sistemas: Teoria-dos-Sistemas → Teoria-de-Redes
+4. Neurociência (ponte): Redes-Neurais-Biologicas (paralelos com ML)
 
 ### Trilha 5: Ciência e Cosmos (para IA com visão de mundo)
-
-1. Astronomia: Astronomia-Fundamental → Sistema-Solar → Cosmologia
-2. Filosofia: Metafisica (Aristóteles, causalidade, mundos possíveis)
-3. Cultura: Astrologia (análise crítica, antropologia, ciência vs pseudociência)
+1. Física: Fisica-Fundamental → Fisica-Quantica → Interpretacoes-Quanticas
+2. Cosmos: Astronomia → Cosmologia → Filosofia-da-Cosmologia
+3. Terra: Geografia → Geologia → Paleontologia → Oceanografia
+4. Vida: Biologia-Celular → Evolucao → Fisiologia → Quimica
+5. Metafísica: Metafisica-Geral → Ontologia → Filosofia-do-Tempo
+6. Filosofia: Existencialismo → Transumanismo → Filosofia-da-Tecnologia
 
 ---
 

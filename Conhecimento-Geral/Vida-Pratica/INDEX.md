@@ -2,7 +2,7 @@
 title: "Vida Prática — Índice"
 description: "Conhecimento prático sobre felicidade, propósito, relacionamentos, saúde e habilidades para a vida."
 tags: [vida-pratica, index, felicidade, proposito, saude, relacionamentos]
-updated: 2026-05-18
+updated: 2026-05-19
 aliases: ["Índice Vida Prática", "Conhecimento Prático"]
 ---
 
@@ -14,6 +14,7 @@ Conhecimento prático para viver bem — o que a filosofia, psicologia e ciênci
 
 | Nota | Descrição | Linhas |
 |------|-----------|--------|
+| [[Conhecimento-Geral/Vida-Pratica/Administracao\|Administração e Negócios]] | Fundamentos da gestão, estratégia, RH, finanças, operações, marketing, empreendedorismo | ~659 |
 | [[Conhecimento-Geral/Vida-Pratica/Felicidade-e-Bem-Estar\|Felicidade e Bem-Estar]] | Psicologia positiva, PERMA, flow, filosofia da felicidade, práticas baseadas em evidência | ~963 |
 | [[Conhecimento-Geral/Vida-Pratica/Proposito-e-Sentido-da-Vida\|Propósito e Sentido da Vida]] | Logoterapia (Frankl), existencialismo, Ikigai, psicologia do significado | ~926 |
 | [[Conhecimento-Geral/Vida-Pratica/Inteligencia-Emocional\|Inteligência Emocional]] | Goleman (5 pilares), Mayer & Salovey, granularidade emocional, emoções específicas | ~522 |
@@ -23,8 +24,9 @@ Conhecimento prático para viver bem — o que a filosofia, psicologia e ciênci
 | [[Conhecimento-Geral/Vida-Pratica/Relacionamentos\|Relacionamentos]] | Attachment theory, CNV, Gottman, linguagens do amor, amizade, família, autocompaixão | ~726 |
 | [[Conhecimento-Geral/Vida-Pratica/Nutricao-e-Saude-Pratica\|Nutrição e Saúde Prática]] | Nutrição básica, exercício, sono, estresse, medicina preventiva | ~543 |
 | [[Conhecimento-Geral/Vida-Pratica/Morte-e-Mortalidade\|Morte e Mortalidade]] | Filosofia da morte, TMT, luto, religiões, transumanismo, exercícios práticos | ~907 |
+| [[Conhecimento-Geral/Vida-Pratica/Negociacao\|Negociação]] | Método Harvard, BATNA, ZOPA, táticas, psicologia, preparação, casos clássicos | ~513 |
 
-**Total: ~5.848 linhas** de conhecimento prático para a vida.
+**Total: ~7.020 linhas** de conhecimento prático para a vida.
 
 ## Como usar esta área
 

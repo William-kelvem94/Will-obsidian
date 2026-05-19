@@ -21,3 +21,22 @@ repos:
       - id: trailing-whitespace
       - id: end-of-file-fixer
       - id: check-yaml
+
+  - repo: local
+    hooks:
+      - id: audit-sensitives
+        name: Auditoria de arquivos sensíveis
+        entry: python scripts/audit_sensitives.py
+        language: system
+        files: \.md$
+        stages: [pre-commit, pre-push]
+        verbose: true
+
+      - id: enrich-frontmatter
+        name: Verificação de frontmatter
+        entry: python scripts/enrich_frontmatter.py
+        language: system
+        files: \.md$
+        stages: [pre-commit]
+        pass_filenames: false
+        verbose: true

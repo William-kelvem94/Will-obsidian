@@ -11,11 +11,29 @@ A bagagem coletiva da experiência humana ao longo do tempo — das primeiras tr
 
 ## Notas nesta pasta
 
+### [[Conhecimento-Geral/Cultura/Biografias-de-Pensadores\|Biografias de Pensadores Fundamentais]]
+Compilacao de ~170 biografias sucintas dos pensadores mais influentes da historia, organizados por periodo/area: Filosofia Antiga, Medieval, Moderna, Sec. XIX e XX, Matematica/Ciencia, Biologia/Evolucao, Psicologia/Neurociencia, Economia/Politica e Tecnologia/IA (~860 linhas). Cada verbete contem nome, datas, nacionalidade, contribuicoes fundamentais e citacao representativa. Conexoes com Modelos-Mentais, Filosofia, Ciencia da Computacao, Neurociencia, Psicologia e outros dominios.
+
 ### [[Conhecimento-Geral/Cultura/Cultura-Sociologia\|Cultura e Sociologia]]
 Explora a relação entre cultura, identidade e estrutura social. A nota cobre as teorias clássicas da sociologia — Durkheim (fatos sociais, solidariedade mecânica e orgânica), Weber (ação social, burocracia, desencantamento do mundo) e Bourdieu (capital cultural, _habitus_, campos sociais) — e suas aplicações contemporâneas. Discute como a globalização e a internet transformaram a produção e o consumo cultural, a formação de identidades em redes sociais digitais e o conceito de "cultura digital" como um novo estrato da experiência humana. Relevante para IA: como modelos de linguagem incorporam e reproduzem estruturas culturais, e o problema do viés cultural em datasets de treinamento.
 
+### [[Conhecimento-Geral/Cultura/Mudancas-Climaticas\|Mudanças Climáticas e Sustentabilidade]]
+Análise densa e interdisciplinar das mudanças climáticas antrópicas (~610 linhas). Cobre fundamentos científicos (efeito estufa, forçamento radiativo, feedback loops, paleoclimatologia, IPCC, cenários SSP/RCP, tipping points), causas setoriais (energia, desmatamento, agricultura), impactos (degelo, nível do mar, eventos extremos, biodiversidade, refugiados, economia), mitigação (renováveis, CCS, DAC, eficiência, acordos internacionais, precificação de carbono), adaptação (barreiras, infraestrutura, agricultura adaptada), ESG completo (Environmental, Social, Governance — origens no Pacto Global/UN, frameworks GRI/SASB/TCFD/ISSB, greenwashing, finanças sustentáveis, ratings) e conexões com Geografia, Ciência Política, Ambiental e Antropoceno.
+
 ### [[Conhecimento-Geral/Cultura/Astrologia\|Astrologia]]
 Análise crítica e antropológica da astrologia: história (Babilônia, Ptolomeu, Renascença), fundamentos técnicos (signos, planetas, casas, aspectos), relação com astronomia, status científico (Carlson 1985, Dean & Kelly), perspectiva junguiana (arquétipos, sincronicidade), e seu papel cultural na contemporaneidade (~1033 linhas).
+
+### [[Conhecimento-Geral/Cultura/Direito\|Direito]]
+Estudo abrangente do sistema jurídico brasileiro (~500 linhas). Cobre fundamentos do Direito (fontes, hierarquia das normas, Pirâmide de Kelsen, validade/vigência/eficácia/efetividade), Direito Constitucional (CF/88, direitos fundamentais, separação dos Poderes, controle de constitucionalidade, STF, ADI, ADC, ADPF, cláusulas pétreas), Direito Penal (princípios, teoria do crime, tipos de crime, penas, Lei de Drogas, Lei Maria da Penha, crimes digitais), Direito Civil (CC/2002, pessoas, contratos, obrigações, responsabilidade civil, família, sucessões), Direito do Trabalho (CLT, reforma trabalhista, remuneração, Justiça do Trabalho), Direito Processual (CPC, fases, recursos, súmulas) e Direito Digital (LGPD, Marco Civil, IA e regulação).
+
+### [[Conhecimento-Geral/Cultura/Geografia\|Geografia]]
+Estudo abrangente da geografia física (tectônica de placas, relevo, hidrografia, clima, biomas, solos), humana (população, urbanização, migrações, geografia econômica, cultural e política), geografia do Brasil (relevo, hidrografia, clima, biomas, divisão regional, urbanização), geopolítica e cartografia (projeções, coordenadas, SIG, teorias de Ratzel, Mackinder, Mahan), incluindo correntes do pensamento geográfico (~610 linhas).
+
+### [[Conhecimento-Geral/Cultura/Geologia\|Geologia]]
+Estudo abrangente da geologia — estrutura interna da Terra, placas tectônicas, ciclo das rochas, minerais, processos geológicos (vulcanismo, terremotos, erosão), tempo geológico completo (Hadeano ao Quaternário), recursos naturais (minérios, combustíveis fósseis, aquíferos), e geologia do Brasil (Cráton Amazônico, Bacia do Paraná, Aquífero Guarani, províncias minerais de Carajás e Quadrilátero Ferrífero), com conexões interdisciplinares (~490 linhas).
+
+### [[Conhecimento-Geral/Cultura/Paleontologia\|Paleontologia]]
+Estudo abrangente da paleontologia — definição e subcampos (paleobiologia, tafonomia, icnologia, micropaleontologia, paleobotânica), tipos de fósseis e condições de fossilização, tabela detalhada do tempo geológico (Éons, Eras, Períodos, eventos biológicos), Pré-Cambriano (origem da vida, estromatólitos, GOE, fauna ediacarana), Paleozoica (Explosão Cambriana, colonização terrestre, Carbonífero, Permiano), Mesozoica (Triássico, Jurássico, Cretáceo, dinossauros, extinção K-Pg), Cenozoica (mamíferos, primatas, hominídeos, megafauna, Holoceno), fósseis brasileiros (Santana do Cariri, Paleorrota, Lagoa Santa), extinções em massa (Big Five + Sexta Extinção), teóricos (Cuvier, Lyell, Darwin, Gould & Eldredge, Alvarez) e questões contemporâneas (~410 linhas).
 
 ## Tópicos futuros planejados
 

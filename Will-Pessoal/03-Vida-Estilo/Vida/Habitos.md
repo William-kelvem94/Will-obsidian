@@ -131,3 +131,78 @@ O que funciona (dados empíricos do vault):
 - [[Cerebro-Will]] — Todos os registros diários alimentam o cérebro.
 
 > *Última atualização: 16/05/2026. Rotina testada em abril e maio. Ajuste fino em andamento.*
+
+---
+
+## 📊 Habit Tracker Vivo
+
+```dataviewjs
+const HABITS = [
+  "Acordei no horário planejado",
+  "Revisão do dia feita",
+  "Bloco de foco no projeto principal",
+  "Movimento físico",
+  "Telas desligadas"
+];
+
+const today = dv.date("today");
+const since = today.minus({ days: 30 });
+const pages = dv.pages("#diario")
+  .where(p => {
+    const d = dv.date(p.date);
+    return d && d >= since && d <= today;
+  })
+  .sort(p => p.date, "asc");
+
+if (pages.length === 0) {
+  dv.paragraph("Nenhum diário encontrado nos últimos 30 dias.");
+} else {
+  const data = [];
+  for (const p of pages) {
+    const checks = p.file.tasks
+      .filter(t => HABITS.some(h => t.text.includes(h)))
+      .map(t => t.status === "x" ? 1 : 0);
+    if (checks.length === 0) continue;
+    const done = checks.reduce((a, b) => a + b, 0);
+    data.push({ date: dv.date(p.date), done, total: checks.length, rate: done / checks.length });
+  }
+
+  let streak = 0;
+  for (let i = data.length - 1; i >= 0; i--) {
+    if (data[i].rate >= 0.8) streak++;
+    else break;
+  }
+  dv.paragraph(`🔥 **Streak:** ${streak} dias seguidos (>80%)`);
+
+  const weeks = {};
+  for (const d of data) {
+    const w = d.date.toFormat("yyyy-'W'WW");
+    if (!weeks[w]) weeks[w] = { done: 0, total: 0, days: 0 };
+    weeks[w].done += d.done;
+    weeks[w].total += d.total;
+    weeks[w].days++;
+  }
+  const weekRows = Object.entries(weeks).sort(([a], [b]) => a.localeCompare(b));
+  dv.table(
+    ["Semana", "Feitos", "Taxa", "Dias"],
+    weekRows.length
+      ? weekRows.map(([w, v]) => [
+          w,
+          `${v.done}/${v.total}`,
+          (v.done / v.total * 100).toFixed(1) + "%",
+          `${v.days}/7`
+        ])
+      : [["—", "—", "—", "—"]]
+  );
+
+  dv.paragraph("### Últimos dias");
+  dv.table(
+    ["Data", "Feitos", "%"],
+    data.slice(-14).reverse().map(d => [
+      d.date.toFormat("dd/MM"),
+      `${d.done}/${d.total}`,
+      (d.rate * 100).toFixed(0) + "%"
+    ])
+  );
+}
+```
