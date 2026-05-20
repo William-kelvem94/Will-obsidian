@@ -560,3 +560,5 @@ class AutonomousVehicleEthics:
 - Singer, P. (1981). *The Expanding Circle*. Princeton University Press.
 - Smart, J. J. C. & Williams, B. (1973). *Utilitarianism: For and Against*. Cambridge University Press.
 - Williams, B. (1985). *Ethics and the Limits of Philosophy*. Harvard University Press.
+
+[[Conhecimento-Geral/Etica/INDEX|← Voltar ao índice de Ética]]

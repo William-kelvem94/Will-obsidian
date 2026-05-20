@@ -511,3 +511,5 @@ Negociadores criativos encontram soluções que ninguém considerou — expandin
 ---
 
 > Comece dominando os 4 princípios de Harvard, BATNA e os 7 elementos de preparação. Negociação é habilidade — melhora com prática deliberada, feedback honesto e reflexão sobre cada experiência.
+
+[[Conhecimento-Geral/Vida-Pratica/INDEX|← Voltar ao índice de Vida Prática]]

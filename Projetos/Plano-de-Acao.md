@@ -180,3 +180,5 @@ Transformar a organização do vault em um plano operacional: priorizar projetos
 ## Observações importantes
 - Os dados de `source:` e `updated:` nas notas já funcionam como metadados principais.
 - Se você quiser, posso continuar e criar um ficheiro de “roadmap 90 dias” para os 3 projetos mais importantes: `gestor_aluguel_2.0`, `Auto-boletos` e `PROJECT_JARVIS_5.0`.
+
+[[Projetos/README|← Voltar ao índice de Projetos]]

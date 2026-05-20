@@ -423,3 +423,5 @@ Mac:      lsof -ti:3000 | xargs kill -9
 ---
 
 *Pro tip: Save these one-liners as shell aliases for instant access*
+
+[[JARVIS/README|← Voltar ao Command Center]]

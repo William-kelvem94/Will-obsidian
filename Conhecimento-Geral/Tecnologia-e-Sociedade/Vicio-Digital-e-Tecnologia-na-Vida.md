@@ -649,3 +649,5 @@ mindmap
 
 > *"A pergunta não é se a tecnologia é boa ou ruim. A pergunta é: quem está no controle?"*
 > — Tristan Harris
+
+[[Conhecimento-Geral/Tecnologia-e-Sociedade/INDEX|← Voltar ao índice de Tecnologia e Sociedade]]

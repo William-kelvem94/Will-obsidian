@@ -1089,3 +1089,5 @@ Veja [[Conhecimento-Geral/Matematica/Teoria-da-Informacao|Teoria da Informação
 15. **StatQuest with Josh Starmer** — Série de vídeos que explica estatística e ML com clareza excepcional.
 
 16. **Probabilistic Programming & Bayesian Methods for Hackers** (Davidson-Pilon) — Livro online gratuito sobre inferência bayesiana com PyMC3.
+
+[[Conhecimento-Geral/Matematica/INDEX|← Voltar ao índice de Matemática]]

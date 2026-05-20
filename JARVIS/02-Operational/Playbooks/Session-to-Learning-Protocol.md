@@ -88,3 +88,5 @@ Avoid:
 - burying the reusable lesson in a long chronological log;
 - omitting the limit conditions that prevent bad retrieval matches.
 
+
+[[JARVIS/02-Operational/Playbooks/INDEX|← Voltar ao índice de Playbooks]]

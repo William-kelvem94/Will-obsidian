@@ -486,3 +486,5 @@ A ontologia é crucial para o desenvolvimento de IA em várias frentes:
 - [[Conhecimento-Geral/Programacao/Arquitetura-de-Software|Arquitetura de Software]]
 - [[Conhecimento-Geral/Programacao/Banco-de-Dados|Banco de Dados]]
 - [[Conhecimento-Geral/Computacao/Ciencia-da-Computacao|Ciência da Computação]]
+
+[[Conhecimento-Geral/Metafisica/INDEX|← Voltar ao índice de Metafísica]]

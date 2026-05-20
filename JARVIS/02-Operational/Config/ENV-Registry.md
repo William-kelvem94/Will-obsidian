@@ -367,3 +367,5 @@ Run periodically to keep configs clean:
 
 **Last Audit:** 2026-04-23
 **Next Audit:** 2026-07-23 (90 days)
+
+[[JARVIS/README|← Voltar ao Command Center]]

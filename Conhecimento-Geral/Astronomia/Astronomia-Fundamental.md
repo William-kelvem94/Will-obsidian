@@ -1162,3 +1162,5 @@ O telescopio espacial que revolucionou a astronomia moderna.
 ---
 
 *Documento gerado como parte do vault Conhecimento-Geral. Atualizado em 18/05/2026.*
+
+[[Conhecimento-Geral/Astronomia/INDEX|← Voltar ao índice de Astronomia]]

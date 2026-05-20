@@ -107,3 +107,5 @@ IA-LOCAL e o nucleo local do JARVIS: um assistente Python com memoria vetorial, 
 - O clone Obsidian e sincronizado por copia, symlink ou configuracao manual?
 - A memoria vetorial persiste em arquivo local, SQLite, Chroma ou apenas FAISS bruto?
 - O `dream_generator.py` escreve notas no vault ou apenas memoria interna?
+
+[[JARVIS/04-Engineering/Codebase-Maps/INDEX|← Voltar ao índice de Codebase-Maps]]

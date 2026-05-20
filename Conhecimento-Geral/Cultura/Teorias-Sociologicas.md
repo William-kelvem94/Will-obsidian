@@ -770,3 +770,5 @@ A ANT é fundamental para entender como sistemas de IA não são "apenas tecnolo
 - [[Conhecimento-Geral/Tecnologia-e-Sociedade/Panoptico-Digital|Panóptico Digital]]
 - [[Conhecimento-Geral/Economia-Digital/Automacao-e-Desemprego|Automação e Desemprego]]
 - [[Conhecimento-Geral/Filosofia/Filosofia-da-Linguagem-e-Lógica-para-IA|Filosofia da Linguagem e Lógica para IA]]
+
+[[Conhecimento-Geral/Cultura/INDEX|← Voltar ao índice de Cultura]]

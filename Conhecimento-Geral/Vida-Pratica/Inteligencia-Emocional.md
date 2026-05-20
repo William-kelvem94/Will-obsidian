@@ -520,3 +520,5 @@ mindmap
 ---
 
 *Este documento está em constante evolução. A inteligência emocional não é um destino, mas uma prática diária.*
+
+[[Conhecimento-Geral/Vida-Pratica/INDEX|← Voltar ao índice de Vida Prática]]

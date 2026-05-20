@@ -650,3 +650,5 @@ As mares sao causadas pela atracao gravitacional diferencial da Lua (70%) e do S
 - 2025: BepiColombo — chegada a Mercurio
 - 2026: Artemis II — tripulado, orbita lunar (previsto)
 - 2027: Dragonfly — lançamento para Titan (previsto)
+
+[[Conhecimento-Geral/Astronomia/INDEX|← Voltar ao índice de Astronomia]]

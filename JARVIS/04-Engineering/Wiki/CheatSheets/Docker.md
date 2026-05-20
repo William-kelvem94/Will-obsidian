@@ -604,3 +604,5 @@ cat .dockerignore
 - [[JARVIS/04-Engineering/Playbooks/Debug/Docker-Not-Starting|Docker Troubleshooting]]
 - [[JARVIS/04-Engineering/Playbooks/Debug/Port-Already-In-Use|Port Issues]]
 - [[skills/03-infrastructure-mcp|Infrastructure Skills]]
+
+[[JARVIS/README|← Voltar ao Command Center]]

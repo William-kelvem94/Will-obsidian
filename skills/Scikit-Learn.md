@@ -393,3 +393,5 @@ Para deploy de modelos Scikit-Learn em produção, veja [[data-engineering/etl-p
 ---
 
 *Consulte também: [[skills/Data-Cleaning]], [[skills/Kaggle-Datasets]], [[skills/Explainable-AI]], [[data-engineering/etl-pipelines]], [[02-software-engineering/algorithms-data-structures]].*
+
+[[skills/README|← Voltar à Taxonomia de Skills]]

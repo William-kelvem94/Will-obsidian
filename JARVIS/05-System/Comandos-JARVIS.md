@@ -18,3 +18,5 @@ updated: 2026-05-03
 ```json
 { "tool": "read_vault_file", "path": "JARVIS/02-Operational/Foco Atual.md" }
 ```
+
+[[JARVIS/README|← Voltar ao Command Center]]

@@ -43,3 +43,5 @@ date: 2026-04-27
 - Vault path: `D:\OBSIDIAN\Will\JARVIS\`
 - Backend módulo de escrita: `backend/app/vault_memory.py`
 - KB path configurado no .env: `JARVIS_KB_PATH` e `JARVIS_VAULT_ROOT`
+
+[[JARVIS/README|← Voltar ao Command Center]]

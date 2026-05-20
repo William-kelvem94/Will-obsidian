@@ -383,3 +383,5 @@ Em 1980, a equipe pai-e-filho publicou a descoberta de uma camada de **irídio**
 - [[Geografia]] — A paleontologia depende da geografia para entender a distribuição dos organismos no passado (paleobiogeografia), a posição dos continentes (placas tectônicas) e os climas antigos.
 - [[Geografia#Climatologia]] — Conexão com paleoclimatologia: fósseis revelam climas passados e ajudam a calibrar modelos climáticos atuais contra mudanças pretéritas.
 - [[Mudancas-Climaticas]] — A paleoclimatologia usa fósseis (pólen, foraminíferos, isótopos) para reconstruir climas anteriores, e os eventos de extinção documentam as consequências de mudanças climáticas abruptas — um alerta para o presente.
+
+[[Conhecimento-Geral/Cultura/INDEX|← Voltar ao índice de Cultura]]

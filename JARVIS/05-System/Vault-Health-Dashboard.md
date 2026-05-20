@@ -43,3 +43,5 @@ SORT priority DESC
 
 ---
 *Atualizado dinamicamente via Dataview*
+
+[[JARVIS/README|← Voltar ao Command Center]]

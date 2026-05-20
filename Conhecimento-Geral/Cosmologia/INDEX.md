@@ -21,3 +21,4 @@ updated: 2026-05-19
 - [[Conhecimento-Geral/Filosofia/INDEX\|Filosofia]]
 - [[Conhecimento-Geral/Metafisica/INDEX\|Metafísica]]
 - [[Conhecimento-Geral/Astronomia/INDEX\|Astronomia]]
+- [[Conhecimento-Geral/INDEX\|← Voltar ao Hub Central]]

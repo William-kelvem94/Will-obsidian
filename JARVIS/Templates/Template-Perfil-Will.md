@@ -65,3 +65,5 @@ updated: 2026-05-03
 
 ---
 *Este arquivo deve ser respondido gradualmente. O Jarvis pode fazer uma pergunta por vez durante interações naturais.*
+
+[[JARVIS/Templates/INDEX|← Voltar ao índice de Templates]]

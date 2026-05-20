@@ -22,3 +22,4 @@ updated: 2026-05-19
 - [[Conhecimento-Geral/Matematica/INDEX\|Matemática]]
 - [[Conhecimento-Geral/Cosmologia/INDEX\|Cosmologia]]
 - [[Conhecimento-Geral/Filosofia/INDEX\|Filosofia]]
+- [[Conhecimento-Geral/INDEX\|← Voltar ao Hub Central]]

@@ -44,3 +44,5 @@ Em operacao, "observabilidade" nao e opcional:
 
 Se o sistema nao consegue explicar suas proprias mudancas (deploy/config/feature flags), o agente vira um amplificador de risco.
 
+
+[[Conhecimento-Geral/Tecnologia-e-Sociedade/INDEX|← Voltar ao índice de Tecnologia e Sociedade]]

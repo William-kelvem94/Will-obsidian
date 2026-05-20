@@ -65,3 +65,5 @@ date: 2026-04-27
 
 ---
 *Este arquivo deve ser respondido gradualmente. O Jarvis pode fazer uma pergunta por vez durante interações naturais.*
+
+[[JARVIS/05-System/Blueprints/INDEX|← Voltar ao índice de Blueprints]]

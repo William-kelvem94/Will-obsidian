@@ -136,3 +136,5 @@ Este blueprint é implementado via:
 - `JARVIS/05-System/Comandos-JARVIS.md` — comandos que disparam transições
 - `JARVIS/02-Operational/Contexto-Atual/` — estado atual monitorado
 - Scripts de automação no vault que utilizam os hooks de transição
+
+[[JARVIS/README|← Voltar ao Command Center]]

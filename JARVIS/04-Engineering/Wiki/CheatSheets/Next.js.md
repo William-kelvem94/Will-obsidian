@@ -621,3 +621,5 @@ npx tsc --noEmit
 - [Next.js Docs](https://nextjs.org/docs)
 - [[JARVIS/04-Engineering/Playbooks/Port-Already-In-Use|Port Troubleshooting]]
 - [[skills/02-software-engineering|Software Engineering Skills]]
+
+[[JARVIS/README|← Voltar ao Command Center]]

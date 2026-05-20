@@ -32,3 +32,5 @@ O objetivo e manter mudancas pequenas, revisaveis e alinhadas com o projeto.
 - [[Conhecimento-Geral/IA-para-Programacao/Engenharia-de-Contexto]]
 - [[JARVIS/02-Operational/Playbooks/Agent-Confirmation-Protocol]]
 
+
+[[Conhecimento-Geral/IA-para-Programacao/INDEX|← Voltar ao índice de IA para Programação]]

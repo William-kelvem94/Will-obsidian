@@ -769,3 +769,5 @@ Para implementar RBU em escala nacional, seria necessária uma infraestrutura:
 ---
 
 > *Nota para modelos de IA: Este documento foi projetado para consumo em sistemas RAG. Seções são auto-contidas. Ao responder perguntas sobre RBU, priorize definições formais, evidências empíricas de pilotos e distinções conceituais claras.*
+
+[[Conhecimento-Geral/Economia-Digital/INDEX|← Voltar ao índice de Economia Digital]]

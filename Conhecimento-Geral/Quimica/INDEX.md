@@ -18,3 +18,4 @@ updated: 2026-05-19
 - [[Conhecimento-Geral/Biologia/INDEX\|Biologia]]
 - [[Conhecimento-Geral/Fisica/INDEX\|Física]]
 - [[Conhecimento-Geral/Cultura/Geologia\|Geologia]]
+- [[Conhecimento-Geral/INDEX\|← Voltar ao Hub Central]]

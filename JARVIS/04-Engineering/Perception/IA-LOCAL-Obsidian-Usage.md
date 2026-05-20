@@ -59,3 +59,5 @@ Recomenda-se criar notas em:
 - Adicionar um módulo de escrita para criar novas notas a partir de prompts de IA.
 - Implementar um índice de notas recentes para acelerar buscas.
 - Separar notas de configuração, ideias e ações do agente.
+
+[[JARVIS/README|← Voltar ao Command Center]]

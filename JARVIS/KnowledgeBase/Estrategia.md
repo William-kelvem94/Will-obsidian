@@ -102,3 +102,5 @@ Criar um assistente multimodal que combine voz em tempo real, visão de ambiente
 - [[../EstudosPesquisas/PROJECT_JARVIS_5.0|Pesquisa PROJECT_JARVIS_5.0]]
 - [[../EstudosPesquisas/AI-Local-Gratuita|AI Local Gratuita]]
 - [[../Plano-de-Acao|Plano de Ação]]
+
+[[JARVIS/KnowledgeBase/INDEX|← Voltar ao índice de KnowledgeBase]]

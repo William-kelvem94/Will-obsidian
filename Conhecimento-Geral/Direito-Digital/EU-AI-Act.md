@@ -490,3 +490,5 @@ PMEs e startups têm incentivos: isenção de certas obrigações (Art. 58), par
 - [[Conhecimento-Geral/Tecnologia-e-Sociedade/Vigilancia-Algoritmica|Viés Algorítmico]]
 - [[Conhecimento-Geral/Tecnologia-e-Sociedade/Vigilancia-Algoritmica|Vigilância Algorítmica]]
 - [[Conhecimento-Geral/Economia-Digital/Economia-dos-Dados|Economia dos Dados]]
+
+[[Conhecimento-Geral/Direito-Digital/INDEX|← Voltar ao índice de Direito Digital]]

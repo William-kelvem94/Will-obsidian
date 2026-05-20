@@ -951,3 +951,5 @@ Taleb conecta antifragilidade com:
 ---
 
 *Esta nota foi gerada como parte do vault de conhecimento para referência em teoria de sistemas, pensamento sistêmico, sistemas complexos, cibernética e teoria da informação. Atualizações e correções são bem-vindas.*
+
+[[Conhecimento-Geral/Matematica/INDEX|← Voltar ao índice de Matemática]]

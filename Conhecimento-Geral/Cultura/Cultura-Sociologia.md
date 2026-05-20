@@ -738,3 +738,5 @@ A Hipótese Sapir-Whorf (Relatividade Linguística) sugere que o idioma que voc�
 ---
 
 *Última atualização: 2026-05-16*
+
+[[Conhecimento-Geral/Cultura/INDEX|← Voltar ao índice de Cultura]]

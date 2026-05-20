@@ -519,3 +519,5 @@ Estes padrões servem como referência para:
 - Documentar capacidades existentes
 - Planejar novas funcionalidades
 - Manter consistência nas interações
+
+[[JARVIS/README|← Voltar ao Command Center]]

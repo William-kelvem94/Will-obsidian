@@ -80,3 +80,5 @@ Agents can use this prompt to review a proposal:
 Review this improvement as proposed, accepted, deferred, rejected, or superseded. Explain the operational value, risk, target files, and verification method. Do not edit canonical notes unless explicitly approved.
 ```
 
+
+[[JARVIS/05-System/Guides/INDEX|← Voltar ao índice de Guides]]

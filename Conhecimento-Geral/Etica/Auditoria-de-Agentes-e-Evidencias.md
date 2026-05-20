@@ -53,3 +53,5 @@ Evitar:
 - [[Transparencia-de-Decisao-e-Rastreabilidade]]
 - [[Minimizacao-de-Dados-para-RAG-e-Agentes]]
 
+
+[[Conhecimento-Geral/Etica/INDEX|← Voltar ao índice de Ética]]

@@ -371,3 +371,5 @@ Críticas recentes: o excesso de lacanianos formados sem consistência clínica,
 - [[Teoria-da-Mente]] — Intersecções entre teoria da mente, mentalização (Fonagy) e psicanálise
 - [[Vieses-Cognitivos]] — Mecanismos de defesa como vieses adaptativos; racionalização como viés de confirmação
 - [[Modelos-Mentais]] — Psicanálise como modelo do funcionamento psíquico; self, identidade, narrativa pessoal
+
+[[Conhecimento-Geral/Psicologia/INDEX|← Voltar ao índice de Psicologia]]

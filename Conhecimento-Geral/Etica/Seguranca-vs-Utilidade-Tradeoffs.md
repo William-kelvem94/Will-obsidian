@@ -45,3 +45,5 @@ Regra: quanto maior impacto e menor reversibilidade, maior o nivel de confirmaca
 - [[Transparencia-de-Decisao-e-Rastreabilidade]]
 - [[Limites-de-Automacao-e-Consentimento]]
 
+
+[[Conhecimento-Geral/Etica/INDEX|← Voltar ao índice de Ética]]

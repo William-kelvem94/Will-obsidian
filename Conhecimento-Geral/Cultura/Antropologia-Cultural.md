@@ -457,3 +457,5 @@ A interface produz a **antropologia cognitiva** e a **psicologia cultural**:
 - O'Neil, C. (2016). *Weapons of Math Destruction*. Crown.
 - Seaver, N. (2017). "Algorithms as Culture". *Journal of the Royal Anthropological Institute*.
 - Zuboff, S. (2019). *The Age of Surveillance Capitalism*. PublicAffairs.
+
+[[Conhecimento-Geral/Cultura/INDEX|← Voltar ao índice de Cultura]]

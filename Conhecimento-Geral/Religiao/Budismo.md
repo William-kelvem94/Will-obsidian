@@ -886,3 +886,5 @@ Estes desafios não invalidam os ensinamentos, mas lembram que o Budismo é prat
 
 > "Milhares de velas podem ser acesas a partir de uma única vela, e a vida da vela não será encurtada. A felicidade nunca diminui por ser compartilhada."
 > — Buda
+
+[[Conhecimento-Geral/Religiao/INDEX|← Voltar ao índice de Religião]]

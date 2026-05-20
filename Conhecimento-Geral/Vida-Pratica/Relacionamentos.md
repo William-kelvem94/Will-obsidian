@@ -724,3 +724,5 @@ graph TD
 > *"A qualidade dos nossos relacionamentos determina a qualidade das nossas vidas."* — Robert Waldinger
 
 > *"A conexão é por que estamos aqui. É o que dá propósito e significado às nossas vidas."* — Brené Brown
+
+[[Conhecimento-Geral/Vida-Pratica/INDEX|← Voltar ao índice de Vida Prática]]

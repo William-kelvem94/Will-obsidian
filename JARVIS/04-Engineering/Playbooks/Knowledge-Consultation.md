@@ -161,3 +161,5 @@ Verificar o status:
 ```powershell
 python .scripts/knowledge_indexer.py --stats
 ```
+
+[[JARVIS/README|← Voltar ao Command Center]]

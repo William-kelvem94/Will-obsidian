@@ -742,3 +742,5 @@ class RetrievalAugmentedMemory:
 - [[skills/01-agentic-intelligence/reinforcement-learning]] — experience replay, episodic control, TD-learning
 - [[Conhecimento-Geral/Filosofia/Qualia]] — relação entre memória episódica e self
 - [[Conhecimento-Geral/Filosofia/Conceitos-Fundamentais]] — memória como constitutiva do self (Locke)
+
+[[Conhecimento-Geral/Neurociencia/INDEX|← Voltar ao índice de Neurociência]]

@@ -24,3 +24,5 @@ Transformar este computador em uma entidade autônoma capaz de gerenciar o vault
 
 ---
 [[Preferencias|⚙️ Preferências de Trabalho]] | [[Objetivos|🎯 Objetivos de Ciclo]]
+
+[[JARVIS/README|← Voltar ao Command Center]]

@@ -1136,3 +1136,5 @@ LLMs representam uma ruptura radical com a tradição GOFAI: em vez de represent
 50. Wittgenstein, L. (1953). *Philosophical Investigations [Investigações Filosóficas]*. Blackwell.
 51. Zadeh, L. (1965). Fuzzy sets. *Information and Control*, 8(3), 338-353.
 52. Zadeh, L. (1975). Fuzzy logic and approximate reasoning. *Synthese*, 30(3), 407-428.
+
+[[Conhecimento-Geral/Filosofia/INDEX|← Voltar ao índice de Filosofia]]

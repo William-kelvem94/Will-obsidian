@@ -753,3 +753,5 @@ print(f"Trem de spikes (primeiros 50 ms): {''.join(str(s) for s in spike_train[:
 - [[Conhecimento-Geral/Matematica/Calculo-e-Otimizacao]] — modelagem de dinâmica de membrana e populações
 - [[Conhecimento-Geral/Matematica/Teoria-da-Informacao]] — codificação de informação em spikes
 - [[skills/01-agentic-intelligence/reinforcement-learning]] — paralelos com plasticidade por recompensa (dopamina)
+
+[[Conhecimento-Geral/Neurociencia/INDEX|← Voltar ao índice de Neurociência]]

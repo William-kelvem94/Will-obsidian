@@ -63,3 +63,5 @@ Jarvis pode ser:
 - Use `Projetos/Privados/PROJECT_JARVIS_5.0-KnowledgeBase/PROJECT_JARVIS_5.0-Architecture.md` para arquitetura.
 - Use `Projetos/Privados/PROJECT_JARVIS_5.0-KnowledgeBase/PROJECT_JARVIS_5.0-Personality.md` para persona.
 - Use `Projetos/EstudosFocados/PROJECT_JARVIS_5.0.md` para estratégia.
+
+[[JARVIS/KnowledgeBase/INDEX|← Voltar ao índice de KnowledgeBase]]

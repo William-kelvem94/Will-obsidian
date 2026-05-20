@@ -52,3 +52,5 @@ Esta nota define os principais casos de uso que o Jarvis deve atender. Use-a par
 - Para alinhar o desenvolvimento do Jarvis com objetivos reais.
 - Para decidir se um novo recurso vai atender a um caso de uso existente.
 - Para adicionar conhecimento relevante à base de acordo com necessidades práticas.
+
+[[JARVIS/KnowledgeBase/INDEX|← Voltar ao índice de KnowledgeBase]]

@@ -827,3 +827,5 @@ O número de Dunbar é consistente com:
 - Dunbar, R. I. M. (1992). Neocortex size as a constraint on group size in primates. *Journal of Human Evolution*, 22(6), 469-493.
 - Fortunato, S., & Barthelemy, M. (2007). Resolution limit in community detection. *Proceedings of the National Academy of Sciences*, 104(1), 36-41.
 - Kermack, W. O., & McKendrick, A. G. (1927). A contribution to the mathematical theory of epidemics. *Proceedings of the Royal Society A*, 115(772), 700-721.
+
+[[Conhecimento-Geral/Matematica/INDEX|← Voltar ao índice de Matemática]]

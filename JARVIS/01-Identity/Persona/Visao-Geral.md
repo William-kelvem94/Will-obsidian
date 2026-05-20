@@ -61,3 +61,5 @@ Ecossistema Jarvis: voz real-time LiveKit, Gemini/OpenAI, visão face/gesture/vo
 - Registrar o estado atual do modelo de voz e do modelo de visão.
 
 **Links**: [[GitHub-Completo]] #livekit #mediapipe #fastapi
+
+[[JARVIS/README|← Voltar ao Command Center]]

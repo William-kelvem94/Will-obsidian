@@ -914,3 +914,5 @@ Inspirados na evolução biológica, algoritmos genéticos (AGs) são métodos d
 - [[Conhecimento-Geral/Quimica/Quimica-Geral]] — Bases químicas das biomoléculas (ligações, pH, termodinâmica) que sustentam os processos celulares.
 - [[Conhecimento-Geral/Fisica/Fisica-Fundamental]] — Princípios físicos aplicados à biologia (difusão, eletroquímica, mecânica de biomoléculas).
 - [[Conhecimento-Geral/Psicologia/Psicologia-Cognitiva]] — Bases biológicas dos processos cognitivos; relação entre expressão gênica, plasticidade neural e cognição.
+
+[[Conhecimento-Geral/Biologia/INDEX|← Voltar ao índice de Biologia]]

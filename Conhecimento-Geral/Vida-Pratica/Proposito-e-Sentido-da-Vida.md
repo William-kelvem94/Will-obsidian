@@ -924,3 +924,5 @@ A **sabedoria** está em integrar as perspectivas sem dogmatismo.
 ---
 
 *Documento criado em 18 de maio de 2026. Revisões e complementos são bem-vindos.*
+
+[[Conhecimento-Geral/Vida-Pratica/INDEX|← Voltar ao índice de Vida Prática]]

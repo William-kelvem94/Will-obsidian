@@ -949,3 +949,5 @@ O neurônio biológico utiliza princípios eletroquímicos (eletromagnetismo, po
 - [[Conhecimento-Geral/Matematica/Probabilidade-e-Estatistica]] — mecânica estatística
 - [[Conhecimento-Geral/Matematica/Teoria-da-Informacao]] — entropia e informação
 - [[Conhecimento-Geral/Neurociencia/Redes-Neurais-Biologicas]] — biofísica do neurônio
+
+[[Conhecimento-Geral/Fisica/INDEX|← Voltar ao índice de Física]]

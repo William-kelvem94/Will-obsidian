@@ -79,3 +79,5 @@ Before ending a session that made decisions:
 - include the decision in the final summary;
 - avoid rewriting personal or identity areas to "make the decision fit."
 
+
+[[JARVIS/02-Operational/Playbooks/INDEX|← Voltar ao índice de Playbooks]]

@@ -487,3 +487,5 @@ O problema do controle está profundamente conectado à [[Conhecimento-Geral/Eti
 - [[Conhecimento-Geral/Psicologia/Vieses-em-LLMs|Vieses em LLMs]]
 - [[Conhecimento-Geral/Tecnologia-e-Sociedade/Vigilancia-Algoritmica|Vigilância Algorítmica]]
 - [[Conhecimento-Geral/Filosofia/Filosofia-da-Mente|Filosofia da Mente]]
+
+[[Conhecimento-Geral/Filosofia/INDEX|← Voltar ao índice de Filosofia]]

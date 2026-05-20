@@ -47,3 +47,5 @@ Para mudancas em repositorio/automacao:
 - [[Auditoria-de-Agentes-e-Evidencias]]
 - [[Politica-de-Logs-para-Agentes]]
 
+
+[[Conhecimento-Geral/Etica/INDEX|← Voltar ao índice de Ética]]

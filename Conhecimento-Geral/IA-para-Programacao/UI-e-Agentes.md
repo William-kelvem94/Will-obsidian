@@ -38,3 +38,5 @@ Agentes podem acelerar frontend, mas tem riscos comuns: UI bonita e inacessivel,
 - [[Conhecimento-Geral/IA-para-Programacao/Reducao-de-Escopo]]
 - [[Conhecimento-Geral/IA-para-Programacao/Code-Review-com-Agentes]]
 
+
+[[Conhecimento-Geral/IA-para-Programacao/INDEX|← Voltar ao índice de IA para Programação]]

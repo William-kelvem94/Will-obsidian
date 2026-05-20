@@ -21,3 +21,4 @@ updated: 2026-05-19
 - [[Conhecimento-Geral/Neurociencia/INDEX\|Neurociência]]
 - [[Conhecimento-Geral/Psicologia/INDEX\|Psicologia]]
 - [[Conhecimento-Geral/Etica/INDEX\|Ética]]
+- [[Conhecimento-Geral/INDEX\|← Voltar ao Hub Central]]

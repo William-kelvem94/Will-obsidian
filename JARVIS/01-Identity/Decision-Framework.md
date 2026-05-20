@@ -316,3 +316,5 @@ Try the framework on these:
 
 *Decision-making is a skill. This framework gets better with practice.*
 *Update this doc when you find better heuristics.*
+
+[[JARVIS/README|← Voltar ao Command Center]]

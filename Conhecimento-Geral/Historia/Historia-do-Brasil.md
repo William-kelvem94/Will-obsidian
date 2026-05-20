@@ -406,3 +406,5 @@ A história do Brasil é marcada por contrastes profundos: colônia extrativista
 ---
 
 *Última atualização: 2026-05-18*
+
+[[Conhecimento-Geral/Historia/INDEX|← Voltar ao índice de História]]

@@ -720,3 +720,5 @@ Este conteúdo conecta-se diretamente a outras áreas do conhecimento:
 
 ---
 *Saúde prática não é sobre perfeição. É sobre consistência, progresso sustentável e o entendimento de que pequenas mudanças, mantidas por tempo suficiente, transformam vidas. Aplique o que fizer sentido para você e ajuste conforme sua realidade.*
+
+[[Conhecimento-Geral/Vida-Pratica/INDEX|← Voltar ao índice de Vida Prática]]

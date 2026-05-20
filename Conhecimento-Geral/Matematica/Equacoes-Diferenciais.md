@@ -638,3 +638,7 @@ O **score matching** aprende $\nabla_x \log p_t(x)$, e a SDE reversa gera amostr
 9. **Higham, D. J.** (2001). "An Algorithmic Introduction to Numerical Simulation of Stochastic Differential Equations". *SIAM Review*, 43(3), 525-546. — Introdução a SDEs.
 
 10. **Ruthotto, L. & Haber, E.** (2020). "Deep Neural Networks Motivated by Partial Differential Equations". *Journal of Mathematical Imaging and Vision*, 62, 352-364. — Conexões entre deep learning e EDPs.
+
+---
+
+[[Conhecimento-Geral/Matematica/INDEX|← Voltar ao índice de Matemática]]

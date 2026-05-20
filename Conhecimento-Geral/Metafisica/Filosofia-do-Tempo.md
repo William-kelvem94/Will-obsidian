@@ -622,3 +622,5 @@ A memória é o elo entre neurociência e filosofia do tempo:
 - [[Conhecimento-Geral/Neurociencia/Consciencia-e-Cerebro|Consciência e Cérebro]]
 - [[Conhecimento-Geral/Neurociencia/Sistemas-de-Memoria|Sistemas de Memória]]
 - [[Conhecimento-Geral/Psicologia/Psicologia-Cognitiva|Psicologia Cognitiva]]
+
+[[Conhecimento-Geral/Metafisica/INDEX|← Voltar ao índice de Metafísica]]

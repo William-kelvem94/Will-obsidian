@@ -376,3 +376,5 @@ No entanto, a história da ciência nos ensina a não descartar ideias apenas po
 - [[Conhecimento-Geral/Filosofia/Epistemologia]] — Limites do conhecimento
 - [[Conhecimento-Geral/Neurociencia/Consciencia-e-Cerebro]] — Neurociência da consciência
 - [[Conhecimento-Geral/Matematica/Teoria-da-Informacao]] — Informação, computação e consciência
+
+[[Conhecimento-Geral/Fisica/INDEX|← Voltar ao índice de Física]]

@@ -50,3 +50,5 @@ Este documento é o guia de **Personalização Humana** do Jarvis. Ele deve ser 
 
 ---
 *Assinado: JARVIS Intelligence Core*
+
+[[JARVIS/README|← Voltar ao Command Center]]

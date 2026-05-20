@@ -38,3 +38,5 @@ No Obsidian:
 - [[Conhecimento-Geral/Etica/Etica-de-IA-e-Alinhamento]]
 - [[JARVIS/05-System/AGENT-CONTRACT]]
 
+
+[[Conhecimento-Geral/IA-para-Programacao/INDEX|← Voltar ao índice de IA para Programação]]

@@ -27,3 +27,5 @@ Guidelines for how the JARVIS brain (this Obsidian Vault) should be indexed and 
 ## Monitoring
 - Track "Misses": When the agent fails to find information that exists in the vault.
 - Update `05-System/Maps/INDEX.md` weekly to ensure no orphans are left behind.
+
+[[JARVIS/README|← Voltar ao Command Center]]

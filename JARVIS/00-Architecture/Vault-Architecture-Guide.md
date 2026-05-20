@@ -365,3 +365,5 @@ Logs/YYYY-MM-DD.md
 ---
 
 *This architecture evolves with your needs. Update this document as structure changes.*
+
+[[JARVIS/README|← Voltar ao Command Center]]

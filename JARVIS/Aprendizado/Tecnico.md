@@ -58,3 +58,5 @@ curl http://localhost:8000/health
 
 ---
 *Última atualização: 2026-04-09*
+
+[[JARVIS/Aprendizado/INDEX|← Voltar ao índice de Aprendizado]]

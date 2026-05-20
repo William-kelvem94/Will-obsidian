@@ -453,3 +453,5 @@ Modelo de dinâmica evolucionária onde a taxa de crescimento de uma estratégia
 - Gintis, H. (2009). *Game Theory Evolving* (2nd ed.). Princeton University Press.
 - Roughgarden, T. (2016). *Twenty Lectures on Algorithmic Game Theory*. Cambridge University Press.
 - Binmore, K. (2007). *Playing for Real: A Text on Game Theory*. Oxford University Press.
+
+[[Conhecimento-Geral/Matematica/INDEX|← Voltar ao índice de Matemática]]

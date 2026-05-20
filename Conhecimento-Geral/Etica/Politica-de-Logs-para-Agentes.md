@@ -48,3 +48,5 @@ Logs sao necessarios para operar e depurar, mas tambem sao um vetor de vazamento
 - [[Auditoria-de-Agentes-e-Evidencias]]
 - [[Minimizacao-de-Dados-para-RAG-e-Agentes]]
 
+
+[[Conhecimento-Geral/Etica/INDEX|← Voltar ao índice de Ética]]

@@ -509,3 +509,5 @@ Algumas convergências entre tradições:
 - Tedeschi, R. G., & Calhoun, L. G. (1996). The Posttraumatic Growth Inventory: Measuring the positive legacy of trauma. *Journal of Traumatic Stress*, 9(3), 455-471.
 - Tedeschi, R. G., & Calhoun, L. G. (2004). *Posttraumatic growth: Conceptual foundations and empirical evidence*. Lawrence Erlbaum.
 - Tedeschi, R. G., Shakespeare-Finch, J., Taku, K., & Calhoun, L. G. (2018). *Posttraumatic growth: Theory, research, and applications*. Routledge.
+
+[[Conhecimento-Geral/Vida-Pratica/INDEX|← Voltar ao índice de Vida Prática]]

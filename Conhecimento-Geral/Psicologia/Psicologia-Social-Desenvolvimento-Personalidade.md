@@ -1033,3 +1033,5 @@ O **Big Five (OCEAN)** é o modelo cientificamente validado para medir personali
 - Steele, C. M., & Aronson, J. (1995). Stereotype threat and the intellectual test performance of African Americans. *Journal of Personality and Social Psychology*, 69, 797-811.
 - Vygotsky, L. S. (1978). *Mind in Society*. Harvard University Press.
 - Zimbardo, P. G. (2007). *The Lucifer Effect*. Random House.
+
+[[Conhecimento-Geral/Psicologia/INDEX|← Voltar ao índice de Psicologia]]

@@ -44,3 +44,5 @@ updated: 2026-05-03
 - PROJECT_JARVIS_5.0, Gerenciador_Financeiro-7.0, WILLFINANCE-9.0 etc (~40)
 
 **Links**: [[Projetos]] | [[Projetos/Plano-de-Acao]] | [[Projetos/Organizacao-Completa]] | [[William-kelvem94 Overview]] #github #repos #mapeado #67
+
+[[Projetos/README|← Voltar ao índice de Projetos]]

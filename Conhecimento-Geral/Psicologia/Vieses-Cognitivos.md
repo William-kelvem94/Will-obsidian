@@ -560,3 +560,5 @@ Analise as seguintes falas e proponha contrapontos:
 - [[Conhecimento-Geral/Psicologia/Vieses-em-LLMs|Vieses em LLMs]]
 - [[Conhecimento-Geral/Etica/Conceitos-de-Alinhamento|Conceitos de Etica]]
 - [[Conhecimento-Geral/Filosofia/Conceitos-Fundamentais|Conceitos de Filosofia]]
+
+[[Conhecimento-Geral/Psicologia/INDEX|← Voltar ao índice de Psicologia]]

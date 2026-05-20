@@ -552,3 +552,5 @@ Active Inference Agent:
 - [[Conhecimento-Geral/Neurociencia/Redes-Neurais-Biologicas]] — substrato neural dos NCCs
 - [[Conhecimento-Geral/Neurociencia/Sistemas-de-Memoria]] — relação entre memória de trabalho e consciência
 - [[Conhecimento-Geral/Matematica/Teoria-da-Informacao]] — base matemática para IIT e energia livre
+
+[[Conhecimento-Geral/Neurociencia/INDEX|← Voltar ao índice de Neurociência]]

@@ -44,3 +44,5 @@ Modelos nao usam conhecimento externo de forma magica durante uma conversa. Eles
 - [[Conhecimento-Geral/IA-para-Programacao/Memoria-para-Agentes]]
 - [[skills/01-agentic-intelligence/context-engineering-checklist]]
 
+
+[[Conhecimento-Geral/IA-para-Programacao/INDEX|← Voltar ao índice de IA para Programação]]

@@ -628,3 +628,5 @@ Ideias controversas que especulam que a consciência pode estar ligada ao colaps
 - [[Conhecimento-Geral/Matematica/Probabilidade-e-Estatistica]] — interpretação probabilística
 - [[Conhecimento-Geral/Matematica/Calculo-e-Otimizacao]] — equação de Schrödinger, otimização variacional
 - [[Conhecimento-Geral/Matematica/Teoria-da-Informacao]] — entropia quântica, informação quântica
+
+[[Conhecimento-Geral/Fisica/INDEX|← Voltar ao índice de Física]]

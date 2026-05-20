@@ -630,3 +630,5 @@ O pós-humanismo crítico (Braidotti, Haraway) oferece uma alternativa política
 - [[Conhecimento-Geral/Etica/Etica-de-IA-e-Alinhamento|Ética de IA e Alinhamento]]
 - [[Conhecimento-Geral/Economia-Digital/Capitalismo-de-Vigilancia|Capitalismo de Vigilância]]
 - [[Conhecimento-Geral/Direito-Digital/EU-AI-Act|EU AI Act]]
+
+[[Conhecimento-Geral/Filosofia/INDEX|← Voltar ao índice de Filosofia]]

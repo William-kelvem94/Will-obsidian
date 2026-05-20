@@ -413,3 +413,5 @@ Se, por outro lado, a consciência requer *apenas* a capacidade funcional de int
 - [[Conhecimento-Geral/Neurociencia/Redes-Neurais-Biologicas|Redes Neurais Biológicas]]
 - [[Conhecimento-Geral/Etica/Etica-de-IA-e-Alinhamento|Ética de IA e Alinhamento]]
 - [[Conhecimento-Geral/Psicologia/Teoria-da-Mente|Teoria da Mente]]
+
+[[Conhecimento-Geral/Filosofia/INDEX|← Voltar ao índice de Filosofia]]

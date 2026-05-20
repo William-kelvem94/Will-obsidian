@@ -44,3 +44,5 @@ O Jarvis deve identificar e adaptar o tom conforme o estado de Will:
 
 ---
 *Última atualização: 2026-04-09 | Fonte: observações de interações*
+
+[[JARVIS/README|← Voltar ao Command Center]]

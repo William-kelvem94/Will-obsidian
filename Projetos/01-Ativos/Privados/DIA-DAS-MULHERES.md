@@ -24,4 +24,4 @@ PWA responsiva com manifest, sw.js, offline.zip, assets (icons, music, FOTOS MOZ
 - index.html, style.css, js/app.js
 - assets/icons/music, css/, FOTOS MOZINHO/, scripts/
 
-**Links**: [[Projetos/Outros/DIA-DAS-MULHERES]] (versão anterior) | [[GitHub-Completo]] #pwa #css
+**Links**: [[Projetos/02-Arquivo/Outros/DIA-DAS-MULHERES]] (versão anterior) | [[GitHub-Completo]] #pwa #css

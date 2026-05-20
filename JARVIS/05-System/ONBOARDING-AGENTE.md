@@ -36,3 +36,5 @@ Este vault tambem e cerebro para modelos de IA na programacao. Preserve contexto
 - Linke a nota nova a pelo menos um hub.
 - Rode `python .scripts/vault_cleanup.py --check-only` quando a edicao envolver muitos arquivos.
 
+
+[[JARVIS/README|← Voltar ao Command Center]]

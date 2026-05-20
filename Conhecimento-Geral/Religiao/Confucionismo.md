@@ -748,3 +748,5 @@ O melhor caminho é o **diálogo genuíno**: entre Oriente e Ocidente, entre tra
 ---
 
 *Este documento foi criado como material de estudo e referência sobre o Confucionismo. Revisões e acréscimos são bem-vindos.*
+
+[[Conhecimento-Geral/Religiao/INDEX|← Voltar ao índice de Religião]]

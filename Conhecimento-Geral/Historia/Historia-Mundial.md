@@ -545,3 +545,5 @@ A história mundial é o relato da jornada humana desde as primeiras comunidades
 ---
 
 *Última atualização: 2026-05-18*
+
+[[Conhecimento-Geral/Historia/INDEX|← Voltar ao índice de História]]

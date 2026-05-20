@@ -531,3 +531,5 @@ A questão fundamental permanece: o que é real? A mecânica quântica nos confr
 - [[Conhecimento-Geral/Filosofia/Epistemologia]] — O que podemos conhecer sobre o mundo quântico
 - [[Conhecimento-Geral/Filosofia/Filosofia-da-Mente]] — Consciência e observador
 - [[Conhecimento-Geral/Matematica/Teoria-da-Informacao]] — Informação quântica e entropia
+
+[[Conhecimento-Geral/Fisica/INDEX|← Voltar ao índice de Física]]

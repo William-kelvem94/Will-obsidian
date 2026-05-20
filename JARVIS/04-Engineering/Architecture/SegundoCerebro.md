@@ -109,3 +109,5 @@ Esta nota define o segundo cérebro do Jarvis e como ele deve consumir todo o co
 - `JARVIS_KB_PATH` deve apontar para `D:\OBSIDIAN\Will\Projetos\Privados\PROJECT_JARVIS_5.0-KnowledgeBase`
 - `JARVIS_PROJECT_ROOT` deve apontar para `C:\Users\willi\Documents\GitHub\PROJECT_JARVIS_5.0`
 - O Jarvis deve carregar a pasta inteira como `secondBrain` antes de executar ações.
+
+[[JARVIS/README|← Voltar ao Command Center]]

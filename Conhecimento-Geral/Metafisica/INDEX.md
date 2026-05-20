@@ -21,3 +21,4 @@ updated: 2026-05-19
 - [[Conhecimento-Geral/Cosmologia/INDEX\|Cosmologia]]
 - [[Conhecimento-Geral/Fisica/INDEX\|Física]]
 - [[Conhecimento-Geral/Logica/INDEX\|Lógica]]
+- [[Conhecimento-Geral/INDEX\|← Voltar ao Hub Central]]

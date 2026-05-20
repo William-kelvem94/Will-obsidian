@@ -110,3 +110,5 @@ Use esta classificacao:
 
 Quando houver duvida entre reorganizar e preservar contexto, preserve. Este vault existe para manter continuidade entre humanos, JARVIS e agentes de programacao.
 
+
+[[JARVIS/README|← Voltar ao Command Center]]

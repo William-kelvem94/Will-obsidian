@@ -67,3 +67,5 @@ curl -X POST http://localhost:8000/execute \
 - `read_vault_file` retorna o conteúdo de um arquivo específico.
 - `search_vault` retorna uma lista de arquivos ou trechos correspondentes à consulta.
 - Esses exemplos assumem que o servidor MCP está rodando localmente em `localhost:8000`.
+
+[[JARVIS/README|← Voltar ao Command Center]]

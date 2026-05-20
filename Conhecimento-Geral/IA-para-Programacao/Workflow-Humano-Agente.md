@@ -41,3 +41,5 @@ A saida ideal nao e apenas uma resposta. E um estado melhor do projeto: arquivos
 - [[Conhecimento-Geral/IA-para-Programacao/Engenharia-de-Contexto]]
 - [[skills/01-agentic-intelligence/human-agent-collaboration-loop]]
 
+
+[[Conhecimento-Geral/IA-para-Programacao/INDEX|← Voltar ao índice de IA para Programação]]

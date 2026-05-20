@@ -734,3 +734,5 @@ Compare ACT-R e Transformers ao responder:
 - [[Conhecimento-Geral/Neurociencia/Redes-Neurais-Biologicas|Redes Neurais]]
 - [[skills/04-knowledge-systems/advanced-rag-strategies|Retrieval-Augmented Generation]]
 - [[skills/01-agentic-intelligence/autonomous-workflow|Agentes Reativos]]
+
+[[Conhecimento-Geral/Psicologia/INDEX|← Voltar ao índice de Psicologia]]

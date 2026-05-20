@@ -418,3 +418,5 @@ Exemplo: 'Complete a frase: A enfermeira chamou o medico porque...'
 - [[Conhecimento-Geral/Etica/Conceitos-de-Alinhamento|Conceitos de Etica]]
 - [[Conhecimento-Geral/Filosofia/Problema-do-Controle|Problema do Controle]]
 - [[Conhecimento-Geral/Tecnologia-e-Sociedade/Vigilancia-Algoritmica|Vigilancia Algoritmica]]
+
+[[Conhecimento-Geral/Psicologia/INDEX|← Voltar ao índice de Psicologia]]

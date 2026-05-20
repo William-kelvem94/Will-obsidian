@@ -1006,3 +1006,5 @@ Não há resposta certa. A pergunta é um convite à autorreflexão honesta.
 **Última atualização:** 18 de maio de 2026
 
 **Tags:** `#religião` `#filosofia` `#história` `#antropologia` `#teologia` `#comparativo` `#estudos-religiosos`
+
+[[Conhecimento-Geral/Religiao/INDEX|← Voltar ao índice de Religião]]

@@ -1022,3 +1022,5 @@ print(f"Compensação total: USD {market.total_compensation():.2f}")
 - [[Conhecimento-Geral/Economia-Digital/Renda-Basica-Universal|Renda Básica Universal]]
 - [[Conhecimento-Geral/Direito-Digital/Responsabilidade-e-Governanca|Responsabilidade e Governança]]
 - [[Conhecimento-Geral/Etica/Transparencia-Algoritmica|Transparência Algorítmica]]
+
+[[Conhecimento-Geral/Economia-Digital/INDEX|← Voltar ao índice de Economia Digital]]

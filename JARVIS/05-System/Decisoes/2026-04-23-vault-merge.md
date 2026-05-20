@@ -150,3 +150,5 @@ Successfully merged legacy vault from `D:\GitHub\Will-obsidian` into current Git
 ---
 
 *Merge completed successfully. Both vault histories now unified in GitHub-tracked vault.*
+
+[[JARVIS/README|← Voltar ao Command Center]]

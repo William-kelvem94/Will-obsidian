@@ -294,3 +294,5 @@ Para projetos de engenharia de dados, ML e infraestrutura, consulte:
 ---
 
 *Consulte também: [[Projetos]], [[Cerebro-Will]], [[skills/SFIA-Mapping]], [[skills/Skill-Project-Matrix]], [[data-engineering/etl-pipelines]], [[devops/FinOps]].*
+
+[[skills/README|← Voltar à Taxonomia de Skills]]

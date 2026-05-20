@@ -253,3 +253,5 @@ for texto in textos:
 ---
 
 *Consulte também: [[04-knowledge-systems/advanced-rag-strategies]], [[skills/Explainable-AI]], [[devops/Observabilidade]], [[02-software-engineering/api-design]].*
+
+[[skills/README|← Voltar à Taxonomia de Skills]]

@@ -519,3 +519,5 @@ class RussellPrincipleAgent:
 - Russell, S. (2019). *Human Compatible: Artificial Intelligence and the Problem of Control*. Viking.
 - Soares, N. et al. (2015). "Corrigibility." *AAAI Workshop on AI and Ethics*.
 - Yudkowsky, E. (2004). "Coherent Extrapolated Volition." *Singularity Institute for Artificial Intelligence*.
+
+[[Conhecimento-Geral/Etica/INDEX|← Voltar ao índice de Ética]]

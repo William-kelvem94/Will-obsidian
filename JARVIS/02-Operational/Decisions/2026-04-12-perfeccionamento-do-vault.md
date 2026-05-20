@@ -21,3 +21,5 @@ O vault agora não é apenas um repositório de notas, mas uma ferramenta ativa 
 
 **Agente Responsável:** Antigravity (Google Deepmind)
 **Timestamp:** 2026-04-12 03:12
+
+[[JARVIS/02-Operational/Decisions/INDEX|← Voltar ao índice de Decisions]]

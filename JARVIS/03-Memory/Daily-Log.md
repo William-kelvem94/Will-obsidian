@@ -18,3 +18,5 @@ WHERE file.name != "Daily-Log"
 SORT date DESC
 LIMIT 50
 ```
+
+[[JARVIS/03-Memory/README|← Voltar à Memória]]

@@ -22,3 +22,5 @@ Will pediu para configurar D:\OBSIDIAN\Will como segundo cérebro do Jarvis. A e
 
 ---
 *Salvo pelo Jarvis em: 2026-04-09 18:09*
+
+[[JARVIS/03-Memory/README|← Voltar à Memória]]

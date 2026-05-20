@@ -706,3 +706,5 @@ O dilema: não podemos parar o desenvolvimento tecnológico (a competição glob
 - [[Conhecimento-Geral/Tecnologia-e-Sociedade/Panoptico-Digital|Panóptico Digital]]
 - [[Conhecimento-Geral/Etica/Etica-de-IA-e-Alinhamento|Ética de IA e Alinhamento]]
 - [[Conhecimento-Geral/Direito-Digital/EU-AI-Act|EU AI Act]]
+
+[[Conhecimento-Geral/Filosofia/INDEX|← Voltar ao índice de Filosofia]]

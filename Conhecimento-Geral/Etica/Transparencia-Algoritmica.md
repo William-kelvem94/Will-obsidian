@@ -624,3 +624,5 @@ class TransparencyLimitations:
 - Wachter, S. et al. (2017). "Why a Right to Explanation Does Not Exist in the GDPR." *International Data Privacy Law*, 7(2).
 - Wachter, S. et al. (2018). "Counterfactual Explanations Without Opening the Black Box." *Harvard Journal of Law & Technology*, 31(2).
 - Goodman, B. & Flaxman, S. (2017). "European Union Regulations on Algorithmic Decision-Making." *AI Magazine*, 38(3).
+
+[[Conhecimento-Geral/Etica/INDEX|← Voltar ao índice de Ética]]

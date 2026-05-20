@@ -131,3 +131,5 @@ PROJECT_JARVIS_5.0 e um monorepo de assistente multimodal: backend FastAPI, fron
 - O backend canonico e `backend/app/main.py` apenas, ou existem shims historicos ainda usados?
 - O frontend atual deve preservar a UI "Luxury Cockpit" ou migrar para uma superficie operacional mais simples?
 - Quais testes sao obrigatorios antes de mexer em percepcao, voz ou ferramentas de OS?
+
+[[JARVIS/04-Engineering/Codebase-Maps/INDEX|← Voltar ao índice de Codebase-Maps]]

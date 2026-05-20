@@ -41,3 +41,5 @@ Chegar no menor conjunto de mudancas que resolve o problema e e verificavel.
 - [[Conhecimento-Geral/IA-para-Programacao/Higiene-de-Repo-e-Git]]
 - [[Conhecimento-Geral/IA-para-Programacao/Debug-com-Agentes]]
 
+
+[[Conhecimento-Geral/IA-para-Programacao/INDEX|← Voltar ao índice de IA para Programação]]

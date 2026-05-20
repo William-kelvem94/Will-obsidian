@@ -1,4 +1,4 @@
----
+﻿---
 title: "JARVIS — Main Hub"
 description: "Ponto de entrada principal para o sistema JARVIS. Redireciona para o Neural Command Center."
 tags: [jarvis, hub, main]
@@ -30,3 +30,5 @@ Bem-vindo ao núcleo do sistema JARVIS.
 ---
 
 *Maintained by JARVIS 5.0 — Última atualização: 2026-05-16*
+
+[[JARVIS/README|← Voltar ao Command Center]]

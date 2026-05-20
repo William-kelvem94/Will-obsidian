@@ -1805,3 +1805,5 @@ if __name__ == '__main__':
 ---
 
 *"Surveillance capitalism is a rogue mutation of capitalism. It is not inevitable. It was created, and it can be replaced."* — Shoshana Zuboff
+
+[[Conhecimento-Geral/Economia-Digital/INDEX|← Voltar ao índice de Economia Digital]]

@@ -1155,3 +1155,5 @@ Resistência (Regulação) ──> Resistência (Tecnológica)
 > *"Algorithms are opinions embedded in code."* — Cathy O'Neil (2016)
 
 > *"Vigilância algorítmica não é sobre tecnologia. É sobre poder — quem sabe, quem decide, quem controla."* — Adaptado de Lyon (2018)
+
+[[Conhecimento-Geral/Tecnologia-e-Sociedade/INDEX|← Voltar ao índice de Tecnologia e Sociedade]]

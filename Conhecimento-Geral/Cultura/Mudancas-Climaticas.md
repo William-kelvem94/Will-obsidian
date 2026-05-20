@@ -639,3 +639,5 @@ Agências de rating ESG avaliam o desempenho das empresas em critérios ambienta
 6. Qual o papel da inteligência artificial na mitigação (otimização de redes elétricas, descoberta de materiais, monitoramento de emissões) e na adaptação?
 7. Como distribuir justamente os custos da transição entre setores, classes sociais e países?
 8. O crescimento econômico infinito é compatível com um planeta finito?
+
+[[Conhecimento-Geral/Cultura/INDEX|← Voltar ao índice de Cultura]]

@@ -735,3 +735,5 @@ Hegel criticou Kant por oferecer um princípio formal sem conteúdo substantivo:
 - Ross, W. D. (1930). *The Right and the Good*. Oxford University Press.
 - Ross, W. D. (1939). *Foundations of Ethics*. Oxford University Press.
 - Scanlon, T. M. (1998). *What We Owe to Each Other*. Harvard University Press.
+
+[[Conhecimento-Geral/Etica/INDEX|← Voltar ao índice de Ética]]

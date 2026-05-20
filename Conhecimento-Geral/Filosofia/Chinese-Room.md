@@ -406,3 +406,5 @@ Se MARY-V não aprende nada novo (o sistema já "sabia" tudo sobre cores atravé
 - [[Conhecimento-Geral/Etica/Etica-de-IA-e-Alinhamento|Ética de IA e Alinhamento]]
 - [[Conhecimento-Geral/Psicologia/Teoria-da-Mente|Teoria da Mente]]
 - [[Conhecimento-Geral/Tecnologia-e-Sociedade/Vigilancia-Algoritmica|Vigilância Algorítmica]]
+
+[[Conhecimento-Geral/Filosofia/INDEX|← Voltar ao índice de Filosofia]]

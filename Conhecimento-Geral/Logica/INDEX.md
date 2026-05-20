@@ -15,3 +15,5 @@ Nota abrangente sobre experimentos mentais organizados por área: Lógica e Filo
 ---
 
 *Última atualização: 2026-05-19*
+
+[[Conhecimento-Geral/INDEX|← Voltar ao Hub Central]]

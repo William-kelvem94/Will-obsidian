@@ -421,3 +421,5 @@ git checkout backup-before-merge
 ---
 
 *Conflicts are normal. Stay calm, resolve systematically.*
+
+[[JARVIS/README|← Voltar ao Command Center]]

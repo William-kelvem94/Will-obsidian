@@ -78,3 +78,5 @@ Este documento mapeia toda a base de conhecimento do Jarvis e mostra como cada p
 - Criar `PROJECT_JARVIS_5.0-UserProfile.md` para personalização do usuário.
 - Criar `PROJECT_JARVIS_5.0-Roadmap.md` se a estratégia precisar de um cronograma mais detalhado.
 - Manter `INDEX.md` e `RULES.md` sincronizados com o crescimento da KB.
+
+[[JARVIS/KnowledgeBase/INDEX|← Voltar ao índice de KnowledgeBase]]

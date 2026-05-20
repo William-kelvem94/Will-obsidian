@@ -849,3 +849,5 @@ quadrantChart
 > "Você não precisa de mais tempo. Você precisa de menos distrações." — Desconhecido
 
 > "A arte de progredir é começar. A arte de começar é quebrar tarefas complexas em tarefas pequenas e gerenciáveis." — Brian Tracy
+
+[[Conhecimento-Geral/Vida-Pratica/INDEX|← Voltar ao índice de Vida Prática]]

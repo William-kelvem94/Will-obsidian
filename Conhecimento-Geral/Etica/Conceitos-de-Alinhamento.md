@@ -612,3 +612,5 @@ class UncertainPreferenceAgent:
 - Russell, S. (2019). *Human Compatible: AI and the Problem of Control*. Viking.
 - Soares, N. et al. (2015). "Corrigibility." *AAAI Workshop on AI and Ethics*.
 - Taylor, J. et al. (2016). "Alignment for Advanced Machine Learning Systems." *Ethics of Artificial Intelligence*.
+
+[[Conhecimento-Geral/Etica/INDEX|← Voltar ao índice de Ética]]

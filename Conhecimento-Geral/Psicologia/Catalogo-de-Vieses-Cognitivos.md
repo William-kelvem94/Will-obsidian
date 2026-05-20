@@ -845,3 +845,5 @@ A exposição continuada a um estímulo aumenta a preferência, mesmo sem reconh
 - [[Conhecimento-Geral/Psicologia/Vieses-em-LLMs|Vieses em LLMs]]
 - [[Conhecimento-Geral/Filosofia/INDEX|Filosofia]]
 - [[Conhecimento-Geral/Neurociencia/INDEX|Neurociência]]
+
+[[Conhecimento-Geral/Psicologia/INDEX|← Voltar ao índice de Psicologia]]

@@ -628,3 +628,5 @@ docker stats
 - Atualize sempre que a stack mudar ou houver nova integração importante.
 - Use os exemplos de código como referência para implementação.
 - Mantenha as configurações Docker atualizadas conforme o projeto evolui.
+
+[[JARVIS/README|← Voltar ao Command Center]]

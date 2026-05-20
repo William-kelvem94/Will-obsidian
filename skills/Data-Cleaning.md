@@ -350,3 +350,5 @@ Competições do [[skills/Kaggle-Datasets]] são laboratórios de data cleaning.
 ---
 
 *Consulte também: [[skills/Scikit-Learn]], [[skills/Kaggle-Datasets]], [[data-engineering/etl-pipelines]], [[04-knowledge-systems/advanced-rag-strategies]].*
+
+[[skills/README|← Voltar à Taxonomia de Skills]]

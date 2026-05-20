@@ -50,3 +50,5 @@ Uma resposta pronta para uso deve ter pontuacao alta em `correcao`, `aderencia` 
 - [[Conhecimento-Geral/IA-para-Programacao/Workflow-Humano-Agente]]
 - [[skills/01-agentic-intelligence/response-evaluation-rubric]]
 
+
+[[Conhecimento-Geral/IA-para-Programacao/INDEX|← Voltar ao índice de IA para Programação]]

@@ -48,3 +48,5 @@ O erro mais comum em debug com IA e deixar o agente "inventar" a causa. O objeti
 - [[Conhecimento-Geral/IA-para-Programacao/Avaliacao-de-Respostas-de-IA]]
 - [[JARVIS/02-Operational/Playbooks/Agent-Confirmation-Protocol]]
 
+
+[[Conhecimento-Geral/IA-para-Programacao/INDEX|← Voltar ao índice de IA para Programação]]

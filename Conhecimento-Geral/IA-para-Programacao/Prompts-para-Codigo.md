@@ -51,3 +51,5 @@ Exemplo:
 - [[Conhecimento-Geral/IA-para-Programacao/Engenharia-de-Contexto]]
 - [[Conhecimento-Geral/IA-para-Programacao/Segredos-e-Dados-Sensiveis]]
 
+
+[[Conhecimento-Geral/IA-para-Programacao/INDEX|← Voltar ao índice de IA para Programação]]

@@ -32,41 +32,41 @@ Este vault está organizado em camadas claras:
 - `Projetos/EstudosPesquisas/`
 
 ## Projetos públicos mapeados em `Projetos/`
-- [[Projetos/Python/Automatizador|Automatizador]]
-- [[Projetos/Python/TRADUTOR-WKP|TRADUTOR-WKP]]
-- [[Projetos/PHP/CRUD_VENDAS_WILL|CRUD_VENDAS_WILL]]
-- [[Projetos/PHP/CRUD_BASICO4.0|CRUD_BASICO4.0]]
-- [[Projetos/PHP/CRUD_BASICO-3.0|CRUD_BASICO-3.0]]
-- [[Projetos/PHP/CRUD_BASICO-2.0|CRUD_BASICO-2.0]]
-- [[Projetos/PHP/crud_basico|crud_basico]]
-- [[Projetos/Java/Atividade-01|Atividade-01]]
-- [[Projetos/Java/Atividade-03|Atividade-03]]
-- [[Projetos/Outros/DIA-DAS-MULHERES|DIA-DAS-MULHERES]]
-- [[Projetos/Outros/Auto-boletos|Auto-boletos]]
-- [[Projetos/Outros/Gestor Aluguel 2.0|Gestor Aluguel 2.0]]
+- [[Projetos/01-Ativos/Python/Automatizador|Automatizador]]
+- [[Projetos/01-Ativos/Python/TRADUTOR-WKP|TRADUTOR-WKP]]
+- [[Projetos/02-Arquivo/PHP/CRUD_VENDAS_WILL|CRUD_VENDAS_WILL]]
+- [[Projetos/02-Arquivo/PHP/CRUD_BASICO4.0|CRUD_BASICO4.0]]
+- [[Projetos/02-Arquivo/PHP/CRUD_BASICO-3.0|CRUD_BASICO-3.0]]
+- [[Projetos/02-Arquivo/PHP/CRUD_BASICO-2.0|CRUD_BASICO-2.0]]
+- [[Projetos/02-Arquivo/PHP/crud_basico|crud_basico]]
+- [[Projetos/02-Arquivo/Java/Atividade-01-old|Atividade-01]]
+- [[Projetos/02-Arquivo/Java/Atividade-03-old|Atividade-03]]
+- [[Projetos/02-Arquivo/Outros/DIA-DAS-MULHERES|DIA-DAS-MULHERES]]
+- [[Projetos/02-Arquivo/Outros/Auto-boletos|Auto-boletos]]
+- [[Projetos/02-Arquivo/Outros/Gestor Aluguel 2.0|Gestor Aluguel 2.0]]
 
 ## Projetos privados clonados com análise
-- [[Projetos/Privados/Auto-boletos|Auto-boletos]]
-- [[Projetos/Privados/DEEP-LEARNING|DEEP-LEARNING]]
-- [[Projetos/Privados/DIA-DAS-MULHERES|DIA DAS MULHERES]]
-- [[Projetos/Privados/gestor_aluguel_2.0|gestor_aluguel_2.0]]
-- [[Projetos/Privados/IA-LOCAL|IA-LOCAL]]
-- [[Projetos/Privados/openclaude-wk|openclaude-wk]]
-- [[Projetos/Privados/PROJECT_JARVIS_5.0|PROJECT_JARVIS_5.0]]
+- [[Projetos/01-Ativos/Privados/Auto-boletos|Auto-boletos]]
+- [[Projetos/01-Ativos/Privados/DEEP-LEARNING|DEEP-LEARNING]]
+- [[Projetos/01-Ativos/Privados/DIA-DAS-MULHERES|DIA DAS MULHERES]]
+- [[Projetos/01-Ativos/Privados/gestor_aluguel_2.0|gestor_aluguel_2.0]]
+- [[Projetos/01-Ativos/Privados/IA-LOCAL|IA-LOCAL]]
+- [[Projetos/01-Ativos/Privados/openclaude-wk|openclaude-wk]]
+- [[Projetos/01-Ativos/Privados/PROJECT_JARVIS_5.0|PROJECT_JARVIS_5.0]]
 
 ## Notas de pesquisa e suporte
-- [[Projetos/EstudosFocados/README|Estudos Focados]]
-- [[Projetos/EstudosPesquisas/README|Estudos e Pesquisas]]
+- [[Projetos/03-Estudos/EstudosFocados/README|Estudos Focados]]
+- [[Projetos/03-Estudos/EstudosPesquisas/README|Estudos e Pesquisas]]
 - [[Projetos/Plano-de-Acao|Plano de Ação]]
 - [[Cerebro-Will|Cérebro Will]]
 - [[Bem-vindo|Bem-vindo]]
 
 ## Estrutura ideal do vault
 - `Projetos/` → notas de projetos públicos finais ou MVP.
-- `Projetos/Privados/` → clones locais ou work-in-progress com análises profundas.
-- `Projetos/Objetivos/` = metas do vault, OKRs e ciclos de 90 dias.
-- `Projetos/EstudosFocados/` → decisões estratégicas e roadmaps de evolução.
-- `Projetos/EstudosPesquisas/` → coleções de recursos, tutoriais e boas práticas.
+- `Projetos/01-Ativos/Privados/` → clones locais ou work-in-progress com análises profundas.
+- `Projetos/01-Ativos/Objetivos/` = metas do vault, OKRs e ciclos de 90 dias.
+- `Projetos/03-Estudos/EstudosFocados/` → decisões estratégicas e roadmaps de evolução.
+- `Projetos/03-Estudos/EstudosPesquisas/` → coleções de recursos, tutoriais e boas práticas.
 - `Projetos/Plano-de-Acao.md` → uso diário para execução e priorização.
 
 ## Fluxo de uso recomendado
@@ -84,3 +84,5 @@ Este vault está organizado em camadas claras:
 - Registrar o diário de bordo nas notas de `EstudosFocados` para cada nova sessão de trabalho.
 
 **Esta nota é o checkpoint de organização do vault.**
+
+[[Projetos/README|← Voltar ao índice de Projetos]]

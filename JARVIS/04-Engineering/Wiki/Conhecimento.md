@@ -188,3 +188,5 @@ app/
 - Use `JARVIS/KnowledgeBase/Estrategia.md` para estratégia.
 - Use `JARVIS/KnowledgeBase/Ferramentas.md` para stack técnico.
 - Use `JARVIS/KnowledgeBase/Sistemas-Sensoriais.md` para integração multimodal.
+
+[[JARVIS/README|← Voltar ao Command Center]]

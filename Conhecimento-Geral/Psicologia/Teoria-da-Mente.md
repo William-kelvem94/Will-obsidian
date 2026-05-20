@@ -627,3 +627,5 @@ Identifique: (1) Em que momento a IA demonstra ToM? (2) O que a IA **falha** em 
 - [[Conhecimento-Geral/Etica/Deontologia|Deontologia]]
 - [[skills/01-agentic-intelligence/reinforcement-learning|Aprendizado por Reforço]]
 - Agentes Terapêuticos
+
+[[Conhecimento-Geral/Psicologia/INDEX|← Voltar ao índice de Psicologia]]

@@ -44,3 +44,5 @@ Relacionados:
 - [[Conhecimento-Geral/Psicologia/Vieses-Cognitivos]]
 - [[Conhecimento-Geral/IA-para-Programacao/Heuristicas-de-Triagem-de-Issues]]
 
+
+[[Conhecimento-Geral/Psicologia/INDEX|← Voltar ao índice de Psicologia]]

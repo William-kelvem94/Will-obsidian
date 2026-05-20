@@ -35,3 +35,5 @@ updated: 2026-05-16
 - `skills/` — categorias de skills técnicas e agenticas
 - `Templates/` — padrões reutilizáveis para criação de notas
 - `.scripts/` — automações operacionais do vault
+
+[[JARVIS/README|← Voltar ao Command Center]]

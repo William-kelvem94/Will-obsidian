@@ -257,3 +257,5 @@ Top edited: [file paths]
 
 *This dashboard is your single source of truth for "what am I doing right now?"*
 *Update it at start of day, end of day, and when context switching.*
+
+[[JARVIS/README|← Voltar ao Command Center]]

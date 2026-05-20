@@ -516,3 +516,5 @@ A arte de influência taoísta se caracteriza por:
 ---
 
 **Nota pessoal**: O Taoísmo não é um sistema para ser "acreditado". É um convite a prestar atenção. O texto acima é um mapa, não o território. Leia, experimente, questione — e depois largue o livro e vá sentir o vento no rosto. O resto é conversa fiada.
+
+[[Conhecimento-Geral/Religiao/INDEX|← Voltar ao índice de Religião]]

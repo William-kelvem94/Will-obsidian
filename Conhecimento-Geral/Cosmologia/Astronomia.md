@@ -345,3 +345,5 @@ A astronomia historicamente impulsiona a inovação tecnológica:
 ---
 
 *Nota gerada para o vault Conhecimento-Geral. Conecta-se com [[Conhecimento-Geral/Cosmologia/Cosmologia]], [[Conhecimento-Geral/Astronomia/Astronomia-Fundamental]], [[Conhecimento-Geral/Fisica/Fisica-Fundamental]], [[Conhecimento-Geral/Fisica/Fisica-Quantica]], [[Conhecimento-Geral/Filosofia/Filosofia-da-Mente]], e [[Conhecimento-Geral/Cosmologia/Filosofia-da-Cosmologia]]. Atualizado em 18/05/2026.*
+
+[[Conhecimento-Geral/Cosmologia/INDEX|← Voltar ao índice de Cosmologia]]

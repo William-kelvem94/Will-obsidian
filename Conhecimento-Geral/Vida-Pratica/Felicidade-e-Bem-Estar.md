@@ -961,3 +961,5 @@ A verdadeira arte da felicidade não é evitar o sofrimento — é aprender a vi
 *"O sentido da vida é dar sentido à vida."* — Viktor Frankl
 
 *"Não porque as coisas são difíceis que não ousamos; é porque não ousamos que são difíceis."* — Sêneca
+
+[[Conhecimento-Geral/Vida-Pratica/INDEX|← Voltar ao índice de Vida Prática]]

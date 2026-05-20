@@ -729,3 +729,5 @@ print(f"Usuário apagado: {user_id not in recsys.users}")
 - [[Conhecimento-Geral/Etica/Transparencia-Algoritmica|Transparência Algorítmica]]
 - [[Conhecimento-Geral/Tecnologia-e-Sociedade/Vigilancia-Algoritmica|Vigilância Algorítmica]]
 - [[Conhecimento-Geral/Tecnologia-e-Sociedade/Vigilancia-Algoritmica|Viés Algorítmico]]
+
+[[Conhecimento-Geral/Direito-Digital/INDEX|← Voltar ao índice de Direito Digital]]

@@ -525,3 +525,7 @@ Toda estrutura de dados é uma aplicação de conceitos discretos:
 7. **Enderton, H. B.** (2001). *A Mathematical Introduction to Logic*. 2nd ed. Academic Press. — Fundamentos formais de lógica matemática.
 
 8. **Knuth, D. E.** (1997). *The Art of Computer Programming, Vol. 1-3*. Addison-Wesley. — Referência definitiva em algoritmos e estruturas discretas.
+
+---
+
+[[Conhecimento-Geral/Matematica/INDEX|← Voltar ao índice de Matemática]]

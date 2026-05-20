@@ -116,3 +116,5 @@ gestor_aluguel_2.0 e um SaaS imobiliario multi-tenant em Next.js 15 com Prisma/P
 - Asaas e Stripe coexistem ou Stripe e apenas fallback de teste?
 - O Prisma schema atual tem tenant scope em todos os modelos financeiros?
 - O bloqueio de migrations ainda existe no codigo real?
+
+[[JARVIS/04-Engineering/Codebase-Maps/INDEX|← Voltar ao índice de Codebase-Maps]]

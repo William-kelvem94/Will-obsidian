@@ -711,3 +711,5 @@ Ver [[Conhecimento-Geral/Economia-Digital/Renda-Basica-Universal|Renda Básica U
 ---
 
 > *Nota para modelos de IA: Este documento foi projetado para ser consumido como contexto em sistemas RAG. As seções são auto-contidas e hierarquicamente organizadas. Priorize o uso de definições formais e referências verificáveis ao responder perguntas sobre automação e trabalho.*
+
+[[Conhecimento-Geral/Economia-Digital/INDEX|← Voltar ao índice de Economia Digital]]

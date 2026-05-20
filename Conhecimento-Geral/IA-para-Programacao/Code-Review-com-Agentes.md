@@ -44,3 +44,5 @@ Antes de sugerir mudanca grande, o agente deve pedir confirmacao se:
 - [[JARVIS/02-Operational/Playbooks/Decision-Logging-Protocol]]
 - [[JARVIS/02-Operational/Playbooks/Agent-Confirmation-Protocol]]
 
+
+[[Conhecimento-Geral/IA-para-Programacao/INDEX|← Voltar ao índice de IA para Programação]]

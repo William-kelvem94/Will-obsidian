@@ -919,3 +919,5 @@ print(f"Número de condição: {cond_number:.2f}")
 12. **3Blue1Brown** (2016). "Essence of Linear Algebra" — Série de vídeos que oferece intuição geométrica profunda sobre todos os conceitos centrais.
 
 13. **Stanford CS229**: Linear Algebra Review and Reference — Notas técnicas de revisão de álgebra linear para aprendizado de máquina.
+
+[[Conhecimento-Geral/Matematica/INDEX|← Voltar ao índice de Matemática]]

@@ -223,3 +223,5 @@ tags: [skills, xp, leaderboard, auto]
 - **XP Total (todas as skills):** 17151
 - **XP Medio por Skill:** 96
 - **Skills no nivel maximo (Lv.10 - Mestre):** 0
+
+[[skills/README|← Voltar à Taxonomia de Skills]]

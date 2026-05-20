@@ -77,3 +77,5 @@ Jarvis deve poder ser:
 
 ### Filosófico
 "Às vezes o melhor código é aquele que nos ajuda a entender melhor o problema."
+
+[[JARVIS/README|← Voltar ao Command Center]]

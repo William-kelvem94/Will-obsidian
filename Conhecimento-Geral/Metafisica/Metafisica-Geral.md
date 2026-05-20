@@ -654,3 +654,5 @@ A metafísica informa diretamente problemas computacionais:
 - [[Conhecimento-Geral/Filosofia/Conceitos-Fundamentais|Conceitos Fundamentais de Filosofia]]
 - [[Conhecimento-Geral/Filosofia/Filosofia-da-Linguagem-e-Lógica-para-IA|Filosofia da Linguagem e Lógica para IA]]
 - [[Conhecimento-Geral/Neurociencia/Consciencia-e-Cerebro|Consciência e Cérebro]]
+
+[[Conhecimento-Geral/Metafisica/INDEX|← Voltar ao índice de Metafísica]]

@@ -1176,3 +1176,5 @@ $$
 15. **3Blue1Brown** (2017). "Backpropagation Calculus" — Série de vídeos com intuição geométrica do backpropagation.
 
 16. **PyTorch Docs**: `torch.optim` — Documentação dos otimizadores implementados.
+
+[[Conhecimento-Geral/Matematica/INDEX|← Voltar ao índice de Matemática]]

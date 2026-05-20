@@ -856,3 +856,5 @@ Apresentação curta e persuasiva do negócio para investidores, parceiros ou cl
 | Eric Ries | *A Startup Enxuta* | 2011 |
 | Alexander Osterwalder | *Business Model Generation* | 2010 |
 | Simon Sinek | *Comece pelo Porquê* | 2009 |
+
+[[Conhecimento-Geral/Vida-Pratica/INDEX|← Voltar ao índice de Vida Prática]]

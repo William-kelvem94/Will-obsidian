@@ -923,3 +923,5 @@ for chave, valor in resultado.items():
 ---
 
 *Última atualização: 2026-05-16*
+
+[[Conhecimento-Geral/Tecnologia-e-Sociedade/INDEX|← Voltar ao índice de Tecnologia e Sociedade]]

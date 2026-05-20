@@ -491,3 +491,5 @@ A comunicação entre neurônios é puramente química (ver [[Conhecimento-Geral
 - [[Conhecimento-Geral/Matematica/Probabilidade-e-Estatistica]] — cinética química e análise de dados
 - [[Conhecimento-Geral/Matematica/Calculo-e-Otimizacao]] — modelagem de reações e equilíbrio
 - [[Conhecimento-Geral/Matematica/Algebra-Linear-Essencial]] — espectroscopia e análise multivariada
+
+[[Conhecimento-Geral/Quimica/INDEX|← Voltar ao índice de Química]]

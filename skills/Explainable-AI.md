@@ -252,3 +252,5 @@ Explainable AI (XAI) é o campo da Inteligência Artificial que busca tornar mod
 ---
 
 *"Explainability is not a property of a model, but a property of a relationship between a model and a human." — Finale Doshi-Velez*
+
+[[skills/README|← Voltar à Taxonomia de Skills]]

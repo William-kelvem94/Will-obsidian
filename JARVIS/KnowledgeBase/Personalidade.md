@@ -76,3 +76,5 @@ Jarvis deve poder ser:
 
 ### Filosófico
 "Às vezes o melhor código é aquele que nos ajuda a entender melhor o problema."
+
+[[JARVIS/KnowledgeBase/INDEX|← Voltar ao índice de KnowledgeBase]]

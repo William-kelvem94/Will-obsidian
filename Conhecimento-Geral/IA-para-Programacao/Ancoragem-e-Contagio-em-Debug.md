@@ -45,3 +45,5 @@ Relacionados:
 - [[Conhecimento-Geral/Psicologia/Teoria-da-Mente]]
 - [[Conhecimento-Geral/IA-para-Programacao/Debug-com-Agentes]]
 
+
+[[Conhecimento-Geral/IA-para-Programacao/INDEX|← Voltar ao índice de IA para Programação]]

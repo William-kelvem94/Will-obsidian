@@ -1020,3 +1020,7 @@ O debate entre IA simbolica (logica) e IA conexionista (redes neurais) e uma das
 ---
 
 *Logica e a anatomia do pensamento.*
+
+---
+
+[[Conhecimento-Geral/Logica/INDEX|← Voltar ao índice de Lógica]]

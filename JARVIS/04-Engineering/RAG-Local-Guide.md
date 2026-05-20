@@ -39,3 +39,5 @@ def search(query, top_k=3):
     D, I = index.search(emb, top_k)
     return [meta[i]['file'] for i in I[0]]
 ```
+
+[[JARVIS/README|← Voltar ao Command Center]]

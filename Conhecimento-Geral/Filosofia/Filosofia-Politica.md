@@ -596,3 +596,5 @@ A [[Conhecimento-Geral/Etica/Etica-de-IA-e-Alinhamento|ética de IA]] frequentem
 - [[Conhecimento-Geral/Tecnologia-e-Sociedade/Vigilancia-Algoritmica|Vigilância Algorítmica]]
 - [[Conhecimento-Geral/Cultura/Cultura-Sociologia|Cultura e Sociologia]]
 - [[Conhecimento-Geral/Cultura/Teorias-Sociologicas|Teorias Sociológicas]]
+
+[[Conhecimento-Geral/Filosofia/INDEX|← Voltar ao índice de Filosofia]]

@@ -43,3 +43,5 @@ Agentes reduzem custo de execucao, mas podem aumentar probabilidade se:
 
 Operacao segura com agentes depende de: guardrails + auditoria + runbooks verificaveis.
 
+
+[[Conhecimento-Geral/Tecnologia-e-Sociedade/INDEX|← Voltar ao índice de Tecnologia e Sociedade]]

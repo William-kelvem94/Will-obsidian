@@ -75,3 +75,5 @@ O agente não depende de APIs externas para gerar respostas, exceto se algum mó
 - Adicionar gerenciamento de tarefas e templates no próprio Obsidian.
 - Implementar um indexador incremental para atualizar apenas notas novas.
 - Construir uma interface de controle para gerar novos arquivos Markdown automaticamente.
+
+[[JARVIS/README|← Voltar ao Command Center]]

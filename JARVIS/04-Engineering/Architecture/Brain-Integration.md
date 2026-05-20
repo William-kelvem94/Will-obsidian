@@ -52,3 +52,5 @@ Esta nota conecta o segundo cérebro do Jarvis com o restante do vault, incluind
 ## Próxima ação
 - Sincronizar este arquivo com `JARVIS/KnowledgeBase/INDEX.md`.
 - Criar uma nota de `Brain Health` para monitorar indicadores de context load e qualidade de RAG.
+
+[[JARVIS/README|← Voltar ao Command Center]]

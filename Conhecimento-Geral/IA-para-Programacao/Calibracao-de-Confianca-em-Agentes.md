@@ -62,3 +62,5 @@ Relacionados:
 - [[Conhecimento-Geral/IA-para-Programacao/Engenharia-de-Contexto]]
 - [[Conhecimento-Geral/IA-para-Programacao/Avaliacao-de-Respostas-de-IA]]
 
+
+[[Conhecimento-Geral/IA-para-Programacao/INDEX|← Voltar ao índice de IA para Programação]]

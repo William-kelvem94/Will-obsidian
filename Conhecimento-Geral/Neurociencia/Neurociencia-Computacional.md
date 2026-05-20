@@ -1112,3 +1112,5 @@ graph TD
 29. Clopath, C., Büsing, L., Vasilaki, E. & Gerstner, W. (2010). "Connectivity reflects coding: a model of voltage-based STDP with homeostasis." *Nature Neuroscience*, 13, 789-796. doi:10.1038/nn.2553.
 
 30. Marblestone, A.H., Wayne, G. & Kording, K.P. (2016). "Toward an integration of deep learning and neuroscience." *Frontiers in Computational Neuroscience*, 10, 94. doi:10.3389/fncom.2016.00094.
+
+[[Conhecimento-Geral/Neurociencia/INDEX|← Voltar ao índice de Neurociência]]

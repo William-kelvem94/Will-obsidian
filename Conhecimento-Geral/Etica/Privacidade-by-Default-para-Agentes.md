@@ -49,3 +49,5 @@ Privacidade by default significa: quando um agente (ou automacao) precisar escol
 - [[Politica-de-Logs-para-Agentes]]
 - [[Limites-de-Automacao-e-Consentimento]]
 
+
+[[Conhecimento-Geral/Etica/INDEX|← Voltar ao índice de Ética]]

@@ -389,3 +389,5 @@ pip-audit
 ---
 
 *Update this playbook when you discover new solutions*
+
+[[JARVIS/README|← Voltar ao Command Center]]

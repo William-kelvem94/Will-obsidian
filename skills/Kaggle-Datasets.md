@@ -277,3 +277,5 @@ Use o [[skills/Skill-Project-Matrix]] para mapear competições Kaggle como proj
 ---
 
 *Consulte também: [[skills/Data-Cleaning]], [[skills/Scikit-Learn]], [[data-engineering/etl-pipelines]], [[02-software-engineering/algorithms-data-structures]].*
+
+[[skills/README|← Voltar à Taxonomia de Skills]]

@@ -76,3 +76,5 @@ Record the decision when it changes future behavior:
 - durable policy decisions should become a decision note in `JARVIS/02-Operational/Decisions/`;
 - rejected or uncertain suggestions should become an improvement proposal in `JARVIS/05-System/Improvements/`.
 
+
+[[JARVIS/02-Operational/Playbooks/INDEX|← Voltar ao índice de Playbooks]]

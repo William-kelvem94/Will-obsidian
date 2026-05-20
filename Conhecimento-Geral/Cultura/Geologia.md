@@ -585,3 +585,5 @@ A geologia de engenharia estuda as propriedades geotécnicas de solos e rochas p
 ---
 
 > *"A geologia não é apenas o estudo das pedras — é a biografia da Terra, escrita em camadas de rocha e sussurrada por terremotos e vulcões."*
+
+[[Conhecimento-Geral/Cultura/INDEX|← Voltar ao índice de Cultura]]

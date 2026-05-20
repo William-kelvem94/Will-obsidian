@@ -77,3 +77,5 @@ Relacionados:
 - [[Conhecimento-Geral/IA-para-Programacao/Higiene-de-Repo-e-Git]]
 - [[Conhecimento-Geral/IA-para-Programacao/Engenharia-de-Contexto]]
 
+
+[[Conhecimento-Geral/IA-para-Programacao/INDEX|← Voltar ao índice de IA para Programação]]

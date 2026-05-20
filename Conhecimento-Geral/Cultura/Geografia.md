@@ -550,3 +550,5 @@ Influenciada pelo marxismo e pela teoria crítica. Geografia como ciência socia
 ---
 
 > *"A geografia é a ciência que estuda as relações entre a sociedade e a natureza, procurando explicar as formas de organização do espaço."* — Milton Santos
+
+[[Conhecimento-Geral/Cultura/INDEX|← Voltar ao índice de Cultura]]

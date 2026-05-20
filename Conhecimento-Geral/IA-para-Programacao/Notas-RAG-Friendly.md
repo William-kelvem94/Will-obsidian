@@ -49,3 +49,5 @@ Resumo de 2-4 linhas dizendo o que e, quando usar e por que importa.
 - [[Conhecimento-Geral/IA-para-Programacao/INDEX]]
 - [[JARVIS/05-System/AGENT-CONTRACT]]
 
+
+[[Conhecimento-Geral/IA-para-Programacao/INDEX|← Voltar ao índice de IA para Programação]]

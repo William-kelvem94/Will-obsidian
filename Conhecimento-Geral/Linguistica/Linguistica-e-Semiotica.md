@@ -1449,3 +1449,5 @@ for texto in testes:
 ---
 
 > *Este arquivo faz parte do sistema de conhecimento pessoal. Consulte [[Conhecimento-Geral/Psicologia/Psicologia-Cognitiva]] para interseções entre linguagem e processamento cognitivo, [[Conhecimento-Geral/Filosofia/Filosofia-da-Mente]] para questões de intencionalidade e consciência, e [[Conhecimento-Geral/Computacao/NLP-Fundamentos]] para aspectos técnicos de processamento de linguagem natural.*
+
+[[Conhecimento-Geral/Linguistica/INDEX|← Voltar ao índice de Linguística]]

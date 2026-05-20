@@ -489,3 +489,5 @@ Dennett propõe que não há um "fluxo único" de consciência — há múltiplo
 - [[Conhecimento-Geral/Neurociencia/Consciencia-e-Cerebro|Consciência e Cérebro]]
 - [[Conhecimento-Geral/Psicologia/Teoria-da-Mente|Teoria da Mente]]
 - [[Conhecimento-Geral/Etica/Etica-de-IA-e-Alinhamento|Ética de IA e Alinhamento]]
+
+[[Conhecimento-Geral/Filosofia/INDEX|← Voltar ao índice de Filosofia]]

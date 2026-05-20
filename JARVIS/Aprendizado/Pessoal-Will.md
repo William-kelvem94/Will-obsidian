@@ -77,3 +77,5 @@ updated: 2026-05-16
 
 ---
 *Última atualização: 2026-05-16*
+
+[[JARVIS/Aprendizado/INDEX|← Voltar ao índice de Aprendizado]]

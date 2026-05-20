@@ -41,3 +41,5 @@ O objetivo e usar IA para acelerar cobertura com criterio.
 - [[Conhecimento-Geral/IA-para-Programacao/Engenharia-de-Contexto]]
 - [[JARVIS/02-Operational/Playbooks/Session-to-Learning-Protocol]]
 
+
+[[Conhecimento-Geral/IA-para-Programacao/INDEX|← Voltar ao índice de IA para Programação]]

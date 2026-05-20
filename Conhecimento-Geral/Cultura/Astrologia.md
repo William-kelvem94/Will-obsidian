@@ -1334,3 +1334,7 @@ Michel Foucault (1926-1984), em *Tecnologias do Self* (1982) e *A Hermenêutica 
 ---
 
 > **Nota final:** Este arquivo é um documento de referência acadêmica e educacional. Seu objetivo é apresentar a astrologia de forma abrangente e crítica, cobrindo história, fundamentos técnicos, crítica científica, perspectivas culturais e análise epistemológica. A astrologia não é reconhecida como ciência pela comunidade científica internacional, mas é um fenômeno cultural significativo que merece estudo interdisciplinar. As referências incluem tanto fontes acadêmicas críticas quanto fontes históricas e técnicas da própria tradição astrológica.
+
+---
+
+[[Conhecimento-Geral/Cultura/INDEX|← Voltar ao índice de Cultura]]

@@ -58,3 +58,5 @@ Estas são as regras para manter a base de conhecimento do Jarvis organizada, co
 - Sempre vincule esta nota a [[README|README.md]] e [[INDEX|INDEX.md]] para garantir visibilidade.
 
 **Meta**: Fazer desta pasta o centro de aprendizado e expansão do Jarvis.
+
+[[JARVIS/README|← Voltar ao Command Center]]

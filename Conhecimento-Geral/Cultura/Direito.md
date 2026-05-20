@@ -469,3 +469,5 @@ A inteligência artificial coloca questões jurídicas transversais que o direit
 - [[Conhecimento-Geral/Filosofia/Filosofia-Politica|Filosofia Política]] — teorias contratualistas (Hobbes, Locke, Rousseau), justiça como equidade (Rawls), liberalismo e comunitarismo
 - [[Conhecimento-Geral/Neurociencia/INDEX|Neurociência Cognitiva]] — fundamentos da culpabilidade, imputabilidade penal e neurociência do julgamento moral
 - [[Conhecimento-Geral/Cultura/Cultura-Sociologia|Cultura e Sociologia]] — direito como fenômeno social, teoria sociológica do direito (Durkheim, Weber)
+
+[[Conhecimento-Geral/Cultura/INDEX|← Voltar ao índice de Cultura]]

@@ -693,3 +693,5 @@ Algoritmos genéticos (AGs) são métodos de otimização inspirados na evoluç�
 - [[Conhecimento-Geral/Neurociencia/Consciencia-e-Cerebro]] — Evolução da consciência, correlações neurais, origem filogenética da cognição.
 - [[Conhecimento-Geral/Quimica/Quimica-Geral]] — Bases químicas da hereditariedade: estrutura molecular de nucleotídeos, mutagênicos químicos, bioquímica da replicação.
 - [[Conhecimento-Geral/Fisica/Fisica-Fundamental]] — Princípios físicos na evolução (termodinâmica de sistemas biológicos, biomecânica, óptica da visão).
+
+[[Conhecimento-Geral/Biologia/INDEX|← Voltar ao índice de Biologia]]

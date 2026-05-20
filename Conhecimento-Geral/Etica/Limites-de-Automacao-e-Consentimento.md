@@ -40,3 +40,5 @@ Automacao e um multiplicador. O limite etico/pratico e quando a automacao passa 
 - [[Auditoria-de-Agentes-e-Evidencias]]
 - [[Politica-de-Logs-para-Agentes]]
 
+
+[[Conhecimento-Geral/Etica/INDEX|← Voltar ao índice de Ética]]

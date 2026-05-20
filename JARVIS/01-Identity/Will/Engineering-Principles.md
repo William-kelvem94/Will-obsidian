@@ -238,3 +238,5 @@ Before choosing a technology:
 
 *Last updated: 2026-04-23*
 *These principles evolve. Update this doc when assumptions change.*
+
+[[JARVIS/README|← Voltar ao Command Center]]

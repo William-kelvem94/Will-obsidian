@@ -421,3 +421,5 @@ Como disse Bell: *"The most profound discovery of quantum mechanics is not the u
 - [[Conhecimento-Geral/Filosofia/Epistemologia]] — Limites do conhecimento
 - [[Conhecimento-Geral/Filosofia/Filosofia-da-Mente]] — Implicações para a mente
 - [[Conhecimento-Geral/Matematica/Teoria-da-Informacao]] — Informação quântica e clássica
+
+[[Conhecimento-Geral/Fisica/INDEX|← Voltar ao índice de Física]]

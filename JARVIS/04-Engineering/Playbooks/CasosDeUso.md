@@ -328,3 +328,5 @@ Implementação de autenticação JWT no backend FastAPI.
 - Para decidir se um novo recurso vai atender a um caso de uso existente.
 - Para adicionar conhecimento relevante à base de acordo com necessidades práticas.
 - Para treinar o modelo de IA em padrões de uso reais e contextuais.
+
+[[JARVIS/README|← Voltar ao Command Center]]

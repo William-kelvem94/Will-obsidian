@@ -66,3 +66,5 @@ Esta nota descreve as ferramentas principais do Jarvis e como cada uma contribui
 ## Como usar esta nota
 - Referencie aqui quando for decidir se deve adicionar uma nova biblioteca ou serviço.
 - Atualize sempre que a stack mudar ou houver nova integração importante.
+
+[[JARVIS/KnowledgeBase/INDEX|← Voltar ao índice de KnowledgeBase]]

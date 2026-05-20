@@ -647,3 +647,5 @@ A produção estética contemporânea está intrinsecamente ligada à tecnologia
 - Tatarkiewicz, W. (1970). *History of Aesthetics*. Mouton.
 - Wölfflin, H. (1915). *Conceitos Fundamentais da História da Arte*. Martins Fontes.
 - Zeki, S. (1999). *Inner Vision: An Exploration of Art and the Brain*. Oxford University Press.
+
+[[Conhecimento-Geral/Cultura/INDEX|← Voltar ao índice de Cultura]]

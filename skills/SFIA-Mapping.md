@@ -225,3 +225,5 @@ date: 2026-05-16
 ---
 
 *Consulte também: [[softskills/Comunicacao-Tecnica]], [[01-agentic-intelligence/skills-categories|Skills Categories]], [[README]].*
+
+[[skills/README|← Voltar à Taxonomia de Skills]]

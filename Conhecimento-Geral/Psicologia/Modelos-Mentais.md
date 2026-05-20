@@ -710,3 +710,5 @@ Sinais de que você está agindo como "homem com martelo":
 - [[Conhecimento-Geral/Filosofia/INDEX]] — Ferramentas filosóficas para pensamento crítico
 - [[Conhecimento-Geral/Neurociencia/INDEX]] — Bases neurais dos processos descritos
 - [[Conhecimento-Geral/Etica/INDEX]] — Quando modelos mentais falham, ética orienta
+
+[[Conhecimento-Geral/Psicologia/INDEX|← Voltar ao índice de Psicologia]]

@@ -828,3 +828,5 @@ Antes de tomar qualquer decisão de alto impacto, percorra esta lista:
 | Viés de confirmação | Buscar e interpretar informações que confirmam crenças preexistentes |
 | Viés do sobrevivente | Focar nos casos de sucesso ignorando os fracassos invisíveis |
 | Wisdom of the Crowds | Agregação de julgamentos independentes supera especialistas individuais |
+
+[[Conhecimento-Geral/Vida-Pratica/INDEX|← Voltar ao índice de Vida Prática]]

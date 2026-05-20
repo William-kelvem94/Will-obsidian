@@ -905,3 +905,5 @@ E por isso mesmo, viva.
 
 *Documento criado em 18 de maio de 2026.*
 *Revisões e acréscimos são bem-vindos.*
+
+[[Conhecimento-Geral/Vida-Pratica/INDEX|← Voltar ao índice de Vida Prática]]

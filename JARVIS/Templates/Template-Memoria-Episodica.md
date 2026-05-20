@@ -38,3 +38,5 @@ updated: 2026-05-03
 
 ---
 *Salvo automaticamente pelo Jarvis em: {{TIMESTAMP}}*
+
+[[JARVIS/Templates/INDEX|← Voltar ao índice de Templates]]

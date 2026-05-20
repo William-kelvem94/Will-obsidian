@@ -141,3 +141,5 @@ status: rascunho
 ---
 
 *Desafio gerado automaticamente pelo script `.scripts/challenge_generator.py`*
+
+[[JARVIS/README|← Voltar ao Command Center]]

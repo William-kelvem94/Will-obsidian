@@ -54,3 +54,5 @@ date: 2026-04-27
 
 ---
 *Última atualização: 2026-04-09 | Fonte: definição inicial*
+
+[[JARVIS/README|← Voltar ao Command Center]]

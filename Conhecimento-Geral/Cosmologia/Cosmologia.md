@@ -432,3 +432,5 @@ Cada uma dessas frentes pode levar a revoluções conceituais comparáveis às d
 ---
 
 *Nota gerada para o vault Conhecimento-Geral. Conecta-se com [[Conhecimento-Geral/Astronomia/Cosmologia]], [[Conhecimento-Geral/Fisica/Fisica-Quantica]], [[Conhecimento-Geral/Fisica/Fisica-Fundamental]], [[Conhecimento-Geral/Filosofia/Epistemologia]], [[Conhecimento-Geral/Filosofia/Filosofia-da-Mente]], [[Conhecimento-Geral/Matematica/Teoria-da-Informacao]] e [[Conhecimento-Geral/Cosmologia/Filosofia-da-Cosmologia]]. Atualizado em 18/05/2026.*
+
+[[Conhecimento-Geral/Cosmologia/INDEX|← Voltar ao índice de Cosmologia]]

@@ -86,3 +86,5 @@ Relacionados:
 - [[Conhecimento-Geral/Psicologia/Vieses-Cognitivos]]
 - [[Conhecimento-Geral/IA-para-Programacao/Avaliacao-de-Respostas-de-IA]]
 
+
+[[Conhecimento-Geral/IA-para-Programacao/INDEX|← Voltar ao índice de IA para Programação]]

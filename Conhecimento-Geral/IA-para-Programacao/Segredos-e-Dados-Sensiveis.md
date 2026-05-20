@@ -37,3 +37,5 @@ O Obsidian e memoria longa. Entao:
 - [[JARVIS/05-System/AGENT-CONTRACT]]
 - [[Conhecimento-Geral/Direito-Digital/GDPR-e-Privacidade]]
 
+
+[[Conhecimento-Geral/IA-para-Programacao/INDEX|← Voltar ao índice de IA para Programação]]

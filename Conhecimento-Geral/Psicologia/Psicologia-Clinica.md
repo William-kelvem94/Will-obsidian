@@ -695,3 +695,5 @@ Ver [[Conhecimento-Geral/Psicologia/Psicologia-Cognitiva]] para discussão detal
 - [[Conhecimento-Geral/Neurociencia/Sistemas-de-Memoria]] — Memória traumática, extinção do medo, reconsolidação de memória.
 - [[Conhecimento-Geral/Biologia/Fisiologia-Humana]] — Sistema de estresse (eixo HPA), inflamação, sono — bases fisiológicas dos transtornos mentais.
 - [[Conhecimento-Geral/Biologia/Biologia-Celular-e-Molecular]] — Neurotransmissores, receptores, farmacocinética básica dos psicofármacos.
+
+[[Conhecimento-Geral/Psicologia/INDEX|← Voltar ao índice de Psicologia]]

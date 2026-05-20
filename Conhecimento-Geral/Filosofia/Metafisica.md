@@ -1436,3 +1436,5 @@ dilema.analisar_responsabilidade()
 > **Arquivo expandido em Maio de 2026.** Este é o tratado definitivo de metafísica para o vault, seguindo o padrão de ultra-expansão. Contempla desde a origem aristotélica do termo até as aplicações contemporâneas em IA, ontologias formais e filosofia da informação. Atualizações recomendadas para novas descobertas em causalidade computacional e metafísica experimental.
 
 > **Tags:** `#metafisica` `#ontologia` `#aristoteles` `#substancia` `#causalidade` `#modalidade` `#universais` `#essencia-existencia` `#potencia-e-ato` `#filosofia-primeira`
+
+[[Conhecimento-Geral/Filosofia/INDEX|← Voltar ao índice de Filosofia]]

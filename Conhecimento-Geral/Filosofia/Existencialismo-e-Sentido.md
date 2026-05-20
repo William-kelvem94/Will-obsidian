@@ -798,3 +798,5 @@ O existencialismo dialoga com [[Conhecimento-Geral/Cultura/Teorias-Sociologicas|
 - [[Conhecimento-Geral/Vida-Pratica/Resiliencia-Psicologica|Resiliência Psicológica]]
 - [[Conhecimento-Geral/Etica/Etica-de-IA-e-Alinhamento|Ética de IA e Alinhamento]]
 - [[Conhecimento-Geral/Cultura/Cultura-Sociologia|Cultura e Sociologia]]
+
+[[Conhecimento-Geral/Filosofia/INDEX|← Voltar ao índice de Filosofia]]

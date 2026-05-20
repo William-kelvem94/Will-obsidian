@@ -27,3 +27,5 @@ Este arquivo adiciona trilhas praticas para agentes e programacao sem alterar `C
 2. Leia logs + auditoria antes de dar autonomia de execucao.
 3. Leia transparencia + vies de poder quando houver impacto em terceiros.
 
+
+[[Conhecimento-Geral/Etica/INDEX|← Voltar ao índice de Ética]]

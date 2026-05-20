@@ -46,3 +46,5 @@ Relacionados:
 - [[Conhecimento-Geral/Psicologia/Psicologia-Cognitiva]]
 - [[Conhecimento-Geral/IA-para-Programacao/Sinais-de-Incerteza-e-Quando-Parar]]
 
+
+[[Conhecimento-Geral/Psicologia/INDEX|← Voltar ao índice de Psicologia]]

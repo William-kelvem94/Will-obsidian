@@ -59,3 +59,5 @@ date: 2026-04-27
 - [[Objetivos]] — OKRs e metas atuais
 - [[Rotina]] — Rotina diária e padrões de trabalho
 - [[Projetos-Ativos]] — Estado atual de cada projeto
+
+[[JARVIS/README|← Voltar ao Command Center]]

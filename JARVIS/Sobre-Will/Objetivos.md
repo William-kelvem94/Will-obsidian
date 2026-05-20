@@ -42,3 +42,5 @@ Ver [[../../Projetos/Objetivos/90-dias|Projetos/Objetivos/90-dias]]
 
 ---
 *Última atualização: 2026-04-09 | Fonte: OKRs do vault + interações*
+
+[[JARVIS/README|← Voltar ao Command Center]]

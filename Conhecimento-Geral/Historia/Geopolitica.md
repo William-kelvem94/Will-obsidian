@@ -481,3 +481,5 @@ O sistema internacional está se movendo do momento unipolar americano (1991–2
 ---
 
 *Geopolítica não é destino, mas é a moldura dentro da qual o destino se decide. Conhecer a moldura é o primeiro passo para desenhá-la.*
+
+[[Conhecimento-Geral/Historia/INDEX|← Voltar ao índice de História]]

@@ -927,3 +927,5 @@ print(f"Entropia: {H_sharp:.3f} bits, Perplexidade: {2**H_sharp:.3f}")
 15. **The Information Bottleneck Method** (Tishby) — Palestras e tutoriais disponíveis no YouTube.
 
 16. **J. V. Stone** (2015). *Information Theory: A Tutorial Introduction*. — Livro introdutório acessível com exemplos práticos.
+
+[[Conhecimento-Geral/Matematica/INDEX|← Voltar ao índice de Matemática]]

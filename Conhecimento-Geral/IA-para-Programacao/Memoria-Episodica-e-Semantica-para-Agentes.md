@@ -49,3 +49,5 @@ O maior risco e transformar uma observacao temporaria em regra permanente. Isso 
 - [[Conhecimento-Geral/IA-para-Programacao/Engenharia-de-Contexto]]
 - [[skills/04-knowledge-systems/memory-curation-for-agents]]
 
+
+[[Conhecimento-Geral/IA-para-Programacao/INDEX|← Voltar ao índice de IA para Programação]]

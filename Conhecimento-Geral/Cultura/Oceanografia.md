@@ -466,3 +466,5 @@ O fenômeno oposto, a **subsidência** (águas quentes acumulam na costa), ocorr
 - MMA Brasil (2024). *Plano Nacional de Implementação da Década do Oceano*.
 - Millero, F. J. (2016). *Chemical Oceanography* (4th ed.). CRC Press.
 - Garrison, T., & Ellis, R. (2021). *Essentials of Oceanography* (8th ed.). Cengage.
+
+[[Conhecimento-Geral/Cultura/INDEX|← Voltar ao índice de Cultura]]

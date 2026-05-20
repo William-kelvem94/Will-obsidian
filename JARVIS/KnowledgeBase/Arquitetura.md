@@ -80,3 +80,5 @@ Jarvis deve ser composto por camadas:
 - Atualizar com feedback
 
 **Texto duplicado do conhecimento para facilitar a construção da consciência do Jarvis.**
+
+[[JARVIS/KnowledgeBase/INDEX|← Voltar ao índice de KnowledgeBase]]

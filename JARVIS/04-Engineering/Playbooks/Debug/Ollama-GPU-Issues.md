@@ -337,3 +337,5 @@ Before running Ollama with GPU:
 ---
 
 *Keep this updated as you encounter and solve GPU issues*
+
+[[JARVIS/README|← Voltar ao Command Center]]

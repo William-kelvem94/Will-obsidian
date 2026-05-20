@@ -861,3 +861,5 @@ Wilson — da selecao natural a endossimbiose, do gene egoista a sociobiologia.
 - [[Ciencia]] — Metodo cientifico (Bacon, Popper, Kuhn), mecanica (Galileu, Newton), eletromagnetismo (Maxwell, Faraday, citado indiretamente), relatividade (Einstein, indiretamente ligado a Riemann e Penrose), mecanica quantica (Feynman, von Neumann).
 
 
+
+[[Conhecimento-Geral/Cultura/INDEX|← Voltar ao índice de Cultura]]

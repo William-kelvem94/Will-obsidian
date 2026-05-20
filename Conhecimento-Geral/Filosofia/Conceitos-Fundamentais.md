@@ -414,3 +414,5 @@ O realismo modal explica elegantemente verdades modais (necessidade = verdade em
 - [[Conhecimento-Geral/Etica/Etica-de-IA-e-Alinhamento|Ética de IA e Alinhamento]]
 - [[Conhecimento-Geral/Psicologia/Psicologia-Cognitiva|Psicologia Cognitiva]]
 - [[Conhecimento-Geral/Neurociencia/Consciencia-e-Cerebro|Consciência e Cérebro]]
+
+[[Conhecimento-Geral/Filosofia/INDEX|← Voltar ao índice de Filosofia]]

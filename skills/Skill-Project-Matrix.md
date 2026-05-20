@@ -197,3 +197,5 @@ Mapeamento completo de todas as skills do vault para todos os projetos ativos. E
 ---
 
 *Atualizado em: 2026-05-16 · Total: 25 skills mapeadas para 17 projetos*
+
+[[skills/README|← Voltar à Taxonomia de Skills]]

@@ -605,3 +605,5 @@ Sobre a morte, o estoicismo oferece uma perspectiva que não é niilista nem esc
 Este documento é uma compilação pessoal de pesquisa e estudo sobre o estoicismo. As fontes foram citadas sempre que possível. Nenhum conteúdo aqui é original do autor — é uma síntese didática de 2.300 anos de tradição filosófica.
 
 > "A vida feliz é a vida de acordo com a virtude. A vida de acordo com a virtude é a vida de acordo com a razão. A vida de acordo com a razão é a vida de acordo com a natureza." — Zenão de Cítio
+
+[[Conhecimento-Geral/Religiao/INDEX|← Voltar ao índice de Religião]]

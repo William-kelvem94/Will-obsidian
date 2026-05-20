@@ -21,3 +21,4 @@ updated: 2026-05-19
 - [[Conhecimento-Geral/Cultura/INDEX\|Cultura]]
 - [[Conhecimento-Geral/Ciencia-Politica]]
 - [[Conhecimento-Geral/Geografia]]
+- [[Conhecimento-Geral/INDEX\|← Voltar ao Hub Central]]

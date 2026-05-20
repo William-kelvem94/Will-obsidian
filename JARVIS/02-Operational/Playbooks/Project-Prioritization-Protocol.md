@@ -82,3 +82,5 @@ Re-score when:
 - a higher-risk action requires confirmation;
 - the session time or available context changes.
 
+
+[[JARVIS/02-Operational/Playbooks/INDEX|← Voltar ao índice de Playbooks]]

@@ -957,3 +957,5 @@ sudo sh -c "echo 1 > /proc/sys/vm/drop_caches"
 - [[skills/03-infrastructure-mcp|Infrastructure Skills]]
 - [[JARVIS/04-Engineering/Wiki/CheatSheets/Docker|Docker Cheat Sheet]]
 - [[JARVIS/04-Engineering/Playbooks/Debug/WSL-Not-Starting|WSL Troubleshooting]]
+
+[[JARVIS/README|← Voltar ao Command Center]]

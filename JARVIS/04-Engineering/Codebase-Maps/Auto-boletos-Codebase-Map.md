@@ -110,3 +110,5 @@ Auto-boletos e um sistema para associar imoveis a dados oficiais da Equatorial E
 - O frontend atual e React legado ou Vite/TypeScript ja foi adotado?
 - O OCR recebe PDF, imagem, screenshot ou HTML do portal?
 - Existe modo mock para desenvolver sem acessar a Equatorial?
+
+[[JARVIS/04-Engineering/Codebase-Maps/INDEX|← Voltar ao índice de Codebase-Maps]]

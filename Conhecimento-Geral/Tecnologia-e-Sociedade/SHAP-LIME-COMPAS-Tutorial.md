@@ -1189,3 +1189,5 @@ shap_values_svm = shap_explainer_svm.shap_values(X_test_scaled[:50])
 *Tutorial criado em 2026-05-18. Parte do vault de conhecimento de Tecnologia e Sociedade.*
 
 **Tags:** `#shap` `#lime` `#fairness` `#compas` `#explicabilidade` `#ml` `#tutorial` `#python`
+
+[[Conhecimento-Geral/Tecnologia-e-Sociedade/INDEX|← Voltar ao índice de Tecnologia e Sociedade]]

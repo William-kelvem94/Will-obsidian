@@ -67,3 +67,5 @@ Isso permite que o Jarvis responda coisas como: *"Entendido, Will. Estou vendo q
 ## 5. Limitações e Safe-Guards
 - **Privacidade**: Todo o processamento visual e auditivo é **100% Offline**. Nada é enviado para a nuvem.
 - **Performance**: O FPS da câmera é ajustado dinamicamente via `JARVIS_PERCEPTION_FPS`. Se a CPU esquentar, o Jarvis "pisca" mais devagar.
+
+[[JARVIS/README|← Voltar ao Command Center]]

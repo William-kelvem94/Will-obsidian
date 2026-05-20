@@ -400,3 +400,5 @@ Nas palavras do filósofo Karl Popper: *"O que podemos aprender com a cosmologia
 ---
 
 *Nota gerada para o vault Conhecimento-Geral. Conecta-se com [[Conhecimento-Geral/Cosmologia/Cosmologia]], [[Conhecimento-Geral/Cosmologia/Astronomia]], [[Conhecimento-Geral/Filosofia/Epistemologia]], [[Conhecimento-Geral/Filosofia/Filosofia-da-Mente]], [[Conhecimento-Geral/Filosofia/Metafisica]], [[Conhecimento-Geral/Fisica/Fisica-Quantica]], [[Conhecimento-Geral/Fisica/Fisica-Fundamental]], e [[Conhecimento-Geral/Matematica/Teoria-da-Informacao]]. Atualizado em 18/05/2026.*
+
+[[Conhecimento-Geral/Cosmologia/INDEX|← Voltar ao índice de Cosmologia]]

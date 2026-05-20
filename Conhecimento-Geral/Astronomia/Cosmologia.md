@@ -682,3 +682,5 @@ Os maiores desafios da cosmologia moderna:
 | Fótons da CMB por cm³ | ~410 |
 | Neutrinos cosmológicos por cm³ | ~336 |
 | Bárions no universo observável | ~10⁸⁰ |
+
+[[Conhecimento-Geral/Astronomia/INDEX|← Voltar ao índice de Astronomia]]

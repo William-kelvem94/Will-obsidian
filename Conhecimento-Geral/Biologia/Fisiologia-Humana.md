@@ -704,3 +704,5 @@ O sistema imunológico protege o organismo contra patógenos (vírus, bactérias
 - [[Conhecimento-Geral/Psicologia/Psicologia-Cognitiva]] — Atenção, percepção, tomada de decisão em contexto de estresse e sono.
 - [[Conhecimento-Geral/Biologia/Biologia-Celular-e-Molecular]] — Canais iônicos, receptores, vias de sinalização intracelular.
 - [[Conhecimento-Geral/Biologia/Evolucao-e-Genetica]] — Adaptações evolutivas dos sistemas fisiológicos.
+
+[[Conhecimento-Geral/Biologia/INDEX|← Voltar ao índice de Biologia]]

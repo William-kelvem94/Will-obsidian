@@ -464,3 +464,5 @@ Crítica: a ética das virtudes foi desenvolvida para agentes humanos com psicol
 - Vallor, S. (2016). *Technology and the Virtues*. Oxford University Press.
 - Whitby, B. (2008). "Sometimes It's Hard to Be a Robot." *AI & Society*, 22(4), 485-493.
 - Williams, B. (1985). *Ethics and the Limits of Philosophy*. Harvard University Press.
+
+[[Conhecimento-Geral/Etica/INDEX|← Voltar ao índice de Ética]]

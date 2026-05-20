@@ -551,3 +551,5 @@ A IA, atualmente, participa destas práticas apenas **aparentemente** — sua "p
 - [[Conhecimento-Geral/Economia-Digital/Capitalismo-de-Vigilancia|Capitalismo de Vigilância]]
 - [[Conhecimento-Geral/Psicologia/Vieses-Cognitivos|Viéses Cognitivos]]
 - [[Conhecimento-Geral/Psicologia/Vieses-em-LLMs|Viéses em LLMs]]
+
+[[Conhecimento-Geral/Filosofia/INDEX|← Voltar ao índice de Filosofia]]

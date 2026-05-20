@@ -42,3 +42,5 @@ Isso cria assimetrias: o agente pode ser usado para impor decisao, acelerar muda
 - [[Transparencia-de-Decisao-e-Rastreabilidade]]
 - [[Auditoria-de-Agentes-e-Evidencias]]
 
+
+[[Conhecimento-Geral/Etica/INDEX|← Voltar ao índice de Ética]]
