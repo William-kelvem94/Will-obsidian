@@ -24,6 +24,8 @@ Esta pasta contém repositórios privados clonados localmente e documentados com
 - [[IA-LOCAL]] — JARVIS local, FAISS, Whisper, pyautogui.
 - [[openclaude-wk]] — TS CLI agent multi-provider.
 - [[PROJECT_JARVIS_5.0]] — FastAPI, Next.js, LiveKit, visão e voz.
+- [[DEMANDAS/README|DEMANDAS]] — DEMANDAS_ORGANIZADAS, DEMANDAS_ORGANIZADAS_2.0 e WEBFLASH.
+- [[DEMANDAS/INDEX|Índice DEMANDAS]] — comparação cruzada e navegação rápida.
 
 ## Papel desta pasta
 Cada arquivo em `Projetos/Privados/` é a nota canônica do projeto quando há um clone local ou trabalho ativo.

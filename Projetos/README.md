@@ -36,6 +36,8 @@ Projetos/
 
 ## Links rápidos
 - [[Projetos/01-Ativos/Privados/README|Privados Clonados]]
+- [[Projetos/01-Ativos/Privados/DEMANDAS/README|DEMANDAS]]
+- [[Projetos/01-Ativos/Privados/DEMANDAS/INDEX|Índice DEMANDAS]]
 - [[Projetos/03-Estudos/EstudosFocados/README|Estudos Focados]]
 - [[Projetos/03-Estudos/EstudosPesquisas/README|Estudos e Pesquisas]]
 - [[Projetos/01-Ativos/Objetivos/README|Objetivos]]
