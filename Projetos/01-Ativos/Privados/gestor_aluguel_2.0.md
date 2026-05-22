@@ -37,4 +37,4 @@ Plataforma SaaS imobiliário completo com gestão de imóveis, inquilinos, contr
 - **Governança de UI**: Formulários públicos protegidos com cooldown/rate limiting. Tela de recuperação de senha mantida em BLACKLIST de edição (`/auth/forgot-password`).
 - **Resiliência de CI/CD**: Solução definitiva de falhas no Build/Lint/Type Check na Vercel via correção da árvore de JSX, escopo léxico de Hooks (`useEditor`) e higienização estrita de `react-hooks/exhaustive-deps`.
 
-**Links:** [[GitHub-Completo]] | [[Projetos/03-Estudos/EstudosPesquisas/README|🔬 Recursos]] #saas #enterprise #nextjs #prisma
+**Links:** [[gestor_aluguel_2.0-tcc-analise-evolucao|📄 Análise TCC]] | [[GitHub-Completo]] | [[Projetos/03-Estudos/EstudosPesquisas/README|🔬 Recursos]] #saas #enterprise #nextjs #prisma #tcc
