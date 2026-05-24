@@ -46,3 +46,39 @@ updated: 2026-05-03
 **Links**: [[Projetos]] | [[Projetos/Plano-de-Acao]] | [[Projetos/Organizacao-Completa]] | [[William-kelvem94 Overview]] #github #repos #mapeado #67
 
 [[Projetos/README|← Voltar ao índice de Projetos]]
+
+
+## Lista de Repositórios (Automática)
+
+- [Will-obsidian](https://github.com/William-kelvem94/Will-obsidian) (Python) - Sem descrição (☁️ GitHub)
+    - *Últimos:* Organiza hub de demandas privadas no Obsidian (2026-05-22) | docs(gestor_aluguel): adiciona análise completa de (2026-05-22) | Organiza e expande base de conhecimento do Obsidia (2026-05-20)
+- [pixel-agents](https://github.com/William-kelvem94/pixel-agents) (N/A) - Pixel office. (☁️ GitHub)
+    - *Últimos:* fix: subagent characters not despawning on complet (2026-04-14) | feat: hooks-first session management with dual-mod (2026-04-11) | fix: add shared/ to lint, format, and lint-staged  (2026-04-05)
+- [PROJECT_JARVIS_5.0](https://github.com/William-kelvem94/PROJECT_JARVIS_5.0) (TypeScript) - Sem descrição (☁️ GitHub)
+    - *Últimos:* docs: adiciona documentação da limpeza do repositó (2026-05-15) | fix: atualizado imports do motion v12 no frontend  (2026-05-02) | feat: implementado loop de voz completo (TTS edge- (2026-05-02)
+- [openclaude-wk](https://github.com/William-kelvem94/openclaude-wk) (TypeScript) - Open Claude Is Open-source coding-agent CLI for OpenAI, Gemini, DeepSeek, Ollama, Codex, GitHub Models, and 200+ models via OpenAI-compatible APIs. (☁️ GitHub)
+    - *Últimos:* fix example agents (#438) (2026-04-07) | fix: restore default context window for unknown 3p (2026-04-07) | fix: handle missing skill parameter in SkillTool ( (2026-04-07)
+- [DeepSeek-V3---C-PIA](https://github.com/William-kelvem94/DeepSeek-V3---C-PIA) (N/A) - Sem descrição (☁️ GitHub)
+    - *Últimos:* Merge pull request #611 from Konano/chore-stale
+
+c (2025-02-08) | chore: add stale issue management configuration (2025-02-08) | fix comment (2025-02-07)
+- [CRUD_VENDAS_WILL](https://github.com/William-kelvem94/CRUD_VENDAS_WILL) (PHP) - Sem descrição (☁️ GitHub)
+    - *Últimos:* Add files via upload (2023-12-21) | Initial commit (2023-12-21)
+- [CRUD_BASICO4.0](https://github.com/William-kelvem94/CRUD_BASICO4.0) (PHP) - Sem descrição (☁️ GitHub)
+    - *Últimos:* primeiro commit (2023-10-20)
+- [CRUD_BASICO-3.0](https://github.com/William-kelvem94/CRUD_BASICO-3.0) (PHP) - ATT PROF WEB ATT 03 (☁️ GitHub)
+    - *Últimos:* primeiro commit (2023-10-20)
+- [crud_basico](https://github.com/William-kelvem94/crud_basico) (PHP) - att aula prog web att 03 (☁️ GitHub)
+    - *Últimos:* primeiro commit (2023-10-20)
+- [crud_basico-2.0](https://github.com/William-kelvem94/crud_basico-2.0) (N/A) - att 3 aula prog web att 03 (☁️ GitHub)
+    - *Últimos:* primeiro commit (2023-10-20)
+- [att_18_ago](https://github.com/William-kelvem94/att_18_ago) (PHP) - Sem descrição (☁️ GitHub)
+    - *Últimos:* Add files via upload (2023-08-31)
+- [postifolio-will](https://github.com/William-kelvem94/postifolio-will) (CSS) - Sem descrição (☁️ GitHub)
+    - *Últimos:* Create README.md (2022-09-15) | Initial commit (2022-09-14)
+- [William-kelvem94](https://github.com/William-kelvem94/William-kelvem94) (N/A) - Config files for my GitHub profile. (☁️ GitHub)
+    - *Últimos:* Create README.md (2022-03-24)
+- [teste](https://github.com/William-kelvem94/teste) (N/A) - Sem descrição (☁️ GitHub)
+    - *Últimos:* Sem histórico recente
+- [Atividade-03](https://github.com/William-kelvem94/Atividade-03) (Java) - Sem descrição (☁️ GitHub)
+    - *Últimos:* 27/09/2021 (2021-09-28) | Initial commit (2021-09-28)
