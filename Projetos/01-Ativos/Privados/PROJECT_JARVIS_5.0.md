@@ -1,5 +1,7 @@
 ---
 title: "PROJECT_JARVIS_5.0 (Clonado)"
+skills_usados: [Agentic-Intelligence, AI-Devops, Prompt-Engineering, Infra-MCP]
+projetos_relacionados: []
 source: "C:/Users/willi/Documents/GitHub/PROJECT_JARVIS_5.0"
 language: Python
 private: true

@@ -6,6 +6,19 @@ updated: 2026-05-18
 aliases: ["Dashboard Central", "Painel de Evolução"]
 ---
 
+# Dashboards — Navegação Central
+
+Acesse painéis críticos do vault, scoring, health, queries dinâmicas Dataview e monitore tudo num só lugar.
+
+- [[dashboards/Skill-Project-Matrix-Dinamica|Skills em uso por Projeto – Matrix Dinâmica]]
+- [[dashboards/Arquivos-Orfaos|Painel – Arquivos Órfãos/Manutenção]]
+- [[dashboards/Scorecard-Consistencia]]
+- [[Painel-Cockpit]]  
+
+Consulte o [[INDEX]] central para navegação geral dos hubs.
+
+---
+
 # 📊 Dashboard Principal do Conhecimento
 
 > Visão unificada de todas as notas, áreas, status e tags do vault.

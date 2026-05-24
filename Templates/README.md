@@ -1,31 +1,14 @@
 ---
-title: "Templates — Índice"
-date: 2026-05-16
-tags: [templates, index, hub]
-aliases: ["Template Index", "Índice de Templates"]
+title: "README — Templates e Modelos"
+tags: [templates, modelo, padrao, snippet, produtividade]
+updated: 2026-05-24
 ---
+# Templates & Modelos de Nota
 
-# Templates — Índice
+Coleção dos principais templates para nota atômica, projetos, decisões, reuniões, skills, bugs, PRDs, post-mortems, etc.
 
-Hub central de templates do vault. Use o comando **Templates: Insert Template** no Obsidian para inserir qualquer um abaixo.
+- Templates de frontmatter universal
+- Padronização de tags, fields, dataview
+- Modelos de ciclo de vida de projeto
 
-## Templates de Nota
-
-| Template | Descrição |
-|----------|-----------|
-| [[Template Base]] | Estrutura mínima com frontmatter padrão |
-| [[Template Diário]] | Diário de aprendizado com objetivos e ações |
-| [[Conceito-Conhecimento]] | Nota atômica para conceitos com definição e aplicações |
-| [[Skill-Template]] | Registro de skill com nível, projetos e plano de desenvolvimento |
-
-## Templates de Processo (Novos)
-
-| Template | Descrição |
-|----------|-----------|
-| [[Template-Reuniao]] | Ata de reunião com pauta, notas, decisões, ações e próxima reunião |
-| [[Template-PRD]] | Documento de Requisitos de Produto com problema, público, requisitos, métricas e roadmap |
-| [[Template-Bug-Report]] | Reporte de bug com passos para reproduzir, ambiente e triagem |
-
----
-
-*Total: 7 templates · Atualizado em: 2026-05-16*
+Veja: [[INDEX]] para referência central e links cruzados para todas as áreas do vault.

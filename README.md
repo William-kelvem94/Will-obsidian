@@ -1,4 +1,8 @@
+# 🗂️ Veja o novo [[INDEX]] para navegação central de hubs, projetos, skills, painéis, arquivos centrais e dashboards!
+
 # 🧠 Will Vault - Obsidian Personal Knowledge Management
+
+*Este README descreve detalhes técnicos, automações e configuração do sistema. Para navegação e uso rápido do vault, consulte o [[INDEX]].*
 
 Repositório central do meu Cérebro Digital (Vault do Obsidian). Este projeto organiza conhecimento, projetos, logs diários e automações para gerenciamento de informações.
 
