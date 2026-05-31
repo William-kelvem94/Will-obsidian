@@ -51,7 +51,7 @@ updated: 2026-05-03
 ## Lista de Repositórios (Automática)
 
 - [Will-obsidian](https://github.com/William-kelvem94/Will-obsidian) (Python) - Sem descrição (☁️ GitHub)
-    - *Últimos:* chore: auto-sync vault data [skip ci] (2026-05-24) | Organiza hub de demandas privadas no Obsidian (2026-05-22) | docs(gestor_aluguel): adiciona análise completa de (2026-05-22)
+    - *Últimos:* 🏛️ Refatoração global dos Hubs temáticos: integraç (2026-05-24) | chore: auto-sync vault data [skip ci] (2026-05-24) | chore: auto-sync vault data [skip ci] (2026-05-24)
 - [pixel-agents](https://github.com/William-kelvem94/pixel-agents) (N/A) - Pixel office. (☁️ GitHub)
     - *Últimos:* fix: subagent characters not despawning on complet (2026-04-14) | feat: hooks-first session management with dual-mod (2026-04-11) | fix: add shared/ to lint, format, and lint-staged  (2026-04-05)
 - [PROJECT_JARVIS_5.0](https://github.com/William-kelvem94/PROJECT_JARVIS_5.0) (TypeScript) - Sem descrição (☁️ GitHub)
