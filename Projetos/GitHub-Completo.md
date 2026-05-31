@@ -50,8 +50,13 @@ updated: 2026-05-03
 
 ## Lista de Repositórios (Automática)
 
+- [AFFiNE-Will](https://github.com/William-kelvem94/AFFiNE-Will) (N/A) - There can be more than Notion and Miro. AFFiNE(pronounced [ə‘fain]) is a next-gen knowledge base that brings planning, sorting and creating all together. Privacy first, open-source, customizable and ready to use.  (☁️ GitHub)
+    - *Últimos:* chore: bump up RevenueCat/purchases-ios-spm versio (2026-05-30) | chore: bump up oxlint version to v1.67.0 (#15047)
+ (2026-05-30) | fix: hide experimental settings for doc and folder (2026-05-30)
+- [AppFlowy-Will](https://github.com/William-kelvem94/AppFlowy-Will) (N/A) - Bring projects, wikis, and teams together with AI. AppFlowy is the AI collaborative workspace where you achieve more without losing control of your data. The leading open source Notion alternative. (☁️ GitHub)
+    - *Últimos:* fix: add autofillHints support to AFTextField (#85 (2026-03-20) | Update README.md (#8327) (2025-11-16) | fix: prevent page flickering on rapid sidebar clic (2025-11-07)
 - [Will-obsidian](https://github.com/William-kelvem94/Will-obsidian) (Python) - Sem descrição (☁️ GitHub)
-    - *Últimos:* 🏛️ Refatoração global dos Hubs temáticos: integraç (2026-05-24) | chore: auto-sync vault data [skip ci] (2026-05-24) | chore: auto-sync vault data [skip ci] (2026-05-24)
+    - *Últimos:* chore: auto-sync vault data [skip ci] (2026-05-31) | 🏛️ Refatoração global dos Hubs temáticos: integraç (2026-05-24) | chore: auto-sync vault data [skip ci] (2026-05-24)
 - [pixel-agents](https://github.com/William-kelvem94/pixel-agents) (N/A) - Pixel office. (☁️ GitHub)
     - *Últimos:* fix: subagent characters not despawning on complet (2026-04-14) | feat: hooks-first session management with dual-mod (2026-04-11) | fix: add shared/ to lint, format, and lint-staged  (2026-04-05)
 - [PROJECT_JARVIS_5.0](https://github.com/William-kelvem94/PROJECT_JARVIS_5.0) (TypeScript) - Sem descrição (☁️ GitHub)
@@ -78,8 +83,4 @@ c (2025-02-08) | chore: add stale issue management configuration (2025-02-08) | 
     - *Últimos:* Create README.md (2022-09-15) | Initial commit (2022-09-14)
 - [William-kelvem94](https://github.com/William-kelvem94/William-kelvem94) (N/A) - Config files for my GitHub profile. (☁️ GitHub)
     - *Últimos:* Create README.md (2022-03-24)
-- [teste](https://github.com/William-kelvem94/teste) (N/A) - Sem descrição (☁️ GitHub)
-    - *Últimos:* Sem histórico recente
-- [Atividade-03](https://github.com/William-kelvem94/Atividade-03) (Java) - Sem descrição (☁️ GitHub)
-    - *Últimos:* 27/09/2021 (2021-09-28) | Initial commit (2021-09-28)
 
