@@ -1,3 +1,10 @@
+---
+title: "Segurança e Ética Operacional de IA"
+date: 2026-06-01
+tags: [skills]
+updated: 2026-06-01
+---
+
 # Segurança e Ética Operacional de IA
 
 > **Disciplina**: Inteligência Artificial Aplicada / Segurança Computacional

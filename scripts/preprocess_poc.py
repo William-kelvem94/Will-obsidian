@@ -1,4 +1,4 @@
-import re
+﻿import re
 from pathlib import Path
 import json
 from yaml import safe_load
@@ -44,7 +44,10 @@ def chunk_by_headings(text, max_chars=3500):
     return out
 
 def process_file(p: Path):
-    text = p.read_text(encoding='utf-8')
+    try:
+        text = p.read_text(encoding='utf-8')
+    except UnicodeDecodeError:
+        text = p.read_text(encoding='latin-1', errors='replace')
     fm, body = extract_frontmatter(text)
     body = strip_inline_base64(body)
     chunks = chunk_by_headings(body)
@@ -85,3 +88,4 @@ def main():
 
 if __name__ == '__main__':
     main()
+

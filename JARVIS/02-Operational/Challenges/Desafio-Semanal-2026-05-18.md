@@ -7,8 +7,10 @@ orphans_found: 373
 no_status_found: 612
 old_notes_found: 0
 empty_notes_found: 31
-tags: [desafio, semanal, manutencao, vault]
+tags: [desafio, semanal, manutencao, vault, jarvis-operacao]
 status: rascunho
+date: 2026-06-01
+updated: 2026-06-01
 ---
 
 # 🎯 Desafio Semanal — Semana de 2026-05-18

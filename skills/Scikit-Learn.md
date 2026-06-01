@@ -1,13 +1,14 @@
 ---
 title: "Scikit-Learn — Machine Learning em Python"
 description: "Guia completo do Scikit-Learn: pipelines, pré-processamento, modelos de regressão, classificação, clustering, redução de dimensionalidade, validação e grid search."
-tags: [scikit-learn, machine-learning, python, classificacao, regressao]
+tags: [scikit-learn, machine-learning, python, classificacao, regressao, skills]
 nivel: avancado
-updated: 2026-05-18
+updated: 2026-06-01
 backlinks: []
 assets: []
 referencias: []
 sensivel: false
+date: 2026-06-01
 ---
 
 # Scikit-Learn — Machine Learning em Python

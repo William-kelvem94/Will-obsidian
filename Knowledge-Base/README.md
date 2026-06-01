@@ -24,6 +24,10 @@ Unifica os principais hubs de conhecimento temático do vault (Futurologia, Expe
 - 🤖 → IA Aplicada   🔄 → Automação        🔐 → LGPD/Privacidade
 - 🧠 → Saúde Mental Organizacional
 
+### 🔥 Novos
+- 💰 [[Knowledge-Base/TOKEN-ECONOMY]] — Otimização de tokens p/ IAs
+- 🔤 [[Knowledge-Base/TOKEN-SHORTHAND]] — Abreviações padronizadas
+
 ---
 
 ## Como usar:

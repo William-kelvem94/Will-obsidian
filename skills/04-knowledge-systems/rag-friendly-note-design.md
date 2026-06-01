@@ -6,7 +6,9 @@ description: "Skill para escrever notas atomicas que recuperam bem em busca sema
 projects: []
 related_skills: [advanced-rag-strategies, obsidian-neural-vault]
 resources: []
-updated: 2026-05-08
+updated: 2026-06-01
+date: 2026-06-01
+tags: [skills-knowledge]
 ---
 
 # RAG-Friendly Note Design

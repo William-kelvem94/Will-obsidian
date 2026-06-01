@@ -1,7 +1,8 @@
 ---
-tags: [skills, seguranca, llm, prompt-injection, ai-security]
-updated: 2026-05-16
+tags: [skills, seguranca, llm, prompt-injection, ai-security, skills-eng]
+updated: 2026-06-01
 title: "Prompt Injection Defense"
+date: 2026-06-01
 ---
 
 # Prompt Injection Defense

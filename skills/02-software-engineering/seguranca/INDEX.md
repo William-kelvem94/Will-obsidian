@@ -1,7 +1,8 @@
 ---
-tags: [skills, seguranca, security, index]
-updated: 2026-05-16
+tags: [skills, seguranca, security, index, skills-eng]
+updated: 2026-06-01
 title: "Seguranca da Informacao - Index"
+date: 2026-06-01
 ---
 
 # Seguranca da Informacao - Index

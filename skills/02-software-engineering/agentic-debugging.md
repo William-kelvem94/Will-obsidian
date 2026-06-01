@@ -1,9 +1,10 @@
 ---
 title: "Agentic Debugging"
 description: "Skill: usar agentes para diagnosticar e corrigir bugs com evidencias e validacao."
-tags: [skill, software-engineering, debug, agents]
-updated: 2026-05-08
+tags: [skill, software-engineering, debug, agents, skills-eng]
+updated: 2026-06-01
 status: active
+date: 2026-06-01
 ---
 
 # Agentic Debugging

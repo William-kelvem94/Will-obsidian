@@ -1,9 +1,9 @@
 ---
 title: "Arquiteturas de Agentes Cooperativos"
 description: "Padrões práticos para coordenar múltiplos agentes no JARVIS sem duplicar trabalho, estourar contexto ou comprometer arquivos do vault."
-tags: [multiagente, agentes, orquestracao, engenharia, jarvis, vault]
+tags: [multiagente, agentes, orquestracao, engenharia, jarvis, vault, jarvis-engenharia]
 date: 2026-05-20
-updated: 2026-05-20
+updated: 2026-06-01
 ---
 
 # Arquiteturas de Agentes Cooperativos

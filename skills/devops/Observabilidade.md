@@ -15,7 +15,7 @@ resources:
   - "OpenTelemetry documentation"
 date: 2026-04-29
 tags: [skills, devops, observability]
-updated: 2026-05-16
+updated: 2026-06-01
 ---
 
 # Observabilidade

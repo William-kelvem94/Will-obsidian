@@ -1,3 +1,10 @@
+---
+title: "GKE Infrastructure as Code"
+date: 2026-06-01
+tags: [skills]
+updated: 2026-06-01
+---
+
 # GKE Infrastructure as Code
 
 GKE resources, including clusters and Kubernetes objects, can be provisioned and

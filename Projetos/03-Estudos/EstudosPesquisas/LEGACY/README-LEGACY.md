@@ -1,3 +1,10 @@
+---
+title: "README-LEGACY.md"
+date: 2026-06-01
+tags: [projetos]
+updated: 2026-06-01
+---
+
 # README-LEGACY.md
 
 Esta pasta armazena arquivos antigos (com sufixo -old.md ou README-old.md) deste projeto/área. Foram movidos aqui para evitar poluição visual, preservar histórico e permitir futura consulta, recuperação ou referência.

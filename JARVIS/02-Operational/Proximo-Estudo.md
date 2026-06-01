@@ -1,8 +1,10 @@
 ---
 title: "Próximo Estudo — Recomendação Automática"
 description: "Recomendação gerada automaticamente em 2026-05-19 com base em gaps, nível de skills e histórico de estudos"
-tags: [jarvis, recomendacao, estudo, auto-generated]
+tags: [jarvis, recomendacao, estudo, auto-generated, jarvis-operacao]
 generated: 2026-05-19 13:40:12
+date: 2026-06-01
+updated: 2026-06-01
 ---
 
 # 🎯 Próximo Estudo — Recomendação Automática

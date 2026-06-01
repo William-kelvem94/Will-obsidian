@@ -1,8 +1,9 @@
 ---
 title: "Avaliacao e Seguranca de Agentes de IA"
 description: "Metricas de avaliacao de qualidade (RAGAS, TruLens), mitigacao de prompt injection, protecao contra jailbreaks e vazamentos de prompt, e implementacao de guardrails para agentes autonomos."
-tags: [agentic-intelligence, security, evaluation, ragas, trulens, guardrails]
-updated: 2026-05-20
+tags: [agentic-intelligence, security, evaluation, ragas, trulens, guardrails, skills-ai]
+updated: 2026-06-01
+date: 2026-06-01
 ---
 
 # Avaliacao e Seguranca de Agentes de IA

@@ -1,7 +1,8 @@
 ---
 tags: [skills, devops, cicd, github-actions, pipelines]
-updated: 2026-05-16
+updated: 2026-06-01
 title: "GitHub Actions"
+date: 2026-06-01
 ---
 
 # GitHub Actions

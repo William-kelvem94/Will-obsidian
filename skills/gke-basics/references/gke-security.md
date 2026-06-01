@@ -1,3 +1,10 @@
+---
+title: "GKE Security"
+date: 2026-06-01
+tags: [skills]
+updated: 2026-06-01
+---
+
 # GKE Security
 
 This reference covers security configuration for GKE clusters. The golden path enforces a hardened security posture by default.

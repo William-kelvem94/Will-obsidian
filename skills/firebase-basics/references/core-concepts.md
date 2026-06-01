@@ -1,3 +1,10 @@
+---
+title: "Firebase core concepts"
+date: 2026-06-01
+tags: [skills]
+updated: 2026-06-01
+---
+
 # Firebase core concepts
 
 Firebase is a platform of services for mobile and web applications. It offers

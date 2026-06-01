@@ -1,8 +1,9 @@
 ---
 title: "MCP Avancado e Descoberta Dinamica de Ferramentas"
 description: "Exploracao profunda do Model Context Protocol (MCP), cobrindo descoberta dinamica de ferramentas, roteamento multi-servidor, protocolos de seguranca de execucao e controle humano no loop."
-tags: [infrastructure-mcp, mcp, dynamic-tools, security, safety-protocols]
-updated: 2026-05-20
+tags: [infrastructure-mcp, mcp, dynamic-tools, security, safety-protocols, skills-mcp]
+updated: 2026-06-01
+date: 2026-06-01
 ---
 
 # MCP Avancado e Descoberta Dinamica de Ferramentas

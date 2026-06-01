@@ -1,3 +1,10 @@
+---
+title: "GKE Cluster Creation"
+date: 2026-06-01
+tags: [skills]
+updated: 2026-06-01
+---
+
 # GKE Cluster Creation
 
 This reference guides creating GKE clusters. The **golden path Autopilot** configuration is the default for all new clusters.

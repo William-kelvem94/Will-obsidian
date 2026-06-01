@@ -4,7 +4,7 @@ category: "DevOps"
 level: 3
 description: "How to write runbooks that autonomous agents can execute safely and repeatably."
 date: 2026-05-08
-updated: 2026-05-08
+updated: 2026-06-01
 tags: [skills, devops, agents, runbook]
 ---
 

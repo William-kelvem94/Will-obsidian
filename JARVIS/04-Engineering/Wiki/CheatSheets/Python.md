@@ -1,8 +1,8 @@
 ---
 title: "Python — Cheat Sheet"
 description: "Guia de referência rápida para Python — sintaxe, bibliotecas, boas práticas e padrões"
-tags: [cheatsheet, python, linguagem, scripting]
-updated: 2026-05-16
+tags: [cheatsheet, python, linguagem, scripting, jarvis-engenharia]
+updated: 2026-06-01
 date: 2026-05-16
 ---
 

@@ -1,7 +1,8 @@
 ---
-tags: [architecture-patterns, software-engineering, clean-architecture, hexagonal, event-driven, microservices, serverless]
-updated: 2026-05-16
+tags: [architecture-patterns, software-engineering, clean-architecture, hexagonal, event-driven, microservices, serverless, skills-eng]
+updated: 2026-06-01
 title: "Architecture Patterns - Software Architecture"
+date: 2026-06-01
 ---
 
 # Architecture Patterns - Padroes de Arquitetura de Software

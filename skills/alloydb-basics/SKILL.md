@@ -3,6 +3,10 @@ name: alloydb-basics
 description: >-
   Manages clusters, instances, and backups for AlloyDB for PostgreSQL, and
   integrates with AlloyDB model context protocol (MCP) tools for automated database operations.
+title: "AlloyDB Basics"
+date: 2026-06-01
+tags: [skills]
+updated: 2026-06-01
 ---
 
 # AlloyDB Basics

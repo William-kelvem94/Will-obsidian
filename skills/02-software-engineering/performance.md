@@ -1,7 +1,8 @@
 ---
 tags: [performance, profiling, caching, load-testing, monitoring, optimization, skills-eng]
-updated: 2026-05-16
+updated: 2026-06-01
 title: "Performance Engineering - Full-Stack Performance"
+date: 2026-06-01
 ---
 
 # Performance Engineering

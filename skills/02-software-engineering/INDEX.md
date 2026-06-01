@@ -1,7 +1,8 @@
 ---
 tags: [software-engineering, index, hub, skills-eng, taxonomy]
-updated: 2026-05-16
+updated: 2026-06-01
 title: "Software Engineering & Architecture - Index"
+date: 2026-06-01
 ---
 
 # Software Engineering & Architecture

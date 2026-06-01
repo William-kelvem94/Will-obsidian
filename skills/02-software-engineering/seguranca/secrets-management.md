@@ -1,7 +1,8 @@
 ---
-tags: [skills, seguranca, secrets, vault, env]
-updated: 2026-05-16
+tags: [skills, seguranca, secrets, vault, env, skills-eng]
+updated: 2026-06-01
 title: "Secrets Management"
+date: 2026-06-01
 ---
 
 # Secrets Management

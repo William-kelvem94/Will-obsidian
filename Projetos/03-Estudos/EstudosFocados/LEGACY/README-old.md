@@ -1,7 +1,8 @@
 ---
 title: "MOVIDO — Estudos Focados"
 date: 2026-05-16
-tags: [redirecionamento, movido]
+tags: [redirecionamento, movido, projetos]
+updated: 2026-06-01
 ---
 
 > ⚠️ Este diretório foi consolidado em `Projetos/03-Estudos/EstudosFocados/`.

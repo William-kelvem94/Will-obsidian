@@ -1,8 +1,9 @@
 ---
 title: "🔗 Arquiteto de Grafos"
 date: 2026-05-19
-tags: [conquista, badge]
+tags: [conquista, badge, perfil]
 xp_reward: 30
+updated: 2026-06-01
 ---
 
 # 🔗 Arquiteto de Grafos

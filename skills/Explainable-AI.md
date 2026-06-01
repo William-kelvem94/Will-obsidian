@@ -1,11 +1,12 @@
 ---
 title: "Explainable AI (XAI)"
 area: "AI"
-tags: [conhecimento, conceito, xai, explicabilidade, interpretabilidade, ia-explicavel, trustworthiness]
+tags: [conhecimento, conceito, xai, explicabilidade, interpretabilidade, ia-explicavel, trustworthiness, skills]
 related: ["Machine-Learning-Fundamentos", "Etica-em-IA", "EU-AI-Act"]
 aliases: ["XAI", "Interpretable ML", "Explainable Machine Learning", "Explainability"]
 created: 2026-05-19
-updated: 2026-05-19
+updated: 2026-06-01
+date: 2026-06-01
 ---
 
 # Explainable AI (XAI)

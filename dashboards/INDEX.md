@@ -13,6 +13,7 @@ Acesse painéis críticos do vault, scoring, health, queries dinâmicas Dataview
 - [[dashboards/Skill-Project-Matrix-Dinamica|Skills em uso por Projeto – Matrix Dinâmica]]
 - [[dashboards/Arquivos-Orfaos|Painel – Arquivos Órfãos/Manutenção]]
 - [[dashboards/Scorecard-Consistencia]]
+- [[dashboards/TOKEN-COST-DASHBOARD|💰 Token Cost — Monitoramento de Custos]]
 - [[Painel-Cockpit]]  
 
 Consulte o [[INDEX]] central para navegação geral dos hubs.

@@ -2,7 +2,7 @@
 title: "Erros e Lições Aprendidas"
 date: 2026-05-16
 tags: [jarvis, aprendizado, erros, licoes]
-updated: 2026-05-16
+updated: 2026-06-01
 ---
 
 # Erros e Lições Aprendidas

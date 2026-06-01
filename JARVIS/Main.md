@@ -1,3 +1,10 @@
+---
+title: "JARVIS — Main Hub 🧠"
+date: 2026-06-01
+tags: [jarvis]
+updated: 2026-06-01
+---
+
 ﻿---
 title: "JARVIS — Main Hub"
 description: "Ponto de entrada principal para o sistema JARVIS. Redireciona para o Neural Command Center."
@@ -21,6 +28,14 @@ Bem-vindo ao núcleo do sistema JARVIS.
 | [[04-Engineering/Playbooks/Workflows-Praticos\|Playbooks]] | Fluxos de trabalho testados |
 | [[Aprendizado/INDEX\|Aprendizados]] | Padrões, erros e conhecimento |
 | [[05-System/Evolution/INDEX\|Evolução]] | Como o Jarvis melhora |
+
+## 💰 Token Economy JARVIS
+
+| Destino | Descrição |
+|---|---|
+| [[TOKEN-COMPRESSION\|Token Compression]] | Protocolo de contexto enxuto do JARVIS |
+| [[../Knowledge-Base/TOKEN-ECONOMY\|Token Economy]] | Guia geral de otimização de tokens |
+| [[../Knowledge-Base/TOKEN-SHORTHAND\|Token Shorthand]] | Abreviações padronizadas |
 
 ## 🔗 Redirect
 

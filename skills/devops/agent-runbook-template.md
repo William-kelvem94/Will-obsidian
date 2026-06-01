@@ -4,7 +4,7 @@ category: "DevOps"
 level: 2
 description: "A copy-paste template for runbooks designed to be executed by agents safely."
 date: 2026-05-08
-updated: 2026-05-08
+updated: 2026-06-01
 tags: [skills, devops, template, agents, runbook]
 ---
 

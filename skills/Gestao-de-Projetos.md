@@ -1,13 +1,14 @@
 ---
 title: "Gestão de Projetos — Metodologias Ágeis, Scrum, Kanban e Estratégia"
 description: "Fundamentos de gestão de projetos: metodologias waterfall, ágil, Scrum, Kanban, OKRs, roadmaps e gestão de riscos."
-tags: [gestao, gerenciamento, metodologias-ageis, scrum, kanban]
+tags: [gestao, gerenciamento, metodologias-ageis, scrum, kanban, skills]
 nivel: intermediário
-updated: 2026-05-18
+updated: 2026-06-01
 backlinks: []
 assets: []
 referencias: []
 sensivel: false
+date: 2026-06-01
 ---
 
 # Gestão de Projetos — Metodologias Ágeis, Scrum, Kanban e Estratégia

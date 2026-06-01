@@ -3,7 +3,7 @@ title: "Software Engineering - Index Addon (Agents)"
 description: "Notas novas focadas em agentes: integracao, testes, contratos, migracoes, rollback e feature flags."
 tags: [software-engineering, index, skills-eng, agents]
 date: 2026-05-08
-updated: 2026-05-08
+updated: 2026-06-01
 ---
 
 # Software Engineering - Index Addon (Agents)

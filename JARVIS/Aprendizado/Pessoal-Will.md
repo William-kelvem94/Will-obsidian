@@ -2,7 +2,7 @@
 title: "Estilo Pessoal — Will"
 date: 2026-05-16
 tags: [jarvis, aprendizado, pessoal, will]
-updated: 2026-05-16
+updated: 2026-06-01
 ---
 
 # Estilo Pessoal — Will

@@ -6,7 +6,7 @@ tags:
   - knowledge
   - project
 date: 2026-04-27
-updated: 2026-05-03
+updated: 2026-06-01
 ---
 
 # PROJECT_JARVIS_5.0 (Knowledge Base)

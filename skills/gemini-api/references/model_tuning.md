@@ -1,3 +1,10 @@
+---
+title: "Model Tuning"
+date: 2026-06-01
+tags: [skills]
+updated: 2026-06-01
+---
+
 # Model Tuning
 
 Supervised Fine-Tuning or Preference Tuning using your own datasets.

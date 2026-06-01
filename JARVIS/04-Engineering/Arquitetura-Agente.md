@@ -2,7 +2,7 @@
 title: "Arquitetura de Agente Cognitivo"
 description: "Visão geral da integração entre servidor MCP, índice RAG e LLM externo para um assistente que lê o vault."
 tags: [jarvis, engenharia, mcp, rag, jarvis-engenharia]
-updated: 2026-05-03
+updated: 2026-06-01
 date: 2026-04-29
 ---
 

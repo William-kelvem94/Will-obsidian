@@ -4,7 +4,8 @@ category: "Frontend"
 level: 2
 description: "A practical a11y checklist for UI changes: keyboard, focus, semantics, ARIA, color contrast, and screen readers."
 tags: [skills, frontend, a11y, accessibility]
-updated: 2026-05-08
+updated: 2026-06-01
+date: 2026-06-01
 ---
 
 # Accessibility Checklist (Agents)

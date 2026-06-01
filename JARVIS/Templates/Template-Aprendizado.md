@@ -1,8 +1,8 @@
 ---
 title: "{{title}}"
 date: {{date}}
-tags: [template, aprendizado, logging]
-updated: 2026-05-16
+tags: [template, aprendizado, logging, jarvis]
+updated: 2026-06-01
 ---
 
 # {{title}}

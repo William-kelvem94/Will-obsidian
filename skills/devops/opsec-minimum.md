@@ -4,7 +4,7 @@ category: "DevOps"
 level: 3
 description: "Minimum operational security practices for small teams and agent-assisted workflows."
 date: 2026-05-08
-updated: 2026-05-08
+updated: 2026-06-01
 tags: [skills, devops, security, opsec]
 ---
 

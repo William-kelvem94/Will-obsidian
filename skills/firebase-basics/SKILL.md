@@ -1,6 +1,10 @@
 ---
 name: firebase-basics
 description: Use this skill whenever you are working on a project that uses Firebase products or services, especially for mobile or web apps.
+title: "Firebase Basics"
+date: 2026-06-01
+tags: [skills]
+updated: 2026-06-01
 ---
 
 # Firebase Basics

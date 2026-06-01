@@ -1,8 +1,9 @@
 ---
 title: "📚 Bibliotecário"
 date: 2026-05-19
-tags: [conquista, badge]
+tags: [conquista, badge, perfil]
 xp_reward: 15
+updated: 2026-06-01
 ---
 
 # 📚 Bibliotecário

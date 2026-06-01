@@ -2,7 +2,7 @@
 title: "IA-LOCAL Codebase Map"
 description: "Mapa RAG-friendly do projeto IA-LOCAL para agentes de programacao."
 created: 2026-05-08
-updated: 2026-05-08
+updated: 2026-06-01
 type: codebase-map
 project: IA-LOCAL
 domain: engineering
@@ -17,6 +17,7 @@ vault_sources:
 confidence: vault-notes-only
 tags:
   - ia-local
+  - jarvis-engenharia
   - jarvis
   - faiss
   - whisper
@@ -24,6 +25,7 @@ tags:
   - desktop-automation
   - rag
   - codebase-map
+date: 2026-06-01
 ---
 
 # IA-LOCAL Codebase Map

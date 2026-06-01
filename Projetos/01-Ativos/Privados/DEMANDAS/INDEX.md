@@ -1,7 +1,8 @@
 ---
 title: "DEMANDAS - Índice Mestre"
 tags: [projetos, privados, demandas, index]
-updated: 2026-05-22
+updated: 2026-06-01
+date: 2026-06-01
 ---
 
 # DEMANDAS - Índice Mestre

@@ -1,3 +1,10 @@
+---
+title: "Media Generation"
+date: 2026-06-01
+tags: [skills]
+updated: 2026-06-01
+---
+
 # Media Generation
 
 ## Image Generation

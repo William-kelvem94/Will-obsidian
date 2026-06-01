@@ -7,8 +7,8 @@ tag:
   - assistant
   - fullstack
 date: 2026-04-27
-tags: [privados]
-updated: 2026-05-03
+tags: [privados, projetos]
+updated: 2026-06-01
 ---
 
 # PROJECT_JARVIS_5.0 Knowledge Base

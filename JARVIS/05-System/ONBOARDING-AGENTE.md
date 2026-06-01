@@ -2,7 +2,7 @@
 title: "Onboarding de Agente Externo"
 tags: [meta, agente, jarvis, jarvis-sistema]
 date: 2026-04-27
-updated: 2026-05-08
+updated: 2026-06-01
 ---
 
 # Como habitar este vault

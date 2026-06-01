@@ -1,3 +1,10 @@
+---
+title: "Cloud SQL CLI Usage"
+date: 2026-06-01
+tags: [skills]
+updated: 2026-06-01
+---
+
 # Cloud SQL CLI Usage
 
 The `gcloud sql` command group is used to manage Cloud SQL instances and

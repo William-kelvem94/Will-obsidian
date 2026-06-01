@@ -1,7 +1,8 @@
 ---
 title: "README - Skills e Navegação Visual"
 tags: [skills, hub, index, taxonomy]
-updated: 2026-05-24
+updated: 2026-06-01
+date: 2026-06-01
 ---
 
 # Skills — Taxonomia Pessoal
@@ -18,6 +19,10 @@ Este diretório converge competências técnicas e estratégicas em um inventár
 - [[skills/devops/|DevOps e Observabilidade]]
 - [[skills/softskills/|Softskills, Product Management, Comunicação]]
 - [[skills/frontend/|Frontend (Web Components, JS, etc)]]
+
+### 🆕 Capacidades de Agentes
+- [[skills/AGENT-FULLSTACK-CAPABILITIES|🖥️ Fullstack Agent]] — Stack completo de programação p/ agentes IA
+- [[skills/AGENT-RESEARCH-CAPABILITIES|🔬 Research Agent]] — Metodologia de pesquisa técnica e científica
 
 ## Como está organizado?
 - Cada subpasta é uma "trilha" temática (pense como especializações/tags), não times.

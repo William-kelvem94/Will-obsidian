@@ -1,3 +1,10 @@
+---
+title: "Meta-aprendizagem e AutoML — Guia Ultra-Detalhado"
+date: 2026-06-01
+tags: [skills]
+updated: 2026-06-01
+---
+
 # Meta-aprendizagem e AutoML — Guia Ultra-Detalhado
 
 ## 1. Introdução Teórica Aprofundada

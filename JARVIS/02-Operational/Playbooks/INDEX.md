@@ -1,9 +1,10 @@
 ---
 title: "Operational Playbooks Index"
 description: "Index of safe operational playbooks for agent behavior, session handling, decisions, and project prioritization."
-tags: [jarvis, playbooks, ops, index, agent]
-updated: 2026-05-08
+tags: [jarvis, playbooks, ops, index, agent, jarvis-operacao]
+updated: 2026-06-01
 status: active
+date: 2026-06-01
 ---
 
 # Operational Playbooks Index

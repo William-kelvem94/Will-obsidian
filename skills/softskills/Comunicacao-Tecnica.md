@@ -9,7 +9,7 @@ resources:
   - 
 date: 2026-04-27
 tags: [skills, comunicacao, documentacao, soft-skills]
-updated: 2026-05-16
+updated: 2026-06-01
 ---
 
 # Comunicação Técnica

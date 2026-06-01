@@ -1,7 +1,8 @@
 ---
 title: "README — Vida Pessoal, Conquistas, Hábitos"
-tags: [pessoal, conquista, meta, habito, preferencia]
-updated: 2026-05-24
+tags: [pessoal, conquista, meta, habito, preferencia, perfil]
+updated: 2026-06-01
+date: 2026-06-01
 ---
 # Will-Pessoal — Vida, Conquistas e Preferências
 

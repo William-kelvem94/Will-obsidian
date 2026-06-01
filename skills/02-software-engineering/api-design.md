@@ -1,7 +1,8 @@
 ---
 tags: [api-design, rest, graphql, grpc, openapi, authentication, rate-limiting, skills-eng]
-updated: 2026-05-16
+updated: 2026-06-01
 title: "API Design - Contract-First API Development"
+date: 2026-06-01
 ---
 
 # API Design

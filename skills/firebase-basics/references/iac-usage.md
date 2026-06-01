@@ -1,3 +1,10 @@
+---
+title: "Firebase IaC usage"
+date: 2026-06-01
+tags: [skills]
+updated: 2026-06-01
+---
+
 # Firebase IaC usage
 
 Firebase resources can be provisioned using Infrastructure as Code (IaC) tools,

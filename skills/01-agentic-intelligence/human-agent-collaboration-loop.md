@@ -6,7 +6,9 @@ description: "Skill para conduzir ciclos curtos de colaboracao entre humano, age
 projects: []
 related_skills: [advanced-workflows, autonomous-workflow, mcp-operators]
 resources: []
-updated: 2026-05-08
+updated: 2026-06-01
+date: 2026-06-01
+tags: [skills-ai]
 ---
 
 # Human Agent Collaboration Loop

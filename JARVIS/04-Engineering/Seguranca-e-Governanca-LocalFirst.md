@@ -1,9 +1,9 @@
 ---
 title: "Segurança e Governança Local-First no Vault"
 description: "Práticas para proteger segredos, logs, RAG, agentes e automações mantendo o vault local como fonte de verdade."
-tags: [seguranca, governanca, local-first, privacidade, jarvis, vault]
+tags: [seguranca, governanca, local-first, privacidade, jarvis, vault, jarvis-engenharia]
 date: 2026-05-20
-updated: 2026-05-20
+updated: 2026-06-01
 ---
 
 # Segurança e Governança Local-First

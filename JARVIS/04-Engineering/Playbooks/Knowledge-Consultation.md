@@ -1,7 +1,8 @@
 ---
 title: "Playbook: Consulta à Base de Conhecimento"
 date: 2026-05-16
-tags: [jarvis, playbook, conhecimento, rag, consulta]
+tags: [jarvis, playbook, conhecimento, rag, consulta, jarvis-engenharia]
+updated: 2026-06-01
 ---
 
 # Playbook: Consulta à Base de Conhecimento

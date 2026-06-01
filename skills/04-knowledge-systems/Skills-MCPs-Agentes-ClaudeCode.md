@@ -1,8 +1,8 @@
 ---
-tags: [skills, mcp, agentes, automacao, firecrawl, claudecode, poweruser, advanced]
+tags: [skills, mcp, agentes, automacao, firecrawl, claudecode, poweruser, advanced, skills-knowledge]
 title: "Skills, MCPs e Agentes - Claude Code, Firecrawl e Stack Padrão"
 date: 2026-05-24
-updated: 2026-05-24
+updated: 2026-06-01
 ---
 
 # Skills, MCPs, Agentes e Fluxos de Automação — Power User Claude Code

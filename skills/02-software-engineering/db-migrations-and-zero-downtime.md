@@ -1,9 +1,9 @@
 ---
 title: "DB Migrations and Zero-Downtime Changes"
 description: "Playbook para agentes: migracoes seguras, expand/contract, backfill, indices e locks."
-tags: [software-engineering, database, migrations, agents]
+tags: [software-engineering, database, migrations, agents, skills-eng]
 date: 2026-05-08
-updated: 2026-05-08
+updated: 2026-06-01
 ---
 
 # DB Migrations and Zero-Downtime Changes

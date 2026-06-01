@@ -1,7 +1,8 @@
 ---
-tags: [design-patterns, software-engineering, GoF, architecture, coding-agent]
-updated: 2026-05-16
+tags: [design-patterns, software-engineering, GoF, architecture, coding-agent, skills-eng]
+updated: 2026-06-01
 title: "Design Patterns - GoF Catalog"
+date: 2026-06-01
 ---
 
 # Design Patterns - Catalogo GoF

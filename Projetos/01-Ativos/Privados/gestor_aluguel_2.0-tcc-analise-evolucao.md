@@ -8,7 +8,7 @@ tags:
   - analise
   - evolucao
   - documentacao
-updated: 2026-05-22
+updated: 2026-06-01
 date: 2026-05-22
 private: true
 source: "D:/GitHub/gestor_aluguel_2.0"

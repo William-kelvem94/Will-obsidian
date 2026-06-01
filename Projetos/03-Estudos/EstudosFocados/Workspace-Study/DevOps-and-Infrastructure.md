@@ -2,7 +2,7 @@
 title: "DevOps and Infrastructure Research"
 description: "Pesquisa e recomendações para infraestrutura local, Docker, deploy gratuito e operações do vault." 
 tags: [devops, infraestrutura, pesquisa, docker, projetos]
-updated: 2026-05-03
+updated: 2026-06-01
 date: 2026-04-27
 ---
 

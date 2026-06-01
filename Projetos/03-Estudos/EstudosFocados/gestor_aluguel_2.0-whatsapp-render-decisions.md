@@ -1,3 +1,10 @@
+---
+title: "Gestor de Aluguel 2.0 - Decisões WAHA, n8n, Render e Supabase"
+date: 2026-06-01
+tags: [projetos]
+updated: 2026-06-01
+---
+
 # Gestor de Aluguel 2.0 - Decisões WAHA, n8n, Render e Supabase
 
 ## Estado atual

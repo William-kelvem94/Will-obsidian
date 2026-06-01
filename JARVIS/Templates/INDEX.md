@@ -3,7 +3,7 @@ title: "Índice de Templates — Jarvis (Raiz)"
 description: "Templates para o Jarvis capturar informações estruturadas sobre Will — versão raiz do sistema de blueprints."
 tags: [jarvis, templates]
 date: 2026-04-27
-updated: 2026-05-16
+updated: 2026-06-01
 ---
 
 # Templates — Jarvis (Raiz)

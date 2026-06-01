@@ -1,0 +1,3197 @@
+{
+  "analise-completa.md": {
+    "hash": "07cd62d08d6133d387fc57cf8976e82420c98f93"
+  },
+  "ANALYTICS.md": {
+    "hash": "c2605082f4d55eb1363019bf90f1fcc9e07468f7"
+  },
+  "Bem-vindo.md": {
+    "hash": "6c22de896f96da5d9cd8054f69ab92730c2f7105"
+  },
+  "BIBLIOGRAFIA.md": {
+    "hash": "ace982cc8dc107c7a6a44575486e8f94dc3425f1"
+  },
+  "BRAINSTORM-GIGANTE.md": {
+    "hash": "9b350f67996135f73bbf2eab1c470781bdb30785"
+  },
+  "Cerebro-Will.md": {
+    "hash": "1c4c6a8bc3cbf597f4b0c81e650a3106ba20acf7"
+  },
+  "Checklist-Workflow.md": {
+    "hash": "27695e0ee6271b03f4f3236ef197969bbe6c02a1"
+  },
+  "Clippings.md": {
+    "hash": "80bff49daa89535613f21c0271a9127b9b638a7a"
+  },
+  "conexoes_sugeridas.md": {
+    "hash": "078dbb0a1197ddea6c9a47a24060af41d3590103"
+  },
+  "Diario-Exemplo.md": {
+    "hash": "47467b9ff3ed51b50eac1e328235cbc89f2d8751"
+  },
+  "GAPS.md": {
+    "hash": "40f34769a93d3a2b041caa0fff7b150eff325125"
+  },
+  "Graph-Legenda.md": {
+    "hash": "168278ba743e59b3f20f494c98ca18d7c837bdc5"
+  },
+  "Ideia_Pessoal.md": {
+    "hash": "a076e40593fb8b685af8e90af8a5d711b8514421"
+  },
+  "INDEX.md": {
+    "hash": "f6ab95049702c41c27b05402f7194b1fb2d8828f"
+  },
+  "Master-Glossary.md": {
+    "hash": "1c297574ace817586b562e6379f11ee681ab821b"
+  },
+  "MULTIMODALIDADE.md": {
+    "hash": "28bf8e39583361b896dc806e8838dffcb898bf00"
+  },
+  "Painel-Cockpit.md": {
+    "hash": "a184e4b314358b7d91c3fc64669de27710673299"
+  },
+  "Painel-LEGACY.md": {
+    "hash": "39553f7b83c4be2175bc7f84c2696ac80e2a8534"
+  },
+  "Projetos.md": {
+    "hash": "e6a9bec7120956a78192adb2eedcf87537587b81"
+  },
+  "README.md": {
+    "hash": "f3d252c791e6f746c88f3029b64ea3a8397d0ed8"
+  },
+  "README_PROPOSAL.md": {
+    "hash": "c577a3742e8829aeed3c1d3fa2e91a2b887af626"
+  },
+  "ROADMAP.md": {
+    "hash": "9c4afe5bc14289c62520c5b1664d4c1b718ded3d"
+  },
+  "SEGURANCA_PRIVACIDADE.md": {
+    "hash": "838c9bf2c2ceb043db3067abc1456300ef5abd36"
+  },
+  "Squads-Template.md": {
+    "hash": "acdd8d43af870d7af7761173c74afac1d296410f"
+  },
+  "TAXONOMY.md": {
+    "hash": "d44114af224a54b8ed25cab3926b2a1092bfcdfc"
+  },
+  "Vault-Hierarchy-Map.md": {
+    "hash": "d530f9be199b83756b820f3fa7f318f279dbea07"
+  },
+  "Vault-Ops.md": {
+    "hash": "3725ad0d0548f25ee5d40cd7eb24bbd4e98fe99d"
+  },
+  "William-kelvem94 Overview.md": {
+    "hash": "863916ed49c125475c69a5aacb4125452f4f9f5f"
+  },
+  ".agents\\skills\\alloydb-basics\\SKILL.md": {
+    "hash": "c6affdb7b1212ccde58a1b24f61c13c68d769c92"
+  },
+  ".agents\\skills\\alloydb-basics\\references\\cli-usage.md": {
+    "hash": "2877acbbd30d0220d4fb11beba4d229b43a09278"
+  },
+  ".agents\\skills\\alloydb-basics\\references\\client-library-usage.md": {
+    "hash": "62d59be7ef87f0cb74a2da14917fa3696d7c7d87"
+  },
+  ".agents\\skills\\alloydb-basics\\references\\core-concepts.md": {
+    "hash": "3b659502693964f3dce8657b1a4120f157dee6c3"
+  },
+  ".agents\\skills\\alloydb-basics\\references\\iac-usage.md": {
+    "hash": "e0cc1a8784308e62524222f8399d7fc48c3c3a0a"
+  },
+  ".agents\\skills\\alloydb-basics\\references\\iam-security.md": {
+    "hash": "49ed1fee004a5aafc76a16d30228acbec8698665"
+  },
+  ".agents\\skills\\alloydb-basics\\references\\mcp-usage.md": {
+    "hash": "3e701818e6fb440d2038ce82b86a30a4e2c70b0f"
+  },
+  ".agents\\skills\\bigquery-basics\\SKILL.md": {
+    "hash": "6859212053ddc1743648c9c5622aaef22057ebf7"
+  },
+  ".agents\\skills\\bigquery-basics\\references\\cli-usage.md": {
+    "hash": "c69cd567789ca6567de406e9d48806d41ccf118e"
+  },
+  ".agents\\skills\\bigquery-basics\\references\\client-library-usage.md": {
+    "hash": "bea24853b30f52dbca6b8c6b0a9419809713868d"
+  },
+  ".agents\\skills\\bigquery-basics\\references\\core-concepts.md": {
+    "hash": "72b5bf0bda57505960d173dabcdb8a270f9385b9"
+  },
+  ".agents\\skills\\bigquery-basics\\references\\iac-usage.md": {
+    "hash": "2d1240a05f3a850376755a034fc81401d00c9dd2"
+  },
+  ".agents\\skills\\bigquery-basics\\references\\iam-security.md": {
+    "hash": "d195c7728084aa2373c07b3cc83a3a1950856857"
+  },
+  ".agents\\skills\\bigquery-basics\\references\\mcp-usage.md": {
+    "hash": "3e47d3b1ea5da49020ab58cf9289a8e916f40a28"
+  },
+  ".agents\\skills\\cloud-run-basics\\SKILL.md": {
+    "hash": "3370e39c1ed33770c044498a314246f74c34654b"
+  },
+  ".agents\\skills\\cloud-run-basics\\references\\cli-usage.md": {
+    "hash": "34f43ab65d3e213eda0daa38415390b0b40c0c34"
+  },
+  ".agents\\skills\\cloud-run-basics\\references\\client-library-usage.md": {
+    "hash": "6bd788b077a709516a4b7ab963f717636a766055"
+  },
+  ".agents\\skills\\cloud-run-basics\\references\\core-concepts.md": {
+    "hash": "7f069a90d8a7113891b104f294335dbc1b56bca5"
+  },
+  ".agents\\skills\\cloud-run-basics\\references\\iac-usage.md": {
+    "hash": "ea067c114e92b1889d07dc3896ea3f88353684e8"
+  },
+  ".agents\\skills\\cloud-run-basics\\references\\iam-security.md": {
+    "hash": "1d802622ad710ca51c03fd96224b33a9f999d767"
+  },
+  ".agents\\skills\\cloud-run-basics\\references\\mcp-usage.md": {
+    "hash": "a7e97ee423470a593d12c8210592507a58487354"
+  },
+  ".agents\\skills\\cloud-sql-basics\\SKILL.md": {
+    "hash": "b3ac1a3a70c511baed3d687cd45a021c797db0c1"
+  },
+  ".agents\\skills\\cloud-sql-basics\\references\\cli-usage.md": {
+    "hash": "998c9111df96c9144c37b262814216f93cbc2775"
+  },
+  ".agents\\skills\\cloud-sql-basics\\references\\client-library-usage.md": {
+    "hash": "ef898abcdeb13808b3e1bf279e624e0617baa5af"
+  },
+  ".agents\\skills\\cloud-sql-basics\\references\\core-concepts.md": {
+    "hash": "2a3ccaefdce4a8a2f0745eb7f64829791bc2d3c8"
+  },
+  ".agents\\skills\\cloud-sql-basics\\references\\iac-usage.md": {
+    "hash": "e8253468b269f53a7083e3da5a0254fd1ff61e2e"
+  },
+  ".agents\\skills\\cloud-sql-basics\\references\\iam-security.md": {
+    "hash": "1ee0d49d08aa48a2df89436408d1c504af1c27ad"
+  },
+  ".agents\\skills\\cloud-sql-basics\\references\\mcp-usage.md": {
+    "hash": "8fa811fd3a9a26b4e7b12ea1cdf2025cc9e035e2"
+  },
+  ".agents\\skills\\firebase-basics\\SKILL.md": {
+    "hash": "dde300012beb2bb318ea17bc83d0e142b70bad34"
+  },
+  ".agents\\skills\\firebase-basics\\references\\additional-skills.md": {
+    "hash": "5da4a184726f906b5928bc0c76e2f086025822fb"
+  },
+  ".agents\\skills\\firebase-basics\\references\\cli-usage.md": {
+    "hash": "50673f39c200faf213bc75ff6f42dad9ac1a211a"
+  },
+  ".agents\\skills\\firebase-basics\\references\\client-library-usage.md": {
+    "hash": "cd678b879036339022249a5ca46a7b85372b85b6"
+  },
+  ".agents\\skills\\firebase-basics\\references\\core-concepts.md": {
+    "hash": "d57c6cafade62b336ca7920251a895b4d5e580aa"
+  },
+  ".agents\\skills\\firebase-basics\\references\\iac-usage.md": {
+    "hash": "1dd3fce2612dd2664a08f69532d6619a1cb33cb3"
+  },
+  ".agents\\skills\\firebase-basics\\references\\iam-security.md": {
+    "hash": "d0afba9c0afe7cbccb74a413622bee5d1812290b"
+  },
+  ".agents\\skills\\firebase-basics\\references\\mcp-usage.md": {
+    "hash": "811c95159bd2992940409ddceabd24942366a52c"
+  },
+  ".agents\\skills\\gemini-api\\SKILL.md": {
+    "hash": "f9ac9de7849cac2109aff7d7505ae1232b8d1e58"
+  },
+  ".agents\\skills\\gemini-api\\references\\advanced_features.md": {
+    "hash": "8ac54ba135f5d53971a54625ee81428ef8867a4f"
+  },
+  ".agents\\skills\\gemini-api\\references\\bounding_box.md": {
+    "hash": "acd5eb34337e182ddb9d952dd48aac2fcd7cb0ff"
+  },
+  ".agents\\skills\\gemini-api\\references\\embeddings.md": {
+    "hash": "16ba48dfb076a78ed90a75b6db4bf3130ca94e87"
+  },
+  ".agents\\skills\\gemini-api\\references\\live_api.md": {
+    "hash": "203a75dc738e1f2b1e82117268abded00620751a"
+  },
+  ".agents\\skills\\gemini-api\\references\\media_generation.md": {
+    "hash": "89f77d8e120a64933060f9039ce0c5e4c079e45a"
+  },
+  ".agents\\skills\\gemini-api\\references\\model_tuning.md": {
+    "hash": "e70fd65d586df687eea6d2f5f3a04b2989718e96"
+  },
+  ".agents\\skills\\gemini-api\\references\\safety.md": {
+    "hash": "e3c6067294361140b3db888c87ce7bc7e6313bda"
+  },
+  ".agents\\skills\\gemini-api\\references\\structured_and_tools.md": {
+    "hash": "ff5e9b0436a0a740a44cdf14da1777bc41882f43"
+  },
+  ".agents\\skills\\gemini-api\\references\\text_and_multimodal.md": {
+    "hash": "d844d74a85fda8a1f9c59e9e144613897af5e6b0"
+  },
+  ".agents\\skills\\gke-basics\\SKILL.md": {
+    "hash": "1055f19558e1e83d68e37fd98735bdffcc2e5145"
+  },
+  ".agents\\skills\\gke-basics\\references\\cli-reference.md": {
+    "hash": "adc421ddadb0f119b02b7e860890a8bec22c6eaa"
+  },
+  ".agents\\skills\\gke-basics\\references\\client-library-usage.md": {
+    "hash": "a437207a6b9d2407b76469113fec7756512712c1"
+  },
+  ".agents\\skills\\gke-basics\\references\\core-concepts.md": {
+    "hash": "e7b3884153ba5643a5d2eb1c9809ab0aa788725c"
+  },
+  ".agents\\skills\\gke-basics\\references\\gke-app-onboarding.md": {
+    "hash": "64ed022ce9f5ae1443273d5039b69df1a54941ec"
+  },
+  ".agents\\skills\\gke-basics\\references\\gke-backup-dr.md": {
+    "hash": "2983d4fb4ba41417aa630850daa78c4d95c8b14e"
+  },
+  ".agents\\skills\\gke-basics\\references\\gke-batch-hpc.md": {
+    "hash": "37e2e3ca1f7a5f589e69521cca3613021e993026"
+  },
+  ".agents\\skills\\gke-basics\\references\\gke-cluster-creation.md": {
+    "hash": "831cb0cf97e8bc0ef917860d4d186ce6c5db7c9b"
+  },
+  ".agents\\skills\\gke-basics\\references\\gke-compute-classes.md": {
+    "hash": "7db1dbe9de4fc80517d1894b62f4dd5a847b1465"
+  },
+  ".agents\\skills\\gke-basics\\references\\gke-cost.md": {
+    "hash": "b4e327080f188a863a477effa8be86cf6e5057f4"
+  },
+  ".agents\\skills\\gke-basics\\references\\gke-golden-path.md": {
+    "hash": "81ececbdd22320d6d5dca144ed5c4e62d9b20dd7"
+  },
+  ".agents\\skills\\gke-basics\\references\\gke-inference.md": {
+    "hash": "73641d585b992ec84642089b6849a7c7c65bd2ab"
+  },
+  ".agents\\skills\\gke-basics\\references\\gke-multitenancy.md": {
+    "hash": "8c6219e878a5d1992d17b45ec7ea6f258af8b2ed"
+  },
+  ".agents\\skills\\gke-basics\\references\\gke-networking.md": {
+    "hash": "a133f0e03b332bafe61e81414545ec3fd32dd512"
+  },
+  ".agents\\skills\\gke-basics\\references\\gke-observability.md": {
+    "hash": "0bbd7f5a15799641274ea5de5e041342ed04c711"
+  },
+  ".agents\\skills\\gke-basics\\references\\gke-reliability.md": {
+    "hash": "7216d68fc011fbf72b8a9f8916872eaf50d6a18b"
+  },
+  ".agents\\skills\\gke-basics\\references\\gke-scaling.md": {
+    "hash": "17378834284204314326b6ba9bc29aa3a5dcabab"
+  },
+  ".agents\\skills\\gke-basics\\references\\gke-security.md": {
+    "hash": "ebd640add8d1a960d033d08ba62a8218744278ca"
+  },
+  ".agents\\skills\\gke-basics\\references\\gke-storage.md": {
+    "hash": "1de35172b89fb3cc19d4611c95aee3306e33d3cc"
+  },
+  ".agents\\skills\\gke-basics\\references\\gke-upgrades.md": {
+    "hash": "3f7007eba1e7a28297c8e1ac868b56a8f9b71e53"
+  },
+  ".agents\\skills\\gke-basics\\references\\iac-usage.md": {
+    "hash": "59d3be4b0dbab72d547b3b4ba445b0ad329e04ac"
+  },
+  ".agents\\skills\\gke-basics\\references\\mcp-usage.md": {
+    "hash": "363061b20717b03f0d8cb08ed9d54073cd913ed6"
+  },
+  ".agents\\skills\\google-cloud-networking-observability\\SKILL.md": {
+    "hash": "7891c7ef00a7ff8cf5da8cf9b00dc5d6c05b7ad6"
+  },
+  ".agents\\skills\\google-cloud-networking-observability\\references\\cloud-nat-analysis.md": {
+    "hash": "c179dde7fb54666dac516ce95c68669e6f6a9344"
+  },
+  ".agents\\skills\\google-cloud-networking-observability\\references\\connectivity-tests.md": {
+    "hash": "e7da86947c25c3aef093d527f9df8aa41418d610"
+  },
+  ".agents\\skills\\google-cloud-networking-observability\\references\\firewall-analysis.md": {
+    "hash": "5b7122d76d48277e3f7e6ce7cd440c3fad09f56b"
+  },
+  ".agents\\skills\\google-cloud-networking-observability\\references\\mcp-usage.md": {
+    "hash": "f164043d1db9f31b77118f6fb05803776a6fad85"
+  },
+  ".agents\\skills\\google-cloud-networking-observability\\references\\metrics-analysis.md": {
+    "hash": "d7c56c870f19a35894b5bbd77b581c08f934953c"
+  },
+  ".agents\\skills\\google-cloud-networking-observability\\references\\threat-analysis.md": {
+    "hash": "82e62dea8e0357bb2774896f01bde43c3450e763"
+  },
+  ".agents\\skills\\google-cloud-networking-observability\\references\\vpc-flow-analysis.md": {
+    "hash": "4232b2fd3d6c699737fc0b796382427ecea93217"
+  },
+  ".agents\\skills\\google-cloud-recipe-auth\\SKILL.md": {
+    "hash": "deff8e0e2d29f45a13fcaa08d14ccec5afad5c21"
+  },
+  ".agents\\skills\\google-cloud-recipe-onboarding\\SKILL.md": {
+    "hash": "4169ac573dc84333e83c23b1ccd1642181cb5a05"
+  },
+  ".agents\\skills\\google-cloud-recipe-onboarding\\reference\\google-cloud-setup.md": {
+    "hash": "7874ce310f3545a4f227b559f84fedb26661e28a"
+  },
+  ".agents\\skills\\google-cloud-waf-cost-optimization\\SKILL.md": {
+    "hash": "9ab5ea67ef0a4f59611a54fa471db15013007d91"
+  },
+  ".agents\\skills\\google-cloud-waf-reliability\\SKILL.md": {
+    "hash": "546b0b2fd5d60ecc6aa6197c5e951267a5dbc3c2"
+  },
+  ".agents\\skills\\google-cloud-waf-security\\SKILL.md": {
+    "hash": "a36587970a7a731d2e46f96e67a55b0c0c441c4c"
+  },
+  ".continue\\skills\\alloydb-basics\\SKILL.md": {
+    "hash": "c6affdb7b1212ccde58a1b24f61c13c68d769c92"
+  },
+  ".continue\\skills\\alloydb-basics\\references\\cli-usage.md": {
+    "hash": "2877acbbd30d0220d4fb11beba4d229b43a09278"
+  },
+  ".continue\\skills\\alloydb-basics\\references\\client-library-usage.md": {
+    "hash": "62d59be7ef87f0cb74a2da14917fa3696d7c7d87"
+  },
+  ".continue\\skills\\alloydb-basics\\references\\core-concepts.md": {
+    "hash": "3b659502693964f3dce8657b1a4120f157dee6c3"
+  },
+  ".continue\\skills\\alloydb-basics\\references\\iac-usage.md": {
+    "hash": "e0cc1a8784308e62524222f8399d7fc48c3c3a0a"
+  },
+  ".continue\\skills\\alloydb-basics\\references\\iam-security.md": {
+    "hash": "49ed1fee004a5aafc76a16d30228acbec8698665"
+  },
+  ".continue\\skills\\alloydb-basics\\references\\mcp-usage.md": {
+    "hash": "3e701818e6fb440d2038ce82b86a30a4e2c70b0f"
+  },
+  ".continue\\skills\\bigquery-basics\\SKILL.md": {
+    "hash": "6859212053ddc1743648c9c5622aaef22057ebf7"
+  },
+  ".continue\\skills\\bigquery-basics\\references\\cli-usage.md": {
+    "hash": "c69cd567789ca6567de406e9d48806d41ccf118e"
+  },
+  ".continue\\skills\\bigquery-basics\\references\\client-library-usage.md": {
+    "hash": "bea24853b30f52dbca6b8c6b0a9419809713868d"
+  },
+  ".continue\\skills\\bigquery-basics\\references\\core-concepts.md": {
+    "hash": "72b5bf0bda57505960d173dabcdb8a270f9385b9"
+  },
+  ".continue\\skills\\bigquery-basics\\references\\iac-usage.md": {
+    "hash": "2d1240a05f3a850376755a034fc81401d00c9dd2"
+  },
+  ".continue\\skills\\bigquery-basics\\references\\iam-security.md": {
+    "hash": "d195c7728084aa2373c07b3cc83a3a1950856857"
+  },
+  ".continue\\skills\\bigquery-basics\\references\\mcp-usage.md": {
+    "hash": "3e47d3b1ea5da49020ab58cf9289a8e916f40a28"
+  },
+  ".continue\\skills\\cloud-run-basics\\SKILL.md": {
+    "hash": "3370e39c1ed33770c044498a314246f74c34654b"
+  },
+  ".continue\\skills\\cloud-run-basics\\references\\cli-usage.md": {
+    "hash": "34f43ab65d3e213eda0daa38415390b0b40c0c34"
+  },
+  ".continue\\skills\\cloud-run-basics\\references\\client-library-usage.md": {
+    "hash": "6bd788b077a709516a4b7ab963f717636a766055"
+  },
+  ".continue\\skills\\cloud-run-basics\\references\\core-concepts.md": {
+    "hash": "7f069a90d8a7113891b104f294335dbc1b56bca5"
+  },
+  ".continue\\skills\\cloud-run-basics\\references\\iac-usage.md": {
+    "hash": "ea067c114e92b1889d07dc3896ea3f88353684e8"
+  },
+  ".continue\\skills\\cloud-run-basics\\references\\iam-security.md": {
+    "hash": "1d802622ad710ca51c03fd96224b33a9f999d767"
+  },
+  ".continue\\skills\\cloud-run-basics\\references\\mcp-usage.md": {
+    "hash": "a7e97ee423470a593d12c8210592507a58487354"
+  },
+  ".continue\\skills\\cloud-sql-basics\\SKILL.md": {
+    "hash": "b3ac1a3a70c511baed3d687cd45a021c797db0c1"
+  },
+  ".continue\\skills\\cloud-sql-basics\\references\\cli-usage.md": {
+    "hash": "998c9111df96c9144c37b262814216f93cbc2775"
+  },
+  ".continue\\skills\\cloud-sql-basics\\references\\client-library-usage.md": {
+    "hash": "ef898abcdeb13808b3e1bf279e624e0617baa5af"
+  },
+  ".continue\\skills\\cloud-sql-basics\\references\\core-concepts.md": {
+    "hash": "2a3ccaefdce4a8a2f0745eb7f64829791bc2d3c8"
+  },
+  ".continue\\skills\\cloud-sql-basics\\references\\iac-usage.md": {
+    "hash": "e8253468b269f53a7083e3da5a0254fd1ff61e2e"
+  },
+  ".continue\\skills\\cloud-sql-basics\\references\\iam-security.md": {
+    "hash": "1ee0d49d08aa48a2df89436408d1c504af1c27ad"
+  },
+  ".continue\\skills\\cloud-sql-basics\\references\\mcp-usage.md": {
+    "hash": "8fa811fd3a9a26b4e7b12ea1cdf2025cc9e035e2"
+  },
+  ".continue\\skills\\firebase-basics\\SKILL.md": {
+    "hash": "dde300012beb2bb318ea17bc83d0e142b70bad34"
+  },
+  ".continue\\skills\\firebase-basics\\references\\additional-skills.md": {
+    "hash": "5da4a184726f906b5928bc0c76e2f086025822fb"
+  },
+  ".continue\\skills\\firebase-basics\\references\\cli-usage.md": {
+    "hash": "50673f39c200faf213bc75ff6f42dad9ac1a211a"
+  },
+  ".continue\\skills\\firebase-basics\\references\\client-library-usage.md": {
+    "hash": "cd678b879036339022249a5ca46a7b85372b85b6"
+  },
+  ".continue\\skills\\firebase-basics\\references\\core-concepts.md": {
+    "hash": "d57c6cafade62b336ca7920251a895b4d5e580aa"
+  },
+  ".continue\\skills\\firebase-basics\\references\\iac-usage.md": {
+    "hash": "1dd3fce2612dd2664a08f69532d6619a1cb33cb3"
+  },
+  ".continue\\skills\\firebase-basics\\references\\iam-security.md": {
+    "hash": "d0afba9c0afe7cbccb74a413622bee5d1812290b"
+  },
+  ".continue\\skills\\firebase-basics\\references\\mcp-usage.md": {
+    "hash": "811c95159bd2992940409ddceabd24942366a52c"
+  },
+  ".continue\\skills\\gemini-api\\SKILL.md": {
+    "hash": "f9ac9de7849cac2109aff7d7505ae1232b8d1e58"
+  },
+  ".continue\\skills\\gemini-api\\references\\advanced_features.md": {
+    "hash": "8ac54ba135f5d53971a54625ee81428ef8867a4f"
+  },
+  ".continue\\skills\\gemini-api\\references\\bounding_box.md": {
+    "hash": "acd5eb34337e182ddb9d952dd48aac2fcd7cb0ff"
+  },
+  ".continue\\skills\\gemini-api\\references\\embeddings.md": {
+    "hash": "16ba48dfb076a78ed90a75b6db4bf3130ca94e87"
+  },
+  ".continue\\skills\\gemini-api\\references\\live_api.md": {
+    "hash": "203a75dc738e1f2b1e82117268abded00620751a"
+  },
+  ".continue\\skills\\gemini-api\\references\\media_generation.md": {
+    "hash": "89f77d8e120a64933060f9039ce0c5e4c079e45a"
+  },
+  ".continue\\skills\\gemini-api\\references\\model_tuning.md": {
+    "hash": "e70fd65d586df687eea6d2f5f3a04b2989718e96"
+  },
+  ".continue\\skills\\gemini-api\\references\\safety.md": {
+    "hash": "e3c6067294361140b3db888c87ce7bc7e6313bda"
+  },
+  ".continue\\skills\\gemini-api\\references\\structured_and_tools.md": {
+    "hash": "ff5e9b0436a0a740a44cdf14da1777bc41882f43"
+  },
+  ".continue\\skills\\gemini-api\\references\\text_and_multimodal.md": {
+    "hash": "d844d74a85fda8a1f9c59e9e144613897af5e6b0"
+  },
+  ".continue\\skills\\gke-basics\\SKILL.md": {
+    "hash": "1055f19558e1e83d68e37fd98735bdffcc2e5145"
+  },
+  ".continue\\skills\\gke-basics\\references\\cli-reference.md": {
+    "hash": "adc421ddadb0f119b02b7e860890a8bec22c6eaa"
+  },
+  ".continue\\skills\\gke-basics\\references\\client-library-usage.md": {
+    "hash": "a437207a6b9d2407b76469113fec7756512712c1"
+  },
+  ".continue\\skills\\gke-basics\\references\\core-concepts.md": {
+    "hash": "e7b3884153ba5643a5d2eb1c9809ab0aa788725c"
+  },
+  ".continue\\skills\\gke-basics\\references\\gke-app-onboarding.md": {
+    "hash": "64ed022ce9f5ae1443273d5039b69df1a54941ec"
+  },
+  ".continue\\skills\\gke-basics\\references\\gke-backup-dr.md": {
+    "hash": "2983d4fb4ba41417aa630850daa78c4d95c8b14e"
+  },
+  ".continue\\skills\\gke-basics\\references\\gke-batch-hpc.md": {
+    "hash": "37e2e3ca1f7a5f589e69521cca3613021e993026"
+  },
+  ".continue\\skills\\gke-basics\\references\\gke-cluster-creation.md": {
+    "hash": "831cb0cf97e8bc0ef917860d4d186ce6c5db7c9b"
+  },
+  ".continue\\skills\\gke-basics\\references\\gke-compute-classes.md": {
+    "hash": "7db1dbe9de4fc80517d1894b62f4dd5a847b1465"
+  },
+  ".continue\\skills\\gke-basics\\references\\gke-cost.md": {
+    "hash": "b4e327080f188a863a477effa8be86cf6e5057f4"
+  },
+  ".continue\\skills\\gke-basics\\references\\gke-golden-path.md": {
+    "hash": "81ececbdd22320d6d5dca144ed5c4e62d9b20dd7"
+  },
+  ".continue\\skills\\gke-basics\\references\\gke-inference.md": {
+    "hash": "73641d585b992ec84642089b6849a7c7c65bd2ab"
+  },
+  ".continue\\skills\\gke-basics\\references\\gke-multitenancy.md": {
+    "hash": "8c6219e878a5d1992d17b45ec7ea6f258af8b2ed"
+  },
+  ".continue\\skills\\gke-basics\\references\\gke-networking.md": {
+    "hash": "a133f0e03b332bafe61e81414545ec3fd32dd512"
+  },
+  ".continue\\skills\\gke-basics\\references\\gke-observability.md": {
+    "hash": "0bbd7f5a15799641274ea5de5e041342ed04c711"
+  },
+  ".continue\\skills\\gke-basics\\references\\gke-reliability.md": {
+    "hash": "7216d68fc011fbf72b8a9f8916872eaf50d6a18b"
+  },
+  ".continue\\skills\\gke-basics\\references\\gke-scaling.md": {
+    "hash": "17378834284204314326b6ba9bc29aa3a5dcabab"
+  },
+  ".continue\\skills\\gke-basics\\references\\gke-security.md": {
+    "hash": "ebd640add8d1a960d033d08ba62a8218744278ca"
+  },
+  ".continue\\skills\\gke-basics\\references\\gke-storage.md": {
+    "hash": "1de35172b89fb3cc19d4611c95aee3306e33d3cc"
+  },
+  ".continue\\skills\\gke-basics\\references\\gke-upgrades.md": {
+    "hash": "3f7007eba1e7a28297c8e1ac868b56a8f9b71e53"
+  },
+  ".continue\\skills\\gke-basics\\references\\iac-usage.md": {
+    "hash": "59d3be4b0dbab72d547b3b4ba445b0ad329e04ac"
+  },
+  ".continue\\skills\\gke-basics\\references\\mcp-usage.md": {
+    "hash": "363061b20717b03f0d8cb08ed9d54073cd913ed6"
+  },
+  ".continue\\skills\\google-cloud-networking-observability\\SKILL.md": {
+    "hash": "7891c7ef00a7ff8cf5da8cf9b00dc5d6c05b7ad6"
+  },
+  ".continue\\skills\\google-cloud-networking-observability\\references\\cloud-nat-analysis.md": {
+    "hash": "c179dde7fb54666dac516ce95c68669e6f6a9344"
+  },
+  ".continue\\skills\\google-cloud-networking-observability\\references\\connectivity-tests.md": {
+    "hash": "e7da86947c25c3aef093d527f9df8aa41418d610"
+  },
+  ".continue\\skills\\google-cloud-networking-observability\\references\\firewall-analysis.md": {
+    "hash": "5b7122d76d48277e3f7e6ce7cd440c3fad09f56b"
+  },
+  ".continue\\skills\\google-cloud-networking-observability\\references\\mcp-usage.md": {
+    "hash": "f164043d1db9f31b77118f6fb05803776a6fad85"
+  },
+  ".continue\\skills\\google-cloud-networking-observability\\references\\metrics-analysis.md": {
+    "hash": "d7c56c870f19a35894b5bbd77b581c08f934953c"
+  },
+  ".continue\\skills\\google-cloud-networking-observability\\references\\threat-analysis.md": {
+    "hash": "82e62dea8e0357bb2774896f01bde43c3450e763"
+  },
+  ".continue\\skills\\google-cloud-networking-observability\\references\\vpc-flow-analysis.md": {
+    "hash": "4232b2fd3d6c699737fc0b796382427ecea93217"
+  },
+  ".continue\\skills\\google-cloud-recipe-auth\\SKILL.md": {
+    "hash": "deff8e0e2d29f45a13fcaa08d14ccec5afad5c21"
+  },
+  ".continue\\skills\\google-cloud-recipe-onboarding\\SKILL.md": {
+    "hash": "4169ac573dc84333e83c23b1ccd1642181cb5a05"
+  },
+  ".continue\\skills\\google-cloud-recipe-onboarding\\reference\\google-cloud-setup.md": {
+    "hash": "7874ce310f3545a4f227b559f84fedb26661e28a"
+  },
+  ".continue\\skills\\google-cloud-waf-cost-optimization\\SKILL.md": {
+    "hash": "9ab5ea67ef0a4f59611a54fa471db15013007d91"
+  },
+  ".continue\\skills\\google-cloud-waf-reliability\\SKILL.md": {
+    "hash": "546b0b2fd5d60ecc6aa6197c5e951267a5dbc3c2"
+  },
+  ".continue\\skills\\google-cloud-waf-security\\SKILL.md": {
+    "hash": "a36587970a7a731d2e46f96e67a55b0c0c441c4c"
+  },
+  ".logs\\skills_gap.md": {
+    "hash": "2c562859ddc316239618793a9f3934f0cd089ae8"
+  },
+  ".obsidian\\snippets\\focus-mode-trigger.md": {
+    "hash": "4b0f4d924df1de9f6a23be2d0ad1acd30aeff234"
+  },
+  ".scripts\\README.md": {
+    "hash": "3d965fd34e871b7c2e020342133c6a1c0bd75f99"
+  },
+  ".scripts\\vault_cleanup_report.md": {
+    "hash": "c0de2df508d46b28c06bcfd3196e72472970e3c3"
+  },
+  "benchmarks\\Benchmark-Template.md": {
+    "hash": "81836fc03e16a9dd00bf18237d3ba6fe033dd2f6"
+  },
+  "benchmarks\\INDEX.md": {
+    "hash": "edf8d4a0f25b4307eb236774f929b1a4431de353"
+  },
+  "Clippings\\README.md": {
+    "hash": "d5d1e17eb0a649d6149d5f21a848b109d4e36c3c"
+  },
+  "Conhecimento-Geral\\Ciencia-Politica.md": {
+    "hash": "336f1b43bb613ae1fae8690ae6bd025c0af9600c"
+  },
+  "Conhecimento-Geral\\COMO-CONTRIBUIR.md": {
+    "hash": "7472df4b5b5485eb497c559d20a2997a0d27ee34"
+  },
+  "Conhecimento-Geral\\Cosmovisao-e-Sentido.md": {
+    "hash": "ed9b58a31e0b34d94871438dd1b45fd53c770482"
+  },
+  "Conhecimento-Geral\\Futuros-e-Cenarios.md": {
+    "hash": "5030c9e9da26b84e92c3c884e50984804fe3c1df"
+  },
+  "Conhecimento-Geral\\Humanidade-e-Tecnologia.md": {
+    "hash": "ee43d6f03770e353c1bacb4df387a7094ab7d19c"
+  },
+  "Conhecimento-Geral\\INDEX.md": {
+    "hash": "89d586828dad9d74f5274253e11f6393c6ab2e8d"
+  },
+  "Conhecimento-Geral\\Mapa do Conhecimento.md": {
+    "hash": "8f6e430b36b4a91f3e41bec29b848c7c2da40560"
+  },
+  "Conhecimento-Geral\\Astronomia\\Astronomia-Fundamental.md": {
+    "hash": "567988d3b6e88e1a3a780da85f9e10cb5026dbf5"
+  },
+  "Conhecimento-Geral\\Astronomia\\Cosmologia.md": {
+    "hash": "5d5493b85a804589baa897653b58945e0b96910c"
+  },
+  "Conhecimento-Geral\\Astronomia\\INDEX.md": {
+    "hash": "53bf067a2dfe4943ee116a475a0ac3cd8e1db210"
+  },
+  "Conhecimento-Geral\\Astronomia\\Sistema-Solar.md": {
+    "hash": "2746001179ef5e6b62e22870dc599a2bb8a045d8"
+  },
+  "Conhecimento-Geral\\Biologia\\Biologia-Celular-e-Molecular.md": {
+    "hash": "b4c2191be71dbd3540e1c75dd6743d6867f2da2d"
+  },
+  "Conhecimento-Geral\\Biologia\\Evolucao-e-Genetica.md": {
+    "hash": "9ff15ccdfb9cb5680907fc7cae1f639f83538d80"
+  },
+  "Conhecimento-Geral\\Biologia\\Fisiologia-Humana.md": {
+    "hash": "0381bc83162eaec9292684497e9a515e40d12e04"
+  },
+  "Conhecimento-Geral\\Biologia\\INDEX.md": {
+    "hash": "040bb8c340e269787ac67a0a809e40abf9b44302"
+  },
+  "Conhecimento-Geral\\Computacao\\Algoritmos-e-Estruturas.md": {
+    "hash": "2383876716919e5f319ced1c08532107a9ce22df"
+  },
+  "Conhecimento-Geral\\Computacao\\Ciencia-da-Computacao.md": {
+    "hash": "6c0493ee0a9b94b148e0bc318265ac50eb84fd79"
+  },
+  "Conhecimento-Geral\\Computacao\\Cronologia-da-IA.md": {
+    "hash": "6f8324df93c80923fdb8ed1619d34fdee440a2c5"
+  },
+  "Conhecimento-Geral\\Computacao\\INDEX.md": {
+    "hash": "66dfa5d0b291d25c7d1019f4c2f81cfc55e90930"
+  },
+  "Conhecimento-Geral\\Computacao\\NLP-Fundamentos.md": {
+    "hash": "a11ad5d628f3d481e4c24686443cba33786ddb1e"
+  },
+  "Conhecimento-Geral\\Cosmologia\\Astronomia.md": {
+    "hash": "6b274edbcbe564061dd540a76ba90904ac3ebaa2"
+  },
+  "Conhecimento-Geral\\Cosmologia\\Cosmologia.md": {
+    "hash": "ac4c3ae36f8a2dd39d89adc0409c39cd74c05615"
+  },
+  "Conhecimento-Geral\\Cosmologia\\Filosofia-da-Cosmologia.md": {
+    "hash": "269ef15951d1be873e444f08d8f2a4e3c039dd3c"
+  },
+  "Conhecimento-Geral\\Cosmologia\\INDEX.md": {
+    "hash": "1b36b6cd04d26d4cbe3a3697610dd83615145d18"
+  },
+  "Conhecimento-Geral\\Cultura\\Antropologia-Cultural.md": {
+    "hash": "2a3ec3e773674d16e204681cdef0fcde53ebd501"
+  },
+  "Conhecimento-Geral\\Cultura\\Astrologia.md": {
+    "hash": "8b15df7620e0c3eb69603d5423495af7ef1c13dd"
+  },
+  "Conhecimento-Geral\\Cultura\\Biografias-de-Pensadores.md": {
+    "hash": "787de416c55267f34b4c57fa3dbb4339e9a305fd"
+  },
+  "Conhecimento-Geral\\Cultura\\Cultura-Sociologia.md": {
+    "hash": "df6492e064c8f71965e5e8cf0105d6dba577ae8d"
+  },
+  "Conhecimento-Geral\\Cultura\\Direito.md": {
+    "hash": "3fc6cea9e2a19b347ba0417ef536a07e58e225a9"
+  },
+  "Conhecimento-Geral\\Cultura\\Estetica-e-Arte.md": {
+    "hash": "62ff76a8944b506fb25827b75f1e33d0e25aa872"
+  },
+  "Conhecimento-Geral\\Cultura\\Geografia.md": {
+    "hash": "308b0eeed69e8e47e3af0789d3640322bda0bbd4"
+  },
+  "Conhecimento-Geral\\Cultura\\Geologia.md": {
+    "hash": "c09b1d4d7a08158d7372dc61406900ea636382cc"
+  },
+  "Conhecimento-Geral\\Cultura\\INDEX.md": {
+    "hash": "feef1b2a8742103a338cb51fc92374efa2b61a4b"
+  },
+  "Conhecimento-Geral\\Cultura\\Mudancas-Climaticas.md": {
+    "hash": "ce903722230c7a5f5b01fda9b90a52fe00cf530d"
+  },
+  "Conhecimento-Geral\\Cultura\\Oceanografia.md": {
+    "hash": "ad3b63e90ac5f98f80946f1d5433babd06131352"
+  },
+  "Conhecimento-Geral\\Cultura\\Paleontologia.md": {
+    "hash": "04204185077a092ee76419f7102efb091e171e50"
+  },
+  "Conhecimento-Geral\\Cultura\\Sociologia-da-Era-Digital.md": {
+    "hash": "c31ba5ceef3ffba2b54ea4ba3055a3054bd29f0d"
+  },
+  "Conhecimento-Geral\\Cultura\\Teorias-Sociologicas.md": {
+    "hash": "a620d69c07d758f8a31eacaea18a1d0a14d15a65"
+  },
+  "Conhecimento-Geral\\Direito-Digital\\EU-AI-Act.md": {
+    "hash": "ed23b6e7c5870e1796ea2ada15aa8f5ffa132973"
+  },
+  "Conhecimento-Geral\\Direito-Digital\\GDPR-e-Privacidade.md": {
+    "hash": "cb48a2cd7ae70ffb6ae822f3aedab28d2e6fe8f4"
+  },
+  "Conhecimento-Geral\\Direito-Digital\\INDEX.md": {
+    "hash": "f75958558d63184cf11104e1b2a3bd254341ae6e"
+  },
+  "Conhecimento-Geral\\Direito-Digital\\Responsabilidade-e-Governanca.md": {
+    "hash": "b2609969c1c7175afc2c548877ff2f13b7cf1942"
+  },
+  "Conhecimento-Geral\\Economia-Digital\\Automacao-e-Desemprego.md": {
+    "hash": "a3579261eb9881822e6d13450e9d706e1566ae76"
+  },
+  "Conhecimento-Geral\\Economia-Digital\\Capitalismo-de-Vigilancia.md": {
+    "hash": "a92ab282f5a59bd85c7a1652b9a4459eb41cb215"
+  },
+  "Conhecimento-Geral\\Economia-Digital\\Economia-dos-Dados.md": {
+    "hash": "aca71689f9c0fc8a4def9c269c2117cc6e65563c"
+  },
+  "Conhecimento-Geral\\Economia-Digital\\INDEX.md": {
+    "hash": "9b64e18f96aa60d9e8314b81ced2e4d1adfa1a6c"
+  },
+  "Conhecimento-Geral\\Economia-Digital\\Renda-Basica-Universal.md": {
+    "hash": "99f32aff49662456407ed066c716dae1e69a266c"
+  },
+  "Conhecimento-Geral\\Etica\\Auditoria-de-Agentes-e-Evidencias.md": {
+    "hash": "6504da4a2a47f860a0e4b56e872987265c138b5b"
+  },
+  "Conhecimento-Geral\\Etica\\Conceitos-de-Alinhamento.md": {
+    "hash": "c4bc0f1819ddadcf61c19264460bb4989b3a8720"
+  },
+  "Conhecimento-Geral\\Etica\\Consequencialismo.md": {
+    "hash": "d5f96b64c0b245b89e159ba1a4330ca323fef927"
+  },
+  "Conhecimento-Geral\\Etica\\Deontologia.md": {
+    "hash": "481bccc6fd9e0906095da1bdc78d824ba6ee28ea"
+  },
+  "Conhecimento-Geral\\Etica\\Etica-das-Virtudes.md": {
+    "hash": "71ad1e9c79dfa3a2eca0cb409fedfb093b93b8be"
+  },
+  "Conhecimento-Geral\\Etica\\Etica-de-IA-e-Alinhamento.md": {
+    "hash": "0331262780ff3ac80618edbcd7e5a50067ad00c0"
+  },
+  "Conhecimento-Geral\\Etica\\INDEX-Addon.md": {
+    "hash": "7e6452c57f87b2c09d17f1b15fd3b7c784516358"
+  },
+  "Conhecimento-Geral\\Etica\\INDEX.md": {
+    "hash": "836b7987822974cf19cb5a32df9016bbf8bde6fe"
+  },
+  "Conhecimento-Geral\\Etica\\Limites-de-Automacao-e-Consentimento.md": {
+    "hash": "fd5494ffb8827a74c9a58ea3670575248d713b18"
+  },
+  "Conhecimento-Geral\\Etica\\Minimizacao-de-Dados-para-RAG-e-Agentes.md": {
+    "hash": "57928483c5dc800a844ffc269879b344d5b02c09"
+  },
+  "Conhecimento-Geral\\Etica\\Politica-de-Logs-para-Agentes.md": {
+    "hash": "054305aa20d98f8d9d7b09f65ae9e46ddaa86e1a"
+  },
+  "Conhecimento-Geral\\Etica\\Privacidade-by-Default-para-Agentes.md": {
+    "hash": "134a90de121171693d180a441a6773d4e91dce8f"
+  },
+  "Conhecimento-Geral\\Etica\\Seguranca-vs-Utilidade-Tradeoffs.md": {
+    "hash": "d9c34c2e586978db640ba4226e76b0514f2a4541"
+  },
+  "Conhecimento-Geral\\Etica\\Transparencia-Algoritmica.md": {
+    "hash": "8f0125847ed5fa6376e82453b516cb83ade2bc41"
+  },
+  "Conhecimento-Geral\\Etica\\Transparencia-de-Decisao-e-Rastreabilidade.md": {
+    "hash": "395a21b9adc5e6ab87727b0b8e730877cf92045f"
+  },
+  "Conhecimento-Geral\\Etica\\Vies-de-Poder-e-Assimetria.md": {
+    "hash": "7fe2cc36d5a71464547804d5ff7f8f6241002ac0"
+  },
+  "Conhecimento-Geral\\Filosofia\\Chinese-Room.md": {
+    "hash": "86db2460b873ea377e7a3f2c78d50a310cf4acdc"
+  },
+  "Conhecimento-Geral\\Filosofia\\Conceitos-Fundamentais.md": {
+    "hash": "cee079902698eb0e6f78cf8de3cf9e01ea01e1eb"
+  },
+  "Conhecimento-Geral\\Filosofia\\Epistemologia.md": {
+    "hash": "4f71ce060f5ce0242b38e48f756d6f1390e29e24"
+  },
+  "Conhecimento-Geral\\Filosofia\\Existencialismo-e-Sentido.md": {
+    "hash": "a9e3bd996b0ff2fb13962d4be24e7f4e9118a89d"
+  },
+  "Conhecimento-Geral\\Filosofia\\Filosofia-da-Linguagem-e-Lógica-para-IA.md": {
+    "hash": "8dc61e29785cca234ddca7462f6d308793acd2ec"
+  },
+  "Conhecimento-Geral\\Filosofia\\Filosofia-da-Mente.md": {
+    "hash": "5a9f400ee3dc993e61ac1a8a230621a75cc021d4"
+  },
+  "Conhecimento-Geral\\Filosofia\\Filosofia-da-Tecnologia-e-Transumanismo.md": {
+    "hash": "2eda245286c371e77ab70efb54fbddff336b5b40"
+  },
+  "Conhecimento-Geral\\Filosofia\\Filosofia-da-Tecnologia.md": {
+    "hash": "2e88752e768da52319d17d6cbc4e511970e201aa"
+  },
+  "Conhecimento-Geral\\Filosofia\\Filosofia-para-IA-e-Decisao.md": {
+    "hash": "b7c23fd9ec4e3077101d574fa85879647cb592be"
+  },
+  "Conhecimento-Geral\\Filosofia\\Filosofia-Politica.md": {
+    "hash": "28a1792fe22e0814e98a6b856d1106ed55646bc0"
+  },
+  "Conhecimento-Geral\\Filosofia\\INDEX.md": {
+    "hash": "d3ed9338dd4b47c231bafcaf4e4a2fe6ef4ab24e"
+  },
+  "Conhecimento-Geral\\Filosofia\\Metafisica.md": {
+    "hash": "0cc1f39cbae5b725cb3016fe230d26806628dedc"
+  },
+  "Conhecimento-Geral\\Filosofia\\Problema-do-Controle.md": {
+    "hash": "3dbf0b1acffb5ab8176b297a7c85f4650dd5bd57"
+  },
+  "Conhecimento-Geral\\Filosofia\\Qualia.md": {
+    "hash": "42443865914991f71656a550bd7aaae995ca8801"
+  },
+  "Conhecimento-Geral\\Filosofia\\Transumanismo-e-Pos-Humanismo.md": {
+    "hash": "52cd294e481357755d140f4eb7260fb19d9db4d5"
+  },
+  "Conhecimento-Geral\\Fisica\\Consciencia-e-Quântica.md": {
+    "hash": "3a6578e232388b3943a7288877b1f3a21576d287"
+  },
+  "Conhecimento-Geral\\Fisica\\Fisica-Fundamental.md": {
+    "hash": "02c1e8de64629cd5a3d6587996aaea55170558a9"
+  },
+  "Conhecimento-Geral\\Fisica\\Fisica-Quantica.md": {
+    "hash": "4863eada5ba26fffa1eddf9ac91ff59e5471d5cc"
+  },
+  "Conhecimento-Geral\\Fisica\\INDEX.md": {
+    "hash": "ff7a4356084fbf3324c2d66078096948e34d577b"
+  },
+  "Conhecimento-Geral\\Fisica\\Interpretacoes-Quanticas.md": {
+    "hash": "096809970cca589e306f308f70cdaabe18fc6524"
+  },
+  "Conhecimento-Geral\\Fisica\\Mecanica-Quantica-e-Realidade.md": {
+    "hash": "ba589725eda7270f4e169076fb31bc5a4f19e639"
+  },
+  "Conhecimento-Geral\\Historia\\Geopolitica.md": {
+    "hash": "1db8fa77f8543c9cb5918608d8159cce142a3383"
+  },
+  "Conhecimento-Geral\\Historia\\Historia-do-Brasil.md": {
+    "hash": "2bb7494afbace0b1d0b801fa002e9e9810acdffe"
+  },
+  "Conhecimento-Geral\\Historia\\Historia-Mundial.md": {
+    "hash": "51e8fafd8cb120180310ea8c3d3e6f80ba58ff94"
+  },
+  "Conhecimento-Geral\\Historia\\INDEX.md": {
+    "hash": "ad761a8333fa66b12acb08e17438a15ad86206bf"
+  },
+  "Conhecimento-Geral\\IA-para-Programacao\\Ancoragem-e-Contagio-em-Debug.md": {
+    "hash": "c385e48a17362189ef3eda38ffd3cc6be013582e"
+  },
+  "Conhecimento-Geral\\IA-para-Programacao\\Avaliacao-de-Respostas-de-IA.md": {
+    "hash": "d50eb8aa96221e2b3a5b89d6235fa9635a88e12f"
+  },
+  "Conhecimento-Geral\\IA-para-Programacao\\Calibracao-de-Confianca-em-Agentes.md": {
+    "hash": "cf9003f6d02ee0fd28af801c6a833eb21da46bcc"
+  },
+  "Conhecimento-Geral\\IA-para-Programacao\\Code-Review-com-Agentes.md": {
+    "hash": "9746ee4b0d4627957d01e124033a2e9e616bb739"
+  },
+  "Conhecimento-Geral\\IA-para-Programacao\\Debug-com-Agentes.md": {
+    "hash": "32d2cc631c4bb78abf57eb3044529e05943b4b97"
+  },
+  "Conhecimento-Geral\\IA-para-Programacao\\Engenharia-de-Contexto.md": {
+    "hash": "2841f708556e1033f8f3f488a406babbd68300cc"
+  },
+  "Conhecimento-Geral\\IA-para-Programacao\\Erros-de-Automacao-Taxonomia.md": {
+    "hash": "00787ec43e3272cd21f0cc54fb76dc43d35b0952"
+  },
+  "Conhecimento-Geral\\IA-para-Programacao\\Guardrails-Eticos-para-Agentes.md": {
+    "hash": "978c72f5ecfa9efa6959967b1c5ca3153396b582"
+  },
+  "Conhecimento-Geral\\IA-para-Programacao\\Heuristicas-de-Triagem-de-Issues.md": {
+    "hash": "58d6ac7b42b233cebb5f65465e45706c14245674"
+  },
+  "Conhecimento-Geral\\IA-para-Programacao\\Higiene-de-Repo-e-Git.md": {
+    "hash": "47a4d28b96c5cac6f9ffcf6a8c74e22da27ab420"
+  },
+  "Conhecimento-Geral\\IA-para-Programacao\\INDEX.md": {
+    "hash": "4a3268f14b1ce5df051d95cd0188b2e5c1749f1d"
+  },
+  "Conhecimento-Geral\\IA-para-Programacao\\Memoria-Episodica-e-Semantica-para-Agentes.md": {
+    "hash": "64cd163769def0cb536955f4a3c65d989bfaf78e"
+  },
+  "Conhecimento-Geral\\IA-para-Programacao\\Memoria-para-Agentes.md": {
+    "hash": "fb8b8a12d58229f4cdf5586524c899aabbf97cf9"
+  },
+  "Conhecimento-Geral\\IA-para-Programacao\\Notas-RAG-Friendly.md": {
+    "hash": "4bc113290dfddc5227f34513f6a0b3c8be81b651"
+  },
+  "Conhecimento-Geral\\IA-para-Programacao\\Prompts-para-Codigo.md": {
+    "hash": "4275ee318c3bdcb0ad28b91d96bbe2db9fe17340"
+  },
+  "Conhecimento-Geral\\IA-para-Programacao\\Reducao-de-Escopo.md": {
+    "hash": "e19a3fadf4340a0deb992f33002a431ab047eaab"
+  },
+  "Conhecimento-Geral\\IA-para-Programacao\\Segredos-e-Dados-Sensiveis.md": {
+    "hash": "39ab06f8bbd945ce746473bd8e1e3c8d4caff576"
+  },
+  "Conhecimento-Geral\\IA-para-Programacao\\Sinais-de-Incerteza-e-Quando-Parar.md": {
+    "hash": "76393347e11cce73d2544016ea6f1cd7146afbaa"
+  },
+  "Conhecimento-Geral\\IA-para-Programacao\\Testes-com-Agentes.md": {
+    "hash": "e9efbd3861592779ce56a6260cb61d1b3a035e61"
+  },
+  "Conhecimento-Geral\\IA-para-Programacao\\UI-e-Agentes.md": {
+    "hash": "b251ec3e60f6738b4eab505406bb613b1c106735"
+  },
+  "Conhecimento-Geral\\IA-para-Programacao\\Vieses-em-Code-Review.md": {
+    "hash": "390b4e91ce14f48a958edf45ea1e45a0ed193af0"
+  },
+  "Conhecimento-Geral\\IA-para-Programacao\\Workflow-Humano-Agente.md": {
+    "hash": "b8321cfc62e0fe67b194cfb243480647ab2e80b1"
+  },
+  "Conhecimento-Geral\\Linguistica\\INDEX.md": {
+    "hash": "17def3ec0ef290e87f0acc8ac985f816dff503d8"
+  },
+  "Conhecimento-Geral\\Linguistica\\Linguistica-e-Semiotica.md": {
+    "hash": "8303b2204a68a6297a5d0508e2605ff5f824ddb4"
+  },
+  "Conhecimento-Geral\\Logica\\Experimentos-Mentais-Classicos.md": {
+    "hash": "2ca9c83202f6d343678def13b8ca6762acc85931"
+  },
+  "Conhecimento-Geral\\Logica\\Filosofia-da-Ciencia.md": {
+    "hash": "0c803e8be034bb10467d87e25ef477ea62ac8d87"
+  },
+  "Conhecimento-Geral\\Logica\\INDEX.md": {
+    "hash": "e601a733b4bc54aa09fe6b174ad4588d87fdee97"
+  },
+  "Conhecimento-Geral\\Logica\\Logica-e-Argumentacao.md": {
+    "hash": "26b6db74e2921588d4006f85363ba5070ec99d30"
+  },
+  "Conhecimento-Geral\\Logica\\Logica-e-Pensamento-Critico.md": {
+    "hash": "0840849e0ffe6b3f58e71bf4bbf8cad30a81a3aa"
+  },
+  "Conhecimento-Geral\\Logica\\Pensamento-Critico.md": {
+    "hash": "a0d18fe38338518d660f2644127439c570c5907c"
+  },
+  "Conhecimento-Geral\\Matematica\\Algebra-Linear-Essencial.md": {
+    "hash": "697dd83d023dddd6650ea96d53398af2a33f85bc"
+  },
+  "Conhecimento-Geral\\Matematica\\Calculo-e-Otimizacao.md": {
+    "hash": "28e9982c282bf7cd2ef98cf091a003c4ec45fb81"
+  },
+  "Conhecimento-Geral\\Matematica\\Equacoes-Diferenciais.md": {
+    "hash": "fae5597bef8e6fadf6f8bce3f9e19638d5a218b6"
+  },
+  "Conhecimento-Geral\\Matematica\\INDEX.md": {
+    "hash": "605c67e841c717ee5d0a0f542b2c6988a75a7be5"
+  },
+  "Conhecimento-Geral\\Matematica\\Matematica-Discreta.md": {
+    "hash": "6353dd034e6859676b2f5f9cbcb702415c1fa428"
+  },
+  "Conhecimento-Geral\\Matematica\\Probabilidade-e-Estatistica.md": {
+    "hash": "1f9ba2f4f1b4064cc890eec05e1f5269dbcd3331"
+  },
+  "Conhecimento-Geral\\Matematica\\Teoria-da-Informacao.md": {
+    "hash": "21f9b82a56d880091f64ab3fa63c488f872229aa"
+  },
+  "Conhecimento-Geral\\Matematica\\Teoria-de-Redes.md": {
+    "hash": "94e9d7afb8a681e30ee3299d09c7df72b562e8e3"
+  },
+  "Conhecimento-Geral\\Matematica\\Teoria-dos-Jogos.md": {
+    "hash": "1f819780fdb852c0238d8801cb01db65de1d5598"
+  },
+  "Conhecimento-Geral\\Matematica\\Teoria-dos-Sistemas.md": {
+    "hash": "1d58fb26661660e8f090170b3e7403b0e6400026"
+  },
+  "Conhecimento-Geral\\Metafisica\\Filosofia-do-Tempo.md": {
+    "hash": "d569d2d4eac3b49618bbd77638ea394d3232e736"
+  },
+  "Conhecimento-Geral\\Metafisica\\INDEX.md": {
+    "hash": "65c1da64fef050c2dd0098a7593892604b946094"
+  },
+  "Conhecimento-Geral\\Metafisica\\Metafisica-Geral.md": {
+    "hash": "e9b2af0a113a99e0ecc534f11d2a7f8672e14e8c"
+  },
+  "Conhecimento-Geral\\Metafisica\\Ontologia.md": {
+    "hash": "af64d5cde22e84db33c0c1296cfaf9adecf6e491"
+  },
+  "Conhecimento-Geral\\Neurociencia\\Consciencia-e-Cerebro.md": {
+    "hash": "07f62b6bc4ac0d80b002c6aa8ff781ee59e95c36"
+  },
+  "Conhecimento-Geral\\Neurociencia\\INDEX.md": {
+    "hash": "07ea495636e7ddb186bf92183141fbe6b6069d04"
+  },
+  "Conhecimento-Geral\\Neurociencia\\Neurociencia-Computacional.md": {
+    "hash": "f6772d3d4a144f37d49b7cc6b0510d74d362a531"
+  },
+  "Conhecimento-Geral\\Neurociencia\\Neurociencia-do-Habito-Foco-Decisao.md": {
+    "hash": "8b58e4574da8dc48cd083ab417260e839bf68843"
+  },
+  "Conhecimento-Geral\\Neurociencia\\Redes-Neurais-Biologicas.md": {
+    "hash": "6efec478a26ed62be788bdad690c6e515f411bd4"
+  },
+  "Conhecimento-Geral\\Neurociencia\\Sistemas-de-Memoria.md": {
+    "hash": "0e63f282a33ee9823ac46d7e83f2e94cdea5c527"
+  },
+  "Conhecimento-Geral\\Programacao\\APIs-e-Integracoes.md": {
+    "hash": "bdca951ee0c16bee1a0b58d3fdce955637de8c12"
+  },
+  "Conhecimento-Geral\\Programacao\\Arquitetura-de-Software.md": {
+    "hash": "132aff0d163c008c171f54d6ef278f961d5b4d1b"
+  },
+  "Conhecimento-Geral\\Programacao\\Banco-de-Dados.md": {
+    "hash": "2b961b9ac0a76ef0ba2fb5a1d57fd60e1404d922"
+  },
+  "Conhecimento-Geral\\Programacao\\Concorrencia-e-Paralelismo.md": {
+    "hash": "185329fda82b28d03bf67cd42bf712aa302f3de0"
+  },
+  "Conhecimento-Geral\\Programacao\\Design-Patterns.md": {
+    "hash": "6120b667ad800beb086f86426737bc4de7ad216f"
+  },
+  "Conhecimento-Geral\\Programacao\\DevOps-e-Infra.md": {
+    "hash": "68ebd21935c29e3005759778b8a998e5c23fba6b"
+  },
+  "Conhecimento-Geral\\Programacao\\INDEX.md": {
+    "hash": "bdf96469f3c27d7d854e4b1d0d7fddfff9aa74f7"
+  },
+  "Conhecimento-Geral\\Programacao\\Paradigmas-de-Programacao.md": {
+    "hash": "3725bdea486c2cafe8f859bc6b337d522fe31b4b"
+  },
+  "Conhecimento-Geral\\Programacao\\Performance-e-Otimizacao.md": {
+    "hash": "5d9452fe3fea3c7d8ab5208dc97d9a058d13164f"
+  },
+  "Conhecimento-Geral\\Programacao\\Seguranca.md": {
+    "hash": "bb99c5c7b71cd7e456d4d29e1481424dc53905cc"
+  },
+  "Conhecimento-Geral\\Programacao\\Testes-de-Software.md": {
+    "hash": "832349238ffb6e3ffcac238c81fa447a646a3a0a"
+  },
+  "Conhecimento-Geral\\Psicologia\\Catalogo-de-Vieses-Cognitivos.md": {
+    "hash": "bcc92006669faef9e8d6612b3eda7b6a66464a1f"
+  },
+  "Conhecimento-Geral\\Psicologia\\Checklist-Antivieses-para-Decisoes-Tecnicas.md": {
+    "hash": "1f3edb5a3e0b4286bc854a273d2126c4bc5fd201"
+  },
+  "Conhecimento-Geral\\Psicologia\\INDEX.md": {
+    "hash": "fe2cf0a9bc4413ef4bd4afac7b07fc757a4f679e"
+  },
+  "Conhecimento-Geral\\Psicologia\\Modelos-Mentais.md": {
+    "hash": "6c500da2cb5212a118592c4a08913da3583316ac"
+  },
+  "Conhecimento-Geral\\Psicologia\\Psicanalise.md": {
+    "hash": "916e2517f8ba607db7be2873eff86d9b75dafc02"
+  },
+  "Conhecimento-Geral\\Psicologia\\Psicologia-Clinica.md": {
+    "hash": "b07aa356d5b1e0a13f4c7b8bd3e36cddbd47a784"
+  },
+  "Conhecimento-Geral\\Psicologia\\Psicologia-Cognitiva-aplicada-ao-Desenvolvimento.md": {
+    "hash": "3503865c9df2d726ba8fda23eb90b013715ebddb"
+  },
+  "Conhecimento-Geral\\Psicologia\\Psicologia-Cognitiva.md": {
+    "hash": "4da1c9fd70e31214cef512a8168bee303c04a244"
+  },
+  "Conhecimento-Geral\\Psicologia\\Psicologia-Social-Desenvolvimento-Personalidade.md": {
+    "hash": "beeda5a8ef2dde20047a5b848b560d1e53c8197c"
+  },
+  "Conhecimento-Geral\\Psicologia\\Reducao-de-Carga-Cognitiva-para-Programacao.md": {
+    "hash": "75ee2fcd310b9587c3a8882918f164adf0a1b063"
+  },
+  "Conhecimento-Geral\\Psicologia\\Teoria-da-Mente.md": {
+    "hash": "67ef6825d69de9a21c11274058d8dae92f5ccdcc"
+  },
+  "Conhecimento-Geral\\Psicologia\\Vieses-Cognitivos.md": {
+    "hash": "75384aa2c31a5e20742034c7e6db76b2e79bb557"
+  },
+  "Conhecimento-Geral\\Psicologia\\Vieses-em-LLMs.md": {
+    "hash": "560fb857a6c9ad09ac70747fb9ec29c32efb8aa6"
+  },
+  "Conhecimento-Geral\\Quimica\\INDEX.md": {
+    "hash": "7ac4fc061be1a99037b0bad7387cbb8e501d433a"
+  },
+  "Conhecimento-Geral\\Quimica\\Quimica-Geral.md": {
+    "hash": "9ba2f63a429178679d57bb3a8e6968e79aae20eb"
+  },
+  "Conhecimento-Geral\\Religiao\\Budismo.md": {
+    "hash": "1512dbe280da610d414f53830e4b889d891568c2"
+  },
+  "Conhecimento-Geral\\Religiao\\Confucionismo.md": {
+    "hash": "01c35e6d802245832f8646140bdadb01ab74ae52"
+  },
+  "Conhecimento-Geral\\Religiao\\Estoicismo.md": {
+    "hash": "57a969c5656fcd1c9943167c7af9be4625b3b7bd"
+  },
+  "Conhecimento-Geral\\Religiao\\INDEX.md": {
+    "hash": "64f6a3fee1c09fa31b726b5222cf5bf562349dc3"
+  },
+  "Conhecimento-Geral\\Religiao\\Religioes-Comparadas.md": {
+    "hash": "1ffdf24690077de81945021581c2b5b9bb3b9405"
+  },
+  "Conhecimento-Geral\\Religiao\\Taoismo.md": {
+    "hash": "2054bc6388338867087d51d6352dc8ed3bcc914b"
+  },
+  "Conhecimento-Geral\\Saude\\Ciencia-do-Exercicio-e-Nutricao.md": {
+    "hash": "7bcca3569280f624bdedde5de748b8f46000b258"
+  },
+  "Conhecimento-Geral\\Saude\\Fisiologia-do-Exercicio.md": {
+    "hash": "6a9c97983f7ba11dad57a7c0acbbaf1b4c2bbce2"
+  },
+  "Conhecimento-Geral\\Saude\\Higiene-do-Sono-e-Recuperacao.md": {
+    "hash": "06c9ea174f9356e5a3e18f0aaeb9b21247720aa8"
+  },
+  "Conhecimento-Geral\\Saude\\INDEX.md": {
+    "hash": "b6af916b4af2c356f9ca5f1c30241df45731dc49"
+  },
+  "Conhecimento-Geral\\Saude\\Nutricao-e-Metabolismo.md": {
+    "hash": "d9029d2eeb4198228fd9836b5938bb365375e596"
+  },
+  "Conhecimento-Geral\\Saude\\Saude-Mental-e-Foco.md": {
+    "hash": "7804716d9ce09a5639651983fe3e9a822f0c3290"
+  },
+  "Conhecimento-Geral\\Saude\\Saude-Mental-e-Manejo-de-Estresse.md": {
+    "hash": "0cb08b95203bf7fe54f8a291dfeb52bbe3fbb1b9"
+  },
+  "Conhecimento-Geral\\Saude\\Saude-Preventiva-e-Longevidade.md": {
+    "hash": "8ac85c2da2f26ca7b39d0b961b547ff13eadcac4"
+  },
+  "Conhecimento-Geral\\Saude\\Sono-e-Ritmo-Circadiano.md": {
+    "hash": "1ee640d7a78e8ff18813d4ec102f86db1108dc2e"
+  },
+  "Conhecimento-Geral\\Tecnologia-e-Sociedade\\INDEX.md": {
+    "hash": "1371a879ccfd4840454e2ef47b1301f0f7c43367"
+  },
+  "Conhecimento-Geral\\Tecnologia-e-Sociedade\\Operacao-de-Sistemas-e-Agentes.md": {
+    "hash": "f9c0ae86955c88b9a3dad6da2a41d6b15ed266bf"
+  },
+  "Conhecimento-Geral\\Tecnologia-e-Sociedade\\Panoptico-Digital.md": {
+    "hash": "22a1f32f21f5986f43106dea70321714a7437b2d"
+  },
+  "Conhecimento-Geral\\Tecnologia-e-Sociedade\\Risco-Operacional-Minimo.md": {
+    "hash": "0951a38a7685eae7f9fffe4a681e59cad03a411f"
+  },
+  "Conhecimento-Geral\\Tecnologia-e-Sociedade\\SHAP-LIME-COMPAS-Tutorial.md": {
+    "hash": "8890d53afe5cd172a483ddf3aec8b2f85363f268"
+  },
+  "Conhecimento-Geral\\Tecnologia-e-Sociedade\\Vicio-Digital-e-Tecnologia-na-Vida.md": {
+    "hash": "dadbfee0cb4c0139a569a09af05a5e7311467aa5"
+  },
+  "Conhecimento-Geral\\Tecnologia-e-Sociedade\\Vigilancia-Algoritmica.md": {
+    "hash": "aecdbc3d9004d2c0e50a959736ff002abe2edafd"
+  },
+  "Conhecimento-Geral\\Vida-Pratica\\Administracao.md": {
+    "hash": "3979dec4253834cf1f457945fb47f148d62489e4"
+  },
+  "Conhecimento-Geral\\Vida-Pratica\\Felicidade-e-Bem-Estar.md": {
+    "hash": "c0d7bf8318743bcf55a1ee3b15361f32133431f2"
+  },
+  "Conhecimento-Geral\\Vida-Pratica\\Gestao-de-Tempo-e-Produtividade.md": {
+    "hash": "7b96dc11a51c2cf70cb475d72ed539aab86c0f2f"
+  },
+  "Conhecimento-Geral\\Vida-Pratica\\INDEX.md": {
+    "hash": "0704962d763fee57179c4240bfde4999349f842a"
+  },
+  "Conhecimento-Geral\\Vida-Pratica\\Inteligencia-Emocional.md": {
+    "hash": "31829565e059ab842065148540cc89e356937eba"
+  },
+  "Conhecimento-Geral\\Vida-Pratica\\Morte-e-Mortalidade.md": {
+    "hash": "902a5ec0d41a48516b79c1e17f217594e0f75727"
+  },
+  "Conhecimento-Geral\\Vida-Pratica\\Negociacao.md": {
+    "hash": "e496304e27eb65a54bf58f013abd6a93b8bff761"
+  },
+  "Conhecimento-Geral\\Vida-Pratica\\Nutricao-e-Saude-Pratica.md": {
+    "hash": "6372cf4f5536a4f85bab2b07329268760e339985"
+  },
+  "Conhecimento-Geral\\Vida-Pratica\\Proposito-e-Sentido-da-Vida.md": {
+    "hash": "e04373c1e9ea433d09dbe6b8397632a6b3a7c211"
+  },
+  "Conhecimento-Geral\\Vida-Pratica\\Relacionamentos.md": {
+    "hash": "429cfec2e74b3aedab07b31953e0cb7ba407a4a4"
+  },
+  "Conhecimento-Geral\\Vida-Pratica\\Resiliencia-Psicologica.md": {
+    "hash": "c332f408ceeb6fa0422f8301fa7e6b176d7baaf9"
+  },
+  "Conhecimento-Geral\\Vida-Pratica\\Tomada-de-Decisao.md": {
+    "hash": "6287c3210a9a57cd87a2ffefd438fe74c96d4256"
+  },
+  "crossmatrix\\Mapa-Dependencias-Template.md": {
+    "hash": "3063f50bea94392b67eb2b465b69cd74c8cd1a22"
+  },
+  "dashboards\\Arquivos-Orfaos.md": {
+    "hash": "b38341f06a31b9c230c72c2d70032131ce36ac26"
+  },
+  "dashboards\\Evolution-Tracker.md": {
+    "hash": "0f2852cae356b90610644b5886fe34b28e7f0a5b"
+  },
+  "dashboards\\Gap-Analysis.md": {
+    "hash": "a2af7e2c9766ae272f04c0d0938d8171f63be7fe"
+  },
+  "dashboards\\INDEX.md": {
+    "hash": "1d3f31a418a2de40c3ba3360ff6794d42d528966"
+  },
+  "dashboards\\Knowledge-Heatmap.md": {
+    "hash": "f9794ebf0dbd9641d9a02a2e6fa1a2dad7f08db9"
+  },
+  "dashboards\\Scorecard-Consistencia.md": {
+    "hash": "431910b99850f37579bc01dfe1c2269ed344092d"
+  },
+  "dashboards\\Skill-Project-Matrix-Dinamica.md": {
+    "hash": "1c0504020f9b7cc7a964f749a03d80501b5bbfa2"
+  },
+  "dashboards\\Tag-Cloud.md": {
+    "hash": "14cb63941a004e0054a6d8cc98f388680625939f"
+  },
+  "docs\\GAP-CHECKLIST-IMPLEMENTATION.md": {
+    "hash": "1888ade18e4a04f589df342afc54ff7e79b02193"
+  },
+  "docs\\GAP-COCKPIT-IMPLEMENTATION.md": {
+    "hash": "5e7f165a2b63b46c985d4adaad9adfcfffe51814"
+  },
+  "docs\\GAP-SQUAD-IMPLEMENTATION.md": {
+    "hash": "960ef1e202e72cac40ae6f31075991dbfa43073c"
+  },
+  "docs\\GAP-SYNC-ADMIN-HISTORY-ORG-IMPLEMENTATION.md": {
+    "hash": "aa3b2e1620e5dd8a3725343f5de7101708fcd8ce"
+  },
+  "flashcards\\INDEX.md": {
+    "hash": "53109f6ed3717af03c485dc2165ceb8ee7b0390c"
+  },
+  "flashcards\\Instructions.md": {
+    "hash": "fba440274693e35f900f79dac7ba780360f62f9f"
+  },
+  "frontmatter_patches\\additional-skills.md.patch.md": {
+    "hash": "4e749f17eef12b0657c1e4e18670ecb5deda4b64"
+  },
+  "frontmatter_patches\\APIs-e-Integracoes.md.patch.md": {
+    "hash": "9df0a5b92190f3f7ede0139b14c3e84617dc8b4b"
+  },
+  "frontmatter_patches\\Calculo-e-Otimizacao.md.patch.md": {
+    "hash": "c4e717ae0c1f14dd39cc5c1a87f8344383ca4bd5"
+  },
+  "frontmatter_patches\\Capitalismo-de-Vigilancia.md.patch.md": {
+    "hash": "6b55a1e67e815ffc0f07efc27e952625351a5339"
+  },
+  "frontmatter_patches\\CHANGELOG.md.patch.md": {
+    "hash": "af1e1d25a7bbc1326ad23c680af0536c6a1b3419"
+  },
+  "frontmatter_patches\\Cultura-Sociologia.md.patch.md": {
+    "hash": "0b6d0074fe3ecf9e7cf2d34fbda04af7800c2502"
+  },
+  "frontmatter_patches\\dataset_estudo.md.patch.md": {
+    "hash": "6c9be9af6c657d51c0a92002861b71179b546d82"
+  },
+  "frontmatter_patches\\design-patterns.md.patch.md": {
+    "hash": "d2ab8d7a9b10d8c182352af7f16aba38ea173b09"
+  },
+  "frontmatter_patches\\Economia-dos-Dados.md.patch.md": {
+    "hash": "0992edb446199194bf6f168c0575b1e6f453c7a2"
+  },
+  "frontmatter_patches\\INDEX.md.patch.md": {
+    "hash": "1078af952369f72839eb238ff4313fccd044818b"
+  },
+  "frontmatter_patches\\Linguistica-e-Semiotica.md.patch.md": {
+    "hash": "96039a1555257dd34b81a9be6ab2a11467480e79"
+  },
+  "frontmatter_patches\\Master-Glossary.md.patch.md": {
+    "hash": "4e6edd6afcdb620f1044131ade4eec0c3885f55e"
+  },
+  "frontmatter_patches\\mobile-development.md.patch.md": {
+    "hash": "31fa9d66167cd8e3c7014516cb741934460ceefc"
+  },
+  "frontmatter_patches\\Neural-Indexing.md.patch.md": {
+    "hash": "7e603aa520fd3a66929ba45687b58d870ef64102"
+  },
+  "frontmatter_patches\\NLP-Fundamentos.md.patch.md": {
+    "hash": "8ec54b691cf607cd5ca7d782616c9ea8f440ca1a"
+  },
+  "frontmatter_patches\\Panoptico-Digital.md.patch.md": {
+    "hash": "b70a3f084295a0e33af506a1824c578811394f1d"
+  },
+  "frontmatter_patches\\PostgreSQL-Advanced.md.patch.md": {
+    "hash": "06bfe5692ae2b6c2db31a8ff26244a0c129d9c53"
+  },
+  "frontmatter_patches\\Probabilidade-e-Estatistica.md.patch.md": {
+    "hash": "693529056ba88149f84635437e465c3fb8c6bcb9"
+  },
+  "frontmatter_patches\\Psicologia-Cognitiva.md.patch.md": {
+    "hash": "af06320872fea3549e935c09f8730267ccc726c5"
+  },
+  "frontmatter_patches\\Responsabilidade-e-Governanca.md.patch.md": {
+    "hash": "40aca64b81a7a0907a5dbd74fb7b5dbef47ef2b7"
+  },
+  "frontmatter_patches\\Skill-Project-Matrix.md.patch.md": {
+    "hash": "9533654ee91b62305b5f255c6ec401d8dbc52c64"
+  },
+  "frontmatter_patches\\Skill-Template.md.patch.md": {
+    "hash": "d6787e61872a1a0662e60f319b2248016960b769"
+  },
+  "frontmatter_patches\\SKILL.md.patch.md": {
+    "hash": "efc7107c9c56ca3c4882a6ac4c3bb8ad41fce6f8"
+  },
+  "frontmatter_patches\\skills-categories.md.patch.md": {
+    "hash": "4e29470953c93703851a3c0e3e11eaaa498c464f"
+  },
+  "frontmatter_patches\\Skills.md.patch.md": {
+    "hash": "7555bc2ebd4b27b7d1fa815861c070cc3345e314"
+  },
+  "frontmatter_patches\\skills_gap.md.patch.md": {
+    "hash": "07239de9aba4e99c46db1eef8d6549491549865c"
+  },
+  "frontmatter_patches\\Teoria-da-Mente.md.patch.md": {
+    "hash": "06b78699ea3d82cef65e7f75559b36c245d45386"
+  },
+  "frontmatter_patches\\Vigilancia-Algoritmica.md.patch.md": {
+    "hash": "06b348bfd54841f844b7cd16f8757d9ed04d0b75"
+  },
+  "HUB-Automacao\\README.md": {
+    "hash": "61b5a112301c99eb1cd7dcd7b1ff65165493451a"
+  },
+  "HUB-Automacao\\Atomic-Notes\\Atomic-Lessons-Learned-Incident-Bot.md": {
+    "hash": "1ad608b8abd38e43ff955abf6f5e39788c64a4b4"
+  },
+  "HUB-Automacao\\Atomic-Notes\\Orquestracao-Airflow-GitHubActions-Checklist.md": {
+    "hash": "a7f921f9098012b76d25c49008f2a5269990da20"
+  },
+  "HUB-Automacao\\Checklists\\Checklist-Deploy-Monitoramento-RPA.md": {
+    "hash": "ce26c3b00018b8966e7118f55e3dbdf020225d97"
+  },
+  "HUB-Automacao\\Dicionario\\Glossario-Completo-Automacao-RPA.md": {
+    "hash": "6d367ccbc2f0c9c5543017c2bc92d77d34c454aa"
+  },
+  "HUB-Automacao\\Projetos\\Exemplo-Workflow-Saude-Automacao.md": {
+    "hash": "ae9c64cd9ede1c2bdbef62340749b474dcbae770"
+  },
+  "HUB-Automacao\\Projetos\\POC-RPA-Automacao-Contratos-Financas.md": {
+    "hash": "3364df7bf2f44224b5f570f304c8bcf61665baa1"
+  },
+  "HUB-Automacao\\Recortes\\Recorte-Caos-Engineering-Incident-Automacao.md": {
+    "hash": "55550d8471b45ffbbe9cdac5bf007aeef2a4a8ea"
+  },
+  "HUB-Automacao\\Recortes\\Recorte-Incident-SLA-Auditoria-Bots.md": {
+    "hash": "9c41c9344e0c1adab346a8c5a08be68b80d9f0db"
+  },
+  "HUB-BI\\README.md": {
+    "hash": "1ee5705176829d26cf205ce169cbab7f8b555e94"
+  },
+  "HUB-BI\\Atomic-Notes\\Benchmarks-Globais-Dashboards-DataOps.md": {
+    "hash": "081618cf58ed316bdc7dabf49085640f4f878c81"
+  },
+  "HUB-BI\\Checklists\\Checklist-Qualidade-Dados-BI.md": {
+    "hash": "1b2113ef1b91650e7a259b73eff6b4d7c4727368"
+  },
+  "HUB-BI\\Dicionario\\Glossario-Estruturado-BI-Analytics.md": {
+    "hash": "5cbb555fe816fe738803d36388aa591d25036589"
+  },
+  "HUB-BI\\Projetos\\Projeto-DataOps-IncidentBI-Integrado.md": {
+    "hash": "72df6313f12de5f9cc34dabe48f992c9a4ba9887"
+  },
+  "HUB-BI\\Recortes\\Recorte-Gigantes-BI-Case-Falha-Sucesso.md": {
+    "hash": "0a5f0845b85aee013d141ee2ef5428b0bc1c2732"
+  },
+  "HUB-BI\\Recortes\\Recorte-Templates-KPIs-Compliance-BI.md": {
+    "hash": "aab4b2b223ea6a4b96791b4c77c7f62035456f2e"
+  },
+  "HUB-Experimentacao\\README.md": {
+    "hash": "587cd220d255945b3a5a5ee6c58e6fe19cbe1386"
+  },
+  "HUB-Experimentos\\README.md": {
+    "hash": "c7b54e61b7a43d87ae98c827ed033ba72236497b"
+  },
+  "HUB-Futurologia\\README.md": {
+    "hash": "defbb66150b8f2f6556799cd1761a0268e3d7942"
+  },
+  "HUB-IA-Aplicada\\Checklist.md": {
+    "hash": "a2e9aba88154f9d0e262af9e4786a87509931897"
+  },
+  "HUB-IA-Aplicada\\Dashboard.md": {
+    "hash": "efaa7921779d31f599b67717546af96bfb00661a"
+  },
+  "HUB-IA-Aplicada\\README.md": {
+    "hash": "646a5dd5f246abb90d44813533f1f41a63edd6c3"
+  },
+  "HUB-IA-Aplicada\\Atomic-Notes\\Benchmarks-Globais-IA-Empresarial.md": {
+    "hash": "3eff2b5203322eec784b0b519de106c51ab460c1"
+  },
+  "HUB-IA-Aplicada\\Atomic-Notes\\Evolucao-Copilotos-Empresariais.md": {
+    "hash": "73fbfd054e3b0be86bd41cb74b722d679142c066"
+  },
+  "HUB-IA-Aplicada\\Atomic-Notes\\Lessons-Learned-IA-Escala-Pilotagem.md": {
+    "hash": "bfa86cc07893c2e1e7548d148abe09e54d2e378e"
+  },
+  "HUB-IA-Aplicada\\Dicionario\\Glossario-Total-IA.md": {
+    "hash": "f3990eb13e4231aa33854fba03dc850233574c1c"
+  },
+  "HUB-IA-Aplicada\\Projetos\\POC-IA-Operacoes-Financeiras.md": {
+    "hash": "e1fb4a5b077a076a87c64fb9e3e0a4380d12b516"
+  },
+  "HUB-IA-Aplicada\\Recortes\\Case-Itaú-Copiloto-Financeiro.md": {
+    "hash": "42be3ffb1b3ecc0546634b2e66c6b4d6ea9e842c"
+  },
+  "HUB-IA-Aplicada\\Recortes\\Recortes-Decretos-Regulacao-IABrasil.md": {
+    "hash": "0c78fd6b833e7c34dd768a77757d54d742240cfe"
+  },
+  "HUB-LGPD-Privacidade\\Checklist.md": {
+    "hash": "8fb0476a9985b8e113d05df7ff39cefaed535978"
+  },
+  "HUB-LGPD-Privacidade\\Dashboard.md": {
+    "hash": "c7de8d27117f1228b08011c6e021c8f988f0a518"
+  },
+  "HUB-LGPD-Privacidade\\README.md": {
+    "hash": "b39f047806fc566b565a18b7a72ccf57de3d296d"
+  },
+  "HUB-LGPD-Privacidade\\Atomic-Notes\\Auditoria-Continua-Compliance-Pratico.md": {
+    "hash": "2a1a88627dfb5c04a91cdb697a0de8dfe3190d9d"
+  },
+  "HUB-LGPD-Privacidade\\Dicionario\\Dicionario-Completo-LGPD-Compliance.md": {
+    "hash": "faa5f3398a43f08ad84c6127e143949a11033bfd"
+  },
+  "HUB-LGPD-Privacidade\\Projetos\\Script-audit_sensitives.py.md": {
+    "hash": "7f94b242c1ec86460e30748b4ab190463b61f6fd"
+  },
+  "HUB-LGPD-Privacidade\\Projetos\\Script-Notificacao-Automatica-Owners-DPO.md": {
+    "hash": "145cbaaf7fc11b83afff45991f8fe0e375978033"
+  },
+  "HUB-LGPD-Privacidade\\Projetos\\Template-Notificacao-ANPD.md": {
+    "hash": "3b69fd24bac211bf9d66180d91cff7f71cbd72b5"
+  },
+  "HUB-LGPD-Privacidade\\Projetos\\Workflow-Completo-Incident-Response.md": {
+    "hash": "6777275cb3fde02386c076a5f1c6c6738af9f278"
+  },
+  "HUB-LGPD-Privacidade\\Recortes\\Recorte-Benchmark-ISO27701-PIA.md": {
+    "hash": "fddc360577a1ae1503320755cfd37536a4adf4aa"
+  },
+  "HUB-LGPD-Privacidade\\Recortes\\Recorte-Benchmark-Regulatorio-Europeu.md": {
+    "hash": "6e4e4a4a3d319d42d7b0365b8fdb32876359083c"
+  },
+  "HUB-LGPD-Privacidade\\Recortes\\Recorte-Checklists-Templates-ANPD.md": {
+    "hash": "20219bf57207c0d7e3195ac13a61c7d08f96060a"
+  },
+  "HUB-LGPD-Privacidade\\Recortes\\Recorte-Execucao-Forense-Evidencia-Tech.md": {
+    "hash": "857100bf6be4e4d9ec0265562218504b3cc3bdc4"
+  },
+  "HUB-LGPD-Privacidade\\Recortes\\Recorte-Exemplos-Output-Auditoria.md": {
+    "hash": "04e3bdd910d288c36ac6bc567f8e188170a351c6"
+  },
+  "HUB-LGPD-Privacidade\\Recortes\\Recorte-Incidente-Real-Case1.md": {
+    "hash": "e0a00847d68d2f99aec9316dd6da0a7dd3d93341"
+  },
+  "HUB-LGPD-Privacidade\\Recortes\\Recorte-Lessons-Learned-GDPR-LGPD-Case2.md": {
+    "hash": "88785a6519a85e78d633ae32f2eb59153f07c050"
+  },
+  "HUB-LGPD-Privacidade\\Recortes\\Recorte-Modelos-Excecao-Legal.md": {
+    "hash": "f0bacd422397c8fcafce5e0c95b54f63246df64d"
+  },
+  "HUB-LGPD-Privacidade\\Recortes\\Recorte-Notificacao-Anonimizacao-Incidente.md": {
+    "hash": "66b9af38c55f77075e6b8d5bcea3de4b157913af"
+  },
+  "HUB-LGPD-Privacidade\\Recortes\\Recorte-Owners-Times-Compliance.md": {
+    "hash": "2a086ee7f4ff140ed4a1d2f05a42d1caaaeda149"
+  },
+  "HUB-LGPD-Privacidade\\Recortes\\Recorte-Processos-Punitivos-ANPD.md": {
+    "hash": "d7639381ae857af1d50fc018de436e8a2912accf"
+  },
+  "HUB-LGPD-Privacidade\\Recortes\\Recorte-Relatorio-Anual-Privacidade-LGPD.md": {
+    "hash": "9a3ce243e6ff5c7e282c73e496d67546bbc478e3"
+  },
+  "HUB-LGPD-Privacidade\\Recortes\\Recorte-Respostas-Multiplas-Jurisdicoes.md": {
+    "hash": "d73de22c146687cec2a4c1dfcf9dce3987d6a107"
+  },
+  "HUB-LGPD-Privacidade\\Recortes\\Recorte-Resumo-Dashboard-Compliance.md": {
+    "hash": "e0363f4d95187ff30f426a8639701d9dd89a31ae"
+  },
+  "HUB-LGPD-Privacidade\\Recortes\\Recorte-Roteiro-Auditoria-Seg-Forense.md": {
+    "hash": "8aec8d3687c4b7fa516c71b5952759a40a7c7667"
+  },
+  "HUB-Saude-Mental\\README.md": {
+    "hash": "f9bcd597a7e84178814976dcc2ddeabc0dafae64"
+  },
+  "HUB-SaudeMental\\README.md": {
+    "hash": "7390e96470dc1139191585bf7bf26334964c7d81"
+  },
+  "Ideias\\Backlog-Desenvolvimento.md": {
+    "hash": "c3f39a9c0e3ea6517c263c042d1b90f658fa4468"
+  },
+  "Ideias\\Evolucao-de-Ideias.md": {
+    "hash": "13d0139c41a06e6e741b489684cb114ae67a0204"
+  },
+  "Ideias\\ideia-exemplo-uso-template.md": {
+    "hash": "8106ff0241958c7ef824d7df79cb1c9e58ec0721"
+  },
+  "Ideias\\Inspiracoes-Aleatorias.md": {
+    "hash": "dc06fc0d0e938496ae59f8f10f3fd260aef5d7a6"
+  },
+  "Ideias\\Mapeador-Conexoes-Impensas.md": {
+    "hash": "c6641ba5ef90a64e8d051017c97914b6ddd48a27"
+  },
+  "Ideias\\Monitor-Networking.md": {
+    "hash": "d467191f36bb43644c2704fc4a0930434bda3632"
+  },
+  "Ideias\\Monitor-Procrastinacao.md": {
+    "hash": "b8865a8181735e110e64f32318fd168f4eed6dbd"
+  },
+  "Ideias\\Motor-What-If.md": {
+    "hash": "9c72e69f722c8045f5a9efa7f262d53793f3bba6"
+  },
+  "Ideias\\Orquestrador-Rituais.md": {
+    "hash": "e37e601dfbe130bfd461f31a0f57bff4b2f4d868"
+  },
+  "Ideias\\Painel-Health-Mental-Humor.md": {
+    "hash": "0c41194ce48e192d20bd0e376307a4ed93f30129"
+  },
+  "Ideias\\README.md": {
+    "hash": "01500241dd03ed962382c14bfce6de150549c588"
+  },
+  "Ideias\\Relatorio-Ciclos-Energia.md": {
+    "hash": "68f28620ac1e3e4894819566a2cd1c3e3a9d033b"
+  },
+  "Ideias\\Roteirizador-Revisao-Ciclica.md": {
+    "hash": "e34c09e42e6392b4df3a6be89e85892436a8532c"
+  },
+  "Ideias\\Topicos-Emergentes.md": {
+    "hash": "e6ca4daa8d533115f151a72cca0d8814d9257005"
+  },
+  "JARVIS\\Improvement_20260507_085601.md": {
+    "hash": "81f68c26ff4ba7824ba16d606eaad48794ace4ff"
+  },
+  "JARVIS\\Improvement_20260507_093541.md": {
+    "hash": "57c1ca35400e61eb333546c497acdd248f9fe8fe"
+  },
+  "JARVIS\\Improvement_20260507_094126.md": {
+    "hash": "bd2f0892d6b57ae9c6644f4c19fc86ad7853bffe"
+  },
+  "JARVIS\\Improvement_20260507_094210.md": {
+    "hash": "7db8adf86589a8f5bc256322bf0f5447308a7fbb"
+  },
+  "JARVIS\\Improvement_20260507_094454.md": {
+    "hash": "cb500f5fcc50f6f1177eeeeb38876ecc18869860"
+  },
+  "JARVIS\\Improvement_20260507_095059.md": {
+    "hash": "70fcec6f6bd3de043a595ab45e8136172d3fd3cc"
+  },
+  "JARVIS\\Improvement_20260507_095206.md": {
+    "hash": "736095a1f9e592c871cbc7094bc19ba60a8f1c6e"
+  },
+  "JARVIS\\Improvement_20260507_100855.md": {
+    "hash": "a9ea04f2021856060011bdb014877b0d04451b45"
+  },
+  "JARVIS\\Improvement_20260507_100935.md": {
+    "hash": "55ae5ed2119ae24aed58c692c0dad5ecf67259de"
+  },
+  "JARVIS\\Improvement_20260507_101131.md": {
+    "hash": "efca726485d567959c244456d8d061cb2f96dc7d"
+  },
+  "JARVIS\\Improvement_20260507_101327.md": {
+    "hash": "fd5ed62e7bd1c004b05a88f62bd5616cc16dc475"
+  },
+  "JARVIS\\Improvement_20260507_101419.md": {
+    "hash": "c1772d12a686a3ce1135d581650ad149b9b7d0b0"
+  },
+  "JARVIS\\Improvement_20260507_101535.md": {
+    "hash": "0522e5aa03c1fd4a9a44d22334be8b206a2155d0"
+  },
+  "JARVIS\\Improvement_20260507_101703.md": {
+    "hash": "a7213022f5d2737dfeaae74f2fecef90d1fde15c"
+  },
+  "JARVIS\\Improvement_20260507_101743.md": {
+    "hash": "24df7abd31aa6fb2315771dc65275005898ab268"
+  },
+  "JARVIS\\Improvement_20260507_101842.md": {
+    "hash": "34abd75e2e6d329e58783d208df7837b310c3584"
+  },
+  "JARVIS\\Improvement_20260507_101933.md": {
+    "hash": "e0f54d5ff49b3ba872af874f092bfb14538e95f4"
+  },
+  "JARVIS\\Improvement_20260507_102016.md": {
+    "hash": "4b7550ea6cb1e6531927af509eabe1d0ded67e4d"
+  },
+  "JARVIS\\Improvement_20260507_102100.md": {
+    "hash": "2c446232a9d2e38d78bcec33262870bd31850cad"
+  },
+  "JARVIS\\Improvement_20260507_102142.md": {
+    "hash": "ec833b832eccfd67ef109572239d43c2cd38a913"
+  },
+  "JARVIS\\Improvement_20260507_103115.md": {
+    "hash": "17df249721271c94803a31ef55eb0a442f29b347"
+  },
+  "JARVIS\\Improvement_20260507_103227.md": {
+    "hash": "188ea064b2994a9360533631bb41d72cc8867e7d"
+  },
+  "JARVIS\\Improvement_20260507_103305.md": {
+    "hash": "495d40c52e1a39ca3f15aa330db5c4016f80057e"
+  },
+  "JARVIS\\Improvement_20260507_103632.md": {
+    "hash": "213eaa803c261649c25168b1588733733caad28c"
+  },
+  "JARVIS\\Improvement_20260507_103718.md": {
+    "hash": "1d1f19a9423af5829bb6333f91cfae9a6742af6d"
+  },
+  "JARVIS\\Improvement_20260507_103801.md": {
+    "hash": "8bfe2b25c50abca6175c25d0303415163fc1d0e6"
+  },
+  "JARVIS\\Improvement_20260507_103904.md": {
+    "hash": "4e1d7be97c5bc301b75969bef26edc021f1e7b1e"
+  },
+  "JARVIS\\Improvement_20260507_105254.md": {
+    "hash": "3f36bf4edc9c6a6c58a427e78a5afcc45d8a5b15"
+  },
+  "JARVIS\\Improvement_20260507_105345.md": {
+    "hash": "af42377431f68489a61abbbdad5026aa0db7c340"
+  },
+  "JARVIS\\Improvement_20260507_105731.md": {
+    "hash": "7ca097dcb04d4ab5e058366af120276e7ea4c89a"
+  },
+  "JARVIS\\Improvement_20260507_110419.md": {
+    "hash": "b4051c08da80e9f7f8126248becdc1941c5c2de5"
+  },
+  "JARVIS\\Improvement_20260507_110515.md": {
+    "hash": "98df06105835ed8129dc7b35505a569e91d0d47e"
+  },
+  "JARVIS\\Improvement_20260508_100526.md": {
+    "hash": "d35a096656f22433b29d060b1ec7c45252ba2b29"
+  },
+  "JARVIS\\Improvement_20260508_101050.md": {
+    "hash": "ecc4f9f3abf7977e97ed379cbe45b2e17d15a579"
+  },
+  "JARVIS\\Improvement_20260508_101418.md": {
+    "hash": "ec335c16cf7d1653ca07b11d2e529d19f7273a82"
+  },
+  "JARVIS\\Improvement_20260508_160840.md": {
+    "hash": "836ca9080e3fb747171dd9ba1b445208af21054b"
+  },
+  "JARVIS\\Improvement_20260508_161058.md": {
+    "hash": "0e1761124e923b9092940812b7999a3babcecc16"
+  },
+  "JARVIS\\Main.md": {
+    "hash": "fd3868baa343312bdf2a6908d93b7745b1a434cc"
+  },
+  "JARVIS\\README.md": {
+    "hash": "cf63fcc98a701aa1634d587a397196e4eef5f0c9"
+  },
+  "JARVIS\\TOKEN-COMPRESSION.md": {
+    "hash": "d5ebd6a7e9a2502ce92430fd51baa2c9dc05f682"
+  },
+  "JARVIS\\00-Architecture\\Vault-Architecture-Guide.md": {
+    "hash": "bbd6126e4683b32dc92ef7f5cfbefe0c44d0ad41"
+  },
+  "JARVIS\\01-Identity\\Decision-Framework.md": {
+    "hash": "2fb15319f8235041c770b3339f9b83c9b72f8dee"
+  },
+  "JARVIS\\01-Identity\\Persona\\Personalidade.md": {
+    "hash": "72dbc53cc88d06dac62df3bf6eaa4f72c6d2fe58"
+  },
+  "JARVIS\\01-Identity\\Persona\\Regras.md": {
+    "hash": "00907e24aacc6cc7efcf1e15b8d920a07020dc57"
+  },
+  "JARVIS\\01-Identity\\Persona\\Task-Subroutines.md": {
+    "hash": "4a3805ed008f674d8c97795b3eff0b6bea686a35"
+  },
+  "JARVIS\\01-Identity\\Persona\\Visao-Geral.md": {
+    "hash": "d4f56d2363181a9e719f8554b0e49e6f9cd6ff2d"
+  },
+  "JARVIS\\01-Identity\\Will\\Engineering-Principles.md": {
+    "hash": "bf8c019aeda1a8c4155e1e974e536f44be84e5fe"
+  },
+  "JARVIS\\01-Identity\\Will\\Perfil.md": {
+    "hash": "61a9823c266caa77aa0985971479f13ddc989562"
+  },
+  "JARVIS\\01-Identity\\Will\\Preferencias.md": {
+    "hash": "fe98f98ed6a579895a87f13456e599106d51ad9d"
+  },
+  "JARVIS\\02-Operational\\Dashboard.md": {
+    "hash": "29e04e04768a5cbef0b9beaef3b8273f32a662a0"
+  },
+  "JARVIS\\02-Operational\\Project-Health-Report.md": {
+    "hash": "b3bd686974f8a961b7221d8be288bad6cd93e50c"
+  },
+  "JARVIS\\02-Operational\\Proximo-Estudo.md": {
+    "hash": "37efeaa476db970550459c033237d1c38eb89f49"
+  },
+  "JARVIS\\02-Operational\\Session-to-Memory-Protocol.md": {
+    "hash": "e77f43cbf4067bca1177b86083327ec77ff62195"
+  },
+  "JARVIS\\02-Operational\\Challenges\\Desafio-Semanal-2026-05-18.md": {
+    "hash": "c20287b8f480544a4c312f43f18223b3b6cf04df"
+  },
+  "JARVIS\\02-Operational\\Config\\CONFIG.md": {
+    "hash": "073b4aafb64a8853b35c9a14769962c1c6e99e41"
+  },
+  "JARVIS\\02-Operational\\Config\\ENV-Registry.md": {
+    "hash": "6b53b892e1c4d7a0bdc257af399fe23588d25e64"
+  },
+  "JARVIS\\02-Operational\\Config\\Integracao.md": {
+    "hash": "592809688edd6fd2333585a31679da6104a85df0"
+  },
+  "JARVIS\\02-Operational\\Context\\Estado.md": {
+    "hash": "5102a827a3ba17455d9ff90df4a118d380bd3962"
+  },
+  "JARVIS\\02-Operational\\Decisions\\2026-04-12-perfeccionamento-do-vault.md": {
+    "hash": "f1339e7696214a5390c9c73de4cee7e9570c8cc2"
+  },
+  "JARVIS\\02-Operational\\Decisions\\INDEX.md": {
+    "hash": "b80ef030ef47e0a938400fca1c5de3bc773cd908"
+  },
+  "JARVIS\\02-Operational\\Playbooks\\Agent-Confirmation-Protocol.md": {
+    "hash": "0b9e3324a01a2171c8dba28e9030ff5f1958b9e9"
+  },
+  "JARVIS\\02-Operational\\Playbooks\\Decision-Logging-Protocol.md": {
+    "hash": "24ee98daa2a13f162746dda20b02dc3fdf0868e0"
+  },
+  "JARVIS\\02-Operational\\Playbooks\\INDEX.md": {
+    "hash": "1a50bd1f8b4c0165f24224e4ecaaa2bac1d81015"
+  },
+  "JARVIS\\02-Operational\\Playbooks\\Project-Prioritization-Protocol.md": {
+    "hash": "03f724162be04cd5d708ff55493182e111f34fe9"
+  },
+  "JARVIS\\02-Operational\\Playbooks\\Session-to-Learning-Protocol.md": {
+    "hash": "3934c3a7ad9da690f9917c9c370935101c0effc6"
+  },
+  "JARVIS\\03-Memory\\Daily-Log.md": {
+    "hash": "582dceeccae34428d4609d7c24bf21069fcf97a9"
+  },
+  "JARVIS\\03-Memory\\README.md": {
+    "hash": "44fab33bda4d33080bcd3b3ed6c5106525db79cf"
+  },
+  "JARVIS\\03-Memory\\Logs\\2026-04-09.md": {
+    "hash": "64daab3c7fbe540ab9d25968e618a7163a9a4206"
+  },
+  "JARVIS\\03-Memory\\Logs\\2026-04-10.md": {
+    "hash": "7069f8749162396c28cda8f2d02d6bb2f6dcf619"
+  },
+  "JARVIS\\03-Memory\\Logs\\2026-04-12.md": {
+    "hash": "c957acf6acf53eadf5a31e6ac9defe4eb3e7c3a2"
+  },
+  "JARVIS\\03-Memory\\Snapshots\\2026-04-09-configuração-do-segundo-cérebro-do-jarvis.md": {
+    "hash": "01bcdabc33f604fa42bbc1709bae9ff210951990"
+  },
+  "JARVIS\\04-Engineering\\Arquitetura-Agente.md": {
+    "hash": "c0485e87f49130fb830889dd09f1c06d7db2242f"
+  },
+  "JARVIS\\04-Engineering\\Arquiteturas-Cooperativas-de-Agentes.md": {
+    "hash": "34b586cd524abf39c7c7418e7b5cad4b38f98af6"
+  },
+  "JARVIS\\04-Engineering\\Ecossistema-e-Protocolos-MCP.md": {
+    "hash": "15a830221efa685dff69cf87eae3dd226bcdf806"
+  },
+  "JARVIS\\04-Engineering\\MCP-Client-Examples.md": {
+    "hash": "021b6307a1b1cdf657318be07744e4f4f3836a85"
+  },
+  "JARVIS\\04-Engineering\\RAG-Avancado-Playbook.md": {
+    "hash": "8fd1251af0b32d98a576854b8be082689586d876"
+  },
+  "JARVIS\\04-Engineering\\RAG-Local-Guide.md": {
+    "hash": "ae3eda02ecc2839463116d4910b5c42b1dbfad0f"
+  },
+  "JARVIS\\04-Engineering\\Seguranca-e-Governanca-LocalFirst.md": {
+    "hash": "6988a169da11113a68736965a074d7482535e454"
+  },
+  "JARVIS\\04-Engineering\\Architecture\\Arquitetura.md": {
+    "hash": "44635f36536226415a46ea0ea795232dc34d44a7"
+  },
+  "JARVIS\\04-Engineering\\Architecture\\Brain-Integration.md": {
+    "hash": "35a96facc4ee0c5d85635b5c57e3c15de762776e"
+  },
+  "JARVIS\\04-Engineering\\Architecture\\Neural-Indexing.md": {
+    "hash": "0579946fa93bf38f6f05c0f5e4e5b4d5c9677e0e"
+  },
+  "JARVIS\\04-Engineering\\Architecture\\SegundoCerebro.md": {
+    "hash": "11ad9d7488886c63434ee665a6e7e724504931ff"
+  },
+  "JARVIS\\04-Engineering\\Codebase-Maps\\Auto-boletos-Codebase-Map.md": {
+    "hash": "61cb8075c0272a1a66c48e9e10b8fe4828d075ba"
+  },
+  "JARVIS\\04-Engineering\\Codebase-Maps\\gestor_aluguel_2.0-Codebase-Map.md": {
+    "hash": "11cc1cbbace8a9907bbda0c0997d3fa7470d6b4e"
+  },
+  "JARVIS\\04-Engineering\\Codebase-Maps\\IA-LOCAL-Codebase-Map.md": {
+    "hash": "9ccebe6dff2eed4105e1494d7c8cdfd1d589dfef"
+  },
+  "JARVIS\\04-Engineering\\Codebase-Maps\\INDEX.md": {
+    "hash": "81c98ef50efba7a5897b935ed991cf3d3c89d3e2"
+  },
+  "JARVIS\\04-Engineering\\Codebase-Maps\\PROJECT_JARVIS_5.0-Codebase-Map.md": {
+    "hash": "ec35a613c0981fb1d9bb8f866f5336f0540f8a9e"
+  },
+  "JARVIS\\04-Engineering\\Perception\\IA-LOCAL-Local-Agent.md": {
+    "hash": "692192ea44ccf054024a6345b99ebcdf7f44ee58"
+  },
+  "JARVIS\\04-Engineering\\Perception\\IA-LOCAL-Obsidian-Usage.md": {
+    "hash": "d1a4dc45d4e76158c99a07344c36190af1cfbf1e"
+  },
+  "JARVIS\\04-Engineering\\Perception\\Sistemas-Sensoriais.md": {
+    "hash": "165c3921630a683faa3094609c139d5ee224468f"
+  },
+  "JARVIS\\04-Engineering\\Playbooks\\CasosDeUso.md": {
+    "hash": "c7604a9203672becf1b1cf9087f0947f4c303855"
+  },
+  "JARVIS\\04-Engineering\\Playbooks\\Estrategia.md": {
+    "hash": "049545dbbf59ea9405b0dfa406f90513bfcf186c"
+  },
+  "JARVIS\\04-Engineering\\Playbooks\\Knowledge-Consultation.md": {
+    "hash": "63560c1e8c0b11a4340086c70256529b81085f9d"
+  },
+  "JARVIS\\04-Engineering\\Playbooks\\Workflows-Praticos.md": {
+    "hash": "39e5006ab48e8f6279d4261f058468812c94a485"
+  },
+  "JARVIS\\04-Engineering\\Playbooks\\Debug\\Docker-Not-Starting.md": {
+    "hash": "1af3d2a29bd684b55706ef4d84e38e185fb65d9e"
+  },
+  "JARVIS\\04-Engineering\\Playbooks\\Debug\\Git-Merge-Conflicts.md": {
+    "hash": "46954376565cf860ec5bfbd05914a8f722801177"
+  },
+  "JARVIS\\04-Engineering\\Playbooks\\Debug\\Ollama-GPU-Issues.md": {
+    "hash": "dc2a1b9ef63e6660075ad2d81e7d927f5dca9f2f"
+  },
+  "JARVIS\\04-Engineering\\Playbooks\\Debug\\Port-Already-In-Use.md": {
+    "hash": "9d9dda38f52a79b764a1445e6278c923162e1daa"
+  },
+  "JARVIS\\04-Engineering\\Playbooks\\Debug\\Python-Dependency-Hell.md": {
+    "hash": "16cdd43164ed7cae5c7a87778ab3e36b62a26baf"
+  },
+  "JARVIS\\04-Engineering\\Snippets\\README.md": {
+    "hash": "35e68d0db3ff26c7b1be13acd12d4a1863cbb1e5"
+  },
+  "JARVIS\\04-Engineering\\Wiki\\Conhecimento.md": {
+    "hash": "cfde03bea473fc76af85ab30ecbc995c700be5a6"
+  },
+  "JARVIS\\04-Engineering\\Wiki\\Ferramentas.md": {
+    "hash": "cd9644ffd0392311a71e88cb483f65d1f72ed773"
+  },
+  "JARVIS\\04-Engineering\\Wiki\\CheatSheets\\Docker.md": {
+    "hash": "e5b7d5adaaba73af43fbcd0807db160e3a12b7d5"
+  },
+  "JARVIS\\04-Engineering\\Wiki\\CheatSheets\\FastAPI.md": {
+    "hash": "64f9573a4d0dd22649c6472c09e5a588dbc36001"
+  },
+  "JARVIS\\04-Engineering\\Wiki\\CheatSheets\\Git-e-GitHub.md": {
+    "hash": "0a9e780620f77a938b482d42962a098d06255a55"
+  },
+  "JARVIS\\04-Engineering\\Wiki\\CheatSheets\\Linux-e-WSL.md": {
+    "hash": "d75a4cf3efe3e8420a986406d675ed8a948ae407"
+  },
+  "JARVIS\\04-Engineering\\Wiki\\CheatSheets\\Next.js.md": {
+    "hash": "57b52d59d479b28032327621842257c6f1fdf1c3"
+  },
+  "JARVIS\\04-Engineering\\Wiki\\CheatSheets\\Prisma.md": {
+    "hash": "0df6112ccc2a91149895541b539e3fae0bb84ee0"
+  },
+  "JARVIS\\04-Engineering\\Wiki\\CheatSheets\\Python.md": {
+    "hash": "da8d5125dce62ff23c243932d198742ea7851021"
+  },
+  "JARVIS\\04-Engineering\\Wiki\\CheatSheets\\TypeScript.md": {
+    "hash": "f28cd589a6024923e950c267d9cfa65280c8f26e"
+  },
+  "JARVIS\\05-System\\AGENT-CONTRACT.md": {
+    "hash": "d70a8efb4faa2c3f28c732465ee83f68fa07858e"
+  },
+  "JARVIS\\05-System\\Comandos-JARVIS.md": {
+    "hash": "6440f1271f87d4bb9b8ccf598649e0e8f3457b32"
+  },
+  "JARVIS\\05-System\\ONBOARDING-AGENTE.md": {
+    "hash": "70c4bfb7cba58a01aa2e2fa5d4a42df34a41977a"
+  },
+  "JARVIS\\05-System\\RELATORIO-FINAL.md": {
+    "hash": "3a84722f47b303ee5b31137ca2f52eb046254419"
+  },
+  "JARVIS\\05-System\\State-Machine.md": {
+    "hash": "c4bf28b3177520b11652a344b3517e80884cf58e"
+  },
+  "JARVIS\\05-System\\Vault-Health-Dashboard.md": {
+    "hash": "e52f3ec883dcb73bb425f171dad979488c067584"
+  },
+  "JARVIS\\05-System\\Blueprints\\INDEX.md": {
+    "hash": "3f8fc9de97210ff90803f7f7d99f5485cbde704d"
+  },
+  "JARVIS\\05-System\\Blueprints\\Template-Diario.md": {
+    "hash": "ca3ba4abb6c8400de8dd086cf479a84f11fe3d80"
+  },
+  "JARVIS\\05-System\\Blueprints\\Template-Memoria-Episodica.md": {
+    "hash": "8243c2eb5fad0de388eea8f32de219a5caafe37f"
+  },
+  "JARVIS\\05-System\\Blueprints\\Template-Perfil-Will.md": {
+    "hash": "3c7d74c4ef3a8bed9a7ad1e24005b863ba1ab21c"
+  },
+  "JARVIS\\05-System\\Decisoes\\2026-04-23-vault-merge.md": {
+    "hash": "b9e81ed3dcf4aeabe70926fa088a740805b164b1"
+  },
+  "JARVIS\\05-System\\Evolution\\INDEX.md": {
+    "hash": "4f324b272ba2d7fc717f5a5b7b4fefb05a7f4d2b"
+  },
+  "JARVIS\\05-System\\Evolution\\Tecnico.md": {
+    "hash": "b60d115a76803a2f328c60a5e03da5085f4801bb"
+  },
+  "JARVIS\\05-System\\Guides\\Automatic-Improvement-Review.md": {
+    "hash": "8b5e641ec1a4c4492bafc0960f994ef96aedf465"
+  },
+  "JARVIS\\05-System\\Guides\\INDEX.md": {
+    "hash": "171fa00b41244aae5c9437bf41fca9646a557335"
+  },
+  "JARVIS\\05-System\\Improvements\\INDEX.md": {
+    "hash": "433e00e813d19c12b1ac8fa344e5fb0266d54b1f"
+  },
+  "JARVIS\\05-System\\Maps\\INDEX.md": {
+    "hash": "97a9f29ba53b761e244e369bffb7daf0d65860c6"
+  },
+  "JARVIS\\05-System\\Maps\\Mapa.md": {
+    "hash": "e40240f01f9150091d1a6d607175f9d00f517abb"
+  },
+  "JARVIS\\Aprendizado\\dataset_estudo.md": {
+    "hash": "5c6963bc2d9e49ac8419cf4f9cbb501647959684"
+  },
+  "JARVIS\\Aprendizado\\Erros-e-Licoes.md": {
+    "hash": "0441f7ee65d5bcc59eb032d37f6482b198cda73c"
+  },
+  "JARVIS\\Aprendizado\\INDEX.md": {
+    "hash": "b93c6245a1ae1d6bf29d43c22c80d45486e3c776"
+  },
+  "JARVIS\\Aprendizado\\Padroes.md": {
+    "hash": "ed91245bb3a78db142b73517fcaac7fd62eb85e3"
+  },
+  "JARVIS\\Aprendizado\\Pessoal-Will.md": {
+    "hash": "f8cad59f76c4658f8283f01c70b1186c0cd565ba"
+  },
+  "JARVIS\\Aprendizado\\Tecnico.md": {
+    "hash": "6e7b5b8c91feafe6974f5d013588cd4c29b2ef55"
+  },
+  "JARVIS\\Contexto-Atual\\Estado.md": {
+    "hash": "88801951bf749d4ec4d8f969c7abdb970ff89378"
+  },
+  "JARVIS\\Decisoes\\INDEX.md": {
+    "hash": "0d5d399db9e32f54ec903e533e9a864136ced700"
+  },
+  "JARVIS\\KnowledgeBase\\Arquitetura.md": {
+    "hash": "bfb2c233bfcf08f31e29b9fea151832158ef8df6"
+  },
+  "JARVIS\\KnowledgeBase\\CasosDeUso.md": {
+    "hash": "fce4c32398f173f154de0c6f52571e6f88ce456d"
+  },
+  "JARVIS\\KnowledgeBase\\Conhecimento.md": {
+    "hash": "90703554337297195a0cf186b12eaa66165853d2"
+  },
+  "JARVIS\\KnowledgeBase\\Estrategia.md": {
+    "hash": "04dc6ddf4953743b26e415fbf86db9b3b8240e67"
+  },
+  "JARVIS\\KnowledgeBase\\Ferramentas.md": {
+    "hash": "de4e85cb7c917def372391d38f6bfbf048b86af4"
+  },
+  "JARVIS\\KnowledgeBase\\INDEX.md": {
+    "hash": "06e679b004f514931c379f4d3961152073378c8f"
+  },
+  "JARVIS\\KnowledgeBase\\Integracao.md": {
+    "hash": "c047c46ab815d7f139b0302a46f0884613f1e87c"
+  },
+  "JARVIS\\KnowledgeBase\\Mapa.md": {
+    "hash": "00a437f8636f0c7faf21d4b23af138efe03e1eae"
+  },
+  "JARVIS\\KnowledgeBase\\Personalidade.md": {
+    "hash": "304cc30212f5a5648a09fde1bb5c9070a42abe92"
+  },
+  "JARVIS\\KnowledgeBase\\Regras.md": {
+    "hash": "048f3a09d9fde6422047d589c9cfffee32256e0c"
+  },
+  "JARVIS\\KnowledgeBase\\SegundoCerebro.md": {
+    "hash": "83b1fde0b9d3dbeffcc6d75b0ef25794acc18caf"
+  },
+  "JARVIS\\KnowledgeBase\\Visao-Geral.md": {
+    "hash": "762cd688414ca28ed82e81bc965efe828a44cb76"
+  },
+  "JARVIS\\Memorias\\fatos_rapidos.md": {
+    "hash": "da10ee04624341a75b24a625d222848a44f6bf9e"
+  },
+  "JARVIS\\Memorias\\Diario\\2026-04-09.md": {
+    "hash": "e2cb3ae05d3c5caa703a1260764d5c855cc604aa"
+  },
+  "JARVIS\\Memorias\\Diario\\2026-04-10.md": {
+    "hash": "87baef15bb68ffb00f4cfc4c9fc0a1d4f50bdbaa"
+  },
+  "JARVIS\\Memorias\\Diario\\2026-04-13.md": {
+    "hash": "3c2388a92af7ef6f4d821919b2e271c3b63c5776"
+  },
+  "JARVIS\\Memorias\\Diario\\2026-04-17.md": {
+    "hash": "3c1a8046171be2269ee71bc7f09142100614f560"
+  },
+  "JARVIS\\Memorias\\Diario\\2026-04-25.md": {
+    "hash": "cc056f137d4e43d99c38a521b59bdf594a4d2a33"
+  },
+  "JARVIS\\Memorias\\Diario\\2026-04-27.md": {
+    "hash": "eaa47b84ff2b9b70eef55513aeb0a77e02c4e107"
+  },
+  "JARVIS\\Memorias\\Episodicas\\2026-04-09-configuração-do-segundo-cérebro-do-jarvis.md": {
+    "hash": "0e939e2d64725a91c9289f1a6c81e3a48ce9e707"
+  },
+  "JARVIS\\Sobre-Will\\Objetivos.md": {
+    "hash": "5966a713792e7c350f412699244a076e85d2344f"
+  },
+  "JARVIS\\Sobre-Will\\Perfil.md": {
+    "hash": "636a7cdcfb485b91b16517941966614ee178132a"
+  },
+  "JARVIS\\Sobre-Will\\Preferencias.md": {
+    "hash": "19737776ef38c4195f7a751472e19a67548b713a"
+  },
+  "JARVIS\\Sobre-Will\\Projetos-Ativos.md": {
+    "hash": "747c7bb7e89ac28856a7560d8faa6c408dd21d2c"
+  },
+  "JARVIS\\Sobre-Will\\Rotina.md": {
+    "hash": "4aa255ead5fb00ae03e2cb8c7cba0d5a3a8cb178"
+  },
+  "JARVIS\\Templates\\INDEX.md": {
+    "hash": "8fca1228f921e1583797c27a69591c667d20a28c"
+  },
+  "JARVIS\\Templates\\Template-Aprendizado.md": {
+    "hash": "98a98da2685fb6d7d98915127973b77f7d128186"
+  },
+  "JARVIS\\Templates\\Template-Decisao.md": {
+    "hash": "82782001150a1ec0d3704096e7bd54e8c7b4308e"
+  },
+  "JARVIS\\Templates\\Template-Diario.md": {
+    "hash": "2cc1e0408bdcee6422f2bd41fb6d4b09e28dc96c"
+  },
+  "JARVIS\\Templates\\Template-Memoria-Episodica.md": {
+    "hash": "db0dc9b1ab48d6385d873e1f88ef0a38b23324e6"
+  },
+  "JARVIS\\Templates\\Template-Perfil-Will.md": {
+    "hash": "becdc99248bc3e17ab5eb3b27b0c7d5d313c8d14"
+  },
+  "JARVIS\\Templates\\Template-Projeto.md": {
+    "hash": "e37d92c8cca1e8248149b64a5e191d5d7a65310e"
+  },
+  "Knowledge-Base\\AUTOMACAO.md": {
+    "hash": "25a5d6fd74a9b9a784cb73d12224ec8bd7431509"
+  },
+  "Knowledge-Base\\BI-ANALYTICS.md": {
+    "hash": "c7e2eb3c494b8a6041c75cdac5eccb75a465c8e0"
+  },
+  "Knowledge-Base\\EXPERIMENTACAO.md": {
+    "hash": "c976a0e140947df7652e78e66adbeb74fc379950"
+  },
+  "Knowledge-Base\\FUTUROLOGIA.md": {
+    "hash": "2081d720c4f4430fc9346e43c3503059d85d990e"
+  },
+  "Knowledge-Base\\IA-APLICADA.md": {
+    "hash": "38e98ffee7baa16a7c87f5dec0ec45984bcea915"
+  },
+  "Knowledge-Base\\LGPD-PRIVACIDADE.md": {
+    "hash": "2b22d199c09f7eeac72100a0e563ca87ea8585be"
+  },
+  "Knowledge-Base\\README.md": {
+    "hash": "fce96e826347ce79c7fd9eb96e5d7065dcb1480b"
+  },
+  "Knowledge-Base\\SAUDE-MENTAL.md": {
+    "hash": "f989b4ffbd53feeda649c614b07f9b7afa50e96d"
+  },
+  "Knowledge-Base\\TOKEN-ECONOMY.md": {
+    "hash": "7c5ad11b42c979342a3ee6d37edb238349391165"
+  },
+  "Knowledge-Base\\TOKEN-SHORTHAND.md": {
+    "hash": "906cdf9ee6a48ef9b2c17b77a52e89cec48af7bd"
+  },
+  "Projetos\\GitHub-Completo.md": {
+    "hash": "3f9adf17b9e5afca735de1e248862c0c312e52ef"
+  },
+  "Projetos\\Organizacao-Completa.md": {
+    "hash": "df1fdec1fe568dd449ea125f27671b13eac99f42"
+  },
+  "Projetos\\Plano-de-Acao.md": {
+    "hash": "2ec5a98757a6891cf17bbea4a7e4d99bb210d0c8"
+  },
+  "Projetos\\README.md": {
+    "hash": "75a7a6a579bcf93eb2abe6fee533be4316e58311"
+  },
+  "Projetos\\01-Ativos\\Plano-de-Acao.md": {
+    "hash": "79cd1c334c857f1c6ccac01f65cd93dd540b514a"
+  },
+  "Projetos\\01-Ativos\\Objetivos\\90-dias.md": {
+    "hash": "60d16c470e5589529503d5eecbdbe2c54e041ddb"
+  },
+  "Projetos\\01-Ativos\\Objetivos\\OKRs.md": {
+    "hash": "b664db9bf86e2ae47d71aaaa4eb9776bb24bf476"
+  },
+  "Projetos\\01-Ativos\\Objetivos\\README.md": {
+    "hash": "cf1c3df30e3c11f7d033a15383c27759062d58da"
+  },
+  "Projetos\\01-Ativos\\Objetivos\\LEGACY\\90-dias-old.md": {
+    "hash": "27a8d4762565a37d27acf50f6dc1dea015cef543"
+  },
+  "Projetos\\01-Ativos\\Objetivos\\LEGACY\\OKRs-old.md": {
+    "hash": "cd44e3b8b7b6711efd5c306c4ffefeab00ae5085"
+  },
+  "Projetos\\01-Ativos\\Objetivos\\LEGACY\\README-LEGACY.md": {
+    "hash": "67127213c8ac3b9fbf4142f5f6efef60fd128edd"
+  },
+  "Projetos\\01-Ativos\\Objetivos\\LEGACY\\README-old.md": {
+    "hash": "e52296259ef0c3896b03a36ab33488f6f6ea0905"
+  },
+  "Projetos\\01-Ativos\\Privados\\Auto-boletos.md": {
+    "hash": "aafe275604d38331f7ee0fc13bc4070833bdcc95"
+  },
+  "Projetos\\01-Ativos\\Privados\\DEEP-LEARNING.md": {
+    "hash": "58ca61b539772db0a530f41c555c87df3d3cc2b9"
+  },
+  "Projetos\\01-Ativos\\Privados\\DIA-DAS-MULHERES.md": {
+    "hash": "ab3af1f9d0573dc142fe58666855f92e7fd2ec7c"
+  },
+  "Projetos\\01-Ativos\\Privados\\Gerenciador_Financeiro-7.0.md": {
+    "hash": "051e381db24ec6f2a4df22fc67d7764a439c9034"
+  },
+  "Projetos\\01-Ativos\\Privados\\gestor_aluguel_2.0-beta-tester-guide.md": {
+    "hash": "b088a7ef9f788143de0e03f7d88c2b238b13a75c"
+  },
+  "Projetos\\01-Ativos\\Privados\\gestor_aluguel_2.0-documentation-gaps.md": {
+    "hash": "8cac6d86b3ab07a75905f24478e62cf979c96bc1"
+  },
+  "Projetos\\01-Ativos\\Privados\\gestor_aluguel_2.0-render-waha-n8n.md": {
+    "hash": "c19d75249aa4b511e981a35b1604b8e1572bbd2d"
+  },
+  "Projetos\\01-Ativos\\Privados\\gestor_aluguel_2.0-tcc-analise-evolucao.md": {
+    "hash": "95b8e669fee0faca7cc527e81c88478c5e2f5f07"
+  },
+  "Projetos\\01-Ativos\\Privados\\gestor_aluguel_2.0-whatsapp-render-decisions.md": {
+    "hash": "5e310e10eba3f611c62ef8c9ac135146be75b218"
+  },
+  "Projetos\\01-Ativos\\Privados\\gestor_aluguel_2.0.md": {
+    "hash": "2bd3ed0d70a7d4c6b2a3cf59249a241474b797f2"
+  },
+  "Projetos\\01-Ativos\\Privados\\IA-LOCAL.md": {
+    "hash": "c4a47c99e9bea28bdc2bda7273bfda0951bc7958"
+  },
+  "Projetos\\01-Ativos\\Privados\\openclaude-wk.md": {
+    "hash": "3f37a48ea1c5c9aed92404f27a169cf34c67f83a"
+  },
+  "Projetos\\01-Ativos\\Privados\\PROJECT_JARVIS_5.0-Architecture.md": {
+    "hash": "d00230876fc21a16b3d398e45f0f34249774fc36"
+  },
+  "Projetos\\01-Ativos\\Privados\\PROJECT_JARVIS_5.0-Knowledge.md": {
+    "hash": "f39277ad77ad98a6493aba0fef200917b78af2b5"
+  },
+  "Projetos\\01-Ativos\\Privados\\PROJECT_JARVIS_5.0-Personality.md": {
+    "hash": "feca930ed7fd662fdedde1a8196c30c7144796ce"
+  },
+  "Projetos\\01-Ativos\\Privados\\PROJECT_JARVIS_5.0.md": {
+    "hash": "dcef45d4e0ee113e4c2e271f14e786ffc6587be4"
+  },
+  "Projetos\\01-Ativos\\Privados\\README.md": {
+    "hash": "ec4f6f4fe853dc841955b949d8a3d16fcc348337"
+  },
+  "Projetos\\01-Ativos\\Privados\\DEMANDAS\\DEMANDAS_ORGANIZADAS.md": {
+    "hash": "6a152441364d4eb86833363c2be5a04d9714252a"
+  },
+  "Projetos\\01-Ativos\\Privados\\DEMANDAS\\DEMANDAS_ORGANIZADAS_2.0.md": {
+    "hash": "6051dee251c664462fd48fa9a00e6afa4f326651"
+  },
+  "Projetos\\01-Ativos\\Privados\\DEMANDAS\\INDEX.md": {
+    "hash": "48ef3b754ec1544a175591a40bce112429ffa8c9"
+  },
+  "Projetos\\01-Ativos\\Privados\\DEMANDAS\\INTERMEDIADOR-DE-DEMANDAS-DA-WEBFLASH.md": {
+    "hash": "6d776955dccb56d7a57b6ce57addd539014a5531"
+  },
+  "Projetos\\01-Ativos\\Privados\\DEMANDAS\\README.md": {
+    "hash": "8370070e028bdfcedc3fb2d4a1dbc3ba7515032b"
+  },
+  "Projetos\\01-Ativos\\Privados\\LEGACY\\Auto-boletos-old.md": {
+    "hash": "62a02b9761a3a44d7e6e848b07b33cbb1aafaba5"
+  },
+  "Projetos\\01-Ativos\\Privados\\LEGACY\\DEEP-LEARNING-old.md": {
+    "hash": "9326b08853b981e6e2b4fcd291ee99f084700d7f"
+  },
+  "Projetos\\01-Ativos\\Privados\\LEGACY\\DIA-DAS-MULHERES-old.md": {
+    "hash": "1b4015e1613be8dcf14e2eb269ed80f240b76313"
+  },
+  "Projetos\\01-Ativos\\Privados\\LEGACY\\gestor_aluguel_2.0-old.md": {
+    "hash": "cc58135d7613065442364595164fbf1e0dce0130"
+  },
+  "Projetos\\01-Ativos\\Privados\\LEGACY\\IA-LOCAL-old.md": {
+    "hash": "70b3dfedacb4060f689ba875a8d85754af83ff78"
+  },
+  "Projetos\\01-Ativos\\Privados\\LEGACY\\openclaude-wk-old.md": {
+    "hash": "48d9a7f3fe4f1d2d2f00dfa8953d55c75846a98f"
+  },
+  "Projetos\\01-Ativos\\Privados\\LEGACY\\PROJECT_JARVIS_5.0-Architecture-old.md": {
+    "hash": "72a00947f7652fd58e53118d05f057a1cbe9523e"
+  },
+  "Projetos\\01-Ativos\\Privados\\LEGACY\\PROJECT_JARVIS_5.0-Knowledge-old.md": {
+    "hash": "448446771a9eda68a084dd2a086aa50dd7ac3c2a"
+  },
+  "Projetos\\01-Ativos\\Privados\\LEGACY\\PROJECT_JARVIS_5.0-old.md": {
+    "hash": "8ae08341dbab115e1a9235396d29a448e4dae0e5"
+  },
+  "Projetos\\01-Ativos\\Privados\\LEGACY\\PROJECT_JARVIS_5.0-Personality-old.md": {
+    "hash": "be1ec50813f0b5312b9ab9da9709539facc6b635"
+  },
+  "Projetos\\01-Ativos\\Privados\\LEGACY\\README-LEGACY.md": {
+    "hash": "67127213c8ac3b9fbf4142f5f6efef60fd128edd"
+  },
+  "Projetos\\01-Ativos\\Privados\\LEGACY\\README-old.md": {
+    "hash": "98fac416ca70bb8ea8cfa9d33cd70e2d9a471307"
+  },
+  "Projetos\\01-Ativos\\Python\\Automatizador.md": {
+    "hash": "78fd2701f8ad1f1274e4967e78f3c563adaa18c9"
+  },
+  "Projetos\\01-Ativos\\Python\\TRADUTOR-WKP.md": {
+    "hash": "42c5261f40bdb7d089856b65d0817a2c9af815e3"
+  },
+  "Projetos\\02-Arquivo\\Java\\Atividade-01.md": {
+    "hash": "b0420b53b1b41d624519aa56694db896662f4b25"
+  },
+  "Projetos\\02-Arquivo\\Java\\Atividade-03.md": {
+    "hash": "c44901633c4a5cc11f913aad982cdb5e4489f5c4"
+  },
+  "Projetos\\02-Arquivo\\Java\\LEGACY\\Atividade-01-old.md": {
+    "hash": "03faf692cb92b6d0387f102101fe41f4ce23eb38"
+  },
+  "Projetos\\02-Arquivo\\Java\\LEGACY\\Atividade-03-old.md": {
+    "hash": "c4c07c41cc9a796e367ef9582c8cd6369241d024"
+  },
+  "Projetos\\02-Arquivo\\Java\\LEGACY\\README-LEGACY.md": {
+    "hash": "67127213c8ac3b9fbf4142f5f6efef60fd128edd"
+  },
+  "Projetos\\02-Arquivo\\Outros\\Auto-boletos.md": {
+    "hash": "d39ba4cd3d53b51b47aa10b2280cf512bc35f836"
+  },
+  "Projetos\\02-Arquivo\\Outros\\DIA-DAS-MULHERES.md": {
+    "hash": "27d2e74bc9d7a2871f6f0e2fd93f4c2453d2919a"
+  },
+  "Projetos\\02-Arquivo\\Outros\\Gestor Aluguel 2.0.md": {
+    "hash": "53330b2c8625377d329ad9ffc673582b74b07891"
+  },
+  "Projetos\\02-Arquivo\\Outros\\LEGACY\\DIA-DAS-MULHERES-old.md": {
+    "hash": "0b8ebf604490ce8a110d665bcb11be60a97a863a"
+  },
+  "Projetos\\02-Arquivo\\Outros\\LEGACY\\README-LEGACY.md": {
+    "hash": "67127213c8ac3b9fbf4142f5f6efef60fd128edd"
+  },
+  "Projetos\\02-Arquivo\\PHP\\CRUD_BASICO-2.0.md": {
+    "hash": "59ac0c7600b2961886df72a960ab523957be42f1"
+  },
+  "Projetos\\02-Arquivo\\PHP\\CRUD_BASICO-3.0.md": {
+    "hash": "3c8b53fc051d2443be45fa283b58f7eab2608a34"
+  },
+  "Projetos\\02-Arquivo\\PHP\\crud_basico.md": {
+    "hash": "badd72e23058f98afe208714857703e4feb44fe1"
+  },
+  "Projetos\\02-Arquivo\\PHP\\CRUD_BASICO4.0.md": {
+    "hash": "ebf33042608f54e13a79a60fb35782c7a2964cf1"
+  },
+  "Projetos\\02-Arquivo\\PHP\\CRUD_VENDAS_WILL.md": {
+    "hash": "e1b34e0f5116a68f1c36d1764c6987c0085a1fc3"
+  },
+  "Projetos\\03-Estudos\\EstudosFocados\\Auto-boletos.md": {
+    "hash": "ef7fc3f5f667821acd40e73590c6cdf2b0e662f8"
+  },
+  "Projetos\\03-Estudos\\EstudosFocados\\DEEP-LEARNING.md": {
+    "hash": "d7201dcfadb7b01e5e76f9501bc3782513666084"
+  },
+  "Projetos\\03-Estudos\\EstudosFocados\\gestor_aluguel_2.0-beta-tester-guide.md": {
+    "hash": "946b088434785c11ca7e94d0476981e7ee262c8e"
+  },
+  "Projetos\\03-Estudos\\EstudosFocados\\gestor_aluguel_2.0-documentation-gaps.md": {
+    "hash": "eccb3d56311098d504300b882e3c388a9a1f0510"
+  },
+  "Projetos\\03-Estudos\\EstudosFocados\\gestor_aluguel_2.0-render-waha-n8n.md": {
+    "hash": "c19d75249aa4b511e981a35b1604b8e1572bbd2d"
+  },
+  "Projetos\\03-Estudos\\EstudosFocados\\gestor_aluguel_2.0-whatsapp-render-decisions.md": {
+    "hash": "5e310e10eba3f611c62ef8c9ac135146be75b218"
+  },
+  "Projetos\\03-Estudos\\EstudosFocados\\gestor_aluguel_2.0.md": {
+    "hash": "859b44d308bc460f24a2de31d8a81603deb005fd"
+  },
+  "Projetos\\03-Estudos\\EstudosFocados\\IA-LOCAL.md": {
+    "hash": "fdd2e99a7e1816cf078919ffde00614f8211d91d"
+  },
+  "Projetos\\03-Estudos\\EstudosFocados\\PROJECT_JARVIS_5.0.md": {
+    "hash": "f88f87bafb3373c2ea06e8d2ad6a4973fe6268e2"
+  },
+  "Projetos\\03-Estudos\\EstudosFocados\\README.md": {
+    "hash": "581b9ea52ffaaa0858013237186877b580e12fde"
+  },
+  "Projetos\\03-Estudos\\EstudosFocados\\LEGACY\\Auto-boletos-old.md": {
+    "hash": "83c5f36086212fafb79de0ce065574421f7efd4c"
+  },
+  "Projetos\\03-Estudos\\EstudosFocados\\LEGACY\\DEEP-LEARNING-old.md": {
+    "hash": "68cde52b362806fb5d8db9642a54f25d07659cf1"
+  },
+  "Projetos\\03-Estudos\\EstudosFocados\\LEGACY\\gestor_aluguel_2.0-old.md": {
+    "hash": "901bff8746d8c84e689c902e2c88d838d761cdb3"
+  },
+  "Projetos\\03-Estudos\\EstudosFocados\\LEGACY\\IA-LOCAL-old.md": {
+    "hash": "f15213a5d3793320fd6145662146529f1e5eed35"
+  },
+  "Projetos\\03-Estudos\\EstudosFocados\\LEGACY\\PROJECT_JARVIS_5.0-old.md": {
+    "hash": "96748f9b666df0db68d8e1bb5780a1531d0da233"
+  },
+  "Projetos\\03-Estudos\\EstudosFocados\\LEGACY\\README-LEGACY.md": {
+    "hash": "67127213c8ac3b9fbf4142f5f6efef60fd128edd"
+  },
+  "Projetos\\03-Estudos\\EstudosFocados\\LEGACY\\README-old.md": {
+    "hash": "630e8eee2c0d4d44495a0db722fad6d617f5720b"
+  },
+  "Projetos\\03-Estudos\\EstudosFocados\\Workspace-Study\\Benchmark-IA-Local.md": {
+    "hash": "61906834c863e6522a4bae70ac397aa6ce5ca26e"
+  },
+  "Projetos\\03-Estudos\\EstudosFocados\\Workspace-Study\\Brain-Health-Dashboard.md": {
+    "hash": "35e26b29744b72b01bea7cec5651bd50dec4a6db"
+  },
+  "Projetos\\03-Estudos\\EstudosFocados\\Workspace-Study\\DevOps-and-Infrastructure.md": {
+    "hash": "c23d5709a5de0cbdf50a991e191bf3e26ef8811a"
+  },
+  "Projetos\\03-Estudos\\EstudosFocados\\Workspace-Study\\IA-Local-Research.md": {
+    "hash": "1699920c6edc1df3e931b68aba0d50a5f9c15502"
+  },
+  "Projetos\\03-Estudos\\EstudosFocados\\Workspace-Study\\MCP-and-Agents-Research.md": {
+    "hash": "861b0c800b14d333e349fee937b08f6a3c055a5b"
+  },
+  "Projetos\\03-Estudos\\EstudosFocados\\Workspace-Study\\MCP-and-OpenClaude-Workflow.md": {
+    "hash": "db1f6c617af265bebaf5b5adb38ddc3ca5a04084"
+  },
+  "Projetos\\03-Estudos\\EstudosFocados\\Workspace-Study\\Practical-Example-Maximum-Files.md": {
+    "hash": "514c9a0d44f973314591e3294c423f73a8f0992a"
+  },
+  "Projetos\\03-Estudos\\EstudosFocados\\Workspace-Study\\README.md": {
+    "hash": "85feb987e6a3b258eb24659c9642f8ac7d868782"
+  },
+  "Projetos\\03-Estudos\\EstudosFocados\\Workspace-Study\\VSCode-and-Workflow.md": {
+    "hash": "05a202f306619291ebd92b1048d0d166e41108fe"
+  },
+  "Projetos\\03-Estudos\\EstudosFocados\\Workspace-Study\\Workspace-Analysis-2026-04-17.md": {
+    "hash": "f045b041fb8db598b70f2de10cfafccb61acde03"
+  },
+  "Projetos\\03-Estudos\\EstudosFocados\\Workspace-Study\\Workspace-Structure-Map.md": {
+    "hash": "d1ec1a3013bf1ba7b278abe1705c0c4cce0e1c35"
+  },
+  "Projetos\\03-Estudos\\EstudosPesquisas\\AI-Local-Gratuita.md": {
+    "hash": "ca7c0cb184b8dffd6f3c1d76958dc0b1f96bb2e8"
+  },
+  "Projetos\\03-Estudos\\EstudosPesquisas\\Auto-boletos.md": {
+    "hash": "383162b6b2b529525335c87da5577f7645f8a66b"
+  },
+  "Projetos\\03-Estudos\\EstudosPesquisas\\Docker-Prod-Gratis.md": {
+    "hash": "7839aca2254ab42ff55c85e9db52446bece4bda8"
+  },
+  "Projetos\\03-Estudos\\EstudosPesquisas\\gestor_aluguel_2.0.md": {
+    "hash": "0e9f4f95c17c3a036051a01dcd29d3a546eb9956"
+  },
+  "Projetos\\03-Estudos\\EstudosPesquisas\\IA-LOCAL.md": {
+    "hash": "062013a83037495e725e4726ebdc05148086aa4a"
+  },
+  "Projetos\\03-Estudos\\EstudosPesquisas\\Next.js-SaaS-Evolution.md": {
+    "hash": "86071f6beedcc9f8ee6dca1ffcf2000655e0f342"
+  },
+  "Projetos\\03-Estudos\\EstudosPesquisas\\openclaude-wk.md": {
+    "hash": "478ecc8aa1feff4f8d32a4612bb44befad7b3565"
+  },
+  "Projetos\\03-Estudos\\EstudosPesquisas\\PROJECT_JARVIS_5.0.md": {
+    "hash": "6e0f7391663446cb2b8224c4a6492743a13b0184"
+  },
+  "Projetos\\03-Estudos\\EstudosPesquisas\\README.md": {
+    "hash": "6f4002ba6704729676da5dfcde38c3200e1cc2ea"
+  },
+  "Projetos\\03-Estudos\\EstudosPesquisas\\LEGACY\\AI-Local-Gratuita-old.md": {
+    "hash": "a70ae123e058653e55b3ff14a152b3f6d9ab9591"
+  },
+  "Projetos\\03-Estudos\\EstudosPesquisas\\LEGACY\\Auto-boletos-old.md": {
+    "hash": "4e836059eb0b8d89d5c39eda2c040e9e54e7d1ac"
+  },
+  "Projetos\\03-Estudos\\EstudosPesquisas\\LEGACY\\Docker-Prod-Gratis-old.md": {
+    "hash": "bc166da74fb15a65804801af7ff3204d715cf1dd"
+  },
+  "Projetos\\03-Estudos\\EstudosPesquisas\\LEGACY\\gestor_aluguel_2.0-old.md": {
+    "hash": "63e5d87b21e257cdead8ff89ef4b1233ae2aa74c"
+  },
+  "Projetos\\03-Estudos\\EstudosPesquisas\\LEGACY\\IA-LOCAL-old.md": {
+    "hash": "3c4c4381185715b8b3793b8f812ddd87ecb58c56"
+  },
+  "Projetos\\03-Estudos\\EstudosPesquisas\\LEGACY\\Next.js-SaaS-Evolution-old.md": {
+    "hash": "ed187e184cd451199847609182cb797108703f40"
+  },
+  "Projetos\\03-Estudos\\EstudosPesquisas\\LEGACY\\openclaude-wk-old.md": {
+    "hash": "011399297af18be872de74c4135331d39401a8eb"
+  },
+  "Projetos\\03-Estudos\\EstudosPesquisas\\LEGACY\\PROJECT_JARVIS_5.0-old.md": {
+    "hash": "ca5128a6f7dd72675d19da6b39070165bbcc075c"
+  },
+  "Projetos\\03-Estudos\\EstudosPesquisas\\LEGACY\\README-LEGACY.md": {
+    "hash": "67127213c8ac3b9fbf4142f5f6efef60fd128edd"
+  },
+  "Projetos\\03-Estudos\\EstudosPesquisas\\LEGACY\\README-old.md": {
+    "hash": "b329020eaccc42a2d7c9ffa71493cf61cf330eca"
+  },
+  "Projetos\\04-Master-Plan\\GitHub-Completo.md": {
+    "hash": "e5b4d0b7edfeb7f1f56104366a70e7fa2e5899e2"
+  },
+  "Projetos\\04-Master-Plan\\Organizacao-Completa.md": {
+    "hash": "f2b8929251887e71e2a4010c49225cbefc93c39c"
+  },
+  "simuladores\\INDEX.md": {
+    "hash": "e5d694df34e95f510f29ec4753e44dadaee7ee2d"
+  },
+  "simuladores\\Quiz-e-Simulador-Template.md": {
+    "hash": "7a1198bb623e04bd869a5ad1995ecbda9ce7880a"
+  },
+  "simuladores\\XAI-Fairness-Simulator-Instructions.md": {
+    "hash": "a62d55cb4cfc5738c9b668da701affc3cd86ac9e"
+  },
+  "skills\\Data-Cleaning.md": {
+    "hash": "f5441c139c231a637b0edf758af337ee32f7d0f7"
+  },
+  "skills\\Explainable-AI.md": {
+    "hash": "a326682e51b0afc10f7595a40695dcc5489959fd"
+  },
+  "skills\\Gestao-de-Projetos.md": {
+    "hash": "137a31a305145b8d93ebe8c5ec5220e3cfbf2c37"
+  },
+  "skills\\Kaggle-Datasets.md": {
+    "hash": "43a6dc24305c11bfd9afb70858bfa45beb5f4b11"
+  },
+  "skills\\PromptLayer.md": {
+    "hash": "e5bab6e32d077418e82710c499af4d1fe8b7ae2a"
+  },
+  "skills\\README.md": {
+    "hash": "beb4c49d33f37ec3ee536fba645a03d7e7cba099"
+  },
+  "skills\\Scikit-Learn.md": {
+    "hash": "857b6e7079e8881297b5146ee3e589f209fe0186"
+  },
+  "skills\\SFIA-Mapping.md": {
+    "hash": "530289e0d8b87971b37fab0350956674b6e4f1e8"
+  },
+  "skills\\Skill-Project-Matrix.md": {
+    "hash": "1169a1e222bd0200050c021605d3f990b8227ff8"
+  },
+  "skills\\xp_leaderboard.md": {
+    "hash": "03e131c027d76adefd2fafc0671556d0ce35d233"
+  },
+  "skills\\01-agentic-intelligence\\advanced-reasoning-patterns.md": {
+    "hash": "33ea595010efd4a22c5a065fbe72f4a8416a4fed"
+  },
+  "skills\\01-agentic-intelligence\\advanced-workflows.md": {
+    "hash": "161cabc725d8fa9433e3e5c4fe73fb5623603318"
+  },
+  "skills\\01-agentic-intelligence\\autonomous-workflow.md": {
+    "hash": "b9a51f15f7988114e6ebaaf47ff25afc21bb4b64"
+  },
+  "skills\\01-agentic-intelligence\\avaliacao-seguranca-de-agentes.md": {
+    "hash": "59a4a793c08550d4f24acf98d923a76b16e206bb"
+  },
+  "skills\\01-agentic-intelligence\\best-practices.md": {
+    "hash": "f68a7cb3238a6f4aaf3bd9e75248b7a16aa8ee96"
+  },
+  "skills\\01-agentic-intelligence\\context-engineering-checklist.md": {
+    "hash": "684f1a28ed2e24ef278d4da821daf82e60b1510a"
+  },
+  "skills\\01-agentic-intelligence\\crewai-autogen-langgraph.md": {
+    "hash": "c146a5a44a2185d3dd959cddc205db30f4c4a610"
+  },
+  "skills\\01-agentic-intelligence\\direct-agent-prompts.md": {
+    "hash": "d9ff9f03c3f69749d98df82a2b8f426ce9949ffe"
+  },
+  "skills\\01-agentic-intelligence\\human-agent-collaboration-loop.md": {
+    "hash": "756a672ad0887201ef6883fd0cd2eef206c7ecf3"
+  },
+  "skills\\01-agentic-intelligence\\INDEX.md": {
+    "hash": "8fd162840f66a67a46272c315112522a31bdd112"
+  },
+  "skills\\01-agentic-intelligence\\mcp-operators.md": {
+    "hash": "2febbd24910e172aa54dbc50f88ffec2eebe3aa2"
+  },
+  "skills\\01-agentic-intelligence\\mcp.md": {
+    "hash": "5de852d851620e535e9fe142a0c2f463cd3d3204"
+  },
+  "skills\\01-agentic-intelligence\\memory-architectures.md": {
+    "hash": "1e033bdb0c540e712bac8517a5f94b6e6eb58877"
+  },
+  "skills\\01-agentic-intelligence\\mini-agent.md": {
+    "hash": "741a175afe1935955e8f29adc918120ed78ca229"
+  },
+  "skills\\01-agentic-intelligence\\multi-agent-consensus.md": {
+    "hash": "27d0464c6fa082125f90c265fab8483b86f32e20"
+  },
+  "skills\\01-agentic-intelligence\\multi-agent-orchestration.md": {
+    "hash": "827ab2553223ae4b5953e172abdb080e55ece78f"
+  },
+  "skills\\01-agentic-intelligence\\programador-pesquisador.agent.md": {
+    "hash": "72c627851eef90ce5f71d54a9670242379d845ee"
+  },
+  "skills\\01-agentic-intelligence\\programador.agent.md": {
+    "hash": "0a6d0c134962a191d146dc60b170e15b080ef7f3"
+  },
+  "skills\\01-agentic-intelligence\\project-jarvis-prompts.md": {
+    "hash": "bea7bd574571f77cc7471c1c4db43f3337f41e00"
+  },
+  "skills\\01-agentic-intelligence\\prompts.md": {
+    "hash": "2c0d59ce259a914b3af60d6f65791523b2ba9824"
+  },
+  "skills\\01-agentic-intelligence\\quick-reference.md": {
+    "hash": "3a2517bcc891fb6471b84aeb5b9b6285cd8f4ada"
+  },
+  "skills\\01-agentic-intelligence\\quick-start.md": {
+    "hash": "0f3a2a5bf2f3ff7c565aab88689a8d37a47ee3d4"
+  },
+  "skills\\01-agentic-intelligence\\README.md": {
+    "hash": "7493aacce5f4db1f4721c4672062b0d0c0282c5c"
+  },
+  "skills\\01-agentic-intelligence\\response-evaluation-rubric.md": {
+    "hash": "e3033b4bd3926d9c9bfb1638147ba3c0a0d83393"
+  },
+  "skills\\01-agentic-intelligence\\skills-categories.md": {
+    "hash": "527ca8e237f0c14e403de05f831ae55186f62f28"
+  },
+  "skills\\01-agentic-intelligence\\templates.md": {
+    "hash": "37632cca5cb1e321750230618a1ed12dea5188f5"
+  },
+  "skills\\01-agentic-intelligence\\use-cases.md": {
+    "hash": "95a54fc783a38def77c68823c921330bfe1e6dc3"
+  },
+  "skills\\01-agentic-intelligence\\prompt-engineering\\SKILL.md": {
+    "hash": "3e973dda039287517f02ab10028219850ad843d4"
+  },
+  "skills\\02-software-engineering\\advanced-backend-architecture.md": {
+    "hash": "dd247a2828b8774f025304785876d62c4a280027"
+  },
+  "skills\\02-software-engineering\\agentic-code-review.md": {
+    "hash": "2fa17105a21d944047ca53f1ebd79921c2db5b28"
+  },
+  "skills\\02-software-engineering\\agentic-debugging.md": {
+    "hash": "11d26b3aa27dcd160649b68bdbf42e8205b00095"
+  },
+  "skills\\02-software-engineering\\agentic-testing.md": {
+    "hash": "a24a3dcdba08bffe8a512e875fbfabd7c2e9f737"
+  },
+  "skills\\02-software-engineering\\algorithms-data-structures.md": {
+    "hash": "9fa34545469a2c49d16a22e67f58f0576bbab545"
+  },
+  "skills\\02-software-engineering\\api-contracts-and-compatibility.md": {
+    "hash": "3174018d8659a55a98c9b07d81fb2561d3aa2d39"
+  },
+  "skills\\02-software-engineering\\api-design.md": {
+    "hash": "7568fb549c01f0b2ba7c235fa1a446b643fb7d0d"
+  },
+  "skills\\02-software-engineering\\architecture-patterns.md": {
+    "hash": "7c1633f7b8dd7ae5b008455544ce6897dbfd6755"
+  },
+  "skills\\02-software-engineering\\backend.md": {
+    "hash": "f5c4d2afd6bafc1042ad84a593dcbb0ea8d1ca79"
+  },
+  "skills\\02-software-engineering\\cloud-architecture.md": {
+    "hash": "855fbe20971bf0d0e5ece9d59b72b7910b7a31d8"
+  },
+  "skills\\02-software-engineering\\database.md": {
+    "hash": "5951953185c5f2d4affd3e8c2f9ae45683d183d1"
+  },
+  "skills\\02-software-engineering\\db-migrations-and-zero-downtime.md": {
+    "hash": "d868934a8b358200f7f63f19474b93dcb92cb682"
+  },
+  "skills\\02-software-engineering\\design-patterns.md": {
+    "hash": "729d4e04bd782442074e2d079fc13c483b74ab55"
+  },
+  "skills\\02-software-engineering\\distributed-systems.md": {
+    "hash": "feeae0b342dfd466e0e2fa20cb879b15749a48f4"
+  },
+  "skills\\02-software-engineering\\feature-flags-for-agents.md": {
+    "hash": "67881f5a85480731be88b0c7ae5c30bee0617ee2"
+  },
+  "skills\\02-software-engineering\\frontend.md": {
+    "hash": "84e899ad6eb8e0a108484ad97602f8b2a96af8bf"
+  },
+  "skills\\02-software-engineering\\INDEX-Addon.md": {
+    "hash": "abe40ef79af5825f759780bf141b6df955c83fe5"
+  },
+  "skills\\02-software-engineering\\INDEX.md": {
+    "hash": "454891059bc184fdce916d89d7e82713454ff9b7"
+  },
+  "skills\\02-software-engineering\\integration-patterns-for-agents.md": {
+    "hash": "5ff29bcfab4b89e669e27a9f42776ffab5a1a92b"
+  },
+  "skills\\02-software-engineering\\mobile-development.md": {
+    "hash": "9d381fb2224d780da01209f9408cdea0d364d53c"
+  },
+  "skills\\02-software-engineering\\performance.md": {
+    "hash": "e496d6f5a012bc205f511ad86948c938237848ff"
+  },
+  "skills\\02-software-engineering\\README.md": {
+    "hash": "6bd97dc032029f0f70db1932159a54e6c5d0dfc4"
+  },
+  "skills\\02-software-engineering\\rollback-and-release-strategies.md": {
+    "hash": "e14cb27547cce275179d4898ab5ae34a0aa6fb6b"
+  },
+  "skills\\02-software-engineering\\solid-clean-code.md": {
+    "hash": "c22e5c8562bd9a83d5d8f62fccd9eca2663d0370"
+  },
+  "skills\\02-software-engineering\\test-pyramid-realistic-for-agents.md": {
+    "hash": "0b354c8af155a1b90543a240729e88755f988cd6"
+  },
+  "skills\\02-software-engineering\\testing-advanced.md": {
+    "hash": "6caf80e09f21528adfa5bef7096f86a011ef5ce0"
+  },
+  "skills\\02-software-engineering\\typescript-advanced.md": {
+    "hash": "8128fddfc0dc668bffc608539f20746f426489a3"
+  },
+  "skills\\02-software-engineering\\web-advanced.md": {
+    "hash": "ceee7433ddde70703f11fdd1994b4a6eb7476c45"
+  },
+  "skills\\02-software-engineering\\Bancos-de-Dados\\PostgreSQL-Advanced.md": {
+    "hash": "242e53ef2542cf8111ca417fcc93a0b9a382e5b8"
+  },
+  "skills\\02-software-engineering\\seguranca\\INDEX.md": {
+    "hash": "c043641fc65effffe832def6f11ca88e6d1e2f2b"
+  },
+  "skills\\02-software-engineering\\seguranca\\owasp-top-10.md": {
+    "hash": "b8303b874c39bfd9c18a64cacb4bd99bb8f0238f"
+  },
+  "skills\\02-software-engineering\\seguranca\\prompt-injection-defense.md": {
+    "hash": "72a0e669e284eaa10fae451a4d9f868c8cbb6cba"
+  },
+  "skills\\02-software-engineering\\seguranca\\secrets-management.md": {
+    "hash": "2df9c37e39a1be109a401f651fd8b56ff85dcdb9"
+  },
+  "skills\\02-software-engineering\\seguranca\\secure-coding.md": {
+    "hash": "13f453edba50f51c83ee4db334d24aad1a1daceb"
+  },
+  "skills\\02-software-engineering\\seguranca\\supply-chain-security.md": {
+    "hash": "1a3fb1fdfd6b7ce0f32a9a396ddc40a0739f31e9"
+  },
+  "skills\\02-software-engineering\\testing\\SKILL.md": {
+    "hash": "79e6ce81c53d771ce28718258bf62c30ecfdee71"
+  },
+  "skills\\03-infrastructure-mcp\\advanced-mcp-integrations.md": {
+    "hash": "b2e0b2d7435a16ff15546e8ff7f74b0918a4fbfc"
+  },
+  "skills\\03-infrastructure-mcp\\local-llm-ops.md": {
+    "hash": "2393dbbbc63f4db0d0eecd6ae20dde02252c8456"
+  },
+  "skills\\03-infrastructure-mcp\\mcp-avancado-e-ferramentas-dinamicas.md": {
+    "hash": "9869bfecf9a66fa5fcb1139eb27dc1c5c5d322bf"
+  },
+  "skills\\03-infrastructure-mcp\\mcp-servers.md": {
+    "hash": "4c3619722d64e02e96dd9ca8676599831596f90f"
+  },
+  "skills\\03-infrastructure-mcp\\monitoring\\SKILL.md": {
+    "hash": "254c0b2e88e55cb7657708fc82f638263f028b2c"
+  },
+  "skills\\04-knowledge-systems\\advanced-rag-strategies.md": {
+    "hash": "ab996e01463e5b70607c3a12ad8db3820d81679a"
+  },
+  "skills\\04-knowledge-systems\\INDEX.md": {
+    "hash": "64327238fc5c1eb24993ea219aad3f3a7b58300b"
+  },
+  "skills\\04-knowledge-systems\\memory-curation-for-agents.md": {
+    "hash": "372d1f335ece73fd69a66a83cf71530782b65bd4"
+  },
+  "skills\\04-knowledge-systems\\memory-management.md": {
+    "hash": "ec915b5fc3129d6e9263bb9b8d1ee1a57ae28f9e"
+  },
+  "skills\\04-knowledge-systems\\obsidian-neural-vault.md": {
+    "hash": "11fea3c929988a014a50e839a7a984fd24930668"
+  },
+  "skills\\04-knowledge-systems\\rag-avancado-e-graphrag.md": {
+    "hash": "9928dad1afd0ff56b4119ca85b82b3f4c04121e6"
+  },
+  "skills\\04-knowledge-systems\\rag-friendly-note-design.md": {
+    "hash": "0b9f1dff5da8b8d3075589a7397b679c581b4a38"
+  },
+  "skills\\04-knowledge-systems\\Skills-MCPs-Agentes-ClaudeCode.md": {
+    "hash": "a988028b906328397cbf7261ce778f44396c2711"
+  },
+  "skills\\04-knowledge-systems\\rag-implementation\\SKILL.md": {
+    "hash": "c54bc1cbdf7d4b02359a08f55f894b869ed02db0"
+  },
+  "skills\\ai\\Computacao-Distribuida-e-Edge-AI.md": {
+    "hash": "2d04524b676558626a2894f0c7beabca913da26a"
+  },
+  "skills\\ai\\Computer-Vision.md": {
+    "hash": "6575d481e02b07d5f6331a93ca20762487babc00"
+  },
+  "skills\\ai\\Engenharia-de-Prompts.md": {
+    "hash": "29da787ce99531b77ef36d9bde31c07ff400a840"
+  },
+  "skills\\ai\\Generative-Models.md": {
+    "hash": "2fc7303f6140f561d86daf4cadb84e68753035ed"
+  },
+  "skills\\ai\\INDEX.md": {
+    "hash": "58cff70130754f57d0ac8d2d4c30fd249ab7b767"
+  },
+  "skills\\ai\\LLM-Fine-Tuning.md": {
+    "hash": "abebec1d3b12be371a22cd06e2db67eec9aedce5"
+  },
+  "skills\\ai\\LLMOps.md": {
+    "hash": "bdd070310464f6018be5f088c60be1d0f843fb57"
+  },
+  "skills\\ai\\Meta-Learning-e-AutoML.md": {
+    "hash": "896351ba735917b72b4eee984bcf69716ed4135a"
+  },
+  "skills\\ai\\MLOps.md": {
+    "hash": "a9ad17e1590c67fe8569cf6ddf73a95abd2bc6e5"
+  },
+  "skills\\ai\\Reinforcement-Learning.md": {
+    "hash": "7ef471562819823f54ba8c43bb1cf6929522888f"
+  },
+  "skills\\ai\\XAI-Fairness-Accountability.md": {
+    "hash": "971599f7837460a50e6b1f9f75a7f9eb19ab251f"
+  },
+  "skills\\alloydb-basics\\SKILL.md": {
+    "hash": "c6affdb7b1212ccde58a1b24f61c13c68d769c92"
+  },
+  "skills\\alloydb-basics\\references\\cli-usage.md": {
+    "hash": "2877acbbd30d0220d4fb11beba4d229b43a09278"
+  },
+  "skills\\alloydb-basics\\references\\client-library-usage.md": {
+    "hash": "62d59be7ef87f0cb74a2da14917fa3696d7c7d87"
+  },
+  "skills\\alloydb-basics\\references\\core-concepts.md": {
+    "hash": "3b659502693964f3dce8657b1a4120f157dee6c3"
+  },
+  "skills\\alloydb-basics\\references\\iac-usage.md": {
+    "hash": "e0cc1a8784308e62524222f8399d7fc48c3c3a0a"
+  },
+  "skills\\alloydb-basics\\references\\iam-security.md": {
+    "hash": "49ed1fee004a5aafc76a16d30228acbec8698665"
+  },
+  "skills\\alloydb-basics\\references\\mcp-usage.md": {
+    "hash": "3e701818e6fb440d2038ce82b86a30a4e2c70b0f"
+  },
+  "skills\\bigquery-basics\\SKILL.md": {
+    "hash": "6859212053ddc1743648c9c5622aaef22057ebf7"
+  },
+  "skills\\bigquery-basics\\references\\cli-usage.md": {
+    "hash": "c69cd567789ca6567de406e9d48806d41ccf118e"
+  },
+  "skills\\bigquery-basics\\references\\client-library-usage.md": {
+    "hash": "bea24853b30f52dbca6b8c6b0a9419809713868d"
+  },
+  "skills\\bigquery-basics\\references\\core-concepts.md": {
+    "hash": "72b5bf0bda57505960d173dabcdb8a270f9385b9"
+  },
+  "skills\\bigquery-basics\\references\\iac-usage.md": {
+    "hash": "2d1240a05f3a850376755a034fc81401d00c9dd2"
+  },
+  "skills\\bigquery-basics\\references\\iam-security.md": {
+    "hash": "d195c7728084aa2373c07b3cc83a3a1950856857"
+  },
+  "skills\\bigquery-basics\\references\\mcp-usage.md": {
+    "hash": "3e47d3b1ea5da49020ab58cf9289a8e916f40a28"
+  },
+  "skills\\cloud-run-basics\\SKILL.md": {
+    "hash": "3370e39c1ed33770c044498a314246f74c34654b"
+  },
+  "skills\\cloud-run-basics\\references\\cli-usage.md": {
+    "hash": "34f43ab65d3e213eda0daa38415390b0b40c0c34"
+  },
+  "skills\\cloud-run-basics\\references\\client-library-usage.md": {
+    "hash": "6bd788b077a709516a4b7ab963f717636a766055"
+  },
+  "skills\\cloud-run-basics\\references\\core-concepts.md": {
+    "hash": "7f069a90d8a7113891b104f294335dbc1b56bca5"
+  },
+  "skills\\cloud-run-basics\\references\\iac-usage.md": {
+    "hash": "ea067c114e92b1889d07dc3896ea3f88353684e8"
+  },
+  "skills\\cloud-run-basics\\references\\iam-security.md": {
+    "hash": "1d802622ad710ca51c03fd96224b33a9f999d767"
+  },
+  "skills\\cloud-run-basics\\references\\mcp-usage.md": {
+    "hash": "a7e97ee423470a593d12c8210592507a58487354"
+  },
+  "skills\\cloud-sql-basics\\SKILL.md": {
+    "hash": "b3ac1a3a70c511baed3d687cd45a021c797db0c1"
+  },
+  "skills\\cloud-sql-basics\\references\\cli-usage.md": {
+    "hash": "998c9111df96c9144c37b262814216f93cbc2775"
+  },
+  "skills\\cloud-sql-basics\\references\\client-library-usage.md": {
+    "hash": "ef898abcdeb13808b3e1bf279e624e0617baa5af"
+  },
+  "skills\\cloud-sql-basics\\references\\core-concepts.md": {
+    "hash": "2a3ccaefdce4a8a2f0745eb7f64829791bc2d3c8"
+  },
+  "skills\\cloud-sql-basics\\references\\iac-usage.md": {
+    "hash": "e8253468b269f53a7083e3da5a0254fd1ff61e2e"
+  },
+  "skills\\cloud-sql-basics\\references\\iam-security.md": {
+    "hash": "1ee0d49d08aa48a2df89436408d1c504af1c27ad"
+  },
+  "skills\\cloud-sql-basics\\references\\mcp-usage.md": {
+    "hash": "8fa811fd3a9a26b4e7b12ea1cdf2025cc9e035e2"
+  },
+  "skills\\data-engineering\\etl-pipelines.md": {
+    "hash": "dfdf80ea882d69ebf79e666d4b1faaacae07381b"
+  },
+  "skills\\data-engineering\\INDEX.md": {
+    "hash": "83008e057eb70745bdba1630f8b57212684a561e"
+  },
+  "skills\\data-engineering\\streaming.md": {
+    "hash": "6798450f40b3589b4da04db17193afdd97baa7a8"
+  },
+  "skills\\devops\\agent-runbook-template.md": {
+    "hash": "daf95612747bc69b5754389fe08ddcbd462716ac"
+  },
+  "skills\\devops\\FinOps.md": {
+    "hash": "14717442fe8c2a98ff129e9296fe22e59602ef91"
+  },
+  "skills\\devops\\incident-response-practical.md": {
+    "hash": "c2214bc6b361ba3a970cf347bdfd0c9dd3e15bd2"
+  },
+  "skills\\devops\\Kubernetes.md": {
+    "hash": "3f2908b7e156b2914f7e596039cdf9405f1f2c6a"
+  },
+  "skills\\devops\\log-query-cheatsheet.md": {
+    "hash": "ef60f83577e1e923f793e60d4afe477fcf60fae8"
+  },
+  "skills\\devops\\logging-practical.md": {
+    "hash": "fecd7f311361c989ffeecbdea428a54851012442"
+  },
+  "skills\\devops\\metrics-practical.md": {
+    "hash": "0c507703d94cf6bfd90768a7a55bccddf8a778f0"
+  },
+  "skills\\devops\\minimal-alerting-policy.md": {
+    "hash": "220ed066fa916c87cf16cdefa9589b4645ab25bb"
+  },
+  "skills\\devops\\Observabilidade.md": {
+    "hash": "ecf25525b1c31c77b36158e65ca4ea694b257690"
+  },
+  "skills\\devops\\observability-practical.md": {
+    "hash": "1b8650eb39a183936c5ca1c05e325281aafa5889"
+  },
+  "skills\\devops\\opsec-minimum.md": {
+    "hash": "c6d92df9feb26d9e72c14b0f97bc6eeab3fc3a73"
+  },
+  "skills\\devops\\runbooks-for-agents.md": {
+    "hash": "9042553cf8e70f13e1711a6a0abdce1f2d38c51b"
+  },
+  "skills\\devops\\slo-sli-sla-basics.md": {
+    "hash": "61d16f101c95f2d5965bf5071b1be5d95b60dcda"
+  },
+  "skills\\devops\\tracing-practical.md": {
+    "hash": "bcb171c5777d4501489716c5d7d8887956b28018"
+  },
+  "skills\\devops\\ci-cd\\environment-promotion.md": {
+    "hash": "4bc075ee62d52e1ed82cbc3091bb324de782c0d4"
+  },
+  "skills\\devops\\ci-cd\\github-actions.md": {
+    "hash": "7b7212e4a6d2b0fee004130055a5d0d7990d2ff7"
+  },
+  "skills\\devops\\ci-cd\\INDEX.md": {
+    "hash": "fb55ee2b8982282991b75f63b2cf7ddef1b43feb"
+  },
+  "skills\\devops\\ci-cd\\semantic-release.md": {
+    "hash": "9412db45a2626ee9968f34e5ff89b68f68697407"
+  },
+  "skills\\firebase-basics\\SKILL.md": {
+    "hash": "dde300012beb2bb318ea17bc83d0e142b70bad34"
+  },
+  "skills\\firebase-basics\\references\\additional-skills.md": {
+    "hash": "5da4a184726f906b5928bc0c76e2f086025822fb"
+  },
+  "skills\\firebase-basics\\references\\cli-usage.md": {
+    "hash": "50673f39c200faf213bc75ff6f42dad9ac1a211a"
+  },
+  "skills\\firebase-basics\\references\\client-library-usage.md": {
+    "hash": "cd678b879036339022249a5ca46a7b85372b85b6"
+  },
+  "skills\\firebase-basics\\references\\core-concepts.md": {
+    "hash": "d57c6cafade62b336ca7920251a895b4d5e580aa"
+  },
+  "skills\\firebase-basics\\references\\iac-usage.md": {
+    "hash": "1dd3fce2612dd2664a08f69532d6619a1cb33cb3"
+  },
+  "skills\\firebase-basics\\references\\iam-security.md": {
+    "hash": "d0afba9c0afe7cbccb74a413622bee5d1812290b"
+  },
+  "skills\\firebase-basics\\references\\mcp-usage.md": {
+    "hash": "811c95159bd2992940409ddceabd24942366a52c"
+  },
+  "skills\\frontend\\Accessibility-Checklist.md": {
+    "hash": "cc553a0dc5d4a89989e9584cb82da26459760ce0"
+  },
+  "skills\\frontend\\Component-Boundaries-and-Ownership.md": {
+    "hash": "9a26047cfd7b6ee3b46603e4adcb7dbe7a48b3af"
+  },
+  "skills\\frontend\\i18n-Patterns-and-Localization.md": {
+    "hash": "07217e3624aa16e0727af3a008e44d4dbf298711"
+  },
+  "skills\\frontend\\INDEX-Addon.md": {
+    "hash": "dcae9d7f27094b78e7f643d38f38d0f64e304dfd"
+  },
+  "skills\\frontend\\Nextjs-App-Router-Patterns.md": {
+    "hash": "bdadc64bf4200d5b17434d9dbc3611bfa1825c13"
+  },
+  "skills\\frontend\\Performance-and-Bundle-Discipline.md": {
+    "hash": "a19e9b30b821a396a51c9d93274c16d57758ff67"
+  },
+  "skills\\frontend\\PR-Checklist-Frontend.md": {
+    "hash": "9accf76b06841ae1b625f5bb9e90da7a292f3f0d"
+  },
+  "skills\\frontend\\Tailwind-and-shadcn-Conventions.md": {
+    "hash": "b209a46e6d70a889e4dd776a5226c7140c81e757"
+  },
+  "skills\\frontend\\Testing-UI-Practical.md": {
+    "hash": "ab98497147252821a88f3cdfac8697f76c92db53"
+  },
+  "skills\\frontend\\Web-Components.md": {
+    "hash": "22b69fea96a5da9fc10cdffd72b6f4a2ae4471a3"
+  },
+  "skills\\gemini-api\\SKILL.md": {
+    "hash": "f9ac9de7849cac2109aff7d7505ae1232b8d1e58"
+  },
+  "skills\\gemini-api\\references\\advanced_features.md": {
+    "hash": "8ac54ba135f5d53971a54625ee81428ef8867a4f"
+  },
+  "skills\\gemini-api\\references\\bounding_box.md": {
+    "hash": "acd5eb34337e182ddb9d952dd48aac2fcd7cb0ff"
+  },
+  "skills\\gemini-api\\references\\embeddings.md": {
+    "hash": "16ba48dfb076a78ed90a75b6db4bf3130ca94e87"
+  },
+  "skills\\gemini-api\\references\\live_api.md": {
+    "hash": "203a75dc738e1f2b1e82117268abded00620751a"
+  },
+  "skills\\gemini-api\\references\\media_generation.md": {
+    "hash": "89f77d8e120a64933060f9039ce0c5e4c079e45a"
+  },
+  "skills\\gemini-api\\references\\model_tuning.md": {
+    "hash": "e70fd65d586df687eea6d2f5f3a04b2989718e96"
+  },
+  "skills\\gemini-api\\references\\safety.md": {
+    "hash": "e3c6067294361140b3db888c87ce7bc7e6313bda"
+  },
+  "skills\\gemini-api\\references\\structured_and_tools.md": {
+    "hash": "ff5e9b0436a0a740a44cdf14da1777bc41882f43"
+  },
+  "skills\\gemini-api\\references\\text_and_multimodal.md": {
+    "hash": "d844d74a85fda8a1f9c59e9e144613897af5e6b0"
+  },
+  "skills\\gke-basics\\SKILL.md": {
+    "hash": "1055f19558e1e83d68e37fd98735bdffcc2e5145"
+  },
+  "skills\\gke-basics\\references\\cli-reference.md": {
+    "hash": "adc421ddadb0f119b02b7e860890a8bec22c6eaa"
+  },
+  "skills\\gke-basics\\references\\client-library-usage.md": {
+    "hash": "a437207a6b9d2407b76469113fec7756512712c1"
+  },
+  "skills\\gke-basics\\references\\core-concepts.md": {
+    "hash": "e7b3884153ba5643a5d2eb1c9809ab0aa788725c"
+  },
+  "skills\\gke-basics\\references\\gke-app-onboarding.md": {
+    "hash": "64ed022ce9f5ae1443273d5039b69df1a54941ec"
+  },
+  "skills\\gke-basics\\references\\gke-backup-dr.md": {
+    "hash": "2983d4fb4ba41417aa630850daa78c4d95c8b14e"
+  },
+  "skills\\gke-basics\\references\\gke-batch-hpc.md": {
+    "hash": "37e2e3ca1f7a5f589e69521cca3613021e993026"
+  },
+  "skills\\gke-basics\\references\\gke-cluster-creation.md": {
+    "hash": "831cb0cf97e8bc0ef917860d4d186ce6c5db7c9b"
+  },
+  "skills\\gke-basics\\references\\gke-compute-classes.md": {
+    "hash": "7db1dbe9de4fc80517d1894b62f4dd5a847b1465"
+  },
+  "skills\\gke-basics\\references\\gke-cost.md": {
+    "hash": "b4e327080f188a863a477effa8be86cf6e5057f4"
+  },
+  "skills\\gke-basics\\references\\gke-golden-path.md": {
+    "hash": "81ececbdd22320d6d5dca144ed5c4e62d9b20dd7"
+  },
+  "skills\\gke-basics\\references\\gke-inference.md": {
+    "hash": "73641d585b992ec84642089b6849a7c7c65bd2ab"
+  },
+  "skills\\gke-basics\\references\\gke-multitenancy.md": {
+    "hash": "8c6219e878a5d1992d17b45ec7ea6f258af8b2ed"
+  },
+  "skills\\gke-basics\\references\\gke-networking.md": {
+    "hash": "a133f0e03b332bafe61e81414545ec3fd32dd512"
+  },
+  "skills\\gke-basics\\references\\gke-observability.md": {
+    "hash": "0bbd7f5a15799641274ea5de5e041342ed04c711"
+  },
+  "skills\\gke-basics\\references\\gke-reliability.md": {
+    "hash": "7216d68fc011fbf72b8a9f8916872eaf50d6a18b"
+  },
+  "skills\\gke-basics\\references\\gke-scaling.md": {
+    "hash": "17378834284204314326b6ba9bc29aa3a5dcabab"
+  },
+  "skills\\gke-basics\\references\\gke-security.md": {
+    "hash": "ebd640add8d1a960d033d08ba62a8218744278ca"
+  },
+  "skills\\gke-basics\\references\\gke-storage.md": {
+    "hash": "1de35172b89fb3cc19d4611c95aee3306e33d3cc"
+  },
+  "skills\\gke-basics\\references\\gke-upgrades.md": {
+    "hash": "3f7007eba1e7a28297c8e1ac868b56a8f9b71e53"
+  },
+  "skills\\gke-basics\\references\\iac-usage.md": {
+    "hash": "59d3be4b0dbab72d547b3b4ba445b0ad329e04ac"
+  },
+  "skills\\gke-basics\\references\\mcp-usage.md": {
+    "hash": "363061b20717b03f0d8cb08ed9d54073cd913ed6"
+  },
+  "skills\\google-cloud-networking-observability\\SKILL.md": {
+    "hash": "7891c7ef00a7ff8cf5da8cf9b00dc5d6c05b7ad6"
+  },
+  "skills\\google-cloud-networking-observability\\references\\cloud-nat-analysis.md": {
+    "hash": "c179dde7fb54666dac516ce95c68669e6f6a9344"
+  },
+  "skills\\google-cloud-networking-observability\\references\\connectivity-tests.md": {
+    "hash": "e7da86947c25c3aef093d527f9df8aa41418d610"
+  },
+  "skills\\google-cloud-networking-observability\\references\\firewall-analysis.md": {
+    "hash": "5b7122d76d48277e3f7e6ce7cd440c3fad09f56b"
+  },
+  "skills\\google-cloud-networking-observability\\references\\mcp-usage.md": {
+    "hash": "f164043d1db9f31b77118f6fb05803776a6fad85"
+  },
+  "skills\\google-cloud-networking-observability\\references\\metrics-analysis.md": {
+    "hash": "d7c56c870f19a35894b5bbd77b581c08f934953c"
+  },
+  "skills\\google-cloud-networking-observability\\references\\threat-analysis.md": {
+    "hash": "82e62dea8e0357bb2774896f01bde43c3450e763"
+  },
+  "skills\\google-cloud-networking-observability\\references\\vpc-flow-analysis.md": {
+    "hash": "4232b2fd3d6c699737fc0b796382427ecea93217"
+  },
+  "skills\\google-cloud-recipe-auth\\SKILL.md": {
+    "hash": "deff8e0e2d29f45a13fcaa08d14ccec5afad5c21"
+  },
+  "skills\\google-cloud-recipe-onboarding\\SKILL.md": {
+    "hash": "4169ac573dc84333e83c23b1ccd1642181cb5a05"
+  },
+  "skills\\google-cloud-recipe-onboarding\\reference\\google-cloud-setup.md": {
+    "hash": "7874ce310f3545a4f227b559f84fedb26661e28a"
+  },
+  "skills\\google-cloud-waf-cost-optimization\\SKILL.md": {
+    "hash": "9ab5ea67ef0a4f59611a54fa471db15013007d91"
+  },
+  "skills\\google-cloud-waf-reliability\\SKILL.md": {
+    "hash": "546b0b2fd5d60ecc6aa6197c5e951267a5dbc3c2"
+  },
+  "skills\\google-cloud-waf-security\\SKILL.md": {
+    "hash": "a36587970a7a731d2e46f96e67a55b0c0c441c4c"
+  },
+  "skills\\Governanca\\Governanca-Dados-Avancada.md": {
+    "hash": "1badb00546f9b95a259cfc70c2b8c9b882cfd1a1"
+  },
+  "skills\\Governanca\\Mapeamento-Curricular-Internacional.md": {
+    "hash": "993ec9611fdd908069d1545c5be1cbb7faad601b"
+  },
+  "skills\\mobile\\Desenvolvimento-Mobile.md": {
+    "hash": "b888c479e17f8eac5aa8ee427c0412c21be92004"
+  },
+  "skills\\Security\\AI-Security-Etica-Operacional.md": {
+    "hash": "5ac50e49bab3fd85fab1d1c410a5a7d35b760878"
+  },
+  "skills\\softskills\\Comunicacao-Tecnica.md": {
+    "hash": "8b608c4eeb76f72282dc52f4b33c651337edaf0a"
+  },
+  "skills\\softskills\\Product-Management.md": {
+    "hash": "7c3aee8c8043519e665f6ebb92e96413302b8287"
+  },
+  "Templates\\case_template.md": {
+    "hash": "e4bef01cd466f47e01b4d34b973216926495d5a0"
+  },
+  "Templates\\Conceito-Conhecimento.md": {
+    "hash": "dd8f731ee5421184aeb60209feecbcc7d0985b2f"
+  },
+  "Templates\\frontmatter_padrao.md": {
+    "hash": "f3d16616ca808fee16c242989289f048ddb0295c"
+  },
+  "Templates\\Post-Mortem-JARVIS.md": {
+    "hash": "d06da6c237bdd5d3140939b6666e8ef8e5393cd7"
+  },
+  "Templates\\README.md": {
+    "hash": "29a458e021fb5cb249e81f5407ac2482ac56aad1"
+  },
+  "Templates\\Skill-Template.md": {
+    "hash": "4b70c9630b734ac9e8043c8b5958a2b6cb3963b4"
+  },
+  "Templates\\Template Base.md": {
+    "hash": "972b8d38582ed0dd6c5bebe4f54318557f7de110"
+  },
+  "Templates\\Template Diário.md": {
+    "hash": "a011bc31ae317eab87b1f1ef6e4149ed9b1b4e73"
+  },
+  "Templates\\Template-Bug-Report.md": {
+    "hash": "b135eabca2feae88f5478219c33b30e2ca6b2253"
+  },
+  "Templates\\Template-Nota-Rapida.md": {
+    "hash": "484f4f766ddd024218602716b2c06604e8ae1df3"
+  },
+  "Templates\\Template-PRD.md": {
+    "hash": "657bfd3b8937c937c3371de04428245ec79247b2"
+  },
+  "Templates\\Template-Prompt-Otimizado.md": {
+    "hash": "ef43f376db6349d069b38bc5945ea1aa285f4f75"
+  },
+  "Templates\\Template-Reuniao.md": {
+    "hash": "942c28ec81cb98c1679d907cb11dc23dde36993f"
+  },
+  "tests\\fixtures\\sample_notes\\note1.md": {
+    "hash": "8a3492ad745971a441b20760a0c86eaecde61f02"
+  },
+  "Will-Pessoal\\README.md": {
+    "hash": "93edd6534df5142ffcb326423772d1a98a85aaa0"
+  },
+  "Will-Pessoal\\01-Identidade\\Perfil\\Bio.md": {
+    "hash": "75b2b8019ef18cc0c774a9893f8662e651e0c363"
+  },
+  "Will-Pessoal\\01-Identidade\\Perfil\\Carreira.md": {
+    "hash": "dc7e59639f387bd4325e75e8eff34b039db81c8c"
+  },
+  "Will-Pessoal\\01-Identidade\\Perfil\\Cerebro-Will.md": {
+    "hash": "548d7023d19e432c3b5d8b00e2fe2fe5dd49a1d5"
+  },
+  "Will-Pessoal\\01-Identidade\\Perfil\\INDEX.md": {
+    "hash": "845b596e881eb06d79c58a448504ad1fdc589a0c"
+  },
+  "Will-Pessoal\\01-Identidade\\Perfil\\Perfil.md": {
+    "hash": "5816eeb1c89db33d313423919d53454ee530d89c"
+  },
+  "Will-Pessoal\\01-Identidade\\Perfil\\Preferencias.md": {
+    "hash": "42b982086b2c4288b68d19fd936f139eaa6813d9"
+  },
+  "Will-Pessoal\\01-Identidade\\Perfil\\Projetos-Ativos.md": {
+    "hash": "b9cdbd31a42e4d36b605820242e7be8f28c5a4c1"
+  },
+  "Will-Pessoal\\01-Identidade\\Perfil\\README.md": {
+    "hash": "b70c468b6b35b04ddaabc34951604c8e98e629a2"
+  },
+  "Will-Pessoal\\01-Identidade\\Perfil\\Skills.md": {
+    "hash": "35b420167fc6c0e50055cb497e0ea030c3df875b"
+  },
+  "Will-Pessoal\\01-Identidade\\Perfil\\William-kelvem94 Overview.md": {
+    "hash": "a46b372084aca16135e43f27a6774c24bac67dfc"
+  },
+  "Will-Pessoal\\02-Visao\\Ideia_Pessoal.md": {
+    "hash": "ecdc0384c2574c9791237494816bcb970419fc08"
+  },
+  "Will-Pessoal\\02-Visao\\Objetivos\\README.md": {
+    "hash": "2196dce92b45b6d8a4af60ef0ce7a3cf9126c53b"
+  },
+  "Will-Pessoal\\03-Vida-Estilo\\Conhecimento\\Leituras.md": {
+    "hash": "902e4b2fb10b9e3e6043b27944559b417665273e"
+  },
+  "Will-Pessoal\\03-Vida-Estilo\\Vida\\Financas.md": {
+    "hash": "d2250abb39e6d025cbe6a0548c1a470702d0a448"
+  },
+  "Will-Pessoal\\03-Vida-Estilo\\Vida\\Habitos.md": {
+    "hash": "da5ab2d647a62bc890aed14a9aa39fca290882f4"
+  },
+  "Will-Pessoal\\03-Vida-Estilo\\Vida\\Produtividade.md": {
+    "hash": "fdf021f049eb437322ae95d8ff7d03e8c705b3a3"
+  },
+  "Will-Pessoal\\03-Vida-Estilo\\Vida\\Rotina.md": {
+    "hash": "657fa15213f3a12ba0cb4fcbd42729fdb33e56fa"
+  },
+  "Will-Pessoal\\03-Vida-Estilo\\Vida\\Saude.md": {
+    "hash": "e0a63ba8b5fb0d10925bfc1d00566dbba9252b58"
+  },
+  "Will-Pessoal\\04-Social\\Rede\\Pessoas.md": {
+    "hash": "fcdde92a06fee23884566dd98eb89d8ecbf76e43"
+  },
+  "Will-Pessoal\\Conquistas\\100-Notas.md": {
+    "hash": "25b1217f33a81a5b260d6afec94e11b4a1f079c1"
+  },
+  "Will-Pessoal\\Conquistas\\500-Notas.md": {
+    "hash": "977ef30c0f597a3bd0a464b97d8b49930d342bf6"
+  },
+  "Will-Pessoal\\Conquistas\\Arquiteto-de-Grafos.md": {
+    "hash": "698a40ab92d4f2119672847330082167af225029"
+  },
+  "Will-Pessoal\\Conquistas\\Bibliotecário.md": {
+    "hash": "0c290efd3aab5316587d1ef6ca25fe4bf9001893"
+  },
+  "Will-Pessoal\\Conquistas\\Cartógrafo.md": {
+    "hash": "ef7e9f27af7fc5e5e780b5b1b3d99183c6289385"
+  },
+  "Will-Pessoal\\Conquistas\\Escritor-Fértil.md": {
+    "hash": "889cb3ab116ce84eccd6ab801af4825834171490"
+  },
+  "Will-Pessoal\\Conquistas\\Mestre-das-Conexões.md": {
+    "hash": "13720274f289fda1360f1c28bddecae8419628f2"
+  },
+  "Will-Pessoal\\Conquistas\\Power-User.md": {
+    "hash": "3a0bfd4ff69506d2ca2329ad1e82a47f8b8a55fb"
+  },
+  "Will-Pessoal\\Conquistas\\Primeiro-Commit.md": {
+    "hash": "eb1fcd741124273b5596b91c92519a9da99e1cbd"
+  },
+  "Will-Pessoal\\Conquistas\\Primeiro-Gap-Fechado.md": {
+    "hash": "65ae6fa4f2501b8f3c33077b0ca61f81d0952546"
+  },
+  "Will-Pessoal\\Conquistas\\README.md": {
+    "hash": "9aeeb714de265af90519f7fb5625cf53a8e11bfb"
+  }
+}

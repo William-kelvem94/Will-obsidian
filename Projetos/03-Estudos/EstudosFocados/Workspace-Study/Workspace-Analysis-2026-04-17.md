@@ -2,7 +2,7 @@
 title: "Workspace Analysis — 17 de abril de 2026"
 description: "Análise do estado do vault, principais hubs, projetos ativos e recomendações de estudo."
 tags: [workspace-study, analise, pesquisas, estrategia]
-updated: 2026-05-03
+updated: 2026-06-01
 date: 2026-04-27
 ---
 

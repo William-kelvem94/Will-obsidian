@@ -4,11 +4,12 @@ description: "Guia abrangente de visao computacional: fundamentos, CNNs, detecca
 tags: [visao-computacional, cnn, yolo, segmentacao, opencv, pytorch, machine-learning, deep-learning]
 nivel: avancado
 fonte: ""
-updated: 2026-05-18
+updated: 2026-06-01
 backlinks: ["skills/ai/INDEX"]
 assets: []
 referencias: []
 sensivel: false
+date: 2026-06-01
 ---
 
 # Computer Vision

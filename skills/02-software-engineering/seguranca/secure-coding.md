@@ -1,7 +1,8 @@
 ---
-tags: [skills, seguranca, secure-coding, python, javascript]
-updated: 2026-05-16
+tags: [skills, seguranca, secure-coding, python, javascript, skills-eng]
+updated: 2026-06-01
 title: "Secure Coding Practices"
+date: 2026-06-01
 ---
 
 # Secure Coding Practices

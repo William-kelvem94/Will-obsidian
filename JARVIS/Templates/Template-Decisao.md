@@ -1,9 +1,9 @@
 ---
 title: "{{title}}"
 date: {{date}}
-tags: [template, decisao, adr]
+tags: [template, decisao, adr, jarvis]
 status: proposed
-updated: 2026-05-16
+updated: 2026-06-01
 ---
 
 # {{title}}

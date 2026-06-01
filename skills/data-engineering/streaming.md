@@ -1,7 +1,8 @@
 ---
-tags: [streaming, kafka, flink, event-driven, event-sourcing, cqrs, real-time, data-engineering]
-updated: 2026-05-16
+tags: [streaming, kafka, flink, event-driven, event-sourcing, cqrs, real-time, data-engineering, skills]
+updated: 2026-06-01
 title: "Stream Processing - Real-Time Data Engineering"
+date: 2026-06-01
 ---
 
 # Stream Processing

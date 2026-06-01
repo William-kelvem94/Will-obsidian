@@ -1,9 +1,9 @@
 ---
 title: "Feature Flags for Agents"
 description: "Guia pratico para agentes usarem feature flags com seguranca: rollout, kill switch, limpeza e testes."
-tags: [software-engineering, feature-flags, release, agents]
+tags: [software-engineering, feature-flags, release, agents, skills-eng]
 date: 2026-05-08
-updated: 2026-05-08
+updated: 2026-06-01
 ---
 
 # Feature Flags for Agents

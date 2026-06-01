@@ -1,9 +1,10 @@
 ---
 title: "Automatic Improvement Review"
 description: "Governance guide for reviewing, accepting, rejecting, and promoting automatically generated improvement proposals."
-tags: [jarvis, improvement, review, governance, agent]
-updated: 2026-05-08
+tags: [jarvis, improvement, review, governance, agent, jarvis-sistema]
+updated: 2026-06-01
 status: active
+date: 2026-06-01
 ---
 
 # Automatic Improvement Review

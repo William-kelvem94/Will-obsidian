@@ -4,7 +4,7 @@ category: "DevOps"
 level: 3
 description: "Practical patterns for logs, metrics, and traces that actually help during incidents."
 date: 2026-05-08
-updated: 2026-05-08
+updated: 2026-06-01
 tags: [skills, devops, observability]
 ---
 

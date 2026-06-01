@@ -3,7 +3,7 @@ title: "Sessão de Perfeccionamento do Vault - Antigravity"
 date: 2026-04-12
 type: decision
 tags: [decisao, organizacao, mcp, automacao, jarvis-operacao]
-updated: 2026-05-03
+updated: 2026-06-01
 ---
 
 # Decisão: Estruturação Autônoma do Vault

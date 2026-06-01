@@ -1,7 +1,8 @@
 ---
 tags: [distributed-systems, cap-theorem, consensus, message-queues, caching, load-balancing, resilience, microservices, skills-eng]
-updated: 2026-05-16
+updated: 2026-06-01
 title: "Distributed Systems"
+date: 2026-06-01
 ---
 
 # Sistemas Distribuidos

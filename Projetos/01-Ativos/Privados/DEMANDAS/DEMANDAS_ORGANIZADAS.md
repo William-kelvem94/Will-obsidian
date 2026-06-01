@@ -3,7 +3,8 @@ title: "DEMANDAS_ORGANIZADAS"
 source: "https://github.com/William-kelvem94/DEMANDAS_ORGANIZADAS"
 private: true
 tags: [projetos, privados, demandas, node, react, docker]
-updated: 2026-05-22
+updated: 2026-06-01
+date: 2026-06-01
 ---
 
 # DEMANDAS_ORGANIZADAS

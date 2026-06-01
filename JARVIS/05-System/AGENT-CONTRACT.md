@@ -1,9 +1,10 @@
 ---
 title: "Agent Contract - Obsidian Brain"
 description: "Contrato operacional para agentes de IA usarem este vault como segundo cerebro do JARVIS e como base de contexto para programacao."
-tags: [jarvis, agente, contrato, second-brain, ops]
-updated: 2026-05-08
+tags: [jarvis, agente, contrato, second-brain, ops, jarvis-sistema]
+updated: 2026-06-01
 status: active
+date: 2026-06-01
 ---
 
 # Agent Contract - Obsidian Brain

@@ -1,3 +1,10 @@
+---
+title: "Guia de Beta Tester - Gestor de Aluguel 2.0"
+date: 2026-06-01
+tags: [projetos]
+updated: 2026-06-01
+---
+
 # Guia de Beta Tester - Gestor de Aluguel 2.0
 
 > Objetivo: servir como roteiro de validacao ponta a ponta para testes manuais, com foco no uso real do usuario final e no comportamento esperado do sistema.

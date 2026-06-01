@@ -1,7 +1,8 @@
 ---
 tags: [skills, skills-ai, prompts, agent, direct]
-updated: 2026-05-16
+updated: 2026-06-01
 title: "Prompts Prontos para Agente de Chat Local"
+date: 2026-06-01
 ---
 
 # Prompts Prontos para Agente de Chat Local

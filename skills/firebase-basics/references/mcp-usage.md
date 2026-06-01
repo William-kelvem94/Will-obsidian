@@ -1,3 +1,10 @@
+---
+title: "Firebase CLI and MCP server"
+date: 2026-06-01
+tags: [skills]
+updated: 2026-06-01
+---
+
 # Firebase CLI and MCP server
 
 The Firebase CLI includes a built-in local MCP server that can help with common

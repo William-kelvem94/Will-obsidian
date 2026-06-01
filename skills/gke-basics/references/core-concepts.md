@@ -1,3 +1,10 @@
+---
+title: "GKE Core Concepts"
+date: 2026-06-01
+tags: [skills]
+updated: 2026-06-01
+---
+
 # GKE Core Concepts
 
 Google Kubernetes Engine (GKE) is a managed Kubernetes platform for deploying, managing, and scaling containerized applications on Google Cloud infrastructure. It handles cluster provisioning, upgrades, and node management, letting teams focus on workloads rather than infrastructure.

@@ -1,9 +1,10 @@
 ---
 title: "Project Prioritization Protocol"
 description: "A non-sensitive scoring protocol for agents to compare projects, choose next actions, and explain tradeoffs."
-tags: [jarvis, project, prioritization, protocol, ops]
-updated: 2026-05-08
+tags: [jarvis, project, prioritization, protocol, ops, jarvis-operacao]
+updated: 2026-06-01
 status: active
+date: 2026-06-01
 ---
 
 # Project Prioritization Protocol

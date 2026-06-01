@@ -1,3 +1,10 @@
+---
+title: "Firewall Rule Logging Analysis Reference"
+date: 2026-06-01
+tags: [skills]
+updated: 2026-06-01
+---
+
 # Firewall Rule Logging Analysis Reference
 
 Use firewall logs (`compute.googleapis.com/firewall`) to verify if traffic is

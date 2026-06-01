@@ -2,15 +2,17 @@
 title: "Codebase Maps Index"
 description: "Indice RAG-friendly de mapas de codebase para agentes de programacao."
 created: 2026-05-08
-updated: 2026-05-08
+updated: 2026-06-01
 type: codebase-map-index
 domain: engineering
 tags:
   - jarvis
+  - jarvis-engenharia
   - engineering
   - codebase-map
   - rag
   - programming-agents
+date: 2026-06-01
 ---
 
 # Codebase Maps Index

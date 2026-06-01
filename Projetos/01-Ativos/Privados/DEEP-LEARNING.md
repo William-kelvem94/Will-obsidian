@@ -4,7 +4,7 @@ source: "C:/Users/willi/Documents/GitHub/DEEP-LEARNING"
 language: Python
 private: true
 description: "Sistema Deep Learning com agent, brain, RAG, speech, tools (calculator, search)."
-updated: 2026-05-03
+updated: 2026-06-01
 tags:
   - projetos
   - privados

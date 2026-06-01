@@ -1,8 +1,8 @@
 ---
-tags: [index, hub, dashboard, overview, vault, guia]
+tags: [index, hub, dashboard, overview, vault, guia, token-economy]
 title: "INDEX - Super Hub do Vault"
 date: 2026-05-24
-updated: 2026-05-24
+updated: 2026-06-01
 ---
 
 # 🗂️ Super Hub: Visão Geral e Navegação Rápida do Vault
@@ -39,6 +39,24 @@ updated: 2026-05-24
 - [[dashboards/Gap-Analysis|Gap Analysis de Skills]]
 - [[dashboards/Skill-Project-Matrix-Dinamica|Skill ↔ Projeto Dinâmico]]
 - [[JARVIS/05-System/Vault-Health-Dashboard|Vault Health Dashboard]]
+
+---
+
+## 💰 Token Economy — Otimização de Contexto para IAs
+
+> Recursos para máxima economia de tokens sem perder qualidade semântica
+- [[Knowledge-Base/TOKEN-ECONOMY|💰 Token Economy]] — Guia definitivo de otimização de tokens
+- [[Knowledge-Base/TOKEN-SHORTHAND|🔤 Token Shorthand]] — Abreviações padronizadas para máxima densidade
+- [[Knowledge-Base/DATA-TOKEN-GOVERNANCE|📊 Data & Token Governance]] — Eficácia, eficiência, controle e gerência
+- [[JARVIS/TOKEN-COMPRESSION|🧠 Token Compression]] — Compressão de contexto do JARVIS
+- [[Templates/Template-Prompt-Otimizado|⚡ Template Prompt Otimizado]] — Template de prompt enxuto
+- [[dashboards/TOKEN-COST-DASHBOARD|📈 Token Cost Dashboard]] — Monitoramento de custos
+
+## 🤖 Capacidades dos Agentes
+
+> Matrizes completas de habilidades para agentes IA programarem e pesquisarem
+- [[skills/AGENT-FULLSTACK-CAPABILITIES|🖥️ Fullstack Agent Capabilities]] — Stack completo de programação para agentes
+- [[skills/AGENT-RESEARCH-CAPABILITIES|🔬 Research Agent Capabilities]] — Metodologia de pesquisa técnica e científica
 
 ---
 

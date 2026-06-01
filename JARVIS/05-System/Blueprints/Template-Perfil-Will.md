@@ -2,7 +2,7 @@
 title: "Questionário — Quem é Will?"
 description: "Perguntas que o Jarvis deve fazer e responder para conhecer Will profundamente."
 tags: [jarvis, will, perfil, questionario, onboarding, jarvis-sistema]
-updated: 2026-05-03
+updated: 2026-06-01
 date: 2026-04-27
 ---
 

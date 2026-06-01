@@ -1,3 +1,10 @@
+---
+title: "Computação Distribuída Avançada e Edge AI"
+date: 2026-06-01
+tags: [skills]
+updated: 2026-06-01
+---
+
 # Computação Distribuída Avançada e Edge AI
 
 ## 1. Introdução Teórica Aprofundada

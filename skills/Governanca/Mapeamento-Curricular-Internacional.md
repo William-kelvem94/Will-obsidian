@@ -1,11 +1,12 @@
 ---
 title: "Mapeamento Curricular Internacional"
 area: "AI"
-tags: [conhecimento, conceito, curriculum, educacao, cursos, certificacao, roadmap, carreira]
+tags: [conhecimento, conceito, curriculum, educacao, cursos, certificacao, roadmap, carreira, skills]
 related: ["Machine-Learning-Fundamentos", "LLM-Fine-Tuning", "Data-Science-Fundamentos"]
 aliases: ["Curriculum Mapping", "Educational Pathways in AI", "Trilhas de Aprendizado em IA"]
 created: 2026-05-19
-updated: 2026-05-19
+updated: 2026-06-01
+date: 2026-06-01
 ---
 
 # Mapeamento Curricular Internacional

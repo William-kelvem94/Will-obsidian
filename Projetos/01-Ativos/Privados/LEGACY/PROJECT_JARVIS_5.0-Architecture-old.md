@@ -3,12 +3,13 @@ title: "PROJECT_JARVIS_5.0 Architecture"
 description: "Arquitetura proposta para o Jarvis multimodal: módulos, fluxos, dados e integração de assistente virtual completo." 
 tags:
   - jarvis
+  - projetos
   - privados
   - arquitetura
   - assistente
   - multimodal
 date: 2026-04-27
-updated: 2026-05-03
+updated: 2026-06-01
 ---
 
 # PROJECT_JARVIS_5.0 Architecture

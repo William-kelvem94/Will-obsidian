@@ -4,7 +4,8 @@ category: "Frontend"
 level: 2
 description: "A PR checklist focused on frontend quality: UX, a11y, performance, tests, and safe rollout."
 tags: [skills, frontend, pr-checklist]
-updated: 2026-05-08
+updated: 2026-06-01
+date: 2026-06-01
 ---
 
 # PR Checklist for Frontend Changes (Agents)

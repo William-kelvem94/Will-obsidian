@@ -3,7 +3,7 @@ title: "Preferências — Will"
 description: "Gostos, preferências e estilo pessoal de Will para o Jarvis personalizar interações."
 tags: [will, preferencias, personalidade, jarvis, perfil-identidade]
   - perfil
-updated: 2026-05-03
+updated: 2026-06-01
 date: 2026-04-27
 ---
 

@@ -2,7 +2,7 @@
 title: "Auto-boletos Codebase Map"
 description: "Mapa RAG-friendly do projeto Auto-boletos para agentes de programacao."
 created: 2026-05-08
-updated: 2026-05-08
+updated: 2026-06-01
 type: codebase-map
 project: Auto-boletos
 domain: engineering
@@ -15,12 +15,14 @@ vault_sources:
 confidence: vault-notes-only
 tags:
   - auto-boletos
+  - jarvis-engenharia
   - flask
   - playwright
   - ocr
   - docker
   - rag
   - codebase-map
+date: 2026-06-01
 ---
 
 # Auto-boletos Codebase Map

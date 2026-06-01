@@ -1,13 +1,14 @@
 ---
 title: "Kaggle — Datasets, Competições e Aprendizado em Ciência de Dados"
 description: "Guia completo sobre Kaggle: como usar datasets públicos, competições, notebooks e estratégias para aprender ciência de dados na prática."
-tags: [kaggle, datasets, competicao, data-science]
+tags: [kaggle, datasets, competicao, data-science, skills]
 nivel: intermediário
-updated: 2026-05-18
+updated: 2026-06-01
 backlinks: []
 assets: []
 referencias: []
 sensivel: false
+date: 2026-06-01
 ---
 
 # Kaggle — Datasets, Competições e Aprendizado em Ciência de Dados

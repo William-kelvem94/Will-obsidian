@@ -1,9 +1,9 @@
 ---
 title: "{{title}}"
 date: {{date}}
-tags: [template, projeto]
+tags: [template, projeto, jarvis]
 status: ideia
-updated: 2026-05-16
+updated: 2026-06-01
 ---
 
 # {{title}}

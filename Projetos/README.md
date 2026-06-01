@@ -1,7 +1,8 @@
 ---
 title: "README — Projetos, Objetivos e Dashboard"
 tags: [projetos, gerenciador, dashboard, index]
-updated: 2026-05-24
+updated: 2026-06-01
+date: 2026-06-01
 ---
 # Projetos — Visão Central
 

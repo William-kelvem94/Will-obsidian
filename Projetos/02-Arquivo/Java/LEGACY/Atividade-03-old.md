@@ -4,7 +4,7 @@ source: "https://github.com/William-kelvem94/Atividade-03"
 private: false
 language: Java
 description: "Atividade Java 03 - Placeholder"
-updated: 2026-05-03
+updated: 2026-06-01
 tags:
   - projetos
   - publicos

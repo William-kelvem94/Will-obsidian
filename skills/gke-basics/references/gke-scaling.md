@@ -1,3 +1,10 @@
+---
+title: "GKE Workload Scaling"
+date: 2026-06-01
+tags: [skills]
+updated: 2026-06-01
+---
+
 # GKE Workload Scaling
 
 This reference covers scaling workloads on GKE. The golden path enables VPA, OPTIMIZE_UTILIZATION autoscaling profile, and Node Auto Provisioning by default.
