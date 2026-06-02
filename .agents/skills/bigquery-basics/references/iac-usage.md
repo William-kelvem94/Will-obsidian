@@ -1,3 +1,10 @@
+---
+title: "BigQuery Infrastructure as Code"
+date: 2026-06-01
+tags: [skills]
+updated: 2026-06-01
+---
+
 # BigQuery Infrastructure as Code
 
 Managing BigQuery resources using Infrastructure as Code (IaC) ensures

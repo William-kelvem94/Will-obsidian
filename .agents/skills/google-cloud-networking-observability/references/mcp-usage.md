@@ -1,3 +1,10 @@
+---
+title: "MCP Server Usage Reference"
+date: 2026-06-01
+tags: [skills]
+updated: 2026-06-01
+---
+
 # MCP Server Usage Reference
 
 This document describes the Model Context Protocol (MCP) servers used for GCP

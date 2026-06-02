@@ -1,3 +1,10 @@
+---
+title: "BigQuery Client Libraries"
+date: 2026-06-01
+tags: [skills]
+updated: 2026-06-01
+---
+
 # BigQuery Client Libraries
 
 Google Cloud client libraries provide an idiomatic way to interact with BigQuery

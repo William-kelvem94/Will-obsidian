@@ -1,3 +1,10 @@
+---
+title: "BigQuery CLI Usage"
+date: 2026-06-01
+tags: [skills]
+updated: 2026-06-01
+---
+
 # BigQuery CLI Usage
 
 The `bq` command-line tool is used to interact with BigQuery for managing

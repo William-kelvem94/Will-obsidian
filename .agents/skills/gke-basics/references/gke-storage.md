@@ -1,3 +1,10 @@
+---
+title: "GKE Storage"
+date: 2026-06-01
+tags: [skills]
+updated: 2026-06-01
+---
+
 # GKE Storage
 
 This reference covers storage configuration for GKE clusters including persistent disks, file storage, and cloud storage integration.

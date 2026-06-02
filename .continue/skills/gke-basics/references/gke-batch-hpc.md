@@ -1,3 +1,10 @@
+---
+title: "GKE Batch & HPC Workloads"
+date: 2026-06-01
+tags: [skills]
+updated: 2026-06-01
+---
+
 # GKE Batch & HPC Workloads
 
 This reference covers running batch processing and high-performance computing (HPC) workloads on GKE.

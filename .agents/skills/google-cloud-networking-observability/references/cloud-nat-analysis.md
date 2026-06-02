@@ -1,3 +1,10 @@
+---
+title: "Cloud NAT Analysis Reference"
+date: 2026-06-01
+tags: [skills]
+updated: 2026-06-01
+---
+
 # Cloud NAT Analysis Reference
 
 Use Cloud NAT logs (`compute.googleapis.com/nat_flows`) to audit traffic going

@@ -1,3 +1,10 @@
+---
+title: "Safety Settings and Responsible AI"
+date: 2026-06-01
+tags: [skills]
+updated: 2026-06-01
+---
+
 # Safety Settings and Responsible AI
 
 You can adjust safety settings to control the thresholds for harmful content generation. Standard safety filters are applied by default.

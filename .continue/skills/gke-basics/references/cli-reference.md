@@ -1,3 +1,10 @@
+---
+title: "CLI & Tool Reference for GKE"
+date: 2026-06-01
+tags: [skills]
+updated: 2026-06-01
+---
+
 # CLI & Tool Reference for GKE
 
 ## Tool Preference

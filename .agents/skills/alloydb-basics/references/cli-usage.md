@@ -1,3 +1,10 @@
+---
+title: "AlloyDB CLI Usage"
+date: 2026-06-01
+tags: [skills]
+updated: 2026-06-01
+---
+
 # AlloyDB CLI Usage
 
 AlloyDB resources are managed using the `gcloud alloydb` command group.

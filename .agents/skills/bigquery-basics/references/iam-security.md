@@ -1,3 +1,10 @@
+---
+title: "BigQuery IAM & Security"
+date: 2026-06-01
+tags: [skills]
+updated: 2026-06-01
+---
+
 # BigQuery IAM & Security
 
 BigQuery uses Identity and Access Management (IAM) to provide granular access

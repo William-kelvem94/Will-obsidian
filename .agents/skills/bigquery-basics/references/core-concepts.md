@@ -1,3 +1,10 @@
+---
+title: "BigQuery Core Concepts"
+date: 2026-06-01
+tags: [skills]
+updated: 2026-06-01
+---
+
 # BigQuery Core Concepts
 
 BigQuery is a fully managed, AI-ready data platform that helps you manage and

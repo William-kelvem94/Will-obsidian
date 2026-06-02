@@ -1,3 +1,10 @@
+---
+title: "Google Cloud Setup"
+date: 2026-06-01
+tags: [skills]
+updated: 2026-06-01
+---
+
 # Google Cloud Setup
 
 This guide provides an overview of the enterprise-level setup process for

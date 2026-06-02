@@ -1,3 +1,10 @@
+---
+title: "GKE ComputeClasses"
+date: 2026-06-01
+tags: [skills]
+updated: 2026-06-01
+---
+
 # GKE ComputeClasses
 
 ComputeClasses allow declarative node configuration and autoscaling priorities in GKE Autopilot (and Standard with NAP). Use them to specify machine families, Spot VM fallback, GPU requirements, and zone targeting.

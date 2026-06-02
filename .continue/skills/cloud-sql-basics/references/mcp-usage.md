@@ -1,3 +1,10 @@
+---
+title: "Cloud SQL MCP Usage"
+date: 2026-06-01
+tags: [skills]
+updated: 2026-06-01
+---
+
 # Cloud SQL MCP Usage
 
 Cloud SQL can be managed via the Model Context Protocol (MCP), which allows

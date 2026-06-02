@@ -1,3 +1,10 @@
+---
+title: "GKE Multi-Tenancy"
+date: 2026-06-01
+tags: [skills]
+updated: 2026-06-01
+---
+
 # GKE Multi-Tenancy
 
 This reference covers enterprise multi-tenancy patterns on GKE, including namespace isolation, RBAC planning, resource quotas, and network segmentation.

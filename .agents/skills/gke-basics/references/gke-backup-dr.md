@@ -1,3 +1,10 @@
+---
+title: "GKE Backup & Disaster Recovery"
+date: 2026-06-01
+tags: [skills]
+updated: 2026-06-01
+---
+
 # GKE Backup & Disaster Recovery
 
 This reference provides workflows for protecting stateful workloads on GKE using Backup for GKE.

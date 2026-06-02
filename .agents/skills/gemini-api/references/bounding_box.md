@@ -1,3 +1,10 @@
+---
+title: "Bounding Box Detection"
+date: 2026-06-01
+tags: [skills]
+updated: 2026-06-01
+---
+
 # Bounding Box Detection
 
 Detect and localize objects within images or videos using bounding boxes. The model returns coordinates in the format `[y_min, x_min, y_max, x_max]`, normalized from 0 to 1000.

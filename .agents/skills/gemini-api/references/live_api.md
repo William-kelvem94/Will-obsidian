@@ -1,3 +1,10 @@
+---
+title: "Live API"
+date: 2026-06-01
+tags: [skills]
+updated: 2026-06-01
+---
+
 # Live API
 
 The Live API provides real-time, low-latency bidirectional streaming via WebSockets. It is ideal for interactive voice and video applications.

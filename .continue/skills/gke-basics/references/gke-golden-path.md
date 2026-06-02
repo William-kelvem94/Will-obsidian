@@ -1,3 +1,10 @@
+---
+title: "GKE Golden Path Configuration"
+date: 2026-06-01
+tags: [skills]
+updated: 2026-06-01
+---
+
 # GKE Golden Path Configuration
 
 The golden path is the recommended Autopilot configuration for production clusters. It defines sensible defaults — when the user requests different settings, apply them and note relevant trade-offs.

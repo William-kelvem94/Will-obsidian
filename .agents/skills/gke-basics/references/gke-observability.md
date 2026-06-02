@@ -1,3 +1,10 @@
+---
+title: "GKE Observability"
+date: 2026-06-01
+tags: [skills]
+updated: 2026-06-01
+---
+
 # GKE Observability
 
 This reference covers monitoring, logging, and metrics configuration for GKE. The golden path enables comprehensive observability including control-plane metrics.

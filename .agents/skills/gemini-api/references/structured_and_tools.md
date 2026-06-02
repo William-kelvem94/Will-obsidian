@@ -1,3 +1,10 @@
+---
+title: "Structured Output and Tools"
+date: 2026-06-01
+tags: [skills]
+updated: 2026-06-01
+---
+
 # Structured Output and Tools
 
 ## Structured Output (JSON Schema)

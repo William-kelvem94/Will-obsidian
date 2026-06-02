@@ -1,3 +1,10 @@
+---
+title: "AlloyDB MCP Usage"
+date: 2026-06-01
+tags: [skills]
+updated: 2026-06-01
+---
+
 # AlloyDB MCP Usage
 
 AlloyDB supports a remote Model Context Protocol (MCP) server, allowing AI

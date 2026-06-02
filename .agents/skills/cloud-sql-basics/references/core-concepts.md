@@ -1,3 +1,10 @@
+---
+title: "Cloud SQL Core Concepts"
+date: 2026-06-01
+tags: [skills]
+updated: 2026-06-01
+---
+
 # Cloud SQL Core Concepts
 
 Cloud SQL provides managed relational databases, abstracting the underlying

@@ -1,3 +1,10 @@
+---
+title: "GKE AI/ML Inference"
+date: 2026-06-01
+tags: [skills]
+updated: 2026-06-01
+---
+
 # GKE AI/ML Inference
 
 This reference covers deploying AI/ML inference workloads on GKE using Google's Inference Quickstart (GIQ) and best practices for LLM serving.

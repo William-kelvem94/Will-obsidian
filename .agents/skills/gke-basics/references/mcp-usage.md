@@ -1,3 +1,10 @@
+---
+title: "GKE MCP Server Usage"
+date: 2026-06-01
+tags: [skills]
+updated: 2026-06-01
+---
+
 # GKE MCP Server Usage
 
 The GKE MCP server provides 23 structured tools for cluster management, Kubernetes resource operations, and diagnostics — without requiring shell access or kubeconfig setup.

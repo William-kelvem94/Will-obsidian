@@ -1,3 +1,10 @@
+---
+title: "GKE App Onboarding"
+date: 2026-06-01
+tags: [skills]
+updated: 2026-06-01
+---
+
 # GKE App Onboarding
 
 This reference provides workflows for containerizing and deploying applications to GKE for the first time.

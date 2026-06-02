@@ -1,3 +1,10 @@
+---
+title: "Additional Skills"
+date: 2026-06-01
+tags: [skills]
+updated: 2026-06-01
+---
+
 ## Additional Published Skills
 
 The following skills and reference files are published in the

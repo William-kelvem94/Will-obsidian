@@ -1,3 +1,10 @@
+---
+title: "GKE Client Libraries"
+date: 2026-06-01
+tags: [skills]
+updated: 2026-06-01
+---
+
 # GKE Client Libraries
 
 To interact with the GKE (Kubernetes) API programmatically, use the official

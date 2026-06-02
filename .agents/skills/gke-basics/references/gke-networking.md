@@ -1,3 +1,10 @@
+---
+title: "GKE Networking"
+date: 2026-06-01
+tags: [skills]
+updated: 2026-06-01
+---
+
 # GKE Networking
 
 This reference covers networking configuration for GKE clusters. The golden path enforces private, VPC-native clusters with Dataplane V2.

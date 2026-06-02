@@ -1,3 +1,10 @@
+---
+title: "GKE Upgrades & Maintenance"
+date: 2026-06-01
+tags: [skills]
+updated: 2026-06-01
+---
+
 # GKE Upgrades & Maintenance
 
 This reference covers upgrade strategy, maintenance windows, and release channel management for GKE clusters.

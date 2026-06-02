@@ -1,3 +1,10 @@
+---
+title: "Firebase client library usage"
+date: 2026-06-01
+tags: [skills]
+updated: 2026-06-01
+---
+
 # Firebase client library usage
 
 Firebase provides SDKs for both client-side application development and

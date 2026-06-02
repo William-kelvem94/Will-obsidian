@@ -1,3 +1,10 @@
+---
+title: "GKE Cost Optimization"
+date: 2026-06-01
+tags: [skills]
+updated: 2026-06-01
+---
+
 # GKE Cost Optimization
 
 This reference covers strategies for reducing GKE costs while maintaining the golden path security and reliability posture.

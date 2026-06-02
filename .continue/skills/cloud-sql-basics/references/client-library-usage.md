@@ -1,3 +1,10 @@
+---
+title: "Cloud SQL Client Libraries"
+date: 2026-06-01
+tags: [skills]
+updated: 2026-06-01
+---
+
 # Cloud SQL Client Libraries
 
 Google Cloud provides client libraries and connectors to simplify connecting to

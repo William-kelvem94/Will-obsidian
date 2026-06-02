@@ -1,3 +1,10 @@
+---
+title: "Cloud Run MCP Usage"
+date: 2026-06-01
+tags: [skills]
+updated: 2026-06-01
+---
+
 # Cloud Run MCP Usage
 
 Cloud Run is supported by a remote Model Context Protocol (MCP) server that

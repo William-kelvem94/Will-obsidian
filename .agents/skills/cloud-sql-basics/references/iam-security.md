@@ -1,3 +1,10 @@
+---
+title: "Cloud SQL IAM & Security"
+date: 2026-06-01
+tags: [skills]
+updated: 2026-06-01
+---
+
 # Cloud SQL IAM & Security
 
 Cloud SQL uses Identity and Access Management (IAM) to control access to

@@ -1,3 +1,10 @@
+---
+title: "Text and Multimodal Embeddings"
+date: 2026-06-01
+tags: [skills]
+updated: 2026-06-01
+---
+
 # Text and Multimodal Embeddings
 
 Generate embeddings for text or multimodal content (images and videos) to perform semantic search, clustering, and other NLP tasks. Text and multimodal embedding vectors share the same semantic space, which allows you to use them interchangeably for cross-modal applications like searching for an image using a text query, or searching for a video using an image.

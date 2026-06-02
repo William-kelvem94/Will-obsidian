@@ -1,3 +1,10 @@
+---
+title: "Firebase CLI usage"
+date: 2026-06-01
+tags: [skills]
+updated: 2026-06-01
+---
+
 # Firebase CLI usage
 
 The Firebase CLI (`firebase-tools`) is the primary tool for managing Firebase
