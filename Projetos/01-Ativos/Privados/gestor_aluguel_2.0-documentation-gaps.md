@@ -2,7 +2,7 @@
 title: "Gestor de Aluguel 2.0 - Documentacao e Governanca"
 date: 2026-06-01
 tags: [projetos]
-updated: 2026-06-01
+updated: 2026-06-03
 ---
 
 # Gestor de Aluguel 2.0 - Documentacao e Governanca
@@ -15,6 +15,11 @@ Foram criados no projeto:
 - `docs/RESPONSIVE_ACCEPTANCE_MATRIX.md`
 - `docs/OPERATIONS_RUNBOOK.md`
 - `docs/INTEGRATION_CONTRACTS.md`
+- `docs/relatorios/analises/Roteiro_Capitulo_4_Execucao_Online.md` (Roteiro de Validação do Capítulo 4)
+- `docs/relatorios/analises/Validacao_Online_Capitulo_4_2026-05-31.md` (Relatório de Validação de Produção)
+- `docs/guias/ia/analise-risco-ia.md` (Matriz de Riscos de IA Generativa)
+- `docs/permissoes/restricao-edicao-colaborativa-inquilinos.md` (Regras de RBAC para WebSocket/Yjs)
+- `docs/relatorios/backup/` (Diretório seguro de backups de evidências Word do TCC)
 
 E o indice principal foi atualizado em:
 

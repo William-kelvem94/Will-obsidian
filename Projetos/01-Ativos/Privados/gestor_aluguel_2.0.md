@@ -4,7 +4,7 @@ source: "d:/Documents/GitHub/gestor_aluguel_2.0"
 language: TypeScript
 private: true
 description: "SaaS Imobiliário Enterprise: Next.js 15, Multi-tenant, AI-Driven."
-updated: 2026-06-01
+updated: 2026-06-03
 tags: [privados, nextjs, typescript, prisma, saas, ai, projetos]
 date: 2026-04-27
 ---
@@ -31,10 +31,10 @@ Plataforma SaaS imobiliário completo com gestão de imóveis, inquilinos, contr
 
 **Estratégia**: [[../EstudosFocados/gestor_aluguel_2.0|Roadmap de Evolução SaaS]]
 
-## 📈 Atualizações Recentes (Maio 2026)
-- **Editor de Contratos (TipTap)**: Implementada a `VariableExtension` atômica para proteger variáveis dinâmicas (`{{chave}}`) no modo de edição, preservando retrocompatibilidade total de regex.
-- **Autosave Preditivo**: Introdução de salvamento automático com *debounce* reativo no `CollaborativeContractEditor.tsx`.
-- **Governança de UI**: Formulários públicos protegidos com cooldown/rate limiting. Tela de recuperação de senha mantida em BLACKLIST de edição (`/auth/forgot-password`).
-- **Resiliência de CI/CD**: Solução definitiva de falhas no Build/Lint/Type Check na Vercel via correção da árvore de JSX, escopo léxico de Hooks (`useEditor`) e higienização estrita de `react-hooks/exhaustive-deps`.
+## 📈 Atualizações Recentes (Junho 2026)
+- **Organização de Arquivos e Logs**: Centralização de arquivos temporários de teste e logs na raiz do projeto para subpastas dedicadas `/logs` e `/temp`, mantendo o repositório organizado e o Git devidamente configurado para ignorá-los.
+- **Sinalização do Capítulo 4 do TCC**: Consolidação física e linkagem no índice `docs/README.md` de todos os relatórios de validação, roteiros e backups de evidências Word (`.docx`).
+- **Compatibilidade Local com Windows**: Ajuste de incompatibilidades de shell Unix (`rm -rf` no script `clean` e crashes de caminho no analisador de projeto) para permitir o funcionamento perfeito de todas as ferramentas locais do desenvolvedor no Windows.
+- **Validação de E2E no Vercel**: Restauração da configuração do Playwright para rodar testes diretamente contra o site hospedado em produção no Vercel (`https://gestor-aluguel-2-0.vercel.app`).
 
 **Links:** [[gestor_aluguel_2.0-tcc-analise-evolucao|📄 Análise TCC]] | [[GitHub-Completo]] | [[Projetos/03-Estudos/EstudosPesquisas/README|🔬 Recursos]] #saas #enterprise #nextjs #prisma #tcc
