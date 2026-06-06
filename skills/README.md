@@ -1,7 +1,7 @@
 ---
 title: "README - Skills e Navegação Visual"
 tags: [skills, hub, index, taxonomy]
-updated: 2026-06-01
+updated: 2026-06-05
 date: 2026-06-01
 ---
 

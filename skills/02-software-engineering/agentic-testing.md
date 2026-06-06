@@ -2,7 +2,7 @@
 title: "Agentic Testing"
 description: "Skill: gerar e manter testes com IA sem criar suite fragil ou lenta."
 tags: [skill, software-engineering, testing, agents, skills-eng]
-updated: 2026-06-01
+updated: 2026-06-05
 status: active
 date: 2026-06-01
 ---

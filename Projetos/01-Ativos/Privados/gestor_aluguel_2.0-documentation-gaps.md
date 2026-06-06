@@ -1,8 +1,8 @@
 ---
 title: "Gestor de Aluguel 2.0 - Documentacao e Governanca"
 date: 2026-06-01
-tags: [projetos]
-updated: 2026-06-03
+tags: [projetos, privados]
+updated: 2026-06-05
 ---
 
 # Gestor de Aluguel 2.0 - Documentacao e Governanca

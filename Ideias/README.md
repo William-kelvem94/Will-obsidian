@@ -17,9 +17,9 @@ Exemplo rápido:
 Antes de criar arquivo novo, avalie se ele deve ser movido/convertido em projeto/nota atômica ou referenciado no [[INDEX]].
 
 - [[BRAINSTORM-GIGANTE]]
-- [[Clippings.md]]
-- [[analise-completa.md]]
-- [[conexoes_sugeridas.md]]
+- [[Clippings/Clippings|Clippings]]
+- [[dashboards/analise-completa|analise-completa]]
+- [[dashboards/conexoes_sugeridas|conexoes_sugeridas]]
 - [[Cerebro-Will.md]]
 
 Se criar novo draft, vincule no [[INDEX]] ou mova para o local definitivo no futuro!

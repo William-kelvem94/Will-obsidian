@@ -3,12 +3,13 @@ title: "TCC - Análise de Evolução: gestor_aluguel_2.0"
 description: "Documentação completa da análise comparativa entre o TCC 1 (documento Monografia) e o código real do projeto gestor_aluguel_2.0. Tecnologias removidas, acrescentadas, e o que precisa mudar em cada seção do TCC."
 tags:
   - gestor
+  - privados
   - projetos
   - tcc
   - analise
   - evolucao
   - documentacao
-updated: 2026-06-01
+updated: 2026-06-05
 date: 2026-05-22
 private: true
 source: "D:/GitHub/gestor_aluguel_2.0"

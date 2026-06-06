@@ -2,7 +2,7 @@
 title: "Perfil — William Pereira (kelvem94)"
 description: "Quem é Will: identidade, habilidades, projetos, estilo de trabalho e contexto de vida."
 tags: [will, perfil, identidade, jarvis, perfil-identidade]
-updated: 2026-06-01
+updated: 2026-06-05
 date: 2026-04-27
 ---
 
@@ -17,7 +17,7 @@ date: 2026-04-27
 - **Alias GitHub:** kelvem94
 - **Localização:** Brasil
 - **Idioma principal:** Português (BR), inglês técnico
-- **GitHub:** https://github.com/William-kelvem94 (67+ repos)
+- **GitHub:** https://github.com/William-kelvem94 (78 repos)
 
 ## 💻 Stack Técnica
 

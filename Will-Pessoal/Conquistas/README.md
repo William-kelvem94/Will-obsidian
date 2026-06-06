@@ -2,7 +2,7 @@
 title: "🏆 Central de Conquistas"
 description: "Galeria de todas as conquistas e badges desbloqueados no vault."
 tags: [conquista, badge, hub, galeria, perfil]
-updated: 2026-06-01
+updated: 2026-06-05
 total_badges: 10/15
 total_xp: 165
 date: 2026-06-01

@@ -1,6 +1,6 @@
 # Skills Gap Report
 
-Generated: 2026-04-29 12:06:51
+Generated: 2026-06-05 22:24:52
 
 ## Missing Skills Referenced by Projects
 
@@ -8,53 +8,220 @@ Generated: 2026-04-29 12:06:51
 
 ## Defined Skills Not Referenced by Projects
 
-- advanced reasoning patterns: react, tot e reflexion
+- accessibility checklist (agents)
+- additional skills
+- advanced features
+- advanced reasoning patterns: react, tot, cot e reflexion
+- agent runbook template
+- agentic code review
+- agentic debugging
+- agentic testing
+- ai — índice de conhecimento
+- algoritmos e estruturas de dados avancados
+- alloydb basics
+- alloydb cli usage
+- alloydb client libraries & connectors
+- alloydb core concepts
+- alloydb iam & security
+- alloydb infrastructure as code usage
+- alloydb mcp usage
+- api contracts and compatibility
+- api design - contract-first api development
 - application monitoring
+- architecture patterns - software architecture
 - arquitetura backend avançada (python & ts)
-- arquitetura de memória para agentes: episódica, semântica e trabalho
+- arquitetura de memoria para agentes: episodica, semantica e trabalho
+- arquiteturas multi-agente: crewai, autogen e langgraph
+- authenticating to google cloud
 - autonomous agent workflows (aaw)
-- backend skills - node/express/python
-- boas práticas — vs code ai
-- casos de uso — vs code ai
-- categorias de skills para ia no vs code
+- avaliacao e seguranca de agentes de ia
+- backend skills - fastapi, express, autenticacao
+- bigquery basics
+- bigquery cli usage
+- bigquery client libraries
+- bigquery core concepts
+- bigquery iam & security
+- bigquery infrastructure as code
+- bigquery mcp usage
+- boas praticas — inteligencia agentica
+- bounding box detection
+- casos de uso — inteligencia agentica
+- categorias de skills para ia
+- ci/cd e gitops - index
+- cli & tool reference for gke
+- cloud architecture
+- cloud nat analysis reference
+- cloud run basics
+- cloud run cli
+- cloud run client libraries
+- cloud run core concepts
+- cloud run iam & security
+- cloud run infrastructure as code
+- cloud run mcp usage
+- cloud sql basics
+- cloud sql cli usage
+- cloud sql client libraries
+- cloud sql core concepts
+- cloud sql iam & security
+- cloud sql infrastructure as code
+- cloud sql mcp usage
+- component boundaries and ownership (agent playbook)
+- computação distribuída avançada e edge ai
+- computer vision
 - comunicação técnica
-- database skills - sql/nosql
+- connectivity tests reference
+- context engineering checklist
+- data cleaning — limpeza e pré-processamento de dados
+- data engineering - index
+- database skills - sql, nosql, otimizacao
+- db migrations and zero-downtime changes
+- desenvolvimento mobile
+- desenvolvimento mobile - react native, flutter e padroes nativos
+- desenvolvimento web avancado - websockets, webrtc, pwa, performance e seguranca
+- design patterns - gof catalog
+- distributed systems
 - engenharia de prompts
+- environment promotion
 - estratégias avançadas de rag (graphrag e híbrido)
+- etl/elt pipelines - data pipeline engineering
+- explainable ai (xai)
+- explainable ai (xai), fairness e accountability — expansão completa
+- feature flags for agents
 - finops
-- frontend skills - react/vue/js
+- firebase basics
+- firebase cli and mcp server
+- firebase cli usage
+- firebase client library usage
+- firebase core concepts
+- firebase iac usage
+- firebase security-related features
+- firewall rule logging analysis reference
+- frontend performance and bundle discipline (agents)
+- frontend skills - react, vue, gerenciamento de estado
+- frontend skills index (addon)
+- gemini api in agent platform
 - generative models
 - gestão de memória long-term (ltm)
-- integrações mcp e infraestrutura local de ia
+- gestão de projetos — metodologias ágeis, scrum, kanban e estratégia
+- github actions
+- gke ai/ml inference
+- gke app onboarding
+- gke backup & disaster recovery
+- gke batch & hpc workloads
+- gke client libraries
+- gke cluster creation
+- gke computeclasses
+- gke core concepts
+- gke cost optimization
+- gke golden path configuration
+- gke infrastructure as code
+- gke mcp server usage
+- gke multi-tenancy
+- gke networking
+- gke observability
+- gke reliability
+- gke security
+- gke storage
+- gke upgrades & maintenance
+- gke workload scaling
+- google cloud networking observability expert
+- google cloud setup
+- google cloud well-architected framework skill for the cost optimization pillar
+- google cloud well-architected framework skill for the reliability pillar
+- google cloud well-architected framework skill for the security pillar
+- google kubernetes engine (gke) basics
+- governança de dados avançada: lgpd, ai act, data mesh, privacy engineering
+- human agent collaboration loop
+- i18n patterns and localization (agents)
+- incident response (practical)
+- indice de inteligencia agentica — jarvis
+- integracoes mcp avancadas e infraestrutura local de ia
+- integration patterns (agent-friendly)
+- kaggle — datasets, competições e aprendizado em ciência de dados
 - kubernetes
+- leaderboard de xp - skills
+- live api
+- llm fine-tuning
+- llmops
 - local llm operations (llmops)
+- log query cheatsheet
+- logging (practical)
+- mapeamento curricular internacional
 - mapeamento sfia
+- matriz skills-projetos
+- mcp avancado e descoberta dinamica de ferramentas
 - mcp ecosystem & servers
 - mcp para vs code ai
+- mcp server usage reference
+- media generation
+- memory curation for agents
+- meta-aprendizagem e automl — guia ultra-detalhado
+- metrics (practical)
 - mini-agent de ia para vs code
+- minimal alerting policy
 - mlops
-- multi-agent orchestration & subagent pipelines
+- model tuning
+- networking metrics reference
+- next.js app router patterns (agent playbook)
 - observabilidade
+- observability (practical)
 - obsidian neural vault
-- operadores mcp para vs code ai
-- orquestração e consenso multi-agentes
+- onboarding to google cloud
+- operadores mcp para inteligencia agentica
+- operational security (minimum)
+- orquestracao e consenso multi-agentes
+- orquestracao multi-agente e pipelines de subagentes
+- owasp top 10 (2021)
+- performance engineering - full-stack performance
 - postgresql avançado: a arquitetura do titã de dados e a revolução vetorial em ia
+- pr checklist for frontend changes (agents)
 - product management
 - programador agent
 - programador e pesquisador agent
 - prompt engineering
+- prompt injection defense
 - prompt templates para vs code ai
+- promptlayer — gerenciamento e observabilidade de prompts
 - prompts para project_jarvis_5.0
 - prompts prontos para agente de chat local
 - quick start — vs code ai
+- rag avancado e graphrag: recuperacao hibrida e indexacao semantica
 - rag implementation
-- referência rápida — vs code ai
+- rag-friendly note design
+- referencia rapida — inteligencia agentica
 - reinforcement learning
-- sistemas de conhecimento e rag avançado
+- response evaluation rubric
+- rollback and release strategies
+- runbooks for agents
+- safety settings and responsible ai
+- scikit-learn — machine learning em python
+- secrets management
+- secure coding practices
+- seguranca da informacao - index
+- segurança e ética operacional de ia
+- semantic release
+- sistemas de conhecimento e rag avancado
+- skills, mcps e agentes - claude code, firecrawl e stack padrão
+- slo/sli/sla (basics)
 - software engineering & architecture - index
+- software engineering - index addon (agents)
+- solid principles and clean code
+- stream processing - real-time data engineering
+- structured output and tools
+- supply chain security
+- tailwind and shadcn/ui conventions (agent standards)
 - templates de prompt — vs code ai
+- test pyramid (realistic) for agents
+- testing advanced
 - testing architecture
-- vs code ai skills — index
+- testing ui practical (agents)
+- text and multimodal embeddings
+- text and multimodal generation
+- threat log analysis reference
+- tracing (practical)
+- typescript avancado - sistema de tipos, genericos e programacao em nivel de tipo
+- vpc flow analysis reference
 - web components
 - workflows avançados — vs code ai
-- 📊 matriz de skills x projetos (neural edition)
+- 🔬 research agent capabilities — habilidades de pesquisa para agentes ia
+- 🖥️ fullstack agent capabilities — habilidades de programação para agentes ia

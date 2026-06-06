@@ -4,7 +4,7 @@ description: "Recomendação gerada automaticamente em 2026-05-19 com base em ga
 tags: [jarvis, recomendacao, estudo, auto-generated, jarvis-operacao]
 generated: 2026-05-19 13:40:12
 date: 2026-06-01
-updated: 2026-06-01
+updated: 2026-06-05
 ---
 
 # 🎯 Próximo Estudo — Recomendação Automática

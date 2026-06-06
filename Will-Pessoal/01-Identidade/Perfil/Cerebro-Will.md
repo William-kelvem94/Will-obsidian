@@ -1,83 +1,63 @@
 ---
 title: "Cérebro Will - Base Completa Perfil + Projetos"
-description: "RAG-ready vault sobre William-kelvem94 para IA local (Ollama + FAISS). Perfil, skills, 67 repos, evoluções."
-updated: 2026-06-01
-tags: [cerebro, rag, perfil, hub, ia-local, perfil-identidade]
-date: 2026-04-27
+description: "Base de conhecimento RAG-ready completa sobre William Pereira (kelvem94) para uso com Ollama + FAISS. Perfil detalhado, skills, 67 repositórios, clones locais e visão de futuro."
+tags: [cerebro, rag, perfil, projetos, second-brain, perfil-identidade]
+updated: 2026-06-05
+date: 2026-06-05
 ---
 
-# 🧠 Cérebro Will: Mente Operacional [[Projetos]] [[Will-Pessoal/01-Identidade/Perfil/William-kelvem94 Overview|Overview]]
+# Cérebro Will — Meu Segundo Cérebro Completo para IA Local
 
-Este arquivo é a **âncora de contexto** para IAs locais. Ele define quem é o William, suas competências técnicas e a visão estratégica dos seus projetos.
+Este arquivo é a **fonte da verdade** que eu entrego para qualquer modelo local (Ollama + FAISS + LangChain). Ele contém meu perfil, stack, trajetória, projetos e visão de longo prazo.
 
-## 📍 Organização do Cérebro
-- `Will-Pessoal/Perfil/Cerebro-Will.md` é a base pessoal canônica para IA local e RAG.
-- `JARVIS/README.md` e `JARVIS/KnowledgeBase/SegundoCerebro.md` são o segundo cérebro operacional e de memória ativa.
-- `Projetos/` e `Projetos/EstudosFocados/` fornecem o contexto de execução e planejamento de projetos.
-- Use `Will-Pessoal/Perfil/Cerebro-Will.md` como primeiro ponto de consulta para qualquer agente que precise entender o Will.
+## 👤 Perfil William Pereira (kelvem94)
 
-## 👤 Perfil: William Pereira (@kelvem94)
-- **Role**: Software Engineer & AI Researcher.
-- **Especialidade**: Arquiteturas Fullstack Multi-tenant e Agentes Autônomos.
-- **Localização**: Brasil 🇧🇷.
-- **GitHub**: [William-kelvem94](https://github.com/William-kelvem94) (67repos).
+- **Nome completo**: William Pereira  
+- **GitHub**: [William-kelvem94](https://github.com/William-kelvem94) (67 repositórios públicos + privados)  
+- **Especialização principal**: Fullstack + AI Local + Automação  
+- **Linguagens dominantes**: Python (40%), TypeScript/JavaScript (25%), PHP (20%), Java/C# (15%)  
+- **Foco atual (2026)**: Construção do **Projeto JARVIS** (agente local multimodal), SaaS com Next.js + Prisma multi-tenant e automações de alto valor (Playwright, OCR, voice/vision).
 
-## 📊 Tech Stack Radar (Proficiência)
-| Domínio | Tecnologias Principais | Nível |
-|---|---|---|
-| **AI & ML** | Ollama, FAISS, LangChain, Whisper, Gemini API | 🟢 Avançado |
-| **Backend** | Python (FastAPI/Flask), Node.js, PHP, Prisma | 🟢 Avançado |
-| **Frontend** | Next.js, React, TailwindCSS, Shadcn/UI | 🟡 Intermediário |
-| **DevOps** | Docker, Traefik, PostgreSQL, Neon DB | 🟡 Intermediário |
-| **Mobile/PWA** | Flutter, PWA (CSS/JS) | 🟠 Básico |
+**Características pessoais que definem meu trabalho**:
+- Obsessão por sistemas que se mantêm sozinhos (automação pesada).
+- Preferência por soluções locais e open-source (Ollama, FAISS, Docker, Traefik).
+- Mentalidade de engenheiro de conhecimento: tudo deve ser indexável, versionado e consultável por IA.
 
-## 🚀 Projetos Estratégicos (Top 3)
-1. **[[Projetos/01-Ativos/Privados/gestor_aluguel_2.0|Gestor Aluguel 2.0]]**: SaaS imobiliário complexo com lógica de negócio massiva.
-2. **[[Projetos/01-Ativos/Privados/IA-LOCAL|JARVIS / IA-LOCAL]]**: Integração total de voz, visão e automação local.
-3. **[[Projetos/01-Ativos/Privados/Auto-boletos|Auto-boletos]]**: Automação crítica com Playwright e OCR.
+## 🧠 Skills Principais (detalhadas)
 
-## 🔬 Visão 2026: Autonomia Total
-A meta é transicionar de "Ferramentas" para "Entidades Autônomas".
-- **Fase 1**: RAG eficiente sobre este vault Obsidian (Concluído ✅).
-- **Fase 2**: Agentes que executam tarefas de UI (Controle de mouse/teclado via JARVIS).
-- **Fase 3**: Auto-evolução (Agentes que codificam melhorias em si mesmos).
+- Docker em produção + multi-stage + Traefik
+- Prisma + multi-tenant SaaS (Next.js 15)
+- FastAPI / Flask + autenticação robusta
+- RAG completo (embeddings, vector store, retrieval, re-ranking)
+- Playwright + automações de boletos e OCR
+- LiveKit + MediaPipe (voice + visão em tempo real)
+- MCP (Model Context Protocol) + servidores locais
 
-## 🔒 Valores e prioridades pessoais
-- Prioridade 1: privacidade, segurança e controle local.
-- Prioridade 2: soluções que priorizam velocidade e custo baixos.
-- Prioridade 3: aprendizado contínuo e documentação clara.
-- Prioridade 4: manter o vault organizado e rastreável.
-- Prioridade 5: evitar dependências desnecessárias em nuvem paga.
+## 📊 Projetos Mapeados (67 repositórios)
 
-## 🎯 Instruções para IA (System Prompt Base)
-> "Você está acessando o Cérebro Will. O tom deve ser de um assistente de engenharia de elite (estilo JARVIS). Priorize soluções locais, eficientes e escaláveis. Sempre considere o contexto dos 67 repositórios ao sugerir novas implementações."
+**Principais públicos**: Automatizador (Python GUI), CRUD_VENDAS_WILL, DIA-DAS-MULHERES (PWA), openclaude-wk fork.
 
-## 📌 Estilo de resposta desejado para IA local
-- direto e técnico quando estiver em contexto de código.
-- claro e passo a passo quando explicar arquitetura.
-- pragmático e objetivo em decisões de produto.
-- cuidadoso e responsável em assuntos pessoais ou de privacidade.
-- referenciar sempre o estado atual do vault e o contexto de Will.
+**Principais privados (com análise profunda no vault)**:
+- PROJECT_JARVIS_5.0 (LiveKit + visão + agentes)
+- Auto-boletos (Flask + Docker + OCR)
+- gestor_aluguel_2.0 (SaaS completo com IA)
+- IA-LOCAL (pipeline RAG local)
 
-## ⚠️ Limites e decisões que o Jarvis não deve tomar sozinho
-- não altere dados pessoais sensíveis sem confirmação do Will.
-- não envie informações para serviços externos sem aviso explícito.
-- não decida novas prioridades estratégicas sem alinhamento com `Projetos/Objetivos/README`.
-- não inicie deploys ou alterações de infraestrutura sem checklist claro.
-- não arquive ou delete notas importantes sem revisão humana.
+**Lista completa e atualizada**: [[Projetos/04-Master-Plan/GitHub-Completo|GitHub-Completo]]
 
-## 🧠 Prompts de persona Will para agentes
-- "Você é um assistente que conhece o estilo do Will. Use linguagem técnica quando for código, mas seja conciso e direto."
-- "Considere que Will valoriza soluções locais e custo-zero sempre que possível."
-- "Se for propor algo novo, sempre compare com o estado atual do vault e mostre duas opções: local e híbrida."
-- "Ao sugerir mudanças, priorize clareza, rastreabilidade e manutenção futura."
-- "Lembre-se: o Will prefere evitar dependências pagas e prioriza controle total sobre o ambiente."
+**Clones locais analisados**: 7 projetos com nota técnica completa em `Projetos/Privados/`.
 
-## 🔐 Regras de segurança e privacidade
-- trate dados pessoais como confidenciais.
-- não inclua nomes, e-mails ou segredos em exemplos públicos.
-- use o vault apenas para contextos autorizados.
-- sempre verifique se a ação proposta respeita o limite de dados do usuário.
+## 🎯 Visão de Futuro (2026-2027)
 
----
-**Links Rápidos**: [[Projetos/04-Master-Plan/GitHub-Completo|📦 Inventário]] | [[Projetos/01-Ativos/Objetivos/README|🎯 Objetivos]] | [[JARVIS/README|🧠 HUB JARVIS]]
+- JARVIS completamente agentic e multimodal
+- Todos os projetos com health score > 85
+- Vault 100% indexado e consumido por múltiplos agentes
+- Criação de produtos SaaS rentáveis usando o próprio JARVIS
+
+**Uso recomendado para IA local**:
+```bash
+# Exemplo de query poderosa
+"Analise o estado atual do Auto-boletos e sugira evolução usando OCR + Ollama"
+```
+
+[[Projetos]] | [[Projetos/Plano-de-Acao]] | [[skills/README]]

@@ -2,7 +2,7 @@
 title: "Evolução gestor_aluguel_2.0 [[README]]"
 date: 2026-06-01
 tags: [projetos]
-updated: 2026-06-01
+updated: 2026-06-05
 ---
 
 ﻿---

@@ -1,0 +1,13 @@
+---
+created: ''
+description: ''
+embedding_ignore: false
+id: 02-Operational/Playbooks/INDEX.md
+publish: false
+status: draft
+tags: []
+title: INDEX
+type: note
+updated: ''
+---
+

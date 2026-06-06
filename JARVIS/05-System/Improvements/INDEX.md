@@ -2,7 +2,7 @@
 title: "JARVIS Improvements - Review Queue"
 description: "Fila de sugestoes de melhoria geradas pelo JARVIS, dream cycle e agentes externos."
 tags: [jarvis, improvements, review, queue, jarvis-sistema]
-updated: 2026-06-01
+updated: 2026-06-05
 status: active
 date: 2026-06-01
 ---

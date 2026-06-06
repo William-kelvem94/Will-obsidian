@@ -23,8 +23,8 @@ TEMPLATE = {
 }
 
 VAULT = Path(__file__).resolve().parents[1]
-PATCHES = VAULT / 'frontmatter_patches'
-PATCHES.mkdir(exist_ok=True)
+PATCHES = VAULT / '.logs' / 'infra' / 'frontmatter_patches'
+PATCHES.mkdir(parents=True, exist_ok=True)
 
 def get_frontmatter(fpath):
     try:

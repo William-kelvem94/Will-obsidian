@@ -63,15 +63,15 @@ updated: 2026-06-01
 ## 📝 Painéis, Relatórios e Arquivos Centrais
 
 - [[Painel-Cockpit]] (painel operacional)
-- [[GAPS]]
-- [[MULTIMODALIDADE]]
-- [[Master-Glossary|Glossário Mestre Unificado]]
-- [[SEGURANCA_PRIVACIDADE]]
-- [[Vault-Hierarchy-Map]]
-- [[Vault-Ops]]
-- [[TAXONOMY]]
+- [[dashboards/GAPS|GAPS (Gaps de Conhecimento)]]
+- [[dashboards/MULTIMODALIDADE|MULTIMODALIDADE (Gestão Multimodal)]]
+- [[dashboards/Master-Glossary|Glossário Mestre Unificado]]
+- [[dashboards/SEGURANCA_PRIVACIDADE|Segurança & Privacidade]]
+- [[dashboards/Vault-Hierarchy-Map|Mapa de Hierarquia do Vault]]
+- [[dashboards/Vault-Ops|Vault Ops (Operações de Manutenção)]]
+- [[dashboards/TAXONOMY|Taxonomia Geral]]
 
-### (Outros arquivos soltos menores/ideias: ver [[Ideias]] ou [[BRAINSTORM-GIGANTE]])
+### (Outros arquivos soltos menores/ideias: ver [[Ideias]] ou [[Ideias/BRAINSTORM-GIGANTE|BRAINSTORM-GIGANTE]])
 
 ---
 

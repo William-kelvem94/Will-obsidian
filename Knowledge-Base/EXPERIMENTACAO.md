@@ -2,7 +2,7 @@
 title: "🧪 Experimentação & Testes Avançados"
 tags: [experimentacao, testes, inovacao, pipeline, abtest]
 date: 2026-05-24
-updated: 2026-05-24
+updated: 2026-06-05
 category: knowledge-domain
 ---
 
@@ -16,4 +16,6 @@ Ambiente e framework para experimentação, cultura de experimentos, automação
 - [[Knowledge-Base/IA-APLICADA]]
 - [[INDEX]]
 
-Templates, scripts, recortes, cases, notebooks de falha/êxito e scoreboard de inovação.
+## 📂 Recursos e Documentação de Experimentação (Criados)
+- 📝 **Dicionário & Conceitos**: [[Knowledge-Base/Experimentacao/Dicionario/Glossario-Estruturado-Experimentacao|Glossário Estruturado - Métricas e Modelos de Experimentação]]
+- 📋 **Checklists Operacionais**: [[Knowledge-Base/Experimentacao/Checklists/Checklist-Validacao-Testes-AB|Checklist de Validação e Pipeline de Testes AB em Produção]]

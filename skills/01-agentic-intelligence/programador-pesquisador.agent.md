@@ -1,6 +1,6 @@
 ---
 tags: [skills, agent, skills-ai, pesquisador, hibrido]
-updated: 2026-06-01
+updated: 2026-06-05
 title: "Programador e Pesquisador Agent"
 date: 2026-06-01
 ---

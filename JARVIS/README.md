@@ -1,7 +1,7 @@
 ---
 title: "README — Memória, JARVIS e Sistemas Cognitivos"
 tags: [jarvis, memoria, contexto, engenharia, agente]
-updated: 2026-06-01
+updated: 2026-06-05
 date: 2026-06-01
 ---
 # JARVIS — Núcleo Operacional & Memória

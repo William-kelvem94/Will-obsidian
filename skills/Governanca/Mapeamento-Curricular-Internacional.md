@@ -5,7 +5,7 @@ tags: [conhecimento, conceito, curriculum, educacao, cursos, certificacao, roadm
 related: ["Machine-Learning-Fundamentos", "LLM-Fine-Tuning", "Data-Science-Fundamentos"]
 aliases: ["Curriculum Mapping", "Educational Pathways in AI", "Trilhas de Aprendizado em IA"]
 created: 2026-05-19
-updated: 2026-06-01
+updated: 2026-06-05
 date: 2026-06-01
 ---
 

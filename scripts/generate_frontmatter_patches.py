@@ -3,9 +3,9 @@ import yaml
 import json
 
 ROOT = Path(__file__).resolve().parents[1]
-SNIPPETS = ROOT / 'frontmatter_snippets'
-OUT_PATCHES = ROOT / 'frontmatter_patches'
-OUT_PATCHES.mkdir(exist_ok=True)
+SNIPPETS = ROOT / '.logs' / 'infra' / 'frontmatter_snippets'
+OUT_PATCHES = ROOT / '.logs' / 'infra' / 'frontmatter_patches'
+OUT_PATCHES.mkdir(parents=True, exist_ok=True)
 
 def main(n=100):
     snippets = list(SNIPPETS.glob('*.yaml'))[:n]

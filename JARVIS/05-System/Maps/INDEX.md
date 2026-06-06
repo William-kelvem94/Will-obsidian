@@ -2,7 +2,7 @@
 title: "KnowledgeBase — Índice"
 description: "Base de conhecimento técnica do Jarvis: arquitetura, personalidade, estratégia, ferramentas e casos de uso."
 tags: [jarvis, knowledge, index, tecnico, jarvis-sistema]
-updated: 2026-06-01
+updated: 2026-06-05
 date: 2026-04-27
 ---
 

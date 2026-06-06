@@ -2,7 +2,7 @@
 title: "Session To Learning Protocol"
 description: "How agents convert a work session into reusable, non-sensitive learning without polluting canonical notes."
 tags: [jarvis, learning, protocol, memory, ops, rag, jarvis-operacao]
-updated: 2026-06-01
+updated: 2026-06-05
 status: active
 date: 2026-06-01
 ---

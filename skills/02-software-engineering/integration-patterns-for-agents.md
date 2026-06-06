@@ -3,7 +3,7 @@ title: "Integration Patterns (Agent-Friendly)"
 description: "Padroes de integracao e prompts para agentes: idempotencia, outbox, sagas, retries, DLQ e observabilidade."
 tags: [software-engineering, backend, integration, agents, skills-eng]
 date: 2026-05-08
-updated: 2026-06-01
+updated: 2026-06-05
 ---
 
 # Integration Patterns (Agent-Friendly)

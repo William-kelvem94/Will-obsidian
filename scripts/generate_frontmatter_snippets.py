@@ -31,8 +31,8 @@ def snippet_for(p):
     return yaml.safe_dump(front, allow_unicode=True)
 
 def main():
-    out = ROOT / 'frontmatter_snippets'
-    out.mkdir(exist_ok=True)
+    out = ROOT / '.logs' / 'infra' / 'frontmatter_snippets'
+    out.mkdir(parents=True, exist_ok=True)
     for p in top_md_files(100):
         s = snippet_for(p)
         name = p.stem + '.yaml'

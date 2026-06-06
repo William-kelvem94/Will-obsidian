@@ -2,7 +2,7 @@
 title: "🔬 Research Agent Capabilities — Habilidades de Pesquisa para Agentes IA"
 tags: [skills, research, agent-capabilities, pesquisa, analise, investigacao, conhecimento]
 date: 2026-06-01
-updated: 2026-06-01
+updated: 2026-06-05
 category: skill
 aliases: ["Research Agent Skills", "Agente Pesquisador IA", "Capacidades de Pesquisa"]
 related: ["skills/AGENT-FULLSTACK-CAPABILITIES", "skills/01-agentic-intelligence/programador-pesquisador.agent", "skills/04-knowledge-systems/INDEX"]

@@ -3,7 +3,7 @@ title: "DEMANDAS_ORGANIZADAS_2.0"
 source: "https://github.com/William-kelvem94/DEMANDAS_ORGANIZADAS_2.0"
 private: true
 tags: [projetos, privados, demandas, monorepo, docker, rust, electron]
-updated: 2026-06-01
+updated: 2026-06-05
 date: 2026-06-01
 ---
 

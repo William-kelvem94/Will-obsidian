@@ -4,7 +4,7 @@ source: "d:/Documents/GitHub/Auto-boletos"
 language: Python
 private: true
 description: "Automação de boletos Equatorial com IA local, Flask, Docker e OCR."
-updated: 2026-06-01
+updated: 2026-06-05
 tags: [privados, python, flask, docker, ia, automacao, projetos]
 date: 2026-04-27
 ---
@@ -37,3 +37,27 @@ Sistema moderno e completo que associa imóveis cadastrados aos dados oficiais d
 - `docs/`: Documentação de infraestrutura e deployment.
 
 **Links:** [[GitHub-Completo]] | [[skills/Skill-Project-Matrix|📊 Matriz Skills]] #flask #playwright #ocr #python
+
+## 📊 Sincronização Local de Código (Automática)
+*Dados técnicos lidos do repositório físico em 2026-06-05 22:19:27*
+
+- **Caminho Físico Local:** `D:/DOCUMENTOS/GitHub/Auto-boletos`
+- **Branch Ativa:** `main`
+- **Último Commit:** `e371201 - fix: configurar @tailwindcss/postcss para compatibilidade com Tailwind CSS v4 (2026-06-04)`
+- **Repositório Remoto (Origin):** [https://github.com/William-kelvem94/Auto-boletos.git](https://github.com/William-kelvem94/Auto-boletos.git)
+- **Descrição de README:** [![CI](https://github.com/William-kelvem94/Auto-boletos/actions/workflows/ci.yml/badge.svg)](https://github.com/William-kelvem94/Auto-boletos/actions/...
+
+### 🛠️ Configurações e Arquivos de Infraestrutura
+- [x] Dockerfile
+- [x] docker-compose.yml
+- [x] Arquivo .env.example
+- [ ] Tailwind CSS
+- [ ] TypeScript config
+- [ ] Vite Bundler
+- [ ] Next.js configuration
+- [ ] Next.js configuration (mjs)
+- [ ] TypeScript/JavaScript npm
+- [x] Python dependencies
+
+### 📦 Principais Dependências Mapeadas
+- **Python (requirements):** `Flask, Flask-SQLAlchemy, Flask-CORS, playwright, python-dotenv, Pillow`

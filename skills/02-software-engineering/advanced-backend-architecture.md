@@ -3,7 +3,7 @@ title: "Arquitetura Backend Avançada (Python & TS)"
 description: "Guia profundo sobre padrões de design avançados em Python e TypeScript para construção de serviços massivos e orquestradores de IA."
 tags: [software-engineering, backend, python, typescript, arquitetura, microservices, event-driven, cqrs, observability, skills-eng]
 date: 2026-04-27
-updated: 2026-06-01
+updated: 2026-06-05
 ---
 
 # Arquitetura Backend Avançada

@@ -2,7 +2,7 @@
 title: "🧠 Saúde Mental Organizacional & Wellbeing"
 tags: [saudemental, wellbeing, organizacional, benchmark, protocolo]
 date: 2026-05-24
-updated: 2026-05-24
+updated: 2026-06-05
 category: knowledge-domain
 ---
 
@@ -14,4 +14,6 @@ Lições aprendidas, protocolos, scripts de automação de pesquisa/bem-estar, c
 - [[Knowledge-Base/EXPERIMENTACAO]]
 - [[INDEX]]
 
-Benchmarks, dictionary de saúde mental, protocolos e estudos globais.
+## 📂 Recursos e Documentação de Saúde Mental (Criados)
+- 📝 **Dicionário & Conceitos**: [[Knowledge-Base/Saude-Mental/Dicionario/Dicionario-Saude-Mental-Trabalho|Dicionário Completo - Protocolos e Termos de Saúde Mental no Trabalho]]
+- 📋 **Checklists Operacionais**: [[Knowledge-Base/Saude-Mental/Checklists/Checklist-Mitigacao-Burnout-Squads|Checklist - Mitigacao de Esgotamento Psíquico e Avaliação de Squads]]

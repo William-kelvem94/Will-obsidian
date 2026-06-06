@@ -3,7 +3,7 @@ title: "State Machine — JARVIS Blueprint"
 description: "Modelo formal de máquina de estados para o agente JARVIS — define ciclos de operação, transições e ações por estado"
 tags: [jarvis, arquitetura, sistema, blueprint, jarvis-sistema]
 status: draft
-updated: 2026-06-01
+updated: 2026-06-05
 date: 2026-05-19
 aliases:
   - Máquina de Estados JARVIS

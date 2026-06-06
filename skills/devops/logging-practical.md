@@ -4,7 +4,7 @@ category: "DevOps"
 level: 3
 description: "Structured logging patterns for fast diagnosis and safe operations."
 date: 2026-05-08
-updated: 2026-06-01
+updated: 2026-06-05
 tags: [skills, devops, logs, opsec]
 ---
 

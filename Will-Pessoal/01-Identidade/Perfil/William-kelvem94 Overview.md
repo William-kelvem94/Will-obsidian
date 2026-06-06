@@ -12,7 +12,7 @@ tags:
   - perfil
   - hub
   - github
-updated: 2026-06-01
+updated: 2026-06-05
 date: 2026-04-27
 ---
 
@@ -87,12 +87,12 @@ Princípios que norteiam a escrita no dia a dia:
 
 | Métrica | Valor atual | Meta |
 |---------|:-----------:|:----:|
-| Repositórios públicos | ~15 | 20+ |
-| Commits totais (estimado) | 1.500+ | — |
-| Linguagem principal | Python | — |
-| Segunda linguagem | TypeScript | — |
-| Stars recebidas | Baixo (crescente) | 50+ até fim de 2026 |
-| Contribuições em projetos alheios | 3-5 | 15+ |
+| Repositórios públicos | 17 | 20+ |
+| Repositórios privados | 61 | — |
+| Repositórios totais | 78 | — |
+| Seguidores | 3 followers | 10+ |
+| Organizações | @ProjetoMeta | — |
+| Conquistas | Pull Shark, Pair Extraordinaire, YOLO, Quickdraw | — |
 
 ---
 

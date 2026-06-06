@@ -2,7 +2,7 @@
 title: "Engineering Principles — Will's Tech Philosophy"
 description: "Core principles and architectural decisions that guide all technical work"
 tags: [identity, principles, architecture, decision-making, jarvis-identidade]
-updated: 2026-06-01
+updated: 2026-06-05
 date: 2026-04-27
 ---
 

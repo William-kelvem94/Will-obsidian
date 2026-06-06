@@ -24,7 +24,7 @@ for f in VAULT.rglob('*.md'):
             tags = meta.get('tags',[])
             for tag in tags: stat[tag] +=1
     except Exception: pass
-with open(VAULT/'ANALYTICS.md','a',encoding='utf-8') as out:
+with open(VAULT/'dashboards'/'ANALYTICS.md','a',encoding='utf-8') as out:
     out.write('\n# Analytics Summary - update\n')
     for tag, qtd in stat.most_common():
         out.write(f'* {tag}: {qtd} notas\n')

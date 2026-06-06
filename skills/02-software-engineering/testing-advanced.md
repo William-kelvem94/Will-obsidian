@@ -1,6 +1,6 @@
 ---
 tags: [testing, tdd, bdd, property-based-testing, mutation-testing, integration-testing, e2e, mocking, performance-testing, ci-cd, skills-eng]
-updated: 2026-06-01
+updated: 2026-06-05
 title: "Testing Advanced"
 date: 2026-06-01
 ---

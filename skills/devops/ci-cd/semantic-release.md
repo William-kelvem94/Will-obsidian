@@ -1,6 +1,6 @@
 ---
 tags: [skills, devops, cicd, semantic-release, versionamento]
-updated: 2026-06-01
+updated: 2026-06-05
 title: "Semantic Release"
 date: 2026-06-01
 ---

@@ -4,7 +4,7 @@ source: "C:/Users/willi/Documents/GitHub/Auto-boletos"
 language: Python
 private: true
 description: "Sistema de automação de boletos Equatorial com IA local, Flask backend, Docker, frontend React/Vite. Completo com OCR, CAPTCHA, API REST."
-updated: 2026-06-01
+updated: 2026-06-05
 tags:
   - projetos
   - privados

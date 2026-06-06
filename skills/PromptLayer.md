@@ -3,7 +3,7 @@ title: "PromptLayer — Gerenciamento e Observabilidade de Prompts"
 description: "Guia completo sobre PromptLayer: logging de prompts, versionamento, experimentação, análise de custo e debugging para pipelines LLM."
 tags: [promptlayer, llm-ops, prompt-management, logging, skills]
 nivel: intermediário
-updated: 2026-06-01
+updated: 2026-06-05
 backlinks: []
 assets: []
 referencias: []

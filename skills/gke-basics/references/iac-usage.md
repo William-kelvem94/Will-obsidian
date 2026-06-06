@@ -2,7 +2,7 @@
 title: "GKE Infrastructure as Code"
 date: 2026-06-01
 tags: [skills]
-updated: 2026-06-01
+updated: 2026-06-05
 ---
 
 # GKE Infrastructure as Code

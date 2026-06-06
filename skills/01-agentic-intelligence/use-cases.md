@@ -1,6 +1,6 @@
 ---
 tags: [skills, skills-ai, use-cases, examples]
-updated: 2026-06-01
+updated: 2026-06-05
 title: "Casos de Uso — Inteligencia Agentica"
 date: 2026-06-01
 ---

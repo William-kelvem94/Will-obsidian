@@ -2,7 +2,7 @@
 title: "Agentic Code Review"
 description: "Skill: revisar mudancas com foco em regressao, risco e contratos, nao em preferencia."
 tags: [skill, software-engineering, code-review, agents, skills-eng]
-updated: 2026-06-01
+updated: 2026-06-05
 status: active
 date: 2026-06-01
 ---

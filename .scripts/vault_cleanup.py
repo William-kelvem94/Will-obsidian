@@ -9,7 +9,7 @@ VAULT_ROOT = os.path.normpath(os.path.join(SCRIPT_ROOT, ".."))
 REPORT_PATH = os.path.join(SCRIPT_ROOT, "vault_cleanup_report.md")
 
 MAPPING = {
-    "Projetos/Privados": "#privados",
+    "Projetos/01-Ativos/Privados": "#privados",
     "Projetos": "#projetos",
     "JARVIS/01-Identity": "#jarvis-identidade",
     "JARVIS/02-Operational": "#jarvis-operacao",

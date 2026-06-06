@@ -2,7 +2,7 @@
 title: "Environment Variables Registry"
 description: "Central registry of all environment variables used across projects"
 tags: [operational, config, security, environment, jarvis-operacao]
-updated: 2026-06-01
+updated: 2026-06-05
 date: 2026-04-27
 ---
 

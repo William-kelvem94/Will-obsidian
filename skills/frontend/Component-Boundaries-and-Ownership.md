@@ -4,7 +4,7 @@ category: "Frontend"
 level: 3
 description: "How to draw component boundaries: primitives vs composites, server vs client, ownership, and API design."
 tags: [skills, frontend, architecture, components]
-updated: 2026-06-01
+updated: 2026-06-05
 date: 2026-06-01
 ---
 

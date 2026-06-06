@@ -1,6 +1,6 @@
 ---
 tags: [skills, skills-eng, backend, api]
-updated: 2026-06-01
+updated: 2026-06-05
 title: "Backend Skills - FastAPI, Express, Autenticacao"
 date: 2026-04-27
 ---

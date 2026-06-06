@@ -4,7 +4,7 @@ source: https://github.com/William-kelvem94/CRUD_VENDAS_WILL
 private: false
 language: PHP
 description: 
-updated: 2026-06-01
+updated: 2026-06-05
 tags:
   - projetos
   - publicos

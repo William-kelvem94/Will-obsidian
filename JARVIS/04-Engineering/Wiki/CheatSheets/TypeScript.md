@@ -2,7 +2,7 @@
 title: "TypeScript — Cheat Sheet"
 description: "Guia de referência rápida para TypeScript — tipos, configuração, ferramentas e padrões"
 tags: [cheatsheet, typescript, javascript, linguagem, jarvis-engenharia]
-updated: 2026-06-01
+updated: 2026-06-05
 date: 2026-05-16
 ---
 

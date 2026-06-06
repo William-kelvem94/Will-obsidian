@@ -2,7 +2,7 @@
 title: "Auto-boletos Codebase Map"
 description: "Mapa RAG-friendly do projeto Auto-boletos para agentes de programacao."
 created: 2026-05-08
-updated: 2026-06-01
+updated: 2026-06-05
 type: codebase-map
 project: Auto-boletos
 domain: engineering

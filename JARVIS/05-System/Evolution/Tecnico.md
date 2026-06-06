@@ -3,7 +3,7 @@ title: "Aprendizado Técnico — Jarvis"
 description: "Conhecimento técnico acumulado sobre os projetos, stack e soluções de Will."
 tags: [jarvis, tecnico, stack, solucoes, jarvis-sistema]
   - aprendizado
-updated: 2026-06-01
+updated: 2026-06-05
 date: 2026-04-27
 ---
 

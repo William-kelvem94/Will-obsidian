@@ -1,8 +1,8 @@
 ---
 title: "Guia de Beta Tester - Gestor de Aluguel 2.0"
 date: 2026-06-01
-tags: [projetos]
-updated: 2026-06-01
+tags: [projetos, privados]
+updated: 2026-06-05
 ---
 
 # Guia de Beta Tester - Gestor de Aluguel 2.0

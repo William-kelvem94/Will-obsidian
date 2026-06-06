@@ -14,7 +14,7 @@ resources:
   - "Web Components best practices articles"
 date: 2026-04-29
 tags: [skills, frontend, web-components]
-updated: 2026-06-01
+updated: 2026-06-05
 ---
 
 # Web Components

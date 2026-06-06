@@ -4,7 +4,7 @@ source: "d:/Documents/GitHub/IA-LOCAL"
 language: Python
 private: true
 description: "Assistente de IA avançado (JARVIS) com memória vetorial, processamento de voz e capacidades de automação de desktop."
-updated: 2026-06-01
+updated: 2026-06-05
 tags: [privados, python, jarvis, ai, voice, projetos]
 date: 2026-04-27
 ---
@@ -49,3 +49,27 @@ O **IA-LOCAL** é o motor principal por trás do JARVIS, integrando modelos de l
 - [[skills/01-agentic-intelligence/autonomous-workflow|🧠 Workflow AAW]]: Como gerenciar este código como agente.
 
 **Links:** [[GitHub-Completo]] | [[Projetos/01-Ativos/Plano-de-Acao|Plano de Ação]] #jarvis #faiss #whisper #python
+
+## 📊 Sincronização Local de Código (Automática)
+*Dados técnicos lidos do repositório físico em 2026-06-05 22:19:31*
+
+- **Caminho Físico Local:** `D:/DOCUMENTOS/GitHub/IA-LOCAL`
+- **Branch Ativa:** `main`
+- **Último Commit:** `1b2125c - feat: initialize n8n-gemini-agent project with essential files and structure (2026-04-30)`
+- **Repositório Remoto (Origin):** [https://github.com/William-kelvem94/IA-LOCAL.git](https://github.com/William-kelvem94/IA-LOCAL.git)
+- **Descrição de README:** Sem descrição detalhada no README local.
+
+### 🛠️ Configurações e Arquivos de Infraestrutura
+- [ ] Dockerfile
+- [ ] docker-compose.yml
+- [ ] Arquivo .env.example
+- [ ] Tailwind CSS
+- [ ] TypeScript config
+- [ ] Vite Bundler
+- [ ] Next.js configuration
+- [ ] Next.js configuration (mjs)
+- [ ] TypeScript/JavaScript npm
+- [ ] Python dependencies
+
+### 📦 Principais Dependências Mapeadas
+- Nenhuma dependência estruturada identificada.

@@ -2,7 +2,7 @@
 title: "🧠 Token Compression — Estratégias de Compressão de Contexto para o JARVIS"
 tags: [jarvis, token-compression, contexto, memoria, eficiencia, JARVIS]
 date: 2026-06-01
-updated: 2026-06-01
+updated: 2026-06-05
 category: system
 aliases: ["Compressão de Contexto", "JARVIS Token Strategy", "Context Compression"]
 related: ["Knowledge-Base/TOKEN-ECONOMY", "Knowledge-Base/TOKEN-SHORTHAND", "JARVIS/05-System/AGENT-CONTRACT"]
