@@ -20,3 +20,4 @@ Benchmarks: MIT Future Lab, Institute for the Future, lições aprendidas.
 ## 📂 Recursos e Documentação de Futurologia (Criados)
 - 📝 **Dicionário & Conceitos**: [[Knowledge-Base/Futurologia/Dicionario/Glossario-Foresight-Futuros|Glossário Operacional - Metodologias e Terminologias de Futurologia]]
 - 📋 **Checklists Operacionais**: [[Knowledge-Base/Futurologia/Checklists/Checklist-Mapeamento-Cenarios|Checklist - Mapeamento de Cenários e Detecção de Sinais]]
+- 🔮 **Recortes & Ensaios**: [[Knowledge-Base/Futurologia/Recortes/Impactos-Sociedantropologicos-Quantum-Computing|Ensaios Acadêmicos - Impactos Socioantropológicos da Criptografia Quântica (2035)]]

@@ -17,3 +17,4 @@ Lições aprendidas, protocolos, scripts de automação de pesquisa/bem-estar, c
 ## 📂 Recursos e Documentação de Saúde Mental (Criados)
 - 📝 **Dicionário & Conceitos**: [[Knowledge-Base/Saude-Mental/Dicionario/Dicionario-Saude-Mental-Trabalho|Dicionário Completo - Protocolos e Termos de Saúde Mental no Trabalho]]
 - 📋 **Checklists Operacionais**: [[Knowledge-Base/Saude-Mental/Checklists/Checklist-Mitigacao-Burnout-Squads|Checklist - Mitigacao de Esgotamento Psíquico e Avaliação de Squads]]
+- 🧪 **Projetos Práticos**: [[Knowledge-Base/Saude-Mental/Projetos/Rastreamento-Clinico-Fadiga-Cognitiva|Rastreamento Clínico de Fadiga Cognitiva em Squads de Engenharia]]
