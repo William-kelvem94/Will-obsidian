@@ -1,6 +1,6 @@
 ---
 title: "Leaderboard de XP - Skills"
-generated: 2026-06-05 22:34:02
+generated: 2026-06-05 22:38:07
 tags: [skills, xp, leaderboard, auto]
 date: 2026-06-05
 updated: 2026-06-05
@@ -8,7 +8,7 @@ updated: 2026-06-05
 
 # Leaderboard de XP - Skills
 
-*Gerado em: 2026-06-05 22:34:02*
+*Gerado em: 2026-06-05 22:38:07*
 
 ---
 
@@ -23,9 +23,9 @@ updated: 2026-06-05
 | 5 | [[skills/devops/ci-cd/INDEX.md|CI/CD e GitOps - Index]] | Avancado (Lv.5) | 1239 | - | - |
 | 6 | [[skills/02-software-engineering/seguranca/INDEX.md|Seguranca da Informacao - Index]] | Avancado (Lv.5) | 1239 | - | - |
 | 7 | [[skills/ai/INDEX.md|AI — Índice de Conhecimento]] | Avancado (Lv.5) | 1236 | - | - |
-| 8 | [[skills/01-agentic-intelligence/README.md|Inteligencia Agentica — Hub de Skills JARVIS]] | Avancado (Lv.5) | 1226 | - | - |
-| 9 | [[skills/02-software-engineering/README.md|Fullstack Skills]] | Avancado (Lv.5) | 1131 | - | - |
-| 10 | [[skills/README.md|README - Skills e Navegação Visual]] | Avancado (Lv.5) | 1100 | - | - |
+| 8 | [[skills/01-agentic-intelligence/README.md|Inteligencia Agentica — Hub de Skills JARVIS]] | Avancado (Lv.5) | 1223 | - | - |
+| 9 | [[skills/02-software-engineering/README.md|Fullstack Skills]] | Avancado (Lv.5) | 1128 | - | - |
+| 10 | [[skills/README.md|README - Skills e Navegação Visual]] | Avancado (Lv.5) | 1097 | - | - |
 | 11 | [[skills/02-software-engineering/design-patterns.md|Design Patterns - GoF Catalog]] | Intermediario (Lv.3) | 337 | - | - |
 | 12 | [[skills/SFIA-Mapping.md|Mapeamento SFIA]] | Intermediario (Lv.3) | 298 | - | - |
 | 13 | [[skills/devops/Observabilidade.md|Observabilidade]] | Iniciante (Lv.2) | 194 | DevOps | [[JARVIS Core|JARVIS Core]] |
@@ -100,141 +100,141 @@ updated: 2026-06-05
 | 82 | [[skills/02-software-engineering/mobile-development.md|Desenvolvimento Mobile - React Native, Flutter e Padroes Nativos]] | Iniciante (Lv.1) | 78 | - | - |
 | 83 | [[skills/02-software-engineering/web-advanced.md|Desenvolvimento Web Avancado - WebSockets, WebRTC, PWA, Performance e Seguranca]] | Iniciante (Lv.1) | 78 | - | - |
 | 84 | [[skills/04-knowledge-systems/rag-avancado-e-graphrag.md|RAG Avancado e GraphRAG: Recuperacao Hibrida e Indexacao Semantica]] | Iniciante (Lv.1) | 78 | - | - |
-| 85 | [[skills/01-agentic-intelligence/mcp.md|MCP para VS Code AI]] | Iniciante (Lv.1) | 76 | - | - |
-| 86 | [[skills/01-agentic-intelligence/prompts.md|Prompt Templates para VS Code AI]] | Iniciante (Lv.1) | 76 | - | - |
-| 87 | [[skills/02-software-engineering/typescript-advanced.md|TypeScript Avancado - Sistema de Tipos, Genericos e Programacao em Nivel de Tipo]] | Iniciante (Lv.1) | 75 | - | - |
-| 88 | [[skills/softskills/Product-Management.md|Product Management]] | Iniciante (Lv.1) | 73 | Softskills | [[JARVIS Core|JARVIS Core]] |
-| 89 | [[skills/01-agentic-intelligence/advanced-workflows.md|Workflows Avançados — VS Code AI]] | Iniciante (Lv.1) | 72 | - | - |
-| 90 | [[skills/google-cloud-recipe-auth/SKILL.md|Authenticating to Google Cloud]] | Iniciante (Lv.1) | 71 | - | - |
-| 91 | [[skills/cloud-run-basics/SKILL.md|Cloud Run Basics]] | Iniciante (Lv.1) | 71 | - | - |
-| 92 | [[skills/gemini-api/SKILL.md|Gemini API in Agent Platform]] | Iniciante (Lv.1) | 71 | - | - |
-| 93 | [[skills/google-cloud-networking-observability/SKILL.md|Google Cloud Networking Observability Expert]] | Iniciante (Lv.1) | 71 | - | - |
-| 94 | [[skills/google-cloud-waf-cost-optimization/SKILL.md|Google Cloud Well-Architected Framework skill for the Cost Optimization pillar]] | Iniciante (Lv.1) | 71 | - | - |
-| 95 | [[skills/google-cloud-waf-reliability/SKILL.md|Google Cloud Well-Architected Framework skill for the Reliability pillar]] | Iniciante (Lv.1) | 71 | - | - |
-| 96 | [[skills/google-cloud-waf-security/SKILL.md|Google Cloud Well-Architected Framework skill for the Security pillar]] | Iniciante (Lv.1) | 71 | - | - |
-| 97 | [[skills/google-cloud-recipe-onboarding/SKILL.md|Onboarding to Google Cloud]] | Iniciante (Lv.1) | 71 | - | - |
-| 98 | [[skills/02-software-engineering/cloud-architecture.md|Cloud Architecture]] | Iniciante (Lv.1) | 70 | - | - |
-| 99 | [[skills/ai/Computer-Vision.md|Computer Vision]] | Iniciante (Lv.1) | 70 | - | - |
-| 100 | [[skills/02-software-engineering/distributed-systems.md|Distributed Systems]] | Iniciante (Lv.1) | 70 | - | - |
-| 101 | [[skills/Skill-Project-Matrix.md|Matriz Skills-Projetos]] | Iniciante (Lv.1) | 70 | - | - |
-| 102 | [[skills/bigquery-basics/SKILL.md|BigQuery Basics]] | Iniciante (Lv.1) | 69 | - | - |
-| 103 | [[skills/gke-basics/SKILL.md|Google Kubernetes Engine (GKE) Basics]] | Iniciante (Lv.1) | 69 | - | - |
-| 104 | [[skills/mobile/Desenvolvimento-Mobile.md|Desenvolvimento Mobile]] | Iniciante (Lv.1) | 65 | - | - |
-| 105 | [[skills/ai/Computacao-Distribuida-e-Edge-AI.md|Computação Distribuída Avançada e Edge AI]] | Iniciante (Lv.1) | 61 | - | - |
-| 106 | [[skills/04-knowledge-systems/Skills-MCPs-Agentes-ClaudeCode.md|Skills, MCPs e Agentes - Claude Code, Firecrawl e Stack Padrão]] | Iniciante (Lv.1) | 60 | - | - |
-| 107 | [[skills/ai/Meta-Learning-e-AutoML.md|Meta-aprendizagem e AutoML — Guia Ultra-Detalhado]] | Iniciante (Lv.1) | 59 | - | - |
-| 108 | [[skills/ai/XAI-Fairness-Accountability.md|Explainable AI (XAI), Fairness e Accountability — Expansão Completa]] | Iniciante (Lv.1) | 58 | - | - |
-| 109 | [[skills/Governanca/Governanca-Dados-Avancada.md|Governança de Dados Avançada: LGPD, AI Act, Data Mesh, Privacy Engineering]] | Iniciante (Lv.1) | 58 | - | - |
-| 110 | [[skills/Security/AI-Security-Etica-Operacional.md|Segurança e Ética Operacional de IA]] | Iniciante (Lv.1) | 58 | - | - |
-| 111 | [[skills/cloud-sql-basics/SKILL.md|Cloud SQL Basics]] | Iniciante (Lv.1) | 57 | - | - |
-| 112 | [[skills/frontend/INDEX-Addon.md|Frontend Skills Index (Addon)]] | Iniciante (Lv.1) | 56 | Frontend | - |
-| 113 | [[skills/01-agentic-intelligence/context-engineering-checklist.md|Context Engineering Checklist]] | Iniciante (Lv.1) | 55 | ai | - |
-| 114 | [[skills/firebase-basics/SKILL.md|Firebase Basics]] | Iniciante (Lv.1) | 54 | - | - |
-| 115 | [[skills/01-agentic-intelligence/templates.md|Templates de Prompt — VS Code AI]] | Iniciante (Lv.1) | 54 | - | - |
-| 116 | [[skills/02-software-engineering/test-pyramid-realistic-for-agents.md|Test Pyramid (Realistic) for Agents]] | Iniciante (Lv.1) | 54 | - | - |
-| 117 | [[skills/firebase-basics/references/additional-skills.md|Additional Skills]] | Iniciante (Lv.1) | 53 | - | - |
-| 118 | [[skills/alloydb-basics/references/client-library-usage.md|AlloyDB Client Libraries & Connectors]] | Iniciante (Lv.1) | 50 | - | - |
-| 119 | [[skills/gke-basics/references/cli-reference.md|CLI & Tool Reference for GKE]] | Iniciante (Lv.1) | 50 | - | - |
-| 120 | [[skills/cloud-run-basics/references/core-concepts.md|Cloud Run core concepts]] | Iniciante (Lv.1) | 50 | - | - |
-| 121 | [[skills/gke-basics/references/gke-inference.md|GKE AI/ML Inference]] | Iniciante (Lv.1) | 50 | - | - |
-| 122 | [[skills/gke-basics/references/gke-cluster-creation.md|GKE Cluster Creation]] | Iniciante (Lv.1) | 50 | - | - |
-| 123 | [[skills/gke-basics/references/gke-cost.md|GKE Cost Optimization]] | Iniciante (Lv.1) | 50 | - | - |
-| 124 | [[skills/gke-basics/references/gke-networking.md|GKE Networking]] | Iniciante (Lv.1) | 50 | - | - |
-| 125 | [[skills/gke-basics/references/gke-observability.md|GKE Observability]] | Iniciante (Lv.1) | 50 | - | - |
-| 126 | [[skills/gke-basics/references/gke-reliability.md|GKE Reliability]] | Iniciante (Lv.1) | 50 | - | - |
-| 127 | [[skills/gke-basics/references/gke-security.md|GKE Security]] | Iniciante (Lv.1) | 50 | - | - |
-| 128 | [[skills/gke-basics/references/gke-upgrades.md|GKE Upgrades & Maintenance]] | Iniciante (Lv.1) | 50 | - | - |
-| 129 | [[skills/gke-basics/references/gke-scaling.md|GKE Workload Scaling]] | Iniciante (Lv.1) | 50 | - | - |
-| 130 | [[skills/google-cloud-recipe-onboarding/reference/google-cloud-setup.md|Google Cloud Setup]] | Iniciante (Lv.1) | 50 | - | - |
-| 131 | [[skills/google-cloud-networking-observability/references/threat-analysis.md|Threat Log Analysis Reference]] | Iniciante (Lv.1) | 50 | - | - |
-| 132 | [[skills/google-cloud-networking-observability/references/vpc-flow-analysis.md|VPC Flow Analysis Reference]] | Iniciante (Lv.1) | 49 | - | - |
-| 133 | [[skills/02-software-engineering/api-contracts-and-compatibility.md|API Contracts and Compatibility]] | Iniciante (Lv.1) | 48 | - | - |
-| 134 | [[skills/01-agentic-intelligence/human-agent-collaboration-loop.md|Human Agent Collaboration Loop]] | Iniciante (Lv.1) | 48 | ai | - |
-| 135 | [[skills/gke-basics/references/gke-compute-classes.md|GKE ComputeClasses]] | Iniciante (Lv.1) | 46 | - | - |
-| 136 | [[skills/gemini-api/references/advanced_features.md|Advanced Features]] | Iniciante (Lv.1) | 45 | - | - |
-| 137 | [[skills/alloydb-basics/SKILL.md|AlloyDB Basics]] | Iniciante (Lv.1) | 45 | - | - |
-| 138 | [[skills/gke-basics/references/gke-golden-path.md|GKE Golden Path Configuration]] | Iniciante (Lv.1) | 45 | - | - |
-| 139 | [[skills/alloydb-basics/references/iam-security.md|AlloyDB IAM & Security]] | Iniciante (Lv.1) | 44 | - | - |
-| 140 | [[skills/gke-basics/references/gke-app-onboarding.md|GKE App Onboarding]] | Iniciante (Lv.1) | 44 | - | - |
-| 141 | [[skills/02-software-engineering/integration-patterns-for-agents.md|Integration Patterns (Agent-Friendly)]] | Iniciante (Lv.1) | 44 | - | - |
-| 142 | [[skills/01-agentic-intelligence/quick-start.md|Quick Start — VS Code AI]] | Iniciante (Lv.1) | 44 | - | - |
-| 143 | [[skills/gke-basics/references/gke-batch-hpc.md|GKE Batch & HPC Workloads]] | Iniciante (Lv.1) | 42 | - | - |
-| 144 | [[skills/02-software-engineering/db-migrations-and-zero-downtime.md|DB Migrations and Zero-Downtime Changes]] | Iniciante (Lv.1) | 41 | - | - |
-| 145 | [[skills/gke-basics/references/gke-storage.md|GKE Storage]] | Iniciante (Lv.1) | 41 | - | - |
-| 146 | [[skills/frontend/Nextjs-App-Router-Patterns.md|Next.js App Router Patterns (Agent Playbook)]] | Iniciante (Lv.1) | 41 | Frontend | - |
-| 147 | [[skills/04-knowledge-systems/rag-friendly-note-design.md|RAG-Friendly Note Design]] | Iniciante (Lv.1) | 41 | ai | - |
-| 148 | [[skills/02-software-engineering/rollback-and-release-strategies.md|Rollback and Release Strategies]] | Iniciante (Lv.1) | 41 | - | - |
-| 149 | [[skills/02-software-engineering/INDEX-Addon.md|Software Engineering - Index Addon (Agents)]] | Iniciante (Lv.1) | 41 | - | - |
-| 150 | [[skills/cloud-run-basics/references/iam-security.md|Cloud Run IAM & security]] | Iniciante (Lv.1) | 40 | - | - |
-| 151 | [[skills/gke-basics/references/gke-multitenancy.md|GKE Multi-Tenancy]] | Iniciante (Lv.1) | 40 | - | - |
-| 152 | [[skills/04-knowledge-systems/memory-curation-for-agents.md|Memory Curation for Agents]] | Iniciante (Lv.1) | 39 | ai | - |
-| 153 | [[skills/01-agentic-intelligence/response-evaluation-rubric.md|Response Evaluation Rubric]] | Iniciante (Lv.1) | 39 | ai | - |
-| 154 | [[skills/gemini-api/references/structured_and_tools.md|Structured Output and Tools]] | Iniciante (Lv.1) | 38 | - | - |
-| 155 | [[skills/02-software-engineering/feature-flags-for-agents.md|Feature Flags for Agents]] | Iniciante (Lv.1) | 37 | - | - |
-| 156 | [[skills/bigquery-basics/references/core-concepts.md|BigQuery Core Concepts]] | Iniciante (Lv.1) | 35 | - | - |
-| 157 | [[skills/cloud-run-basics/references/client-library-usage.md|Cloud Run Client Libraries]] | Iniciante (Lv.1) | 35 | - | - |
-| 158 | [[skills/alloydb-basics/references/iac-usage.md|AlloyDB Infrastructure as Code Usage]] | Iniciante (Lv.1) | 33 | - | - |
-| 159 | [[skills/devops/observability-practical.md|Observability (Practical)]] | Iniciante (Lv.1) | 33 | DevOps | - |
-| 160 | [[skills/firebase-basics/references/iam-security.md|Firebase security-related features]] | Iniciante (Lv.1) | 32 | - | - |
-| 161 | [[skills/frontend/Tailwind-and-shadcn-Conventions.md|Tailwind and shadcn/ui Conventions (Agent Standards)]] | Iniciante (Lv.1) | 32 | Frontend | - |
-| 162 | [[skills/cloud-sql-basics/references/iam-security.md|Cloud SQL IAM & Security]] | Iniciante (Lv.1) | 31 | - | - |
-| 163 | [[skills/google-cloud-networking-observability/references/firewall-analysis.md|Firewall Rule Logging Analysis Reference]] | Iniciante (Lv.1) | 31 | - | - |
-| 164 | [[skills/gke-basics/references/mcp-usage.md|GKE MCP Server Usage]] | Iniciante (Lv.1) | 31 | - | - |
-| 165 | [[skills/google-cloud-networking-observability/references/metrics-analysis.md|Networking Metrics Reference]] | Iniciante (Lv.1) | 31 | - | - |
-| 166 | [[skills/gemini-api/references/embeddings.md|Text and Multimodal Embeddings]] | Iniciante (Lv.1) | 31 | - | - |
-| 167 | [[skills/cloud-sql-basics/references/client-library-usage.md|Cloud SQL Client Libraries]] | Iniciante (Lv.1) | 30 | - | - |
-| 168 | [[skills/gemini-api/references/media_generation.md|Media Generation]] | Iniciante (Lv.1) | 30 | - | - |
-| 169 | [[skills/frontend/Component-Boundaries-and-Ownership.md|Component Boundaries and Ownership (Agent Playbook)]] | Iniciante (Lv.1) | 29 | Frontend | - |
-| 170 | [[skills/gke-basics/references/core-concepts.md|GKE Core Concepts]] | Iniciante (Lv.1) | 29 | - | - |
-| 171 | [[skills/google-cloud-networking-observability/references/cloud-nat-analysis.md|Cloud NAT Analysis Reference]] | Iniciante (Lv.1) | 28 | - | - |
-| 172 | [[skills/firebase-basics/references/core-concepts.md|Firebase core concepts]] | Iniciante (Lv.1) | 28 | - | - |
-| 173 | [[skills/google-cloud-networking-observability/references/mcp-usage.md|MCP Server Usage Reference]] | Iniciante (Lv.1) | 27 | - | - |
-| 174 | [[skills/frontend/Accessibility-Checklist.md|Accessibility Checklist (Agents)]] | Iniciante (Lv.1) | 26 | Frontend | - |
-| 175 | [[skills/cloud-run-basics/references/cli-usage.md|Cloud Run CLI]] | Iniciante (Lv.1) | 25 | - | - |
-| 176 | [[skills/cloud-sql-basics/references/mcp-usage.md|Cloud SQL MCP Usage]] | Iniciante (Lv.1) | 25 | - | - |
-| 177 | [[skills/gke-basics/references/gke-backup-dr.md|GKE Backup & Disaster Recovery]] | Iniciante (Lv.1) | 25 | - | - |
-| 178 | [[skills/02-software-engineering/agentic-code-review.md|Agentic Code Review]] | Iniciante (Lv.1) | 24 | - | - |
-| 179 | [[skills/bigquery-basics/references/mcp-usage.md|BigQuery MCP Usage]] | Iniciante (Lv.1) | 24 | - | - |
-| 180 | [[skills/gke-basics/references/client-library-usage.md|GKE Client Libraries]] | Iniciante (Lv.1) | 24 | - | - |
-| 181 | [[skills/devops/logging-practical.md|Logging (Practical)]] | Iniciante (Lv.1) | 24 | DevOps | - |
-| 182 | [[skills/gemini-api/references/text_and_multimodal.md|Text and Multimodal Generation]] | Iniciante (Lv.1) | 24 | - | - |
-| 183 | [[skills/bigquery-basics/references/client-library-usage.md|BigQuery Client Libraries]] | Iniciante (Lv.1) | 23 | - | - |
-| 184 | [[skills/frontend/PR-Checklist-Frontend.md|PR Checklist for Frontend Changes (Agents)]] | Iniciante (Lv.1) | 23 | Frontend | - |
-| 185 | [[skills/alloydb-basics/references/core-concepts.md|AlloyDB Core Concepts]] | Iniciante (Lv.1) | 22 | - | - |
-| 186 | [[skills/frontend/Performance-and-Bundle-Discipline.md|Frontend Performance and Bundle Discipline (Agents)]] | Iniciante (Lv.1) | 22 | Frontend | - |
-| 187 | [[skills/gke-basics/references/iac-usage.md|GKE Infrastructure as Code]] | Iniciante (Lv.1) | 22 | - | - |
-| 188 | [[skills/devops/metrics-practical.md|Metrics (Practical)]] | Iniciante (Lv.1) | 22 | DevOps | - |
-| 189 | [[skills/bigquery-basics/references/cli-usage.md|BigQuery CLI Usage]] | Iniciante (Lv.1) | 21 | - | - |
-| 190 | [[skills/cloud-run-basics/references/iac-usage.md|Cloud Run Infrastructure as Code]] | Iniciante (Lv.1) | 21 | - | - |
-| 191 | [[skills/cloud-sql-basics/references/core-concepts.md|Cloud SQL Core Concepts]] | Iniciante (Lv.1) | 21 | - | - |
-| 192 | [[skills/devops/incident-response-practical.md|Incident Response (Practical)]] | Iniciante (Lv.1) | 21 | DevOps | - |
-| 193 | [[skills/frontend/i18n-Patterns-and-Localization.md|i18n Patterns and Localization (Agents)]] | Iniciante (Lv.1) | 21 | Frontend | - |
-| 194 | [[skills/bigquery-basics/references/iam-security.md|BigQuery IAM & Security]] | Iniciante (Lv.1) | 20 | - | - |
-| 195 | [[skills/devops/opsec-minimum.md|Operational Security (Minimum)]] | Iniciante (Lv.1) | 20 | DevOps | - |
-| 196 | [[skills/devops/runbooks-for-agents.md|Runbooks for Agents]] | Iniciante (Lv.1) | 20 | DevOps | - |
-| 197 | [[skills/frontend/Testing-UI-Practical.md|Testing UI Practical (Agents)]] | Iniciante (Lv.1) | 20 | Frontend | - |
-| 198 | [[skills/devops/tracing-practical.md|Tracing (Practical)]] | Iniciante (Lv.1) | 20 | DevOps | - |
-| 199 | [[skills/gemini-api/references/bounding_box.md|Bounding Box Detection]] | Iniciante (Lv.1) | 19 | - | - |
-| 200 | [[skills/cloud-run-basics/references/mcp-usage.md|Cloud Run MCP Usage]] | Iniciante (Lv.1) | 19 | - | - |
-| 201 | [[skills/gemini-api/references/safety.md|Safety Settings and Responsible AI]] | Iniciante (Lv.1) | 19 | - | - |
-| 202 | [[skills/devops/agent-runbook-template.md|Agent Runbook Template]] | Iniciante (Lv.1) | 18 | DevOps | - |
-| 203 | [[skills/bigquery-basics/references/iac-usage.md|BigQuery Infrastructure as Code]] | Iniciante (Lv.1) | 18 | - | - |
-| 204 | [[skills/firebase-basics/references/mcp-usage.md|Firebase CLI and MCP server]] | Iniciante (Lv.1) | 18 | - | - |
-| 205 | [[skills/firebase-basics/references/client-library-usage.md|Firebase client library usage]] | Iniciante (Lv.1) | 18 | - | - |
-| 206 | [[skills/devops/minimal-alerting-policy.md|Minimal Alerting Policy]] | Iniciante (Lv.1) | 18 | DevOps | - |
-| 207 | [[skills/devops/slo-sli-sla-basics.md|SLO/SLI/SLA (Basics)]] | Iniciante (Lv.1) | 18 | DevOps | - |
-| 208 | [[skills/devops/log-query-cheatsheet.md|Log Query Cheatsheet]] | Iniciante (Lv.1) | 16 | DevOps | - |
-| 209 | [[skills/cloud-sql-basics/references/cli-usage.md|Cloud SQL CLI Usage]] | Iniciante (Lv.1) | 15 | - | - |
-| 210 | [[skills/google-cloud-networking-observability/references/connectivity-tests.md|Connectivity Tests Reference]] | Iniciante (Lv.1) | 15 | - | - |
-| 211 | [[skills/alloydb-basics/references/mcp-usage.md|AlloyDB MCP Usage]] | Iniciante (Lv.1) | 14 | - | - |
-| 212 | [[skills/firebase-basics/references/iac-usage.md|Firebase IaC usage]] | Iniciante (Lv.1) | 14 | - | - |
-| 213 | [[skills/cloud-sql-basics/references/iac-usage.md|Cloud SQL Infrastructure as Code]] | Iniciante (Lv.1) | 13 | - | - |
-| 214 | [[skills/alloydb-basics/references/cli-usage.md|AlloyDB CLI Usage]] | Iniciante (Lv.1) | 12 | - | - |
-| 215 | [[skills/gemini-api/references/live_api.md|Live API]] | Iniciante (Lv.1) | 11 | - | - |
-| 216 | [[skills/gemini-api/references/model_tuning.md|Model Tuning]] | Iniciante (Lv.1) | 10 | - | - |
-| 217 | [[skills/firebase-basics/references/cli-usage.md|Firebase CLI usage]] | Iniciante (Lv.1) | 9 | - | - |
-| 218 | [[skills/02-software-engineering/agentic-debugging.md|Agentic Debugging]] | Iniciante (Lv.1) | 8 | - | - |
-| 219 | [[skills/02-software-engineering/agentic-testing.md|Agentic Testing]] | Iniciante (Lv.1) | 8 | - | - |
+| 85 | [[skills/01-agentic-intelligence/human-agent-collaboration-loop.md|Human Agent Collaboration Loop — Protocolo de Engenharia Cooperativa]] | Iniciante (Lv.1) | 77 | - | - |
+| 86 | [[skills/01-agentic-intelligence/mcp.md|MCP para VS Code AI]] | Iniciante (Lv.1) | 76 | - | - |
+| 87 | [[skills/01-agentic-intelligence/prompts.md|Prompt Templates para VS Code AI]] | Iniciante (Lv.1) | 76 | - | - |
+| 88 | [[skills/02-software-engineering/typescript-advanced.md|TypeScript Avancado - Sistema de Tipos, Genericos e Programacao em Nivel de Tipo]] | Iniciante (Lv.1) | 75 | - | - |
+| 89 | [[skills/softskills/Product-Management.md|Product Management]] | Iniciante (Lv.1) | 73 | Softskills | [[JARVIS Core|JARVIS Core]] |
+| 90 | [[skills/01-agentic-intelligence/advanced-workflows.md|Workflows Avançados — VS Code AI]] | Iniciante (Lv.1) | 72 | - | - |
+| 91 | [[skills/google-cloud-recipe-auth/SKILL.md|Authenticating to Google Cloud]] | Iniciante (Lv.1) | 71 | - | - |
+| 92 | [[skills/cloud-run-basics/SKILL.md|Cloud Run Basics]] | Iniciante (Lv.1) | 71 | - | - |
+| 93 | [[skills/gemini-api/SKILL.md|Gemini API in Agent Platform]] | Iniciante (Lv.1) | 71 | - | - |
+| 94 | [[skills/google-cloud-networking-observability/SKILL.md|Google Cloud Networking Observability Expert]] | Iniciante (Lv.1) | 71 | - | - |
+| 95 | [[skills/google-cloud-waf-cost-optimization/SKILL.md|Google Cloud Well-Architected Framework skill for the Cost Optimization pillar]] | Iniciante (Lv.1) | 71 | - | - |
+| 96 | [[skills/google-cloud-waf-reliability/SKILL.md|Google Cloud Well-Architected Framework skill for the Reliability pillar]] | Iniciante (Lv.1) | 71 | - | - |
+| 97 | [[skills/google-cloud-waf-security/SKILL.md|Google Cloud Well-Architected Framework skill for the Security pillar]] | Iniciante (Lv.1) | 71 | - | - |
+| 98 | [[skills/google-cloud-recipe-onboarding/SKILL.md|Onboarding to Google Cloud]] | Iniciante (Lv.1) | 71 | - | - |
+| 99 | [[skills/02-software-engineering/cloud-architecture.md|Cloud Architecture]] | Iniciante (Lv.1) | 70 | - | - |
+| 100 | [[skills/ai/Computer-Vision.md|Computer Vision]] | Iniciante (Lv.1) | 70 | - | - |
+| 101 | [[skills/02-software-engineering/distributed-systems.md|Distributed Systems]] | Iniciante (Lv.1) | 70 | - | - |
+| 102 | [[skills/Skill-Project-Matrix.md|Matriz Skills-Projetos]] | Iniciante (Lv.1) | 70 | - | - |
+| 103 | [[skills/bigquery-basics/SKILL.md|BigQuery Basics]] | Iniciante (Lv.1) | 69 | - | - |
+| 104 | [[skills/gke-basics/SKILL.md|Google Kubernetes Engine (GKE) Basics]] | Iniciante (Lv.1) | 69 | - | - |
+| 105 | [[skills/02-software-engineering/agentic-code-review.md|Agentic Code Review — Guia Avançado de Revisão Autônoma de Código]] | Iniciante (Lv.1) | 68 | - | - |
+| 106 | [[skills/mobile/Desenvolvimento-Mobile.md|Desenvolvimento Mobile]] | Iniciante (Lv.1) | 65 | - | - |
+| 107 | [[skills/frontend/PR-Checklist-Frontend.md|PR Checklist for Frontend Changes (Agents) — Guia de Revisão e Garantia Frontend]] | Iniciante (Lv.1) | 64 | Frontend | - |
+| 108 | [[skills/ai/Computacao-Distribuida-e-Edge-AI.md|Computação Distribuída Avançada e Edge AI]] | Iniciante (Lv.1) | 61 | - | - |
+| 109 | [[skills/04-knowledge-systems/Skills-MCPs-Agentes-ClaudeCode.md|Skills, MCPs e Agentes - Claude Code, Firecrawl e Stack Padrão]] | Iniciante (Lv.1) | 60 | - | - |
+| 110 | [[skills/ai/Meta-Learning-e-AutoML.md|Meta-aprendizagem e AutoML — Guia Ultra-Detalhado]] | Iniciante (Lv.1) | 59 | - | - |
+| 111 | [[skills/ai/XAI-Fairness-Accountability.md|Explainable AI (XAI), Fairness e Accountability — Expansão Completa]] | Iniciante (Lv.1) | 58 | - | - |
+| 112 | [[skills/Governanca/Governanca-Dados-Avancada.md|Governança de Dados Avançada: LGPD, AI Act, Data Mesh, Privacy Engineering]] | Iniciante (Lv.1) | 58 | - | - |
+| 113 | [[skills/Security/AI-Security-Etica-Operacional.md|Segurança e Ética Operacional de IA]] | Iniciante (Lv.1) | 58 | - | - |
+| 114 | [[skills/cloud-sql-basics/SKILL.md|Cloud SQL Basics]] | Iniciante (Lv.1) | 57 | - | - |
+| 115 | [[skills/devops/opsec-minimum.md|Operational Security (Minimum) — Guia de OpSec e Defesa Contra Injeção de Prompt]] | Iniciante (Lv.1) | 57 | DevOps | - |
+| 116 | [[skills/frontend/INDEX-Addon.md|Frontend Skills Index (Addon)]] | Iniciante (Lv.1) | 56 | Frontend | - |
+| 117 | [[skills/01-agentic-intelligence/context-engineering-checklist.md|Context Engineering Checklist]] | Iniciante (Lv.1) | 55 | ai | - |
+| 118 | [[skills/firebase-basics/SKILL.md|Firebase Basics]] | Iniciante (Lv.1) | 54 | - | - |
+| 119 | [[skills/01-agentic-intelligence/templates.md|Templates de Prompt — VS Code AI]] | Iniciante (Lv.1) | 54 | - | - |
+| 120 | [[skills/02-software-engineering/test-pyramid-realistic-for-agents.md|Test Pyramid (Realistic) for Agents]] | Iniciante (Lv.1) | 54 | - | - |
+| 121 | [[skills/firebase-basics/references/additional-skills.md|Additional Skills]] | Iniciante (Lv.1) | 53 | - | - |
+| 122 | [[skills/02-software-engineering/agentic-testing.md|Agentic Testing — Playbook de Arquitetura e Engenharia de Testes para IAs]] | Iniciante (Lv.1) | 53 | - | - |
+| 123 | [[skills/02-software-engineering/agentic-debugging.md|Agentic Debugging — O Método de Investigação Científica de Bugs por IAs]] | Iniciante (Lv.1) | 50 | - | - |
+| 124 | [[skills/alloydb-basics/references/client-library-usage.md|AlloyDB Client Libraries & Connectors]] | Iniciante (Lv.1) | 50 | - | - |
+| 125 | [[skills/gke-basics/references/cli-reference.md|CLI & Tool Reference for GKE]] | Iniciante (Lv.1) | 50 | - | - |
+| 126 | [[skills/cloud-run-basics/references/core-concepts.md|Cloud Run core concepts]] | Iniciante (Lv.1) | 50 | - | - |
+| 127 | [[skills/gke-basics/references/gke-inference.md|GKE AI/ML Inference]] | Iniciante (Lv.1) | 50 | - | - |
+| 128 | [[skills/gke-basics/references/gke-cluster-creation.md|GKE Cluster Creation]] | Iniciante (Lv.1) | 50 | - | - |
+| 129 | [[skills/gke-basics/references/gke-cost.md|GKE Cost Optimization]] | Iniciante (Lv.1) | 50 | - | - |
+| 130 | [[skills/gke-basics/references/gke-networking.md|GKE Networking]] | Iniciante (Lv.1) | 50 | - | - |
+| 131 | [[skills/gke-basics/references/gke-observability.md|GKE Observability]] | Iniciante (Lv.1) | 50 | - | - |
+| 132 | [[skills/gke-basics/references/gke-reliability.md|GKE Reliability]] | Iniciante (Lv.1) | 50 | - | - |
+| 133 | [[skills/gke-basics/references/gke-security.md|GKE Security]] | Iniciante (Lv.1) | 50 | - | - |
+| 134 | [[skills/gke-basics/references/gke-upgrades.md|GKE Upgrades & Maintenance]] | Iniciante (Lv.1) | 50 | - | - |
+| 135 | [[skills/gke-basics/references/gke-scaling.md|GKE Workload Scaling]] | Iniciante (Lv.1) | 50 | - | - |
+| 136 | [[skills/google-cloud-recipe-onboarding/reference/google-cloud-setup.md|Google Cloud Setup]] | Iniciante (Lv.1) | 50 | - | - |
+| 137 | [[skills/google-cloud-networking-observability/references/threat-analysis.md|Threat Log Analysis Reference]] | Iniciante (Lv.1) | 50 | - | - |
+| 138 | [[skills/google-cloud-networking-observability/references/vpc-flow-analysis.md|VPC Flow Analysis Reference]] | Iniciante (Lv.1) | 49 | - | - |
+| 139 | [[skills/02-software-engineering/api-contracts-and-compatibility.md|API Contracts and Compatibility]] | Iniciante (Lv.1) | 48 | - | - |
+| 140 | [[skills/gke-basics/references/gke-compute-classes.md|GKE ComputeClasses]] | Iniciante (Lv.1) | 46 | - | - |
+| 141 | [[skills/gemini-api/references/advanced_features.md|Advanced Features]] | Iniciante (Lv.1) | 45 | - | - |
+| 142 | [[skills/alloydb-basics/SKILL.md|AlloyDB Basics]] | Iniciante (Lv.1) | 45 | - | - |
+| 143 | [[skills/gke-basics/references/gke-golden-path.md|GKE Golden Path Configuration]] | Iniciante (Lv.1) | 45 | - | - |
+| 144 | [[skills/alloydb-basics/references/iam-security.md|AlloyDB IAM & Security]] | Iniciante (Lv.1) | 44 | - | - |
+| 145 | [[skills/gke-basics/references/gke-app-onboarding.md|GKE App Onboarding]] | Iniciante (Lv.1) | 44 | - | - |
+| 146 | [[skills/02-software-engineering/integration-patterns-for-agents.md|Integration Patterns (Agent-Friendly)]] | Iniciante (Lv.1) | 44 | - | - |
+| 147 | [[skills/01-agentic-intelligence/quick-start.md|Quick Start — VS Code AI]] | Iniciante (Lv.1) | 44 | - | - |
+| 148 | [[skills/gke-basics/references/gke-batch-hpc.md|GKE Batch & HPC Workloads]] | Iniciante (Lv.1) | 42 | - | - |
+| 149 | [[skills/02-software-engineering/db-migrations-and-zero-downtime.md|DB Migrations and Zero-Downtime Changes]] | Iniciante (Lv.1) | 41 | - | - |
+| 150 | [[skills/gke-basics/references/gke-storage.md|GKE Storage]] | Iniciante (Lv.1) | 41 | - | - |
+| 151 | [[skills/frontend/Nextjs-App-Router-Patterns.md|Next.js App Router Patterns (Agent Playbook)]] | Iniciante (Lv.1) | 41 | Frontend | - |
+| 152 | [[skills/04-knowledge-systems/rag-friendly-note-design.md|RAG-Friendly Note Design]] | Iniciante (Lv.1) | 41 | ai | - |
+| 153 | [[skills/02-software-engineering/rollback-and-release-strategies.md|Rollback and Release Strategies]] | Iniciante (Lv.1) | 41 | - | - |
+| 154 | [[skills/02-software-engineering/INDEX-Addon.md|Software Engineering - Index Addon (Agents)]] | Iniciante (Lv.1) | 41 | - | - |
+| 155 | [[skills/cloud-run-basics/references/iam-security.md|Cloud Run IAM & security]] | Iniciante (Lv.1) | 40 | - | - |
+| 156 | [[skills/gke-basics/references/gke-multitenancy.md|GKE Multi-Tenancy]] | Iniciante (Lv.1) | 40 | - | - |
+| 157 | [[skills/04-knowledge-systems/memory-curation-for-agents.md|Memory Curation for Agents]] | Iniciante (Lv.1) | 39 | ai | - |
+| 158 | [[skills/01-agentic-intelligence/response-evaluation-rubric.md|Response Evaluation Rubric]] | Iniciante (Lv.1) | 39 | ai | - |
+| 159 | [[skills/gemini-api/references/structured_and_tools.md|Structured Output and Tools]] | Iniciante (Lv.1) | 38 | - | - |
+| 160 | [[skills/02-software-engineering/feature-flags-for-agents.md|Feature Flags for Agents]] | Iniciante (Lv.1) | 37 | - | - |
+| 161 | [[skills/bigquery-basics/references/core-concepts.md|BigQuery Core Concepts]] | Iniciante (Lv.1) | 35 | - | - |
+| 162 | [[skills/cloud-run-basics/references/client-library-usage.md|Cloud Run Client Libraries]] | Iniciante (Lv.1) | 35 | - | - |
+| 163 | [[skills/alloydb-basics/references/iac-usage.md|AlloyDB Infrastructure as Code Usage]] | Iniciante (Lv.1) | 33 | - | - |
+| 164 | [[skills/devops/observability-practical.md|Observability (Practical)]] | Iniciante (Lv.1) | 33 | DevOps | - |
+| 165 | [[skills/firebase-basics/references/iam-security.md|Firebase security-related features]] | Iniciante (Lv.1) | 32 | - | - |
+| 166 | [[skills/frontend/Tailwind-and-shadcn-Conventions.md|Tailwind and shadcn/ui Conventions (Agent Standards)]] | Iniciante (Lv.1) | 32 | Frontend | - |
+| 167 | [[skills/cloud-sql-basics/references/iam-security.md|Cloud SQL IAM & Security]] | Iniciante (Lv.1) | 31 | - | - |
+| 168 | [[skills/google-cloud-networking-observability/references/firewall-analysis.md|Firewall Rule Logging Analysis Reference]] | Iniciante (Lv.1) | 31 | - | - |
+| 169 | [[skills/gke-basics/references/mcp-usage.md|GKE MCP Server Usage]] | Iniciante (Lv.1) | 31 | - | - |
+| 170 | [[skills/google-cloud-networking-observability/references/metrics-analysis.md|Networking Metrics Reference]] | Iniciante (Lv.1) | 31 | - | - |
+| 171 | [[skills/gemini-api/references/embeddings.md|Text and Multimodal Embeddings]] | Iniciante (Lv.1) | 31 | - | - |
+| 172 | [[skills/cloud-sql-basics/references/client-library-usage.md|Cloud SQL Client Libraries]] | Iniciante (Lv.1) | 30 | - | - |
+| 173 | [[skills/gemini-api/references/media_generation.md|Media Generation]] | Iniciante (Lv.1) | 30 | - | - |
+| 174 | [[skills/frontend/Component-Boundaries-and-Ownership.md|Component Boundaries and Ownership (Agent Playbook)]] | Iniciante (Lv.1) | 29 | Frontend | - |
+| 175 | [[skills/gke-basics/references/core-concepts.md|GKE Core Concepts]] | Iniciante (Lv.1) | 29 | - | - |
+| 176 | [[skills/google-cloud-networking-observability/references/cloud-nat-analysis.md|Cloud NAT Analysis Reference]] | Iniciante (Lv.1) | 28 | - | - |
+| 177 | [[skills/firebase-basics/references/core-concepts.md|Firebase core concepts]] | Iniciante (Lv.1) | 28 | - | - |
+| 178 | [[skills/google-cloud-networking-observability/references/mcp-usage.md|MCP Server Usage Reference]] | Iniciante (Lv.1) | 27 | - | - |
+| 179 | [[skills/frontend/Accessibility-Checklist.md|Accessibility Checklist (Agents)]] | Iniciante (Lv.1) | 26 | Frontend | - |
+| 180 | [[skills/cloud-run-basics/references/cli-usage.md|Cloud Run CLI]] | Iniciante (Lv.1) | 25 | - | - |
+| 181 | [[skills/cloud-sql-basics/references/mcp-usage.md|Cloud SQL MCP Usage]] | Iniciante (Lv.1) | 25 | - | - |
+| 182 | [[skills/gke-basics/references/gke-backup-dr.md|GKE Backup & Disaster Recovery]] | Iniciante (Lv.1) | 25 | - | - |
+| 183 | [[skills/bigquery-basics/references/mcp-usage.md|BigQuery MCP Usage]] | Iniciante (Lv.1) | 24 | - | - |
+| 184 | [[skills/gke-basics/references/client-library-usage.md|GKE Client Libraries]] | Iniciante (Lv.1) | 24 | - | - |
+| 185 | [[skills/devops/logging-practical.md|Logging (Practical)]] | Iniciante (Lv.1) | 24 | DevOps | - |
+| 186 | [[skills/gemini-api/references/text_and_multimodal.md|Text and Multimodal Generation]] | Iniciante (Lv.1) | 24 | - | - |
+| 187 | [[skills/bigquery-basics/references/client-library-usage.md|BigQuery Client Libraries]] | Iniciante (Lv.1) | 23 | - | - |
+| 188 | [[skills/alloydb-basics/references/core-concepts.md|AlloyDB Core Concepts]] | Iniciante (Lv.1) | 22 | - | - |
+| 189 | [[skills/frontend/Performance-and-Bundle-Discipline.md|Frontend Performance and Bundle Discipline (Agents)]] | Iniciante (Lv.1) | 22 | Frontend | - |
+| 190 | [[skills/gke-basics/references/iac-usage.md|GKE Infrastructure as Code]] | Iniciante (Lv.1) | 22 | - | - |
+| 191 | [[skills/devops/metrics-practical.md|Metrics (Practical)]] | Iniciante (Lv.1) | 22 | DevOps | - |
+| 192 | [[skills/bigquery-basics/references/cli-usage.md|BigQuery CLI Usage]] | Iniciante (Lv.1) | 21 | - | - |
+| 193 | [[skills/cloud-run-basics/references/iac-usage.md|Cloud Run Infrastructure as Code]] | Iniciante (Lv.1) | 21 | - | - |
+| 194 | [[skills/cloud-sql-basics/references/core-concepts.md|Cloud SQL Core Concepts]] | Iniciante (Lv.1) | 21 | - | - |
+| 195 | [[skills/devops/incident-response-practical.md|Incident Response (Practical)]] | Iniciante (Lv.1) | 21 | DevOps | - |
+| 196 | [[skills/frontend/i18n-Patterns-and-Localization.md|i18n Patterns and Localization (Agents)]] | Iniciante (Lv.1) | 21 | Frontend | - |
+| 197 | [[skills/bigquery-basics/references/iam-security.md|BigQuery IAM & Security]] | Iniciante (Lv.1) | 20 | - | - |
+| 198 | [[skills/devops/runbooks-for-agents.md|Runbooks for Agents]] | Iniciante (Lv.1) | 20 | DevOps | - |
+| 199 | [[skills/frontend/Testing-UI-Practical.md|Testing UI Practical (Agents)]] | Iniciante (Lv.1) | 20 | Frontend | - |
+| 200 | [[skills/devops/tracing-practical.md|Tracing (Practical)]] | Iniciante (Lv.1) | 20 | DevOps | - |
+| 201 | [[skills/gemini-api/references/bounding_box.md|Bounding Box Detection]] | Iniciante (Lv.1) | 19 | - | - |
+| 202 | [[skills/cloud-run-basics/references/mcp-usage.md|Cloud Run MCP Usage]] | Iniciante (Lv.1) | 19 | - | - |
+| 203 | [[skills/gemini-api/references/safety.md|Safety Settings and Responsible AI]] | Iniciante (Lv.1) | 19 | - | - |
+| 204 | [[skills/devops/agent-runbook-template.md|Agent Runbook Template]] | Iniciante (Lv.1) | 18 | DevOps | - |
+| 205 | [[skills/bigquery-basics/references/iac-usage.md|BigQuery Infrastructure as Code]] | Iniciante (Lv.1) | 18 | - | - |
+| 206 | [[skills/firebase-basics/references/mcp-usage.md|Firebase CLI and MCP server]] | Iniciante (Lv.1) | 18 | - | - |
+| 207 | [[skills/firebase-basics/references/client-library-usage.md|Firebase client library usage]] | Iniciante (Lv.1) | 18 | - | - |
+| 208 | [[skills/devops/minimal-alerting-policy.md|Minimal Alerting Policy]] | Iniciante (Lv.1) | 18 | DevOps | - |
+| 209 | [[skills/devops/slo-sli-sla-basics.md|SLO/SLI/SLA (Basics)]] | Iniciante (Lv.1) | 18 | DevOps | - |
+| 210 | [[skills/devops/log-query-cheatsheet.md|Log Query Cheatsheet]] | Iniciante (Lv.1) | 16 | DevOps | - |
+| 211 | [[skills/cloud-sql-basics/references/cli-usage.md|Cloud SQL CLI Usage]] | Iniciante (Lv.1) | 15 | - | - |
+| 212 | [[skills/google-cloud-networking-observability/references/connectivity-tests.md|Connectivity Tests Reference]] | Iniciante (Lv.1) | 15 | - | - |
+| 213 | [[skills/alloydb-basics/references/mcp-usage.md|AlloyDB MCP Usage]] | Iniciante (Lv.1) | 14 | - | - |
+| 214 | [[skills/firebase-basics/references/iac-usage.md|Firebase IaC usage]] | Iniciante (Lv.1) | 14 | - | - |
+| 215 | [[skills/cloud-sql-basics/references/iac-usage.md|Cloud SQL Infrastructure as Code]] | Iniciante (Lv.1) | 13 | - | - |
+| 216 | [[skills/alloydb-basics/references/cli-usage.md|AlloyDB CLI Usage]] | Iniciante (Lv.1) | 12 | - | - |
+| 217 | [[skills/gemini-api/references/live_api.md|Live API]] | Iniciante (Lv.1) | 11 | - | - |
+| 218 | [[skills/gemini-api/references/model_tuning.md|Model Tuning]] | Iniciante (Lv.1) | 10 | - | - |
+| 219 | [[skills/firebase-basics/references/cli-usage.md|Firebase CLI usage]] | Iniciante (Lv.1) | 9 | - | - |
 
 ---
 
@@ -257,33 +257,13 @@ updated: 2026-06-05
 
 ## Subiram de Nivel Recentemente
 
-| Skill | Nivel Anterior | Novo Nivel | XP Total |
-|-------|----------------|------------|----------|
-| [[skills/02-software-engineering/INDEX.md|Software Engineering & Architecture - Index]] | Lv.4 | **Lv.5** | 1424 |
-| [[skills/01-agentic-intelligence/INDEX.md|Indice de Inteligencia Agentica — JARVIS]] | Lv.4 | **Lv.5** | 1379 |
-| [[skills/data-engineering/INDEX.md|Data Engineering - Index]] | Lv.4 | **Lv.5** | 1304 |
-| [[skills/04-knowledge-systems/INDEX.md|Sistemas de Conhecimento e RAG Avancado]] | Lv.4 | **Lv.5** | 1294 |
-| [[skills/devops/ci-cd/INDEX.md|CI/CD e GitOps - Index]] | Lv.3 | **Lv.5** | 1239 |
-| [[skills/02-software-engineering/seguranca/INDEX.md|Seguranca da Informacao - Index]] | Lv.3 | **Lv.5** | 1239 |
-| [[skills/ai/INDEX.md|AI — Índice de Conhecimento]] | Lv.3 | **Lv.5** | 1236 |
-| [[skills/01-agentic-intelligence/README.md|Inteligencia Agentica — Hub de Skills JARVIS]] | Lv.4 | **Lv.5** | 1226 |
-| [[skills/02-software-engineering/README.md|Fullstack Skills]] | Lv.3 | **Lv.5** | 1131 |
-| [[skills/README.md|README - Skills e Navegação Visual]] | Lv.3 | **Lv.5** | 1100 |
-| [[skills/Explainable-AI.md|Explainable AI (XAI)]] | Lv.1 | **Lv.2** | 127 |
-| [[skills/AGENT-FULLSTACK-CAPABILITIES.md|🖥️ Fullstack Agent Capabilities — Habilidades de Programação para Agentes IA]] | Lv.1 | **Lv.2** | 118 |
-| [[skills/01-agentic-intelligence/direct-agent-prompts.md|Prompts Prontos para Agente de Chat Local]] | Lv.1 | **Lv.2** | 111 |
-| [[skills/AGENT-RESEARCH-CAPABILITIES.md|🔬 Research Agent Capabilities — Habilidades de Pesquisa para Agentes IA]] | Lv.1 | **Lv.2** | 103 |
-| [[skills/03-infrastructure-mcp/local-llm-ops.md|Local LLM Operations (LLMOps)]] | Lv.1 | **Lv.2** | 101 |
-| [[skills/02-software-engineering/seguranca/secrets-management.md|Secrets Management]] | Lv.1 | **Lv.2** | 101 |
-| [[skills/01-agentic-intelligence/advanced-reasoning-patterns.md|Advanced Reasoning Patterns: ReAct, ToT, CoT e Reflexion]] | Lv.1 | **Lv.2** | 100 |
-| [[skills/01-agentic-intelligence/programador-pesquisador.agent.md|Programador e Pesquisador Agent]] | Lv.1 | **Lv.2** | 100 |
-| [[skills/ai/Reinforcement-Learning.md|Reinforcement Learning]] | Lv.1 | **Lv.2** | 100 |
+*Nenhuma skill subiu de nivel desde a ultima execucao.*
 
 ---
 
 ## Totais
 
 - **Total de Skills:** 219
-- **XP Total (todas as skills):** 26348
-- **XP Medio por Skill:** 120
+- **XP Total (todas as skills):** 26577
+- **XP Medio por Skill:** 121
 - **Skills no nivel maximo (Lv.10 - Mestre):** 0

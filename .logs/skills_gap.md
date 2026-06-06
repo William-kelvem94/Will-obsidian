@@ -1,6 +1,6 @@
 # Skills Gap Report
 
-Generated: 2026-06-05 22:30:31
+Generated: 2026-06-05 22:39:15
 
 ## Missing Skills Referenced by Projects
 
@@ -13,9 +13,9 @@ Generated: 2026-06-05 22:30:31
 - advanced features
 - advanced reasoning patterns: react, tot, cot e reflexion
 - agent runbook template
-- agentic code review
-- agentic debugging
-- agentic testing
+- agentic code review — guia avançado de revisão autônoma de código
+- agentic debugging — o método de investigação científica de bugs por ias
+- agentic testing — playbook de arquitetura e engenharia de testes para ias
 - ai — índice de conhecimento
 - algoritmos e estruturas de dados avancados
 - alloydb basics
@@ -131,7 +131,7 @@ Generated: 2026-06-05 22:30:31
 - google cloud well-architected framework skill for the security pillar
 - google kubernetes engine (gke) basics
 - governança de dados avançada: lgpd, ai act, data mesh, privacy engineering
-- human agent collaboration loop
+- human agent collaboration loop — protocolo de engenharia cooperativa
 - i18n patterns and localization (agents)
 - incident response (practical)
 - indice de inteligencia agentica — jarvis
@@ -168,13 +168,13 @@ Generated: 2026-06-05 22:30:31
 - obsidian neural vault
 - onboarding to google cloud
 - operadores mcp para inteligencia agentica
-- operational security (minimum)
+- operational security (minimum) — guia de opsec e defesa contra injeção de prompt
 - orquestracao e consenso multi-agentes
 - orquestracao multi-agente e pipelines de subagentes
 - owasp top 10 (2021)
 - performance engineering - full-stack performance
 - postgresql avançado: a arquitetura do titã de dados e a revolução vetorial em ia
-- pr checklist for frontend changes (agents)
+- pr checklist for frontend changes (agents) — guia de revisão e garantia frontend
 - product management
 - programador agent
 - programador e pesquisador agent

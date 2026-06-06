@@ -1,5 +1,5 @@
 {
-  "last_run": "2026-06-05 22:34:02",
+  "last_run": "2026-06-05 22:38:07",
   "skills": {
     "01-agentic-intelligence/advanced-reasoning-patterns.md": {
       "title": "Advanced Reasoning Patterns: ReAct, ToT, CoT e Reflexion",
@@ -42,8 +42,8 @@
       "level": 2
     },
     "01-agentic-intelligence/human-agent-collaboration-loop.md": {
-      "title": "Human Agent Collaboration Loop",
-      "xp": 48,
+      "title": "Human Agent Collaboration Loop — Protocolo de Engenharia Cooperativa",
+      "xp": 77,
       "level": 1
     },
     "01-agentic-intelligence/INDEX.md": {
@@ -118,7 +118,7 @@
     },
     "01-agentic-intelligence/README.md": {
       "title": "Inteligencia Agentica — Hub de Skills JARVIS",
-      "xp": 1226,
+      "xp": 1223,
       "level": 5
     },
     "01-agentic-intelligence/response-evaluation-rubric.md": {
@@ -147,18 +147,18 @@
       "level": 2
     },
     "02-software-engineering/agentic-code-review.md": {
-      "title": "Agentic Code Review",
-      "xp": 24,
+      "title": "Agentic Code Review — Guia Avançado de Revisão Autônoma de Código",
+      "xp": 68,
       "level": 1
     },
     "02-software-engineering/agentic-debugging.md": {
-      "title": "Agentic Debugging",
-      "xp": 8,
+      "title": "Agentic Debugging — O Método de Investigação Científica de Bugs por IAs",
+      "xp": 50,
       "level": 1
     },
     "02-software-engineering/agentic-testing.md": {
-      "title": "Agentic Testing",
-      "xp": 8,
+      "title": "Agentic Testing — Playbook de Arquitetura e Engenharia de Testes para IAs",
+      "xp": 53,
       "level": 1
     },
     "02-software-engineering/algorithms-data-structures.md": {
@@ -253,7 +253,7 @@
     },
     "02-software-engineering/README.md": {
       "title": "Fullstack Skills",
-      "xp": 1131,
+      "xp": 1128,
       "level": 5
     },
     "02-software-engineering/rollback-and-release-strategies.md": {
@@ -687,8 +687,8 @@
       "level": 1
     },
     "devops/opsec-minimum.md": {
-      "title": "Operational Security (Minimum)",
-      "xp": 20,
+      "title": "Operational Security (Minimum) — Guia de OpSec e Defesa Contra Injeção de Prompt",
+      "xp": 57,
       "level": 1
     },
     "devops/runbooks-for-agents.md": {
@@ -782,8 +782,8 @@
       "level": 1
     },
     "frontend/PR-Checklist-Frontend.md": {
-      "title": "PR Checklist for Frontend Changes (Agents)",
-      "xp": 23,
+      "title": "PR Checklist for Frontend Changes (Agents) — Guia de Revisão e Garantia Frontend",
+      "xp": 64,
       "level": 1
     },
     "frontend/Tailwind-and-shadcn-Conventions.md": {
@@ -1063,7 +1063,7 @@
     },
     "README.md": {
       "title": "README - Skills e Navegação Visual",
-      "xp": 1100,
+      "xp": 1097,
       "level": 5
     },
     "Scikit-Learn.md": {
