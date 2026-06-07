@@ -1,6 +1,6 @@
 # Skills Gap Report
 
-Generated: 2026-06-05 22:39:15
+Generated: 2026-06-06 16:24:00
 
 ## Missing Skills Referenced by Projects
 

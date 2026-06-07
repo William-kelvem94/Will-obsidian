@@ -387,14 +387,90 @@ Polímeros de aminoácidos (20 padrao) ligados por ligações peptídicas.
 | DNA | Desoxirribose | A, T, C, G | Dupla hélice | Armazenamento genético |
 | RNA | Ribose | A, U, C, G | Fita simples | Síntese de proteinas |
 
-### 7.2 Metabolismo
+### 7.2 Bioenergética e Termodinâmica da Respiração Celular
 
-| Processo | Local | Entrada | Saída |
-|----------|-------|---------|-------|
-| Glicólise | Citoplasma | Glicose | 2 piruvato, 2 ATP, 2 NADH |
-| Ciclo de Krebs | Mitocôndria | Acetil-CoA | CO2, NADH, FADH2, GTP |
-| Cadeia respiratória | Mitocôndria | NADH, FADH2, O2 | ATP (~34), H2O |
-| Fotossíntese | Cloroplasto | CO2, H2O, luz | Glicose, O2 |
+O metabolismo dos seres vivos é governado pelas mesmas leis físicas e químicas invariantes que regem os sistemas inertes. Os organismos vivos mantêm-se em estados altamente ordenados de baixa entropia local (*negatropia*) extraindo energia livre de seus arredores através do acoplamento de reações químicas exergônicas (termologicamente favoráveis) e endergônicas (desfavoráveis), uma disciplina descrita como **Bioenergética**.
+
+#### Energia Livre de Gibbs ($\Delta G$) e Equilíbrio Químico
+Para qualquer reação química ocorrendo a temperatura ($T$) e pressão ($P$) constantes, a direção de espontaneidade espontânea é governada pela variação da **Energia Livre de Gibbs** ($\Delta G$):
+
+$$\Delta G = \Delta H - T\Delta S$$
+
+Onde $\Delta H$ representa a variação de entalpia (conteúdo térmico de ligação) e $\Delta S$ a variação de entropia (desordem).
+-   Se $\Delta G < 0$: A reação é **exergônica** e energeticamente espontânea.
+-   Se $\Delta G > 0$: A reação é **endergônica** e requer aporte energético externo para progredir.
+-   Se $\Delta G = 0$: O sistema atingiu o **equilíbrio químico**, incapaz de realizar trabalho útil.
+
+A energia livre real $\Delta G$ sob condições celulares arbitrárias relaciona-se com a energia livre padrão bioquímica ($\Delta G^{\circ'}$, medida sob pH 7.0, $25^\circ\text{C}$ e concentrações de reagente $1\,\text{M}$) através da expressão:
+
+$$\Delta G = \Delta G^{\circ'} + RT \ln \left( \frac{[C]^c [D]^d}{[A]^a [B]^b} \right)$$
+
+Onde $aA + bB \rightleftharpoons cC + dD$ e $R = 8.314\,\text{J/(mol·K)}$.
+
+No equilíbrio ($\Delta G = 0$), a razão de reagentes equivale à constante de equilíbrio $K_{\text{eq}}$, gerando:
+
+$$\Delta G^{\circ'} = -RT \ln K_{\text{eq}}$$
+
+#### A Termodinâmica Termoquímica de Oxidação da Glicose
+A respiração celular aeróbica é o processo de combustão biológica em que a glicose é cataliticamente degradada e oxidada na presença de oxigênio molecular. A equação estequiométrica global é descrita por:
+
+$$\text{C}_6\text{H}_{12}\text{O}_6 + 6\text{O}_2 \longrightarrow 6\text{CO}_2 + 6\text{H}_2\text{O}$$
+
+A variação de energia livre padrão bioquímica para esta reação de oxidação completa é altamente exergônica:
+
+$$\Delta G^{\circ'} = -2870\,\,\text{kJ/mol}$$
+
+Esta abundante liberação de energia livre é fracionada em múltiplas etapas enzimáticas sequenciais para evitar a dissipação destrutiva em forma de calor descontrolado, permitindo o acoplamento termodinâmico para a síntese de **ATP** (Trifosfato de Adenosina).
+
+##### O Acoplamento de Reações da Síntese de ATP
+A síntese de ATP a partir de ADP (Difosfato de Adenosina) e Fosfato Inorgânico ($P_i$) é uma reação termodinamicamente desfavorável (endergônica):
+
+$$\text{ADP} + \text{P}_i \longrightarrow \text{ATP} + \text{H}_2\text{O} \quad (\Delta G^{\circ'} = +30.5\,\,\text{kJ/mol})$$
+
+Para forçar esta síntese, a célula acopla o processo a reações mitocondriais de oxidação fortemente exergônicas do metabolismo da glicose. Por exemplo:
+
+$$\text{Fosfoenolpiruvato} + \text{ADP} \longrightarrow \text{Piruvato} + \text{ATP} \quad (\Delta G^{\circ'} \approx -31.4\,\,\text{kJ/mol})$$
+
+Este acoplamento é possível devido à aditividade matemática da energia de Gibbs para processos acoplados.
+
+#### Mapeamento de Fases de Respiração Celular
+
+```
+                             PROCESSAMENTO ENERGÉTICO MITOCONDRIAL:
+┌─────────────────┐       ┌─────────────────┐       ┌─────────────────┐       ┌─────────────────┐
+│    Glicólise    │ ──px─►│ Ciclo de Krebs  │ ──px─►│ Cadeia Química  │ ──px─►│ Fosforilação    │
+│  (Citoplasma)   │       │ (Matriz Mitoc.) │       │ de Elétrons     │       │ Oxidativa (ATP) │
+└─────────────────┘       └─────────────────┘       └─────────────────┘       └─────────────────┘
+```
+
+1.  **Glicólise** (Anaeróbia, Citoplasma): Divide 1 molécula de glicose em 2 piruvatos, produzindo de forma líquida $2\,\text{ATP}$ e $2\,\text{NADH}$.
+2.  **Ciclo de Krebs (Ácido Cítrico)** (Aeróbia, Matriz Mitocondrial): Descarboxila e oxida o acetil-CoA resultante do piruvato, gerando $\text{CO}_2$, $\text{FADH}_2$, $\text{NADH}$ e $\text{GTP}$ ($\text{ATP}$).
+3.  **Cadeia de Transporte de Elétrons (CTE)** (Membrana Interna): Elétrons de doadores NADH e $\text{FADH}_2$ são transladados por complexos transmembranares de oxirredução sequencial carregando potenciais de redução padrão redox crescentes ($E^\circ'$), até alcançarem o aceptor final de elétrons, o oxigênio molecular, que é reduzido a água:
+
+$$\frac{1}{2}\text{O}_2 + 2\text{H}^+ + 2e^- \longrightarrow \text{H}_2\text{O} \quad (E^{\circ'} = +0.816\,\text{V})$$
+
+##### A Força Proton-Motriz de Mitchell como Motor Cibernético
+À medida que os elétrons vertem pela cadeia transportadora, os complexos de bombeamento iônico expelem prótons ($\text{H}^+$) da matriz mitocondrial interna para o espaço intermembranar mitocondrial. Este deslocamento mecânico ativo estabelece um gradiente eletroquímico de prótons através da membrana interna, conhecido como **Força Próton-Motriz** ($\Delta p$).
+
+A força próton-motriz, postulada na teoria quimiosmótica de Peter Mitchell, possui duas componentes termodinâmicas:
+1.  O potencial elétrico de membrana ($\Delta \psi$, gerado pelo acúmulo relativo de cargas elétricas positivas no espaço intermembranar).
+2.  O gradiente químico de concentração ($\Delta\text{pH}$, diferença de acidez espacial).
+
+Matematicamente, a energia para mover um mol de prótons contra o gradiente é:
+
+$$\Delta G_{\text{H}^+} = F\Delta\psi - 2.303 RT\Delta\text{pH}$$
+
+Onde $F = 96485\,\text{C/mol}$ é a constante de Faraday. O potencial próton-motriz ($\Delta p$, em Volts) é definido por:
+
+$$\Delta p = \frac{\Delta G_{\text{H}^+}}{F} = \Delta\psi - \frac{2.303 RT}{F}\Delta\text{pH}$$
+
+Sob condições fisiológicas mitocondriais típicas ($T = 37^\circ\text{C}$), em que $\Delta\psi \approx 0.17\,\text{V}$ e $\Delta\text{pH} \approx 0.75$:
+
+$$\Delta p \approx 0.17\,\text{V} - (-0.06\,\text{V}/1) \approx 0.22\,\text{V}$$
+
+Este gradiente eletroquímico atua como um combustível que drena prótons de volta para a matriz mitocondrial através da nanomáquina rotativa **ATP Sintase** ($F_oF_1$-ATPase). Os prótons forçam a rotação mecânica do domínio $F_o$, acionando modificações conformacionais no domínio catalítico $F_1$, as quais sintetizam ATP com eficiência termodinâmica superior a 40%. Trata-se de um sistema de transdução energética cibernética primoroso operando em escala molecular.
+
+---
 
 ### 7.3 Conexões com Neurociência — Neurotransmissores
 

@@ -4,7 +4,7 @@ description: "Guia completo de fine-tuning de LLMs: quando fine-tuning e necessa
 tags: [fine-tuning, lora, qlora, sft, rlhf, dpo, huggingface, llm, transformers]
 nivel: avancado
 fonte: ""
-updated: 2026-06-05
+updated: 2026-06-07
 backlinks: ["skills/ai/INDEX"]
 assets: []
 referencias: []

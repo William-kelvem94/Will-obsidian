@@ -1,6 +1,6 @@
 ---
 tags: [skills, skills-eng, algorithms, data-structures, complexity, dynamic-programming]
-updated: 2026-06-05
+updated: 2026-06-07
 title: "Algoritmos e Estruturas de Dados Avancados"
 date: 2026-05-16
 ---

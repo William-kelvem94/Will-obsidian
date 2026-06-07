@@ -1,5 +1,5 @@
 {
-  "last_run": "2026-06-05 22:38:07",
+  "last_run": "2026-06-06 16:24:07",
   "skills": {
     "01-agentic-intelligence/advanced-reasoning-patterns.md": {
       "title": "Advanced Reasoning Patterns: ReAct, ToT, CoT e Reflexion",
@@ -48,7 +48,7 @@
     },
     "01-agentic-intelligence/INDEX.md": {
       "title": "Indice de Inteligencia Agentica — JARVIS",
-      "xp": 1379,
+      "xp": 1382,
       "level": 5
     },
     "01-agentic-intelligence/mcp-operators.md": {
@@ -233,7 +233,7 @@
     },
     "02-software-engineering/INDEX.md": {
       "title": "Software Engineering & Architecture - Index",
-      "xp": 1424,
+      "xp": 1427,
       "level": 5
     },
     "02-software-engineering/integration-patterns-for-agents.md": {
@@ -263,7 +263,7 @@
     },
     "02-software-engineering/seguranca/INDEX.md": {
       "title": "Seguranca da Informacao - Index",
-      "xp": 1239,
+      "xp": 1242,
       "level": 5
     },
     "02-software-engineering/seguranca/owasp-top-10.md": {
@@ -353,7 +353,7 @@
     },
     "04-knowledge-systems/INDEX.md": {
       "title": "Sistemas de Conhecimento e RAG Avancado",
-      "xp": 1294,
+      "xp": 1297,
       "level": 5
     },
     "04-knowledge-systems/memory-curation-for-agents.md": {
@@ -423,7 +423,7 @@
     },
     "ai/INDEX.md": {
       "title": "AI — Índice de Conhecimento",
-      "xp": 1236,
+      "xp": 1239,
       "level": 5
     },
     "ai/LLM-Fine-Tuning.md": {
@@ -608,7 +608,7 @@
     },
     "data-engineering/INDEX.md": {
       "title": "Data Engineering - Index",
-      "xp": 1304,
+      "xp": 1307,
       "level": 5
     },
     "data-engineering/streaming.md": {
@@ -633,7 +633,7 @@
     },
     "devops/ci-cd/INDEX.md": {
       "title": "CI/CD e GitOps - Index",
-      "xp": 1239,
+      "xp": 1242,
       "level": 5
     },
     "devops/ci-cd/semantic-release.md": {

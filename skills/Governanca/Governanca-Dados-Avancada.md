@@ -2,7 +2,7 @@
 title: "Governança de Dados Avançada: LGPD, AI Act, Data Mesh, Privacy Engineering"
 date: 2026-06-01
 tags: [skills]
-updated: 2026-06-05
+updated: 2026-06-07
 ---
 
 # Governança de Dados Avançada: LGPD, AI Act, Data Mesh, Privacy Engineering

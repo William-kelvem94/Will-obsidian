@@ -4,7 +4,7 @@ category: "Frontend"
 level: 3
 description: "Practical UI testing for agents: unit vs integration vs e2e, mocking strategy, and stable selectors."
 tags: [skills, frontend, testing]
-updated: 2026-06-05
+updated: 2026-06-07
 date: 2026-06-01
 ---
 

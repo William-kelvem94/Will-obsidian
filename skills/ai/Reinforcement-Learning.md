@@ -15,7 +15,7 @@ resources:
   - "Human-level control through DRL (Mnih et al., 2015)"
 date: 2026-04-29
 tags: [skills, ai, reinforcement-learning]
-updated: 2026-06-05
+updated: 2026-06-07
 ---
 
 # Reinforcement Learning

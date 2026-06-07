@@ -2,7 +2,7 @@
 title: "System Guides Index"
 description: "Index of system-level guidance for reviewing and governing agent-facing operational improvements."
 tags: [jarvis, system, guides, index, governance, jarvis-sistema]
-updated: 2026-06-05
+updated: 2026-06-07
 status: active
 date: 2026-06-01
 ---

@@ -4,7 +4,7 @@ description: "Guia completo de LLMOps - operacionalizacao de LLMs em producao: p
 tags: [llmops, mlops, producao, monitoramento, guardrails, avaliacao, llm]
 nivel: avancado
 fonte: ""
-updated: 2026-06-05
+updated: 2026-06-07
 backlinks: ["skills/ai/INDEX"]
 assets: []
 referencias: []

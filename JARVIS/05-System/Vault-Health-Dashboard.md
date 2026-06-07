@@ -3,7 +3,7 @@ title: "Vault Health Dashboard"
 icon: "lucide/activity"
 tags: [system, operational, dashboard, jarvis-sistema]
 date: 2026-05-03
-updated: 2026-06-05
+updated: 2026-06-07
 ---
 
 # 🚀 Vault Health Dashboard

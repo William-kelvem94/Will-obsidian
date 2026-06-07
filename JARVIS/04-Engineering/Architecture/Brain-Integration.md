@@ -2,7 +2,7 @@
 title: "Brain Integration — JARVIS & Vault"
 description: "Guia de integração entre o segundo cérebro do Jarvis, os agentes do vault e os projetos de IA local." 
 tags: [jarvis, integration, brain, vault, jarvis-engenharia]
-updated: 2026-06-05
+updated: 2026-06-07
 date: 2026-04-27
 ---
 

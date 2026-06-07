@@ -6,7 +6,7 @@ description: "Skill para escrever notas atomicas que recuperam bem em busca sema
 projects: []
 related_skills: [advanced-rag-strategies, obsidian-neural-vault]
 resources: []
-updated: 2026-06-05
+updated: 2026-06-07
 date: 2026-06-01
 tags: [skills-knowledge]
 ---

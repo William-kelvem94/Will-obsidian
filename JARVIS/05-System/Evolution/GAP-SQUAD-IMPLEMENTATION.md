@@ -2,7 +2,7 @@
 title: "Squads, Times e Papéis — Implantação Avançada"
 date: 2026-06-05
 tags: [jarvis-sistema]
-updated: 2026-06-05
+updated: 2026-06-07
 ---
 
 # Squads, Times e Papéis — Implantação Avançada

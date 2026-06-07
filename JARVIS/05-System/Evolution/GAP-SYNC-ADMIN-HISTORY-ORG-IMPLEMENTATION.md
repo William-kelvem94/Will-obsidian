@@ -2,7 +2,7 @@
 title: "Sync, Admin, Permissões, Histórico, Organização—Implantação Plus Ultra"
 date: 2026-06-05
 tags: [jarvis-sistema]
-updated: 2026-06-05
+updated: 2026-06-07
 ---
 
 # Sync, Admin, Permissões, Histórico, Organização—Implantação Plus Ultra

@@ -15,7 +15,7 @@ resources:
   - "AWS/Azure/GCP pricing calculators"
 date: 2026-04-29
 tags: [skills, devops, finops]
-updated: 2026-06-05
+updated: 2026-06-07
 ---
 
 # FinOps

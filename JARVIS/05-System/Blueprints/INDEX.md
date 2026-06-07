@@ -2,7 +2,7 @@
 title: "Blueprints — Templates do Jarvis"
 description: "Templates estruturados para o Jarvis capturar, organizar e consultar informações sobre Will e seu universo."
 tags: [jarvis, templates, blueprints, jarvis-sistema]
-updated: 2026-06-05
+updated: 2026-06-07
 date: 2026-04-27
 ---
 

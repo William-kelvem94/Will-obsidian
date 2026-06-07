@@ -2,7 +2,7 @@
 title: "MOVIDO — Estudos e Pesquisas"
 date: 2026-05-16
 tags: [redirecionamento, movido, projetos]
-updated: 2026-06-05
+updated: 2026-06-07
 ---
 
 > ⚠️ Este diretório foi consolidado em `Projetos/03-Estudos/EstudosPesquisas/`.

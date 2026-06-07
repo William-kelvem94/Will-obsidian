@@ -4,7 +4,7 @@ category: "DevOps"
 level: 2
 description: "Portable patterns for querying logs during incidents (tool-agnostic)."
 date: 2026-05-08
-updated: 2026-06-05
+updated: 2026-06-07
 tags: [skills, devops, logs, cheatsheet]
 ---
 

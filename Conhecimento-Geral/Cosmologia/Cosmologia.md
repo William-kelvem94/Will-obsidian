@@ -74,34 +74,119 @@ O século XX transformou radicalmente nossa visão do cosmos:
 
 ---
 
-## 3. O Big Bang
+## 3. O Hot Big Bang, Equações de Friedmann e Inflação Cósmica
 
-O Big Bang não foi uma explosão no espaço — foi a **expansão do próprio espaço** a partir de um estado extremamente denso e quente. O termo "Big Bang" foi cunhado pejorativamente por Fred Hoyle (defensor do modelo estacionário), mas tornou-se o nome oficial do paradigma cosmológico.
+O modelo cosmológico padrão — conhecido como **$\Lambda\text{CDM}$** (constante cosmológica $\Lambda$ mais Matéria Escura Fria ou *Cold Dark Matter*) — descreve um cosmos plano de simetria FLRW que iniciou-se em um estado termodinâmico extremamente denso, quente e singular denominado **Hot Big Bang**.
 
-### 3.1 A Linha do Tempo Cósmica
+### 3.1 A Métrica de Espaço-Tempo FLRW e as Equações de Friedmann
 
-| Tempo após Big Bang | Evento | Temperatura |
-|--------------------|--------|-------------|
-| 0 | Singularidade inicial | ∞ |
-| 10⁻⁴³ s | Era de Planck (gravidade quântica) | ~10³² K |
-| 10⁻³⁶ s | Inflação cósmica | ~10²⁷ K |
-| 10⁻¹² s | Transição eletrofraca | ~10¹⁶ K |
-| 10⁻⁶ s | Formação de prótons e nêutrons | ~10¹³ K |
-| ~3 min | Nucleossíntese primordial (BBN) | ~10⁹ K |
-| ~380.000 anos | Recombinação — CMB emitida | ~3.000 K |
-| ~100 milhões anos | Primeiras estrelas e galáxias | ~50 K |
-| ~9 bilhões anos | Formação do Sistema Solar | ~4 K |
-| ~13.8 bilhões anos | Hoje | 2.725 K |
+A geometria em larga escala de um universo homogêneo e isotrópico na relatividade geral é expressa matematicamente pela **Métrica de Friedmann-Lemaître-Robertson-Walker (FLRW)**:
 
-### 3.2 As Três Evidências Principais
+$$ds^2 = -c^2dt^2 + a^2(t)\left[ \frac{dr^2}{1-kr^2} + r^2(d\theta^2 + \sin^2\theta d\phi^2) \right]$$
 
-**Expansão do Universo (Hubble, 1929):** A relação linear entre distância e velocidade de recessão das galáxias (v = H₀ × d) é a evidência mais direta de que o universo está se expandindo. A constante de Hubble H₀ ≈ 67-73 km/s/Mpc mede a taxa atual de expansão. Projetando esta expansão para trás, chegamos a um estado inicial extremamente denso há ~13.8 bilhões de anos.
+Onde $a(t)$ é o **fator de escala adimensional** (representando como as distâncias físicas expandem com o tempo cósmico) e $k$ é o parâmetro de curvatura espacial discreto:
+-   $k = +1$: Universo fechado (geometria esférica tridimensional de volume finito).
+-   $k = 0$: Universo plano (geometria euclidiana tridimensional clássica).
+-   $k = -1$: Universo aberto (geometria hiperbólica infinita).
 
-**Radiação Cósmica de Fundo (CMB):** Descoberta acidentalmente por Penzias e Wilson em 1965, a CMB é a radiação de micro-ondas que preenche uniformemente todo o universo — o "afterglow" do Big Bang. Com temperatura de 2.725 K e espectro de corpo negro perfeito, a CMB é a imagem do universo com apenas 380.000 anos. Missões como COBE, WMAP e Planck mapearam flutuações de temperatura de apenas 1 parte em 100.000, revelando as sementes de todas as estruturas cósmicas.
+Ao aplicarmos os tensores de campo das **Equações de Campo de Einstein** ($G_{\mu\nu} + \Lambda g_{\mu\nu} = \frac{8\pi G}{c^4}T_{\mu\nu}$) a essa métrica e parametrizarmos o conteúdo do universo como um fluido perfeito com densidade de energia $\rho(t)$ e pressão hidrostática $p(t)$, obtemos as duas célebres **Equações de Friedmann** que governam a dinâmica expansionista cósmica:
 
-**Nucleossíntese Primordial (BBN):** Nos primeiros 20 minutos após o Big Bang, o universo estava quente e denso o suficiente para que reações nucleares fundissem prótons e nêutrons. As abundâncias previstas (~75% H, ~25% He, traços de Li e D) correspondem exatamente às observações em mais de 10 ordens de grandeza. A única discrepância — o **problema do lítio** (observamos ~3× menos ⁷Li que o previsto) — pode indicar física além do modelo padrão ou processos astrofísicos desconhecidos.
+#### Primeira Equação de Friedmann (Taxa de Expansão)
+Determina o quadrado da constante dinâmica de expansão de Hubble $H(t)$:
 
-### 3.3 A Inflação Cósmica em Detalhe
+$$\left( \frac{\dot{a}}{a} \right)^2 \equiv H^2(t) = \frac{8\pi G}{3}\rho - \frac{kc^2}{a^2} + \frac{\Lambda c^2}{3}$$
+
+#### Segunda Equação de Friedmann (Aceleração Hidrostática)
+Determina a aceleração mecânica do fator de escala:
+
+$$\frac{\ddot{a}}{a} = -\frac{4\pi G}{3}\left( \rho + \frac{3p}{c^2} \right) + \frac{\Lambda c^2}{3}$$
+
+#### A Equação do Fluido (Conservação Local de Energia)
+Decorrente diretamente da anulação da divergência covariante do tensor de energia-momento ($\nabla_\mu T^{\mu\nu} = 0$):
+
+$$\dot{\rho} + 3H(t)\left( \rho + \frac{p}{c^2} \right) = 0$$
+
+Mapeamos a equação de estado do fluido por $p = w\rho c^2$, onde $w$ determina a evolução de decaimento de densidade para diferentes épocas do universo:
+
+| Época Cósmica | Parâmetro $w$ | Propagação de Densidade $\rho(a)$ | Evolução do Fator de Escala $a(t)$ |
+|---|---|---|---|
+| **Radiação** (Estágio Inicial) | $w = 1/3$ | $\rho_R \propto a^{-4}$ | $a(t) \propto t^{1/2}$ |
+| **Matéria** (Estágio Intermediário) | $w = 0$ | $\rho_M \propto a^{-3}$ | $a(t) \propto t^{2/3}$ |
+| **Energia Escura** (Estágio Dominante Atual) | $w = -1$ | $\rho_\Lambda = \text{constante}$ | $a(t) \propto e^{H_{\Lambda}t}$ |
+
+A componente de radiação decai mais rapidamente ($\rho_R \propto a^{-4}$) devido à diluição espacial do volume ($a^{-3}$) somada à perda de energia de fótons individuais em consequência do desvio relativístico para o vermelho cósmico (Doppler cosmológico $a^{-1}$).
+
+---
+
+### 3.2 A Linha do Tempo Cósmica e Eras Termodinâmicas
+
+| Tempo após o Big Bang | Época ou Evento | Temperatura ($K$) | Dinâmica Física Principal |
+|---|---|---|---|
+| $t < 10^{-43}\,\text{s}$ | Era de Planck | $\ge 10^{32}\,\text{K}$ | A gravitação integra-se às forças quânticas sob escala unificada (Gravidade Quântica). |
+| $t \sim 10^{-36}\,\text{s}$ | Era de Inflação Cósmica | $\sim 10^{27}\,\text{K}$ | Expansão exponencial violenta do espaço-tempo impulsionada por campo escalar. |
+| $t \sim 10^{-12}\,\text{s}$ | Quebra Eletrofraca | $\sim 10^{15}\,\text{K}$ | O Higgs adquire valor de vácuo, separando interações eletromagnéticas e fracas. |
+| $t \sim 10^{-6}\,\text{s}$ | Transição de Fase Quark-Glúon | $\sim 10^{13}\,\text{K}$ | Quarks livres confinam-se irreversivelmente em prótons e nêutrons estáveis. |
+| $t \sim 10\,\text{s} - 20\,\text{min}$ | Nucleossíntese Primordial (BBN) | $\sim 10^{9}\,\text{K}$ | Fusão nuclear primária cria abundâncias fundamentais puras de $^{1}\text{H}$, $^{4}\text{He}$, $^{3}\text{He}$, $^{2}\text{H}$, $^{7}\text{Li}$. |
+| $t \sim 380.000\,\text{anos}$ | Recombinação e Desacoplamento | $\sim 3000\,\text{K}$ | Elétrons e prótons ligam-se em átomos neutros. Fótons tornam-se livres, emitindo a **CMB**. |
+| $t \sim 13.8 \times 10^9\,\text{anos}$ | Época Atual | $2.725\,\text{K}$ | O universo experimenta nova aceleração de expansão governada pela energia escura $\Lambda$. |
+
+---
+
+### 3.3 A Tensão de Hubble ($H_0$): A Crise Moderna da Cosmologia
+
+A constante de Hubble $H_0 \equiv H(t_0)$ quantifica a taxa de expansão do universo na nossa época de observação contemporânea. Embora o modelo $\Lambda\text{CDM}$ explique a história cósmica global com notável simetria, cientistas enfrentam a **Tensão de Hubble**: uma inconsistência estatisticamente gritante ($\ge 5\sigma$, o limiar formal para a declaração de uma nova descoberta física) entre medições distantes indiretas e medições de proximidade diretas.
+
+```
+                            A DISCREPÂNCIA DA TAXA DE EXPANSÃO (H0):
+┌─────────────────────────────────┐                 ┌─────────────────────────────────┐
+│       Medições Anestrais        │                 │        Medições Locais          │
+│   (Análise Física da CMB)       │                 │   (Velocidade Direta de Galáxias│
+├─────────────────────────────────┤                 ├─────────────────────────────────┤
+│ Telescópio Espacial Planck      │                 │  Cefeidas e Supernovas Tipo Ia  │
+│ H0 ≈ 67.4 +/- 0.5 km/s/Mpc      │                 │  H0 ≈ 73.04 +/- 1.0 km/s/Mpc    │
+└─────────────────────────────────┘                 └─────────────────────────────────┘
+```
+
+1.  **Medições Precoces de Fase Cósmica (Early Universe)**: Derivadas da física acústica da radiação cósmica de fundo (CMB) mapeada pelo satélite Planck da ESA, assumindo o modelo $\Lambda\text{CDM}$ padrão. Produzem o valor estrito:
+    $$H_0 = 67.4 \pm 0.5 \,\,\text{km/s/Mpc}$$
+2.  **Medições Locais de Fase Cósmica (Late Universe)**: Obtidas de forma empírica e analítica direta calibrando as distâncias de estrelas variáveis Cefeidas e Supernovas do Tipo Ia (projeto SH0ES liderado por Adam Riess). Produzem o valor estrito:
+    $$H_0 = 73.04 \pm 1.04 \,\,\text{km/s/Mpc}$$
+
+Esta discrepância inexplicável de $\sim 9\%$ sugere que a história da expansão cósmica possui disparidades e pode indicar a necessidade de novas teorias exóticas, tais como energia escura dinâmica de fase fluida, gravidade modificada ou novas espécies de neutrinos.
+
+---
+
+### 3.4 Teoria de Inflação Cósmica em Detalhe
+
+Para remediar as graves inconsistências deixadas pelo Big Bang clássico não-inflacionário — os problemas de **Horizonte**, **Planura** e **Monopolos Magnéticos** —, Alan Guth propôs que o cosmos sofreu uma expansão exponencial acelerada exponencialmente rápida em seus primeiros $10^{-36}$ segundos de existência.
+
+#### O Mecanismo do Inflaton e Potencial Quântico
+Assumimos que o espaço-tempo primordial foi dominado por um campo escalar quântico homogêneo denominado **Inflaton** ($\phi$). A densidade de energia $\rho_\phi$ e a pressão hidrostática $p_\phi$ associadas a esse campo escalar livre são formuladas por:
+
+$$\rho_\phi = \frac{1}{2c^2}\dot{\phi}^2 + V(\phi)$$
+
+$$p_\phi = \frac{1}{2c^2}\dot{\phi}^2 - V(\phi)$$
+
+Onde $V(\phi)$ representa o potencial interno do campo quântico.
+
+Se o campo escalar sofrer um rolamento dinâmico lento ao longo do perfil de seu potencial escalar (hipótese de **Slow-Roll Approximation**), as condições cinéticas tornam-se insignificantes em relação ao seu potencial de repouso:
+
+$$\frac{1}{2c^2}\dot{\phi}^2 \ll V(\phi) \quad \Longrightarrow \quad p_\phi \approx -\rho_\phi c^2$$
+
+Substituindo essa relação de pressão hidrostática intrinsecamente negativa ($w \approx -1$) na primeira equação de Friedmann, obtemos um fator de expansão de aceleração exponencial:
+
+$$a(t) = a_0 e^{H_{\text{inf}}t} \quad \text{onde} \quad H_{\text{inf}} = \sqrt{\frac{8\pi G V(\phi)}{3}}$$
+
+Em um minúsculo intervalo de tempo ($\Delta t \approx 10^{-32}$ segundos), o fator de escala do universo cresceu por um fator assombroso de $e^{N}$ (onde $N \approx 60$ e-foldings), expandindo o universo observável em pelo menos 26 ordens de grandeza.
+-   **Horizonte**: Regiões que hoje enxergamos em limites opostos da CMB estavam fisicamente acopladas de forma síncrona em contato de equilíbrio causal térmico antes do início da inflação catastrófica.
+-   **Planura**: O enorme fator exponencial de expansão esticou qualquer curvatura geométrica primordial tridimensional pré-existente para um estado localmente plano ($k \to 0$), assim como a superfície de uma bolha esférica gigante de sabão parece localmente plana para observadores microscópicos.
+-   **Flutuações Quânticas Esticadas**: As flutuações quânticas subatômicas do inflaton sofreram expansão física instantânea de escala, sendo cimentadas como as perturbações de densidade clássicas macroscópicas retratadas nas flutuações da CMB, as quais posteriormente colapsaram gravitacionalmente para fundar as primeiras estrelas e galáxias.
+
+---
+
+### 3.5 As Três Evidências Principais Fundamentais
+
+**Mapeamento de CMB e a BBN**: Os dados espectrais da Radiação Cósmica de Fundo (CMB) obtidos por satélites espaciais constituem a "fotografia térmica" do universo aos 380.000 anos, apresentando as sementes acústicas elementares de flutuação de temperatura na faixa de $10^{-5}\,\text{K}$. Adicionalmente, as abundâncias químicas leves computadas pela Nucleossíntese Primordial (BBN) no primeiro quarto de hora cósmico reproduzem perfeitamente proporções de cerca de $75\%$ de Hidrogênio e $25\%$ de Hélio condizentes com análises astrofísicas espectroscópicas profundas.
 
 A inflação cósmica resolve três problemas fundamentais do Big Bang padrão:
 

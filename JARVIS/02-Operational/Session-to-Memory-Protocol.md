@@ -2,7 +2,7 @@
 title: "Session to Memory Protocol"
 description: "Protocolo para transformar uma sessao de trabalho em memoria reutilizavel no vault."
 tags: [jarvis, memoria, protocolo, agentes, operacao, jarvis-operacao]
-updated: 2026-06-05
+updated: 2026-06-07
 status: active
 date: 2026-06-01
 ---

@@ -2,7 +2,7 @@
 title: "Ideia Pessoal"
 date: 2026-06-05
 tags: [perfil]
-updated: 2026-06-05
+updated: 2026-06-07
 ---
 
 Sim, exatamente! Este vault já pode (e deve) abrigar TUDO referente à você, evoluindo de "hub de projetos" para PKM completo (Personal Knowledge Management) / "segundo cérebro". Veja como:

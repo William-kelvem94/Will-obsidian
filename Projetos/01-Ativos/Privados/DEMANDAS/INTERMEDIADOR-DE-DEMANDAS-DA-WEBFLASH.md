@@ -3,7 +3,7 @@ title: "INTERMEDIADOR-DE-DEMANDAS-DA-WEBFLASH"
 source: "https://github.com/William-kelvem94/INTERMEDIADOR-DE-DEMANDAS-DA-WEBFLASH"
 private: true
 tags: [projetos, privados, demandas, docker, n8n, ollama, postgres]
-updated: 2026-06-05
+updated: 2026-06-07
 date: 2026-06-01
 ---
 

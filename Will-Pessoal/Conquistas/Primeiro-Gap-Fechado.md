@@ -3,7 +3,7 @@ title: "🎯 Primeiro Gap Fechado"
 date: 2026-05-19
 tags: [conquista, badge, perfil]
 xp_reward: 10
-updated: 2026-06-05
+updated: 2026-06-07
 ---
 
 # 🎯 Primeiro Gap Fechado

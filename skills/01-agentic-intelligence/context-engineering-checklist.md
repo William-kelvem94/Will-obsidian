@@ -6,7 +6,7 @@ description: "Checklist operacional para montar contexto util antes de pedir ou 
 projects: []
 related_skills: [advanced-workflows, prompts, memory-architectures]
 resources: []
-updated: 2026-06-05
+updated: 2026-06-07
 date: 2026-06-01
 tags: [skills-ai]
 ---

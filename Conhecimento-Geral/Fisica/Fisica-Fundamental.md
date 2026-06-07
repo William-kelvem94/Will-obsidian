@@ -300,14 +300,69 @@ Para processos reversíveis: $dS = \delta Q/T$. Para processos irreversíveis: $
 A segunda lei afirma que a entropia total do universo sempre aumenta em processos reais:
 $$\Delta S_{\text{universo}} \geq 0$$
 
-#### Interpretação Estatística da Entropia (Boltzmann)
+#### Termodinâmica Estatística de Boltzmann-Gibbs
 
-Ludwig Boltzmann forneceu uma interpretação microscópica revolucionária:
+Enquanto a termodinâmica clássica descreve as relações macroscópicas macro-sistêmicas de energia de forma fenomenológica, a **Termodinâmica Estatística**, iniciada por Ludwig Boltzmann e consolidada por J. Willard Gibbs, unifica o domínio microscópico molecular (equações de movimento de $N \sim 10^{23}$ corpos) ao comportamento observável dos sistemas térmicos. Ela repousa sobre a premissa de que as leis termodinâmicas são as propriedades médias de agregados imensos de partículas flutuando estatisticamente.
+
+##### O Espaço de Fase e o Teorema de Liouville
+Um sistema físico composto por $N$ partículas idênticas possui $3N$ coordenadas de posição $q_i$ e $3N$ coordenadas de momento conjugado $p_i$. Este conjunto define o **Espaço de Fase** $\Gamma$, um espaço com dimensões $d = 6N$, onde um único ponto determina o microestado dinâmico instantâneo do sistema.
+
+A evolução temporal deste ponto é governada pelas equações hamiltonianas de movimento:
+
+$$\dot{q}_i = \frac{\partial H}{\partial p_i}, \quad \dot{p}_i = -\frac{\partial H}{\partial q_i}$$
+
+Seja $\rho(q, p, t)$ a função de densidade de probabilidade no espaço de fase. O **Teorema de Liouville** dita que a taxa de variação da densidade em torno de um ponto móvel é nula, comportando-se como um fluido incompressível:
+
+$$\frac{d\rho}{dt} = \frac{\partial \rho}{\partial t} + \sum_{i=1}^{3N} \left( \frac{\partial \rho}{\partial q_i}\dot{q}_i + \frac{\partial \rho}{\partial p_i}\dot{p}_i \right) = 0$$
+
+Através das representações de colchetes de Poisson $\{ \cdot, \cdot \}$, reescrevemos:
+
+$$\frac{\partial \rho}{\partial t} = -\{\rho, H\} = \sum_{i=1}^{3N} \left( \frac{\partial H}{\partial q_i}\frac{\partial \rho}{\partial p_i} - \frac{\partial H}{\partial p_i}\frac{\partial \rho}{\partial q_i} \right)$$
+
+No equilíbrio estatístico, a densidade é estacionária ($\frac{\partial \rho}{\partial t} = 0$), implicando que $\rho$ depende das posições e momentos exclusivamente através da energia hamiltoniana total: $\rho = \rho(H)$.
+
+##### Ensembles e a Função de Partição Canônica ($Z$)
+Para um sistema mantido em temperatura constante $T$ mediante contato térmico com um reservatório (*Ensemble Canônico*), a probabilidade $P_r$ de o sistema habitar um microestado específico com energia $E_r$ é dada pela distribuição de Boltzmann:
+
+$$P_r = \frac{e^{-\beta E_r}}{Z}$$
+
+Onde $\beta = \frac{1}{k_B T}$ e $Z$ é a **Função de Partição Canônica**, definida por:
+
+$$Z = \sum_{r} e^{-\beta E_r}$$
+
+Para sistemas contínuos clássicos de $N$ partículas indistinguíveis, ela toma a forma integral no espaço de fase:
+
+$$Z(V, T, N) = \frac{1}{h^{3N} N!} \int_{\Gamma} e^{-\beta H(p, q)} \, d^{3N}p \, d^{3N}q$$
+
+Onde $h$ é a constante de Planck (atuando como fator de normalização dimensional) e $N!$ corrige o paradoxo de Gibbs decorrente do ordenamento de partículas indistinguíveis.
+
+##### A Ponte para a Termodinâmica: Energia Livre de Helmholtz
+A magnitude termodinâmica de $Z$ reside na sua capacidade de atuar como gerador de todos os potenciais observáveis. A correspondência fundamental estabelece que a **Energia Livre de Helmholtz** ($F$) é calculada diretamente a partir do logaritmo da função de partição:
+
+$$F = -k_B T \ln Z$$
+
+A partir desta equação fundamental, derivamos as principais variáveis termodinâmicas macroscópicas:
+- **Energia Interna Média ($U$)**:
+  $$U = \langle H \rangle = -\frac{\partial \ln Z}{\partial \beta} = k_B T^2 \frac{\partial \ln Z}{\partial T}$$
+- **Pressão ($P$)**:
+  $$P = -\left( \frac{\partial F}{\partial V} \right)_{T, N} = k_B T \left( \frac{\partial \ln Z}{\partial V} \right)_{T, N}$$
+- **Entropia de Shannon-Gibbs ($S$)**:
+  $$S = -\left( \frac{\partial F}{\partial T} \right)_{V, N} = k_B \ln Z + k_B T \left( \frac{\partial \ln Z}{\partial T} \right)_{V, N} = -k_B \sum_{r} P_r \ln P_r$$
+
+##### A Entropia de Boltzmann e o Teorema H
+Se todos os microestados energeticamente acessíveis forem equiprováveis (Ensemble Microcanônico), então $P_r = \frac{1}{\Omega}$, onde $\Omega$ é a multiplicidade física de estados. Sob essa hipótese simétrica, a fórmula de Gibbs reduz-se à gloriosa relação gravada no túmulo de Boltzmann em Viena:
+
 $$S = k_B \ln \Omega$$
 
-Onde $\Omega$ é o número de microestados correspondentes a um dado macroestado, e $k_B = 1,381 \times 10^{-23} \, \text{J/K}$ é a constante de Boltzmann.
+Para modelar o comportamento de gases diluídos fora do equilíbrio, Boltzmann formulou a função $H(t)$:
 
-Esta equação está gravada no túmulo de Boltzmann em Viena e conecta diretamente a termodinâmica com a [[Conhecimento-Geral/Matematica/Teoria-da-Informacao]].
+$$H(t) = \int f(\vec{v}, t) \ln f(\vec{v}, t) \, d^3\vec{v}$$
+
+Onde $f(\vec{v}, t)$ representa a distribuição de velocidades moleculares. Através de sua equação cinemática de transporte, Boltzmann provou o **Teorema H**, demonstrando que, para qualquer sistema gasoso fechado que colide de forma elástica, a taxa temporal de variação da função $H$ é estritamente menor ou igual a zero:
+
+$$\frac{dH}{dt} \leq 0$$
+
+Visto que a entropia física é definida por $S = -k_B H$, o Teorema H fornece a primeira fundamentação microscópica matemática dedutiva da irreversibilidade física da Segunda Lei da Termodinâmica.
 
 > **Conexão com Teoria da Informação**: Claude Shannon, ao desenvolver a teoria da informação em 1948, definiu a entropia da informação como $H = -\sum p_i \log_2 p_i$, uma forma matemática idêntica à entropia de Boltzmann-Gibbs. A entropia termodinâmica mede a desordem de um sistema físico; a entropia da informação mede a incerteza de uma variável aleatória. Ambas expressam o mesmo princípio subjacente: o número de estados possíveis de um sistema. Esta conexão é explorada em [[Conhecimento-Geral/Matematica/Teoria-da-Informacao]].
 
@@ -652,24 +707,112 @@ Energia armazenada em um indutor: $U = \frac{1}{2}LI^2$
 Circuitos RL:
 $$I(t) = I_{\text{máx}}(1 - e^{-t/\tau}), \quad \tau = L/R$$
 
-### 5.4 Equações de Maxwell
+### 5.4 Equações de Maxwell e Unificação Eletromagnética
 
-As equações de Maxwell são a formulação completa do eletromagnetismo clássico:
+As equações de Maxwell representam um dos maiores triunfos da história da ciência, unificando teoricamente eletricidade, magnetismo e óptica em um arcabouço coerente. James Clerk Maxwell refinou e uniu as leis empíricas preexistentes descobertas por Gauss, Faraday e Ampère, adicionando um termo crucial conhecido como **corrente de deslocamento** para satisfazer o princípio de conservação da carga.
 
-| Nome | Forma Integral | Forma Diferencial |
-|------|---------------|-------------------|
-| Lei de Gauss (elétrica) | $\oint \vec{E} \cdot d\vec{A} = \frac{Q_{\text{int}}}{\varepsilon_0}$ | $\nabla \cdot \vec{E} = \frac{\rho}{\varepsilon_0}$ |
-| Lei de Gauss (magnética) | $\oint \vec{B} \cdot d\vec{A} = 0$ | $\nabla \cdot \vec{B} = 0$ |
-| Lei de Faraday | $\oint \vec{E} \cdot d\vec{l} = -\frac{d\Phi_B}{dt}$ | $\nabla \times \vec{E} = -\frac{\partial\vec{B}}{\partial t}$ |
-| Lei de Ampère-Maxwell | $\oint \vec{B} \cdot d\vec{l} = \mu_0 I + \mu_0\varepsilon_0\frac{d\Phi_E}{dt}$ | $\nabla \times \vec{B} = \mu_0\vec{J} + \mu_0\varepsilon_0\frac{\partial\vec{E}}{\partial t}$ |
+As equações fundamentais são expressas em suas formas integral e diferencial:
 
-As equações de Maxwell preveem:
-1. A existência de ondas eletromagnéticas
-2. A velocidade da luz como $c = 1/\sqrt{\mu_0\varepsilon_0} \approx 3,00 \times 10^8 \, \text{m/s}$
-3. Que a luz é uma onda eletromagnética
-4. A conservação da carga elétrica
+| Lei | Forma Integral | Forma Diferencial | Significado Físico |
+|---|---|---|---|
+| **Lei de Gauss (Elétrica)** | $\oint_{\partial V} \vec{E} \cdot d\partial\vec{A} = \frac{Q_{\text{int}}}{\varepsilon_0}$ | $\nabla \cdot \vec{E} = \frac{\rho}{\varepsilon_0}$ | Cargas elétricas pontuais são fontes e sumidouros de campo elétrico ($\vec{E}$). |
+| **Lei de Gauss (Magnética)** | $\oint_{\partial V} \vec{B} \cdot d\partial\vec{A} = 0$ | $\nabla \cdot \vec{B} = 0$ | Não existem monopolos magnéticos isolados na natureza; linhas de campo magnético ($\vec{B}$) são fechadas. |
+| **Lei de Faraday-Lenz** | $\oint_{\partial S} \vec{E} \cdot d\vec{l} = -\frac{d}{dt}\iint_{S} \vec{B} \cdot d\vec{A}$ | $\nabla \times \vec{E} = -\frac{\partial\vec{B}}{\partial t}$ | Um campo magnético variável no tempo induz um campo elétrico rotacional perpendicular. |
+| **Lei de Ampère-Maxwell** | $\oint_{\partial S} \vec{B} \cdot d\vec{l} = \mu_0 I_{\text{int}} + \mu_0\varepsilon_0\frac{d}{dt}\iint_{S} \vec{E} \cdot d\vec{A}$ | $\nabla \times \vec{B} = \mu_0\vec{J} + \mu_0\varepsilon_0\frac{\partial\vec{E}}{\partial t}$ | Campos magnéticos são gerados por correntes físicas de condução ($\vec{J}$) ou por campos elétricos variáveis. |
 
-### 5.5 Ondas Eletromagnéticas
+#### Dedução Matemática da Equação de Onda Eletromagnética
+Exibindo o poder destas leis combinadas, consideremos uma região do vácuo totalmente livre de fontes de cargas físicas ($\rho = 0$) e de correntes condutoras ($\vec{J} = 0$). As equações diferenciais sob estas condições simplificam-se a:
+
+1.  $\nabla \cdot \vec{E} = 0$
+2.  $\nabla \cdot \vec{B} = 0$
+3.  $\nabla \times \vec{E} = -\frac{\partial\vec{B}}{\partial t}$
+4.  $\nabla \times \vec{B} = \mu_0\varepsilon_0\frac{\partial\vec{E}}{\partial t}$
+
+Para desacoplarmos esses campos vetoriais, aplicamos o operador rotacional ($\nabla \times$) em ambos os lados da Lei de Faraday (Equação 3):
+
+$$\nabla \times (\nabla \times \vec{E}) = \nabla \times \left( -\frac{\partial\vec{B}}{\partial t} \right)$$
+
+Pelo teorema clássico de cálculo vetorial aplicável a campos de classe $C^2$:
+
+$$\nabla \times (\nabla \times \vec{E}) = \nabla(\nabla \cdot \vec{E}) - \nabla^2\vec{E}$$
+
+Substituindo $\nabla \cdot \vec{E} = 0$ (Condição 1), obtemos:
+
+$$\nabla \times (\nabla \times \vec{E}) = -\nabla^2\vec{E}$$
+
+Agora, substituímos na igualdade inicial e permutamos os operadores diferenciais temporais e espaciais:
+
+$$-\nabla^2\vec{E} = -\frac{\partial}{\partial t}(\nabla \times \vec{B})$$
+
+Incorporando a Lei de Ampère-Maxwell no vácuo (Equação 4) para substituir o termo $(\nabla \times \vec{B})$:
+
+$$-\nabla^2\vec{E} = -\frac{\partial}{\partial t}\left( \mu_0\varepsilon_0\frac{\partial\vec{E}}{\partial t} \right)$$
+
+O que resulta na clássica e magnífica **Equação de Onda Tridimensional para o Campo Elétrico**:
+
+$$\nabla^2\vec{E} = \mu_0\varepsilon_0\frac{\partial^2\vec{E}}{\partial t^2}$$
+
+Seguindo exatamente o mesmo roteiro algébrico ao aplicar o rotacional na Lei de Ampère-Maxwell, obtemos a equação equivalente para o campo magnético:
+
+$$\nabla^2\vec{B} = \mu_0\varepsilon_0\frac{\partial^2\vec{B}}{\partial t^2}$$
+
+Ambos os campos obedecem à equação geral de propagação de ondas hiperbólicas clássicas, $\nabla^2\psi = \frac{1}{v^2}\frac{\partial^2\psi}{\partial t^2}$. Isso dita que as oscilações dos campos se autopropagam no vácuo com uma velocidade física rígida $c$ determinada estritamente por propriedades dielétricas fundamentais do universo:
+
+$$c = \frac{1}{\sqrt{\mu_0\varepsilon_0}}$$
+
+Numericamente, avaliando com as constantes físicas medidas:
+
+$$c = \frac{1}{\sqrt{(4\pi \times 10^{-7} \, \text{H/m})(8,854 \times 10^{-12} \, \text{F/m})}} \approx 299.792.458 \,\,\text{m/s}$$
+
+Isso demonstrou que a luz visível e invisível nada mais é do que uma onda eletromagnética flutuante propagando-se em autossustentação pelo espaço.
+
+---
+
+### 5.5 Albert Einstein e a Eletrodinâmica Relativística
+
+A dedução matemática de Maxwell revelou um profundo impasse conceitual na física do fim do século XIX: a velocidade da luz $c$ emergiu diretamente de constantes fundamentais $\varepsilon_0$ e $\mu_0$, sem possuir qualquer termo associado a um referencial observador. Se a mecânica clássica de Galileu-Newton estivesse estritamente correta, a velocidade medida da luz deveria variar segundo a velocidade de movimento do observador ($v' = c \pm v_{\text{obs}}$).
+
+Essa contradição sugeria que ou as equações de Maxwell estavam incorretas (ou restritas a um suposto meio estacionário absoluto chamado "Éter Luminífero") ou os postulados de inércia galileanos precisavam ser redefinidos.
+
+Em seu histórico artigo de 1905, *"Sobre a Eletrodinâmica dos Corpos em Movimento"*, Albert Einstein optou pela segunda hipótese, formulando a **Relatividade Restrita** sobre dois postulados fundamentais:
+1.  As leis da física são idênticas em todos os referenciais inerciais.
+2.  A velocidade da luz no vácuo ($c$) é uma constante universal invariante para todos os observadores, independentemente de seus estados de movimento estático ou linear.
+
+Com isso, demonstrou-se que as equações mecânicas e eletromagnéticas são governadas por transformações de coordenadas espaço-temporais simétricas chamadas **Transformações de Lorentz**, as quais preservam a métrica quadridimensional do espaço-tempo de Minkowski:
+
+$$ds^2 = -c^2dt^2 + dx^2 + dy^2 + dz^2$$
+
+#### Formulação Eletrodinâmica Tensorial Manifestamente Covariante
+O eletromagnetismo adquire sua forma matemática mais refinada, minimalista e profunda quando reescrito sob a ótica de tensores espaciais integrados ao espaço-tempo quadridimensional de Minkowski.
+
+Definimos o **Quadrivetor de Posição** $x^\mu$ e o **Quadrivetor de Potencial** $A^\mu$ por:
+
+$$x^\mu = \begin{pmatrix} ct & x & y & z \end{pmatrix}, \quad A^\mu = \begin{pmatrix} \frac{V}{c} & A_x & A_y & A_z \end{pmatrix}$$
+
+Onde $V$ é o potencial elétrico escalar e $\vec{A}$ é o potencial magnético vetorial clássico. O acoplamento infinitesimal dos campos elétricos e magnéticos em uma estrutura única é representado pelo **Tensor de Intensidade de Campo Eletromagnético** (ou Tensor de Faraday ou de Maxwell-Lorentz) $F^{\mu\nu}$, expresso como a derivada covariante antissemétrica de $A^\mu$:
+
+$$F^{\mu\nu} = \partial^\mu A^\nu - \partial^\nu A^\mu$$
+
+Escrito explicitamente em formato matriarcal sob uma métrica majoritariamente positiva (Mete de assinatura $-+++$ ou $+---$):
+
+$$F^{\mu\nu} = \begin{pmatrix} 0 & -E_x/c & -E_y/c & -E_z/c \\ E_x/c & 0 & -B_z & B_y \\ E_y/c & B_z & 0 & -B_x \\ E_z/c & -B_y & B_x & 0 \end{pmatrix}$$
+
+Mapeamos a densidade de cargas físicas $\rho$ e a densidade de corrente de condução $\vec{J}$ em um único **Quadrivetor de Corrente** $J^\mu$:
+
+$$J^\mu = \begin{pmatrix} c\rho & J_x & J_y & J_z \end{pmatrix}$$
+
+Sob este arcabouço tensorial manifestamente covariante, as quatro equações diferencias multifacetadas de Maxwell colapsam primorosamente em apenas **dois enunciados elegantes**:
+
+1.  **Equações Inhomogêneas (Gauss e Ampère-Maxwell)**:
+    $$\partial_\mu F^{\mu\nu} = \mu_0 J^\nu$$
+2.  **Equações Homogêneas (Gauss Magnética e Faraday-Lenz)**:
+    $$\partial_\lambda F_{\mu\nu} + \partial_\mu F_{\nu\lambda} + \partial_\nu F_{\lambda\mu} = 0$$
+
+Esta formulação demonstra que o magnetismo é, inerentemente, uma consequência direta dos efeitos cinemáticos relativísticos da contração do espaço agindo sobre cargas elétricas móveis sob a perspectiva de um observador estacionário.
+
+---
+
+### 5.6 Ondas Eletromagnéticas
 
 Uma onda eletromagnética consiste em campos elétrico e magnético oscilantes e perpendiculares entre si e à direção de propagação.
 
@@ -677,7 +820,7 @@ Uma onda eletromagnética consiste em campos elétrico e magnético oscilantes e
 
 - Velocidade no vácuo: $c = 3,00 \times 10^8 \, \text{m/s}$
 - Relação entre campos: $E = cB$
-- Transportam energia e momento
+- Transportam energia (vetor de Poynting $\vec{S} = \frac{1}{\mu_0}\vec{E} \times \vec{B}$) e momento linear.
 - Não necessitam de meio material para propagação
 
 #### Espectro Eletromagnético

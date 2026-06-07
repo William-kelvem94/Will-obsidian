@@ -1,6 +1,6 @@
 ---
 tags: [etl, elt, data-pipelines, airflow, dagster, data-validation, cdc, data-engineering, skills]
-updated: 2026-06-05
+updated: 2026-06-07
 title: "ETL/ELT Pipelines - Data Pipeline Engineering"
 date: 2026-06-01
 ---

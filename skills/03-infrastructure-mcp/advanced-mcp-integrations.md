@@ -3,7 +3,7 @@ title: "Integracoes MCP Avancadas e Infraestrutura Local de IA"
 description: "Orquestracao multi-servidor MCP, composicao de ferramentas, agregacao de recursos e integracao com LLMs locais (Ollama)."
 tags: [mcp, infrastructure, local-llm, ollama, skills-mcp, advanced]
 date: 2026-04-27
-updated: 2026-06-05
+updated: 2026-06-07
 ---
 
 # Integracoes MCP Avancadas — Multi-Servidor, Composicao e Agregacao

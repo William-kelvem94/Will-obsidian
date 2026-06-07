@@ -4,7 +4,7 @@ source: "d:/DOCUMENTOS/GitHub/STUDY_LLMS"
 language: Python
 private: true
 description: "Projeto sincronizado localmente — autogerado via varredura de diretório irmão."
-updated: 2026-06-05
+updated: 2026-06-07
 tags: [privados, projetos, autogerado]
 date: 2026-06-05
 ---

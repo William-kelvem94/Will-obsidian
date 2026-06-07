@@ -1,14 +1,14 @@
 ---
 title: "Leaderboard de XP - Skills"
-generated: 2026-06-05 22:38:07
+generated: 2026-06-06 16:24:07
 tags: [skills, xp, leaderboard, auto]
-date: 2026-06-05
-updated: 2026-06-05
+date: 2026-06-07
+updated: 2026-06-07
 ---
 
 # Leaderboard de XP - Skills
 
-*Gerado em: 2026-06-05 22:38:07*
+*Gerado em: 2026-06-06 16:24:07*
 
 ---
 
@@ -16,13 +16,13 @@ updated: 2026-06-05
 
 | # | Skill | Nivel | XP | Categoria | Projetos |
 |---|-------|-------|----|-----------|----------|
-| 1 | [[skills/02-software-engineering/INDEX.md|Software Engineering & Architecture - Index]] | Avancado (Lv.5) | 1424 | - | - |
-| 2 | [[skills/01-agentic-intelligence/INDEX.md|Indice de Inteligencia Agentica — JARVIS]] | Avancado (Lv.5) | 1379 | - | - |
-| 3 | [[skills/data-engineering/INDEX.md|Data Engineering - Index]] | Avancado (Lv.5) | 1304 | - | - |
-| 4 | [[skills/04-knowledge-systems/INDEX.md|Sistemas de Conhecimento e RAG Avancado]] | Avancado (Lv.5) | 1294 | - | - |
-| 5 | [[skills/devops/ci-cd/INDEX.md|CI/CD e GitOps - Index]] | Avancado (Lv.5) | 1239 | - | - |
-| 6 | [[skills/02-software-engineering/seguranca/INDEX.md|Seguranca da Informacao - Index]] | Avancado (Lv.5) | 1239 | - | - |
-| 7 | [[skills/ai/INDEX.md|AI — Índice de Conhecimento]] | Avancado (Lv.5) | 1236 | - | - |
+| 1 | [[skills/02-software-engineering/INDEX.md|Software Engineering & Architecture - Index]] | Avancado (Lv.5) | 1427 | - | - |
+| 2 | [[skills/01-agentic-intelligence/INDEX.md|Indice de Inteligencia Agentica — JARVIS]] | Avancado (Lv.5) | 1382 | - | - |
+| 3 | [[skills/data-engineering/INDEX.md|Data Engineering - Index]] | Avancado (Lv.5) | 1307 | - | - |
+| 4 | [[skills/04-knowledge-systems/INDEX.md|Sistemas de Conhecimento e RAG Avancado]] | Avancado (Lv.5) | 1297 | - | - |
+| 5 | [[skills/devops/ci-cd/INDEX.md|CI/CD e GitOps - Index]] | Avancado (Lv.5) | 1242 | - | - |
+| 6 | [[skills/02-software-engineering/seguranca/INDEX.md|Seguranca da Informacao - Index]] | Avancado (Lv.5) | 1242 | - | - |
+| 7 | [[skills/ai/INDEX.md|AI — Índice de Conhecimento]] | Avancado (Lv.5) | 1239 | - | - |
 | 8 | [[skills/01-agentic-intelligence/README.md|Inteligencia Agentica — Hub de Skills JARVIS]] | Avancado (Lv.5) | 1223 | - | - |
 | 9 | [[skills/02-software-engineering/README.md|Fullstack Skills]] | Avancado (Lv.5) | 1128 | - | - |
 | 10 | [[skills/README.md|README - Skills e Navegação Visual]] | Avancado (Lv.5) | 1097 | - | - |
@@ -264,6 +264,6 @@ updated: 2026-06-05
 ## Totais
 
 - **Total de Skills:** 219
-- **XP Total (todas as skills):** 26577
+- **XP Total (todas as skills):** 26598
 - **XP Medio por Skill:** 121
 - **Skills no nivel maximo (Lv.10 - Mestre):** 0

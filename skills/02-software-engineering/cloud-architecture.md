@@ -1,6 +1,6 @@
 ---
 tags: [cloud, aws, gcp, azure, serverless, terraform, iac, cost-optimization, multi-cloud, skills-eng]
-updated: 2026-06-05
+updated: 2026-06-07
 title: "Cloud Architecture"
 date: 2026-06-01
 ---

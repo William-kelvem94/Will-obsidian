@@ -2,7 +2,7 @@
 title: "PROJECT_JARVIS_5.0 Codebase Map"
 description: "Mapa RAG-friendly do monorepo PROJECT_JARVIS_5.0 para agentes de programacao."
 created: 2026-05-08
-updated: 2026-06-05
+updated: 2026-06-07
 type: codebase-map
 project: PROJECT_JARVIS_5.0
 domain: engineering

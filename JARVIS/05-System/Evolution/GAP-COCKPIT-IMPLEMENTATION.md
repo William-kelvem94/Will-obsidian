@@ -2,7 +2,7 @@
 title: "Cockpit & Dashboards — Implementação Avançada no Obsidian"
 date: 2026-06-05
 tags: [jarvis-sistema]
-updated: 2026-06-05
+updated: 2026-06-07
 ---
 
 # Cockpit & Dashboards — Implementação Avançada no Obsidian

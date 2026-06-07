@@ -1,6 +1,6 @@
 ---
 tags: [skills, skills-eng, database, sql, nosql]
-updated: 2026-06-05
+updated: 2026-06-07
 title: "Database Skills - SQL, NoSQL, Otimizacao"
 date: 2026-04-27
 ---

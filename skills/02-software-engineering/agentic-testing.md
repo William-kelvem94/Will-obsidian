@@ -2,7 +2,7 @@
 title: "Agentic Testing — Playbook de Arquitetura e Engenharia de Testes para IAs"
 description: "Estratégias estruturadas de testes unitários, integração e ponta a ponta (E2E), pirâmide realista de testes, padrões de asserts e prevenção a suítes frágeis."
 tags: [skill, software-engineering, testing, pytest, jest, agents, quality, skills-eng]
-updated: 2026-06-05
+updated: 2026-06-07
 status: active
 date: 2026-06-01
 ---

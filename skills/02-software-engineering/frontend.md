@@ -1,6 +1,6 @@
 ---
 tags: [skills, skills-eng, frontend, react, vue]
-updated: 2026-06-05
+updated: 2026-06-07
 title: "Frontend Skills - React, Vue, Gerenciamento de Estado"
 date: 2026-04-27
 ---

@@ -1,6 +1,6 @@
 ---
 tags: [infrastructure, llm, local-ai, ollama, docker, quantization, vllm, skills-mcp]
-updated: 2026-06-05
+updated: 2026-06-07
 title: "Local LLM Operations (LLMOps)"
 date: 2026-04-27
 ---

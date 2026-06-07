@@ -3,7 +3,7 @@ title: "{{title}}"
 date: {{date}}
 tags: [template, decisao, adr, jarvis, jarvis-sistema]
 status: proposed
-updated: 2026-06-05
+updated: 2026-06-07
 ---
 
 # {{title}}

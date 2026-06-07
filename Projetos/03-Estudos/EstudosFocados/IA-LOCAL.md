@@ -8,7 +8,7 @@ tags:
   - estrategia
   - voz
   - vision
-updated: 2026-06-05
+updated: 2026-06-07
 date: 2026-04-27
 ---
 

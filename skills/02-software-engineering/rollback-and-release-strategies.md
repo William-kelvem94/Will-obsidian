@@ -3,7 +3,7 @@ title: "Rollback and Release Strategies"
 description: "Como agentes devem planejar rollback, canary, blue/green, e reduzir blast radius em releases."
 tags: [software-engineering, release, rollback, agents, skills-eng]
 date: 2026-05-08
-updated: 2026-06-05
+updated: 2026-06-07
 ---
 
 # Rollback and Release Strategies

@@ -2,7 +2,7 @@
 title: "Objetivos — Will 2026"
 description: "Metas, OKRs e visão de curto/médio prazo de Will."
 tags: [will, objetivos, okr, metas, jarvis, jarvis-identidade]
-updated: 2026-06-05
+updated: 2026-06-07
 date: 2026-04-27
 ---
 

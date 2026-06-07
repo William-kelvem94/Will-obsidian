@@ -4,7 +4,7 @@ description: "Um tratado exaustivo sobre a engenharia interna do PostgreSQL. Abo
 tags: [postgresql, database, sql, performance, mvcc, pgvector, ai, data-engineering, skills-eng]
 author: "Jules (Agent)"
 date: 2026-04-21
-updated: 2026-06-05
+updated: 2026-06-07
 ---
 
 # 🐘 PostgreSQL Avançado: O Banco de Dados de Elite

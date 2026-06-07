@@ -6,7 +6,7 @@ description: "Rubrica para avaliar respostas de IA por correcao, aderencia, util
 projects: []
 related_skills: [best-practices, advanced-reasoning-patterns]
 resources: []
-updated: 2026-06-05
+updated: 2026-06-07
 date: 2026-06-01
 tags: [skills-ai]
 ---

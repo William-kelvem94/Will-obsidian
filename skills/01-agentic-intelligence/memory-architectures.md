@@ -2,7 +2,7 @@
 title: "Arquitetura de Memoria para Agentes: Episodica, Semantica e Trabalho"
 description: "Guia profundo sobre como estruturar a memoria de longo e curto prazo para que agentes IA mantenham consistencia de identidade e contexto."
 tags: [agentic, memory, rag, context, arquitetura, skills-ai, faiss, chroma]
-updated: 2026-06-05
+updated: 2026-06-07
 date: 2026-06-01
 ---
 

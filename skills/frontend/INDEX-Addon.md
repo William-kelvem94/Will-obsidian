@@ -4,7 +4,7 @@ category: "Frontend"
 level: 1
 description: "Add-on index for newly added frontend notes without modifying existing indexes."
 tags: [skills, frontend, index]
-updated: 2026-06-05
+updated: 2026-06-07
 date: 2026-06-01
 ---
 

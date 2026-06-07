@@ -2,7 +2,7 @@
 title: "Agent Confirmation Protocol"
 description: "Operational rules for when agents should ask for confirmation before reading, writing, executing, or escalating work."
 tags: [jarvis, agent, protocol, confirmation, ops, jarvis-operacao]
-updated: 2026-06-05
+updated: 2026-06-07
 status: active
 date: 2026-06-01
 ---

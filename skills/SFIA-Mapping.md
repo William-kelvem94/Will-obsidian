@@ -2,7 +2,7 @@
 title: "Mapeamento SFIA"
 tags: [skills, sfia, career, framework]
 date: 2026-04-27
-updated: 2026-06-05
+updated: 2026-06-07
 ---
 
 # Mapeamento SFIA (Skills Framework for the Information Age)

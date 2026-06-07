@@ -4,7 +4,7 @@ category: "Frontend"
 level: 3
 description: "Practical performance guidance: bundle size, rendering cost, data waterfalls, images, and measuring safely."
 tags: [skills, frontend, performance]
-updated: 2026-06-05
+updated: 2026-06-07
 date: 2026-06-01
 ---
 
