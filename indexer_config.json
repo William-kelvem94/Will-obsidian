@@ -2,6 +2,7 @@
   "allowlist": [
     "skills/**",
     "Conhecimento-Geral/**",
+    "wiki/**",
     "JARVIS/**",
     "Master-Glossary.md",
     "Vault-*"
