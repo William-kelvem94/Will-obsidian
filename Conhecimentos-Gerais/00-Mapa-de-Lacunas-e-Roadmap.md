@@ -42,10 +42,10 @@ Uma nota forte precisa conter:
 | Domínio | Lacunas principais | Prioridade |
 |---|---|---|
 | IA | LLMs, embeddings, context engineering, avaliação de RAG, IA local | alta |
-| Engenharia | Linux, TypeScript, React/Next, observabilidade, CI/CD, design patterns | alta |
+| Engenharia | Linux, TypeScript, React/Next, observabilidade, design patterns | alta |
 | Dados | SQL avançado, analytics, ETL, modelagem dimensional, qualidade de dados | alta |
 | Segurança | OWASP, threat modeling, autenticação, gestão de secrets | alta |
-| Estudos | psicologia cognitiva, revisão espaçada, projetos de fixação | média |
+| Estudos | ciência da aprendizagem, revisão espaçada, projetos de fixação | média |
 | Produtividade | revisão semanal, gestão de energia, foco, execução | média |
 | Documentação | ADRs, READMEs, runbooks, playbooks, changelog | alta |
 | Humanidades | pensamento crítico, lógica informal, filosofia prática, sociologia | média |
@@ -68,7 +68,6 @@ Uma nota forte precisa conter:
 - [[02-Engenharia-Software/TypeScript-e-JavaScript-Moderno]]
 - [[02-Engenharia-Software/React-Next-e-Frontend-Moderno]]
 - [[02-Engenharia-Software/Observabilidade-Logs-e-Monitoramento]]
-- [[02-Engenharia-Software/CI-CD-e-Entrega-Continua]]
 - [[02-Engenharia-Software/Design-Patterns-e-Arquitetura-Limpa]]
 
 ### Fase 3 - Dados, documentação e segurança
@@ -81,7 +80,7 @@ Uma nota forte precisa conter:
 
 ### Fase 4 - Conhecimento humano e vida prática
 
-- [[03-Estudos/Psicologia-Cognitiva-da-Aprendizagem]]
+- [[03-Estudos/Ciencia-da-Aprendizagem]]
 - [[04-Produtividade/Revisao-Semanal-e-Gestao-de-Energia]]
 - [[16-Humanidades/Pensamento-Critico-e-Logica-Informal]]
 - [[16-Humanidades/Filosofia-Pratica-para-Decisoes]]
