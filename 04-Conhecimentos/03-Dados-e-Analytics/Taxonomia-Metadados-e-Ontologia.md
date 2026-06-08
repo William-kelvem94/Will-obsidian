@@ -166,4 +166,4 @@ Boa taxonomia melhora:
 - [[../01-IA-e-Agentes/RAG-e-Memoria-para-Agentes]]
 - [[../01-IA-e-Agentes/Token-Economy]]
 - [[../99-Templates/Template-Nota-Atomica]]
-- [[../README-LEGACY-Conhecimentos-Gerais]]
+- [[../../08-Arquivo/README-LEGACY-Conhecimentos-Gerais]]

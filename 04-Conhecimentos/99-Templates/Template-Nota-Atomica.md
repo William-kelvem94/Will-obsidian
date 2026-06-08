@@ -5,7 +5,7 @@ updated: 2026-06-07
 type: template
 status: active
 tags: [conhecimento-geral, template, obsidian, markdown]
-related: [[../README-LEGACY-Conhecimentos-Gerais]], [[../03-Dados-e-Analytics/Taxonomia-Metadados-e-Ontologia]], [[../01-IA-e-Agentes/Token-Economy]]
+related: [[../../08-Arquivo/README-LEGACY-Conhecimentos-Gerais]], [[../03-Dados-e-Analytics/Taxonomia-Metadados-e-Ontologia]], [[../01-IA-e-Agentes/Token-Economy]]
 summary: "Template para criar notas pequenas, consistentes, linkáveis e úteis para humanos e IA."
 ---
 
@@ -89,6 +89,6 @@ Mostre um exemplo simples.
 
 ## Links internos
 
-- [[../README-LEGACY-Conhecimentos-Gerais]]
+- [[../../08-Arquivo/README-LEGACY-Conhecimentos-Gerais]]
 - [[../03-Dados-e-Analytics/Taxonomia-Metadados-e-Ontologia]]
 - [[../01-IA-e-Agentes/Token-Economy]]

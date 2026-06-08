@@ -30,9 +30,9 @@ Este é o índice global do vault. A navegação principal agora prioriza a estr
 
 ## 📚 Bases legadas ainda em migração
 
-- [[04-Conhecimentos/README-LEGACY-Conhecimentos-Gerais|Conhecimentos Gerais]]
+- [[08-Arquivo/README-LEGACY-Conhecimentos-Gerais|Conhecimentos Gerais]]
 - [[04-Conhecimentos/07-Humanidades/INDEX|Conhecimento-Geral]]
-- [[04-Conhecimentos/README-LEGACY-Knowledge-Base|Knowledge-Base]]
+- [[08-Arquivo/README-LEGACY-Knowledge-Base|Knowledge-Base]]
 - [[02-JARVIS/README|JARVIS antigo]]
 - [[05-Skills/README|skills antigo]]
 - [[03-Projetos/README|Projetos antigo]]

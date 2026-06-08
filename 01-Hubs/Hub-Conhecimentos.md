@@ -16,7 +16,7 @@ Este hub unifica a navegação das bases de conhecimento do vault. Ele resolve a
 
 | Base | Papel atual | Observação |
 |---|---|---|
-| [[../04-Conhecimentos/README-LEGACY-Conhecimentos-Gerais|Conhecimentos Gerais]] | tecnologia, IA, engenharia, dados, estudo e vida prática | base principal para IA e RAG |
+| [[../08-Arquivo/README-LEGACY-Conhecimentos-Gerais|Conhecimentos Gerais]] | tecnologia, IA, engenharia, dados, estudo e vida prática | base principal para IA e RAG |
 | [[../04-Conhecimentos/07-Humanidades/INDEX|Conhecimento-Geral]] | humanidades, filosofia, psicologia e cultura | deve ser integrada ou renomeada em fase futura |
 | [[../05-Skills/README|Skills]] | habilidades técnicas e capacidades | complementa conhecimento aplicado |
 | [[../03-Projetos/03-Estudos/EstudosFocados/README|Estudos Focados]] | estudos ligados a projetos | camada de prática e evolução |
