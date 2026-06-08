@@ -52,7 +52,7 @@ Como a linguagem molda o pensamento e a transmissão cultural. A hipótese de Sa
 ## Relação com outros domínios
 
 - **[[04-Conhecimentos/07-Humanidades/Neurociencia/INDEX/|Neurociência Cognitiva]]** — Base neural da linguagem e da cognição social. Como o cérebro processa narrativas e estruturas culturais.
-- **[[05-Skills/skills/04-knowledge-systems/obsidian-neural-vault/|Obsidian Neural Vault]]** — Como estruturar conhecimento cultural no segundo cérebro, conectando mitologia, filosofia e sociologia em um grafo de conhecimento.
+- **[[05-Skills/04-knowledge-systems/obsidian-neural-vault/|Obsidian Neural Vault]]** — Como estruturar conhecimento cultural no segundo cérebro, conectando mitologia, filosofia e sociologia em um grafo de conhecimento.
 - **[[04-Conhecimentos/07-Humanidades/Direito-Digital/INDEX/|Direito Digital]]** — Normas culturais vs. leis: como valores culturais influenciam a regulação de IA em diferentes sociedades (ex.: coleta de dados na China vs. Europa).
 - **[[04-Conhecimentos/07-Humanidades/Matematica/Teoria-da-Informacao/|Teoria da Informação]]** — A transmissão cultural como canal de informação: ruído, redundância, compressão em tradições orais e escritas.
 

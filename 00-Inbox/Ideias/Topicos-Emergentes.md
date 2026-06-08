@@ -1,6 +1,6 @@
 ```dataviewjs
 // Painel tópicos emergentes
-const t = await dv.io.load('10-Interfaces/dashboards/topicos_emergentes.json','json');
+const t = await dv.io.load('01-Hubs/dashboards/topicos_emergentes.json','json');
 dv.table(["Tag","Ocorrências"], t.map(([tag,oc])=>[tag,oc]));
 ```
 

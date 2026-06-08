@@ -1,6 +1,6 @@
 ```dataviewjs
 // Painel Micro-hábitos/rituais
-const r = await dv.io.load('10-Interfaces/dashboards/rituais_microhabitos.json','json');
+const r = await dv.io.load('01-Hubs/dashboards/rituais_microhabitos.json','json');
 dv.table(["Hábito","Feito?","Última Execução"], Object.entries(r).map(([h,info])=>[h,info.feito,info.ultima_execucao]));
 ```
 

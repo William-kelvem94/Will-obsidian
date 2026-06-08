@@ -16,50 +16,50 @@ Este hub unifica a navegação das bases de conhecimento do vault. Ele resolve a
 
 | Base | Papel atual | Observação |
 |---|---|---|
-| [[../04-Conhecimentos/Conhecimentos-Gerais/README|Conhecimentos Gerais]] | tecnologia, IA, engenharia, dados, estudo e vida prática | base principal para IA e RAG |
+| [[../04-Conhecimentos/README-LEGACY-Conhecimentos-Gerais|Conhecimentos Gerais]] | tecnologia, IA, engenharia, dados, estudo e vida prática | base principal para IA e RAG |
 | [[../04-Conhecimentos/07-Humanidades/INDEX|Conhecimento-Geral]] | humanidades, filosofia, psicologia e cultura | deve ser integrada ou renomeada em fase futura |
-| [[../05-Skills/skills/README|Skills]] | habilidades técnicas e capacidades | complementa conhecimento aplicado |
-| [[../03-Projetos/Projetos/03-Estudos/EstudosFocados/README|Estudos Focados]] | estudos ligados a projetos | camada de prática e evolução |
+| [[../05-Skills/README|Skills]] | habilidades técnicas e capacidades | complementa conhecimento aplicado |
+| [[../03-Projetos/03-Estudos/EstudosFocados/README|Estudos Focados]] | estudos ligados a projetos | camada de prática e evolução |
 
 ## Rotas rápidas
 
 ### IA e agentes
 
-- [[../04-Conhecimentos/Conhecimentos-Gerais/01-IA/Modelos-de-Linguagem-LLMs]]
-- [[../04-Conhecimentos/Conhecimentos-Gerais/01-IA/RAG-e-Memoria-para-Agentes]]
-- [[../04-Conhecimentos/Conhecimentos-Gerais/01-IA/Arquitetura-RAG-para-Obsidian-e-JARVIS]]
-- [[../04-Conhecimentos/Conhecimentos-Gerais/01-IA/Context-Engineering]]
-- [[../04-Conhecimentos/Conhecimentos-Gerais/01-IA/Playbook-de-Debug-de-Respostas-de-IA]]
+- [[../04-Conhecimentos/01-IA-e-Agentes/Modelos-de-Linguagem-LLMs]]
+- [[../04-Conhecimentos/01-IA-e-Agentes/RAG-e-Memoria-para-Agentes]]
+- [[../04-Conhecimentos/01-IA-e-Agentes/Arquitetura-RAG-para-Obsidian-e-JARVIS]]
+- [[../04-Conhecimentos/01-IA-e-Agentes/Context-Engineering]]
+- [[../04-Conhecimentos/01-IA-e-Agentes/Playbook-de-Debug-de-Respostas-de-IA]]
 
 ### Engenharia e projetos
 
-- [[../04-Conhecimentos/Conhecimentos-Gerais/02-Engenharia-Software/Arquitetura-Web-Moderna]]
-- [[../04-Conhecimentos/Conhecimentos-Gerais/02-Engenharia-Software/Playbook-de-Debug-de-API-e-Backend]]
-- [[../04-Conhecimentos/Conhecimentos-Gerais/02-Engenharia-Software/Autenticacao-Autorizacao-e-Sessoes]]
-- [[../04-Conhecimentos/Conhecimentos-Gerais/02-Engenharia-Software/Docker-e-DevOps]]
-- [[../04-Conhecimentos/Conhecimentos-Gerais/02-Engenharia-Software/Linux-Terminal-e-Shell]]
+- [[../04-Conhecimentos/02-Engenharia-de-Software/Arquitetura-Web-Moderna]]
+- [[../04-Conhecimentos/02-Engenharia-de-Software/Playbook-de-Debug-de-API-e-Backend]]
+- [[../04-Conhecimentos/02-Engenharia-de-Software/Autenticacao-Autorizacao-e-Sessoes]]
+- [[../04-Conhecimentos/02-Engenharia-de-Software/Docker-e-DevOps]]
+- [[../04-Conhecimentos/02-Engenharia-de-Software/Linux-Terminal-e-Shell]]
 
 ### Dados
 
-- [[../04-Conhecimentos/Conhecimentos-Gerais/05-Dados/PostgreSQL-Pratico-para-Projetos]]
-- [[../04-Conhecimentos/Conhecimentos-Gerais/05-Dados/SQL-Avancado-e-Consultas]]
-- [[../04-Conhecimentos/Conhecimentos-Gerais/05-Dados/Analytics-ETL-e-Qualidade-de-Dados]]
-- [[../04-Conhecimentos/Conhecimentos-Gerais/05-Dados/Taxonomia-Metadados-e-Ontologia]]
+- [[../04-Conhecimentos/03-Dados-e-Analytics/PostgreSQL-Pratico-para-Projetos]]
+- [[../04-Conhecimentos/03-Dados-e-Analytics/SQL-Avancado-e-Consultas]]
+- [[../04-Conhecimentos/03-Dados-e-Analytics/Analytics-ETL-e-Qualidade-de-Dados]]
+- [[../04-Conhecimentos/03-Dados-e-Analytics/Taxonomia-Metadados-e-Ontologia]]
 
 ### Produto, UX e carreira
 
-- [[../04-Conhecimentos/Conhecimentos-Gerais/09-Produto-UX/Produto-UX-e-Validacao]]
-- [[../04-Conhecimentos/Conhecimentos-Gerais/09-Produto-UX/Estados-de-Interface-e-UX-Operacional]]
-- [[../04-Conhecimentos/Conhecimentos-Gerais/09-Produto-UX/Checklist-de-Validacao-de-Produto]]
-- [[../04-Conhecimentos/Conhecimentos-Gerais/11-Carreira/Carreira-Tech-e-Portifolio]]
+- [[../04-Conhecimentos/05-Produto-UX-e-Carreira/Produto-UX/Produto-UX-e-Validacao]]
+- [[../04-Conhecimentos/05-Produto-UX-e-Carreira/Produto-UX/Estados-de-Interface-e-UX-Operacional]]
+- [[../04-Conhecimentos/05-Produto-UX-e-Carreira/Produto-UX/Checklist-de-Validacao-de-Produto]]
+- [[../04-Conhecimentos/05-Produto-UX-e-Carreira/Carreira/Carreira-Tech-e-Portifolio]]
 
 ### Estudo e vida prática
 
-- [[../04-Conhecimentos/Conhecimentos-Gerais/03-Estudos/Metodo-de-Estudo-Ativo]]
-- [[../04-Conhecimentos/Conhecimentos-Gerais/03-Estudos/Ciencia-da-Aprendizagem]]
-- [[../04-Conhecimentos/Conhecimentos-Gerais/04-Produtividade/Revisao-Semanal-e-Gestao-de-Energia]]
-- [[../04-Conhecimentos/Conhecimentos-Gerais/12-Saude-Rotina/Saude-Rotina-e-Rastreamento]]
-- [[../04-Conhecimentos/Conhecimentos-Gerais/13-Financas/Financas-Pessoais-e-Metricas]]
+- [[../04-Conhecimentos/06-Estudos-e-Aprendizagem/Metodo-de-Estudo-Ativo]]
+- [[../04-Conhecimentos/06-Estudos-e-Aprendizagem/Ciencia-da-Aprendizagem]]
+- [[../04-Conhecimentos/08-Vida-Pratica/Produtividade/Revisao-Semanal-e-Gestao-de-Energia]]
+- [[../04-Conhecimentos/08-Vida-Pratica/Saude-Rotina/Saude-Rotina-e-Rastreamento]]
+- [[../04-Conhecimentos/08-Vida-Pratica/Financas/Financas-Pessoais-e-Metricas]]
 
 ## Estrutura futura recomendada
 

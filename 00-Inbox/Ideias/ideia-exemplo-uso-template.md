@@ -14,5 +14,5 @@ status: aberta
 - Avaliar pros/contras frente Google/GPT (skills envolvidos: AI-Devops, Infra-MCP, Prompt-Engineering)
 
 ## Links relacionados
-- [[05-Skills/skills/01-agentic-intelligence/README]]  
-- [[10-Interfaces/dashboards/Skill-Project-Matrix-Dinamica]]
+- [[05-Skills/01-agentic-intelligence/README]]  
+- [[01-Hubs/dashboards/Skill-Project-Matrix-Dinamica]]

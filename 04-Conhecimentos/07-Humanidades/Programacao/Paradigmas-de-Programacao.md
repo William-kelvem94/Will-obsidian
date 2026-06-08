@@ -1036,4 +1036,4 @@ const taxadas = transacoes.map(aplicarTaxa);
 - [[04-Conhecimentos/07-Humanidades/Computacao/Ciencia-da-Computacao]]
 - [[04-Conhecimentos/07-Humanidades/Programacao/Arquitetura-de-Software]]
 - [[04-Conhecimentos/07-Humanidades/Programacao/Design-Patterns]]
-- [[05-Skills/skills/02-software-engineering/advanced-backend-architecture]]
+- [[05-Skills/02-software-engineering/advanced-backend-architecture]]

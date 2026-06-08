@@ -39,7 +39,7 @@ A saida ideal nao e apenas uma resposta. E um estado melhor do projeto: arquivos
 
 - [[04-Conhecimentos/07-Humanidades/IA-para-Programacao/Avaliacao-de-Respostas-de-IA]]
 - [[04-Conhecimentos/07-Humanidades/IA-para-Programacao/Engenharia-de-Contexto]]
-- [[05-Skills/skills/01-agentic-intelligence/human-agent-collaboration-loop]]
+- [[05-Skills/01-agentic-intelligence/human-agent-collaboration-loop]]
 
 
 [[04-Conhecimentos/07-Humanidades/IA-para-Programacao/INDEX|← Voltar ao índice de IA para Programação]]

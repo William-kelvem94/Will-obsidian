@@ -12,8 +12,8 @@ tags:
 
 [GitHub Profile Avatar]
 
-## William Pereira [[03-Projetos/Projetos]]
+## William Pereira [[03-Projetos]]
 
 [... todo o conteúdo original completo mantido ...]
 
-**Links:** [[03-Projetos/Projetos]] | [[Bem-vindo]] | [[11-Dados-Brutos/Clippings]] #perfil #github
+**Links:** [[03-Projetos]] | [[Bem-vindo]] | [[11-Dados-Brutos/Clippings]] #perfil #github

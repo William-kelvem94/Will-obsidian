@@ -24,7 +24,7 @@ updated: <% tp.date.now("YYYY-MM-DD HH:mm") %>
 <%*
 let okrOutput = "";
 try {
-  const okrPath = "06-Will-Pessoal/Will-Pessoal/02-Visao/Objetivos/README.md";
+  const okrPath = "06-Will-Pessoal/02-Visao/Objetivos/README.md";
   const okrFile = app.vault.getAbstractFileByPath(okrPath);
   if (okrFile) {
     const okrContent = await app.vault.read(okrFile);

@@ -54,5 +54,5 @@ Trata da alocação de responsabilidade quando sistemas de IA causam danos: quem
 ## Referências e conexões
 
 - [[04-Conhecimentos/07-Humanidades/Neurociencia/INDEX|Neurociência Cognitiva]] — Intersecção com ética em neurotech e neurodireitos.
-- [[05-Skills/skills/02-software-engineering/INDEX|Engenharia de Software]] — Implementação técnica de _privacy by design_ e auditoria.
+- [[05-Skills/02-software-engineering/INDEX|Engenharia de Software]] — Implementação técnica de _privacy by design_ e auditoria.
 - [[04-Conhecimentos/07-Humanidades/Matematica/Teoria-da-Informacao|Teoria da Informação]] — Base matemática para privacidade diferencial e criptografia.

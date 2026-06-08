@@ -8,7 +8,7 @@ related:
   - "04-Conhecimentos/07-Humanidades/Neurociencia/Consciencia-e-Cerebro"
   - "04-Conhecimentos/07-Humanidades/Matematica/Teoria-da-Informacao"
   - "04-Conhecimentos/07-Humanidades/Matematica/Probabilidade-e-Estatistica"
-  - "05-Skills/skills/01-agentic-intelligence/reinforcement-learning"
+  - "05-Skills/01-agentic-intelligence/reinforcement-learning"
 aliases: ["Memória Cognitiva", "Sistemas de Memória Humana", "Taxonomia da Memória"]
 ---
 
@@ -739,7 +739,7 @@ class RetrievalAugmentedMemory:
 - [[04-Conhecimentos/07-Humanidades/Neurociencia/Consciencia-e-Cerebro]] — consciência e memória de trabalho
 - [[04-Conhecimentos/07-Humanidades/Matematica/Teoria-da-Informacao]] — capacidade de memória e compressão
 - [[04-Conhecimentos/07-Humanidades/Matematica/Probabilidade-e-Estatistica]] — modelagem de recall, reconhecimento e ruído
-- [[05-Skills/skills/01-agentic-intelligence/reinforcement-learning]] — experience replay, episodic control, TD-learning
+- [[05-Skills/01-agentic-intelligence/reinforcement-learning]] — experience replay, episodic control, TD-learning
 - [[04-Conhecimentos/07-Humanidades/Filosofia/Qualia]] — relação entre memória episódica e self
 - [[04-Conhecimentos/07-Humanidades/Filosofia/Conceitos-Fundamentais]] — memória como constitutiva do self (Locke)
 

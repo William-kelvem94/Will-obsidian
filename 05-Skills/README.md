@@ -1,7 +1,7 @@
 ---
 title: "Skills"
 date: 2026-06-07
-updated: 2026-06-07
+updated: 2026-06-08
 type: moc
 status: active
 tags: [skills, habilidades, hub, organizacao]
@@ -15,7 +15,7 @@ Esta pasta é o destino físico futuro para habilidades técnicas e documentaç�
 ## Navegação atual
 
 - [[../01-Hubs/Hub-Skills|Hub de Skills]]
-- [[skills/README|Skills atual]]
+- [[05-Skills/README|Skills atual]]
 - [[../04-Conhecimentos/Conhecimentos-Gerais/06-Habilidades/Mapa-de-Habilidades]]
 
 ## Regra atual

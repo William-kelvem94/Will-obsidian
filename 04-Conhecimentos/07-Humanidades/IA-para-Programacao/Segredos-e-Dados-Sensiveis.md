@@ -34,7 +34,7 @@ O Obsidian e memoria longa. Entao:
 
 ## Relacionado
 
-- [[02-JARVIS/JARVIS/05-System/AGENT-CONTRACT]]
+- [[02-JARVIS/05-System/AGENT-CONTRACT]]
 - [[04-Conhecimentos/07-Humanidades/Direito-Digital/GDPR-e-Privacidade]]
 
 

@@ -1,6 +1,6 @@
 ```dataviewjs
 // Painel: Revisão Cíclica
-const agenda = await dv.io.load('10-Interfaces/dashboards/agenda_revisao.json','json');
+const agenda = await dv.io.load('01-Hubs/dashboards/agenda_revisao.json','json');
 dv.table(["Nota a Revisar", "Último Acesso"], agenda.map(r=>[r.nota, r.ultimo_acesso]));
 ```
 

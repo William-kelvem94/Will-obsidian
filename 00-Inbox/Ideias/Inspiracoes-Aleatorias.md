@@ -1,6 +1,6 @@
 ```dataviewjs
 // Painel Inspiração Aleatória
-const sug = await dv.io.load('10-Interfaces/dashboards/inspiracao_diaria.json', 'json');
+const sug = await dv.io.load('01-Hubs/dashboards/inspiracao_diaria.json', 'json');
 dv.paragraph(`Sugestão do dia: [[${sug.nota}]]`);
 ```
 

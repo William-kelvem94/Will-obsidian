@@ -1373,4 +1373,4 @@ app.use(express.json({ limit: "1mb" }));
 - [[04-Conhecimentos/07-Humanidades/Programacao/Arquitetura-de-Software]]
 - [[04-Conhecimentos/07-Humanidades/Programacao/Design-Patterns]]
 - [[04-Conhecimentos/07-Humanidades/Programacao/Paradigmas-de-Programacao]]
-- [[05-Skills/skills/02-software-engineering/advanced-backend-architecture]]
+- [[05-Skills/02-software-engineering/advanced-backend-architecture]]

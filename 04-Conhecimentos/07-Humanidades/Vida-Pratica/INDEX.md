@@ -41,4 +41,4 @@ Conhecimento prático para viver bem — o que a filosofia, psicologia e ciênci
 - [[04-Conhecimentos/07-Humanidades/Filosofia/INDEX/|Filosofia]] — bases conceituais
 - [[04-Conhecimentos/07-Humanidades/Religiao/INDEX/|Religião e Espiritualidade]] — tradições de sabedoria
 - [[04-Conhecimentos/07-Humanidades/Neurociencia/INDEX/|Neurociência]] — base biológica
-- [[05-Skills/skills/softskills/INDEX/|Softskills]] — aplicação profissional
+- [[05-Skills/softskills/INDEX/|Softskills]] — aplicação profissional

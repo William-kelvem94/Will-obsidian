@@ -1,6 +1,6 @@
 ```dataviewjs
 // Painel Ciclos de Energia
-const h = await dv.io.load('10-Interfaces/dashboards/energia_pico_report.json','json');
+const h = await dv.io.load('01-Hubs/dashboards/energia_pico_report.json','json');
 dv.table(["Horário", "Ocorrências"], h.map(([h,o])=>[h,o]));
 ```
 

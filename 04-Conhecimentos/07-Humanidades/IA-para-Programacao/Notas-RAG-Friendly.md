@@ -47,7 +47,7 @@ Resumo de 2-4 linhas dizendo o que e, quando usar e por que importa.
 ## Relacionado
 
 - [[04-Conhecimentos/07-Humanidades/IA-para-Programacao/INDEX]]
-- [[02-JARVIS/JARVIS/05-System/AGENT-CONTRACT]]
+- [[02-JARVIS/05-System/AGENT-CONTRACT]]
 
 
 [[04-Conhecimentos/07-Humanidades/IA-para-Programacao/INDEX|← Voltar ao índice de IA para Programação]]

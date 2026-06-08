@@ -1,6 +1,6 @@
 ```dataviewjs
 // Painel: Health Mental & Humor
-const fs = dv.io.load('10-Interfaces/dashboards/health_mental_report.json','json');
+const fs = dv.io.load('01-Hubs/dashboards/health_mental_report.json','json');
 dv.table(["Data", "Humor", "Arquivo"], fs.map(r=>[r.data, r.humor, r.arquivo]));
 ```
 

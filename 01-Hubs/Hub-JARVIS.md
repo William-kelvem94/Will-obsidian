@@ -14,27 +14,27 @@ Este hub centraliza a navegação da área JARVIS e separa o que é memória do 
 
 ## Entrada principal
 
-- [[../02-JARVIS/JARVIS/README|JARVIS Command Center]]
+- [[../02-JARVIS/README|JARVIS Command Center]]
 
 ## Memória e identidade
 
-- [[../02-JARVIS/JARVIS/03-Memory/fatos_rapidos]]
+- [[../02-JARVIS/03-Memory/fatos_rapidos]]
 - [[../Cerebro-Will]]
-- [[../06-Will-Pessoal/Will-Pessoal/README|Will-Pessoal]]
+- [[../06-Will-Pessoal/README|Will-Pessoal]]
 
 ## Conhecimento útil para o JARVIS
 
-- [[../04-Conhecimentos/Conhecimentos-Gerais/01-IA/RAG-e-Memoria-para-Agentes]]
-- [[../04-Conhecimentos/Conhecimentos-Gerais/01-IA/Arquitetura-RAG-para-Obsidian-e-JARVIS]]
-- [[../04-Conhecimentos/Conhecimentos-Gerais/01-IA/IA-Local-Ollama-e-Modelos-Abertos]]
-- [[../04-Conhecimentos/Conhecimentos-Gerais/01-IA/Context-Engineering]]
-- [[../04-Conhecimentos/Conhecimentos-Gerais/00-Ontologia-de-Conhecimento-para-IA]]
+- [[../04-Conhecimentos/01-IA-e-Agentes/RAG-e-Memoria-para-Agentes]]
+- [[../04-Conhecimentos/01-IA-e-Agentes/Arquitetura-RAG-para-Obsidian-e-JARVIS]]
+- [[../04-Conhecimentos/01-IA-e-Agentes/IA-Local-Ollama-e-Modelos-Abertos]]
+- [[../04-Conhecimentos/01-IA-e-Agentes/Context-Engineering]]
+- [[../04-Conhecimentos/00-Mapas-e-Ontologia/00-Ontologia-de-Conhecimento-para-IA]]
 
 ## Skills relacionadas
 
-- [[../05-Skills/skills/01-agentic-intelligence/multi-agent-orchestration]]
-- [[../05-Skills/skills/03-infrastructure-mcp/mcp-servers]]
-- [[../05-Skills/skills/04-knowledge-systems/obsidian-neural-vault]]
+- [[../05-Skills/01-agentic-intelligence/multi-agent-orchestration]]
+- [[../05-Skills/03-infrastructure-mcp/mcp-servers]]
+- [[../05-Skills/04-knowledge-systems/obsidian-neural-vault]]
 
 ## Regra de separação
 

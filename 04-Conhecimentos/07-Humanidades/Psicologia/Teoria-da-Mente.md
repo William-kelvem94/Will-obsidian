@@ -625,7 +625,7 @@ Identifique: (1) Em que momento a IA demonstra ToM? (2) O que a IA **falha** em 
 - [[04-Conhecimentos/07-Humanidades/Psicologia/Vieses-Cognitivos|Vieses Cognitivos]]
 - [[04-Conhecimentos/07-Humanidades/Psicologia/Vieses-em-LLMs|Vieses em LLMs]]
 - [[04-Conhecimentos/07-Humanidades/Etica/Deontologia|Deontologia]]
-- [[05-Skills/skills/01-agentic-intelligence/reinforcement-learning|Aprendizado por Reforço]]
+- [[05-Skills/01-agentic-intelligence/reinforcement-learning|Aprendizado por Reforço]]
 - Agentes Terapêuticos
 
 [[04-Conhecimentos/07-Humanidades/Psicologia/INDEX|← Voltar ao índice de Psicologia]]

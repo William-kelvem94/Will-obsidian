@@ -1,6 +1,6 @@
 ```dataviewjs
 // Painel Conexões Não Explícitas
-const c = await dv.io.load('10-Interfaces/dashboards/conexoes_implicitas.json','json');
+const c = await dv.io.load('01-Hubs/dashboards/conexoes_implicitas.json','json');
 dv.table(["Origem", "Relacionado", "Palavras em Comum"],
 Object.entries(c).flatMap(([origem, lista])=>lista.map(e=>[origem, e.com, e.palavras_comum])));
 ```

@@ -752,6 +752,6 @@ print(f"Trem de spikes (primeiros 50 ms): {''.join(str(s) for s in spike_train[:
 - [[04-Conhecimentos/07-Humanidades/Matematica/Algebra-Linear-Essencial]] — base matemática para operações em redes neurais
 - [[04-Conhecimentos/07-Humanidades/Matematica/Calculo-e-Otimizacao]] — modelagem de dinâmica de membrana e populações
 - [[04-Conhecimentos/07-Humanidades/Matematica/Teoria-da-Informacao]] — codificação de informação em spikes
-- [[05-Skills/skills/01-agentic-intelligence/reinforcement-learning]] — paralelos com plasticidade por recompensa (dopamina)
+- [[05-Skills/01-agentic-intelligence/reinforcement-learning]] — paralelos com plasticidade por recompensa (dopamina)
 
 [[04-Conhecimentos/07-Humanidades/Neurociencia/INDEX|← Voltar ao índice de Neurociência]]

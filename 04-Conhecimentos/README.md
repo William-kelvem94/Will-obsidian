@@ -14,7 +14,7 @@ Esta pasta é o destino físico futuro para o conhecimento estável do vault.
 
 ## Bases ainda em migração
 
-- [[Conhecimentos-Gerais/README|Conhecimentos Gerais]]
+- [[04-Conhecimentos/README-LEGACY-Conhecimentos-Gerais|Conhecimentos Gerais]]
 - [[07-Humanidades/INDEX|Conhecimento-Geral]]
 - [[../Knowledge-Base]]
 - [[../wiki]]

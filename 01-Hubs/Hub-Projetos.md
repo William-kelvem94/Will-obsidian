@@ -18,22 +18,22 @@ Este hub organiza a área de projetos do vault. Ele separa execução, objetivos
 
 ## Execução e foco
 
-- [[../03-Projetos/Projetos/01-Ativos/Plano-de-Acao|Plano de Ação]]
-- [[../03-Projetos/Projetos/01-Ativos/Objetivos/README|Objetivos e OKRs]]
-- [[../03-Projetos/Projetos/01-Ativos/Privados/README|Projetos Privados]]
+- [[../03-Projetos/01-Ativos/Plano-de-Acao|Plano de Ação]]
+- [[../03-Projetos/01-Ativos/Objetivos/README|Objetivos e OKRs]]
+- [[../03-Projetos/01-Ativos/Privados/README|Projetos Privados]]
 
 ## Estudos ligados a projetos
 
-- [[../03-Projetos/Projetos/03-Estudos/EstudosFocados/README|Estudos Focados]]
-- [[../04-Conhecimentos/Conhecimentos-Gerais/03-Estudos/Metodo-de-Estudo-Ativo]]
-- [[../04-Conhecimentos/Conhecimentos-Gerais/99-Templates/Template-Nota-de-Estudo]]
+- [[../03-Projetos/03-Estudos/EstudosFocados/README|Estudos Focados]]
+- [[../04-Conhecimentos/06-Estudos-e-Aprendizagem/Metodo-de-Estudo-Ativo]]
+- [[../04-Conhecimentos/99-Templates/Template-Nota-de-Estudo]]
 
 ## Documentação de projeto
 
-- [[../04-Conhecimentos/Conhecimentos-Gerais/15-Documentacao/Documentacao-Tecnica-Runbooks-e-ADRs]]
-- [[../04-Conhecimentos/Conhecimentos-Gerais/99-Templates/Template-ADR-Decisao-Arquitetural]]
-- [[../04-Conhecimentos/Conhecimentos-Gerais/99-Templates/Template-Bug-Report]]
-- [[../04-Conhecimentos/Conhecimentos-Gerais/15-Documentacao/Template-Postmortem-e-Aprendizado]]
+- [[../04-Conhecimentos/00-Mapas-e-Ontologia/Documentacao/Documentacao-Tecnica-Runbooks-e-ADRs]]
+- [[../04-Conhecimentos/99-Templates/Template-ADR-Decisao-Arquitetural]]
+- [[../04-Conhecimentos/99-Templates/Template-Bug-Report]]
+- [[../04-Conhecimentos/00-Mapas-e-Ontologia/Documentacao/Template-Postmortem-e-Aprendizado]]
 
 ## Regra de organização para projetos
 

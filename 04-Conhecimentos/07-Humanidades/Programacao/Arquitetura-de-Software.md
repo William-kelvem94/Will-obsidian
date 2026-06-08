@@ -3,7 +3,7 @@ title: "Arquitetura de Software"
 date: 2026-05-16
 area: "Programação e Engenharia de Software"
 tags: [conhecimento, programacao, arquitetura, ddd, solid, microservicos]
-related: ["05-Skills/skills/02-software-engineering/advanced-backend-architecture"]
+related: ["05-Skills/02-software-engineering/advanced-backend-architecture"]
 aliases: ["Software Architecture", "Clean Architecture", "DDD"]
 ---
 
@@ -1323,4 +1323,4 @@ Dependência excessiva de um fornecedor específico, impossibilitando migração
 - [[04-Conhecimentos/07-Humanidades/Programacao/Design-Patterns]]
 - [[04-Conhecimentos/07-Humanidades/Programacao/Paradigmas-de-Programacao]]
 - [[04-Conhecimentos/07-Humanidades/Programacao/APIs-e-Integracoes]]
-- [[05-Skills/skills/02-software-engineering/advanced-backend-architecture]]
+- [[05-Skills/02-software-engineering/advanced-backend-architecture]]

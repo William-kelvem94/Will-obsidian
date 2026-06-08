@@ -59,5 +59,5 @@ Uma taxonomia completa dos sistemas de memória humana: memória declarativa (ep
 ## Referências
 
 - [[04-Conhecimentos/07-Humanidades/Matematica/Probabilidade-e-Estatistica|Probabilidade e Estatística]] — Base para modelos bayesianos do cérebro (cérebro bayesiano).
-- [[05-Skills/skills/04-knowledge-systems/memory-management|Gestão de Memória]] — Implementação prática de sistemas de memória em agentes de IA.
+- [[05-Skills/04-knowledge-systems/memory-management|Gestão de Memória]] — Implementação prática de sistemas de memória em agentes de IA.
 - [[04-Conhecimentos/07-Humanidades/Direito-Digital/EU-AI-Act|EU AI Act]] — Regulação de neurotech e neurodireitos.

@@ -41,7 +41,7 @@ year: 2020
 - **Principais Descobertas**:
 
 ## 🔗 Conexões com o Vault
-- **Skills Relacionadas**: [[05-Skills/skills/README|Skills Hub]]
+- **Skills Relacionadas**: [[05-Skills/README|Skills Hub]]
 - **Conceitos Correlatos**: [[04-Conhecimentos/07-Humanidades/INDEX|Conhecimento Geral]]
 
 ## 📚 Citação BibTeX

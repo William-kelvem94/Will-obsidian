@@ -1,6 +1,6 @@
 ```dataviewjs
 // Painel Motor What If
-const w = await dv.io.load('10-Interfaces/dashboards/simulador_what_if.json','json');
+const w = await dv.io.load('01-Hubs/dashboards/simulador_what_if.json','json');
 dv.table(["Nota","Depende de"], w.map(e=>[e.nota,e.depende_de]));
 ```
 

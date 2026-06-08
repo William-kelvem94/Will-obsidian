@@ -22,7 +22,7 @@ O cofre possui uma arquitetura modular desenhada para manter os domínios funcio
 |---|---|---|
 | `JARVIS/` | Sistema inteligente e canais sistêmicos de controle. | Dividido nos 5 canais canônicos. |
 | [Knowledge-Base/](04-Conhecimentos/Knowledge-Base/) | Hubs técnicos condensados (KBs) de mercado. | Cada hub técnico possui sua pasta de recortes, glossários e projetos. |
-| [skills/](05-Skills/skills/) | Inventário vivo de competências e trilhas curriculares. | Organizado por prefixado numérico (`01-...`, `02-...`). |
+| [skills/](05-Skills/) | Inventário vivo de competências e trilhas curriculares. | Organizado por prefixado numérico (`01-...`, `02-...`). |
 | [Conhecimento-Geral/](04-Conhecimentos/07-Humanidades/) | Ramos transdisciplinares das Humanidades e Ciências. | Dividido em 20 subpastas estanques temáticas. |
 | `dashboards/` | Painéis e visualizadores dinâmicos DataviewJS. | Somente consultas estruturadas de metadados do cofre. |
 | `.logs/` | Armazenamento privado de patches de tags e auditorias. | Pasta oculta para dados pesados e históricos. |
@@ -45,7 +45,7 @@ date: 2026-06-06
 updated: 2026-06-06
 category: base-conhecimento
 aliases: ["Título Sinonimizador", "Conceito Alternativo"]
-related: ["04-Conhecimentos/07-Humanidades/SubPasta/Nota-Correlata-1", "05-Skills/skills/02-software-engineering/Nota-Correlata-2"]
+related: ["04-Conhecimentos/07-Humanidades/SubPasta/Nota-Correlata-1", "05-Skills/02-software-engineering/Nota-Correlata-2"]
 ---
 ```
 

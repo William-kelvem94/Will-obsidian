@@ -18,8 +18,8 @@ Antes de criar arquivo novo, avalie se ele deve ser movido/convertido em projeto
 
 - [[BRAINSTORM-GIGANTE]]
 - [[11-Dados-Brutos/Clippings/Clippings|Clippings]]
-- [[10-Interfaces/dashboards/analise-completa|analise-completa]]
-- [[10-Interfaces/dashboards/conexoes_sugeridas|conexoes_sugeridas]]
+- [[01-Hubs/dashboards/analise-completa|analise-completa]]
+- [[01-Hubs/dashboards/conexoes_sugeridas|conexoes_sugeridas]]
 - [[Cerebro-Will.md]]
 
 Se criar novo draft, vincule no [[INDEX]] ou mova para o local definitivo no futuro!

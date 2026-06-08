@@ -61,5 +61,5 @@ O estudo matemático das interações estratégicas entre agentes racionais. Est
 
 - [[04-Conhecimentos/07-Humanidades/Matematica/Teoria-de-Redes|Teoria de Redes]] — Estrutura de grafos, topologias, propagação e comunidades.
 - [[04-Conhecimentos/07-Humanidades/Neurociencia/Redes-Neurais-Biologicas|Redes Neurais Biológicas]] — Conexões entre otimização neural biológica e artificial.
-- [[05-Skills/skills/02-software-engineering/Bancos-de-Dados/PostgreSQL-Advanced|PostgreSQL Avançado]] — pgvector, índices HNSW/_IVFFlat_ para busca vetorial.
-- [[05-Skills/skills/04-knowledge-systems/advanced-rag-strategies|Estratégias Avançadas de RAG]] — Embeddings, chunking semântico, busca híbrida.
+- [[05-Skills/02-software-engineering/Bancos-de-Dados/PostgreSQL-Advanced|PostgreSQL Avançado]] — pgvector, índices HNSW/_IVFFlat_ para busca vetorial.
+- [[05-Skills/04-knowledge-systems/advanced-rag-strategies|Estratégias Avançadas de RAG]] — Embeddings, chunking semântico, busca híbrida.

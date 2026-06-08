@@ -40,8 +40,8 @@ Agentes programadores precisam principalmente de:
 ## Relacionado
 
 - [[04-Conhecimentos/07-Humanidades/IA-para-Programacao/Notas-RAG-Friendly]]
-- [[02-JARVIS/JARVIS/05-System/AGENT-CONTRACT]]
-- [[02-JARVIS/JARVIS/04-Engineering/Codebase-Maps/INDEX]]
+- [[02-JARVIS/05-System/AGENT-CONTRACT]]
+- [[02-JARVIS/04-Engineering/Codebase-Maps/INDEX]]
 
 
 [[04-Conhecimentos/07-Humanidades/IA-para-Programacao/INDEX|← Voltar ao índice de IA para Programação]]

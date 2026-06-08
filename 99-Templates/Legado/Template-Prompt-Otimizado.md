@@ -80,9 +80,9 @@ OUT:
 
 ```
 ## REFS
-- [[04-Conhecimentos/Knowledge-Base/TOKEN-ECONOMY]] # token-opt
-- [[04-Conhecimentos/Knowledge-Base/TOKEN-SHORTHAND]] # abbreviations
-- [[02-JARVIS/JARVIS/TOKEN-COMPRESSION]] # ctx-compress
+- [[04-Conhecimentos/03-Dados-e-Analytics/TOKEN-ECONOMY]] # token-opt
+- [[04-Conhecimentos/03-Dados-e-Analytics/TOKEN-SHORTHAND]] # abbreviations
+- [[02-JARVIS/TOKEN-COMPRESSION]] # ctx-compress
 
 ## CHUNKS
 - <caminho_nota>:<linhas>
@@ -122,7 +122,7 @@ análise detalhada com recomendações...
 task: analyze
   - "Extract key points from [[PRJ/relatorio.pdf]]"
 ctx_refs:
-  - "[[02-JARVIS/JARVIS/Estado.md]]"
+  - "[[02-JARVIS/Estado.md]]"
 output:
   format: yaml
   schema:
@@ -135,8 +135,8 @@ output:
 
 ## 🔗 Crosslinks
 
-- [[04-Conhecimentos/Knowledge-Base/TOKEN-ECONOMY]]
-- [[04-Conhecimentos/Knowledge-Base/TOKEN-SHORTHAND]]
-- [[02-JARVIS/JARVIS/TOKEN-COMPRESSION]]
+- [[04-Conhecimentos/03-Dados-e-Analytics/TOKEN-ECONOMY]]
+- [[04-Conhecimentos/03-Dados-e-Analytics/TOKEN-SHORTHAND]]
+- [[02-JARVIS/TOKEN-COMPRESSION]]
 - [[99-Templates/Legado/Template Base]]
 - [[INDEX]]

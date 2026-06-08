@@ -1,10 +1,10 @@
 ---
 title: "Will-Pessoal"
 date: 2026-06-07
-updated: 2026-06-07
+updated: 2026-06-08
 type: moc
 status: active
-tags: [will-pessoal, contexto, sensivel, organizacao]
+tags: [will-pessoal, contexto, sensivel, organizacao, perfil]
 summary: "Entrada física da nova área pessoal do vault."
 ---
 
@@ -15,7 +15,7 @@ Esta pasta é o destino físico futuro para contexto pessoal, rotina, saúde, fi
 ## Navegação atual
 
 - [[../01-Hubs/Hub-Will-Pessoal|Hub Will-Pessoal]]
-- [[Will-Pessoal/README|Will-Pessoal atual]]
+- [[06-Will-Pessoal/README|Will-Pessoal atual]]
 - [[../Cerebro-Will|Cérebro Will]]
 
 ## Regra atual

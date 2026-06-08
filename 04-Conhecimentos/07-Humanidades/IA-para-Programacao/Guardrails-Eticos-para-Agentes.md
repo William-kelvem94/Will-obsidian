@@ -36,7 +36,7 @@ No Obsidian:
 
 - [[04-Conhecimentos/07-Humanidades/IA-para-Programacao/Segredos-e-Dados-Sensiveis]]
 - [[04-Conhecimentos/07-Humanidades/Etica/Etica-de-IA-e-Alinhamento]]
-- [[02-JARVIS/JARVIS/05-System/AGENT-CONTRACT]]
+- [[02-JARVIS/05-System/AGENT-CONTRACT]]
 
 
 [[04-Conhecimentos/07-Humanidades/IA-para-Programacao/INDEX|← Voltar ao índice de IA para Programação]]

@@ -1,6 +1,6 @@
 ```dataviewjs
 // Painel Procrastinação
-const p = await dv.io.load('10-Interfaces/dashboards/procrastinacao_report.json','json');
+const p = await dv.io.load('01-Hubs/dashboards/procrastinacao_report.json','json');
 dv.table(["Nota","Data"], p.map(r=>[r.nota, r.data]));
 ```
 

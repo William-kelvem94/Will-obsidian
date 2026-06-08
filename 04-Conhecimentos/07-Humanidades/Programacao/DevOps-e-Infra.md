@@ -3,7 +3,7 @@ title: "DevOps e Infraestrutura"
 date: 2026-05-16
 area: "Programação e Engenharia de Software"
 tags: [conhecimento, devops, infra, docker, kubernetes, cicd, cloud, terraform, observabilidade]
-related: ["04-Conhecimentos/07-Humanidades/Programacao/INDEX", "04-Conhecimentos/07-Humanidades/Programacao/Performance-e-Otimizacao", "05-Skills/skills/03-infrastructure-mcp/local-llm-ops", "05-Skills/skills/devops"]
+related: ["04-Conhecimentos/07-Humanidades/Programacao/INDEX", "04-Conhecimentos/07-Humanidades/Programacao/Performance-e-Otimizacao", "05-Skills/03-infrastructure-mcp/local-llm-ops", "05-Skills/devops"]
 aliases: ["DevOps", "Infrastructure", "CI/CD", "Cloud Computing"]
 ---
 
@@ -1021,8 +1021,8 @@ Com SLO de 99.9%:
 - [[04-Conhecimentos/07-Humanidades/Programacao/Performance-e-Otimizacao]] — Otimização de sistemas
 - [[04-Conhecimentos/07-Humanidades/Programacao/Seguranca]] — Práticas de segurança em infraestrutura
 - [[04-Conhecimentos/07-Humanidades/Programacao/Banco-de-Dados]] — Armazenamento e gerenciamento de dados
-- [[05-Skills/skills/03-infrastructure-mcp/local-llm-ops]] — Operações locais de LLM
-- [[05-Skills/skills/devops]] — Práticas DevOps
+- [[05-Skills/03-infrastructure-mcp/local-llm-ops]] — Operações locais de LLM
+- [[05-Skills/devops]] — Práticas DevOps
 
 ---
 

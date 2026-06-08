@@ -9,22 +9,22 @@ VAULT_ROOT = os.path.normpath(os.path.join(SCRIPT_ROOT, ".."))
 REPORT_PATH = os.path.join(SCRIPT_ROOT, "vault_cleanup_report.md")
 
 MAPPING = {
-    "Projetos/01-Ativos/Privados": "#privados",
-    "Projetos": "#projetos",
-    "JARVIS/01-Identity": "#jarvis-identidade",
-    "JARVIS/02-Operational": "#jarvis-operacao",
-    "JARVIS/03-Memory": "#jarvis-memoria",
-    "JARVIS/04-Engineering": "#jarvis-engenharia",
-    "JARVIS/05-System": "#jarvis-sistema",
-    "JARVIS": "#jarvis",
-    "Will-Pessoal/01-Identidade": "#perfil-identidade",
-    "Will-Pessoal/02-Visao": "#perfil-visao",
-    "Will-Pessoal": "#perfil",
-    "skills/01-agentic-intelligence": "#skills-ai",
-    "skills/02-software-engineering": "#skills-eng",
-    "skills/03-infrastructure-mcp": "#skills-mcp",
-    "skills/04-knowledge-systems": "#skills-knowledge",
-    "skills": "#skills"
+    "03-Projetos/01-Ativos/Privados": "#privados",
+    "03-Projetos": "#projetos",
+    "02-JARVIS/01-Identity": "#jarvis-identidade",
+    "02-JARVIS/02-Operational": "#jarvis-operacao",
+    "02-JARVIS/03-Memory": "#jarvis-memoria",
+    "02-JARVIS/04-Engineering": "#jarvis-engenharia",
+    "02-JARVIS/05-System": "#jarvis-sistema",
+    "02-JARVIS": "#jarvis",
+    "06-Will-Pessoal/01-Identidade": "#perfil-identidade",
+    "06-Will-Pessoal/02-Visao": "#perfil-visao",
+    "06-Will-Pessoal": "#perfil",
+    "05-Skills/01-agentic-intelligence": "#skills-ai",
+    "05-Skills/02-software-engineering": "#skills-eng",
+    "05-Skills/03-infrastructure-mcp": "#skills-mcp",
+    "05-Skills/04-knowledge-systems": "#skills-knowledge",
+    "05-Skills": "#skills"
 }
 
 

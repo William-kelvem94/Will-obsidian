@@ -42,7 +42,7 @@ Modelos nao usam conhecimento externo de forma magica durante uma conversa. Eles
 
 - [[04-Conhecimentos/07-Humanidades/IA-para-Programacao/Notas-RAG-Friendly]]
 - [[04-Conhecimentos/07-Humanidades/IA-para-Programacao/Memoria-para-Agentes]]
-- [[05-Skills/skills/01-agentic-intelligence/context-engineering-checklist]]
+- [[05-Skills/01-agentic-intelligence/context-engineering-checklist]]
 
 
 [[04-Conhecimentos/07-Humanidades/IA-para-Programacao/INDEX|← Voltar ao índice de IA para Programação]]

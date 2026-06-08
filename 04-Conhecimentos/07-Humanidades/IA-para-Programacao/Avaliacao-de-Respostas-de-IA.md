@@ -48,7 +48,7 @@ Uma resposta pronta para uso deve ter pontuacao alta em `correcao`, `aderencia` 
 
 - [[04-Conhecimentos/07-Humanidades/IA-para-Programacao/Engenharia-de-Contexto]]
 - [[04-Conhecimentos/07-Humanidades/IA-para-Programacao/Workflow-Humano-Agente]]
-- [[05-Skills/skills/01-agentic-intelligence/response-evaluation-rubric]]
+- [[05-Skills/01-agentic-intelligence/response-evaluation-rubric]]
 
 
 [[04-Conhecimentos/07-Humanidades/IA-para-Programacao/INDEX|← Voltar ao índice de IA para Programação]]

@@ -8,7 +8,7 @@ Coleção de READMEs e perfis importantes.
 - [[Gestor Aluguel 2.0]] ← SaaS Imobiliário Next.js
 
 ## 🔗 Links Rápidos
-- [[03-Projetos/Projetos]] ← MOC completo com todos projetos
+- [[03-Projetos]] ← MOC completo com todos projetos
 - [[Bem-vindo]] ← Início do vault
 
 **Tag:** #clippings
