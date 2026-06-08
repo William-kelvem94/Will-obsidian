@@ -44,6 +44,13 @@ Esta nota registra o que já foi reorganizado diretamente na branch `main`.
 | `reorganizar-vault-simulacao.bat` | `09-Sistema/scripts/reorganizar-vault-simulacao.bat` | migrado |
 | `reorganizar-vault-aplicar.bat` | `09-Sistema/scripts/reorganizar-vault-aplicar.bat` | migrado |
 
+## Arquivos migrados de interfaces
+
+| Arquivo antigo | Novo local | Status |
+|---|---|---|
+| `dashboards/INDEX.md` | `10-Interfaces/dashboards/INDEX.md` | migrado |
+| `dashboards/ROADMAP.md` | `10-Interfaces/dashboards/ROADMAP.md` | copiado; limpeza antiga pendente |
+
 ## Arquivos da raiz que devem permanecer
 
 - `Bem-vindo.md`
@@ -81,9 +88,13 @@ Esta nota registra o que já foi reorganizado diretamente na branch `main`.
 - [ ] `benchmarks/`
 - [ ] `simuladores/`
 
+## Bloqueios encontrados
+
+Algumas operações de cópia ou limpeza foram bloqueadas pelo conector do GitHub. Quando isso acontecer, o conteúdo deve ser preservado e a limpeza antiga deve ficar marcada como pendente.
+
 ## Próximo bloco recomendado
 
-Migrar primeiro `dashboards/`, `Canvases/` e `web-ui/` para `10-Interfaces/`, porque são áreas menos sensíveis e têm função clara.
+Continuar a migração de `dashboards/` para `10-Interfaces/dashboards/`, priorizando painéis Markdown pequenos.
 
 Depois migrar `schema/`, `scripts/`, `tests`, `benchmarks` e `simuladores` para `09-Sistema/`.
 
