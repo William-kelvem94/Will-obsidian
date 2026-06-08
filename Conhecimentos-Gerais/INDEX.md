@@ -43,6 +43,7 @@ Hub principal: [[README|Conhecimentos Gerais]]
 - [[02-Engenharia-Software/Testes-e-Qualidade-de-Software]]
 - [[02-Engenharia-Software/Sistemas-Distribuidos-e-Escalabilidade]]
 - [[02-Engenharia-Software/Observabilidade-Logs-e-Monitoramento]]
+- [[02-Engenharia-Software/CI-CD-e-Entrega-Continua]]
 - [[02-Engenharia-Software/Design-Patterns-e-Arquitetura-Limpa]]
 
 ## Estudos e Produtividade
