@@ -5,7 +5,7 @@ updated: 2026-06-07
 type: guide
 status: active
 tags: [conhecimento-geral, linux, terminal, shell, devops]
-related: [[Docker-e-DevOps]], [[Observabilidade-Logs-e-Monitoramento]], [[Git-e-Controle-de-Versao]], [[CI-CD-e-Entrega-Continua]]
+related: [[Docker-e-DevOps]], [[Observabilidade-Logs-e-Monitoramento]], [[Git-e-Controle-de-Versao]]
 summary: "Guia essencial de Linux, terminal, comandos, permissões, processos, arquivos, logs e automação por shell."
 ---
 
@@ -124,4 +124,3 @@ Linux e terminal são base operacional para dev, Docker, servidores e debugging.
 - [[Docker-e-DevOps]]
 - [[Observabilidade-Logs-e-Monitoramento]]
 - [[Git-e-Controle-de-Versao]]
-- [[CI-CD-e-Entrega-Continua]]
