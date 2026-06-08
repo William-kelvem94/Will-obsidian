@@ -2,88 +2,72 @@
 tags: [index, hub, dashboard, overview, vault, guia, token-economy]
 title: "INDEX - Super Hub do Vault"
 date: 2026-05-24
-updated: 2026-06-01
+updated: 2026-06-07
 ---
 
 # 🗂️ Super Hub: Visão Geral e Navegação Rápida do Vault
 
-**Bem-vindo ao hub central! Consulte e navegue sem perder tempo, seguindo os setores mais importantes e interligados do seu vault.**
+Este é o índice global do vault. A navegação principal agora prioriza a estrutura física nova, mantendo links legados enquanto a migração continua.
 
-## 🚩 Áreas Estruturais
+## 🧭 Entrada principal
 
-- [[skills/README|Skills técnicas, AI & frameworks]]
-- [[Projetos/README|Projetos (ativos, arquivo, estudos, planos)]]
-- [[JARVIS/Main|JARVIS (memória, contexto do agente, decisões)]]
-- [[Templates/README|Templates & Modelos de Nota]]
-- [[Conhecimento-Geral/INDEX|Conhecimento Universal & Domínios]]
-- [[Will-Pessoal/README|Vida pessoal: metas, hábitos, conquistas]]
-- [[dashboards/INDEX|Dashboards e Visualizações Dinâmicas]]
+- [[Bem-vindo|Neural Hub]]
+- [[01-Hubs/README|Hubs Centrais do Vault]]
 
-## 🗃️ Hubs Temáticos Unificados
+## 🧱 Estrutura física nova
 
-> Todos os hubs temáticos foram centralizados na [[Knowledge-Base/README|Super Knowledge Base]]
-- 🌐 [[Knowledge-Base/FUTUROLOGIA|Futurologia & Trends]]
-- 🧪 [[Knowledge-Base/EXPERIMENTACAO|Experimentação & Testes]]
-- 📊 [[Knowledge-Base/BI-ANALYTICS|BI/Analytics]]
-- 🤖 [[Knowledge-Base/IA-APLICADA|IA Aplicada]]
-- 🔄 [[Knowledge-Base/AUTOMACAO|Automação & Orquestração]]
-- 🔐 [[Knowledge-Base/LGPD-PRIVACIDADE|LGPD & Privacidade]]
-- 🧠 [[Knowledge-Base/SAUDE-MENTAL|Saúde Mental Organizacional]]
+- [[00-Inbox/README|00-Inbox]] — entrada temporária e triagem.
+- [[01-Hubs/README|01-Hubs]] — navegação superior.
+- [[02-JARVIS/README|02-JARVIS]] — IA, memória e agentes.
+- [[03-Projetos/Projetos|03-Projetos]] — execução e índice legado de projetos.
+- [[04-Conhecimentos/README|04-Conhecimentos]] — conhecimento estável e bases em migração.
+- [[05-Skills/README|05-Skills]] — habilidades técnicas.
+- [[06-Will-Pessoal/README|06-Will-Pessoal]] — contexto pessoal e sensível.
+- [[07-Operacoes-do-Vault/Reestruturacao-Geral-do-Vault|07-Operacoes-do-Vault]] — manutenção e governança.
+- [[08-Arquivo/README|08-Arquivo]] — legado preservado.
+- [[09-Sistema/CLI-BOOTSTRAP|09-Sistema]] — arquivos técnicos e configuração.
+- [[10-Interfaces/Painel-Cockpit|10-Interfaces]] — painéis e interfaces.
 
----
+## 📚 Bases legadas ainda em migração
 
-## 📈 Dashboards & Automação
+- [[Conhecimentos-Gerais/README|Conhecimentos Gerais]]
+- [[Conhecimento-Geral/INDEX|Conhecimento-Geral]]
+- [[Knowledge-Base/README|Knowledge-Base]]
+- [[JARVIS/README|JARVIS antigo]]
+- [[skills/README|skills antigo]]
+- [[Projetos/README|Projetos antigo]]
+- [[Will-Pessoal/README|Will-Pessoal antigo]]
 
-- [[dashboards/Knowledge-Heatmap|Knowledge Heatmap (skills/projetos)]]
+## 📈 Dashboards e interfaces
+
+- [[10-Interfaces/Painel-Cockpit|Painel Cockpit]]
+- [[dashboards/Knowledge-Heatmap|Knowledge Heatmap]]
 - [[dashboards/Scorecard-Consistencia|Scorecard de Consistência]]
 - [[dashboards/Gap-Analysis|Gap Analysis de Skills]]
 - [[dashboards/Skill-Project-Matrix-Dinamica|Skill ↔ Projeto Dinâmico]]
-- [[JARVIS/05-System/Vault-Health-Dashboard|Vault Health Dashboard]]
 
----
+## 💰 Token Economy
 
-## 💰 Token Economy — Otimização de Contexto para IAs
+- [[Knowledge-Base/TOKEN-ECONOMY|Token Economy legado]]
+- [[Conhecimentos-Gerais/01-IA/Token-Economy|Token Economy em Conhecimentos Gerais]]
+- [[JARVIS/TOKEN-COMPRESSION|Token Compression do JARVIS]]
 
-> Recursos para máxima economia de tokens sem perder qualidade semântica
-- [[Knowledge-Base/TOKEN-ECONOMY|💰 Token Economy]] — Guia definitivo de otimização de tokens
-- [[Knowledge-Base/TOKEN-SHORTHAND|🔤 Token Shorthand]] — Abreviações padronizadas para máxima densidade
-- [[Knowledge-Base/DATA-TOKEN-GOVERNANCE|📊 Data & Token Governance]] — Eficácia, eficiência, controle e gerência
-- [[JARVIS/TOKEN-COMPRESSION|🧠 Token Compression]] — Compressão de contexto do JARVIS
-- [[Templates/Template-Prompt-Otimizado|⚡ Template Prompt Otimizado]] — Template de prompt enxuto
-- [[dashboards/TOKEN-COST-DASHBOARD|📈 Token Cost Dashboard]] — Monitoramento de custos
+## 🤖 Agentes e sistema
 
-## 🤖 Capacidades dos Agentes
-
-> Matrizes completas de habilidades para agentes IA programarem e pesquisarem
-- [[skills/AGENT-FULLSTACK-CAPABILITIES|🖥️ Fullstack Agent Capabilities]] — Stack completo de programação para agentes
-- [[skills/AGENT-RESEARCH-CAPABILITIES|🔬 Research Agent Capabilities]] — Metodologia de pesquisa técnica e científica
-
----
-
-## 📝 Painéis, Relatórios e Arquivos Centrais
-
-- [[Painel-Cockpit]] (painel operacional)
-- [[dashboards/GAPS|GAPS (Gaps de Conhecimento)]]
-- [[dashboards/MULTIMODALIDADE|MULTIMODALIDADE (Gestão Multimodal)]]
-- [[dashboards/Master-Glossary|Glossário Mestre Unificado]]
-- [[dashboards/SEGURANCA_PRIVACIDADE|Segurança & Privacidade]]
-- [[dashboards/Vault-Hierarchy-Map|Mapa de Hierarquia do Vault]]
-- [[dashboards/Vault-Ops|Vault Ops (Operações de Manutenção)]]
-- [[dashboards/TAXONOMY|Taxonomia Geral]]
-
-### (Outros arquivos soltos menores/ideias: ver [[Ideias]] ou [[Ideias/BRAINSTORM-GIGANTE|BRAINSTORM-GIGANTE]])
-
----
+- [[09-Sistema/agents/AGENTS|Instruções de Agentes]]
+- [[09-Sistema/agents/CLAUDE|Instruções Claude]]
+- [[09-Sistema/agents/GEMINI|Instruções Gemini]]
+- [[09-Sistema/config/indexer_config.json|Configuração de indexação]]
+- [[07-Operacoes-do-Vault/Mapa-de-Migracao-Fisica-do-Vault|Mapa de Migração Física]]
 
 ## 👣 Como navegar
-- Sempre retorne ao INDEX: tudo crosslinkado aqui.
-- Referencie o Super Hub ao criar novos arquivos centrais.
-- Use os painéis e dashboards para obter visão rápida e tomar decisões de organização, foco e ação.
+
+1. Comece pelo [[Bem-vindo|Neural Hub]].
+2. Use [[01-Hubs/README|Hubs Centrais]] para escolher o domínio.
+3. Use a estrutura física nova para conteúdos já migrados.
+4. Use as bases legadas apenas enquanto a migração não for concluída.
+5. Ao criar novos conteúdos, prefira a nova estrutura física.
 
 ---
-># Dica: 
->- Caso encontre arquivo "sem dono" ou sem crosslink, mova para o diretório certo OU adicione link aqui!
->- Para Hubs: sempre mantenha README.md atualizado padronizado.
 
----
->_Mantido automaticamente por scripts & revisado periodicamente para máxima produtividade._
+> Mantido como índice global durante a reorganização do vault.
