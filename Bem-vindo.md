@@ -1,69 +1,85 @@
 ---
 title: "Bem-vindo ao Neural Hub"
-description: "Ponto de entrada central para o ecossistema de projetos e o Segundo Cérebro do Will. Aqui começa toda a navegação do Projeto JARVIS e do meu Second Brain completo."
+description: "Ponto de entrada central para o ecossistema de projetos e o Segundo Cérebro do Will. Aqui começa a navegação organizada do Projeto JARVIS, conhecimentos, projetos, skills e vida pessoal."
 tags: [hub, entrypoint, main, neural-hub]
 updated: 2026-06-07
 ---
 
-# 🛸 Neural Hub — Bem-vindo ao Seu Segundo Cérebro
+# 🛸 Neural Hub — Bem-vindo ao Segundo Cérebro do Will
 
 Este vault não é só um Obsidian.  
-É o **centro nevrálgico** do **Projeto JARVIS**, do meu portfólio de 67 repositórios e da minha evolução como engenheiro fullstack + AI local.
+Ele é o centro de navegação do Projeto JARVIS, dos projetos, conhecimentos, skills, vida pessoal e operações do vault.
 
-Aqui tudo foi projetado para ser consumido tanto por mim (humano) quanto por agentes de IA (Ollama + RAG + MCP). Tudo é linkado, indexado semanticamente e pronto para crescimento exponencial.
-
----
-
-## ⚡ Acesso Rápido (Top Tiers)
-
-| Domínio                  | O que você encontra aqui                              | Hub Principal |
-|--------------------------|-------------------------------------------------------|---------------|
-| **🤖 JARVIS**            | Inteligência, Memória, Identidade e Agentes          | [[JARVIS/README|JARVIS Command Center]] |
-| **🚀 Projetos**          | Portfolio ativo, privados, estudos e legado          | [[Projetos|Hub de Projetos]] |
-| **🧠 Skills**            | Competências técnicas, prompts, MCPs e pipelines RAG | [[skills/README|Skills Hub]] |
-| **📚 Conhecimentos Gerais** | IA, engenharia, estudos, dados, habilidades e token economy | [[Conhecimentos-Gerais/README|Hub de Conhecimentos Gerais]] |
-| **🌍 Conhecimento-Geral**| Humanidades, filosofia, psicologia e cultura         | [[Conhecimento-Geral/INDEX|Hub de Conhecimento Geral]] |
-| **🌱 Will-Pessoal**      | Perfil profundo, visão de vida, reflexões pessoais   | [[Will-Pessoal/README|Will-Pessoal Hub]] |
+A organização principal agora passa pela camada [[01-Hubs/README|Hubs Centrais do Vault]], que funciona como recepção do sistema. A estrutura antiga continua preservada, mas os hubs dão uma navegação mais clara e segura.
 
 ---
 
-## 🛠️ Navegação Estratégica (O que eu mais uso)
+## ⚡ Entrada rápida pelos hubs
 
-### 🎯 Execução & Foco Diário
-- [[Projetos/01-Ativos/Plano-de-Acao|🚀 Plano de Ação]] — Minhas prioridades semanais
-- [[Projetos/01-Ativos/Objetivos/README|🎯 Objetivos & OKRs 2026]] — Para onde estamos indo
-- [[Projetos/01-Ativos/Privados/README|🔐 Projetos Privados]] — IP e desenvolvimento core
-
-### 📚 Crescimento e Aprendizado
-- [[Conhecimentos-Gerais/README|📚 Conhecimentos Gerais]] — Base ampla para estudos, IA, token economy e habilidades
-- [[Conhecimentos-Gerais/01-IA/RAG-e-Memoria-para-Agentes|🧠 RAG e Memória para Agentes]] — Como usar o vault como base consultável por IA
-- [[Conhecimentos-Gerais/01-IA/Prompt-Engineering|✍️ Prompt Engineering]] — Como pedir melhor e obter respostas melhores
-- [[skills/01-agentic-intelligence/multi-agent-orchestration|🤖 Agentic Intelligence]] — Orquestração de múltiplos agentes
-- [[Projetos/03-Estudos/EstudosFocados/README|📘 Estudos Focados]] — Meu diário técnico profundo
-- [[skills/03-infrastructure-mcp/mcp-servers|🛠️ MCP Ecosystem]] — Infraestrutura de contexto para IAs
-
-### ⚙️ Sistema e Manutenção
-- [[Vault-Ops|🧰 Vault Operations]] — Como manter tudo vivo e saudável
-- [[Graph-Legenda|📊 Legenda do Grafo]] — Entenda as conexões visuais
-- [[Master-Glossary|📖 Glossário Mestre]] — Terminologia unificada
+| Domínio | Função | Hub |
+|---|---|---|
+| **🏠 Hubs Centrais** | mapa superior do vault | [[01-Hubs/README|Hubs Centrais]] |
+| **🤖 JARVIS** | IA, memória, agentes e RAG | [[01-Hubs/Hub-JARVIS|Hub JARVIS]] |
+| **🚀 Projetos** | execução, portfólio e objetivos | [[01-Hubs/Hub-Projetos|Hub de Projetos]] |
+| **📚 Conhecimentos** | IA, engenharia, dados, estudos e vida prática | [[01-Hubs/Hub-Conhecimentos|Hub de Conhecimentos]] |
+| **🧠 Skills** | habilidades técnicas e capacidades | [[01-Hubs/Hub-Skills|Hub de Skills]] |
+| **🌱 Will-Pessoal** | perfil, contexto pessoal e vida prática | [[01-Hubs/Hub-Will-Pessoal|Hub Will-Pessoal]] |
+| **🧰 Operações** | manutenção, organização e governança | [[01-Hubs/Hub-Operacoes-do-Vault|Hub de Operações]] |
+| **🧩 Templates** | modelos reutilizáveis | [[01-Hubs/Hub-Templates|Hub de Templates]] |
 
 ---
 
-## 🗺️ Filosofia do Vault (Por que ele é assim?)
+## 🛠️ Navegação estratégica
 
-Este vault segue a **arquitetura de 5 camadas semânticas** (Tier 01 a Tier 05).  
-O objetivo é transformar meu cérebro + 67 repositórios + vida pessoal em um sistema **RAG-ready** que qualquer LLM local (Ollama, Qwen2.5, etc.) possa entender perfeitamente.
+### 🎯 Execução & foco diário
 
-A nova pasta [[Conhecimentos-Gerais/README|Conhecimentos Gerais]] funciona como camada estável de conhecimento: notas reutilizáveis, densas, linkáveis e boas para estudos futuros, agentes de IA e economia de tokens.
+- [[Projetos/01-Ativos/Plano-de-Acao|Plano de Ação]] — prioridades semanais.
+- [[Projetos/01-Ativos/Objetivos/README|Objetivos & OKRs]] — direção e metas.
+- [[01-Hubs/Hub-Projetos|Hub de Projetos]] — mapa organizado dos projetos.
 
-**Dica de ouro:** Pressione `Ctrl+G` para ver a rede neural completa deste vault. Quanto mais você linka, mais inteligente ele fica.
+### 📚 Crescimento e aprendizado
+
+- [[01-Hubs/Hub-Conhecimentos|Hub de Conhecimentos]] — base consolidada de estudo e IA.
+- [[Conhecimentos-Gerais/01-IA/RAG-e-Memoria-para-Agentes|RAG e Memória para Agentes]] — base de IA consultável.
+- [[Conhecimentos-Gerais/01-IA/Arquitetura-RAG-para-Obsidian-e-JARVIS|Arquitetura RAG para Obsidian e JARVIS]] — uso do vault como cérebro consultável.
+- [[Conhecimentos-Gerais/01-IA/Prompt-Engineering|Prompt Engineering]] — como pedir melhor.
+- [[Conhecimentos-Gerais/02-Engenharia-Software/Playbook-de-Debug-de-API-e-Backend|Debug de API e Backend]] — diagnóstico técnico prático.
+
+### 🤖 JARVIS e IA local
+
+- [[01-Hubs/Hub-JARVIS|Hub JARVIS]] — entrada organizada para IA e memória.
+- [[JARVIS/README|JARVIS Command Center]] — área original do JARVIS.
+- [[skills/03-infrastructure-mcp/mcp-servers|MCP Ecosystem]] — infraestrutura de contexto.
+- [[skills/04-knowledge-systems/obsidian-neural-vault|Obsidian Neural Vault]] — arquitetura de conhecimento.
+
+### ⚙️ Sistema e manutenção
+
+- [[01-Hubs/Hub-Operacoes-do-Vault|Hub de Operações do Vault]] — manutenção e governança.
+- [[Vault-Ops|Vault Operations]] — operações existentes.
+- [[Vault-Hierarchy-Map|Mapa de Hierarquia]] — estrutura do vault.
+- [[Master-Glossary|Glossário Mestre]] — terminologia unificada.
+- [[Graph-Legenda|Legenda do Grafo]] — leitura visual das conexões.
 
 ---
 
-**Próximos passos recomendados:**
-1. Ler [[Cerebro-Will]] (seu perfil completo para IA)
-2. Explorar [[Conhecimentos-Gerais/README]] (base de conhecimento reutilizável)
-3. Explorar [[Projetos]] (radar de tudo que está rodando)
-4. Configurar o servidor MCP para conversar com o vault
+## 🗺️ Filosofia atual do vault
 
-[[Master-Glossary]] | [[Vault-Hierarchy-Map]] | [[Vault-Ops]] | [[Cerebro-Will]] | [[Conhecimentos-Gerais/README]]
+O vault deve funcionar em quatro níveis:
+
+1. **Navegação:** hubs claros e MOCs atualizados.
+2. **Conhecimento:** notas densas, reutilizáveis e boas para IA.
+3. **Execução:** projetos, decisões, bugs, runbooks e postmortems.
+4. **Memória:** contexto pessoal, JARVIS e aprendizados importantes.
+
+O objetivo é transformar o Obsidian em uma base RAG-ready, mas sem misturar tudo: conhecimento técnico, memória pessoal, projetos e operações precisam ter fronteiras claras.
+
+---
+
+## Próximos passos recomendados
+
+1. Começar por [[01-Hubs/README|Hubs Centrais do Vault]].
+2. Explorar [[01-Hubs/Hub-Conhecimentos|Hub de Conhecimentos]].
+3. Revisar [[01-Hubs/Hub-JARVIS|Hub JARVIS]].
+4. Usar [[01-Hubs/Hub-Operacoes-do-Vault|Hub de Operações]] para a futura migração física das pastas.
+
+[[01-Hubs/README]] | [[01-Hubs/Hub-Conhecimentos]] | [[01-Hubs/Hub-JARVIS]] | [[01-Hubs/Hub-Projetos]] | [[01-Hubs/Hub-Operacoes-do-Vault]]
