@@ -5,12 +5,12 @@ updated: 2026-06-07
 type: moc
 status: active
 tags: [hub, vault-ops, manutencao, organizacao]
-summary: "Hub de manutenção, governança e operações do Obsidian."
+summary: "Hub de manutenção, governança, migração física e operações do Obsidian."
 ---
 
 # Hub de Operações do Vault
 
-Este hub reúne as notas de manutenção e governança do Obsidian.
+Este hub reúne as notas de manutenção, governança e reorganização física do Obsidian.
 
 ## Entradas principais
 
@@ -19,6 +19,16 @@ Este hub reúne as notas de manutenção e governança do Obsidian.
 - [[../Master-Glossary|Glossário Mestre]]
 - [[../Graph-Legenda|Legenda do Grafo]]
 - [[../07-Operacoes-do-Vault/Reestruturacao-Geral-do-Vault]]
+- [[../07-Operacoes-do-Vault/Inventario-Inicial-do-Vault]]
+- [[../07-Operacoes-do-Vault/Mapa-de-Migracao-Fisica-do-Vault]]
+
+## Scripts e atalhos
+
+| Arquivo | Uso |
+|---|---|
+| `reorganizar-vault-simulacao.bat` | simula a migração sem mover arquivos |
+| `reorganizar-vault-aplicar.bat` | aplica a migração física após confirmação |
+| `09-Sistema/scripts/reorganizar-vault.ps1` | script PowerShell principal |
 
 ## Operações importantes
 
@@ -40,6 +50,7 @@ Este hub reúne as notas de manutenção e governança do Obsidian.
 5. Revisar links internos.
 6. Registrar decisões importantes.
 7. Usar commits em PT-BR com descrição detalhada.
+8. Rodar simulação antes de aplicar migração física.
 
 ## Checklist de saúde do vault
 
@@ -51,10 +62,12 @@ Este hub reúne as notas de manutenção e governança do Obsidian.
 - [ ] Há pastas com nomes ambíguos?
 - [ ] Dados sensíveis estão separados?
 - [ ] Conteúdo novo está linkado?
+- [ ] Migração foi simulada antes de aplicar?
 
 ## Próximas melhorias
 
 - Criar auditoria automática de links.
 - Criar relatório de notas órfãs.
-- Criar inventário de pastas.
+- Criar inventários por pasta.
 - Criar política de dados sensíveis para RAG.
+- Atualizar `Vault-Hierarchy-Map` depois da migração física.
