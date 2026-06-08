@@ -24,14 +24,28 @@ Criar uma base de conhecimento que funcione em três níveis:
 - Para pedir ajuda a uma IA, comece por [[00-Como-usar-este-vault-com-IA]].
 - Para melhorar prompts, consulte [[01-IA/Prompt-Engineering]].
 - Para RAG, memória e agentes, consulte [[01-IA/RAG-e-Memoria-para-Agentes]].
+- Para agentes e workflows, consulte [[01-IA/Agentes-Autonomos-e-Workflows]].
+- Para avaliar respostas de IA, consulte [[01-IA/Avaliacao-de-Respostas-de-IA]].
 - Para economizar tokens, consulte [[01-IA/Token-Economy]].
 - Para arquitetura de sistemas, consulte [[02-Engenharia-Software/Arquitetura-Web-Moderna]].
 - Para Docker e DevOps, consulte [[02-Engenharia-Software/Docker-e-DevOps]].
 - Para backend, APIs e bancos, consulte [[02-Engenharia-Software/APIs-Backend-Banco]].
+- Para Git, consulte [[02-Engenharia-Software/Git-e-Controle-de-Versao]].
+- Para testes, consulte [[02-Engenharia-Software/Testes-e-Qualidade-de-Software]].
+- Para sistemas distribuídos, consulte [[02-Engenharia-Software/Sistemas-Distribuidos-e-Escalabilidade]].
 - Para aprender melhor, consulte [[03-Estudos/Metodo-de-Estudo-Ativo]].
 - Para decidir e priorizar, consulte [[04-Produtividade/Decisao-e-Priorizacao]].
 - Para organizar dados, consulte [[05-Dados/Taxonomia-Metadados-e-Ontologia]].
+- Para banco de dados avançado, consulte [[05-Dados/Banco-de-Dados-Avancado]].
 - Para mapa de habilidades, consulte [[06-Habilidades/Mapa-de-Habilidades]].
+- Para segurança, consulte [[07-Seguranca/Seguranca-da-Informacao]].
+- Para redes, consulte [[08-Redes/Redes-e-Internet]].
+- Para produto e UX, consulte [[09-Produto-UX/Produto-UX-e-Validacao]].
+- Para matemática aplicada, consulte [[10-Matematica/Matematica-Aplicada-a-Computacao]].
+- Para carreira tech, consulte [[11-Carreira/Carreira-Tech-e-Portifolio]].
+- Para saúde e rotina, consulte [[12-Saude-Rotina/Saude-Rotina-e-Rastreamento]].
+- Para finanças, consulte [[13-Financas/Financas-Pessoais-e-Metricas]].
+- Para comunicação, consulte [[14-Comunicacao/Comunicacao-Clara-e-Reunioes]].
 - Para criar novas notas consistentes, use [[99-Templates/Template-Nota-Atomica]].
 
 ## Estrutura
@@ -39,23 +53,46 @@ Criar uma base de conhecimento que funcione em três níveis:
 ```txt
 Conhecimentos-Gerais/
 ├── README.md
+├── INDEX.md
 ├── 00-Como-usar-este-vault-com-IA.md
 ├── 01-IA/
 │   ├── Prompt-Engineering.md
 │   ├── RAG-e-Memoria-para-Agentes.md
+│   ├── Agentes-Autonomos-e-Workflows.md
+│   ├── Avaliacao-de-Respostas-de-IA.md
 │   └── Token-Economy.md
 ├── 02-Engenharia-Software/
 │   ├── Arquitetura-Web-Moderna.md
 │   ├── Docker-e-DevOps.md
-│   └── APIs-Backend-Banco.md
+│   ├── APIs-Backend-Banco.md
+│   ├── Git-e-Controle-de-Versao.md
+│   ├── Testes-e-Qualidade-de-Software.md
+│   └── Sistemas-Distribuidos-e-Escalabilidade.md
 ├── 03-Estudos/
 │   └── Metodo-de-Estudo-Ativo.md
 ├── 04-Produtividade/
 │   └── Decisao-e-Priorizacao.md
 ├── 05-Dados/
-│   └── Taxonomia-Metadados-e-Ontologia.md
+│   ├── Taxonomia-Metadados-e-Ontologia.md
+│   └── Banco-de-Dados-Avancado.md
 ├── 06-Habilidades/
 │   └── Mapa-de-Habilidades.md
+├── 07-Seguranca/
+│   └── Seguranca-da-Informacao.md
+├── 08-Redes/
+│   └── Redes-e-Internet.md
+├── 09-Produto-UX/
+│   └── Produto-UX-e-Validacao.md
+├── 10-Matematica/
+│   └── Matematica-Aplicada-a-Computacao.md
+├── 11-Carreira/
+│   └── Carreira-Tech-e-Portifolio.md
+├── 12-Saude-Rotina/
+│   └── Saude-Rotina-e-Rastreamento.md
+├── 13-Financas/
+│   └── Financas-Pessoais-e-Metricas.md
+├── 14-Comunicacao/
+│   └── Comunicacao-Clara-e-Reunioes.md
 └── 99-Templates/
     └── Template-Nota-Atomica.md
 ```
@@ -103,16 +140,15 @@ Ao usar uma IA, enviar primeiro:
 
 ## Relação com o JARVIS
 
-Esta pasta alimenta o JARVIS como camada de conhecimento estável. Memórias pessoais e estados atuais ficam em `JARVIS/`, enquanto conhecimento técnico, estudo, IA, métodos e habilidades ficam aqui.
+Esta pasta alimenta o JARVIS como camada de conhecimento estável. Memórias pessoais e estados atuais ficam em `JARVIS/`, enquanto conhecimento técnico, estudo, IA, métodos, rotinas, finanças, comunicação e habilidades ficam aqui.
 
 ## Próximas expansões recomendadas
 
-- Segurança da informação.
-- Redes e infraestrutura.
-- Banco de dados avançado.
-- Engenharia de prompts por domínio.
-- Matemática aplicada à computação.
+- Linux e terminal.
+- Python avançado.
+- JavaScript e TypeScript.
+- Frontend moderno.
+- Observabilidade e logs.
+- Documentação técnica avançada.
 - Psicologia cognitiva para estudos.
-- Finanças pessoais e métricas.
-- Saúde, rotina e rastreamento de sintomas.
 - Templates para reuniões, decisões e debugging.
