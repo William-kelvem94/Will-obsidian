@@ -23,8 +23,10 @@ Esta pasta é a camada de conhecimento amplo do vault. Ela serve para estudos, c
 - [[01-IA/Prompt-Engineering]]
 - [[01-IA/Context-Engineering]]
 - [[01-IA/RAG-e-Memoria-para-Agentes]]
+- [[01-IA/Arquitetura-RAG-para-Obsidian-e-JARVIS]]
 - [[01-IA/Embeddings-e-Busca-Semantica]]
 - [[01-IA/Avaliacao-de-RAG-e-Qualidade-de-Contexto]]
+- [[01-IA/Playbook-de-Debug-de-Respostas-de-IA]]
 - [[01-IA/Agentes-Autonomos-e-Workflows]]
 - [[01-IA/Avaliacao-de-Respostas-de-IA]]
 - [[01-IA/IA-Local-Ollama-e-Modelos-Abertos]]
@@ -34,6 +36,8 @@ Esta pasta é a camada de conhecimento amplo do vault. Ela serve para estudos, c
 
 - [[02-Engenharia-Software/Arquitetura-Web-Moderna]]
 - [[02-Engenharia-Software/APIs-Backend-Banco]]
+- [[02-Engenharia-Software/Playbook-de-Debug-de-API-e-Backend]]
+- [[02-Engenharia-Software/Autenticacao-Autorizacao-e-Sessoes]]
 - [[02-Engenharia-Software/Docker-e-DevOps]]
 - [[02-Engenharia-Software/Linux-Terminal-e-Shell]]
 - [[02-Engenharia-Software/Git-e-Controle-de-Versao]]
@@ -56,6 +60,7 @@ Esta pasta é a camada de conhecimento amplo do vault. Ela serve para estudos, c
 
 - [[05-Dados/Taxonomia-Metadados-e-Ontologia]]
 - [[05-Dados/Banco-de-Dados-Avancado]]
+- [[05-Dados/PostgreSQL-Pratico-para-Projetos]]
 - [[05-Dados/SQL-Avancado-e-Consultas]]
 - [[05-Dados/Analytics-ETL-e-Qualidade-de-Dados]]
 
@@ -70,6 +75,8 @@ Esta pasta é a camada de conhecimento amplo do vault. Ela serve para estudos, c
 ## Produto, carreira e vida prática
 
 - [[09-Produto-UX/Produto-UX-e-Validacao]]
+- [[09-Produto-UX/Estados-de-Interface-e-UX-Operacional]]
+- [[09-Produto-UX/Checklist-de-Validacao-de-Produto]]
 - [[10-Matematica/Matematica-Aplicada-a-Computacao]]
 - [[11-Carreira/Carreira-Tech-e-Portifolio]]
 - [[12-Saude-Rotina/Saude-Rotina-e-Rastreamento]]
@@ -79,6 +86,8 @@ Esta pasta é a camada de conhecimento amplo do vault. Ela serve para estudos, c
 ## Documentação e humanidades
 
 - [[15-Documentacao/Documentacao-Tecnica-Runbooks-e-ADRs]]
+- [[15-Documentacao/Padrao-de-Commits-PTBR]]
+- [[15-Documentacao/Template-Postmortem-e-Aprendizado]]
 - [[16-Humanidades/Pensamento-Critico-e-Logica-Informal]]
 - [[16-Humanidades/Filosofia-Pratica-para-Decisoes]]
 
@@ -87,6 +96,8 @@ Esta pasta é a camada de conhecimento amplo do vault. Ela serve para estudos, c
 - [[99-Templates/Template-Nota-Atomica]]
 - [[99-Templates/Template-ADR-Decisao-Arquitetural]]
 - [[99-Templates/Template-Runbook-Operacional]]
+- [[99-Templates/Template-Bug-Report]]
+- [[99-Templates/Template-Nota-de-Estudo]]
 
 ## Regra importante
 
