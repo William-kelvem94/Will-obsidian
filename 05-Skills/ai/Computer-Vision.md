@@ -908,5 +908,5 @@ async def get_cached_or_detect(image_key: str, image_bytes: bytes):
 
 - [[05-Skills/ai/INDEX]] - Indice central de habilidades de IA
 - [[04-Conhecimentos/07-Humanidades/Matematica/Algebra-Linear-Essencial]] - Algebra linear para convolucoes e transformadas
-- [[04-Conhecimentos/07-Humanidades/Programacao/Arquitetura-de-Software]] - Arquitetura para pipelines de CV
+- [[04-Conhecimentos/02-Engenharia-de-Software/Arquitetura-de-Software]] - Arquitetura para pipelines de CV
 - [[05-Skills/rag]] - RAG pode usar OCR e descricao de imagens para indexar documentos visuais

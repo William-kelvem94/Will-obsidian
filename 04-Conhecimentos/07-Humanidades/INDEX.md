@@ -316,22 +316,22 @@ Estudo do cosmos observável — estrelas, galáxias, planetas, instrumentação
 
 ## 19. Vida Prática
 
-**[[04-Conhecimentos/07-Humanidades/Vida-Pratica/INDEX]]**
+**[[04-Conhecimentos/08-Vida-Pratica/INDEX]]**
 
 Conhecimento prático para viver bem — felicidade, propósito, relacionamentos, saúde, decisões e produtividade. O que a filosofia, psicologia e ciência têm a dizer sobre o dia a dia.
 
 **Notas:**
-- [[04-Conhecimentos/07-Humanidades/Vida-Pratica/Felicidade-e-Bem-Estar]] — PERMA, flow, gratidão, psicologia positiva (~963 linhas)
-- [[04-Conhecimentos/07-Humanidades/Vida-Pratica/Proposito-e-Sentido-da-Vida]] — logoterapia, existencialismo, Ikigai (~926 linhas)
-- [[04-Conhecimentos/07-Humanidades/Vida-Pratica/Inteligencia-Emocional]] — 5 pilares de Goleman, granularidade emocional (~522 linhas)
-- [[04-Conhecimentos/07-Humanidades/Vida-Pratica/Resiliencia-Psicologica]] — PTG, coping, antifragilidade (~511 linhas)
-- [[04-Conhecimentos/07-Humanidades/Vida-Pratica/Tomada-de-Decisao]] — OODA, pre-mortem, vieses, second-order thinking (~599 linhas)
-- [[04-Conhecimentos/07-Humanidades/Vida-Pratica/Gestao-de-Tempo-e-Produtividade]] — GTD, Deep Work, Pomodoro, procrastinação (~651 linhas)
-- [[04-Conhecimentos/07-Humanidades/Vida-Pratica/Relacionamentos]] — attachment theory, CNV, Gottman, amor, amizade, família (~726 linhas)
-- [[04-Conhecimentos/07-Humanidades/Vida-Pratica/Nutricao-e-Saude-Pratica]] — nutrição, exercício, sono, estresse, medicina preventiva
-- [[04-Conhecimentos/07-Humanidades/Vida-Pratica/Morte-e-Mortalidade]] — filosofia da morte, luto, TMT, transumanismo
-- [[04-Conhecimentos/07-Humanidades/Vida-Pratica/Negociacao]] — BATNA, ZOPA, Método Harvard, preparação, táticas, psicologia
-- [[04-Conhecimentos/07-Humanidades/Vida-Pratica/Administracao]] — estratégia, RH, finanças, operações, qualidade, empreendedorismo
+- [[04-Conhecimentos/08-Vida-Pratica/Felicidade-e-Bem-Estar]] — PERMA, flow, gratidão, psicologia positiva (~963 linhas)
+- [[04-Conhecimentos/08-Vida-Pratica/Proposito-e-Sentido-da-Vida]] — logoterapia, existencialismo, Ikigai (~926 linhas)
+- [[04-Conhecimentos/08-Vida-Pratica/Inteligencia-Emocional]] — 5 pilares de Goleman, granularidade emocional (~522 linhas)
+- [[04-Conhecimentos/08-Vida-Pratica/Resiliencia-Psicologica]] — PTG, coping, antifragilidade (~511 linhas)
+- [[04-Conhecimentos/08-Vida-Pratica/Tomada-de-Decisao]] — OODA, pre-mortem, vieses, second-order thinking (~599 linhas)
+- [[04-Conhecimentos/08-Vida-Pratica/Gestao-de-Tempo-e-Produtividade]] — GTD, Deep Work, Pomodoro, procrastinação (~651 linhas)
+- [[04-Conhecimentos/08-Vida-Pratica/Relacionamentos]] — attachment theory, CNV, Gottman, amor, amizade, família (~726 linhas)
+- [[04-Conhecimentos/08-Vida-Pratica/Nutricao-e-Saude-Pratica]] — nutrição, exercício, sono, estresse, medicina preventiva
+- [[04-Conhecimentos/08-Vida-Pratica/Morte-e-Mortalidade]] — filosofia da morte, luto, TMT, transumanismo
+- [[04-Conhecimentos/08-Vida-Pratica/Negociacao]] — BATNA, ZOPA, Método Harvard, preparação, táticas, psicologia
+- [[04-Conhecimentos/08-Vida-Pratica/Administracao]] — estratégia, RH, finanças, operações, qualidade, empreendedorismo
 
 **Perguntas-chave:** O que é felicidade e como alcançá-la? Qual o sentido da vida? Como tomar decisões difíceis? Como construir relacionamentos profundos?
 

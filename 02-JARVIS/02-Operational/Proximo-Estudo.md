@@ -69,7 +69,7 @@ updated: 2026-06-08
 **Notas relacionadas no vault:**
   - [[05-Skills/02-software-engineering/advanced-backend-architecture]]
   - [[05-Skills/02-software-engineering/backend]]
-  - [[04-Conhecimentos/07-Humanidades/Programacao/Arquitetura-de-Software]]
+  - [[04-Conhecimentos/02-Engenharia-de-Software/Arquitetura-de-Software]]
 
 ---
 

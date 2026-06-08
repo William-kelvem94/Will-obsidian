@@ -5,7 +5,7 @@ date: 2026-06-01
 updated: 2026-06-01
 category: reference
 aliases: ["Shorthand", "Abreviações Padrão", "Token Abbreviations"]
-related: ["04-Conhecimentos/Knowledge-Base/TOKEN-ECONOMY", "02-JARVIS/TOKEN-COMPRESSION"]
+related: ["04-Conhecimentos/TOKEN-ECONOMY", "02-JARVIS/TOKEN-COMPRESSION"]
 ---
 
 # 🔤 Token Shorthand — Abreviações Oficiais do Vault

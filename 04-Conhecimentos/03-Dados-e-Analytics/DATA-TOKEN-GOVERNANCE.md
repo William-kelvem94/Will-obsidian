@@ -5,7 +5,7 @@ date: 2026-06-01
 updated: 2026-06-01
 category: knowledge-domain
 aliases: ["Governança de Dados e Tokens", "Data Token Control", "Eficácia e Eficiência"]
-related: ["04-Conhecimentos/Knowledge-Base/TOKEN-ECONOMY", "04-Conhecimentos/Knowledge-Base/TOKEN-SHORTHAND", "02-JARVIS/TOKEN-COMPRESSION", "05-Skills/04-knowledge-systems/INDEX"]
+related: ["04-Conhecimentos/TOKEN-ECONOMY", "04-Conhecimentos/TOKEN-SHORTHAND", "02-JARVIS/TOKEN-COMPRESSION", "05-Skills/04-knowledge-systems/INDEX"]
 ---
 
 # 📊 Data & Token Governance — Eficácia, Eficiência, Controle e Gerência

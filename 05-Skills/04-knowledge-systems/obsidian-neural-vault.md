@@ -321,7 +321,7 @@ Para manter o grafo visualmente informativo, configure grupos no plugin Graph Vi
 # - Folder para namespace (skills/04-knowledge-systems/)
 # - Tag para metadados transversais (#rag, #vector-db)
 # - MOC para curadoria e navegação (INDEX.md)
-# - Links [[04-Conhecimentos/wiki]] para conexões semânticas
+# - Links [[04-Conhecimentos/00-Mapas-e-Ontologia]] para conexões semânticas
 ```
 
 ## 6. Integração com IA e RAG

@@ -21,7 +21,7 @@ O cofre possui uma arquitetura modular desenhada para manter os domínios funcio
 | Diretório Pai | Objetivo e Escopo Lógico | Regra de Organização |
 |---|---|---|
 | `JARVIS/` | Sistema inteligente e canais sistêmicos de controle. | Dividido nos 5 canais canônicos. |
-| [Knowledge-Base/](04-Conhecimentos/Knowledge-Base/) | Hubs técnicos condensados (KBs) de mercado. | Cada hub técnico possui sua pasta de recortes, glossários e projetos. |
+| [Knowledge-Base/](04-Conhecimentos/) | Hubs técnicos condensados (KBs) de mercado. | Cada hub técnico possui sua pasta de recortes, glossários e projetos. |
 | [skills/](05-Skills/) | Inventário vivo de competências e trilhas curriculares. | Organizado por prefixado numérico (`01-...`, `02-...`). |
 | [Conhecimento-Geral/](04-Conhecimentos/07-Humanidades/) | Ramos transdisciplinares das Humanidades e Ciências. | Dividido em 20 subpastas estanques temáticas. |
 | `dashboards/` | Painéis e visualizadores dinâmicos DataviewJS. | Somente consultas estruturadas de metadados do cofre. |

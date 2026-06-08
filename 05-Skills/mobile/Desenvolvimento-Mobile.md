@@ -1232,7 +1232,7 @@ gestor_aluguel_app/
 ## Referencias e Links
 
 - [[05-Skills/02-software-engineering/mobile-development]] - Nota complementar de desenvolvimento mobile
-- [[04-Conhecimentos/07-Humanidades/Programacao/Arquitetura-de-Software]] - Fundamentos de arquitetura
+- [[04-Conhecimentos/02-Engenharia-de-Software/Arquitetura-de-Software]] - Fundamentos de arquitetura
 - [[05-Skills/ai/INDEX]] - Indice de habilidades de IA
 - React Native Docs: https://reactnative.dev
 - Flutter Docs: https://flutter.dev

@@ -1103,5 +1103,5 @@ class RAGOps:
 - [[05-Skills/ai/MLOps]] - MLOps base para LLMOps
 - [[05-Skills/ai/Engenharia-de-Prompts]] - Prompts como artefato de LLMOps
 - [[05-Skills/rag]] - RAG sob gestao de LLMOps
-- [[04-Conhecimentos/07-Humanidades/Programacao/Arquitetura-de-Software]] - Arquitetura de sistemas LLM em producao
+- [[04-Conhecimentos/02-Engenharia-de-Software/Arquitetura-de-Software]] - Arquitetura de sistemas LLM em producao
 - [[05-Skills/04-knowledge-systems/advanced-rag-strategies]] - RAG avancado e sua operacao

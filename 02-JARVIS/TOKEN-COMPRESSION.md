@@ -5,7 +5,7 @@ date: 2026-06-01
 updated: 2026-06-08
 category: system
 aliases: ["Compressão de Contexto", "JARVIS Token Strategy", "Context Compression"]
-related: ["04-Conhecimentos/Knowledge-Base/TOKEN-ECONOMY", "04-Conhecimentos/Knowledge-Base/TOKEN-SHORTHAND", "02-JARVIS/05-System/AGENT-CONTRACT"]
+related: ["04-Conhecimentos/TOKEN-ECONOMY", "04-Conhecimentos/TOKEN-SHORTHAND", "02-JARVIS/05-System/AGENT-CONTRACT"]
 ---
 
 # 🧠 JARVIS Token Compression — Protocolo de Contexto Enxuto

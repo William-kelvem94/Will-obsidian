@@ -325,7 +325,7 @@ Cada concessão é pequena — mas o acúmulo de concessões transforma a paisag
 
 ### Tecnologia e o Sentido da Vida
 
-[[04-Conhecimentos/07-Humanidades/Vida-Pratica/Proposito-e-Sentido-da-Vida]] nos confronta com a pergunta: a tecnologia nos ajuda a viver vidas mais significativas?
+[[04-Conhecimentos/08-Vida-Pratica/Proposito-e-Sentido-da-Vida]] nos confronta com a pergunta: a tecnologia nos ajuda a viver vidas mais significativas?
 
 As respostas divergem:
 - **Sim**: a tecnologia nos liberta do trabalho degradante, amplia nosso alcance criativo, nos conecta com outros, nos dá acesso ao conhecimento

@@ -109,5 +109,5 @@ Sugestoes encontradas (≥0.3): 50
 | 1 | [[04-Conhecimentos/07-Humanidades/INDEX|Conhecimento Geral — Índice]] | 115 |
 | 2 | [[02-JARVIS/Memorias/fatos_rapidos|Fatos Rapidos]] | 95 |
 | 3 | [[02-JARVIS/02-Operational/Proximo-Estudo|Próximo Estudo — Recomendação Automática]] | 77 |
-| 4 | [[04-Conhecimentos/07-Humanidades/Vida-Pratica/Cosmovisao-e-Sentido|Cosmovisão e Sentido]] | 37 |
+| 4 | [[04-Conhecimentos/08-Vida-Pratica/Cosmovisao-e-Sentido|Cosmovisão e Sentido]] | 37 |
 | 5 | [[INDEX|INDEX - Super Hub do Vault]] | 37 |

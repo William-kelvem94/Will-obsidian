@@ -16,7 +16,7 @@ Esta pasta é o destino físico futuro para a área do JARVIS.
 
 - [[../01-Hubs/Hub-JARVIS|Hub JARVIS]]
 - [[02-JARVIS/README|JARVIS atual]]
-- [[../04-Conhecimentos/Conhecimentos-Gerais/01-IA/Arquitetura-RAG-para-Obsidian-e-JARVIS]]
+- [[../04-Conhecimentos/01-IA/Arquitetura-RAG-para-Obsidian-e-JARVIS]]
 
 ## Regra atual
 

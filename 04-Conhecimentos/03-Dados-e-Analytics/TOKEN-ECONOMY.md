@@ -5,7 +5,7 @@ date: 2026-06-01
 updated: 2026-06-01
 category: knowledge-domain
 aliases: ["Economia de Tokens", "Token Optimization", "Context Window Economy"]
-related: ["04-Conhecimentos/Knowledge-Base/TOKEN-SHORTHAND", "02-JARVIS/TOKEN-COMPRESSION", "99-Templates/Legado/Template-Prompt-Otimizado"]
+related: ["04-Conhecimentos/TOKEN-SHORTHAND", "02-JARVIS/TOKEN-COMPRESSION", "99-Templates/Legado/Template-Prompt-Otimizado"]
 ---
 
 # 💰 Token Economy — Maximizar Qualidade, Minimizar Tokens

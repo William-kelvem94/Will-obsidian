@@ -31,7 +31,7 @@ As grandes tradições de sabedoria da humanidade — do oriente ao ocidente, da
 ## Conexões
 
 - [[04-Conhecimentos/07-Humanidades/Filosofia/INDEX/|Filosofia]] — bases conceituais (metafísica, ética)
-- [[04-Conhecimentos/07-Humanidades/Vida-Pratica/INDEX/|Vida Prática]] — aplicação prática dos ensinamentos
+- [[04-Conhecimentos/08-Vida-Pratica/INDEX/|Vida Prática]] — aplicação prática dos ensinamentos
 - [[04-Conhecimentos/07-Humanidades/Cultura/INDEX/|Cultura]] — contexto cultural das tradições
 - [[04-Conhecimentos/07-Humanidades/Psicologia/INDEX/|Psicologia]] — mindfulness, TCC, estoicismo e terapia
 - [[04-Conhecimentos/07-Humanidades/Historia/INDEX/|História]] — desenvolvimento histórico das religiões

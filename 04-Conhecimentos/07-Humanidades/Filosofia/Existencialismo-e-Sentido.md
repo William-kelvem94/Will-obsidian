@@ -402,7 +402,7 @@ Camus e Sartre romperam em 1952 por divergências políticas: Sartre justificava
 
 ### Conexões com a Psicologia
 
-A revolta camusiana conecta-se com a resiliência psicológica: encontrar significado no sofrimento (não *por causa* dele, mas *apesar* dele). Sua ênfase na lucidez e na consciência presente ecoa práticas de mindfulness e a [[04-Conhecimentos/07-Humanidades/Vida-Pratica/Proposito-e-Sentido-da-Vida|psicologia existencial]].
+A revolta camusiana conecta-se com a resiliência psicológica: encontrar significado no sofrimento (não *por causa* dele, mas *apesar* dele). Sua ênfase na lucidez e na consciência presente ecoa práticas de mindfulness e a [[04-Conhecimentos/08-Vida-Pratica/Proposito-e-Sentido-da-Vida|psicologia existencial]].
 
 ## Heidegger: Ser-no-Mundo e Ser-para-a-Morte
 
@@ -588,7 +588,7 @@ Frankl observa que a busca direta pela felicidade é autodestrutiva:
 
 ### Conexões com a Psicologia
 
-A logoterapia integra-se com a [[04-Conhecimentos/07-Humanidades/Psicologia/Psicologia-Clinica|psicologia clínica]] e com a [[04-Conhecimentos/07-Humanidades/Vida-Pratica/Resiliencia-Psicologica|resiliência psicológica]]. Pesquisas contemporâneas em psicologia positiva (Seligman) confirmam empiricamente a centralidade do sentido para o bem-estar.
+A logoterapia integra-se com a [[04-Conhecimentos/07-Humanidades/Psicologia/Psicologia-Clinica|psicologia clínica]] e com a [[04-Conhecimentos/08-Vida-Pratica/Resiliencia-Psicologica|resiliência psicológica]]. Pesquisas contemporâneas em psicologia positiva (Seligman) confirmam empiricamente a centralidade do sentido para o bem-estar.
 
 ## O Sentido na Era Digital
 
@@ -794,8 +794,8 @@ O existencialismo dialoga com [[04-Conhecimentos/07-Humanidades/Cultura/Teorias-
 - [[04-Conhecimentos/07-Humanidades/Ciencia-Politica|Ciência Política — Estado, Poder e Democracia]]
 - [[04-Conhecimentos/07-Humanidades/Logica/Pensamento-Critico|Pensamento Crítico]]
 - [[04-Conhecimentos/07-Humanidades/Psicologia/Psicologia-Clinica|Psicologia Clínica]]
-- [[04-Conhecimentos/07-Humanidades/Vida-Pratica/Proposito-e-Sentido-da-Vida|Propósito e Sentido da Vida]]
-- [[04-Conhecimentos/07-Humanidades/Vida-Pratica/Resiliencia-Psicologica|Resiliência Psicológica]]
+- [[04-Conhecimentos/08-Vida-Pratica/Proposito-e-Sentido-da-Vida|Propósito e Sentido da Vida]]
+- [[04-Conhecimentos/08-Vida-Pratica/Resiliencia-Psicologica|Resiliência Psicológica]]
 - [[04-Conhecimentos/07-Humanidades/Etica/Etica-de-IA-e-Alinhamento|Ética de IA e Alinhamento]]
 - [[04-Conhecimentos/07-Humanidades/Cultura/Cultura-Sociologia|Cultura e Sociologia]]
 

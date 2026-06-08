@@ -5,7 +5,7 @@ date: 2026-06-01
 updated: 2026-06-01
 category: dashboard
 aliases: ["Token Cost Monitor", "Painel de Custos de Tokens"]
-related: ["04-Conhecimentos/Knowledge-Base/DATA-TOKEN-GOVERNANCE", "04-Conhecimentos/Knowledge-Base/TOKEN-ECONOMY"]
+related: ["04-Conhecimentos/DATA-TOKEN-GOVERNANCE", "04-Conhecimentos/TOKEN-ECONOMY"]
 ---
 
 # 💰 Token Cost Dashboard — Monitoramento de Custos
