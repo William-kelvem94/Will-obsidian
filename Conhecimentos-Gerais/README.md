@@ -52,7 +52,6 @@ Criar uma base de conhecimento que funcione em três níveis:
 - [[02-Engenharia-Software/Testes-e-Qualidade-de-Software]] — testes e qualidade.
 - [[02-Engenharia-Software/Sistemas-Distribuidos-e-Escalabilidade]] — escala, cache, filas e trade-offs.
 - [[02-Engenharia-Software/Observabilidade-Logs-e-Monitoramento]] — logs, métricas e diagnóstico.
-- [[02-Engenharia-Software/CI-CD-e-Entrega-Continua]] — pipelines, deploy e rollback.
 - [[02-Engenharia-Software/Design-Patterns-e-Arquitetura-Limpa]] — patterns e arquitetura limpa.
 
 ### Estudos, produtividade e decisão
@@ -129,7 +128,6 @@ Conhecimentos-Gerais/
 │   ├── Testes-e-Qualidade-de-Software.md
 │   ├── Sistemas-Distribuidos-e-Escalabilidade.md
 │   ├── Observabilidade-Logs-e-Monitoramento.md
-│   ├── CI-CD-e-Entrega-Continua.md
 │   └── Design-Patterns-e-Arquitetura-Limpa.md
 ├── 03-Estudos/
 │   ├── Metodo-de-Estudo-Ativo.md
