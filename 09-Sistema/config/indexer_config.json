@@ -1,0 +1,29 @@
+{
+  "allowlist": [
+    "skills/**",
+    "Conhecimento-Geral/**",
+    "wiki/**",
+    "JARVIS/**",
+    "Master-Glossary.md",
+    "Vault-*"
+  ],
+  "denylist": [
+    ".obsidian/**",
+    ".agents/**",
+    ".continue/**",
+    ".logs/**",
+    "Templates/**",
+    "Projetos/Privados/**",
+    "**/*template*.md",
+    "**/*TODO*.md",
+    "tests/fixtures/**",
+    "**/*.png",
+    "**/*.jpg",
+    "**/*.jpeg",
+    "**/*.pdf"
+  ],
+  "notes": {
+    "chunk_size_tokens": 700,
+    "chunk_overlap": 0.15
+  }
+}
