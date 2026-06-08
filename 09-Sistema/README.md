@@ -1,41 +1,42 @@
 ---
-title: "Sistema Técnico"
+title: "Sistema Tecnico"
 date: 2026-06-07
-updated: 2026-06-07
+updated: 2026-06-08
 type: moc
 status: active
 tags: [sistema, tecnico, scripts, configuracao]
-summary: "Área técnica do vault para configurações, scripts, instruções de agentes, schemas, testes e suporte operacional."
+summary: "Area tecnica do vault para configuracoes, scripts, instrucoes de agentes, schemas, testes e suporte operacional."
 ---
 
-# Sistema Técnico
+# Sistema Tecnico
 
-Esta pasta reúne arquivos técnicos do repositório e do ecossistema de automação do vault.
+Esta pasta reune arquivos tecnicos do repositorio e do ecossistema de automacao do vault.
 
-## Subáreas
+## Subareas
 
 | Pasta | Função |
 |---|---|
-| `agents/` | instruções técnicas para agentes e modelos |
-| `config/` | configurações de indexação e integrações |
-| `scripts/` | scripts, atalhos e automações locais |
-| `schema/` | contratos, regras e estrutura técnica, quando migrado |
+| `agents/` | instrucoes tecnicas para agentes e modelos |
+| `config/` | configuracoes de indexacao e integracoes |
+| `scripts/` | scripts, atalhos e automacoes locais |
+| `schema/` | contratos, regras e estrutura tecnica |
 | `tests/` | testes e fixtures, quando migrado |
-| `benchmarks/` | avaliações e medições técnicas, quando migrado |
-| `logs/` | logs técnicos quando não forem sensíveis |
+| `benchmarks/` | avaliacoes e medições tecnicas, quando migrado |
+| `logs/` | logs tecnicos quando nao forem sensiveis |
 
-## Arquivos já migrados
+## Arquivos centrais
 
 - [[agents/AGENTS]]
 - [[agents/CLAUDE]]
 - [[agents/GEMINI]]
+- [[schema/AGENT]]
 - [[09-Sistema/CLI-BOOTSTRAP]]
 - [[config/indexer_config.json]]
 - [[config/claude_desktop_config.json]]
-- [[09-Sistema/scripts/legado/reorganizar-vault.ps1]]
-- [[09-Sistema/scripts/legado/reorganizar-vault-simulacao.bat]]
-- [[09-Sistema/scripts/legado/reorganizar-vault-aplicar.bat]]
+- [[scripts/legado/reorganizar-vault.ps1]]
+- [[scripts/legado/reorganizar-vault-simulacao.bat]]
+- [[scripts/legado/reorganizar-vault-aplicar.bat]]
 
 ## Regra
 
-Arquivos técnicos que ferramentas esperam na raiz devem permanecer na raiz. Arquivos técnicos auxiliares, documentação operacional e scripts próprios devem ficar aqui.
+Arquivos tecnicos que ferramentas esperam na raiz devem permanecer na raiz. Arquivos tecnicos auxiliares, documentacao operacional e scripts proprios devem ficar aqui.

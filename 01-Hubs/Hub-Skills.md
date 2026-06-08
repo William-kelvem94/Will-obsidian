@@ -14,7 +14,7 @@ Este hub organiza as habilidades técnicas e capacidades do vault.
 
 ## Entrada principal
 
-- [[../05-Skills/README|Skills Hub]]
+- [[../05-Skills/README|Skills]]
 
 ## Áreas principais
 

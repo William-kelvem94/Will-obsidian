@@ -12,14 +12,19 @@ summary: "Hub consolidado para navegar pelas bases de conhecimento do vault, inc
 
 Este hub unifica a navegação das bases de conhecimento do vault. Ele resolve a ambiguidade entre `Conhecimentos-Gerais` e `Conhecimento-Geral` sem mover arquivos agora.
 
+## Entrada principal
+
+- [[../04-Conhecimentos/README|Conhecimentos]]
+
 ## Bases atuais
 
 | Base | Papel atual | Observação |
 |---|---|---|
-| [[../08-Arquivo/README-LEGACY-Conhecimentos-Gerais|Conhecimentos Gerais]] | tecnologia, IA, engenharia, dados, estudo e vida prática | base principal para IA e RAG |
+| [[../04-Conhecimentos/README|Conhecimentos]] | conhecimento curado por dominio | area canonica principal |
+| [[../08-Arquivo/README-LEGACY-Conhecimentos-Gerais|Conhecimentos Gerais]] | tecnologia, IA, engenharia, dados, estudo e vida pratica | base principal para IA e RAG |
 | [[../04-Conhecimentos/07-Humanidades/INDEX|Conhecimento-Geral]] | humanidades, filosofia, psicologia e cultura | deve ser integrada ou renomeada em fase futura |
-| [[../05-Skills/README|Skills]] | habilidades técnicas e capacidades | complementa conhecimento aplicado |
-| [[../03-Projetos/03-Estudos/EstudosFocados/README|Estudos Focados]] | estudos ligados a projetos | camada de prática e evolução |
+| [[../05-Skills/README|Skills]] | habilidades tecnicas e capacidades | complementa conhecimento aplicado |
+| [[../03-Projetos/03-Estudos/EstudosFocados/README|Estudos Focados]] | estudos ligados a projetos | camada de pratica e evolucao |
 
 ## Rotas rápidas
 
@@ -48,18 +53,17 @@ Este hub unifica a navegação das bases de conhecimento do vault. Ele resolve a
 
 ### Produto, UX e carreira
 
-- [[../04-Conhecimentos/05-Produto-UX-e-Carreira-e-Validacao]]
+- [[../04-Conhecimentos/05-Produto-UX-e-Carreira/Produto-UX-e-Validacao]]
 - [[../04-Conhecimentos/05-Produto-UX-e-Carreira/Estados-de-Interface-e-UX-Operacional]]
 - [[../04-Conhecimentos/05-Produto-UX-e-Carreira/Checklist-de-Validacao-de-Produto]]
-- [[../04-Conhecimentos/05-Produto-UX-e-Carreira-Tech-e-Portifolio]]
+- [[../04-Conhecimentos/05-Produto-UX-e-Carreira/Carreira-Tech-e-Portifolio]]
 
 ### Estudo e vida prática
 
 - [[../04-Conhecimentos/06-Estudos-e-Aprendizagem/Metodo-de-Estudo-Ativo]]
 - [[../04-Conhecimentos/06-Estudos-e-Aprendizagem/Ciencia-da-Aprendizagem]]
-- [[../04-Conhecimentos/08-Vida-Pratica/Revisao-Semanal-e-Gestao-de-Energia]]
-- [[../04-Conhecimentos/08-Vida-Pratica-e-Rastreamento]]
-- [[../04-Conhecimentos/08-Vida-Pratica-Pessoais-e-Metricas]]
+- [[../04-Conhecimentos/08-Vida-Pratica/README]]
+- [[../04-Conhecimentos/08-Vida-Pratica/INDEX]]
 
 ## Estrutura futura recomendada
 

@@ -14,7 +14,7 @@ Este hub organiza a área de projetos do vault. Ele separa execução, objetivos
 
 ## Entrada principal
 
-- [[../03-Projetos/Projetos|Hub de Projetos]]
+- [[../03-Projetos/README|Projetos]]
 
 ## Execução e foco
 

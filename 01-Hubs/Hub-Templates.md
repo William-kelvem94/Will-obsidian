@@ -12,6 +12,10 @@ summary: "Hub central para navegar pelos modelos reutilizáveis do vault."
 
 Este hub reúne os modelos reutilizáveis do vault.
 
+## Entrada principal
+
+- [[../99-Templates/README|Templates Globais]]
+
 ## Templates principais
 
 | Template | Uso |
