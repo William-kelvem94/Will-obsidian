@@ -9,7 +9,7 @@ category: CENTRAL
 
 Este arquivo lista painéis, painéis operacionais e arquivos centrais antes soltos no vault. Sempre referencie ou mova para cá o que não pertence a outro hub definido.
 
-- [[Painel-Cockpit]] (painel operacional)
+- [[10-Interfaces/Painel-Cockpit]] (painel operacional)
 - [[GAPS]]
 - [[MULTIMODALIDADE]]
 - [[Master-Glossary|Glossário Mestre Unificado]]
@@ -19,6 +19,6 @@ Este arquivo lista painéis, painéis operacionais e arquivos centrais antes sol
 - [[TAXONOMY]]
 - [[ROADMAP]]
 
-> Menores: [[Ideias]], [[BRAINSTORM-GIGANTE]], [[Clippings.md]]
+> Menores: [[00-Inbox/Ideias]], [[BRAINSTORM-GIGANTE]], [[Clippings.md]]
 
 Sempre vincule estes arquivos ao [[INDEX]] central!

@@ -14,26 +14,26 @@ Este hub organiza a área de projetos do vault. Ele separa execução, objetivos
 
 ## Entrada principal
 
-- [[../Projetos|Hub de Projetos]]
+- [[../03-Projetos/Projetos|Hub de Projetos]]
 
 ## Execução e foco
 
-- [[../Projetos/01-Ativos/Plano-de-Acao|Plano de Ação]]
-- [[../Projetos/01-Ativos/Objetivos/README|Objetivos e OKRs]]
-- [[../Projetos/01-Ativos/Privados/README|Projetos Privados]]
+- [[../03-Projetos/Projetos/01-Ativos/Plano-de-Acao|Plano de Ação]]
+- [[../03-Projetos/Projetos/01-Ativos/Objetivos/README|Objetivos e OKRs]]
+- [[../03-Projetos/Projetos/01-Ativos/Privados/README|Projetos Privados]]
 
 ## Estudos ligados a projetos
 
-- [[../Projetos/03-Estudos/EstudosFocados/README|Estudos Focados]]
-- [[../Conhecimentos-Gerais/03-Estudos/Metodo-de-Estudo-Ativo]]
-- [[../Conhecimentos-Gerais/99-Templates/Template-Nota-de-Estudo]]
+- [[../03-Projetos/Projetos/03-Estudos/EstudosFocados/README|Estudos Focados]]
+- [[../04-Conhecimentos/Conhecimentos-Gerais/03-Estudos/Metodo-de-Estudo-Ativo]]
+- [[../04-Conhecimentos/Conhecimentos-Gerais/99-Templates/Template-Nota-de-Estudo]]
 
 ## Documentação de projeto
 
-- [[../Conhecimentos-Gerais/15-Documentacao/Documentacao-Tecnica-Runbooks-e-ADRs]]
-- [[../Conhecimentos-Gerais/99-Templates/Template-ADR-Decisao-Arquitetural]]
-- [[../Conhecimentos-Gerais/99-Templates/Template-Bug-Report]]
-- [[../Conhecimentos-Gerais/15-Documentacao/Template-Postmortem-e-Aprendizado]]
+- [[../04-Conhecimentos/Conhecimentos-Gerais/15-Documentacao/Documentacao-Tecnica-Runbooks-e-ADRs]]
+- [[../04-Conhecimentos/Conhecimentos-Gerais/99-Templates/Template-ADR-Decisao-Arquitetural]]
+- [[../04-Conhecimentos/Conhecimentos-Gerais/99-Templates/Template-Bug-Report]]
+- [[../04-Conhecimentos/Conhecimentos-Gerais/15-Documentacao/Template-Postmortem-e-Aprendizado]]
 
 ## Regra de organização para projetos
 

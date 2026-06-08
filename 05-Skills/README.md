@@ -15,8 +15,8 @@ Esta pasta é o destino físico futuro para habilidades técnicas e documentaç�
 ## Navegação atual
 
 - [[../01-Hubs/Hub-Skills|Hub de Skills]]
-- [[../skills/README|Skills atual]]
-- [[../Conhecimentos-Gerais/06-Habilidades/Mapa-de-Habilidades]]
+- [[skills/README|Skills atual]]
+- [[../04-Conhecimentos/Conhecimentos-Gerais/06-Habilidades/Mapa-de-Habilidades]]
 
 ## Regra atual
 

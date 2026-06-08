@@ -15,11 +15,11 @@ Esta pasta é o destino físico para modelos reutilizáveis do vault.
 ## Templates principais atuais
 
 - [[../01-Hubs/Hub-Templates|Hub de Templates]]
-- [[../Conhecimentos-Gerais/99-Templates/Template-Nota-Atomica]]
-- [[../Conhecimentos-Gerais/99-Templates/Template-Nota-de-Estudo]]
-- [[../Conhecimentos-Gerais/99-Templates/Template-ADR-Decisao-Arquitetural]]
-- [[../Conhecimentos-Gerais/99-Templates/Template-Runbook-Operacional]]
-- [[../Conhecimentos-Gerais/99-Templates/Template-Bug-Report]]
+- [[../04-Conhecimentos/Conhecimentos-Gerais/99-Templates/Template-Nota-Atomica]]
+- [[../04-Conhecimentos/Conhecimentos-Gerais/99-Templates/Template-Nota-de-Estudo]]
+- [[../04-Conhecimentos/Conhecimentos-Gerais/99-Templates/Template-ADR-Decisao-Arquitetural]]
+- [[../04-Conhecimentos/Conhecimentos-Gerais/99-Templates/Template-Runbook-Operacional]]
+- [[../04-Conhecimentos/Conhecimentos-Gerais/99-Templates/Template-Bug-Report]]
 
 ## Bases ainda em migração
 

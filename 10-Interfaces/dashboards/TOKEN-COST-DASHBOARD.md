@@ -5,7 +5,7 @@ date: 2026-06-01
 updated: 2026-06-01
 category: dashboard
 aliases: ["Token Cost Monitor", "Painel de Custos de Tokens"]
-related: ["Knowledge-Base/DATA-TOKEN-GOVERNANCE", "Knowledge-Base/TOKEN-ECONOMY"]
+related: ["04-Conhecimentos/Knowledge-Base/DATA-TOKEN-GOVERNANCE", "04-Conhecimentos/Knowledge-Base/TOKEN-ECONOMY"]
 ---
 
 # 💰 Token Cost Dashboard — Monitoramento de Custos
@@ -126,8 +126,8 @@ budget_config:
 
 ## 🔗 Crosslinks
 
-- [[Knowledge-Base/DATA-TOKEN-GOVERNANCE]] — Governança de dados e tokens
-- [[Knowledge-Base/TOKEN-ECONOMY]] — Estratégias de otimização
-- [[Knowledge-Base/TOKEN-SHORTHAND]] — Abreviações padronizadas
-- [[dashboards/INDEX]] — Central de dashboards
+- [[04-Conhecimentos/Knowledge-Base/DATA-TOKEN-GOVERNANCE]] — Governança de dados e tokens
+- [[04-Conhecimentos/Knowledge-Base/TOKEN-ECONOMY]] — Estratégias de otimização
+- [[04-Conhecimentos/Knowledge-Base/TOKEN-SHORTHAND]] — Abreviações padronizadas
+- [[10-Interfaces/dashboards/INDEX]] — Central de dashboards
 - [[INDEX]]

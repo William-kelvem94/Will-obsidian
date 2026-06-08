@@ -30,27 +30,27 @@ Este é o índice global do vault. A navegação principal agora prioriza a estr
 
 ## 📚 Bases legadas ainda em migração
 
-- [[Conhecimentos-Gerais/README|Conhecimentos Gerais]]
-- [[Conhecimento-Geral/INDEX|Conhecimento-Geral]]
-- [[Knowledge-Base/README|Knowledge-Base]]
-- [[JARVIS/README|JARVIS antigo]]
-- [[skills/README|skills antigo]]
-- [[Projetos/README|Projetos antigo]]
-- [[Will-Pessoal/README|Will-Pessoal antigo]]
+- [[04-Conhecimentos/Conhecimentos-Gerais/README|Conhecimentos Gerais]]
+- [[04-Conhecimentos/07-Humanidades/INDEX|Conhecimento-Geral]]
+- [[04-Conhecimentos/Knowledge-Base/README|Knowledge-Base]]
+- [[02-JARVIS/JARVIS/README|JARVIS antigo]]
+- [[05-Skills/skills/README|skills antigo]]
+- [[03-Projetos/Projetos/README|Projetos antigo]]
+- [[06-Will-Pessoal/Will-Pessoal/README|Will-Pessoal antigo]]
 
 ## 📈 Dashboards e interfaces
 
 - [[10-Interfaces/Painel-Cockpit|Painel Cockpit]]
-- [[dashboards/Knowledge-Heatmap|Knowledge Heatmap]]
-- [[dashboards/Scorecard-Consistencia|Scorecard de Consistência]]
-- [[dashboards/Gap-Analysis|Gap Analysis de Skills]]
-- [[dashboards/Skill-Project-Matrix-Dinamica|Skill ↔ Projeto Dinâmico]]
+- [[10-Interfaces/dashboards/Knowledge-Heatmap|Knowledge Heatmap]]
+- [[10-Interfaces/dashboards/Scorecard-Consistencia|Scorecard de Consistência]]
+- [[10-Interfaces/dashboards/Gap-Analysis|Gap Analysis de Skills]]
+- [[10-Interfaces/dashboards/Skill-Project-Matrix-Dinamica|Skill ↔ Projeto Dinâmico]]
 
 ## 💰 Token Economy
 
-- [[Knowledge-Base/TOKEN-ECONOMY|Token Economy legado]]
-- [[Conhecimentos-Gerais/01-IA/Token-Economy|Token Economy em Conhecimentos Gerais]]
-- [[JARVIS/TOKEN-COMPRESSION|Token Compression do JARVIS]]
+- [[04-Conhecimentos/Knowledge-Base/TOKEN-ECONOMY|Token Economy legado]]
+- [[04-Conhecimentos/Conhecimentos-Gerais/01-IA/Token-Economy|Token Economy em Conhecimentos Gerais]]
+- [[02-JARVIS/JARVIS/TOKEN-COMPRESSION|Token Compression do JARVIS]]
 
 ## 🤖 Agentes e sistema
 

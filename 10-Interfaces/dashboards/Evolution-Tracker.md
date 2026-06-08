@@ -313,9 +313,9 @@ SORT (date(target) - date(today)).days asc
 
 ## Links Relacionados
 
-- [[dashboards/INDEX|📊 Dashboard Principal]]
-- [[dashboards/Knowledge-Heatmap|🔥 Mapa de Calor]]
-- [[dashboards/Gap-Analysis|🔍 Análise de Gaps]]
+- [[10-Interfaces/dashboards/INDEX|📊 Dashboard Principal]]
+- [[10-Interfaces/dashboards/Knowledge-Heatmap|🔥 Mapa de Calor]]
+- [[10-Interfaces/dashboards/Gap-Analysis|🔍 Análise de Gaps]]
 - [[Objetivos/OKRs|🎯 OKRs e Metas]]
 - [[Objetivos/90-dias|📆 Plano 90 Dias]]
 

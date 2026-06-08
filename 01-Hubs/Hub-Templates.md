@@ -16,12 +16,12 @@ Este hub reúne os modelos reutilizáveis do vault.
 
 | Template | Uso |
 |---|---|
-| [[../Conhecimentos-Gerais/99-Templates/Template-Nota-Atomica]] | criar notas pequenas e canônicas |
-| [[../Conhecimentos-Gerais/99-Templates/Template-Nota-de-Estudo]] | transformar estudo em nota revisável |
-| [[../Conhecimentos-Gerais/99-Templates/Template-ADR-Decisao-Arquitetural]] | registrar decisões técnicas |
-| [[../Conhecimentos-Gerais/99-Templates/Template-Runbook-Operacional]] | documentar operações e recuperação |
-| [[../Conhecimentos-Gerais/99-Templates/Template-Bug-Report]] | registrar bugs com evidência |
-| [[../Conhecimentos-Gerais/15-Documentacao/Template-Postmortem-e-Aprendizado]] | registrar falhas e aprendizados |
+| [[../04-Conhecimentos/Conhecimentos-Gerais/99-Templates/Template-Nota-Atomica]] | criar notas pequenas e canônicas |
+| [[../04-Conhecimentos/Conhecimentos-Gerais/99-Templates/Template-Nota-de-Estudo]] | transformar estudo em nota revisável |
+| [[../04-Conhecimentos/Conhecimentos-Gerais/99-Templates/Template-ADR-Decisao-Arquitetural]] | registrar decisões técnicas |
+| [[../04-Conhecimentos/Conhecimentos-Gerais/99-Templates/Template-Runbook-Operacional]] | documentar operações e recuperação |
+| [[../04-Conhecimentos/Conhecimentos-Gerais/99-Templates/Template-Bug-Report]] | registrar bugs com evidência |
+| [[../04-Conhecimentos/Conhecimentos-Gerais/15-Documentacao/Template-Postmortem-e-Aprendizado]] | registrar falhas e aprendizados |
 
 ## Quando usar cada um
 

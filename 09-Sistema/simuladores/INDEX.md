@@ -11,9 +11,9 @@ Simuladores interativos e quizzes para testar conhecimentos em XAI, Fairness, é
 
 ## Notas
 
-- [[simuladores/XAI-Fairness-Simulator-Instructions|XAI & Fairness Simulator]] — Simulador Streamlit para análise de explicabilidade e fairness em ML
-- [[simuladores/Quiz-e-Simulador-Template|Quiz e Simulador Template]] — Template genérico para quizzes e autoavaliações
+- [[09-Sistema/simuladores/XAI-Fairness-Simulator-Instructions|XAI & Fairness Simulator]] — Simulador Streamlit para análise de explicabilidade e fairness em ML
+- [[09-Sistema/simuladores/Quiz-e-Simulador-Template|Quiz e Simulador Template]] — Template genérico para quizzes e autoavaliações
 
 ---
 
-[[Conhecimento-Geral/INDEX|← Voltar ao Hub Central]]
+[[04-Conhecimentos/07-Humanidades/INDEX|← Voltar ao Hub Central]]

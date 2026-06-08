@@ -29,12 +29,12 @@ Esta pasta reúne arquivos técnicos do repositório e do ecossistema de automa�
 - [[agents/AGENTS]]
 - [[agents/CLAUDE]]
 - [[agents/GEMINI]]
-- [[CLI-BOOTSTRAP]]
+- [[09-Sistema/CLI-BOOTSTRAP]]
 - [[config/indexer_config.json]]
 - [[config/claude_desktop_config.json]]
-- [[scripts/reorganizar-vault.ps1]]
-- [[scripts/reorganizar-vault-simulacao.bat]]
-- [[scripts/reorganizar-vault-aplicar.bat]]
+- [[09-Sistema/scripts/legado/reorganizar-vault.ps1]]
+- [[09-Sistema/scripts/legado/reorganizar-vault-simulacao.bat]]
+- [[09-Sistema/scripts/legado/reorganizar-vault-aplicar.bat]]
 
 ## Regra
 

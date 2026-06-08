@@ -360,10 +360,10 @@ dv.paragraph('*Dashboard alimentado por `.scripts/consistency_scorecard.py`*');
 
 ## 🔗 Links Relacionados
 
-- [[dashboards/INDEX|📊 Dashboard Principal]]
-- [[dashboards/Evolution-Tracker|📈 Rastreador de Evolução]]
-- [[dashboards/Knowledge-Heatmap|🔥 Mapa de Calor]]
-- [[dashboards/Gap-Analysis|🔍 Análise de Gaps]]
+- [[10-Interfaces/dashboards/INDEX|📊 Dashboard Principal]]
+- [[10-Interfaces/dashboards/Evolution-Tracker|📈 Rastreador de Evolução]]
+- [[10-Interfaces/dashboards/Knowledge-Heatmap|🔥 Mapa de Calor]]
+- [[10-Interfaces/dashboards/Gap-Analysis|🔍 Análise de Gaps]]
 
 ---
 

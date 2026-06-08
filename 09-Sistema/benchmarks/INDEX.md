@@ -11,8 +11,8 @@ Central de templates e resultados de benchmarks para avaliar modelos de IA em ce
 
 ## Notas
 
-- [[benchmarks/Benchmark-Template|Benchmark Template]] — Template genérico para criação de benchmarks de IA
+- [[09-Sistema/benchmarks/Benchmark-Template|Benchmark Template]] — Template genérico para criação de benchmarks de IA
 
 ---
 
-[[Conhecimento-Geral/INDEX|← Voltar ao Hub Central]]
+[[04-Conhecimentos/07-Humanidades/INDEX|← Voltar ao Hub Central]]

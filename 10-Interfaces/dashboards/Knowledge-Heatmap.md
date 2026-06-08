@@ -230,11 +230,11 @@ SORT nivel asc
 
 ## Links Relacionados
 
-- [[dashboards/INDEX|📊 Dashboard Principal]]
-- [[dashboards/Gap-Analysis|🔍 Análise de Gaps]]
-- [[dashboards/Evolution-Tracker|📈 Rastreador de Evolução]]
+- [[10-Interfaces/dashboards/INDEX|📊 Dashboard Principal]]
+- [[10-Interfaces/dashboards/Gap-Analysis|🔍 Análise de Gaps]]
+- [[10-Interfaces/dashboards/Evolution-Tracker|📈 Rastreador de Evolução]]
 - [[GAPS|📋 Gaps Detectados]]
-- [[skills/SFIA-Mapping|📐 Mapeamento SFIA]]
+- [[05-Skills/skills/SFIA-Mapping|📐 Mapeamento SFIA]]
 - [[TAXONOMY|🏷️ Taxonomia]]
 
 ---

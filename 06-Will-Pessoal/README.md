@@ -15,7 +15,7 @@ Esta pasta é o destino físico futuro para contexto pessoal, rotina, saúde, fi
 ## Navegação atual
 
 - [[../01-Hubs/Hub-Will-Pessoal|Hub Will-Pessoal]]
-- [[../Will-Pessoal/README|Will-Pessoal atual]]
+- [[Will-Pessoal/README|Will-Pessoal atual]]
 - [[../Cerebro-Will|Cérebro Will]]
 
 ## Regra atual

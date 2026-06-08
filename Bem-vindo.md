@@ -56,15 +56,15 @@ A organização principal passa pela camada [[01-Hubs/README|Hubs Centrais do Va
 
 - [[01-Hubs/Hub-Conhecimentos|Hub de Conhecimentos]] — base consolidada de estudo e IA.
 - [[04-Conhecimentos/README|Conhecimentos]] — destino físico futuro da base consolidada.
-- [[Conhecimentos-Gerais/01-IA/RAG-e-Memoria-para-Agentes|RAG e Memória para Agentes]] — base de IA ainda em migração.
-- [[Conhecimentos-Gerais/01-IA/Arquitetura-RAG-para-Obsidian-e-JARVIS|Arquitetura RAG para Obsidian e JARVIS]] — uso do vault como cérebro consultável.
-- [[Conhecimentos-Gerais/02-Engenharia-Software/Playbook-de-Debug-de-API-e-Backend|Debug de API e Backend]] — diagnóstico técnico prático.
+- [[04-Conhecimentos/Conhecimentos-Gerais/01-IA/RAG-e-Memoria-para-Agentes|RAG e Memória para Agentes]] — base de IA ainda em migração.
+- [[04-Conhecimentos/Conhecimentos-Gerais/01-IA/Arquitetura-RAG-para-Obsidian-e-JARVIS|Arquitetura RAG para Obsidian e JARVIS]] — uso do vault como cérebro consultável.
+- [[04-Conhecimentos/Conhecimentos-Gerais/02-Engenharia-Software/Playbook-de-Debug-de-API-e-Backend|Debug de API e Backend]] — diagnóstico técnico prático.
 
 ### 🤖 JARVIS e IA local
 
 - [[02-JARVIS/README|JARVIS]] — nova entrada física.
 - [[01-Hubs/Hub-JARVIS|Hub JARVIS]] — entrada organizada para IA e memória.
-- [[JARVIS/README|JARVIS antigo]] — base original ainda em migração.
+- [[02-JARVIS/JARVIS/README|JARVIS antigo]] — base original ainda em migração.
 - [[05-Skills/README|Skills]] — nova área física de habilidades.
 
 ### ⚙️ Sistema e manutenção

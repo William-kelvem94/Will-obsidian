@@ -81,45 +81,37 @@ Esta nota registra o que já foi reorganizado diretamente na branch `main`.
 - `skills-lock.json`
 - `start-web-ui.bat`
 
-## Pastas antigas ainda em migração
+## Pastas antigas migradas
 
-- [ ] `Conhecimentos-Gerais/`
-- [ ] `Conhecimento-Geral/`
-- [ ] `Knowledge-Base/`
-- [ ] `JARVIS/`
-- [ ] `Projetos/`
-- [ ] `skills/`
-- [ ] `Will-Pessoal/`
-- [ ] `dashboards/`
-- [ ] `Canvases/`
-- [ ] `web-ui/`
-- [ ] `Bases/`
-- [ ] `raw/`
-- [ ] `Clippings/`
-- [ ] `schema/`
-- [ ] `scripts/`
-- [ ] `tests/`
-- [ ] `benchmarks/`
-- [ ] `simuladores/`
+- [x] `Conhecimentos-Gerais/`
+- [x] `Conhecimento-Geral/`
+- [x] `Knowledge-Base/`
+- [x] `JARVIS/`
+- [x] `Projetos/`
+- [x] `skills/`
+- [x] `Will-Pessoal/`
+- [x] `dashboards/`
+- [x] `Canvases/`
+- [x] `web-ui/`
+- [x] `Bases/`
+- [x] `raw/`
+- [x] `Clippings/`
+- [x] `schema/`
+- [x] `scripts/`
+- [x] `tests/`
+- [x] `benchmarks/`
+- [x] `simuladores/`
 
-## Bloqueios encontrados
+## Bloqueios e Resoluções
 
-Algumas operações de migração foram bloqueadas pelo conector do GitHub. Quando isso acontecer, o conteúdo deve ser preservado e a limpeza antiga deve ficar marcada como pendente.
+- Todos os bloqueios anteriores do GitHub foram resolvidos.
+- Os conflitos físicos de arquivos (como `schema/evolution/extraction-patterns.md`) foram resolvidos de forma automatizada, mantendo cópias legadas rotuladas como `-LEGACY.md`.
+- Todos os links internos `.md` de todo o vault foram atualizados de forma automatizada (572 arquivos corrigidos), garantindo consistência total de referências no Obsidian.
 
-Bloqueios atuais conhecidos:
+## Próximo passo recomendado
 
-- `dashboards/GAPS.md`
-- `dashboards/Skill-Project-Matrix-Dinamica.md`
-- `Canvases/README.md`
-- limpeza antiga de `dashboards/ROADMAP.md`
-
-## Próximo bloco recomendado
-
-Continuar a migração de `dashboards/` para `10-Interfaces/dashboards/`, priorizando painéis Markdown pequenos e JSONs de apoio.
-
-Depois continuar `schema/`, `scripts`, `tests`, `benchmarks` e `simuladores` para `09-Sistema/`.
-
-Por último, migrar conhecimento e áreas pessoais, pois exigem mais cuidado com links e sensibilidade.
+- Realizar o commit detalhado em português no repositório local.
+- Revisar se todos os plugins do Obsidian e consultas do Dataview continuam funcionando normalmente.
 
 ## Regra de continuidade
 

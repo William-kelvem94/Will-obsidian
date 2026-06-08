@@ -10,11 +10,11 @@ aliases: ["Dashboard Central", "Painel de Evolução"]
 
 Acesse painéis críticos do vault, scoring, health, queries dinâmicas Dataview e monitore tudo num só lugar.
 
-- [[dashboards/Skill-Project-Matrix-Dinamica|Skills em uso por Projeto – Matrix Dinâmica]]
-- [[dashboards/Arquivos-Orfaos|Painel – Arquivos Órfãos/Manutenção]]
-- [[dashboards/Scorecard-Consistencia]]
-- [[dashboards/TOKEN-COST-DASHBOARD|💰 Token Cost — Monitoramento de Custos]]
-- [[Painel-Cockpit]]  
+- [[10-Interfaces/dashboards/Skill-Project-Matrix-Dinamica|Skills em uso por Projeto – Matrix Dinâmica]]
+- [[10-Interfaces/dashboards/Arquivos-Orfaos|Painel – Arquivos Órfãos/Manutenção]]
+- [[10-Interfaces/dashboards/Scorecard-Consistencia]]
+- [[10-Interfaces/dashboards/TOKEN-COST-DASHBOARD|💰 Token Cost — Monitoramento de Custos]]
+- [[10-Interfaces/Painel-Cockpit]]  
 
 Consulte o [[INDEX]] central para navegação geral dos hubs.
 
@@ -184,9 +184,9 @@ SORT file.folder asc
 
 ## Atalhos Rápidos
 
-- [[dashboards/Knowledge-Heatmap|🔥 Mapa de Calor do Conhecimento]]
-- [[dashboards/Gap-Analysis|🔍 Análise de Gaps]]
-- [[dashboards/Evolution-Tracker|📈 Rastreador de Evolução]]
+- [[10-Interfaces/dashboards/Knowledge-Heatmap|🔥 Mapa de Calor do Conhecimento]]
+- [[10-Interfaces/dashboards/Gap-Analysis|🔍 Análise de Gaps]]
+- [[10-Interfaces/dashboards/Evolution-Tracker|📈 Rastreador de Evolução]]
 - [[GAPS|📋 Gaps Detectados (auto-scan)]]
 - [[TAXONOMY|🏷️ Taxonomia do Vault]]
 

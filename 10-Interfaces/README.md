@@ -24,7 +24,7 @@ Esta pasta reúne elementos visuais e operacionais do vault.
 
 ## Arquivos já migrados
 
-- [[Painel-Cockpit]]
+- [[10-Interfaces/Painel-Cockpit]]
 
 ## Bases ainda em migração
 

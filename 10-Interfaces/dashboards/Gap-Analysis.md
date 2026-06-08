@@ -293,12 +293,12 @@ dv.list(sugestoes);
 
 ## Links Relacionados
 
-- [[dashboards/INDEX|📊 Dashboard Principal]]
-- [[dashboards/Knowledge-Heatmap|🔥 Mapa de Calor]]
-- [[dashboards/Evolution-Tracker|📈 Rastreador de Evolução]]
+- [[10-Interfaces/dashboards/INDEX|📊 Dashboard Principal]]
+- [[10-Interfaces/dashboards/Knowledge-Heatmap|🔥 Mapa de Calor]]
+- [[10-Interfaces/dashboards/Evolution-Tracker|📈 Rastreador de Evolução]]
 - [[GAPS|📋 Gaps Automáticos]]
 - [[TAXONOMY|🏷️ Taxonomia]]
-- [[skills/SFIA-Mapping|📐 Mapeamento SFIA]]
+- [[05-Skills/skills/SFIA-Mapping|📐 Mapeamento SFIA]]
 
 ---
 
