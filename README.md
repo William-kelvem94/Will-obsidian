@@ -12,19 +12,18 @@ Para navegação humana dentro do Obsidian, comece por:
 
 ```txt
 Will-obsidian/
-├── 00-Inbox/
-├── 01-Hubs/
-├── 02-JARVIS/
-├── 03-Projetos/
-├── 04-Conhecimentos/
-├── 05-Skills/
-├── 06-Will-Pessoal/
-├── 07-Operacoes-do-Vault/
-├── 08-Arquivo/
-├── 09-Sistema/
-├── 10-Interfaces/
-├── 11-Dados-Brutos/
-└── 99-Templates/
+├── 00-Inbox/             <- Entrada e rascunhos rápidos
+├── 01-Hubs/              <- Navegação superior, dashboards e canvases
+├── 02-JARVIS/            <- IA, agentes, memória e arquitetura do JARVIS
+├── 03-Projetos/          <- Projetos ativos, execução e histórico
+├── 04-Conhecimentos/     <- Base de conhecimentos estruturada (ontologia técnica)
+├── 05-Skills/            <- Habilidades, MCPs e capacidades
+├── 06-Will-Pessoal/      <- Dados pessoais, hábitos e visão
+├── 07-Operacoes-do-Vault/ <- Manutenção, inventários e status do vault
+├── 08-Arquivo/           <- Legado preservado fora do fluxo ativo
+├── 09-Sistema/           <- Configurações, scripts e infraestrutura técnica
+├── 11-Dados-Brutos/      <- Fontes externas, bases e clippings
+└── 99-Templates/         <- Modelos reutilizáveis
 ```
 
 ## 🧭 Função das áreas
@@ -32,55 +31,41 @@ Will-obsidian/
 | Área | Função |
 |---|---|
 | `00-Inbox/` | entrada temporária para ideias, capturas e rascunhos |
-| `01-Hubs/` | navegação superior do vault |
-| `02-JARVIS/` | IA, agentes, memória e arquitetura do JARVIS |
-| `03-Projetos/` | projetos, objetivos, execução e portfólio |
-| `04-Conhecimentos/` | base consolidada de conhecimento técnico, estudos e vida prática |
-| `05-Skills/` | habilidades técnicas e capacidades reutilizáveis |
-| `06-Will-Pessoal/` | contexto pessoal e dados sensíveis |
-| `07-Operacoes-do-Vault/` | manutenção, inventários, migração e governança |
-| `08-Arquivo/` | legado preservado e conteúdos fora do fluxo ativo |
+| `01-Hubs/` | navegação superior, painéis visuais (dashboards) e canvases |
+| `02-JARVIS/` | IA, agentes, memória e identidade operacional do JARVIS |
+| `03-Projetos/` | projetos ativos, execução, portfólio e histórico |
+| `04-Conhecimentos/` | base estruturada por ontologia (IA, Engenharia, Dados, Humanidades, etc.) |
+| `05-Skills/` | habilidades técnicas e capacidades do vault |
+| `06-Will-Pessoal/` | contexto pessoal, rotina, saúde e finanças |
+| `07-Operacoes-do-Vault/` | manutenção, inventários e governança |
+| `08-Arquivo/` | legado e notas arquivadas fora do fluxo ativo |
 | `09-Sistema/` | configurações, scripts, instruções técnicas, testes e schemas |
-| `10-Interfaces/` | painéis, dashboards, canvases e web-ui |
-| `11-Dados-Brutos/` | dados brutos, clippings e bases importadas |
-| `99-Templates/` | modelos reutilizáveis globais |
+| `11-Dados-Brutos/` | bases de dados brutos e clippings de páginas web |
+| `99-Templates/` | modelos globais reutilizáveis |
 
-## 📚 Bases ainda em migração
+## 📚 Consolidação do Vault
 
-Durante a reorganização, algumas pastas antigas ainda existem e serão migradas por blocos:
-
-- `Conhecimentos-Gerais/`
-- `Conhecimento-Geral/`
-- `Knowledge-Base/`
-- `JARVIS/`
-- `Projetos/`
-- `skills/`
-- `Will-Pessoal/`
-- `dashboards/`
-- `raw/`
-- `wiki/`
-
-A nova estrutura já está sendo usada como destino oficial, mas a migração completa deve preservar links e conteúdo.
+A reestruturação física e a consolidação de conhecimentos foram concluídas com sucesso. Todas as bases legadas (`Conhecimentos-Gerais`, `Knowledge-Base`, `wiki`, `JARVIS antigo`, `Projetos antigo`, `skills antigo` e `Will-Pessoal antigo`) foram totalmente migradas para os novos destinos numerados planos. Os links internos de todo o vault foram atualizados de forma automática para evitar referências quebradas.
 
 ## 🛠️ Sistema técnico
 
-Arquivos técnicos agora ficam principalmente em `09-Sistema/`:
+Arquivos técnicos ficam localizados em `09-Sistema/`:
 
 - `09-Sistema/agents/` — instruções para agentes e modelos.
-- `09-Sistema/config/` — configurações técnicas.
-- `09-Sistema/scripts/` — scripts e atalhos de reorganização.
-- `09-Sistema/schema/` — estrutura e contratos técnicos, quando migrado.
-- `09-Sistema/tests/` — testes, quando migrado.
+- `09-Sistema/config/` — configurações do vault e integradores.
+- `09-Sistema/scripts/` — scripts Python de automação e reestruturação.
+- `09-Sistema/schema/` — regras e validações técnicas.
+- `09-Sistema/simuladores/` — simuladores interativos e quizzes.
 
 Alguns arquivos continuam na raiz porque ferramentas esperam encontrá-los ali, como `.gitignore`, `.env.example`, `.mcp.json`, `.pre-commit-config.yaml`, `requirements.txt` e arquivos de lock.
 
-## 🔎 Reorganização do vault
+## 🔎 Governança e Status
 
-A migração física é guiada por:
+A governança do vault e logs operacionais são mantidos em:
 
 - [[07-Operacoes-do-Vault/Reestruturacao-Geral-do-Vault]]
 - [[07-Operacoes-do-Vault/Inventario-Inicial-do-Vault]]
-- [[07-Operacoes-do-Vault/Mapa-de-Migracao-Fisica-do-Vault]]
+- [[07-Operacoes-do-Vault/Status-da-Migracao-Fisica]]
 
 ## 📦 Como clonar e usar
 
