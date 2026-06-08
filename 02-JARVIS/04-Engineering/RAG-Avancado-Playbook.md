@@ -56,7 +56,7 @@ Exemplo de metadado por chunk:
 
 ```json
 {
-  "file": "04-Conhecimentos/08-Vida-Pratica/Saude-Rotina/Sono-e-Ritmo-Circadiano.md",
+  "file": "04-Conhecimentos/08-Vida-Pratica/Sono-e-Ritmo-Circadiano.md",
   "heading": "Ciclo Circadiano",
   "tags": ["saude", "sono"],
   "updated": "2026-05-20",

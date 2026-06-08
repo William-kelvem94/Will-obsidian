@@ -171,5 +171,5 @@ if __name__ == "__main__":
 ## 📑 6. Referências e Conexões Cruzadas
 - Monitoramento e resiliência de pipelines de IA: [Knowledge-Base/IA-Aplicada/Atomic-Notes/Lessons-Learned-IA-Escala-Pilotagem.md](04-Conhecimentos/01-IA-e-Agentes/Atomic-Notes/Lessons-Learned-IA-Escala-Pilotagem.md)
 - Governança de dados de negócios: [Knowledge-Base/BI-Analytics/Checklists/Checklist-Qualidade-Dados-BI.md](04-Conhecimentos/03-Dados-e-Analytics/Checklists/Checklist-Qualidade-Dados-BI.md)
-- Orquestração resiliente para bots e integrações: [Checklist-Deploy-Monitoramento-RPA.md](04-Conhecimentos/01-IA-e-Agentes/Automacao/Checklists/Checklist-Deploy-Monitoramento-RPA.md)
-- Centralização de segurança de dados sigilosos: [[04-Conhecimentos/04-Seguranca-e-Redes/LGPD-Privacidade/Projetos/Script-audit_sensitives.py]]
+- Orquestração resiliente para bots e integrações: [Checklist-Deploy-Monitoramento-RPA.md](04-Conhecimentos/01-IA-e-Agentes/Checklists/Checklist-Deploy-Monitoramento-RPA.md)
+- Centralização de segurança de dados sigilosos: [[04-Conhecimentos/04-Seguranca-e-Redes/Projetos/Script-audit_sensitives.py]]

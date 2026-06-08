@@ -11,8 +11,8 @@ category: knowledge-domain
 Pipeline, painéis e benchmarks globais de BI, dashboards críticos, fluxo ETL e health-check dos dados.
 
 ## Crosslinks
-- [[04-Conhecimentos/06-Estudos-e-Aprendizagem/Experimentacao]]
-- [[04-Conhecimentos/01-IA-e-Agentes/Futurologia]]
+- [[04-Conhecimentos/06-Estudos-e-Aprendizagem]]
+- [[04-Conhecimentos/01-IA-e-Agentes]]
 - [[04-Conhecimentos/01-IA-e-Agentes/IA-Aplicada]]
 - [[INDEX]]
 

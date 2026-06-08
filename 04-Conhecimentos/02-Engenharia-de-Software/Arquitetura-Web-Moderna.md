@@ -113,5 +113,5 @@ Um projeto web saudável precisa ter README, `.env.example`, scripts de desenvol
 
 - [[Docker-e-DevOps]]
 - [[APIs-Backend-Banco]]
-- [[../08-Vida-Pratica/Produtividade/Decisao-e-Priorizacao]]
+- [[../08-Vida-Pratica/Decisao-e-Priorizacao]]
 - [[../03-Dados-e-Analytics/Taxonomia-Metadados-e-Ontologia]]

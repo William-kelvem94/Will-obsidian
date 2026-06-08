@@ -5,7 +5,7 @@ updated: 2026-06-07
 type: guide
 status: active
 tags: [conhecimento-geral, ia, agentes, automacao, workflows]
-related: [[RAG-e-Memoria-para-Agentes]], [[Prompt-Engineering]], [[Token-Economy]], [[../08-Vida-Pratica/Produtividade/Decisao-e-Priorizacao]]
+related: [[RAG-e-Memoria-para-Agentes]], [[Prompt-Engineering]], [[Token-Economy]], [[../08-Vida-Pratica/Decisao-e-Priorizacao]]
 summary: "Guia para entender agentes de IA, ferramentas, memória, planejamento e execução de workflows com segurança e rastreabilidade."
 ---
 
@@ -80,4 +80,4 @@ Agente de IA é um sistema que combina modelo de linguagem, contexto, ferramenta
 - [[RAG-e-Memoria-para-Agentes]]
 - [[Prompt-Engineering]]
 - [[Token-Economy]]
-- [[../08-Vida-Pratica/Produtividade/Decisao-e-Priorizacao]]
+- [[../08-Vida-Pratica/Decisao-e-Priorizacao]]

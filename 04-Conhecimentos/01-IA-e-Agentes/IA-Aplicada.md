@@ -13,8 +13,8 @@ Inclui: pipelines de deploy, copilotos, ética e compliance, explainability.
 
 ## Crosslinks
 - [[04-Conhecimentos/03-Dados-e-Analytics/BI-Analytics]]
-- [[04-Conhecimentos/06-Estudos-e-Aprendizagem/Experimentacao]]
-- [[04-Conhecimentos/01-IA-e-Agentes/Futurologia]]
+- [[04-Conhecimentos/06-Estudos-e-Aprendizagem]]
+- [[04-Conhecimentos/01-IA-e-Agentes]]
 - [[INDEX]]
 
 ## 📂 Recursos e Documentação Clínica (Migrados)

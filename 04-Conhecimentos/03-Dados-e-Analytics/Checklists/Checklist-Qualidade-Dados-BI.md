@@ -198,4 +198,4 @@ if __name__ == "__main__":
 - Mapeamento e mitigação analítica de inconsistências: [dashboards/INDEX.md](01-Hubs/dashboards/INDEX.md)
 - Organização e topologia de bancos relacionais robustos: [[05-Skills/alloydb-basics/SKILL]]
 - Detecção e escalonamento de alarmes: [Checklist-Workflow.md](Checklist-Workflow.md)
-- Governança de arquivos sensíveis e privacidade: [[04-Conhecimentos/04-Seguranca-e-Redes/LGPD-Privacidade/Projetos/Script-audit_sensitives.py]]
+- Governança de arquivos sensíveis e privacidade: [[04-Conhecimentos/04-Seguranca-e-Redes/Projetos/Script-audit_sensitives.py]]

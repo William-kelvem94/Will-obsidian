@@ -19,10 +19,10 @@ Este hub organiza a navegação da área pessoal do vault. Ele deve ser usado co
 
 ## Vida prática relacionada
 
-- [[../04-Conhecimentos/08-Vida-Pratica/Saude-Rotina/Saude-Rotina-e-Rastreamento]]
-- [[../04-Conhecimentos/08-Vida-Pratica/Financas/Financas-Pessoais-e-Metricas]]
-- [[../04-Conhecimentos/08-Vida-Pratica/Comunicacao/Comunicacao-Clara-e-Reunioes]]
-- [[../04-Conhecimentos/08-Vida-Pratica/Produtividade/Revisao-Semanal-e-Gestao-de-Energia]]
+- [[../04-Conhecimentos/08-Vida-Pratica-e-Rastreamento]]
+- [[../04-Conhecimentos/08-Vida-Pratica-Pessoais-e-Metricas]]
+- [[../04-Conhecimentos/08-Vida-Pratica-Clara-e-Reunioes]]
+- [[../04-Conhecimentos/08-Vida-Pratica/Revisao-Semanal-e-Gestao-de-Energia]]
 
 ## Regras de sensibilidade
 

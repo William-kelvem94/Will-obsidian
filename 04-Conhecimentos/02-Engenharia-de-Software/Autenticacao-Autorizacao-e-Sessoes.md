@@ -5,7 +5,7 @@ updated: 2026-06-07
 type: guide
 status: active
 tags: [conhecimento-geral, backend, seguranca, autenticacao, autorizacao]
-related: [[APIs-Backend-Banco]], [[../04-Seguranca-e-Redes/Seguranca/Seguranca-da-Informacao]], [[../04-Seguranca-e-Redes/Seguranca/OWASP-e-Seguranca-Web]], [[Playbook-de-Debug-de-API-e-Backend]]
+related: [[APIs-Backend-Banco]], [[../04-Seguranca-e-Redes/Seguranca-da-Informacao]], [[../04-Seguranca-e-Redes/OWASP-e-Seguranca-Web]], [[Playbook-de-Debug-de-API-e-Backend]]
 summary: "Guia prático sobre autenticação, autorização, sessões, tokens, cookies, papéis, permissões e riscos comuns em aplicações web."
 ---
 
@@ -114,6 +114,6 @@ Ao revisar autenticação e autorização, separar identidade de permissão. Ver
 ## Links internos
 
 - [[APIs-Backend-Banco]]
-- [[../04-Seguranca-e-Redes/Seguranca/Seguranca-da-Informacao]]
-- [[../04-Seguranca-e-Redes/Seguranca/OWASP-e-Seguranca-Web]]
+- [[../04-Seguranca-e-Redes/Seguranca-da-Informacao]]
+- [[../04-Seguranca-e-Redes/OWASP-e-Seguranca-Web]]
 - [[Playbook-de-Debug-de-API-e-Backend]]

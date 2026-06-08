@@ -48,18 +48,18 @@ Este hub unifica a navegação das bases de conhecimento do vault. Ele resolve a
 
 ### Produto, UX e carreira
 
-- [[../04-Conhecimentos/05-Produto-UX-e-Carreira/Produto-UX/Produto-UX-e-Validacao]]
-- [[../04-Conhecimentos/05-Produto-UX-e-Carreira/Produto-UX/Estados-de-Interface-e-UX-Operacional]]
-- [[../04-Conhecimentos/05-Produto-UX-e-Carreira/Produto-UX/Checklist-de-Validacao-de-Produto]]
-- [[../04-Conhecimentos/05-Produto-UX-e-Carreira/Carreira/Carreira-Tech-e-Portifolio]]
+- [[../04-Conhecimentos/05-Produto-UX-e-Carreira-e-Validacao]]
+- [[../04-Conhecimentos/05-Produto-UX-e-Carreira/Estados-de-Interface-e-UX-Operacional]]
+- [[../04-Conhecimentos/05-Produto-UX-e-Carreira/Checklist-de-Validacao-de-Produto]]
+- [[../04-Conhecimentos/05-Produto-UX-e-Carreira-Tech-e-Portifolio]]
 
 ### Estudo e vida prática
 
 - [[../04-Conhecimentos/06-Estudos-e-Aprendizagem/Metodo-de-Estudo-Ativo]]
 - [[../04-Conhecimentos/06-Estudos-e-Aprendizagem/Ciencia-da-Aprendizagem]]
-- [[../04-Conhecimentos/08-Vida-Pratica/Produtividade/Revisao-Semanal-e-Gestao-de-Energia]]
-- [[../04-Conhecimentos/08-Vida-Pratica/Saude-Rotina/Saude-Rotina-e-Rastreamento]]
-- [[../04-Conhecimentos/08-Vida-Pratica/Financas/Financas-Pessoais-e-Metricas]]
+- [[../04-Conhecimentos/08-Vida-Pratica/Revisao-Semanal-e-Gestao-de-Energia]]
+- [[../04-Conhecimentos/08-Vida-Pratica-e-Rastreamento]]
+- [[../04-Conhecimentos/08-Vida-Pratica-Pessoais-e-Metricas]]
 
 ## Estrutura futura recomendada
 

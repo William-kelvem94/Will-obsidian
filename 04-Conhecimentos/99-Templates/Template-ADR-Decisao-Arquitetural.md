@@ -5,7 +5,7 @@ updated: 2026-06-07
 type: template
 status: active
 tags: [conhecimento-geral, template, adr, arquitetura, decisao]
-related: [[../00-Mapas-e-Ontologia/Documentacao/Documentacao-Tecnica-Runbooks-e-ADRs]], [[../08-Vida-Pratica/Produtividade/Decisao-e-Priorizacao]], [[../02-Engenharia-de-Software/Arquitetura-Web-Moderna]]
+related: [[../00-Mapas-e-Ontologia/Documentacao/Documentacao-Tecnica-Runbooks-e-ADRs]], [[../08-Vida-Pratica/Decisao-e-Priorizacao]], [[../02-Engenharia-de-Software/Arquitetura-Web-Moderna]]
 summary: "Template para registrar decisões arquiteturais com contexto, alternativas, decisão, consequências e status."
 ---
 
@@ -94,5 +94,5 @@ Criar ADR quando a decisão:
 ## Links internos
 
 - [[../00-Mapas-e-Ontologia/Documentacao/Documentacao-Tecnica-Runbooks-e-ADRs]]
-- [[../08-Vida-Pratica/Produtividade/Decisao-e-Priorizacao]]
+- [[../08-Vida-Pratica/Decisao-e-Priorizacao]]
 - [[../02-Engenharia-de-Software/Arquitetura-Web-Moderna]]

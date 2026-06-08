@@ -21,7 +21,7 @@ Este hub organiza as habilidades técnicas e capacidades do vault.
 - [[../05-Skills/01-agentic-intelligence/multi-agent-orchestration|Agentic Intelligence]]
 - [[../05-Skills/03-infrastructure-mcp/mcp-servers|MCP Servers]]
 - [[../05-Skills/04-knowledge-systems/obsidian-neural-vault|Obsidian Neural Vault]]
-- [[../04-Conhecimentos/06-Estudos-e-Aprendizagem/Habilidades/Mapa-de-Habilidades|Mapa de Habilidades]]
+- [[../04-Conhecimentos/06-Estudos-e-Aprendizagem/Mapa-de-Habilidades|Mapa de Habilidades]]
 
 ## Conhecimentos de apoio
 

@@ -5,7 +5,7 @@ updated: 2026-06-07
 type: guide
 status: active
 tags: [conhecimento-geral, docker, devops, infraestrutura, engenharia-software]
-related: [[Arquitetura-Web-Moderna]], [[APIs-Backend-Banco]], [[../08-Vida-Pratica/Produtividade/Decisao-e-Priorizacao]]
+related: [[Arquitetura-Web-Moderna]], [[APIs-Backend-Banco]], [[../08-Vida-Pratica/Decisao-e-Priorizacao]]
 summary: "Guia prático para usar Docker e práticas DevOps em projetos locais e web, com foco em reprodutibilidade e manutenção."
 ---
 

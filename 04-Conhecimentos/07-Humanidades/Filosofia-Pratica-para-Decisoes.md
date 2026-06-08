@@ -5,7 +5,7 @@ updated: 2026-06-07
 type: guide
 status: active
 tags: [conhecimento-geral, filosofia, decisao, etica, vida-pratica]
-related: [[Pensamento-Critico-e-Logica-Informal]], [[../08-Vida-Pratica/Produtividade/Decisao-e-Priorizacao]], [[../05-Produto-UX-e-Carreira/Carreira/Carreira-Tech-e-Portifolio]]
+related: [[Pensamento-Critico-e-Logica-Informal]], [[../08-Vida-Pratica/Decisao-e-Priorizacao]], [[../05-Produto-UX-e-Carreira/Carreira-Tech-e-Portifolio]]
 summary: "Guia de filosofia prática para tomar decisões com valores, consequências, virtudes, limites e responsabilidade."
 ---
 
@@ -82,5 +82,5 @@ Ao ajudar em decisões humanas, usar filosofia prática para separar fato, valor
 ## Links internos
 
 - [[Pensamento-Critico-e-Logica-Informal]]
-- [[../08-Vida-Pratica/Produtividade/Decisao-e-Priorizacao]]
-- [[../05-Produto-UX-e-Carreira/Carreira/Carreira-Tech-e-Portifolio]]
+- [[../08-Vida-Pratica/Decisao-e-Priorizacao]]
+- [[../05-Produto-UX-e-Carreira/Carreira-Tech-e-Portifolio]]

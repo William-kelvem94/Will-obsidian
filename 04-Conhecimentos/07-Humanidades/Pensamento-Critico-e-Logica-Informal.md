@@ -5,7 +5,7 @@ updated: 2026-06-07
 type: guide
 status: active
 tags: [conhecimento-geral, pensamento-critico, logica, argumentacao]
-related: [[Filosofia-Pratica-para-Decisoes]], [[../08-Vida-Pratica/Produtividade/Decisao-e-Priorizacao]], [[../01-IA-e-Agentes/Avaliacao-de-Respostas-de-IA]]
+related: [[Filosofia-Pratica-para-Decisoes]], [[../08-Vida-Pratica/Decisao-e-Priorizacao]], [[../01-IA-e-Agentes/Avaliacao-de-Respostas-de-IA]]
 summary: "Guia para avaliar argumentos, identificar premissas, evidências, falácias, vieses e conclusões fracas."
 ---
 
@@ -72,5 +72,5 @@ Pensamento crítico exige separar fato, evidência, interpretação e conclusão
 ## Links internos
 
 - [[Filosofia-Pratica-para-Decisoes]]
-- [[../08-Vida-Pratica/Produtividade/Decisao-e-Priorizacao]]
+- [[../08-Vida-Pratica/Decisao-e-Priorizacao]]
 - [[../01-IA-e-Agentes/Avaliacao-de-Respostas-de-IA]]

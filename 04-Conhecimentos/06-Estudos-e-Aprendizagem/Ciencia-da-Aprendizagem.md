@@ -5,7 +5,7 @@ updated: 2026-06-07
 type: guide
 status: active
 tags: [conhecimento-geral, estudos, aprendizagem, revisao]
-related: [[Metodo-de-Estudo-Ativo]], [[../08-Vida-Pratica/Produtividade/Revisao-Semanal-e-Gestao-de-Energia]], [[../01-IA-e-Agentes/Context-Engineering]]
+related: [[Metodo-de-Estudo-Ativo]], [[../08-Vida-Pratica/Revisao-Semanal-e-Gestao-de-Energia]], [[../01-IA-e-Agentes/Context-Engineering]]
 summary: "Guia sobre atenção, memória, revisão espaçada, prática, exemplos e estudo aplicado."
 ---
 
@@ -84,5 +84,5 @@ Para ajudar em estudos, transformar conteúdo em perguntas, exercícios, exemplo
 ## Links internos
 
 - [[Metodo-de-Estudo-Ativo]]
-- [[../08-Vida-Pratica/Produtividade/Revisao-Semanal-e-Gestao-de-Energia]]
+- [[../08-Vida-Pratica/Revisao-Semanal-e-Gestao-de-Energia]]
 - [[../01-IA-e-Agentes/Context-Engineering]]

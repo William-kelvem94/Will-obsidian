@@ -5,7 +5,7 @@ updated: 2026-06-07
 type: guide
 status: active
 tags: [conhecimento-geral, documentacao, runbook, adr, engenharia-software]
-related: [[../../02-Engenharia-de-Software/Arquitetura-Web-Moderna]], [[../../02-Engenharia-de-Software/Observabilidade-Logs-e-Monitoramento]], [[../../08-Vida-Pratica/Produtividade/Decisao-e-Priorizacao]], [[../../99-Templates/Template-ADR-Decisao-Arquitetural]]
+related: [[../../02-Engenharia-de-Software/Arquitetura-Web-Moderna]], [[../../02-Engenharia-de-Software/Observabilidade-Logs-e-Monitoramento]], [[../../08-Vida-Pratica/Decisao-e-Priorizacao]], [[../../99-Templates/Template-ADR-Decisao-Arquitetural]]
 summary: "Guia para criar documentação técnica útil: README, runbook, playbook, ADR, changelog e registros operacionais."
 ---
 
@@ -109,5 +109,5 @@ Documentação técnica deve permitir continuidade. Para avaliar um projeto, ver
 
 - [[../../02-Engenharia-de-Software/Arquitetura-Web-Moderna]]
 - [[../../02-Engenharia-de-Software/Observabilidade-Logs-e-Monitoramento]]
-- [[../../08-Vida-Pratica/Produtividade/Decisao-e-Priorizacao]]
+- [[../../08-Vida-Pratica/Decisao-e-Priorizacao]]
 - [[../../99-Templates/Template-ADR-Decisao-Arquitetural]]

@@ -5,7 +5,7 @@ updated: 2026-06-07
 type: playbook
 status: active
 tags: [conhecimento-geral, backend, api, debug, logs]
-related: [[APIs-Backend-Banco]], [[Observabilidade-Logs-e-Monitoramento]], [[Linux-Terminal-e-Shell]], [[../04-Seguranca-e-Redes/Redes/Redes-e-Internet]], [[../03-Dados-e-Analytics/Banco-de-Dados-Avancado]]
+related: [[APIs-Backend-Banco]], [[Observabilidade-Logs-e-Monitoramento]], [[Linux-Terminal-e-Shell]], [[../04-Seguranca-e-Redes/Redes-e-Internet]], [[../03-Dados-e-Analytics/Banco-de-Dados-Avancado]]
 summary: "Playbook para diagnosticar erros de API e backend por camada: rota, validação, autenticação, banco, ambiente, rede e logs."
 ---
 
@@ -160,5 +160,5 @@ Ao depurar backend, investigar por camadas. Não pular direto para código. Prim
 - [[APIs-Backend-Banco]]
 - [[Observabilidade-Logs-e-Monitoramento]]
 - [[Linux-Terminal-e-Shell]]
-- [[../04-Seguranca-e-Redes/Redes/Redes-e-Internet]]
+- [[../04-Seguranca-e-Redes/Redes-e-Internet]]
 - [[../03-Dados-e-Analytics/Banco-de-Dados-Avancado]]

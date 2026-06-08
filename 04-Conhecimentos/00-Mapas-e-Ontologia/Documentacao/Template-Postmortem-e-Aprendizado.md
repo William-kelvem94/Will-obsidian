@@ -5,7 +5,7 @@ updated: 2026-06-07
 type: template
 status: active
 tags: [conhecimento-geral, documentacao, postmortem, aprendizado, template]
-related: [[Documentacao-Tecnica-Runbooks-e-ADRs]], [[../../02-Engenharia-de-Software/Observabilidade-Logs-e-Monitoramento]], [[../../08-Vida-Pratica/Produtividade/Decisao-e-Priorizacao]]
+related: [[Documentacao-Tecnica-Runbooks-e-ADRs]], [[../../02-Engenharia-de-Software/Observabilidade-Logs-e-Monitoramento]], [[../../08-Vida-Pratica/Decisao-e-Priorizacao]]
 summary: "Template para registrar falhas, incidentes e aprendizados de forma madura, prática e reutilizável."
 ---
 

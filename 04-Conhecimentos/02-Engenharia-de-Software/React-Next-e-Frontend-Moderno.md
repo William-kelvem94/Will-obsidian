@@ -5,7 +5,7 @@ updated: 2026-06-07
 type: guide
 status: active
 tags: [conhecimento-geral, react, nextjs, frontend, ui]
-related: [[TypeScript-e-JavaScript-Moderno]], [[Arquitetura-Web-Moderna]], [[Testes-e-Qualidade-de-Software]], [[../05-Produto-UX-e-Carreira/Produto-UX/Produto-UX-e-Validacao]]
+related: [[TypeScript-e-JavaScript-Moderno]], [[Arquitetura-Web-Moderna]], [[Testes-e-Qualidade-de-Software]], [[../05-Produto-UX-e-Carreira/Produto-UX-e-Validacao]]
 summary: "Guia de frontend moderno com React, Next.js, componentes, estado, dados, UX, performance e organização."
 ---
 
@@ -112,4 +112,4 @@ Frontend moderno combina componente, estado, dados e experiência. Ao analisar p
 - [[TypeScript-e-JavaScript-Moderno]]
 - [[Arquitetura-Web-Moderna]]
 - [[Testes-e-Qualidade-de-Software]]
-- [[../05-Produto-UX-e-Carreira/Produto-UX/Produto-UX-e-Validacao]]
+- [[../05-Produto-UX-e-Carreira/Produto-UX-e-Validacao]]
