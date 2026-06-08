@@ -50,6 +50,20 @@ Esta nota registra o que já foi reorganizado diretamente na branch `main`.
 |---|---|---|
 | `dashboards/INDEX.md` | `10-Interfaces/dashboards/INDEX.md` | migrado |
 | `dashboards/ROADMAP.md` | `10-Interfaces/dashboards/ROADMAP.md` | copiado; limpeza antiga pendente |
+| `dashboards/Tag-Cloud.md` | `10-Interfaces/dashboards/Tag-Cloud.md` | migrado |
+| `dashboards/ANALYTICS.md` | `10-Interfaces/dashboards/ANALYTICS.md` | migrado |
+| `dashboards/TAXONOMY.md` | `10-Interfaces/dashboards/TAXONOMY.md` | migrado |
+| `dashboards/Evolution-Tracker.md` | `10-Interfaces/dashboards/Evolution-Tracker.md` | migrado |
+| `dashboards/Knowledge-Heatmap.md` | `10-Interfaces/dashboards/Knowledge-Heatmap.md` | migrado |
+| `dashboards/TOKEN-COST-DASHBOARD.md` | `10-Interfaces/dashboards/TOKEN-COST-DASHBOARD.md` | migrado |
+
+## Arquivos técnicos migrados
+
+| Arquivo antigo | Novo local | Status |
+|---|---|---|
+| `schema/AGENT.md` | `09-Sistema/schema/AGENT.md` | migrado |
+| `schema/evolution/ingest-rubric.md` | `09-Sistema/schema/evolution/ingest-rubric.md` | migrado |
+| `schema/evolution/output-quality-rubric.md` | `09-Sistema/schema/evolution/output-quality-rubric.md` | migrado |
 
 ## Arquivos da raiz que devem permanecer
 
@@ -90,13 +104,20 @@ Esta nota registra o que já foi reorganizado diretamente na branch `main`.
 
 ## Bloqueios encontrados
 
-Algumas operações de cópia ou limpeza foram bloqueadas pelo conector do GitHub. Quando isso acontecer, o conteúdo deve ser preservado e a limpeza antiga deve ficar marcada como pendente.
+Algumas operações de migração foram bloqueadas pelo conector do GitHub. Quando isso acontecer, o conteúdo deve ser preservado e a limpeza antiga deve ficar marcada como pendente.
+
+Bloqueios atuais conhecidos:
+
+- `dashboards/GAPS.md`
+- `dashboards/Skill-Project-Matrix-Dinamica.md`
+- `Canvases/README.md`
+- limpeza antiga de `dashboards/ROADMAP.md`
 
 ## Próximo bloco recomendado
 
-Continuar a migração de `dashboards/` para `10-Interfaces/dashboards/`, priorizando painéis Markdown pequenos.
+Continuar a migração de `dashboards/` para `10-Interfaces/dashboards/`, priorizando painéis Markdown pequenos e JSONs de apoio.
 
-Depois migrar `schema/`, `scripts/`, `tests`, `benchmarks` e `simuladores` para `09-Sistema/`.
+Depois continuar `schema/`, `scripts`, `tests`, `benchmarks` e `simuladores` para `09-Sistema/`.
 
 Por último, migrar conhecimento e áreas pessoais, pois exigem mais cuidado com links e sensibilidade.
 
