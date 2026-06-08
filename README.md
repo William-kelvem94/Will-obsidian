@@ -1,67 +1,104 @@
-# 🗂️ Veja o novo [[INDEX]] para navegação central de hubs, projetos, skills, painéis, arquivos centrais e dashboards!
+# 🧠 Will Vault - Obsidian Neural Hub
 
-# 🧠 Will Vault - Obsidian Personal Knowledge Management
+Este repositório é o vault principal do Obsidian do Will. Ele organiza conhecimento, projetos, JARVIS, skills, vida pessoal, operações do vault e suporte técnico para uso com IA, RAG e automações.
 
-*Este README descreve detalhes técnicos, automações e configuração do sistema. Para navegação e uso rápido do vault, consulte o [[INDEX]].*
+Para navegação humana dentro do Obsidian, comece por:
 
-Repositório central do meu Cérebro Digital (Vault do Obsidian). Este projeto organiza conhecimento, projetos, logs diários e automações para gerenciamento de informações.
+- [[Bem-vindo|Neural Hub]]
+- [[INDEX|INDEX global]]
+- [[01-Hubs/README|Hubs Centrais do Vault]]
 
-## 🚀 Estrutura do Vault
+## 🚀 Estrutura física principal
 
-- **`.scripts/`**: Automações em Python e PowerShell para manutenção e geração de logs.
-- **`JARVIS/`**: Núcleo operacional, memória e logs do sistema.
-- **`Projetos/`**: Gerenciamento de projetos ativos, parados e arquivados.
-- **`Templates/`**: Modelos para notas, reuniões e logs.
-- **`skills/`**: Base de conhecimento técnico e sistemas de IA (RAG).
-- **`Conhecimento-Geral/`**: Base de conhecimento expandida com 10 domínios (Filosofia, Psicologia, Neurociência, Matemática, Ética, Cultura, Economia Digital, Direito Digital, Tecnologia e Sociedade, Linguística) — conteúdo RAG-ready para consumo humano e por agentes de IA.
+```txt
+Will-obsidian/
+├── 00-Inbox/
+├── 01-Hubs/
+├── 02-JARVIS/
+├── 03-Projetos/
+├── 04-Conhecimentos/
+├── 05-Skills/
+├── 06-Will-Pessoal/
+├── 07-Operacoes-do-Vault/
+├── 08-Arquivo/
+├── 09-Sistema/
+├── 10-Interfaces/
+├── 11-Dados-Brutos/
+└── 99-Templates/
+```
 
-## 🛠️ Automações (Scripts)
+## 🧭 Função das áreas
 
-| Script | Propósito | Execução |
-| :--- | :--- | :--- |
-| `daily_logger.py` | Gera um resumo diário de atividades (Git, arquivos modificados). | `python .scripts/daily_logger.py` |
-| `github_sync.py` | Sincroniza a lista de repositórios do GitHub no vault. | `python .scripts/github_sync.py` |
-| `knowledge_indexer.py` | Gera embeddings para o sistema de busca semântica (RAG). | `python .scripts/knowledge_indexer.py --update` |
-| `project_health_checker.py` | Analisa a saúde dos projetos e links quebrados. | `python .scripts/project_health_checker.py` |
-| `vault_cleanup.py` | Remove arquivos órfãos e organiza anexos. | `python .scripts/vault_cleanup.py` |
+| Área | Função |
+|---|---|
+| `00-Inbox/` | entrada temporária para ideias, capturas e rascunhos |
+| `01-Hubs/` | navegação superior do vault |
+| `02-JARVIS/` | IA, agentes, memória e arquitetura do JARVIS |
+| `03-Projetos/` | projetos, objetivos, execução e portfólio |
+| `04-Conhecimentos/` | base consolidada de conhecimento técnico, estudos e vida prática |
+| `05-Skills/` | habilidades técnicas e capacidades reutilizáveis |
+| `06-Will-Pessoal/` | contexto pessoal e dados sensíveis |
+| `07-Operacoes-do-Vault/` | manutenção, inventários, migração e governança |
+| `08-Arquivo/` | legado preservado e conteúdos fora do fluxo ativo |
+| `09-Sistema/` | configurações, scripts, instruções técnicas, testes e schemas |
+| `10-Interfaces/` | painéis, dashboards, canvases e web-ui |
+| `11-Dados-Brutos/` | dados brutos, clippings e bases importadas |
+| `99-Templates/` | modelos reutilizáveis globais |
 
-## 🔌 Configuração do Obsidian
+## 📚 Bases ainda em migração
 
-### Plugins Essenciais (Comunitários)
-- **[Dataview](https://github.com/blacksmithgu/obsidian-dataview)**: Transforma o vault em um banco de dados consultável. Usado para dashboards e listas automáticas.
-- **[Templater](https://github.com/SilentVoid13/Templater)**: Permite o uso de lógica (JS) na criação de notas.
+Durante a reorganização, algumas pastas antigas ainda existem e serão migradas por blocos:
 
-### Snippets CSS
-- **`vault-theme.css`**: 
-  - **Coloração de Tags**: Atribui cores específicas para tags como `#jarvis`, `#projetos`, `#skills/ai`, etc.
-  - **Dashboard Design**: Melhora visual de tabelas e cabeçalhos `H1` para um aspecto mais profissional e "operacional".
+- `Conhecimentos-Gerais/`
+- `Conhecimento-Geral/`
+- `Knowledge-Base/`
+- `JARVIS/`
+- `Projetos/`
+- `skills/`
+- `Will-Pessoal/`
+- `dashboards/`
+- `raw/`
+- `wiki/`
 
-## 🖥️ Dashboards Operacionais
+A nova estrutura já está sendo usada como destino oficial, mas a migração completa deve preservar links e conteúdo.
 
-O vault conta com dashboards dinâmicos para visualização de estado:
-- **[[JARVIS/05-System/Vault-Health-Dashboard|Vault Health Dashboard]]**: Visão geral da saúde do vault, notas recentes e projetos ativos.
-- **[[Projetos|Painel de Projetos]]**: Listagem automática de projetos por status e prioridade.
+## 🛠️ Sistema técnico
 
-## 📦 Como Clonar e Usar
+Arquivos técnicos agora ficam principalmente em `09-Sistema/`:
 
-1. Clone o repositório:
-   ```bash
-   git clone https://github.com/William-kelvem94/Will-obsidian.git
-   ```
-2. Instale as dependências dos scripts:
-   ```bash
-   pip install -r requirements.txt
-   ```
-3. Configure o arquivo `.env`:
-   - Copie `.env.example` para `.env` e preencha as variáveis.
-4. Abra a pasta no Obsidian e habilite os plugins comunitários.
+- `09-Sistema/agents/` — instruções para agentes e modelos.
+- `09-Sistema/config/` — configurações técnicas.
+- `09-Sistema/scripts/` — scripts e atalhos de reorganização.
+- `09-Sistema/schema/` — estrutura e contratos técnicos, quando migrado.
+- `09-Sistema/tests/` — testes, quando migrado.
 
-## ☁️ Backup e Segurança
+Alguns arquivos continuam na raiz porque ferramentas esperam encontrá-los ali, como `.gitignore`, `.env.example`, `.mcp.json`, `.pre-commit-config.yaml`, `requirements.txt` e arquivos de lock.
 
-A resiliência de dados é mantida em três níveis:
-1. **Versionamento (Git)**: Histórico completo de alterações via commits.
-2. **Sincronização Cloud**: Recomendado manter o vault em uma pasta sincronizada (Google Drive, Dropbox ou iCloud) para backup em tempo real e acesso mobile.
-3. **GitHub Actions**: Automações semanais garantem que dados externos (como lista de repositórios) estejam sempre atualizados.
+## 🔎 Reorganização do vault
+
+A migração física é guiada por:
+
+- [[07-Operacoes-do-Vault/Reestruturacao-Geral-do-Vault]]
+- [[07-Operacoes-do-Vault/Inventario-Inicial-do-Vault]]
+- [[07-Operacoes-do-Vault/Mapa-de-Migracao-Fisica-do-Vault]]
+
+## 📦 Como clonar e usar
+
+```bash
+git clone https://github.com/William-kelvem94/Will-obsidian.git
+cd Will-obsidian
+pip install -r requirements.txt
+```
+
+Depois, abra a pasta no Obsidian.
+
+## ☁️ Backup e segurança
+
+- Git mantém histórico de alterações.
+- Recomenda-se backup externo ou pasta sincronizada.
+- Dados pessoais devem ser tratados com cuidado antes de indexação por IA/RAG.
+- Arquivos sensíveis não devem ser expostos em notas públicas ou automações sem revisão.
 
 ---
-*Gerenciado por [William-kelvem94](https://github.com/William-kelvem94)*
+
+Gerenciado por William Kelvem.
