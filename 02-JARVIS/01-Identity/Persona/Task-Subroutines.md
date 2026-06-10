@@ -1,6 +1,6 @@
 ---
 tags: [jarvis, persona, behavior, jarvis-identidade]
-updated: 2026-06-08
+updated: 2026-06-10
 title: "Persona Task Subroutines"
 date: 2026-04-27
 ---

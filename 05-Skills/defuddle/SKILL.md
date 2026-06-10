@@ -4,7 +4,7 @@ description: Extract clean markdown from web pages before ingesting or analyzing
 title: "Defuddle Skill"
 date: 2026-06-07
 tags: [skills]
-updated: 2026-06-08
+updated: 2026-06-10
 ---
 
 # Defuddle Skill

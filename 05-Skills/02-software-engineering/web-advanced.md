@@ -1,6 +1,6 @@
 ---
 tags: [skills, skills-eng, web, websockets, webrtc, pwa, web-security, web-performance]
-updated: 2026-06-08
+updated: 2026-06-10
 title: "Desenvolvimento Web Avancado - WebSockets, WebRTC, PWA, Performance e Seguranca"
 date: 2026-05-16
 ---

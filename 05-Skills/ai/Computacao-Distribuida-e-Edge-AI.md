@@ -2,7 +2,7 @@
 title: "Computação Distribuída Avançada e Edge AI"
 date: 2026-06-01
 tags: [skills]
-updated: 2026-06-08
+updated: 2026-06-10
 ---
 
 # Computação Distribuída Avançada e Edge AI

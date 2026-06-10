@@ -2,7 +2,7 @@
 title: "IA-LOCAL Codebase Map"
 description: "Mapa RAG-friendly do projeto IA-LOCAL para agentes de programacao."
 created: 2026-05-08
-updated: 2026-06-08
+updated: 2026-06-10
 type: codebase-map
 project: IA-LOCAL
 domain: engineering

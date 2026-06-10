@@ -1,6 +1,6 @@
 ---
 tags: [knowledge, obsidian, rag, second-brain, dataview, templater, automation, skills-knowledge]
-updated: 2026-06-08
+updated: 2026-06-10
 title: "Obsidian Neural Vault"
 date: 2026-04-27
 ---

@@ -4,7 +4,7 @@ category: "Frontend"
 level: 4
 description: "Checklist avançado e guia de revisão de código para mudanças em interfaces frontend, cobrando acessibilidade, performance Web Vitals, limites de estado e segurança de hidratação."
 tags: [skills, frontend, pr-checklist, web-vitals, accessibility, nextjs, react]
-updated: 2026-06-08
+updated: 2026-06-10
 date: 2026-06-01
 ---
 

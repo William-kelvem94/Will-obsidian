@@ -4,7 +4,7 @@ category: "Frontend"
 level: 3
 description: "Practical patterns for Next.js App Router: data fetching, server/client boundaries, caching, routing, and error handling."
 tags: [skills, frontend, nextjs, app-router]
-updated: 2026-06-08
+updated: 2026-06-10
 date: 2026-06-01
 ---
 

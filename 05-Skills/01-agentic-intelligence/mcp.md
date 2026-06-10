@@ -1,6 +1,6 @@
 ---
 tags: [skills, skills-ai]
-updated: 2026-06-08
+updated: 2026-06-10
 title: "MCP para VS Code AI"
 date: 2026-04-27
 ---

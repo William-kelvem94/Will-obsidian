@@ -1,6 +1,6 @@
 ---
 tags: [solid, clean-code, refactoring, code-review, software-engineering, best-practices, skills-eng]
-updated: 2026-06-08
+updated: 2026-06-10
 title: "SOLID Principles and Clean Code"
 date: 2026-06-01
 ---

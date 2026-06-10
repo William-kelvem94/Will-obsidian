@@ -9,10 +9,10 @@ resources:
   - 
 date: 2026-04-27
 tags: [skills, comunicacao, documentacao, soft-skills]
-updated: 2026-06-08
+updated: 2026-06-10
 ---
 
-# Comunicação Técnica
+# Technical Communication
 
 Comunicação técnica é a capacidade de traduzir conceitos complexos em informação clara e acessível. Não basta saber programar ou arquitetar sistemas — é preciso conseguir explicar o que foi feito, por que foi feito e como funciona.
 
@@ -24,9 +24,9 @@ Comunicação técnica é a capacidade de traduzir conceitos complexos em inform
 - **Tomada de decisão:** Decisões mal comunicadas geram retrabalho.
 - **Carreira:** Profissionais que comunicam bem são promovidos 2x mais rápido.
 
-## 1. Escrevendo Documentação Clara
+## 1. Writing Clear Documentation
 
-### Princípios da Documentação Eficaz
+### Effective Documentation Principles
 
 1. **Conheça seu público:** O leitor é um desenvolvedor júnior? Um CTO? Um cliente?
 2. **Seja conciso:** Cada palavra deve agregar valor. Remova advérbios e rodeios.
@@ -34,7 +34,7 @@ Comunicação técnica é a capacidade de traduzir conceitos complexos em inform
 4. **Estrutura hierárquica:** Títulos, subtítulos, listas — guie o olhar do leitor.
 5. **Tom consistente:** Defina um guia de estilo e siga-o.
 
-### Template de Documentação Técnica
+### Technical Documentation Template
 
 ```markdown
 # Título do Componente
@@ -71,7 +71,7 @@ resultado = função("exemplo", 42)
 Como contribuir com o projeto.
 ```
 
-## 2. Documentação de APIs
+## 2. API Documentation
 
 ### REST APIs
 ```markdown
@@ -147,9 +147,9 @@ async def execute_task(agent_id: str, request: TaskRequest):
     return await agent_orchestrator.execute(agent_id, request)
 ```
 
-## 3. Code Comments vs Documentação
+## 3. Code Comments vs Documentation
 
-### Quando Comentar
+### When to Comment
 ```python
 # MAU: Comenta o óbvio
 x = x + 1  # Incrementa x em 1
@@ -166,7 +166,7 @@ class DatabasePool:
     _instance = None
 ```
 
-### Documentação de Código (Docstrings)
+### Code Documentation (Docstrings)
 ```python
 def hybrid_search(
     query: str,
@@ -212,9 +212,9 @@ def hybrid_search(
     pass
 ```
 
-## 4. Apresentações Técnicas
+## 4. Technical Presentations
 
-### Estrutura de uma Apresentação Eficaz
+### Effective Presentation Structure
 
 1. **Contexto (2 min):** Qual problema estamos resolvendo?
 2. **Proposta (3 min):** Como vamos resolver?
@@ -223,14 +223,14 @@ def hybrid_search(
 5. **Métricas (2 min):** Quanto melhorou?
 6. **Próximos passos (2 min):** Para onde vamos?
 
-### Dicas para Apresentações Técnicas
+### Technical Presentation Tips
 
 - **Demo sempre falha:** Grave um vídeo de fallback.
 - **Uma mensagem por slide:** Não polua com texto. Slides são apoio visual.
 - **Código ao vivo?** Só se for extremamente simples. Prefira slides com código bem formatado.
 - **Antecipe perguntas difíceis:** Prepare slides de "deep dive" como backup.
 
-### Storytelling Técnico
+### Technical Storytelling
 
 ```markdown
 # Estrutura narrativa para apresentações técnicas
@@ -253,15 +253,15 @@ e formatar manualmente."
 "Redução de 4 horas para 5 minutos. Zero erros manuais."
 ```
 
-## 5. Comunicação Cross-Cultural em Times de Dev
+## 5. Cross-Cultural Communication in Dev Teams
 
-### Barreiras Comuns
+### Common Barriers
 - **Idioma:** Nem todo mundo é fluente em inglês. Evite gírias e figuras de linguagem.
 - **Comunicação direta vs indireta:** Culturas variam. Americanos são diretos, japoneses são indiretos.
 - **Hierarquia:** Em algumas culturas, discordar de um sênior em público é inaceitável.
 - **Fuso horário:** Prefira comunicação assíncrona (docs > reuniões).
 
-### Boas Práticas
+### Best Practices
 ```markdown
 ## Para times distribuídos globalmente:
 
@@ -273,7 +273,7 @@ e formatar manualmente."
 6. **Documentação cultural:** Crie um glossary de termos técnicos e culturais.
 ```
 
-### Comunicação Assíncrona Eficaz
+### Effective Asynchronous Communication
 ```markdown
 ## Template de RFC (Request for Comments)
 
@@ -302,7 +302,7 @@ e formatar manualmente."
 [Preenchido após review]
 ```
 
-## 6. Escrevendo para Diferentes Públicos
+## 6. Writing for Different Audiences
 
 ### Para Executivos (CTO, CEO)
 ```markdown

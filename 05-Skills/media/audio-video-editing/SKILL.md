@@ -4,7 +4,7 @@ description: Production workflows for audio/video editing, track mixing, color g
 title: "Audio & Video Editing Skill"
 date: 2026-06-08
 tags: [skills, media, video-editing, audio-editing, post-production]
-updated: 2026-06-08
+updated: 2026-06-10
 ---
 
 # Audio & Video Editing Skill

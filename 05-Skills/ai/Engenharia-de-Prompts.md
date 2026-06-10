@@ -16,7 +16,7 @@ resources:
   - "Papers sobre chain-of-thought e prompt optimization"
 date: 2026-04-29
 tags: [skills, ai, prompt-engineering]
-updated: 2026-06-08
+updated: 2026-06-10
 ---
 
 # Engenharia de Prompts

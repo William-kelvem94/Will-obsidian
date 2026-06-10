@@ -4,7 +4,7 @@ source: "d:/DOCUMENTOS/GitHub/search_works"
 language: TypeScript
 private: true
 description: "Projeto sincronizado localmente — autogerado via varredura de diretório irmão."
-updated: 2026-06-08
+updated: 2026-06-10
 tags: [privados, projetos, autogerado]
 date: 2026-06-05
 ---

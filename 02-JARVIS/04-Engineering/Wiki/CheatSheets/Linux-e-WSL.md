@@ -2,7 +2,7 @@
 title: "Linux e WSL2 — Cheat Sheet"
 description: "Guia de referência rápida para Linux (Ubuntu/Debian) e WSL2 — comandos, shell scripting, administração e integração"
 tags: [cheatsheet, linux, wsl, terminal, comandos, jarvis-engenharia]
-updated: 2026-06-08
+updated: 2026-06-10
 date: 2026-05-16
 ---
 

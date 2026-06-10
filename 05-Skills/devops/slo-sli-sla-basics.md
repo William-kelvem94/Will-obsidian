@@ -4,7 +4,7 @@ category: "DevOps"
 level: 3
 description: "Service reliability basics: defining SLIs, setting SLOs, and using error budgets."
 date: 2026-05-08
-updated: 2026-06-08
+updated: 2026-06-10
 tags: [skills, devops, slo, reliability]
 ---
 

@@ -2,7 +2,7 @@
 title: "AlloyDB CLI Usage"
 date: 2026-06-01
 tags: [skills]
-updated: 2026-06-08
+updated: 2026-06-10
 ---
 
 # AlloyDB CLI Usage

@@ -7,7 +7,7 @@ tags:
   - prod
   - gratuita
 date: 2026-04-27
-updated: 2026-06-08
+updated: 2026-06-10
 ---
 
 # Docker Prod Gratuito [[README]]

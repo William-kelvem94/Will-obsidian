@@ -1,7 +1,7 @@
 ---
 title: "Will-Pessoal"
 date: 2026-06-07
-updated: 2026-06-08
+updated: 2026-06-10
 type: moc
 status: active
 tags: [will-pessoal, contexto, sensivel, organizacao, perfil]

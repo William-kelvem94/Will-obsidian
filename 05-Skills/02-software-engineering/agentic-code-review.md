@@ -2,7 +2,7 @@
 title: "Agentic Code Review — Guia Avançado de Revisão Autônoma de Código"
 description: "Framework conceitual e prático para revisão de código conduzida por agentes autônomos, focado em regressão, segurança, contratos e edge-cases."
 tags: [skill, software-engineering, code-review, agents, quality-assurance, skills-eng]
-updated: 2026-06-08
+updated: 2026-06-10
 status: active
 date: 2026-06-01
 ---

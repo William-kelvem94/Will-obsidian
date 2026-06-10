@@ -2,7 +2,7 @@
 title: "Cérebro Will - Base Completa Perfil + Projetos"
 description: "Base de conhecimento RAG-ready completa sobre William Pereira (kelvem94) para uso com Ollama + FAISS. Perfil detalhado, skills, 67 repositórios, clones locais e visão de futuro."
 tags: [cerebro, rag, perfil, projetos, second-brain, perfil-identidade]
-updated: 2026-06-08
+updated: 2026-06-10
 date: 2026-06-05
 ---
 

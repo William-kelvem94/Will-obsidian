@@ -3,7 +3,7 @@ title: "Test Pyramid (Realistic) for Agents"
 description: "Piramide de testes pragmatica para agentes: unit, integration, contract, e2e, e testes de migracao."
 tags: [software-engineering, testing, agents, skills-eng]
 date: 2026-05-08
-updated: 2026-06-08
+updated: 2026-06-10
 ---
 
 # Test Pyramid (Realistic) for Agents

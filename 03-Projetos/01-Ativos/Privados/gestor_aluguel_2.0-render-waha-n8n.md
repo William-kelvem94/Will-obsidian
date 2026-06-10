@@ -2,7 +2,7 @@
 title: "Gestor de Aluguel 2.0 - Render, WAHA e n8n"
 date: 2026-06-01
 tags: [projetos, privados]
-updated: 2026-06-08
+updated: 2026-06-10
 ---
 
 # Gestor de Aluguel 2.0 - Render, WAHA e n8n

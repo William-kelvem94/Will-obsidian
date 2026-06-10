@@ -4,7 +4,7 @@ description: Audio and video manipulation commands, transcoding pipelines, filte
 title: "FFmpeg Media Processing Skill"
 date: 2026-06-08
 tags: [skills, media, video, audio, ffmpeg, coding]
-updated: 2026-06-08
+updated: 2026-06-10
 ---
 
 # FFmpeg Media Processing Skill

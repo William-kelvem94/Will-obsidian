@@ -4,7 +4,7 @@ description: Guidelines for LLM fine-tuning, RAG system design, LLMOps pipelines
 title: "LLMOps & Fine-Tuning Skill"
 date: 2026-06-08
 tags: [skills, ai, llms, llmops, rag, fine-tuning]
-updated: 2026-06-08
+updated: 2026-06-10
 ---
 
 # LLMOps & Fine-Tuning Skill

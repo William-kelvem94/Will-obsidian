@@ -1,6 +1,6 @@
 ---
 tags: [skills, skills-eng, mobile, react-native, flutter, ios, android, mobile-architecture]
-updated: 2026-06-08
+updated: 2026-06-10
 title: "Desenvolvimento Mobile - React Native, Flutter e Padroes Nativos"
 date: 2026-05-16
 ---

@@ -4,7 +4,7 @@ category: "DevOps"
 level: 3
 description: "Rules for pages vs tickets, alert quality, and a small set of default alerts."
 date: 2026-05-08
-updated: 2026-06-08
+updated: 2026-06-10
 tags: [skills, devops, alerts, reliability]
 ---
 

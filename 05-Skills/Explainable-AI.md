@@ -5,7 +5,7 @@ tags: [conhecimento, conceito, xai, explicabilidade, interpretabilidade, ia-expl
 related: ["Machine-Learning-Fundamentos", "Etica-em-IA", "EU-AI-Act"]
 aliases: ["XAI", "Interpretable ML", "Explainable Machine Learning", "Explainability"]
 created: 2026-05-19
-updated: 2026-06-08
+updated: 2026-06-10
 date: 2026-06-01
 ---
 

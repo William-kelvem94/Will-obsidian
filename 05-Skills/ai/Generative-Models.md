@@ -15,7 +15,7 @@ resources:
   - "Tutoriais de geracao multimodal"
 date: 2026-04-29
 tags: [skills, ai, generative-models]
-updated: 2026-06-08
+updated: 2026-06-10
 ---
 
 # Generative Models

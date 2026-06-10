@@ -2,7 +2,7 @@
 title: "Agentic Debugging — O Método de Investigação Científica de Bugs por IAs"
 description: "Guia completo de diagnóstico de falhas, formulação científica de hipóteses, isolamento de variáveis e validação baseada em evidência para agentes de IA."
 tags: [skill, software-engineering, debug, agents, root-cause, telemetry, skills-eng]
-updated: 2026-06-08
+updated: 2026-06-10
 status: active
 date: 2026-06-01
 ---

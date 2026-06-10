@@ -4,7 +4,7 @@ category: "Frontend"
 level: 3
 description: "Patterns for internationalization: message organization, formatting, pluralization, dates, and routing."
 tags: [skills, frontend, i18n, localization]
-updated: 2026-06-08
+updated: 2026-06-10
 date: 2026-06-01
 ---
 

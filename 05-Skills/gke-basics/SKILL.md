@@ -8,7 +8,7 @@ description: "Plan, create, and configure production-ready Google Kubernetes Eng
 title: "Google Kubernetes Engine (GKE) Basics"
 date: 2026-06-01
 tags: [skills]
-updated: 2026-06-08
+updated: 2026-06-10
 ---
 
 # Google Kubernetes Engine (GKE) Basics

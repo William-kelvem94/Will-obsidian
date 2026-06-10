@@ -2,7 +2,7 @@
 title: "Advanced Reasoning Patterns: ReAct, ToT, CoT e Reflexion"
 description: "Analise profunda dos padroes de raciocinio avancado utilizados por agentes LLM para tomada de decisao e resolucao de problemas complexos."
 tags: [agentic, reasoning, react, tot, cot, reflexion, skills-ai]
-updated: 2026-06-08
+updated: 2026-06-10
 date: 2026-06-01
 ---
 

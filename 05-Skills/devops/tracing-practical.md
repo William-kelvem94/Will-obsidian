@@ -4,7 +4,7 @@ category: "DevOps"
 level: 3
 description: "Distributed tracing patterns for latency breakdowns and dependency debugging."
 date: 2026-05-08
-updated: 2026-06-08
+updated: 2026-06-10
 tags: [skills, devops, traces, performance]
 ---
 

@@ -6,7 +6,7 @@ description: "Skill para selecionar, promover e limpar memorias usadas por agent
 projects: []
 related_skills: [memory-management, memory-architectures]
 resources: []
-updated: 2026-06-08
+updated: 2026-06-10
 date: 2026-06-01
 tags: [skills-knowledge]
 ---

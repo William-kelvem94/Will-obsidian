@@ -3,7 +3,7 @@ title: "{{title}}"
 date: {{date}}
 tags: [template, projeto, jarvis, jarvis-sistema]
 status: ideia
-updated: 2026-06-08
+updated: 2026-06-10
 ---
 
 # {{title}}

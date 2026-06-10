@@ -1,6 +1,6 @@
 ---
 tags: [skills, skills-ai, categories, taxonomy]
-updated: 2026-06-08
+updated: 2026-06-10
 title: "Categorias de Skills para IA"
 date: 2026-06-01
 ---

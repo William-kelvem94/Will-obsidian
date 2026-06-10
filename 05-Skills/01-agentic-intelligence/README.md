@@ -1,7 +1,7 @@
 ---
 tags: [skills, skills-ai, inteligencia-agentica, hub]
 projetos_relacionados: [PROJECT_JARVIS_5.0]
-updated: 2026-06-08
+updated: 2026-06-10
 title: "Inteligencia Agentica — Hub de Skills JARVIS"
 date: 2026-06-01
 ---

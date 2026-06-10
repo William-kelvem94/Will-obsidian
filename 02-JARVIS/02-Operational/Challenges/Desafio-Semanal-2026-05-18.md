@@ -10,7 +10,7 @@ empty_notes_found: 31
 tags: [desafio, semanal, manutencao, vault, jarvis-operacao]
 status: rascunho
 date: 2026-06-01
-updated: 2026-06-08
+updated: 2026-06-10
 ---
 
 # 🎯 Desafio Semanal — Semana de 2026-05-18

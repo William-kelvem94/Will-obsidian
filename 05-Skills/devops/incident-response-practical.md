@@ -4,7 +4,7 @@ category: "DevOps"
 level: 3
 description: "A lightweight, repeatable incident process that works with human + agent teams."
 date: 2026-05-08
-updated: 2026-06-08
+updated: 2026-06-10
 tags: [skills, devops, incident, runbook]
 ---
 

@@ -3,7 +3,7 @@ title: "Leaderboard de XP - Skills"
 generated: 2026-06-06 16:24:07
 tags: [skills, xp, leaderboard, auto]
 date: 2026-06-07
-updated: 2026-06-08
+updated: 2026-06-10
 ---
 
 # Leaderboard de XP - Skills

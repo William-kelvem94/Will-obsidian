@@ -8,7 +8,7 @@ tag:
   - fullstack
 date: 2026-04-27
 tags: [privados, projetos]
-updated: 2026-06-08
+updated: 2026-06-10
 ---
 
 # PROJECT_JARVIS_5.0 Knowledge Base

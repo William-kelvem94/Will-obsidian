@@ -2,7 +2,7 @@
 title: "gestor_aluguel_2.0 Codebase Map"
 description: "Mapa RAG-friendly do gestor_aluguel_2.0 para agentes de programacao."
 created: 2026-05-08
-updated: 2026-06-08
+updated: 2026-06-10
 type: codebase-map
 project: gestor_aluguel_2.0
 domain: engineering

@@ -1,6 +1,6 @@
 ---
 tags: [skills, skills-eng, typescript, type-system, generics, utility-types]
-updated: 2026-06-08
+updated: 2026-06-10
 title: "TypeScript Avancado - Sistema de Tipos, Genericos e Programacao em Nivel de Tipo"
 date: 2026-05-16
 ---

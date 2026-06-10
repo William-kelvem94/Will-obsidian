@@ -2,7 +2,7 @@
 title: "Testing Architecture"
 description: "Comprehensive testing strategies for full-stack applications"
 tags: [testing, tdd, quality-assurance, automation, best-practices, skills-eng]
-updated: 2026-06-08
+updated: 2026-06-10
 date: 2026-04-27
 ---
 

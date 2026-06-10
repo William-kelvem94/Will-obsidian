@@ -3,7 +3,7 @@ title: "Sistemas de RAG Avançado no Vault"
 description: "Playbook para melhorar precisão, manutenção e avaliação do RAG local do JARVIS sem duplicar o guia básico."
 tags: [rag, embeddings, busca-semantica, engenharia, jarvis, playbook, jarvis-engenharia]
 date: 2026-05-20
-updated: 2026-06-08
+updated: 2026-06-10
 ---
 
 # Sistemas de RAG Avançado no Vault

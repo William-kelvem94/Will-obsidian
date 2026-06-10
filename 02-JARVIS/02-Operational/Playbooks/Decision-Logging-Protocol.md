@@ -2,7 +2,7 @@
 title: "Decision Logging Protocol"
 description: "A reusable protocol for capturing operational decisions with context, alternatives, rationale, impact, and review triggers."
 tags: [jarvis, decision, protocol, ops, rag, jarvis-operacao]
-updated: 2026-06-08
+updated: 2026-06-10
 status: active
 date: 2026-06-01
 ---

@@ -2,7 +2,7 @@
 title: "MOVIDO — Projetos Privados"
 date: 2026-05-16
 tags: [redirecionamento, movido, projetos, privados]
-updated: 2026-06-08
+updated: 2026-06-10
 ---
 
 > ⚠️ Este diretório foi consolidado em `Projetos/01-Ativos/Privados/`.

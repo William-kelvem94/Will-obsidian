@@ -2,7 +2,7 @@
 title: "Operational Dashboard — Current State"
 description: "Real-time snapshot of active projects, energy, blockers, and weekly metrics"
 tags: [operational, dashboard, status, focus, jarvis-operacao]
-updated: 2026-06-08
+updated: 2026-06-10
 date: 2026-05-16
 ---
 

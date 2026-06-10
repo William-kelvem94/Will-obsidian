@@ -4,7 +4,7 @@ description: Software engineering principles, SOLID design, architectural patter
 title: "Clean Architecture & Design Patterns"
 date: 2026-06-08
 tags: [skills, programming, software-engineering, patterns, solid, skills-eng]
-updated: 2026-06-08
+updated: 2026-06-10
 ---
 
 # Clean Architecture & Design Patterns Skill

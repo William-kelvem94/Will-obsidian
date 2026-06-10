@@ -2,7 +2,7 @@
 title: "Hub de Projetos (MOC)"
 description: "Mapa de Conteúdo para todos os projetos públicos e privados."
 tags: [hub, projetos, moc]
-updated: 2026-06-08
+updated: 2026-06-10
 date: 2026-06-08
 ---
 

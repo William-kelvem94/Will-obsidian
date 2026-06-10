@@ -2,7 +2,7 @@
 title: "Prisma Cheat Sheet"
 description: "Quick reference for Prisma ORM"
 tags: [cheatsheet, prisma, orm, database, typescript, jarvis-engenharia]
-updated: 2026-06-08
+updated: 2026-06-10
 date: 2026-04-27
 ---
 

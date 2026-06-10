@@ -1,6 +1,6 @@
 ---
 tags: [skills, skills-ai, jarvis, prompts, agent]
-updated: 2026-06-08
+updated: 2026-06-10
 title: "Prompts para PROJECT_JARVIS_5.0"
 date: 2026-06-01
 ---
