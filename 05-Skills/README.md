@@ -10,11 +10,13 @@ summary: "Area canonica para habilidades tecnicas, capacidades e indices por dom
 
 # Skills
 
-Esta pasta contem o destino canonico para habilidades tecnicas, capacidades e documentacao reutilizavel do vault.
+Este diretorio contem o destino canonico para habilidades tecnicas, capacidades e documentacao reutilizavel do vault.
 
 ## Caminho principal
 
 - [[../01-Hubs/Hub-Skills|Hub de Skills]]
+- [[INDEX|Indice de Skills]]
+- [[ROADMAP-EXPANSAO|Roadmap de Expansao de Skills]]
 
 ## Organizacao por dominio
 
@@ -64,3 +66,51 @@ Uma skill deve ter:
 ## Escala de crescimento
 
 Quando um dominio crescer rapido, use um `INDEX` auxiliar por subpasta sem alterar o indice principal ate o mapa estabilizar.
+
+## Navegacao rapida
+
+- [[../skills/01-agentic-intelligence/README|Agentic Intelligence - fluxos/agents]]
+- [[../skills/02-software-engineering/README|Engenharia de Software (Fullstack)]]
+- [[../skills/03-infrastructure-mcp/README|Infraestrutura & MCP]]
+- [[../skills/04-knowledge-systems/INDEX|Sistemas de Conhecimento, RAG, Memoria]]
+- [[../skills/ai/|IA - Generative, RL, MLOps, Prompt Engineering]]
+- [[../skills/devops/|DevOps e Observabilidade]]
+- [[../skills/softskills/|Softskills, Product Management, Comunicacao]]
+- [[../skills/frontend/|Frontend (Web Components, JS, etc)]]
+
+### Capacidades de Agentes
+
+- [[../skills/AGENT-FULLSTACK-CAPABILITIES|Fullstack Agent]] - stack completo de programacao para agentes IA
+- [[../skills/AGENT-RESEARCH-CAPABILITIES|Research Agent]] - metodologia de pesquisa tecnica e cientifica
+
+## Como esta organizado?
+
+- Cada subpasta e uma trilha tematica, nao um time.
+- Use os READMEs para entender area/trilha; links cruzados sempre nos hubs e indexes.
+- [[INDEX]] central referencia skills em projetos e dashboards.
+
+## Visualizacao rapida da arvore
+
+```text
+skills/
+  README.md
+  INDEX.md
+  ROADMAP-EXPANSAO.md
+  01-agentic-intelligence/
+  02-software-engineering/
+  03-infrastructure-mcp/
+  04-knowledge-systems/
+  ai/  devops/  frontend/  softskills/
+```
+
+## Painel: skills usados e relevantes
+
+- Veja dashboard: [[dashboards/Skill-Project-Matrix-Dinamica]]
+- Todo skill/projeto relevante usa campos `skills_usados` e `projetos_relacionados` para integracao.
+
+## Proxima etapa
+
+- Fechar padrao canonico de skill.
+- Expandir trilhas rasas.
+- Reduzir drift entre `skills/`, `.agents/skills` e `.continue/skills`.
+

@@ -4,7 +4,7 @@ description: Generates reliability-focused guidance for Google Cloud workloads b
 title: "Google Cloud Well-Architected Framework skill for the Reliability pillar"
 date: 2026-06-01
 tags: [skills]
-updated: 2026-06-01
+updated: 2026-06-07
 ---
 
 # Google Cloud Well-Architected Framework skill for the Reliability pillar

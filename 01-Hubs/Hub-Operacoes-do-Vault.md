@@ -1,11 +1,11 @@
 ---
 title: "Hub de Operacoes do Vault"
-date: 2026-06-07
-updated: 2026-06-08
+date: 2026-06-10
+updated: 2026-06-10
 type: moc
 status: active
 tags: [hub, vault-ops, manutencao, organizacao]
-summary: "Hub de manutencao, governanca, migracao fisica e operacoes do Obsidian."
+summary: "Hub de manutencao, governanca, sincronizacao e expansao operacional do vault."
 ---
 
 # Hub de Operacoes do Vault
@@ -14,7 +14,14 @@ Este hub reune as notas de manutencao, governanca e reorganizacao fisica do Obsi
 
 ## Entradas principais
 
+- [[../Vault-Ops|Vault Operations]]
+- [[../Vault-Hierarchy-Map|Mapa de Hierarquia do Vault]]
+- [[../Master-Glossary|Glossario Mestre]]
+- [[../Graph-Legenda|Legenda do Grafo]]
 - [[../07-Operacoes-do-Vault/README|Operacoes do Vault]]
+- [[../07-Operacoes-do-Vault/inventario-mestre-do-vault|Inventario Mestre do Vault]]
+- [[../07-Operacoes-do-Vault/mapa-de-maturidade-e-gaps|Mapa de Maturidade e Gaps]]
+- [[../07-Operacoes-do-Vault/registro-mcps|Registro de MCPs]]
 - [[../07-Operacoes-do-Vault/Reestruturacao-Geral-do-Vault]]
 - [[../07-Operacoes-do-Vault/Inventario-Inicial-do-Vault]]
 - [[../07-Operacoes-do-Vault/Mapa-de-Migracao-Fisica-do-Vault]]
@@ -27,6 +34,7 @@ Este hub reune as notas de manutencao, governanca e reorganizacao fisica do Obsi
 | `reorganizar-vault-simulacao.bat` | simula a migracao sem mover arquivos |
 | `reorganizar-vault-aplicar.bat` | aplica a migracao fisica apos confirmacao |
 | `09-Sistema/scripts/reorganizar-vault.ps1` | script PowerShell principal |
+| `09-Sistema/scripts/generate_vault_inventory.py` | gera inventario e baseline do vault |
 
 ## Operacoes importantes
 
@@ -37,7 +45,9 @@ Este hub reune as notas de manutencao, governanca e reorganizacao fisica do Obsi
 - padronizacao de YAML;
 - limpeza de duplicidades;
 - preparo para RAG;
-- revisao de dados sensiveis.
+- revisao de dados sensiveis;
+- catalogo de MCPs e tools;
+- expansao massiva com dados auditaveis.
 
 ## Regras de manutencao
 
@@ -69,3 +79,6 @@ Este hub reune as notas de manutencao, governanca e reorganizacao fisica do Obsi
 - Criar inventarios por pasta.
 - Criar politica de dados sensiveis para RAG.
 - Atualizar `Vault-Hierarchy-Map` depois da migracao fisica.
+- Conectar dashboards ao inventario mestre e ao registry de MCPs.
+- Promover o roadmap de skills como ponto de entrada para a expansao.
+

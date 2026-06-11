@@ -4,7 +4,7 @@ description: Use this skill whenever you are working on a project that uses Fire
 title: "Firebase Basics"
 date: 2026-06-01
 tags: [skills]
-updated: 2026-06-01
+updated: 2026-06-07
 ---
 
 # Firebase Basics
