@@ -19,3 +19,6 @@ summary: "Ponto de entrada para modelos generativos, RL, tuning e MLOps."
 - MLOps and evaluation;
 - explainability and fairness.
 
+## Existing material
+
+- [[prompt-engineering-operational|Operational Prompt Engineering]]

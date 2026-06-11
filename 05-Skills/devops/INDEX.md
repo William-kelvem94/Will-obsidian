@@ -15,4 +15,4 @@ summary: "Index for DevOps, operations, observability and incident practice."
 - [[runbooks-for-agents|Runbooks for Agents]]
 - [[minimal-alerting-policy|Minimal Alerting Policy]]
 - [[incident-response-practical|Incident Response]]
-
+- [[alert-design|Alert Design]]

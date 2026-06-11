@@ -24,6 +24,14 @@ summary: "Sintese operacional de como o vault deve funcionar como sistema de con
 - open questions over false certainty;
 - repeatable workflows over ad-hoc edits.
 
+## Maintenance lens
+
+- metadata hygiene;
+- freshness review;
+- duplicate merging;
+- orphan detection;
+- explicit ownership for sensitive or operational notes.
+
 ## Expansion rule
 
 Every new note should make one of these better:
@@ -33,4 +41,3 @@ Every new note should make one of these better:
 - decision-making;
 - learning;
 - operational maintenance.
-

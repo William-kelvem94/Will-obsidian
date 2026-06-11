@@ -44,6 +44,15 @@ Cada MCP deve declarar:
 - modo de falha;
 - testes de integridade.
 
+## Template minimo
+
+- owner definido;
+- changelog por versao;
+- exemplos de chamadas;
+- limites de taxa ou volume;
+- criterios de aprovacao;
+- trilha de auditoria.
+
 ## Politica de seguranca
 
 1. Tool com escrita soh entra com limite de escopo.
@@ -51,6 +60,16 @@ Cada MCP deve declarar:
 3. Tudo que move arquivo precisa de allowlist e rollback possivel.
 4. Integracoes externas precisam de logs e separacao de responsabilidade.
 5. MCPs de analise e busca devem ser default read-only quando possivel.
+
+## Maturidade desejada
+
+| Nivel | Caracteristica |
+|---|---|
+| experimental | prova de conceito local, escopo minimo |
+| utilitario | uso real, contrato basico, logs |
+| confiavel | testes, rollback, limites definidos |
+| governado | owner, revisao, auditoria, politica |
+| estrategico | integracao ampla, monitoramento e suporte |
 
 ## Ordem recomendada de expansao
 
@@ -62,4 +81,10 @@ Cada MCP deve declarar:
 6. `code-intel-mcp`
 7. `workflow-orchestrator-mcp`
 8. `filesystem-mcp` ampliado
+
+## Documentos de apoio
+
+- [[modelo-de-contrato-mcp|Modelo de Contrato MCP]]
+- [[matriz-de-maturidade-mcp|Matriz de Maturidade MCP]]
+- [[politica-de-seguranca-mcp|Politica de Seguranca MCP]]
 

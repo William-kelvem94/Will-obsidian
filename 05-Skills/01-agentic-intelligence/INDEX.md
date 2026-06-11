@@ -97,6 +97,7 @@ skills/01-agentic-intelligence/
 | [[quick-start.md]] | Comandos rapidos para ambiente Windows e VS Code | ~100 |
 | [[advanced-workflows.md]] | Workflows complexos para projetos avancados | ~100 |
 | [[autonomous-workflow.md]] | Workflow autonomo com ciclo completo | ~100 |
+| [[browser-automation.md]] | Automacao de navegador para coleta, verificacao e research | ~80 |
 
 ## Guia de Navegacao Rapida
 
@@ -107,6 +108,7 @@ skills/01-agentic-intelligence/
 5. **Memoria e RAG**: Estude [[memory-architectures.md]] e [[project-jarvis-prompts.md]].
 6. **Producao de prompts**: Consulte [[prompts.md]], [[templates.md]] e [[direct-agent-prompts.md]].
 7. **Referencia rapida**: Utilize [[quick-reference.md]] e [[best-practices.md]].
+8. **Browser automation**: Consulte [[browser-automation.md]] para coleta e verificacao operacional.
 
 ## Convencoes do Hub
 

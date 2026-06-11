@@ -13,4 +13,4 @@ summary: "Index for soft skills, communication, management and collaboration."
 - [[README|README]]
 - [[Comunicacao-Tecnica|Technical Communication]]
 - [[Product-Management|Product Management]]
-
+- [[technical-writing|Technical Writing]]

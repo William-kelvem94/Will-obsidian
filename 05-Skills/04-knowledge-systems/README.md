@@ -26,4 +26,4 @@ summary: "Ponto de entrada para RAG, memoria, curadoria e desenho de notas."
 - [[memory-curation-for-agents|Memory Curation for Agents]]
 - [[rag-friendly-note-design|RAG Friendly Note Design]]
 - [[obsidian-neural-vault|Obsidian Neural Vault]]
-
+- [[rag-evaluation|RAG Evaluation]]

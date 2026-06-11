@@ -27,10 +27,18 @@ O vault precisa de dois tipos de massa ao mesmo tempo:
 - life operations;
 - philosophy and human sciences.
 
+## Clusters prioritarios
+
+- critical thinking and decision quality;
+- metacognition and learning;
+- privacy, safety and risk;
+- technology literacy;
+- productivity and personal operations;
+- systems, feedback and reliability.
+
 ## Pattern de expansao
 
 - fonte -> conceito -> sintese -> analise -> acao;
 - notas curtas ligadas a hubs;
 - pouco texto vazio, mais relacao entre ideias;
 - cada nova pagina precisa responder uma pergunta futura.
-
