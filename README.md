@@ -1,88 +1,78 @@
-# 🧠 Will Vault - Obsidian Neural Hub
+# Will Vault - Obsidian Neural Hub
 
-Este repositório é o vault principal do Obsidian do Will. Ele organiza conhecimento, projetos, JARVIS, skills, vida pessoal, operações do vault e suporte técnico para uso com IA, RAG e automações.
+Este repositorio e o vault principal do Obsidian do Will. A estrutura numerada abaixo e a fonte canonica para navegacao, conhecimento, projetos, JARVIS, skills, vida pessoal, operacoes do vault, sistema tecnico, dados brutos e templates.
 
-Para navegação humana dentro do Obsidian, comece por:
+Para navegar, comece por:
 
 - [[Bem-vindo|Neural Hub]]
 - [[INDEX|INDEX global]]
 - [[01-Hubs/README|Hubs Centrais do Vault]]
+- [[07-Operacoes-do-Vault/README|Operacoes do Vault]]
 
-## 🚀 Estrutura física principal
+## Estrutura fisica canonica
 
 ```txt
 Will-obsidian/
-├── 00-Inbox/
-├── 01-Hubs/
-├── 02-JARVIS/
-├── 03-Projetos/
-├── 04-Conhecimentos/
-├── 05-Skills/
-├── 06-Will-Pessoal/
-├── 07-Operacoes-do-Vault/
-├── 08-Arquivo/
-├── 09-Sistema/
-├── 10-Interfaces/
-├── 11-Dados-Brutos/
-└── 99-Templates/
+├── 00-Inbox/              <- Entrada e triagem
+├── 01-Hubs/               <- Navegacao superior e mapas
+├── 02-JARVIS/             <- Identidade, memoria, arquitetura e playbooks
+├── 03-Projetos/           <- Projetos ativos, estudo, documentos e arquivo de projeto
+├── 04-Conhecimentos/      <- Conhecimento curado e wiki de dominio
+├── 05-Skills/             <- Skills, capacidades e indices por dominio
+├── 06-Will-Pessoal/       <- Contexto pessoal, rotina e informacoes sensiveis
+├── 07-Operacoes-do-Vault/ <- Inventarios, migracao, auditoria e manutencao
+├── 08-Arquivo/            <- Legado preservado e notas fora do fluxo ativo
+├── 09-Sistema/            <- Regras, schemas, scripts e integracoes tecnicas
+├── 11-Dados-Brutos/       <- Fontes, bases e clippings sem curadoria
+└── 99-Templates/          <- Modelos reutilizaveis
 ```
 
-## 🧭 Função das áreas
+## Papel de cada area
 
-| Área | Função |
+| Area | Papel |
 |---|---|
-| `00-Inbox/` | entrada temporária para ideias, capturas e rascunhos |
-| `01-Hubs/` | navegação superior do vault |
-| `02-JARVIS/` | IA, agentes, memória e arquitetura do JARVIS |
-| `03-Projetos/` | projetos, objetivos, execução e portfólio |
-| `04-Conhecimentos/` | base consolidada de conhecimento técnico, estudos e vida prática |
-| `05-Skills/` | habilidades técnicas e capacidades reutilizáveis |
-| `06-Will-Pessoal/` | contexto pessoal e dados sensíveis |
-| `07-Operacoes-do-Vault/` | manutenção, inventários, migração e governança |
-| `08-Arquivo/` | legado preservado e conteúdos fora do fluxo ativo |
-| `09-Sistema/` | configurações, scripts, instruções técnicas, testes e schemas |
-| `10-Interfaces/` | painéis, dashboards, canvases e web-ui |
-| `11-Dados-Brutos/` | dados brutos, clippings e bases importadas |
-| `99-Templates/` | modelos reutilizáveis globais |
+| `00-Inbox/` | ponto de entrada para capturas, ideias e triagem inicial |
+| `01-Hubs/` | camada superior de navegacao, dashboards e mapas |
+| `02-JARVIS/` | nucleo operacional de IA: memoria, identidade, arquitetura e aprendizado |
+| `03-Projetos/` | projetos por status, plano, suporte e historico |
+| `04-Conhecimentos/` | conhecimento estavel organizado por dominio |
+| `05-Skills/` | habilidades tecnicas, workflows e capacidades reutilizaveis |
+| `06-Will-Pessoal/` | contexto pessoal, rotina, saude e informacoes sensiveis |
+| `07-Operacoes-do-Vault/` | inventarios, status, migracao, auditoria e saude do vault |
+| `08-Arquivo/` | legado preservado sem apagar historico |
+| `09-Sistema/` | schema, agentes, scripts, validacoes e governanca tecnica |
+| `11-Dados-Brutos/` | dados brutos, fontes originais e materiais ainda nao curados |
+| `99-Templates/` | modelos canonicos para notas, projetos e operacao |
 
-## 📚 Bases ainda em migração
+## Sistema tecnico
 
-Durante a reorganização, algumas pastas antigas ainda existem e serão migradas por blocos:
+Os arquivos tecnicos do vault vivem em `09-Sistema/` e seguem a separacao:
 
-- `Conhecimentos-Gerais/`
-- `Conhecimento-Geral/`
-- `Knowledge-Base/`
-- `JARVIS/`
-- `Projetos/`
-- `skills/`
-- `Will-Pessoal/`
-- `dashboards/`
-- `raw/`
-- `wiki/`
+- `11-Dados-Brutos/` para evidencia e fontes;
+- `04-Conhecimentos/` para sintese e conhecimento curado;
+- `09-Sistema/schema/` para regras, contratos e governanca;
+- `09-Sistema/agents/` para instrucoes operacionais de modelos e agentes;
+- `09-Sistema/scripts/` para automacoes e suporte tecnico.
 
-A nova estrutura já está sendo usada como destino oficial, mas a migração completa deve preservar links e conteúdo.
+## Governanca e migracao
 
-## 🛠️ Sistema técnico
+A migracao fisica e a organizacao do vault sao acompanhadas por:
 
-Arquivos técnicos agora ficam principalmente em `09-Sistema/`:
-
-- `09-Sistema/agents/` — instruções para agentes e modelos.
-- `09-Sistema/config/` — configurações técnicas.
-- `09-Sistema/scripts/` — scripts e atalhos de reorganização.
-- `09-Sistema/schema/` — estrutura e contratos técnicos, quando migrado.
-- `09-Sistema/tests/` — testes, quando migrado.
-
-Alguns arquivos continuam na raiz porque ferramentas esperam encontrá-los ali, como `.gitignore`, `.env.example`, `.mcp.json`, `.pre-commit-config.yaml`, `requirements.txt` e arquivos de lock.
-
-## 🔎 Reorganização do vault
-
-A migração física é guiada por:
-
+- [[07-Operacoes-do-Vault/README]]
 - [[07-Operacoes-do-Vault/Reestruturacao-Geral-do-Vault]]
 - [[07-Operacoes-do-Vault/Inventario-Inicial-do-Vault]]
 - [[07-Operacoes-do-Vault/Mapa-de-Migracao-Fisica-do-Vault]]
+- [[07-Operacoes-do-Vault/Status-da-Migracao-Fisica]]
 
-## 📦 Como clonar e usar
+## Regras rapidas
+
+- preserve o legado em `08-Arquivo/` enquanto existirem links antigos;
+- prefira um unico hub por dominio;
+- mantenha metadados em notas centrais;
+- nao misture dado bruto com sintese;
+- nao mova em massa sem validar links e hubs.
+
+## Como abrir
 
 ```bash
 git clone https://github.com/William-kelvem94/Will-obsidian.git
@@ -91,14 +81,3 @@ pip install -r requirements.txt
 ```
 
 Depois, abra a pasta no Obsidian.
-
-## ☁️ Backup e segurança
-
-- Git mantém histórico de alterações.
-- Recomenda-se backup externo ou pasta sincronizada.
-- Dados pessoais devem ser tratados com cuidado antes de indexação por IA/RAG.
-- Arquivos sensíveis não devem ser expostos em notas públicas ou automações sem revisão.
-
----
-
-Gerenciado por William Kelvem.

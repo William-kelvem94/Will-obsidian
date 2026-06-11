@@ -7,5 +7,5 @@ echo.
 echo Iniciando servidor em http://localhost:8080
 echo Pressione Ctrl+C para parar.
 echo.
-python -m http.server 8080 -d "%~dp0web-ui"
+python -m http.server 8080 -d "%~dp001-Hubs\web-ui"
 pause

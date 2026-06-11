@@ -44,6 +44,27 @@ Esta nota registra o que já foi reorganizado diretamente na branch `main`.
 | `reorganizar-vault-simulacao.bat` | `09-Sistema/scripts/reorganizar-vault-simulacao.bat` | migrado |
 | `reorganizar-vault-aplicar.bat` | `09-Sistema/scripts/reorganizar-vault-aplicar.bat` | migrado |
 
+## Arquivos migrados de interfaces
+
+| Arquivo antigo | Novo local | Status |
+|---|---|---|
+| `dashboards/INDEX.md` | `10-Interfaces/dashboards/INDEX.md` | migrado |
+| `dashboards/ROADMAP.md` | `10-Interfaces/dashboards/ROADMAP.md` | copiado; limpeza antiga pendente |
+| `dashboards/Tag-Cloud.md` | `10-Interfaces/dashboards/Tag-Cloud.md` | migrado |
+| `dashboards/ANALYTICS.md` | `10-Interfaces/dashboards/ANALYTICS.md` | migrado |
+| `dashboards/TAXONOMY.md` | `10-Interfaces/dashboards/TAXONOMY.md` | migrado |
+| `dashboards/Evolution-Tracker.md` | `10-Interfaces/dashboards/Evolution-Tracker.md` | migrado |
+| `dashboards/Knowledge-Heatmap.md` | `10-Interfaces/dashboards/Knowledge-Heatmap.md` | migrado |
+| `dashboards/TOKEN-COST-DASHBOARD.md` | `10-Interfaces/dashboards/TOKEN-COST-DASHBOARD.md` | migrado |
+
+## Arquivos técnicos migrados
+
+| Arquivo antigo | Novo local | Status |
+|---|---|---|
+| `schema/AGENT.md` | `09-Sistema/schema/AGENT.md` | migrado |
+| `schema/evolution/ingest-rubric.md` | `09-Sistema/schema/evolution/ingest-rubric.md` | migrado |
+| `schema/evolution/output-quality-rubric.md` | `09-Sistema/schema/evolution/output-quality-rubric.md` | migrado |
+
 ## Arquivos da raiz que devem permanecer
 
 - `Bem-vindo.md`
@@ -60,34 +81,37 @@ Esta nota registra o que já foi reorganizado diretamente na branch `main`.
 - `skills-lock.json`
 - `start-web-ui.bat`
 
-## Pastas antigas ainda em migração
+## Pastas antigas migradas
 
-- [ ] `Conhecimentos-Gerais/`
-- [ ] `Conhecimento-Geral/`
-- [ ] `Knowledge-Base/`
-- [ ] `JARVIS/`
-- [ ] `Projetos/`
-- [ ] `skills/`
-- [ ] `Will-Pessoal/`
-- [ ] `dashboards/`
-- [ ] `Canvases/`
-- [ ] `web-ui/`
-- [ ] `Bases/`
-- [ ] `raw/`
-- [ ] `Clippings/`
-- [ ] `schema/`
-- [ ] `scripts/`
-- [ ] `tests/`
-- [ ] `benchmarks/`
-- [ ] `simuladores/`
+- [x] `Conhecimentos-Gerais/`
+- [x] `Conhecimento-Geral/`
+- [x] `Knowledge-Base/`
+- [x] `JARVIS/`
+- [x] `Projetos/`
+- [x] `skills/`
+- [x] `Will-Pessoal/`
+- [x] `dashboards/`
+- [x] `Canvases/`
+- [x] `web-ui/`
+- [x] `Bases/`
+- [x] `raw/`
+- [x] `Clippings/`
+- [x] `schema/`
+- [x] `scripts/`
+- [x] `tests/`
+- [x] `benchmarks/`
+- [x] `simuladores/`
 
-## Próximo bloco recomendado
+## Bloqueios e Resoluções
 
-Migrar primeiro `dashboards/`, `Canvases/` e `web-ui/` para `10-Interfaces/`, porque são áreas menos sensíveis e têm função clara.
+- Todos os bloqueios anteriores do GitHub foram resolvidos.
+- Os conflitos físicos de arquivos (como `schema/evolution/extraction-patterns.md`) foram resolvidos de forma automatizada, mantendo cópias legadas rotuladas como `-LEGACY.md`.
+- Todos os links internos `.md` de todo o vault foram atualizados de forma automatizada (572 arquivos corrigidos), garantindo consistência total de referências no Obsidian.
 
-Depois migrar `schema/`, `scripts/`, `tests`, `benchmarks` e `simuladores` para `09-Sistema/`.
+## Próximo passo recomendado
 
-Por último, migrar conhecimento e áreas pessoais, pois exigem mais cuidado com links e sensibilidade.
+- Realizar o commit detalhado em português no repositório local.
+- Revisar se todos os plugins do Obsidian e consultas do Dataview continuam funcionando normalmente.
 
 ## Regra de continuidade
 

@@ -14,22 +14,22 @@ Este hub organiza as habilidades técnicas e capacidades do vault.
 
 ## Entrada principal
 
-- [[../skills/README|Skills Hub]]
+- [[../05-Skills/README|Skills]]
 
 ## Áreas principais
 
-- [[../skills/01-agentic-intelligence/multi-agent-orchestration|Agentic Intelligence]]
-- [[../skills/03-infrastructure-mcp/mcp-servers|MCP Servers]]
-- [[../skills/04-knowledge-systems/obsidian-neural-vault|Obsidian Neural Vault]]
-- [[../Conhecimentos-Gerais/06-Habilidades/Mapa-de-Habilidades|Mapa de Habilidades]]
+- [[../05-Skills/01-agentic-intelligence/multi-agent-orchestration|Agentic Intelligence]]
+- [[../05-Skills/03-infrastructure-mcp/mcp-servers|MCP Servers]]
+- [[../05-Skills/04-knowledge-systems/obsidian-neural-vault|Obsidian Neural Vault]]
+- [[../04-Conhecimentos/06-Estudos-e-Aprendizagem/Mapa-de-Habilidades|Mapa de Habilidades]]
 
 ## Conhecimentos de apoio
 
-- [[../Conhecimentos-Gerais/01-IA/Agentes-Autonomos-e-Workflows]]
-- [[../Conhecimentos-Gerais/01-IA/RAG-e-Memoria-para-Agentes]]
-- [[../Conhecimentos-Gerais/02-Engenharia-Software/Docker-e-DevOps]]
-- [[../Conhecimentos-Gerais/02-Engenharia-Software/Linux-Terminal-e-Shell]]
-- [[../Conhecimentos-Gerais/02-Engenharia-Software/TypeScript-e-JavaScript-Moderno]]
+- [[../04-Conhecimentos/01-IA-e-Agentes/Agentes-Autonomos-e-Workflows]]
+- [[../04-Conhecimentos/01-IA-e-Agentes/RAG-e-Memoria-para-Agentes]]
+- [[../04-Conhecimentos/02-Engenharia-de-Software/Docker-e-DevOps]]
+- [[../04-Conhecimentos/02-Engenharia-de-Software/Linux-Terminal-e-Shell]]
+- [[../04-Conhecimentos/02-Engenharia-de-Software/TypeScript-e-JavaScript-Moderno]]
 
 ## Regra de skill boa
 

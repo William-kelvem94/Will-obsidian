@@ -68,7 +68,7 @@ Will-obsidian/
 | `flashcards/` | `04-Conhecimentos/06-Estudos-e-Aprendizagem/flashcards/` | estudo e revisão |
 | `Ideias/` | `00-Inbox/Ideias/` | ideias precisam triagem antes de virar projeto ou conhecimento |
 | `JARVIS/` | `02-JARVIS/` | área própria de IA e memória |
-| `Knowledge-Base/` | `04-Conhecimentos/Knowledge-Base/` | base de conhecimento legada ou complementar |
+| `Knowledge-Base/` | `04-Conhecimentos/` | base de conhecimento legada ou complementar |
 | `Projetos/` | `03-Projetos/` | execução e portfólio |
 | `raw/` | `11-Dados-Brutos/raw/` | dados brutos |
 | `schema/` | `09-Sistema/schema/` | estrutura técnica e configuração |
@@ -78,7 +78,7 @@ Will-obsidian/
 | `Templates/` | `99-Templates/Legado/` | templates antigos preservados |
 | `tests/` | `09-Sistema/tests/` | testes técnicos |
 | `web-ui/` | `10-Interfaces/web-ui/` | interface web |
-| `wiki/` | `04-Conhecimentos/wiki/` | documentação e conhecimento enciclopédico |
+| `wiki/` | `04-Conhecimentos/00-Mapas-e-Ontologia/` | documentação e conhecimento enciclopédico |
 | `Will-Pessoal/` | `06-Will-Pessoal/` | contexto pessoal e sensível |
 
 ## Mapeamento de arquivos raiz

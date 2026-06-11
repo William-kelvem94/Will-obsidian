@@ -1,25 +1,45 @@
 ---
 title: "Conhecimentos"
 date: 2026-06-07
-updated: 2026-06-07
+updated: 2026-06-08
 type: moc
 status: active
 tags: [conhecimentos, hub, organizacao]
-summary: "Entrada física da nova área consolidada de conhecimentos do vault."
+summary: "Area canonica para conhecimento curado, trilhas estaveis e bases de estudo."
 ---
 
 # Conhecimentos
 
-Esta pasta é o destino físico futuro para o conhecimento estável do vault.
+Esta pasta e a area canonica para conhecimento estavel do vault.
 
-## Bases ainda em migração
+## Caminho principal
 
-- [[../Conhecimentos-Gerais/README|Conhecimentos Gerais]]
-- [[../Conhecimento-Geral/INDEX|Conhecimento-Geral]]
+- [[../01-Hubs/Hub-Conhecimentos|Hub de Conhecimentos]]
+
+## Bases e trilhas
+
+- [[08-Arquivo/README-LEGACY-Conhecimentos-Gerais|Conhecimentos Gerais]]
+- [[07-Humanidades/INDEX|Conhecimento-Geral]]
 - [[../Knowledge-Base]]
 - [[../wiki]]
+- [[01-IA-e-Agentes/README|IA e Agentes]]
+- [[02-Engenharia-de-Software/INDEX|Engenharia de Software]]
+- [[03-Dados-e-Analytics/README|Dados e Analytics]]
+- [[04-Seguranca-e-Redes/README|Seguranca e Redes]]
+- [[05-Produto-UX-e-Carreira/Produto-UX-e-Validacao|Produto, UX e Carreira]]
+- [[06-Estudos-e-Aprendizagem/README|Estudos e Aprendizagem]]
+- [[07-Humanidades/INDEX|Humanidades]]
+- [[08-Vida-Pratica/README|Vida Pratica]]
 
-## Estrutura-alvo
+## Camadas de conteudo
+
+| Camada | Papel |
+|---|---|
+| raw | fontes, dados brutos e clippings sem curadoria |
+| wiki | notas curadas, conhecimento reutilizavel e sinteses |
+| schema | mapas, contratos, regras e metadados de sistema |
+
+## Estrutura alvo
 
 ```txt
 04-Conhecimentos/
@@ -37,4 +57,4 @@ Esta pasta é o destino físico futuro para o conhecimento estável do vault.
 
 ## Regra atual
 
-Esta pasta já existe como destino oficial, mas a migração completa deve acontecer por blocos para preservar links e evitar perda de conteúdo.
+A migracao completa deve acontecer por blocos para preservar links, evitar perda de contexto e manter um unico caminho canonico por tema.

@@ -6,5 +6,7 @@
   "userIgnoreFilters": [
     ".scripts/**",
     ".git/**"
-  ]
+  ],
+  "showLineNumber": true,
+  "alwaysUpdateLinks": true
 }

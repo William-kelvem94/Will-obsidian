@@ -14,15 +14,15 @@ Este hub organiza a navegação da área pessoal do vault. Ele deve ser usado co
 
 ## Entrada principal
 
-- [[../Will-Pessoal/README|Will-Pessoal Hub]]
+- [[../06-Will-Pessoal/README|Will-Pessoal Hub]]
 - [[../Cerebro-Will|Cérebro Will]]
 
 ## Vida prática relacionada
 
-- [[../Conhecimentos-Gerais/12-Saude-Rotina/Saude-Rotina-e-Rastreamento]]
-- [[../Conhecimentos-Gerais/13-Financas/Financas-Pessoais-e-Metricas]]
-- [[../Conhecimentos-Gerais/14-Comunicacao/Comunicacao-Clara-e-Reunioes]]
-- [[../Conhecimentos-Gerais/04-Produtividade/Revisao-Semanal-e-Gestao-de-Energia]]
+- [[../04-Conhecimentos/08-Vida-Pratica-e-Rastreamento]]
+- [[../04-Conhecimentos/08-Vida-Pratica-Pessoais-e-Metricas]]
+- [[../04-Conhecimentos/08-Vida-Pratica-Clara-e-Reunioes]]
+- [[../04-Conhecimentos/08-Vida-Pratica/Revisao-Semanal-e-Gestao-de-Energia]]
 
 ## Regras de sensibilidade
 

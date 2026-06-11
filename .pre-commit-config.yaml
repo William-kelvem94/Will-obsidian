@@ -26,7 +26,7 @@ repos:
     hooks:
       - id: audit-sensitives
         name: Auditoria de arquivos sensíveis
-        entry: python scripts/audit_sensitives.py
+        entry: python 09-Sistema/scripts/legado/audit_sensitives.py
         language: system
         files: \.md$
         stages: [pre-commit, pre-push]
@@ -34,7 +34,7 @@ repos:
 
       - id: enrich-frontmatter
         name: Verificação de frontmatter
-        entry: python scripts/enrich_frontmatter.py
+        entry: python 09-Sistema/scripts/legado/enrich_frontmatter.py
         language: system
         files: \.md$
         stages: [pre-commit]
