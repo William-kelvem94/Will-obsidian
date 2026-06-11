@@ -15,6 +15,8 @@ Esta pasta e a area canonica para conhecimento estavel do vault.
 ## Caminho principal
 
 - [[../01-Hubs/Hub-Conhecimentos|Hub de Conhecimentos]]
+- [[00-Mapas-e-Ontologia/Mapa-Mestre-de-Conhecimentos-Gerais|Mapa Mestre de Conhecimentos Gerais]]
+- [[00-Mapas-e-Ontologia/Registro-de-Expansao-de-Conhecimentos-Gerais|Registro de Expansao de Conhecimentos Gerais]]
 
 ## Bases e trilhas
 
