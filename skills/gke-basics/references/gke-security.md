@@ -2,7 +2,7 @@
 title: "GKE Security"
 date: 2026-06-01
 tags: [skills]
-updated: 2026-06-07
+updated: 2026-06-01
 ---
 
 # GKE Security

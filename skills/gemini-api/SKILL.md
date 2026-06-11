@@ -5,7 +5,7 @@ compatibility: Requires active Google Cloud credentials and Agent Platform API e
 title: "Gemini API in Agent Platform"
 date: 2026-06-01
 tags: [skills]
-updated: 2026-06-07
+updated: 2026-06-01
 ---
 
 IMPORTANT: Agent Platform (full name Gemini Enterprise Agent Platform) was previously named "Vertex AI" and many web resources use the legacy branding.

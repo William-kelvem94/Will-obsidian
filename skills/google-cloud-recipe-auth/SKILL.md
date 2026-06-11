@@ -4,7 +4,7 @@ description: Provides expert guidance on authenticating and authorizing to Googl
 title: "Authenticating to Google Cloud"
 date: 2026-06-01
 tags: [skills]
-updated: 2026-06-07
+updated: 2026-06-01
 ---
 
 # Authenticating to Google Cloud

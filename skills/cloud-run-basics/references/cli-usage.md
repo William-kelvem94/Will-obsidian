@@ -2,7 +2,7 @@
 title: "Cloud Run CLI"
 date: 2026-06-01
 tags: [skills]
-updated: 2026-06-07
+updated: 2026-06-01
 ---
 
 # Cloud Run CLI

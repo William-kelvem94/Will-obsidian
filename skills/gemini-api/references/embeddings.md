@@ -2,7 +2,7 @@
 title: "Text and Multimodal Embeddings"
 date: 2026-06-01
 tags: [skills]
-updated: 2026-06-07
+updated: 2026-06-01
 ---
 
 # Text and Multimodal Embeddings
