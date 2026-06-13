@@ -4,7 +4,7 @@ category: "DevOps"
 level: 3
 description: "Design metrics that enable alerting, capacity planning, and fast debugging."
 date: 2026-05-08
-updated: 2026-06-10
+updated: 2026-06-13
 tags: [skills, devops, metrics, slo]
 ---
 

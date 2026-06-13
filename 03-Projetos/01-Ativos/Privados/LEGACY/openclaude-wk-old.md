@@ -11,7 +11,7 @@ tags:
   - cli
   - ai-agent
 date: 2026-04-27
-updated: 2026-06-10
+updated: 2026-06-13
 ---
 
 # openclaude-wk [[../Projetos.md|Projetos]] [[GitHub-Completo]]

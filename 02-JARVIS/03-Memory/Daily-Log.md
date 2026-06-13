@@ -2,7 +2,7 @@
 title: "Registro Neural Diário"
 date: 2026-04-27
 tags: [jarvis, memoria, dashboard, jarvis-memoria]
-updated: 2026-06-10
+updated: 2026-06-13
 ---
 
 # 🧠 Linha do Tempo de Memória

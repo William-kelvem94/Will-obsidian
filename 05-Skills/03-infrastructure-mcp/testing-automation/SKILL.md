@@ -4,7 +4,7 @@ description: Continuous integration (CI/CD) testing pipelines, automated testing
 title: "Testing Automation & CI/CD Skill"
 date: 2026-06-08
 tags: [skills, testing, automation, cicd, devops, skills-mcp]
-updated: 2026-06-10
+updated: 2026-06-13
 ---
 
 # Testing Automation & CI/CD Skill

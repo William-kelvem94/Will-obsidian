@@ -3,7 +3,7 @@ title: "Data Cleaning — Limpeza e Pré-processamento de Dados"
 description: "Guia completo de limpeza de dados: valores nulos, outliers, normalização, encoding, deduplicação e validação com pandas, numpy e OpenRefine."
 tags: [data-cleaning, preprocessing, pandas, qualidade-dados, skills]
 nivel: avancado
-updated: 2026-06-10
+updated: 2026-06-13
 backlinks: []
 assets: []
 referencias: []

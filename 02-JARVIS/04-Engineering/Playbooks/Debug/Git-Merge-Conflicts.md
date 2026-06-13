@@ -2,7 +2,7 @@
 title: "Git Merge Conflicts — Resolution Guide"
 description: "Step-by-step guide to resolve git merge conflicts"
 tags: [troubleshooting, git, merge, conflict, playbook, jarvis-engenharia]
-updated: 2026-06-10
+updated: 2026-06-13
 date: 2026-04-27
 ---
 

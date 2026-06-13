@@ -1,6 +1,6 @@
 ---
 tags: [skills, skills-ai, reference, cheat-sheet]
-updated: 2026-06-10
+updated: 2026-06-13
 title: "Referencia Rapida — Inteligencia Agentica"
 date: 2026-06-01
 ---

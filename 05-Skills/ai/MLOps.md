@@ -16,7 +16,7 @@ resources:
   - "MLflow e Kubeflow documentacao"
 date: 2026-04-29
 tags: [skills, ai, mlops]
-updated: 2026-06-10
+updated: 2026-06-13
 ---
 
 # MLOps

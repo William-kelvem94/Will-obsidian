@@ -2,7 +2,7 @@
 title: "Checklists & Workflows — Implantação Pró-Workspace"
 date: 2026-06-05
 tags: [jarvis-sistema]
-updated: 2026-06-10
+updated: 2026-06-13
 ---
 
 # Checklists & Workflows — Implantação Pró-Workspace

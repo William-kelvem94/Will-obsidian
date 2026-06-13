@@ -2,7 +2,7 @@
 title: "Padrões Recorrentes"
 date: 2026-05-16
 tags: [jarvis, aprendizado, padroes, arquitetura, jarvis-engenharia]
-updated: 2026-06-10
+updated: 2026-06-13
 ---
 
 # Padrões Recorrentes

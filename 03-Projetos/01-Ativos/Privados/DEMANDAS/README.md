@@ -1,7 +1,7 @@
 ---
 title: "DEMANDAS - Hub dos Projetos"
 tags: [projetos, privados, hub, demandas]
-updated: 2026-06-10
+updated: 2026-06-13
 date: 2026-06-01
 ---
 

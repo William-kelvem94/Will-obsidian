@@ -1,6 +1,6 @@
 ---
 tags: [architecture-patterns, software-engineering, clean-architecture, hexagonal, event-driven, microservices, serverless, skills-eng]
-updated: 2026-06-10
+updated: 2026-06-13
 title: "Architecture Patterns - Software Architecture"
 date: 2026-06-01
 ---

@@ -1,10 +1,10 @@
 ---
 title: "Knowledge Systems"
 date: 2026-06-10
-updated: 2026-06-10
+updated: 2026-06-13
 type: moc
 status: active
-tags: [skills, knowledge, rag, memory, obsidian]
+tags: [skills, knowledge, rag, memory, obsidian, skills-knowledge]
 summary: "Ponto de entrada para RAG, memoria, curadoria e desenho de notas."
 ---
 

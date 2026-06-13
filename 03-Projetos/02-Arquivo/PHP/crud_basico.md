@@ -4,7 +4,7 @@ source: "https://github.com/William-kelvem94/crud_basico"
 private: false
 language: PHP
 description: "CRUD Básico - Placeholder"
-updated: 2026-06-10
+updated: 2026-06-13
 tags:
   - projetos
   - publicos

@@ -1,7 +1,7 @@
 ---
 title: "Frontend Index"
 date: 2026-06-10
-updated: 2026-06-10
+updated: 2026-06-13
 type: moc
 status: active
 tags: [skills, frontend, index, ui]

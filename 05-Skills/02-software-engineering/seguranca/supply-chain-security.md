@@ -1,6 +1,6 @@
 ---
 tags: [skills, seguranca, supply-chain, sbom, dependencies, skills-eng]
-updated: 2026-06-10
+updated: 2026-06-13
 title: "Supply Chain Security"
 date: 2026-06-01
 ---

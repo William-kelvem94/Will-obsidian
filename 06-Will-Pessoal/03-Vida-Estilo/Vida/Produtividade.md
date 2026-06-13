@@ -2,7 +2,7 @@
 title: "Produtividade — Pomodoro Dashboard"
 description: "Dashboard de pomodoros agregado das notas diárias"
 tags: [dashboard, dataviewjs, produtividade, pomodoro, perfil]
-updated: 2026-06-10
+updated: 2026-06-13
 date: 2026-06-01
 ---
 

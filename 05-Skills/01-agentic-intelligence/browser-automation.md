@@ -1,10 +1,10 @@
 ---
 title: "Browser Automation"
 date: 2026-06-10
-updated: 2026-06-10
+updated: 2026-06-13
 type: skill-note
 status: active
-tags: [skills, browser, automation, agents]
+tags: [skills, browser, automation, agents, skills-ai]
 summary: "Notas operacionais para automatizar navegacao, coleta e verificacao no browser."
 ---
 

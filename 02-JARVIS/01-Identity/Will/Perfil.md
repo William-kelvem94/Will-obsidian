@@ -1,7 +1,7 @@
 ---
 title: "Perfil: William Pereira (@kelvem94)"
 tags: [will, perfil, engenheiro, ia, jarvis, jarvis-identidade]
-updated: 2026-06-10
+updated: 2026-06-13
 date: 2026-04-27
 ---
 

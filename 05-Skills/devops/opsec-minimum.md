@@ -4,7 +4,7 @@ category: "DevOps"
 level: 5
 description: "Padrões operacionais mínimos de segurança para fluxos assistidos por agentes cognitivos, prevenção de injeção de prompt e regras de saneamento de segredos."
 date: 2026-05-08
-updated: 2026-06-10
+updated: 2026-06-13
 tags: [skills, devops, security, opsec, prompt-injection, zero-trust]
 ---
 

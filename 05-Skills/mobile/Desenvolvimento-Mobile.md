@@ -4,7 +4,7 @@ description: "Guia completo de desenvolvimento mobile: React Native, Flutter, iO
 tags: [mobile, react-native, flutter, swift, kotlin, ios, android, arquitetura-mobile, skills]
 nivel: avancado
 fonte: ""
-updated: 2026-06-10
+updated: 2026-06-13
 backlinks: ["05-Skills/ai/INDEX"]
 assets: []
 referencias: []

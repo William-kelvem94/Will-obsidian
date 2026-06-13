@@ -4,7 +4,7 @@ category: "Frontend"
 level: 2
 description: "Conventions for Tailwind + shadcn/ui: class strategy, design tokens, variants, composition, and consistency."
 tags: [skills, frontend, tailwind, shadcn]
-updated: 2026-06-10
+updated: 2026-06-13
 date: 2026-06-01
 ---
 

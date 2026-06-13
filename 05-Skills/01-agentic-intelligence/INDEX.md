@@ -1,6 +1,6 @@
 ---
 tags: [skills, skills-ai, index, navigation]
-updated: 2026-06-10
+updated: 2026-06-13
 title: "Indice de Inteligencia Agentica — JARVIS"
 date: 2026-06-01
 ---

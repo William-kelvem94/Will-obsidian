@@ -1,6 +1,6 @@
 ---
 tags: [jarvis, architecture, rag, indexing, jarvis-engenharia]
-updated: 2026-06-10
+updated: 2026-06-13
 title: "Neural Indexing & RAG Optimization"
 date: 2026-04-27
 ---

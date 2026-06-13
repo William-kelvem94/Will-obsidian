@@ -9,7 +9,7 @@ tags:
   - voz
   - vision
   - livekit
-updated: 2026-06-10
+updated: 2026-06-13
 date: 2026-04-27
 ---
 

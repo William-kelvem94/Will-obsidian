@@ -4,7 +4,7 @@ source: "d:/Documents/GitHub/IA-LOCAL"
 language: Python
 private: true
 description: "Assistente de IA avançado (JARVIS) com memória vetorial, processamento de voz e capacidades de automação de desktop."
-updated: 2026-06-10
+updated: 2026-06-13
 tags: [privados, python, jarvis, ai, voice, projetos]
 date: 2026-04-27
 ---

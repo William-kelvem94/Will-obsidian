@@ -2,7 +2,7 @@
 title: "Meta-aprendizagem e AutoML — Guia Ultra-Detalhado"
 date: 2026-06-01
 tags: [skills]
-updated: 2026-06-10
+updated: 2026-06-13
 ---
 
 # Meta-aprendizagem e AutoML — Guia Ultra-Detalhado

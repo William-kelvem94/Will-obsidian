@@ -3,7 +3,7 @@ title: "🗺️ Cartógrafo"
 date: 2026-05-19
 tags: [conquista, badge, perfil]
 xp_reward: 10
-updated: 2026-06-10
+updated: 2026-06-13
 ---
 
 # 🗺️ Cartógrafo

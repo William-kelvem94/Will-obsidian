@@ -4,7 +4,7 @@ description: Create and edit Obsidian-flavored markdown with frontmatter, wikili
 title: "Obsidian Markdown Skill"
 date: 2026-06-07
 tags: [skills]
-updated: 2026-06-10
+updated: 2026-06-13
 ---
 
 # Obsidian Markdown Skill

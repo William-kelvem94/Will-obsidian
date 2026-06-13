@@ -1,7 +1,7 @@
 ---
 title: "Prompt Engineering Operational"
 date: 2026-06-10
-updated: 2026-06-10
+updated: 2026-06-13
 type: skill-note
 status: active
 tags: [skills, ai, prompts, operations]

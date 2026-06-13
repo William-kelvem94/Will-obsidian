@@ -1,7 +1,7 @@
 ---
 title: "Security"
 date: 2026-06-10
-updated: 2026-06-10
+updated: 2026-06-13
 type: moc
 status: active
 tags: [skills, security, risk, defense]

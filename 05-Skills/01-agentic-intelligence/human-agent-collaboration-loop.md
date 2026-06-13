@@ -2,7 +2,7 @@
 title: "Human Agent Collaboration Loop — Protocolo de Engenharia Cooperativa"
 description: "Padrões operacionais para guiar o loop de colaboração e co-criação entre operador humano e agente autônomo, com foco em Human-in-the-Loop (HITL), checkpoints e tolerância a risco."
 tags: [skills-ai, human-in-the-loop, agentic, collaboration, workflow, context-handshake, rules]
-updated: 2026-06-10
+updated: 2026-06-13
 date: 2026-06-01
 ---
 

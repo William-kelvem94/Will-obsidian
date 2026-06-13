@@ -1,6 +1,6 @@
 ---
 tags: [skills, skills-ai, best-practices, guidelines, review]
-updated: 2026-06-10
+updated: 2026-06-13
 title: "Boas Praticas — Inteligencia Agentica"
 date: 2026-06-01
 ---

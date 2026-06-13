@@ -2,7 +2,7 @@
 title: "Explainable AI (XAI), Fairness e Accountability — Expansão Completa"
 date: 2026-06-01
 tags: [skills]
-updated: 2026-06-10
+updated: 2026-06-13
 ---
 
 # Explainable AI (XAI), Fairness e Accountability — Expansão Completa

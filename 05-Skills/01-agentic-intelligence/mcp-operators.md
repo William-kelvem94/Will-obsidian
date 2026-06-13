@@ -1,6 +1,6 @@
 ---
 tags: [skills, skills-ai, mcp, operators, pipeline]
-updated: 2026-06-10
+updated: 2026-06-13
 title: "Operadores MCP para Inteligencia Agentica"
 date: 2026-06-01
 ---

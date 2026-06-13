@@ -7,7 +7,7 @@ categoria: "{{CATEGORIA}}"
 keywords: [{{KEYWORDS}}]
 importancia: "{{BAIXA|MEDIA|ALTA}}"
 projeto: "{{PROJETO}}"
-updated: 2026-06-10
+updated: 2026-06-13
 ---
 
 # {{TITULO}}

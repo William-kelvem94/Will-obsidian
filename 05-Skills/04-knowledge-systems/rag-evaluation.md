@@ -1,10 +1,10 @@
 ---
 title: "RAG Evaluation"
 date: 2026-06-10
-updated: 2026-06-10
+updated: 2026-06-13
 type: skill-note
 status: active
-tags: [skills, rag, evaluation, retrieval]
+tags: [skills, rag, evaluation, retrieval, skills-knowledge]
 summary: "How to judge retrieval quality, grounding, and answer usefulness."
 ---
 

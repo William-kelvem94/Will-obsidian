@@ -4,7 +4,7 @@ description: Create and edit Obsidian JSON Canvas files for visual maps, graph p
 title: "JSON Canvas Skill"
 date: 2026-06-07
 tags: [skills]
-updated: 2026-06-10
+updated: 2026-06-13
 ---
 
 # JSON Canvas Skill

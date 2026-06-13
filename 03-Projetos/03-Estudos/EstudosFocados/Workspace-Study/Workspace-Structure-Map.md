@@ -2,7 +2,7 @@
 title: "Workspace Structure Map"
 description: "Mapa da estrutura do vault, papéis das pastas e como elas se conectam para projetos, pesquisa e operação." 
 tags: [workspace, estrutura, mapa, organizacao]
-updated: 2026-06-10
+updated: 2026-06-13
 date: 2026-04-27
 ---
 

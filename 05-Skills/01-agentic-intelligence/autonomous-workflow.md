@@ -1,6 +1,6 @@
 ---
 tags: [skills, skills-ai, agentic, workflow, react, multi-agent, human-in-the-loop]
-updated: 2026-06-10
+updated: 2026-06-13
 title: "Autonomous Agent Workflows (AAW)"
 date: 2026-04-27
 ---

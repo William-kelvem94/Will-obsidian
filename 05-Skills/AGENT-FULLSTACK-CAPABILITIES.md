@@ -2,7 +2,7 @@
 title: "🖥️ Fullstack Agent Capabilities — Habilidades de Programação para Agentes IA"
 tags: [skills, fullstack, agent-capabilities, programacao, backend, frontend, database, devops, architecture]
 date: 2026-06-01
-updated: 2026-06-10
+updated: 2026-06-13
 category: skill
 aliases: ["Fullstack Agent Skills", "Programador Fullstack IA", "Agente Programador Completo"]
 related: ["05-Skills/02-software-engineering/README", "05-Skills/AGENT-RESEARCH-CAPABILITIES", "05-Skills/01-agentic-intelligence/README"]

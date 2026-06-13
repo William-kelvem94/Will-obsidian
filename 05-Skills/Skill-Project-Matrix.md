@@ -4,7 +4,7 @@ date: 2026-05-16
 tags: [skills, projetos, matriz, mapeamento, hub]
 related: ["05-Skills/README", "03-Projetos/README"]
 aliases: ["Skill-Project Matrix", "Mapeamento de Competências"]
-updated: 2026-06-10
+updated: 2026-06-13
 ---
 
 # Matriz Skills-Projetos

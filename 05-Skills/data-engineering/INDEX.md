@@ -1,6 +1,6 @@
 ---
 tags: [data-engineering, index, hub, etl, streaming, data-pipelines, skills]
-updated: 2026-06-10
+updated: 2026-06-13
 title: "Data Engineering - Index"
 date: 2026-06-01
 ---

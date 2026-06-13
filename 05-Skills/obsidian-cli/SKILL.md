@@ -4,7 +4,7 @@ description: Interact with a running Obsidian instance, inspect active files, ru
 title: "Obsidian CLI Skill"
 date: 2026-06-07
 tags: [skills]
-updated: 2026-06-10
+updated: 2026-06-13
 ---
 
 # Obsidian CLI Skill

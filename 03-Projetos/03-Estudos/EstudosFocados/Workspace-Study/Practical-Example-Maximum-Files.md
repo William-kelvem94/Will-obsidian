@@ -2,7 +2,7 @@
 title: "Practical Example: IA Local Benchmark + MCP/OpenClaude Workflow"
 description: "Exemplo prático direto que usa o máximo de arquivos necessários para conectar IA local, MCP, OpenClaude e estrutura do vault." 
 tags: [workspace-study, pratico, ia, mcp, openclaude, projetos]
-updated: 2026-06-10
+updated: 2026-06-13
 date: 2026-04-27
 ---
 

@@ -1,6 +1,6 @@
 ---
 tags: [skills, devops, cicd, deploy, environments, promotion]
-updated: 2026-06-10
+updated: 2026-06-13
 title: "Environment Promotion"
 date: 2026-06-01
 ---

@@ -2,7 +2,7 @@
 title: "README-LEGACY.md"
 date: 2026-06-01
 tags: [projetos, privados]
-updated: 2026-06-10
+updated: 2026-06-13
 ---
 
 # README-LEGACY.md

@@ -3,7 +3,7 @@ title: "Projetos Ativos — Estado Atual"
 description: "Estado atual de cada projeto de Will, prioridades e próximos passos."
 tags: [will, projetos, status, jarvis, perfil-identidade]
   - perfil
-updated: 2026-06-10
+updated: 2026-06-13
 date: 2026-04-27
 ---
 

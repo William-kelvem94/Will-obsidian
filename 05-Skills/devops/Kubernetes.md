@@ -14,7 +14,7 @@ resources:
   - "Helm e k8s best practices"
 date: 2026-04-29
 tags: [skills, devops, kubernetes]
-updated: 2026-06-10
+updated: 2026-06-13
 ---
 
 # Kubernetes

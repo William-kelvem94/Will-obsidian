@@ -3,7 +3,7 @@ title: "API Contracts and Compatibility"
 description: "Como agentes devem definir contratos, evitar breaking changes e operar versionamento de APIs e eventos."
 tags: [software-engineering, api, contracts, agents, skills-eng]
 date: 2026-05-08
-updated: 2026-06-10
+updated: 2026-06-13
 ---
 
 # API Contracts and Compatibility

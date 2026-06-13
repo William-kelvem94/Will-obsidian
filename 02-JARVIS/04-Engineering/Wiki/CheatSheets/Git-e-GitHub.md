@@ -2,7 +2,7 @@
 title: "Git e GitHub — Cheat Sheet"
 description: "Guia de referência rápida para Git e GitHub — comandos, workflows e boas práticas"
 tags: [cheatsheet, git, github, versionamento, jarvis-engenharia]
-updated: 2026-06-10
+updated: 2026-06-13
 date: 2026-05-16
 ---
 

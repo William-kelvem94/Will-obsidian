@@ -4,7 +4,7 @@ date: 2026-04-23
 operation: "D:\\GitHub\\Will-obsidian → C:\\Users\\willi\\Documents\\GitHub\\Will-obsidian"
 status: "✅ COMPLETED"
 tags: [jarvis-sistema]
-updated: 2026-06-10
+updated: 2026-06-13
 ---
 
 # Vault Merge Report - 23/04/2026

@@ -1,6 +1,6 @@
 ---
 tags: [skills, seguranca, owasp, web-security, skills-eng]
-updated: 2026-06-10
+updated: 2026-06-13
 title: "OWASP Top 10 (2021)"
 date: 2026-06-01
 ---

@@ -1,6 +1,6 @@
 ---
 tags: [skills, devops, cicd, gitops, pipelines]
-updated: 2026-06-10
+updated: 2026-06-13
 title: "CI/CD e GitOps - Index"
 date: 2026-06-01
 ---

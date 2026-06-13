@@ -2,7 +2,7 @@
 tags: [playbook, jarvis, learning, optimization, jarvis-operacao]
 title: "Learning Loop Protocol (LLP)"
 date: 2026-06-09
-updated: 2026-06-10
+updated: 2026-06-13
 ---
 
 # Learning Loop Protocol (LLP)

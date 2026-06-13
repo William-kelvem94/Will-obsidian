@@ -4,7 +4,7 @@ description: Development of autonomous workflows, multi-agent orchestration, and
 title: "Agentic Workflows & MCP Skill"
 date: 2026-06-08
 tags: [skills, ai, agents, mcp, workflows, skills-ai]
-updated: 2026-06-10
+updated: 2026-06-13
 ---
 
 # Agentic Workflows & MCP Skill

@@ -2,7 +2,7 @@
 title: "Arquiteturas Multi-Agente: CrewAI, AutoGen e LangGraph"
 description: "Analise comparativa e guia de implementacao de arquiteturas de orquestracao multi-agente: CrewAI baseado em papeis, AutoGen baseado em conversas e LangGraph orientado a grafos de estado."
 tags: [agentic-intelligence, multi-agent, crewai, autogen, langgraph, state-graph, skills-ai]
-updated: 2026-06-10
+updated: 2026-06-13
 date: 2026-06-01
 ---
 

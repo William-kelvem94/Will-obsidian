@@ -4,7 +4,7 @@ source: "d:/Documents/GitHub/Auto-boletos"
 language: Python
 private: true
 description: "Automação de boletos Equatorial com IA local, Flask, Docker e OCR."
-updated: 2026-06-10
+updated: 2026-06-13
 tags: [privados, python, flask, docker, ia, automacao, projetos]
 date: 2026-04-27
 ---

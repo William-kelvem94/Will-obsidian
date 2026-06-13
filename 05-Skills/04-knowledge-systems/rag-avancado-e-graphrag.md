@@ -2,7 +2,7 @@
 title: "RAG Avancado e GraphRAG: Recuperacao Hibrida e Indexacao Semantica"
 description: "Estudo aprofundado de tecnicas avancadas de Retrieval-Augmented Generation (RAG), incluindo busca hibrida, GraphRAG baseado em grafos de conhecimento, traducao de query, re-ranking e cache semantico."
 tags: [knowledge-systems, rag, graphrag, hybrid-search, semantic-caching, rerankers, skills-knowledge]
-updated: 2026-06-10
+updated: 2026-06-13
 date: 2026-06-01
 ---
 

@@ -4,7 +4,7 @@ description: Development best practices, guidelines, and standards across major 
 title: "Programming Languages & Paradigms"
 date: 2026-06-08
 tags: [skills, programming, polyglot, python, rust, typescript, go, skills-eng]
-updated: 2026-06-10
+updated: 2026-06-13
 ---
 
 # Programming Languages & Paradigms Skill
