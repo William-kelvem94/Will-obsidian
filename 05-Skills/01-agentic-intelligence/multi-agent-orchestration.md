@@ -15,6 +15,39 @@ Este documento cobre a coordenacao de multiplos agentes de IA para resolver tare
 2. **Compressao de Contexto**: Resumir passos de agentes anteriores antes de passar ao proximo para economizar tokens.
 3. **Decomposicao Recursiva**: Dividir tarefas grandes em sub-tarefas trataveis por "micro-agentes" especializados.
 
+## Roles especializados para expansao de conteudo
+
+Quando o vault usa subagentes para crescer, o objetivo nao e repetir a mesma analise em oito nomes diferentes. A funcao e distribuir tipos distintos de conhecimento para manter o grafo limpo e escalavel.
+
+| Papel | Foco de conteudo | Saida principal |
+|---|---|---|
+| Boole | validacao e conformidade | frontmatter, checklists e gates |
+| Poincare | mapa e navegacao | hubs, rotas e relacoes hierarquicas |
+| Peirce | decisao e inferencia | notas de decisao, evidencia e tradeoff |
+| Avicenna | sintese e curadoria | conceitos densos, glossarios e notas canonicas |
+| Lorentz | estabilidade e invariancia | regras de migracao, compatibilidade e preservacao |
+| McClintock | auditoria e reconciliacao | inventario, orfaos, duplicatas e ponte legado |
+| Aquinas | taxonomia e principios | classificacao estavel e doutrina do vault |
+| Euler | relacoes e visao sistêmica | indices, dashboards e resumos de sistema |
+
+### Fluxo prático
+
+1. Validar a base com Boole.
+2. Mapear o dominio com Poincare e Euler.
+3. Consolidar conhecimento com Avicenna e Aquinas.
+4. Registrar o raciocinio com Peirce.
+5. Auditar o legado com McClintock.
+6. Endurecer a mudanca com Lorentz.
+
+### Aplicacao no vault
+
+- Boole fortalece frontmatter, qualidade e aceitacao em `09-Sistema/`.
+- Poincare fortalece hubs e trilhas em `01-Hubs/` e `02-JARVIS/`.
+- Peirce alimenta decisoes em `02-JARVIS/02-Operational/Decisions/`.
+- Avicenna e Aquinas elevam densidade conceitual em `04-Conhecimentos/`.
+- Lorentz e McClintock protegem migracoes, legado e limpeza em `07-Operacoes-do-Vault/`.
+- Euler sustenta indices, glossarios e visoes panoramicas em todo o grafo.
+
 ## Arquitetura do JARVIS 5.0
 
 ```

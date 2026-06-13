@@ -27,6 +27,8 @@ Use the visible skill documentation in `skills/` when the task matches a skill:
 
 The hidden `.agents/skills/` directory may also exist as an agent-runtime install location. Treat `skills/` as the human-visible copy inside the vault and `.agents/skills/` as compatibility infrastructure.
 
+For practical multi-agent content work, see [[05-Skills/01-agentic-intelligence/multi-agent-orchestration|Orquestracao Multi-Agente e Pipelines de Subagentes]].
+
 ## Required Workflow
 
 For `INGEST`, `QUERY`, `LINT`, or `AUDIT`, read `schema/AGENT.md` first.
