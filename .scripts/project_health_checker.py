@@ -2,10 +2,8 @@
 """
 Project Health Checker - auditoria leve dos projetos ativos do Will Vault.
 
-Este script foi atualizado para a estrutura numerada canonica do WILL-OBSIDIAN.
-Ele prioriza notas de projeto em `03-Projetos/01-Ativos/Privados/` e, quando
-existe um clone local apontado por `source:` ou pelo bloco de sincronizacao,
-enriquece a analise com sinais tecnicos do repositorio fisico.
+Varre notas em `03-Projetos/01-Ativos/Privados/`, calcula um score de
+completude documental e gera relatórios em caminhos canônicos.
 """
 
 from __future__ import annotations
@@ -14,7 +12,6 @@ import re
 from dataclasses import dataclass, field
 from datetime import datetime
 from pathlib import Path
-from typing import Iterable
 
 SCRIPT_ROOT = Path(__file__).parent.resolve()
 VAULT_PATH = SCRIPT_ROOT.parent.resolve()
@@ -25,13 +22,7 @@ SKILLS_DIR = VAULT_PATH / "05-Skills"
 OUTPUT_FILE = VAULT_PATH / "02-JARVIS" / "02-Operational" / "Project-Health-Report.md"
 SKILLS_GAP_FILE = VAULT_PATH / ".logs" / "skills_gap.md"
 
-IGNORED_NOTE_NAMES = {
-    "README.md",
-    "INDEX.md",
-    "GitHub-Completo.md",
-    "search_works.md",
-}
-IGNORED_DIR_NAMES = {"LEGACY", "__pycache__", ".obsidian"}
+IGNORED_NOTE_NAMES = {"README.md", "INDEX.md", "GitHub-Completo.md", "search_works.md"}
 
 
 @dataclass
@@ -50,7 +41,6 @@ class Check:
 class ProjectHealth:
     name: str
     note_path: Path
-    repo_path: Path | None = None
     checks: list[Check] = field(default_factory=list)
 
     @property
@@ -86,10 +76,13 @@ def read_text(path: Path) -> str:
 
 
 def active_projects_dir() -> Path:
-    """Return the canonical project notes directory, falling back to legacy."""
     if CANONICAL_PROJECTS_DIR.exists():
         return CANONICAL_PROJECTS_DIR
     return LEGACY_PROJECTS_DIR
+
+
+def wiki_path(path: Path) -> str:
+    return path.relative_to(VAULT_PATH).with_suffix("").as_posix()
 
 
 def parse_frontmatter(content: str) -> dict[str, str]:
@@ -113,44 +106,26 @@ def extract_list_field(content: str, field_name: str) -> set[str]:
     return {item.strip().strip('"\'').lower() for item in match.group(1).split(",") if item.strip()}
 
 
-def extract_repo_path(content: str, fm: dict[str, str]) -> Path | None:
-    candidates: list[str] = []
-
-    source = fm.get("source")
-    if source and (":" in source or source.startswith("/")):
-        candidates.append(source)
-
-    local_path_match = re.search(r"Caminho F[íi]sico Local:\*\*\s*`([^`]+)`", content)
-    if local_path_match:
-        candidates.append(local_path_match.group(1))
-
-    for raw in candidates:
-        normalized = raw.replace("\\", "/")
-        path = Path(normalized)
-        if path.exists():
-            return path
-    return None
-
-
-def iter_project_notes(projects_dir: Path) -> Iterable[Path]:
+def iter_project_notes(projects_dir: Path) -> list[Path]:
     if not projects_dir.exists():
         return []
-
-    notes: list[Path] = []
+    notes = []
     for path in sorted(projects_dir.glob("*.md")):
-        if path.name in IGNORED_NOTE_NAMES:
-            continue
-        if path.name.endswith("-old.md"):
+        if path.name in IGNORED_NOTE_NAMES or path.name.endswith("-old.md"):
             continue
         notes.append(path)
     return notes
 
 
-def has_any_heading(content: str, names: Iterable[str]) -> bool:
-    for name in names:
-        if re.search(rf"^#+\s+.*{re.escape(name)}", content, re.IGNORECASE | re.MULTILINE):
-            return True
-    return False
+def has_heading(content: str, names: list[str]) -> bool:
+    return any(re.search(rf"^#+\s+.*{re.escape(name)}", content, re.IGNORECASE | re.MULTILINE) for name in names)
+
+
+def has_local_source(content: str, fm: dict[str, str]) -> bool:
+    source = fm.get("source", "")
+    if ":/" in source or ":\\" in source or source.startswith("/"):
+        return True
+    return bool(re.search(r"Caminho F[íi]sico Local:\*\*\s*`[^`]+`", content))
 
 
 def check_note_quality(project: ProjectHealth, content: str, fm: dict[str, str]) -> None:
@@ -159,13 +134,13 @@ def check_note_quality(project: ProjectHealth, content: str, fm: dict[str, str])
     present = [field for field in required_fields if fm.get(field)]
     score += min(len(present), len(required_fields))
 
-    if has_any_heading(content, ["Visão", "Visao", "Resumo", "Contexto"]):
+    if has_heading(content, ["Visão", "Visao", "Resumo", "Contexto"]):
         score += 2
-    if has_any_heading(content, ["Roadmap", "Meta 90 Dias", "Próximos", "Proximos"]):
+    if has_heading(content, ["Roadmap", "Meta 90 Dias", "Próximos", "Proximos"]):
         score += 2
-    if has_any_heading(content, ["Arquitetura", "Estrutura", "Tech Stack", "Engenharia"]):
+    if has_heading(content, ["Arquitetura", "Estrutura", "Tech Stack", "Engenharia"]):
         score += 2
-    if has_any_heading(content, ["Riscos", "Decisões", "Decisoes", "Diário", "Diario"]):
+    if has_heading(content, ["Riscos", "Decisões", "Decisoes", "Diário", "Diario"]):
         score += 1
     if len(content) > 900:
         score += 2
@@ -173,7 +148,7 @@ def check_note_quality(project: ProjectHealth, content: str, fm: dict[str, str])
     project.add("Nota canônica", min(score, 15), 15, f"{len(present)}/{len(required_fields)} metadados principais + seções de projeto")
 
 
-def check_project_links(project: ProjectHealth, content: str) -> None:
+def check_links(project: ProjectHealth, content: str) -> None:
     score = 0
     if "GitHub-Completo" in content:
         score += 2
@@ -199,27 +174,13 @@ def check_execution_contract(project: ProjectHealth, content: str) -> None:
     project.add("Contrato de execução", score, 10, f"sinais de execução/deploy/ambiente: {score}/10")
 
 
-def check_repo_health(project: ProjectHealth) -> None:
-    repo = project.repo_path
-    if not repo:
-        project.add("Clone local", 0, 8, "clone local não acessível neste ambiente")
-        return
-
+def check_source(project: ProjectHealth, content: str, fm: dict[str, str]) -> None:
     score = 0
-    signals = []
-    for filename, points, label in [
-        ("README.md", 2, "README"),
-        ("package.json", 2, "Node"),
-        ("requirements.txt", 2, "Python"),
-        ("Dockerfile", 1, "Dockerfile"),
-        ("docker-compose.yml", 1, "Compose"),
-        (".env.example", 1, ".env.example"),
-        (".github/workflows", 2, "GitHub Actions"),
-    ]:
-        if (repo / filename).exists():
-            score += points
-            signals.append(label)
-    project.add("Clone local", min(score, 8), 8, ", ".join(signals) if signals else "sem sinais estruturados no clone")
+    if has_local_source(content, fm):
+        score += 4
+    if "Sincronização Local de Código" in content or "Sincronizacao Local de Codigo" in content:
+        score += 4
+    project.add("Fonte de código", score, 8, f"fonte local/sync detectado: {score}/8")
 
 
 def load_defined_skills(skills_root: Path) -> set[str]:
@@ -251,7 +212,6 @@ def check_skills_gap(projects: list[ProjectHealth], skills_root: Path, output_pa
                 missing.append((project.name, skill))
 
     orphan_skills = sorted(defined_skills - referenced)
-
     output_path.parent.mkdir(parents=True, exist_ok=True)
     lines = [
         "# Skills Gap Report",
@@ -270,12 +230,11 @@ def check_skills_gap(projects: list[ProjectHealth], skills_root: Path, output_pa
 def analyze_project(note_path: Path) -> ProjectHealth:
     content = read_text(note_path)
     fm = parse_frontmatter(content)
-    name = fm.get("title") or note_path.stem
-    project = ProjectHealth(name=name, note_path=note_path, repo_path=extract_repo_path(content, fm))
+    project = ProjectHealth(name=fm.get("title") or note_path.stem, note_path=note_path)
     check_note_quality(project, content, fm)
-    check_project_links(project, content)
+    check_links(project, content)
     check_execution_contract(project, content)
-    check_repo_health(project)
+    check_source(project, content, fm)
     return project
 
 
@@ -303,10 +262,8 @@ def generate_full_report(projects: list[ProjectHealth], projects_dir: Path) -> s
         "# 📊 Project Health Report",
         "",
         f"**Generated:** {now.strftime('%Y-%m-%d at %H:%M:%S')}",
-        f"**Projects Directory:** `{projects_dir.relative_to(VAULT_PATH)}`",
+        f"**Projects Directory:** `{projects_dir.relative_to(VAULT_PATH).as_posix()}`",
         f"**Projects Scanned:** {len(projects_sorted)}",
-        "",
-        "---",
         "",
         "## 📈 Overall Summary",
         "",
@@ -327,11 +284,10 @@ def generate_full_report(projects: list[ProjectHealth], projects_dir: Path) -> s
     lines.extend(["", "---", "", "## 📋 Detailed Reports", ""])
     for project in projects_sorted:
         grade, icon = project.grade()
-        rel_note = project.note_path.relative_to(VAULT_PATH)
         lines.extend([
             f"### {icon} {project.name}",
             "",
-            f"**Nota:** [[{str(rel_note.with_suffix('')).replace('\\\\', '/')}]]",
+            f"**Nota:** [[{wiki_path(project.note_path)}]]",
             f"**Score:** {project.score}/{project.max_score} ({project.percentage:.0f}%) — Grade: **{grade}**",
             "",
             "| Check | Score | Status |",
@@ -339,7 +295,6 @@ def generate_full_report(projects: list[ProjectHealth], projects_dir: Path) -> s
         ])
         for check in project.checks:
             lines.append(f"| {check.category} | {check.score}/{check.max_score} | {check.message} |")
-
         low = [check for check in project.checks if check.percentage < 50]
         if low:
             lines.extend(["", "**Recommendations:**"])
@@ -350,8 +305,8 @@ def generate_full_report(projects: list[ProjectHealth], projects_dir: Path) -> s
                     lines.append("- 🔗 Linkar a nota ao plano de ação, skills, JARVIS e GitHub Completo.")
                 elif check.category == "Contrato de execução":
                     lines.append("- ⚙️ Registrar comandos de run/dev/test/build, ambiente e deploy.")
-                elif check.category == "Clone local":
-                    lines.append("- 📦 Confirmar `source:` local ou manter nota como documentação sem clone acessível.")
+                elif check.category == "Fonte de código":
+                    lines.append("- 📦 Confirmar `source:` local ou bloco de sincronização estrutural.")
         lines.append("")
 
     lines.extend([
@@ -364,8 +319,6 @@ def generate_full_report(projects: list[ProjectHealth], projects_dir: Path) -> s
         "- [[03-Projetos/01-Ativos/Privados/README|Projects Index]]",
         "- [[10-Interfaces/Painel-Cockpit-Operacional|Painel Cockpit Operacional]]",
         "",
-        "---",
-        "",
         "*Generated by `.scripts/project_health_checker.py` using canonical numbered paths.*",
     ])
     return "\n".join(lines) + "\n"
@@ -376,8 +329,7 @@ def scan_projects() -> list[ProjectHealth]:
     if not projects_dir.exists():
         print(f"❌ Projects directory not found: {projects_dir}")
         return []
-    projects = [analyze_project(note) for note in iter_project_notes(projects_dir)]
-    return projects
+    return [analyze_project(note) for note in iter_project_notes(projects_dir)]
 
 
 def main() -> None:
@@ -388,14 +340,14 @@ def main() -> None:
         return
 
     projects_dir = active_projects_dir()
-    print(f"📊 Analyzed {len(projects)} projects from {projects_dir.relative_to(VAULT_PATH)}")
+    print(f"📊 Analyzed {len(projects)} projects from {projects_dir.relative_to(VAULT_PATH).as_posix()}")
 
     check_skills_gap(projects, SKILLS_DIR, SKILLS_GAP_FILE)
-    print(f"✅ Skills gap report generated: {SKILLS_GAP_FILE.relative_to(VAULT_PATH)}")
+    print(f"✅ Skills gap report generated: {SKILLS_GAP_FILE.relative_to(VAULT_PATH).as_posix()}")
 
     OUTPUT_FILE.parent.mkdir(parents=True, exist_ok=True)
     OUTPUT_FILE.write_text(generate_full_report(projects, projects_dir), encoding="utf-8")
-    print(f"✅ Health report generated: {OUTPUT_FILE.relative_to(VAULT_PATH)}")
+    print(f"✅ Health report generated: {OUTPUT_FILE.relative_to(VAULT_PATH).as_posix()}")
 
     print("\n📈 Quick Summary:")
     for project in sorted(projects, key=lambda item: item.percentage, reverse=True)[:5]:
