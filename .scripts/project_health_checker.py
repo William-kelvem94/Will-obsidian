@@ -1,490 +1,358 @@
 #!/usr/bin/env python3
 """
-Project Health Checker - Analyzes project quality and completeness
-Generates health score and actionable recommendations.
+Project Health Checker - auditoria leve dos projetos ativos do Will Vault.
+
+Varre notas em `03-Projetos/01-Ativos/Privados/`, calcula um score de
+completude documental e gera relatórios em caminhos canônicos.
 """
 
-import os
-import json
-from pathlib import Path
-from datetime import datetime
+from __future__ import annotations
+
 import re
+from dataclasses import dataclass, field
+from datetime import datetime
+from pathlib import Path
 
-# Configuration
-SCRIPT_ROOT = Path(__file__).parent
-VAULT_PATH = SCRIPT_ROOT.parent
-PROJECTS_DIR = VAULT_PATH / "Projetos" / "01-Ativos" / "Privados"
-OUTPUT_FILE = VAULT_PATH / "JARVIS" / "02-Operational" / "Project-Health-Report.md"
+SCRIPT_ROOT = Path(__file__).parent.resolve()
+VAULT_PATH = SCRIPT_ROOT.parent.resolve()
+
+CANONICAL_PROJECTS_DIR = VAULT_PATH / "03-Projetos" / "01-Ativos" / "Privados"
+LEGACY_PROJECTS_DIR = VAULT_PATH / "Projetos" / "01-Ativos" / "Privados"
+SKILLS_DIR = VAULT_PATH / "05-Skills"
+OUTPUT_FILE = VAULT_PATH / "02-JARVIS" / "02-Operational" / "Project-Health-Report.md"
+SKILLS_GAP_FILE = VAULT_PATH / ".logs" / "skills_gap.md"
+
+IGNORED_NOTE_NAMES = {"README.md", "INDEX.md", "GitHub-Completo.md", "search_works.md"}
 
 
-class ProjectHealthChecker:
-    def __init__(self, project_path):
-        self.project_path = Path(project_path)
-        self.name = self.project_path.name
-        self.score = 0
-        self.max_score = 0
-        self.checks = []
-        
-    def check_readme(self):
-        """Check for README.md existence and quality"""
-        readme = self.project_path / "README.md"
-        
-        if not readme.exists():
-            self.add_check("README", 0, 10, "❌ Missing README.md")
-            return
-        
-        content = readme.read_text(encoding='utf-8', errors='ignore')
-        score = 2  # Base score for existence
-        
-        # Check for key sections
-        if re.search(r'#+.*Install', content, re.I):
-            score += 2
-        if re.search(r'#+.*Usage', content, re.I):
-            score += 2
-        if re.search(r'#+.*Features', content, re.I):
-            score += 1
-        if re.search(r'```', content):  # Code blocks
-            score += 2
-        if len(content) > 500:  # Substantial content
-            score += 1
-        
-        status = "✅" if score >= 7 else "⚠️" if score >= 4 else "❌"
-        self.add_check("README", score, 10, f"{status} README quality: {score}/10")
-    
-    def check_dependencies(self):
-        """Check for dependency files"""
-        dep_files = {
-            "requirements.txt": "Python",
-            "package.json": "Node.js",
-            "Gemfile": "Ruby",
-            "go.mod": "Go",
-            "Cargo.toml": "Rust"
-        }
-        
-        found = []
-        for dep_file, lang in dep_files.items():
-            if (self.project_path / dep_file).exists():
-                found.append(lang)
-        
-        if found:
-            score = 5
-            langs = ", ".join(found)
-            self.add_check("Dependencies", score, 5, f"✅ Deps managed: {langs}")
-        else:
-            self.add_check("Dependencies", 0, 5, "⚠️ No dependency file found")
-    
-    def check_docker(self):
-        """Check for Docker setup"""
-        dockerfile = self.project_path / "Dockerfile"
-        compose = self.project_path / "docker-compose.yml"
-        
-        score = 0
-        messages = []
-        
-        if dockerfile.exists():
-            score += 3
-            messages.append("Dockerfile")
-        if compose.exists():
-            score += 2
-            messages.append("docker-compose.yml")
-        
-        if score > 0:
-            status = "✅" if score == 5 else "⚠️"
-            self.add_check("Docker", score, 5, f"{status} {', '.join(messages)}")
-        else:
-            self.add_check("Docker", 0, 5, "❌ No Docker config")
-    
-    def check_tests(self):
-        """Check for test files"""
-        test_patterns = [
-            "test_*.py", "*_test.py", "*.test.js", "*.spec.js",
-            "*.test.ts", "*.spec.ts"
-        ]
-        
-        test_files = []
-        for pattern in test_patterns:
-            test_files.extend(self.project_path.rglob(pattern))
-        
-        # Check for test directories
-        test_dirs = ['tests', 'test', '__tests__', 'spec']
-        has_test_dir = any((self.project_path / d).exists() for d in test_dirs)
-        
-        score = 0
-        if test_files:
-            score = min(len(test_files), 5) + (3 if has_test_dir else 0)
-        elif has_test_dir:
-            score = 2
-        
-        score = min(score, 8)
-        status = "✅" if score >= 5 else "⚠️" if score >= 2 else "❌"
-        msg = f"{len(test_files)} test files" if test_files else "No tests"
-        self.add_check("Tests", score, 8, f"{status} {msg}")
-    
-    def check_env_example(self):
-        """Check for .env.example"""
-        env_example = self.project_path / ".env.example"
-        env_file = self.project_path / ".env"
-        
-        score = 0
-        if env_example.exists():
-            score = 5
-            status = "✅ Has .env.example"
-        elif env_file.exists():
-            score = 2
-            status = "⚠️ Has .env but no .env.example"
-        else:
-            status = "✅ No env files (may not need)"
-            score = 3  # Not a problem if truly not needed
-        
-        self.add_check("Environment", score, 5, status)
-    
-    def check_git(self):
-        """Check git repository health"""
-        git_dir = self.project_path / ".git"
-        gitignore = self.project_path / ".gitignore"
-        
-        score = 0
-        messages = []
-        
-        if git_dir.exists():
-            score += 3
-            messages.append("Git repo")
-        if gitignore.exists():
-            score += 2
-            messages.append(".gitignore")
-        
-        status = "✅" if score == 5 else "⚠️" if score > 0 else "❌"
-        msg = ", ".join(messages) if messages else "Not a git repo"
-        self.add_check("Git", score, 5, f"{status} {msg}")
-    
-    def check_ci_cd(self):
-        """Check for CI/CD configuration"""
-        ci_files = [
-            ".github/workflows",
-            ".gitlab-ci.yml",
-            ".circleci",
-            "Jenkinsfile",
-            ".travis.yml"
-        ]
-        
-        found = []
-        for ci_path in ci_files:
-            if (self.project_path / ci_path).exists():
-                found.append(ci_path.split('/')[-1].split('.')[0])
-        
-        if found:
-            score = 5
-            self.add_check("CI/CD", score, 5, f"✅ {', '.join(found)}")
-        else:
-            self.add_check("CI/CD", 0, 5, "❌ No CI/CD")
-    
-    def check_obsidian_note(self):
-        """Check if there's a matching Obsidian note"""
-        note_path = VAULT_PATH / "Projetos" / "01-Ativos" / "Privados" / f"{self.name}.md"
-        
-        if note_path.exists():
-            content = note_path.read_text(encoding='utf-8', errors='ignore')
-            score = 2 if len(content) > 200 else 1
-            status = "✅" if score == 2 else "⚠️"
-            self.add_check("Documentation", score, 2, f"{status} Has vault note")
-        else:
-            self.add_check("Documentation", 0, 2, "❌ No vault note")
-    
-    def add_check(self, category, score, max_score, message):
-        """Add a check result"""
-        self.checks.append({
-            'category': category,
-            'score': score,
-            'max_score': max_score,
-            'message': message,
-            'percentage': (score / max_score * 100) if max_score > 0 else 0
-        })
-        self.score += score
-        self.max_score += max_score
-    
-    def run_all_checks(self):
-        """Run all health checks"""
-        self.check_readme()
-        self.check_dependencies()
-        self.check_docker()
-        self.check_tests()
-        self.check_env_example()
-        self.check_git()
-        self.check_ci_cd()
-        self.check_obsidian_note()
-    
-    def get_grade(self):
-        """Calculate letter grade"""
-        percentage = (self.score / self.max_score * 100) if self.max_score > 0 else 0
-        
-        if percentage >= 90:
+@dataclass
+class Check:
+    category: str
+    score: int
+    max_score: int
+    message: str
+
+    @property
+    def percentage(self) -> float:
+        return (self.score / self.max_score * 100) if self.max_score else 0
+
+
+@dataclass
+class ProjectHealth:
+    name: str
+    note_path: Path
+    checks: list[Check] = field(default_factory=list)
+
+    @property
+    def score(self) -> int:
+        return sum(check.score for check in self.checks)
+
+    @property
+    def max_score(self) -> int:
+        return sum(check.max_score for check in self.checks)
+
+    @property
+    def percentage(self) -> float:
+        return (self.score / self.max_score * 100) if self.max_score else 0
+
+    def grade(self) -> tuple[str, str]:
+        pct = self.percentage
+        if pct >= 90:
             return "A", "🟢"
-        elif percentage >= 80:
+        if pct >= 80:
             return "B", "🟢"
-        elif percentage >= 70:
+        if pct >= 70:
             return "C", "🟡"
-        elif percentage >= 60:
+        if pct >= 60:
             return "D", "🟡"
-        else:
-            return "F", "🔴"
-    
-    def generate_report_section(self):
-        """Generate markdown report section for this project"""
-        grade, icon = self.get_grade()
-        percentage = (self.score / self.max_score * 100) if self.max_score > 0 else 0
-        
-        md = f"\n### {icon} {self.name}\n\n"
-        md += f"**Score:** {self.score}/{self.max_score} ({percentage:.0f}%) — Grade: **{grade}**\n\n"
-        md += "| Check | Score | Status |\n"
-        md += "|-------|-------|--------|\n"
-        
-        for check in self.checks:
-            md += f"| {check['category']} | {check['score']}/{check['max_score']} | {check['message']} |\n"
-        
-        # Recommendations
-        low_scores = [c for c in self.checks if c['percentage'] < 50]
-        if low_scores:
-            md += "\n**Recommendations:**\n"
-            for check in low_scores:
-                if check['category'] == "README":
-                    md += "- 📝 Improve README with installation, usage, and examples\n"
-                elif check['category'] == "Tests":
-                    md += "- 🧪 Add unit tests (pytest, jest, etc.)\n"
-                elif check['category'] == "Docker":
-                    md += "- 🐳 Add Dockerfile and docker-compose.yml\n"
-                elif check['category'] == "CI/CD":
-                    md += "- ⚙️ Set up GitHub Actions for automated testing\n"
-                elif check['category'] == "Git":
-                    md += "- 📦 Initialize git repository and add .gitignore\n"
-        
-        return md
+        return "F", "🔴"
+
+    def add(self, category: str, score: int, max_score: int, message: str) -> None:
+        self.checks.append(Check(category, score, max_score, message))
 
 
-def parse_frontmatter_tags(content):
-    """Extract YAML list values from frontmatter."""
-    fm = re.search(r"^---\s*\n(.*?)\n---\s*\n", content, re.DOTALL)
-    if not fm:
-        return []
+def read_text(path: Path) -> str:
+    return path.read_text(encoding="utf-8", errors="ignore")
 
-    frontmatter = fm.group(1)
-    match = re.search(r"skills:\s*\[(.*?)\]", frontmatter, re.DOTALL)
+
+def active_projects_dir() -> Path:
+    if CANONICAL_PROJECTS_DIR.exists():
+        return CANONICAL_PROJECTS_DIR
+    return LEGACY_PROJECTS_DIR
+
+
+def wiki_path(path: Path) -> str:
+    return path.relative_to(VAULT_PATH).with_suffix("").as_posix()
+
+
+def parse_frontmatter(content: str) -> dict[str, str]:
+    match = re.match(r"^---\s*\n(.*?)\n---\s*\n", content, re.DOTALL)
     if not match:
-        return []
+        return {}
 
-    tags = [tag.strip().strip('"\'') for tag in match.group(1).split(',') if tag.strip()]
-    return tags
-
-
-def load_defined_skills(skills_root):
-    """Collect defined skills from skills markdown files."""
-    skills = set()
-    for path in Path(skills_root).rglob('*.md'):
-        if path.name.lower() == 'readme.md':
+    fm: dict[str, str] = {}
+    for line in match.group(1).splitlines():
+        if ":" not in line or line.startswith(" "):
             continue
-
-        content = path.read_text(encoding='utf-8', errors='ignore')
-        title_match = re.search(r'^title:\s*"?(.*?)"?\s*$', content, re.MULTILINE)
-        if title_match:
-            skills.add(title_match.group(1).strip().lower())
-        else:
-            skills.add(path.stem.lower())
-
-    return skills
+        key, value = line.split(":", 1)
+        fm[key.strip()] = value.strip().strip('"\'')
+    return fm
 
 
-def extract_project_skills(project_note):
-    """Extract referenced skills from a project note."""
-    if not project_note.exists():
+def extract_list_field(content: str, field_name: str) -> set[str]:
+    match = re.search(rf"^{field_name}:\s*\[(.*?)\]", content, re.MULTILINE | re.DOTALL)
+    if not match:
         return set()
+    return {item.strip().strip('"\'').lower() for item in match.group(1).split(",") if item.strip()}
 
-    content = project_note.read_text(encoding='utf-8', errors='ignore')
-    tags = parse_frontmatter_tags(content)
-    skills = set(tag.lower() for tag in tags)
 
-    inline_skills = re.findall(r'#skills[\/\w-]*', content)
-    for inline in inline_skills:
-        skills.add(inline.lstrip('#').lower())
+def iter_project_notes(projects_dir: Path) -> list[Path]:
+    if not projects_dir.exists():
+        return []
+    notes = []
+    for path in sorted(projects_dir.glob("*.md")):
+        if path.name in IGNORED_NOTE_NAMES or path.name.endswith("-old.md"):
+            continue
+        notes.append(path)
+    return notes
 
+
+def has_heading(content: str, names: list[str]) -> bool:
+    return any(re.search(rf"^#+\s+.*{re.escape(name)}", content, re.IGNORECASE | re.MULTILINE) for name in names)
+
+
+def has_local_source(content: str, fm: dict[str, str]) -> bool:
+    source = fm.get("source", "")
+    if ":/" in source or ":\\" in source or source.startswith("/"):
+        return True
+    return bool(re.search(r"Caminho F[íi]sico Local:\*\*\s*`[^`]+`", content))
+
+
+def check_note_quality(project: ProjectHealth, content: str, fm: dict[str, str]) -> None:
+    score = 0
+    required_fields = ["title", "source", "language", "description", "updated", "tags"]
+    present = [field for field in required_fields if fm.get(field)]
+    score += min(len(present), len(required_fields))
+
+    if has_heading(content, ["Visão", "Visao", "Resumo", "Contexto"]):
+        score += 2
+    if has_heading(content, ["Roadmap", "Meta 90 Dias", "Próximos", "Proximos"]):
+        score += 2
+    if has_heading(content, ["Arquitetura", "Estrutura", "Tech Stack", "Engenharia"]):
+        score += 2
+    if has_heading(content, ["Riscos", "Decisões", "Decisoes", "Diário", "Diario"]):
+        score += 1
+    if len(content) > 900:
+        score += 2
+
+    project.add("Nota canônica", min(score, 15), 15, f"{len(present)}/{len(required_fields)} metadados principais + seções de projeto")
+
+
+def check_links(project: ProjectHealth, content: str) -> None:
+    score = 0
+    if "GitHub-Completo" in content:
+        score += 2
+    if "Plano-de-Acao" in content or "Plano de Ação" in content or "Plano de Acao" in content:
+        score += 2
+    if "05-Skills" in content or "skills" in content.lower():
+        score += 2
+    if "02-JARVIS" in content or "JARVIS" in content:
+        score += 1
+    project.add("Links internos", score, 7, f"links operacionais detectados: {score}/7")
+
+
+def check_execution_contract(project: ProjectHealth, content: str) -> None:
+    score = 0
+    if re.search(r"\b(run|start|dev|build|test|docker compose|pnpm|npm|python|uvicorn)\b", content, re.IGNORECASE):
+        score += 4
+    if ".env.example" in content:
+        score += 2
+    if "Dockerfile" in content or "docker-compose" in content or "docker compose" in content:
+        score += 2
+    if "CI" in content or "GitHub Actions" in content:
+        score += 2
+    project.add("Contrato de execução", score, 10, f"sinais de execução/deploy/ambiente: {score}/10")
+
+
+def check_source(project: ProjectHealth, content: str, fm: dict[str, str]) -> None:
+    score = 0
+    if has_local_source(content, fm):
+        score += 4
+    if "Sincronização Local de Código" in content or "Sincronizacao Local de Codigo" in content:
+        score += 4
+    project.add("Fonte de código", score, 8, f"fonte local/sync detectado: {score}/8")
+
+
+def load_defined_skills(skills_root: Path) -> set[str]:
+    skills: set[str] = set()
+    if not skills_root.exists():
+        return skills
+    for path in skills_root.rglob("*.md"):
+        if path.name.lower() in {"readme.md", "index.md"}:
+            continue
+        content = read_text(path)
+        title_match = re.search(r'^title:\s*"?(.*?)"?\s*$', content, re.MULTILINE)
+        skills.add((title_match.group(1) if title_match else path.stem).strip().lower())
     return skills
 
 
-def check_skills_gap(projects_dir, skills_dir, output_path):
-    """Generate a skills gap report comparing defined skills and project references."""
-    skills = load_defined_skills(skills_dir)
-    missing = []
-    orphan_skills = set(skills)
+def check_skills_gap(projects: list[ProjectHealth], skills_root: Path, output_path: Path) -> None:
+    defined_skills = load_defined_skills(skills_root)
+    referenced: set[str] = set()
+    missing: list[tuple[str, str]] = []
 
-    if not projects_dir.exists():
-        print(f"⚠️ Projects directory not found for skills gap: {projects_dir}")
-        return
-
-    for project_path in projects_dir.iterdir():
-        if not project_path.is_dir() or project_path.name.startswith('.'):
-            continue
-
-        project_note = project_path.parent / f"{project_path.name}.md"
-        project_skills = extract_project_skills(project_note)
-
+    for project in projects:
+        content = read_text(project.note_path)
+        project_skills = extract_list_field(content, "skills_usados") | extract_list_field(content, "skills")
+        inline_skills = {tag.lstrip("#").lower() for tag in re.findall(r"#skills[\w/-]*", content)}
+        project_skills |= inline_skills
+        referenced |= project_skills
         for skill in project_skills:
-            if skill not in skills:
-                missing.append((project_path.name, skill))
-            else:
-                orphan_skills.discard(skill)
+            if defined_skills and skill not in defined_skills:
+                missing.append((project.name, skill))
 
+    orphan_skills = sorted(defined_skills - referenced)
     output_path.parent.mkdir(parents=True, exist_ok=True)
     lines = [
-        '# Skills Gap Report',
-        '',
-        f'Generated: {datetime.now().strftime("%Y-%m-%d %H:%M:%S")}',
-        '',
-        '## Missing Skills Referenced by Projects',
-        ''
+        "# Skills Gap Report",
+        "",
+        f"Generated: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}",
+        "",
+        "## Missing Skills Referenced by Projects",
+        "",
     ]
-
-    if missing:
-        for project, skill in missing:
-            lines.append(f'- {project}: {skill}')
-    else:
-        lines.append('- None found')
-
-    lines.extend(['', '## Defined Skills Not Referenced by Projects', ''])
-    if orphan_skills:
-        for skill in sorted(orphan_skills):
-            lines.append(f'- {skill}')
-    else:
-        lines.append('- None found')
-
-    with open(output_path, 'w', encoding='utf-8') as f:
-        f.write('\n'.join(lines))
-
-    print(f"✅ Skills gap report generated: {output_path}")
+    lines.extend([f"- {project}: {skill}" for project, skill in missing] or ["- None found"])
+    lines.extend(["", "## Defined Skills Not Referenced by Projects", ""])
+    lines.extend([f"- {skill}" for skill in orphan_skills] or ["- None found"])
+    output_path.write_text("\n".join(lines) + "\n", encoding="utf-8")
 
 
-def scan_projects():
-    """Scan all projects in the Privados directory"""
-    if not PROJECTS_DIR.exists():
-        print(f"❌ Projects directory not found: {PROJECTS_DIR}")
-        return []
-    
-    projects = []
-    for item in PROJECTS_DIR.iterdir():
-        if item.is_dir() and not item.name.startswith('.') and item.name != '__pycache__':
-            checker = ProjectHealthChecker(item)
-            checker.run_all_checks()
-            projects.append(checker)
-    
-    return projects
+def analyze_project(note_path: Path) -> ProjectHealth:
+    content = read_text(note_path)
+    fm = parse_frontmatter(content)
+    project = ProjectHealth(name=fm.get("title") or note_path.stem, note_path=note_path)
+    check_note_quality(project, content, fm)
+    check_links(project, content)
+    check_execution_contract(project, content)
+    check_source(project, content, fm)
+    return project
 
 
-def generate_full_report(projects):
-    """Generate full markdown report"""
+def generate_full_report(projects: list[ProjectHealth], projects_dir: Path) -> str:
     now = datetime.now()
-    
-    md = f"""---
-title: "Project Health Report"
-description: "Automated health check of all active projects"
-tags: [report, health, projects, automated]
-generated: {now.strftime("%Y-%m-%d %H:%M:%S")}
----
+    projects_sorted = sorted(projects, key=lambda item: item.percentage, reverse=True)
+    total_score = sum(project.score for project in projects_sorted)
+    total_max = sum(project.max_score for project in projects_sorted)
+    overall = (total_score / total_max * 100) if total_max else 0
 
-# 📊 Project Health Report
-
-**Generated:** {now.strftime("%Y-%m-%d at %H:%M:%S")}
-**Projects Scanned:** {len(projects)}
-
----
-
-## 📈 Overall Summary
-
-"""
-    
-    # Calculate overall stats
-    total_score = sum(p.score for p in projects)
-    total_max = sum(p.max_score for p in projects)
-    avg_percentage = (total_score / total_max * 100) if total_max > 0 else 0
-    
-    grade_counts = {}
-    for project in projects:
-        grade, _ = project.get_grade()
-        grade_counts[grade] = grade_counts.get(grade, 0) + 1
-    
-    md += f"| Metric | Value |\n"
-    md += f"|--------|-------|\n"
-    md += f"| **Overall Health** | {avg_percentage:.0f}% |\n"
-    md += f"| **Total Score** | {total_score}/{total_max} |\n"
-    for grade in ['A', 'B', 'C', 'D', 'F']:
-        if grade in grade_counts:
-            md += f"| **Grade {grade}** | {grade_counts[grade]} projects |\n"
-    
-    # Sort projects by score (best first)
-    projects_sorted = sorted(projects, key=lambda p: p.score / p.max_score if p.max_score > 0 else 0, reverse=True)
-    
-    md += "\n---\n\n## 🏆 Project Rankings\n"
-    
-    for i, project in enumerate(projects_sorted, 1):
-        _, icon = project.get_grade()
-        percentage = (project.score / project.max_score * 100) if project.max_score > 0 else 0
-        md += f"{i}. {icon} **{project.name}** — {percentage:.0f}%\n"
-    
-    md += "\n---\n\n## 📋 Detailed Reports\n"
-    
+    grade_counts: dict[str, int] = {}
     for project in projects_sorted:
-        md += project.generate_report_section()
-    
-    md += f"""
+        grade, _ = project.grade()
+        grade_counts[grade] = grade_counts.get(grade, 0) + 1
 
----
+    lines = [
+        "---",
+        'title: "Project Health Report"',
+        'description: "Automated health check of active project notes"',
+        "tags: [report, health, projects, automated, jarvis-operacao]",
+        f"generated: {now.strftime('%Y-%m-%d %H:%M:%S')}",
+        f"updated: {now.strftime('%Y-%m-%d')}",
+        "---",
+        "",
+        "# 📊 Project Health Report",
+        "",
+        f"**Generated:** {now.strftime('%Y-%m-%d at %H:%M:%S')}",
+        f"**Projects Directory:** `{projects_dir.relative_to(VAULT_PATH).as_posix()}`",
+        f"**Projects Scanned:** {len(projects_sorted)}",
+        "",
+        "## 📈 Overall Summary",
+        "",
+        "| Metric | Value |",
+        "|--------|-------|",
+        f"| **Overall Health** | {overall:.0f}% |",
+        f"| **Total Score** | {total_score}/{total_max} |",
+    ]
+    for grade in ["A", "B", "C", "D", "F"]:
+        if grade in grade_counts:
+            lines.append(f"| **Grade {grade}** | {grade_counts[grade]} projects |")
 
-## 🔗 Related Documents
+    lines.extend(["", "---", "", "## 🏆 Project Rankings", ""])
+    for index, project in enumerate(projects_sorted, 1):
+        grade, icon = project.grade()
+        lines.append(f"{index}. {icon} **{project.name}** — {project.percentage:.0f}% ({grade})")
 
-- [[JARVIS/02-Operational/Dashboard|Operational Dashboard]]
-- [[Projetos/01-Ativos/Plano-de-Acao|Action Plan]]
-- [[Projetos/01-Ativos/Privados/README|Projects Index]]
+    lines.extend(["", "---", "", "## 📋 Detailed Reports", ""])
+    for project in projects_sorted:
+        grade, icon = project.grade()
+        lines.extend([
+            f"### {icon} {project.name}",
+            "",
+            f"**Nota:** [[{wiki_path(project.note_path)}]]",
+            f"**Score:** {project.score}/{project.max_score} ({project.percentage:.0f}%) — Grade: **{grade}**",
+            "",
+            "| Check | Score | Status |",
+            "|-------|-------|--------|",
+        ])
+        for check in project.checks:
+            lines.append(f"| {check.category} | {check.score}/{check.max_score} | {check.message} |")
+        low = [check for check in project.checks if check.percentage < 50]
+        if low:
+            lines.extend(["", "**Recommendations:**"])
+            for check in low:
+                if check.category == "Nota canônica":
+                    lines.append("- 📝 Completar metadados, visão, roadmap, arquitetura, riscos e diário de bordo.")
+                elif check.category == "Links internos":
+                    lines.append("- 🔗 Linkar a nota ao plano de ação, skills, JARVIS e GitHub Completo.")
+                elif check.category == "Contrato de execução":
+                    lines.append("- ⚙️ Registrar comandos de run/dev/test/build, ambiente e deploy.")
+                elif check.category == "Fonte de código":
+                    lines.append("- 📦 Confirmar `source:` local ou bloco de sincronização estrutural.")
+        lines.append("")
 
----
+    lines.extend([
+        "---",
+        "",
+        "## 🔗 Related Documents",
+        "",
+        "- [[02-JARVIS/README|JARVIS]]",
+        "- [[03-Projetos/01-Ativos/Plano-de-Acao|Plano de Ação]]",
+        "- [[03-Projetos/01-Ativos/Privados/README|Projects Index]]",
+        "- [[10-Interfaces/Painel-Cockpit-Operacional|Painel Cockpit Operacional]]",
+        "",
+        "*Generated by `.scripts/project_health_checker.py` using canonical numbered paths.*",
+    ])
+    return "\n".join(lines) + "\n"
 
-*This report was automatically generated by `.scripts/project_health_checker.py`*
-*To regenerate, run: `python .scripts/project_health_checker.py`*
-*Schedule this weekly for continuous monitoring*
-"""
-    
-    return md
+
+def scan_projects() -> list[ProjectHealth]:
+    projects_dir = active_projects_dir()
+    if not projects_dir.exists():
+        print(f"❌ Projects directory not found: {projects_dir}")
+        return []
+    return [analyze_project(note) for note in iter_project_notes(projects_dir)]
 
 
-def main():
-    """Main execution"""
-    print("🔍 Scanning projects...")
-    
+def main() -> None:
+    print("🔍 Scanning canonical project notes...")
     projects = scan_projects()
-    
     if not projects:
-        print("⚠️ No projects found to scan")
+        print("⚠️ No project notes found to scan")
         return
-    
-    print(f"📊 Analyzed {len(projects)} projects")
 
-    # Generate skills gap report
-    skills_gap_path = VAULT_PATH / ".logs" / "skills_gap.md"
-    check_skills_gap(PROJECTS_DIR, VAULT_PATH / "skills", skills_gap_path)
-    
-    # Generate report
-    report = generate_full_report(projects)
-    
-    # Ensure output directory exists
+    projects_dir = active_projects_dir()
+    print(f"📊 Analyzed {len(projects)} projects from {projects_dir.relative_to(VAULT_PATH).as_posix()}")
+
+    check_skills_gap(projects, SKILLS_DIR, SKILLS_GAP_FILE)
+    print(f"✅ Skills gap report generated: {SKILLS_GAP_FILE.relative_to(VAULT_PATH).as_posix()}")
+
     OUTPUT_FILE.parent.mkdir(parents=True, exist_ok=True)
-    
-    # Write report
-    with open(OUTPUT_FILE, 'w', encoding='utf-8') as f:
-        f.write(report)
-    
-    print(f"✅ Health report generated: {OUTPUT_FILE.relative_to(VAULT_PATH)}")
-    
-    # Print summary
+    OUTPUT_FILE.write_text(generate_full_report(projects, projects_dir), encoding="utf-8")
+    print(f"✅ Health report generated: {OUTPUT_FILE.relative_to(VAULT_PATH).as_posix()}")
+
     print("\n📈 Quick Summary:")
-    for project in sorted(projects, key=lambda p: p.score / p.max_score if p.max_score > 0 else 0, reverse=True)[:5]:
-        grade, icon = project.get_grade()
-        percentage = (project.score / project.max_score * 100) if project.max_score > 0 else 0
-        print(f"  {icon} {project.name}: {percentage:.0f}% (Grade {grade})")
+    for project in sorted(projects, key=lambda item: item.percentage, reverse=True)[:5]:
+        grade, icon = project.grade()
+        print(f"  {icon} {project.name}: {project.percentage:.0f}% (Grade {grade})")
 
 
 if __name__ == "__main__":
