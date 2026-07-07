@@ -1,166 +1,177 @@
 #!/usr/bin/env python3
 """
-Recomendador de Próximo Estudo — Sugere tópicos para estudar com base em
-gaps de conhecimento, nível de skill baixo e histórico recente de estudos.
+Recomendador de Proximo Estudo - sugere topicos para estudar com base em gaps,
+skills pouco conectadas e historico recente de estudo.
 
-Estratégia de recomendação:
-  1. Skills com #level-basic / #level-init (ou nivel: iniciante / level ≤ 2)
-  2. Skills listadas como órfãs/não-referenciadas no skills_gap.md
-  3. Gaps mencionados em GAPS.md
-  4. Remove tópicos estudados nos últimos 14 dias (via Conhecimento-Geral/)
-  5. Pondera por urgência aparente e ordena Top 3 + Quick Win
+Atualizado para a estrutura numerada canonica do WILL-OBSIDIAN.
 """
+
+from __future__ import annotations
 
 import re
 import subprocess
-from pathlib import Path
-from datetime import datetime, timedelta
 from collections import defaultdict
+from datetime import datetime, timedelta
+from pathlib import Path
 
-SCRIPT_ROOT = Path(__file__).parent
-VAULT_PATH = SCRIPT_ROOT.parent
-OUTPUT_FILE = VAULT_PATH / "JARVIS" / "02-Operational" / "Proximo-Estudo.md"
+SCRIPT_ROOT = Path(__file__).parent.resolve()
+VAULT_PATH = SCRIPT_ROOT.parent.resolve()
+OUTPUT_FILE = VAULT_PATH / "02-JARVIS" / "02-Operational" / "Proximo-Estudo.md"
 
-# ── helpers ──────────────────────────────────────────────────────────────
+CANONICAL_SKILLS_DIR = VAULT_PATH / "05-Skills"
+LEGACY_SKILLS_DIR = VAULT_PATH / "skills"
+CANONICAL_KNOWLEDGE_DIR = VAULT_PATH / "04-Conhecimentos"
+LEGACY_KNOWLEDGE_DIR = VAULT_PATH / "Conhecimento-Geral"
+GAPS_FILE = VAULT_PATH / "GAPS.md"
+SKILLS_GAP_FILE = VAULT_PATH / ".logs" / "skills_gap.md"
 
 
-def run(cmd, cwd=None):
-    """Executa comando shell e retorna stdout limpo."""
+def existing_dir(primary: Path, fallback: Path) -> Path:
+    if primary.exists():
+        return primary
+    return fallback
+
+
+def run(cmd: str, cwd: Path | None = None) -> str:
     try:
-        r = subprocess.run(
-            cmd, shell=True, cwd=cwd or VAULT_PATH,
-            capture_output=True, text=True, encoding="utf-8",
+        result = subprocess.run(
+            cmd,
+            shell=True,
+            cwd=cwd or VAULT_PATH,
+            capture_output=True,
+            text=True,
+            encoding="utf-8",
+            errors="ignore",
         )
-        return r.stdout.strip()
+        return result.stdout.strip()
     except Exception:
         return ""
 
 
-def parse_frontmatter(content):
-    """Extrai campos relevantes do frontmatter YAML de forma simples."""
+def parse_frontmatter(content: str) -> dict:
     fm = {"tags": [], "nivel": None, "level": None, "title": ""}
-    m = re.match(r"^---\s*\n(.*?)\n(?:---|\.\.\.)", content, re.DOTALL)
-    if not m:
+    match = re.match(r"^---\s*\n(.*?)\n(?:---|\.\.\.)", content, re.DOTALL)
+    if not match:
         return fm
-    block = m.group(1)
 
-    # title
-    t = re.search(r'^title:\s*"?(.+?)"?\s*$', block, re.MULTILINE)
-    if t:
-        fm["title"] = t.group(1).strip()
+    block = match.group(1)
+    title_match = re.search(r'^title:\s*"?(.+?)"?\s*$', block, re.MULTILINE)
+    if title_match:
+        fm["title"] = title_match.group(1).strip()
 
-    # tags inline array  tags: [a, b, c]
-    m_tags = re.search(r"^tags:\s*\[(.+?)\]", block, re.MULTILINE)
-    if m_tags:
-        fm["tags"] = [x.strip().strip("\"'") for x in m_tags.group(1).split(",") if x.strip()]
+    tags_inline = re.search(r"^tags:\s*\[(.+?)\]", block, re.MULTILINE)
+    if tags_inline:
+        fm["tags"] = [tag.strip().strip("\"'") for tag in tags_inline.group(1).split(",") if tag.strip()]
+    elif re.search(r"^tags:\s*$", block, re.MULTILINE):
+        lines = block.splitlines()
+        in_tags = False
+        tags = []
+        for line in lines:
+            if line.startswith("tags:"):
+                in_tags = True
+                continue
+            if in_tags and line.startswith("  - "):
+                tags.append(line.replace("  - ", "", 1).strip())
+            elif in_tags and line and not line.startswith(" "):
+                break
+        fm["tags"] = tags
 
-    # nivel field
-    m_nivel = re.search(r"^nivel:\s*(.+)", block, re.MULTILINE)
-    if m_nivel:
-        fm["nivel"] = m_nivel.group(1).strip().lower()
+    nivel_match = re.search(r"^nivel:\s*(.+)", block, re.MULTILINE)
+    if nivel_match:
+        fm["nivel"] = nivel_match.group(1).strip().lower()
 
-    # level field (numeric)
-    m_level = re.search(r"^level:\s*(\d+)", block, re.MULTILINE)
-    if m_level:
-        fm["level"] = int(m_level.group(1))
+    level_match = re.search(r"^level:\s*(\d+)", block, re.MULTILINE)
+    if level_match:
+        fm["level"] = int(level_match.group(1))
 
     return fm
 
 
-def is_basic(fm):
-    """Retorna True se o frontmatter indica nível básico/iniciante."""
-    if any(t in ("level-basic", "level-init") for t in fm["tags"]):
+def is_basic(fm: dict) -> bool:
+    tags = [str(tag).lower() for tag in fm.get("tags", [])]
+    if any(tag in ("level-basic", "level-init") for tag in tags):
         return True
-    if fm["nivel"] in ("basico", "básico", "iniciante"):
+    if fm.get("nivel") in ("basico", "básico", "iniciante"):
         return True
-    if fm["level"] is not None and fm["level"] <= 2:
+    if fm.get("level") is not None and fm["level"] <= 2:
         return True
     return False
 
 
-def wiki_path(path):
-    """Converte caminho relativo para wiki-link (remove extensão)."""
+def wiki_path(path: Path) -> str:
     rel = path.relative_to(VAULT_PATH)
-    return str(rel.with_suffix("")).replace("\\", "/")
+    return rel.with_suffix("").as_posix()
 
 
-# ── scanners ─────────────────────────────────────────────────────────────
-
-
-def scan_low_skills():
-    """Varre skills/ por notas com nível básico."""
+def scan_low_skills() -> list[dict]:
     results = []
-    skills_dir = VAULT_PATH / "skills"
-    for p in sorted(skills_dir.rglob("*.md")):
-        if p.name.lower() == "readme.md":
+    skills_dir = existing_dir(CANONICAL_SKILLS_DIR, LEGACY_SKILLS_DIR)
+    if not skills_dir.exists():
+        return results
+
+    for path in sorted(skills_dir.rglob("*.md")):
+        if path.name.lower() in {"readme.md", "index.md"}:
             continue
         try:
-            raw = p.read_text(encoding="utf-8", errors="replace")
+            raw = path.read_text(encoding="utf-8", errors="replace")
         except Exception:
             continue
         fm = parse_frontmatter(raw)
         if is_basic(fm):
-            title = fm["title"] or p.stem.replace("-", " ").title()
+            title = fm["title"] or path.stem.replace("-", " ").title()
             results.append({
                 "name": title,
                 "source": "low-skill",
-                "reason": "Skill em nível básico",
-                "note_path": p,
+                "reason": "Skill em nivel basico ou inicial",
+                "note_path": path,
                 "priority": 3,
             })
     return results
 
 
-def parse_gaps():
-    """Lê GAPS.md e extrai gaps relevantes (apenas seção de Skills/Áreas)."""
-    gaps_file = VAULT_PATH / "GAPS.md"
-    if not gaps_file.exists():
+def parse_gaps() -> list[dict]:
+    if not GAPS_FILE.exists():
         return []
     try:
-        text = gaps_file.read_text(encoding="utf-8", errors="replace")
+        text = GAPS_FILE.read_text(encoding="utf-8", errors="replace")
     except Exception:
         return []
 
     gaps = []
-    # Só considera gaps dentro da seção "Skills/Áreas sem nota dedicada"
     sections = text.split("##")
     target = None
-    for s in sections:
-        if "Skills/Áreas sem nota dedicada" in s or "Skills" in s.splitlines()[0] if s.splitlines() else False:
-            target = s
+    for section in sections:
+        first_line = section.splitlines()[0] if section.splitlines() else ""
+        if "Skills/Áreas sem nota dedicada" in section or "Skills" in first_line:
+            target = section
             break
     if not target:
-        target = text  # fallback
+        target = text
 
     for line in target.splitlines():
         line = line.strip()
         if not line.startswith("- "):
             continue
         content = line[2:].strip().lstrip("*").strip()
-        if not content:
+        if not content or "nenhum gap" in content.lower():
             continue
-        # skip headers, emoji-only, or celebratory lines
-        if "nenhum gap" in content.lower():
-            continue
-        if content.lower().startswith("sugira") or content.lower().startswith("anexe"):
+        if content.lower().startswith(("sugira", "anexe")):
             continue
         gaps.append({
             "name": content.strip(" *"),
             "source": "gaps-md",
             "reason": "Gap de conhecimento identificado no GAPS.md",
-            "note_path": gaps_file,
+            "note_path": GAPS_FILE,
             "priority": 5,
         })
     return gaps
 
 
-def parse_skills_gap():
-    """Lê .logs/skills_gap.md e extrai skills órfãs / não-referenciadas."""
-    sg_file = VAULT_PATH / ".logs" / "skills_gap.md"
-    if not sg_file.exists():
+def parse_skills_gap() -> list[dict]:
+    if not SKILLS_GAP_FILE.exists():
         return []
     try:
-        text = sg_file.read_text(encoding="utf-8", errors="replace")
+        text = SKILLS_GAP_FILE.read_text(encoding="utf-8", errors="replace")
     except Exception:
         return []
 
@@ -178,200 +189,154 @@ def parse_skills_gap():
                 results.append({
                     "name": name,
                     "source": "skills-gap",
-                    "reason": "Skill não referenciada por projetos ativos — lacuna potencial",
-                    "note_path": sg_file,
+                    "reason": "Skill definida mas pouco conectada a projetos ativos",
+                    "note_path": SKILLS_GAP_FILE,
                     "priority": 4,
                 })
     return results
 
 
-def get_recent_studies():
-    """Retorna set de nomes de notas modificadas em Conhecimento-Geral/ nos últimos 14 dias."""
-    recent_names = set()
+def get_recent_studies() -> set[str]:
+    recent_names: set[str] = set()
     since = (datetime.now() - timedelta(days=14)).isoformat()
+    knowledge_dir = existing_dir(CANONICAL_KNOWLEDGE_DIR, LEGACY_KNOWLEDGE_DIR)
+    rel_dir = knowledge_dir.relative_to(VAULT_PATH).as_posix() if knowledge_dir.exists() else "04-Conhecimentos"
 
-    # git-based (mais confiável)
-    cmd = f"git log --since=\"{since}\" --name-only --pretty=format: --all -- \"Conhecimento-Geral/*.md\""
-    output = run(cmd)
+    output = run(f'git log --since="{since}" --name-only --pretty=format: -- "{rel_dir}/*.md"')
     for line in output.splitlines():
         line = line.strip()
         if line.endswith(".md"):
-            stem = Path(line).stem.lower().replace("-", " ").replace("_", " ")
-            recent_names.add(stem)
+            recent_names.add(Path(line).stem.lower().replace("-", " ").replace("_", " "))
 
-    # file-mtime fallback
-    base = VAULT_PATH / "Conhecimento-Geral"
-    cutoff = datetime.now() - timedelta(days=14)
-    for p in base.rglob("*.md"):
-        try:
-            mtime = datetime.fromtimestamp(p.stat().st_mtime)
-            if mtime >= cutoff:
-                stem = p.stem.lower().replace("-", " ").replace("_", " ")
-                recent_names.add(stem)
-        except Exception:
-            continue
+    if knowledge_dir.exists():
+        cutoff = datetime.now() - timedelta(days=14)
+        for path in knowledge_dir.rglob("*.md"):
+            try:
+                if datetime.fromtimestamp(path.stat().st_mtime) >= cutoff:
+                    recent_names.add(path.stem.lower().replace("-", " ").replace("_", " "))
+            except Exception:
+                continue
     return recent_names
 
 
-# ── recommendation engine ────────────────────────────────────────────────
-
-
-def build_recommendations():
-    """Junta todas as fontes, filtra recentes, pontua e ordena."""
+def build_recommendations() -> list[dict]:
     candidates = []
     candidates.extend(scan_low_skills())
     candidates.extend(parse_gaps())
     candidates.extend(parse_skills_gap())
 
     if not candidates:
-        print("[WARN] Nenhum candidato encontrado — tudo coberto ou vazio!")
+        print("[WARN] Nenhum candidato encontrado — tudo coberto ou fontes vazias.")
         return []
 
     recent = get_recent_studies()
-    print(f"[INFO] {len(recent)} tópicos recentes ignorados (estudados nos últimos 14d)")
+    print(f"[INFO] {len(recent)} topicos recentes ignorados (estudados nos ultimos 14d)")
 
-    # desduplica por nome (case-insensitive)
-    seen = {}
-    for c in candidates:
-        key = c["name"].lower().strip()
+    seen: dict[str, dict] = {}
+    for candidate in candidates:
+        key = candidate["name"].lower().strip()
         if key in recent:
             continue
         if key in seen:
-            # merge — mantém a prioridade mais alta
-            if c["priority"] > seen[key]["priority"]:
-                seen[key]["priority"] = c["priority"]
-                seen[key]["reason"] = c["reason"]
-                seen[key]["source"] = c["source"]
+            if candidate["priority"] > seen[key]["priority"]:
+                seen[key].update({
+                    "priority": candidate["priority"],
+                    "reason": candidate["reason"],
+                    "source": candidate["source"],
+                    "note_path": candidate["note_path"],
+                })
             continue
-        seen[key] = c
+        seen[key] = candidate
 
-    recs = sorted(seen.values(), key=lambda x: (-x["priority"], x["name"]))
-
-    if not recs:
-        print("[INFO] Todos os gaps foram estudados recentemente — nada a recomendar.")
-    return recs
+    return sorted(seen.values(), key=lambda item: (-item["priority"], item["name"]))
 
 
-def estimate_time(name):
-    """Devolve estimativa de estudo baseada no nome do tópico."""
-    name_l = name.lower()
-    if any(w in name_l for w in ("kubernetes", "rag", "backend", "arquitetura", "orquestração", "multi-agent", "machine learning", "deep learning", "genai", "rag avancado", "advanced")):
+def estimate_time(name: str) -> str:
+    lower = name.lower()
+    if any(word in lower for word in ("kubernetes", "rag", "backend", "arquitetura", "orquestração", "multi-agent", "machine learning", "deep learning", "advanced")):
         return "2–3h"
-    if any(w in name_l for w in ("prompt", "mcp", "finops", "testes", "observabilidade", "monitoramento", "product")):
+    if any(word in lower for word in ("prompt", "mcp", "finops", "testes", "observabilidade", "monitoramento", "product")):
         return "1–2h"
-    if any(w in name_l for w in ("web", "component", "git", "python", "node", "docker")):
+    if any(word in lower for word in ("web", "component", "git", "python", "node", "docker")):
         return "45min–1h30"
     return "1–2h"
 
 
-def find_existing_note(name):
-    """Tenta encontrar uma nota existente no vault que relacione ao nome."""
-    name_l = name.lower()
+def find_existing_note(name: str) -> list[Path]:
+    name_lower = name.lower()
     candidates = []
+    roots = [existing_dir(CANONICAL_SKILLS_DIR, LEGACY_SKILLS_DIR), existing_dir(CANONICAL_KNOWLEDGE_DIR, LEGACY_KNOWLEDGE_DIR)]
 
-    # áreas mais prováveis
-    for folder in ["skills", "Conhecimento-Geral"]:
-        base = VAULT_PATH / folder
-        if not base.exists():
+    for root in roots:
+        if not root.exists():
             continue
-        for p in base.rglob("*.md"):
-            if p.name.lower() == "index.md" or p.name.lower() == "readme.md":
-                # candidate if name appears in content
+        for path in root.rglob("*.md"):
+            if path.name.lower() in {"index.md", "readme.md"}:
                 try:
-                    content = p.read_text(encoding="utf-8", errors="replace").lower()
-                    if name_l in content:
-                        candidates.append(p)
+                    content = path.read_text(encoding="utf-8", errors="replace").lower()
+                    if name_lower in content:
+                        candidates.append(path)
                 except Exception:
                     continue
                 continue
-            stem = p.stem.lower().replace("-", " ").replace("_", " ")
-            # check if name words appear in filename
-            name_words = set(name_l.split())
-            stem_words = set(stem.split())
-            if name_words & stem_words:
-                candidates.append(p)
+            stem = path.stem.lower().replace("-", " ").replace("_", " ")
+            if set(name_lower.split()) & set(stem.split()):
+                candidates.append(path)
 
-    # Score candidates by match strength
-    def score(p):
-        stem = p.stem.lower().replace("-", " ").replace("_", " ")
-        nw = set(name_l.split())
-        sw = set(stem.split())
-        common = len(nw & sw)
-        return common
+    def score(path: Path) -> int:
+        stem = path.stem.lower().replace("-", " ").replace("_", " ")
+        return len(set(name_lower.split()) & set(stem.split()))
 
     candidates.sort(key=score, reverse=True)
-    return candidates[:3] if candidates else []
+    return candidates[:3]
 
 
-def pick_quick_win(recs):
-    """Escolhe a recomendação de quick win (mais fácil / menor escopo)."""
+def pick_quick_win(recs: list[dict]) -> dict | None:
     if not recs:
         return None
-    # prefere tópicos com tempo de estudo estimado menor ou que são "básicos"
     easy_keywords = ["web", "component", "prompt", "git", "testes", "monitoramento", "finops"]
-    for r in recs:
-        rl = r["name"].lower()
-        if any(k in rl for k in easy_keywords):
-            return r
-    # fallback: última recomendação (menos prioritária = menos urgente = mais fácil)
+    for rec in recs:
+        if any(keyword in rec["name"].lower() for keyword in easy_keywords):
+            return rec
     return recs[-1]
 
 
-# ── output ───────────────────────────────────────────────────────────────
+def format_link(note_path: Path | None) -> str:
+    if not note_path:
+        return ""
+    if note_path == GAPS_FILE:
+        return f"[[{wiki_path(note_path)}|GAPS]]"
+    if note_path == SKILLS_GAP_FILE:
+        return f"[[{wiki_path(note_path)}|skills_gap]]"
+    return f"[[{wiki_path(note_path)}]]"
 
 
-def generate_output(recs):
-    """Produz o markdown da nota Proximo-Estudo.md."""
+def generate_output(recs: list[dict]) -> str:
     now = datetime.now()
-    date_str = now.strftime("%Y-%m-%d")
-
     top3 = recs[:3]
     quick = pick_quick_win(recs)
 
-    def fmt_link(note_path):
-        """Gera wiki-link com label legível."""
-        if not note_path:
-            return ""
-        rp = wiki_path(note_path)
-        # path relativo curto para fontes conhecidas
-        name_map = {
-            "GAPS": "GAPS.md",
-            ".logs/skills_gap": ".logs/skills_gap.md",
-        }
-        for label, src in name_map.items():
-            if src in str(note_path):
-                return f"[[{rp}|{label}]]"
-        return f"[[{rp}]]"
-
-    # Tabela de top3
     table_rows = ""
-    for i, r in enumerate(top3, 1):
-        time_est = estimate_time(r["name"])
-        link = fmt_link(r["note_path"])
-        table_rows += (
-            f"| {i} | **{r['name']}** | {r['reason']} | {link} | {time_est} |\n"
-        )
+    for index, rec in enumerate(top3, 1):
+        table_rows += f"| {index} | **{rec['name']}** | {rec['reason']} | {format_link(rec['note_path'])} | {estimate_time(rec['name'])} |\n"
 
-    # Detalhamento de cada recomendação
     details = ""
-    for r in recs:
-        time_est = estimate_time(r["name"])
-        links = find_existing_note(r["name"])
-        link_str = ""
+    for rec in recs:
+        links = find_existing_note(rec["name"])
         if links:
-            link_str = "\n".join(f"  - [[{wiki_path(p)}]]" for p in links)
+            link_str = "\n".join(f"  - [[{wiki_path(path)}]]" for path in links)
         else:
-            link_str = "  - *Nenhuma nota específica encontrada ainda*"
+            link_str = "  - *Nenhuma nota especifica encontrada ainda*"
 
         details += f"""
-### {r['name']}
+### {rec['name']}
 
 | Campo | Valor |
 |-------|-------|
-| **Motivo** | {r['reason']} |
-| **Fonte** | `{r['source']}` |
-| **Estimativa** | {time_est} |
-| **Prioridade** | {r['priority']}/5 |
+| **Motivo** | {rec['reason']} |
+| **Fonte** | `{rec['source']}` |
+| **Estimativa** | {estimate_time(rec['name'])} |
+| **Prioridade** | {rec['priority']}/5 |
 
 **Notas relacionadas no vault:**
 {link_str}
@@ -379,41 +344,36 @@ def generate_output(recs):
 ---
 """
 
-    # Quick Win
-    qw_section = ""
+    quick_section = ""
     if quick:
-        qw_time = estimate_time(quick["name"])
-        qw_links = find_existing_note(quick["name"])
-        qw_links_str = ""
-        if qw_links:
-            qw_links_str = "\n".join(f"  - [[{wiki_path(p)}]]" for p in qw_links)
-        else:
-            qw_links_str = "  - *Nenhuma nota específica encontrada*"
-        qw_section = f"""
+        quick_links = find_existing_note(quick["name"])
+        quick_link_str = "\n".join(f"  - [[{wiki_path(path)}]]" for path in quick_links) if quick_links else "  - *Nenhuma nota especifica encontrada*"
+        quick_section = f"""
 ## 🏆 Quick Win
 
 **{quick['name']}** — {quick['reason']}
 
 | Campo | Valor |
 |-------|-------|
-| **Estimativa** | {qw_time} |
+| **Estimativa** | {estimate_time(quick['name'])} |
 | **Dificuldade** | Baixa |
-| **Impacto** | Alto (fácil de progredir) |
+| **Impacto** | Alto, por desbloquear uso prático em projetos |
 
 **Notas relacionadas:**
-{qw_links_str}
+{quick_link_str}
 """
 
-    md = f"""---
+    return f"""---
 title: "Próximo Estudo — Recomendação Automática"
-description: "Recomendação gerada automaticamente em {date_str} com base em gaps, nível de skills e histórico de estudos"
-tags: [jarvis, recomendacao, estudo, auto-generated]
-generated: {now.strftime("%Y-%m-%d %H:%M:%S")}
+description: "Recomendação gerada automaticamente em {now.strftime('%Y-%m-%d')} com base em gaps, skills e histórico"
+tags: [jarvis, recomendacao, estudo, auto-generated, jarvis-operacao]
+generated: {now.strftime('%Y-%m-%d %H:%M:%S')}
+updated: {now.strftime('%Y-%m-%d')}
 ---
 
 # 🎯 Próximo Estudo — Recomendação Automática
 
-**Gerado em:** {now.strftime("%Y-%m-%d %H:%M")}
+**Gerado em:** {now.strftime('%Y-%m-%d %H:%M')}
 **Total de recomendações:** {len(recs)}
 
 ---
@@ -428,51 +388,30 @@ generated: {now.strftime("%Y-%m-%d %H:%M:%S")}
 ## Detalhamento das Recomendações
 
 {details}
+{quick_section}
 ---
 
-{qw_section}
----
+## Fontes usadas
 
-## 📋 Metodologia
+- Skills: `{existing_dir(CANONICAL_SKILLS_DIR, LEGACY_SKILLS_DIR).relative_to(VAULT_PATH).as_posix()}`
+- Conhecimento: `{existing_dir(CANONICAL_KNOWLEDGE_DIR, LEGACY_KNOWLEDGE_DIR).relative_to(VAULT_PATH).as_posix()}`
+- Gaps: `GAPS.md`
+- Skills gap: `.logs/skills_gap.md`
 
-Esta recomendação foi gerada combinando:
-
-1. **GAPS.md** — Gaps de conhecimento declarados
-2. **skills_gap.md** — Skills não referenciadas por projetos ativos
-3. **skills/** — Notas com nível básico (`#level-basic`, `#level-init`, `nivel: iniciante`, ou `level ≤ 2`)
-4. **Conhecimento-Geral/** — Tópicos estudados nos últimos 14 dias (excluídos da recomendação)
-
-*Recomendação gerada automaticamente por `.scripts/study_recommender.py`*
-*Para regenerar, execute: `python .scripts/study_recommender.py`*
+*Gerado por `.scripts/study_recommender.py` com caminhos canônicos.*
 """
-    return md
 
 
-# ── main ─────────────────────────────────────────────────────────────────
-
-
-def main():
-    """Execução principal do recomendador."""
-    print("[GEN] Gerando recomendações de estudo...")
-
+def main() -> None:
     recs = build_recommendations()
-
+    if not recs:
+        return
     OUTPUT_FILE.parent.mkdir(parents=True, exist_ok=True)
-
-    content = generate_output(recs)
-
-    with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
-        f.write(content)
-
-    rel_path = OUTPUT_FILE.relative_to(VAULT_PATH)
-    print(f"[OK] Recomendação gerada: {rel_path}")
-
-    if recs:
-        top3_names = [r['name'] for r in recs[:3]]
-        print(f"[INFO] Top 3: {' | '.join(top3_names)}")
-    else:
-        print("[INFO] Nenhuma recomendacao gerada")
-    print("[INFO] Para executar manualmente: python .scripts/study_recommender.py")
+    OUTPUT_FILE.write_text(generate_output(recs), encoding="utf-8")
+    print(f"✅ Recomendação gerada: {OUTPUT_FILE.relative_to(VAULT_PATH)}")
+    print("\nTop 3:")
+    for index, rec in enumerate(recs[:3], 1):
+        print(f"  {index}. {rec['name']} — {rec['reason']}")
 
 
 if __name__ == "__main__":
