@@ -1,39 +1,66 @@
 {
+  "version": 2,
+  "updated": "2026-07-10",
+  "canonical_roots": [
+    "00-Inbox/**",
+    "01-Hubs/**",
+    "02-JARVIS/**",
+    "03-Projetos/**",
+    "04-Conhecimentos/**",
+    "05-Skills/**",
+    "07-Operacoes-do-Vault/**",
+    "09-Sistema/**",
+    "10-Interfaces/**",
+    "11-Dados-Brutos/**",
+    "99-Templates/**",
+    "Bem-vindo.md",
+    "INDEX.md",
+    "README.md"
+  ],
   "allowlist": [
     "01-Hubs/**",
     "02-JARVIS/**",
+    "03-Projetos/**",
     "04-Conhecimentos/**",
     "05-Skills/**",
-    "06-Will-Pessoal/**",
     "07-Operacoes-do-Vault/**",
-    "Conhecimentos-Gerais/**",
-    "Conhecimento-Geral/**",
-    "Knowledge-Base/**",
-    "skills/**",
-    "wiki/**",
-    "JARVIS/**",
-    "Master-Glossary.md",
-    "Vault-*"
+    "09-Sistema/agents/**",
+    "09-Sistema/schema/**",
+    "10-Interfaces/**",
+    "Bem-vindo.md",
+    "INDEX.md",
+    "README.md"
   ],
   "denylist": [
     ".obsidian/**",
     ".agents/**",
     ".continue/**",
     ".logs/**",
-    "Templates/**",
-    "Projetos/Privados/**",
-    "03-Projetos/Projetos/01-Ativos/Privados/**",
+    "08-Arquivo/**",
+    "11-Dados-Brutos/**",
+    "06-Will-Pessoal/**",
+    "99-Templates/**",
     "**/*template*.md",
     "**/*TODO*.md",
-    "09-Sistema/tests/fixtures/**",
-    "tests/fixtures/**",
+    "**/fixtures/**",
     "**/*.png",
     "**/*.jpg",
     "**/*.jpeg",
-    "**/*.pdf"
+    "**/*.pdf",
+    "**/*.env",
+    "**/*secret*",
+    "**/*credential*"
   ],
+  "privacy_defaults": {
+    "06-Will-Pessoal/**": {"indexable": false, "uso_ia": "restrito"},
+    "11-Dados-Brutos/**": {"indexable": false, "uso_ia": "resumido"},
+    "08-Arquivo/**": {"indexable": false, "uso_ia": "proibido"}
+  },
   "notes": {
-    "chunk_size_tokens": 700,
-    "chunk_overlap": 0.15
+    "chunk_size_tokens": 500,
+    "chunk_overlap": 0.12,
+    "max_chunks_per_query": 5,
+    "similarity_threshold": 0.75,
+    "rule": "indexar somente caminhos canônicos e conteúdo explicitamente permitido"
   }
 }
