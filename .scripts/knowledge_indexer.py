@@ -14,14 +14,14 @@ import argparse
 
 # Add skills to path
 VAULT_ROOT = Path(__file__).parent.parent
-sys.path.insert(0, str(VAULT_ROOT / "skills" / "04-knowledge-systems" / "rag-pipeline"))
+sys.path.insert(0, str(VAULT_ROOT / "05-Skills" / "04-knowledge-systems" / "rag-pipeline"))
 
 try:
     from embeddings_generator import EmbeddingsGenerator
     from vector_store import VectorStore
 except ImportError as e:
     print(f"❌ Error importing RAG pipeline: {e}")
-    print("Make sure embeddings_generator.py and vector_store.py are in skills/04-knowledge-systems/rag-pipeline/")
+    print("Make sure embeddings_generator.py and vector_store.py are in 05-Skills/04-knowledge-systems/rag-pipeline/")
     sys.exit(1)
 
 
