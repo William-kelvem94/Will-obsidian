@@ -1,54 +1,50 @@
 ---
 title: "Hub JARVIS"
 date: 2026-06-07
-updated: 2026-06-07
+updated: 2026-07-10
 type: moc
 status: active
 tags: [hub, jarvis, ia, agentes, memoria]
-summary: "Hub de navegação para a área JARVIS, conectando identidade, memória, agentes, RAG e IA local."
+classe_privacidade: publico-tecnico
+indexavel: true
+uso_ia: livre
+fonte_canonica: true
+summary: "Entrada canônica para identidade, memória, arquitetura, agentes, RAG e evolução do JARVIS."
 ---
 
 # Hub JARVIS
 
-Este hub centraliza a navegação da área JARVIS e separa o que é memória do agente, conhecimento geral, arquitetura e operação.
-
 ## Entrada principal
 
-- [[../02-JARVIS/README|JARVIS Command Center]]
+- [[../02-JARVIS/README|JARVIS]]
+- [[../02-JARVIS/Main|JARVIS Main]]
 
-## Memória e identidade
+## Camadas
 
-- [[../02-JARVIS/03-Memory/fatos_rapidos]]
-- [[../Cerebro-Will]]
-- [[../06-Will-Pessoal/README|Will-Pessoal]]
+- [[../02-JARVIS/01-Identity/Will/README|Identidade]]
+- [[../02-JARVIS/03-Memory/README|Memória]]
+- [[../02-JARVIS/02-Operational/Decisions/INDEX|Decisões]]
+- [[../02-JARVIS/02-Operational/Playbooks/INDEX|Playbooks]]
+- [[../02-JARVIS/04-Engineering/Wiki/Aprendizado/INDEX|Aprendizado]]
+- [[../02-JARVIS/05-System/Maps/INDEX|Sistema]]
+- [[../02-JARVIS/TOKEN-COMPRESSION|Compressão de contexto]]
 
-## Conhecimento útil para o JARVIS
+## Conhecimento e skills relacionados
 
-- [[../04-Conhecimentos/01-IA-e-Agentes/RAG-e-Memoria-para-Agentes]]
-- [[../04-Conhecimentos/01-IA-e-Agentes/Arquitetura-RAG-para-Obsidian-e-JARVIS]]
-- [[../04-Conhecimentos/01-IA-e-Agentes/IA-Local-Ollama-e-Modelos-Abertos]]
-- [[../04-Conhecimentos/01-IA-e-Agentes/Context-Engineering]]
-- [[../04-Conhecimentos/00-Mapas-e-Ontologia/00-Ontologia-de-Conhecimento-para-IA]]
-
-## Skills relacionadas
-
-- [[../05-Skills/01-agentic-intelligence/multi-agent-orchestration]]
-- [[../05-Skills/03-infrastructure-mcp/mcp-servers]]
-- [[../05-Skills/04-knowledge-systems/obsidian-neural-vault]]
+- [[../04-Conhecimentos/01-IA-e-Agentes/RAG-e-Memoria-para-Agentes|RAG e memória]]
+- [[../04-Conhecimentos/01-IA-e-Agentes/Arquitetura-RAG-para-Obsidian-e-JARVIS|Arquitetura RAG]]
+- [[../05-Skills/01-agentic-intelligence/README|Agentic Intelligence]]
+- [[../05-Skills/03-infrastructure-mcp/README|Infraestrutura e MCP]]
+- [[../05-Skills/04-knowledge-systems/INDEX|Knowledge Systems]]
 
 ## Regra de separação
 
-| Tipo de conteúdo | Onde deve ficar |
+| Conteúdo | Local canônico |
 |---|---|
-| memória do agente | `JARVIS/` |
-| conhecimento estável | `Conhecimentos-Gerais/` |
-| habilidades técnicas | `skills/` |
-| projetos em execução | `Projetos/` |
-| contexto pessoal profundo | `Will-Pessoal/` |
+| identidade e memória operacional | 02-JARVIS/ |
+| conhecimento estável | 04-Conhecimentos/ |
+| skills | 05-Skills/ |
+| regras e configuração | 09-Sistema/ |
+| contexto pessoal | 06-Will-Pessoal/ |
 
-## Próximas melhorias
-
-- Criar mapa de memória do JARVIS.
-- Separar memória episódica, semântica e operacional.
-- Criar playbooks de atualização de memória.
-- Definir política de dados sensíveis antes de indexar tudo em RAG.
+Conteúdo pessoal não deve ser indexado por padrão. Consulte [[../09-Sistema/schema/Politica-de-Privacidade-e-Indexacao|Política de Privacidade]] antes de promover memória ao RAG.
