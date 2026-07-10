@@ -1,7 +1,7 @@
 ---
 title: "Registro de Expansao de Conhecimentos Gerais"
 date: 2026-06-10
-updated: 2026-06-10
+updated: 2026-07-10
 type: analysis
 status: active
 tags: [conhecimento, registry, gaps, coverage, roadmap]
@@ -9,6 +9,19 @@ summary: "Registro de lacunas e proximos lotes para expandir conhecimentos gerai
 ---
 
 # Registro de Expansao de Conhecimentos Gerais
+
+## Lote 01 — núcleo de expansão (2026-07-10)
+
+Concluído o primeiro lote operacional, com notas canônicas sobre:
+
+- [[Engenharia-de-Conhecimento-para-Segundo-Cerebro]];
+- [[Ontologia-Taxonomia-e-Grafo-de-Conhecimento]];
+- [[../01-IA-e-Agentes/Pipeline-de-Pesquisa-Evidencia-e-Sintese]];
+- [[../01-IA-e-Agentes/Curadoria-de-Memoria-e-Tiered-Recall]];
+- [[../01-IA-e-Agentes/MCP-Agentes-e-Tool-Use]];
+- [[../03-Dados-e-Analytics/Token-Economy-Operational-Playbook]].
+
+Critério do lote: aumentar a capacidade de pesquisar, curar, recuperar e expandir os demais domínios sem perder proveniência.
 
 ## Lacunas prioritarias
 
@@ -41,4 +54,3 @@ Um novo bloco de conhecimento geral so entra se:
 - puder ser ligado ao mapa do dominio;
 - evitar duplicacao vazia;
 - ajudar navegacao ou decisao.
-
