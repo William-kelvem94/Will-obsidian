@@ -1,79 +1,61 @@
 ---
-title: "Inventário Inicial do Vault"
+title: "Inventário Atual e Governança do Vault"
 date: 2026-06-07
-updated: 2026-06-07
+updated: 2026-07-10
 type: inventory
 status: active
-tags: [vault-ops, inventario, organizacao, migracao]
-related: [[Reestruturacao-Geral-do-Vault]], [[../01-Hubs/README]], [[../Bem-vindo]]
-summary: "Inventário inicial das principais áreas do Obsidian, com função, destino futuro e prioridade de migração."
+tags: [vault-ops, inventario, governanca, canonico, migracao]
+summary: "Inventário operacional da estrutura canônica atual do WILL-OBSIDIAN após a migração física."
 ---
 
-# Inventário Inicial do Vault
+# Inventário Atual e Governança do Vault
 
-Este inventário é o primeiro mapa de organização do Obsidian. Ele não move arquivos. Apenas classifica áreas para guiar a reorganização futura.
+## Estado atual
 
-## Áreas principais
+A estrutura numerada foi criada e os principais blocos foram migrados para caminhos canônicos. A partir de agora, a organização deve tratar as áreas numeradas como fonte oficial. Pastas legadas permanecem apenas para compatibilidade, auditoria ou preservação histórica.
 
-| Área atual | Função | Destino futuro sugerido | Prioridade | Observação |
-|---|---|---|---|---|
-| `Bem-vindo.md` | entrada principal | manter na raiz | alta | agora aponta para `01-Hubs` |
-| `01-Hubs/` | navegação superior | manter | alta | camada nova oficial |
-| `JARVIS/` | IA, agentes e memória | `02-JARVIS/` | média | mover só após revisar links |
-| `Projetos/` | execução e portfólio | `03-Projetos/` | média | precisa inventário próprio |
-| `Conhecimentos-Gerais/` | base técnica e estudos | `04-Conhecimentos/` | alta | migrar por blocos |
-| `Conhecimento-Geral/` | humanidades e cultura | `04-Conhecimentos/07-Humanidades/` | alta | resolver ambiguidade de nome |
-| `skills/` | habilidades técnicas | `05-Skills/` | média | manter links com projetos |
-| `Will-Pessoal/` | contexto pessoal | `06-Will-Pessoal/` | baixa | exige cuidado com sensibilidade |
-| `Vault-Ops` | operações antigas | `07-Operacoes-do-Vault/` | média | consolidar depois |
-| `Master-Glossary` | glossário | `07-Operacoes-do-Vault/` ou raiz | média | pode continuar como referência global |
-| `Graph-Legenda` | leitura do grafo | `07-Operacoes-do-Vault/` | baixa | atualizar depois da migração |
-| `Vault-Hierarchy-Map` | mapa hierárquico | `07-Operacoes-do-Vault/` | alta | deve refletir nova estrutura |
+## Áreas canônicas
 
-## Prioridade de migração
+| Área | Função | Indexação padrão |
+|---|---|---:|
+| `00-Inbox/` | captura e triagem | não |
+| `01-Hubs/` | navegação e mapas | sim |
+| `02-JARVIS/` | identidade, memória, agentes e aprendizado | sim, seletiva |
+| `03-Projetos/` | execução, decisões e portfólio | sim, seletiva |
+| `04-Conhecimentos/` | conhecimento curado e reutilizável | sim |
+| `05-Skills/` | capacidades, workflows e playbooks | sim |
+| `06-Will-Pessoal/` | contexto pessoal e sensível | não por padrão |
+| `07-Operacoes-do-Vault/` | governança, auditoria e manutenção | sim |
+| `08-Arquivo/` | legado e histórico | não |
+| `09-Sistema/` | schemas, agentes, scripts e testes | seletiva |
+| `10-Interfaces/` | dashboards, canvases e painéis | seletiva |
+| `11-Dados-Brutos/` | fontes e material sem curadoria | não por padrão |
+| `99-Templates/` | modelos reutilizáveis | não |
 
-### Alta
+## Regras de organização
 
-- consolidar navegação por hubs;
-- resolver ambiguidade entre `Conhecimentos-Gerais` e `Conhecimento-Geral`;
-- atualizar mapas globais;
-- preservar links críticos.
+1. Conteúdo novo entra somente em caminho canônico.
+2. Conhecimento curado fica em `04-Conhecimentos/`.
+3. Fontes originais ficam em `11-Dados-Brutos/`.
+4. Skills ficam em `05-Skills/`; mirrors em `.agents/skills/` e `.continue/skills/` exigem controle de drift.
+5. Regras, schemas e configurações ficam em `09-Sistema/`.
+6. Legado não deve ser duplicado nem indexado como conhecimento atual.
+7. Conteúdo pessoal permanece restrito por padrão.
+8. Cada nota importante deve declarar status, privacidade, indexação e origem quando aplicável.
 
-### Média
+## Pendências de auditoria
 
-- organizar JARVIS;
-- organizar projetos;
-- organizar skills;
-- consolidar operações do vault.
+- validar links internos e notas órfãs;
+- comparar hubs com a árvore física real;
+- identificar duplicatas entre áreas legadas e canônicas;
+- verificar drift entre skills canônicas e mirrors;
+- revisar frontmatter em lotes;
+- atualizar dashboards e consultas Dataview para os caminhos atuais;
+- registrar cada lote de expansão no Registro de Expansão de Conhecimentos Gerais.
 
-### Baixa
+## Fonte técnica
 
-- mover dados pessoais;
-- arquivar notas antigas;
-- reorganizar grafo visual;
-- renomear tudo fisicamente.
-
-## Riscos
-
-| Risco | Mitigação |
-|---|---|
-| quebrar links | migrar por blocos e atualizar hubs |
-| perder contexto | não apagar conteúdo, apenas mover |
-| misturar dados sensíveis | classificar antes de indexar |
-| duplicar áreas | criar hubs temporários de transição |
-| confundir IA | manter README e INDEX atualizados |
-
-## Próximo inventário necessário
-
-Criar inventários específicos para:
-
-- `Conhecimentos-Gerais/`;
-- `Conhecimento-Geral/`;
-- `JARVIS/`;
-- `Projetos/`;
-- `skills/`;
-- `Will-Pessoal/`.
-
-## Decisão atual
-
-A estrutura física ainda será preservada. A organização oficial passa a acontecer pelos hubs, enquanto a migração física será planejada com inventários específicos.
+- [[Mapa-de-Migracao-Fisica-do-Vault]]
+- [[Status-da-Migracao-Fisica]]
+- [[../09-Sistema/schema/Politica-de-Privacidade-e-Indexacao]]
+- [[../09-Sistema/config/indexer_config.json]]
