@@ -11,6 +11,7 @@ category: HUB
 
 ## Propósito e Estrutura
 Pipelines de BI, painéis, MLOps, benchmarking global, compliance, teoria e prática, gestão/incidentes.
+- [[Token-Economy-Operational-Playbook]] — orçamento, compressão, métricas e regra de parada.
 - **Projetos, atomic notes:** workflows/testes de BI, dictionary, dashboards, recortes, compliance, scripts
 - **Crosslinks:** [05-Skills/README](../05-Skills/README), [04-Conhecimentos/07-Humanidades/INDEX](../04-Conhecimentos/07-Humanidades/INDEX), [dashboards/INDEX](../dashboards/INDEX), [INDEX](../../INDEX)
 
