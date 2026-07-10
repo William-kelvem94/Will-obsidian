@@ -16,8 +16,8 @@ date: 2026-04-27
 Esta pasta centraliza o registro das experiências do Jarvis e as notas de continuidade.
 
 ## Estrutura
-- `JARVIS/Memorias/Diario/` → notas de diário por data (`YYYY-MM-DD.md`)
-- `JARVIS/Memorias/Episodicas/` → memórias importantes de sessões específicas
+- `02-JARVIS/03-Memory/Diario/` → notas de diário por data (`YYYY-MM-DD.md`)
+- `02-JARVIS/03-Memory/Episodicas/` → memórias importantes de sessões específicas
 
 ## Objetivo
 - Registrar fatos relevantes que o Jarvis deve lembrar entre sessões
@@ -36,10 +36,10 @@ Esta pasta centraliza o registro das experiências do Jarvis e as notas de conti
 - [[02-JARVIS/03-Memory/Snapshots/2026-04-09-configuração-do-segundo-cérebro-do-jarvis]] — memória episódica importante
 
 ## Recomendações de tag
-- `#memoria` → todos os arquivos de `JARVIS/Memorias/`
+- `#memoria` → todos os arquivos de `02-JARVIS/03-Memory/`
 - `#decisao` → se a nota registrar uma escolha ou conclusão
 - `#jarvis` → para manter a cor Jarvis/IA no gráfico
 - `#continuidade` → para notas que orientam a próxima sessão
 
 ## Observação
-Mantenha a pasta `JARVIS/Memorias/` atualizada sempre que uma sessão do Jarvis gerar um novo insight ou decisão.
+Mantenha a pasta `02-JARVIS/03-Memory/` atualizada sempre que uma sessão do Jarvis gerar um novo insight ou decisão.

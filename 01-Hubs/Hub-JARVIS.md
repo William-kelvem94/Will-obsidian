@@ -21,7 +21,7 @@ summary: "Entrada canônica para identidade, memória, arquitetura, agentes, RAG
 
 ## Camadas
 
-- [[../02-JARVIS/01-Identity/Will/README|Identidade]]
+- [[../02-JARVIS/01-Identity/Will/Perfil|Identidade]]
 - [[../02-JARVIS/03-Memory/README|Memória]]
 - [[../02-JARVIS/02-Operational/Decisions/INDEX|Decisões]]
 - [[../02-JARVIS/02-Operational/Playbooks/INDEX|Playbooks]]

@@ -64,7 +64,7 @@ A organização principal passa pela camada [[01-Hubs/README|Hubs Centrais do Va
 
 - [[02-JARVIS/README|JARVIS]] — nova entrada física.
 - [[01-Hubs/Hub-JARVIS|Hub JARVIS]] — entrada organizada para IA e memória.
-- [[02-JARVIS/README|JARVIS antigo]] — base original ainda em migração.
+- [[02-JARVIS/README|JARVIS]] — entrada canônica da área de IA e memória.
 - [[05-Skills/README|Skills]] — nova área física de habilidades.
 
 ### ⚙️ Sistema e manutenção

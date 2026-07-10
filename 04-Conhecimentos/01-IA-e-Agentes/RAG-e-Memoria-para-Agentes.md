@@ -81,10 +81,10 @@ O Obsidian é bom para RAG porque usa Markdown local, links internos e pastas le
 
 | Pasta | Papel |
 |---|---|
-| `JARVIS/` | identidade, estado, decisões e memória do agente |
-| `Conhecimentos-Gerais/` | conhecimento estável e reutilizável |
+| `02-JARVIS/` | identidade, estado, decisões e memória do agente |
+| `04-Conhecimentos/` | conhecimento estável e reutilizável |
 | `Projetos/` | execução, entregas e estado de projetos |
-| `skills/` | habilidades técnicas estruturadas |
+| `05-Skills/` | habilidades técnicas estruturadas |
 | `Will-Pessoal/` | contexto pessoal profundo |
 
 ## Chunking

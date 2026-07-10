@@ -12,7 +12,7 @@ category: HUB
 ## Propósito e Estrutura
 Pipeline IA (dado cru ao deploy), explainability, fairness, ética, compliance, teoria e prática, copilotos, NLP, visão computacional, checklists, automação, painéis.
 - **Projetos e atomic notes:** aplicação, benchmarks, dicionário IA/global, workflows/templates líderes
-- **Crosslinks:** [skills/README](../skills/README), [Conhecimento-Geral/INDEX](../Conhecimento-Geral/INDEX), [dashboards/INDEX](../dashboards/INDEX), [INDEX](../../INDEX)
+- **Crosslinks:** [Skills](../../05-Skills/README), [Humanidades](../07-Humanidades/INDEX), [Dashboards](../../01-Hubs/dashboards/INDEX), [INDEX](../../INDEX)
 
 ---
 > _README sempre crosslinkado com INDEX central e trilhas técnicas da área._

@@ -13,7 +13,7 @@ category: HUB
 Ambiente para experimentação corporativa: AB Tests, automação de testes, CI/CD, inovação em cultura de dados e validação.
 - **Projetos:** experimentação aplicada, atomic notes (cases, falhas), documentações
 - **Ferramentas:** templates, checklists, scripts para automação de testes, dicionário técnico
-- **Crosslinks:** [Conhecimento-Geral/INDEX](../Conhecimento-Geral/INDEX), [dashboards/INDEX](../dashboards/INDEX), [INDEX](../../INDEX)
+- **Crosslinks:** [Humanidades](../07-Humanidades/INDEX), [Dashboards](../../01-Hubs/dashboards/INDEX), [INDEX](../../INDEX)
 
 ## Benchmarks e Owners
 - Spotify, Google, Netflix; owners claros (leader, squads). Rotinas semanais, lessons learned salvas como atomic notes.

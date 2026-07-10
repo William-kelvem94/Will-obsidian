@@ -56,7 +56,7 @@ Ecossistema Jarvis: voz real-time LiveKit, Gemini/OpenAI, visão face/gesture/vo
 - `PROJECT_JARVIS_5.0-KnowledgeBase` é o segundo cérebro canônico do Jarvis; o assistente deve consumir esta pasta primeiro.
 
 ## Configuração do Jarvis
-- Base de conhecimento oficial: [[../../JARVIS/KnowledgeBase/INDEX|JARVIS KnowledgeBase]]
+- Base de conhecimento oficial: [[../../../02-JARVIS/README|JARVIS Command Center]] e [[../../../04-Conhecimentos/01-IA-e-Agentes/README|Conhecimento de IA]]
 - Pasta real do projeto de código: `C:\Users\willi\Documents\GitHub\PROJECT_JARVIS_5.0`
 - Vault raiz de organização: `D:\OBSIDIAN\Will`
 

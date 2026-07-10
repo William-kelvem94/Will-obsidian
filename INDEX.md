@@ -35,7 +35,7 @@ Este é o índice global. Conteúdo novo deve seguir a estrutura numerada canôn
 - [[07-Operacoes-do-Vault/README|07-Operacoes-do-Vault]] — governança.
 - [[08-Arquivo/README|08-Arquivo]] — legado preservado.
 - [[09-Sistema/README|09-Sistema]] — regras, scripts e schemas.
-- [[10-Interfaces/README|10-Interfaces]] — painéis e interfaces.
+- [[10-Interfaces/Painel-Cockpit-Operacional|10-Interfaces]] — painéis e interfaces.
 - [[11-Dados-Brutos/README|11-Dados-Brutos]] — fontes sem curadoria.
 - [[99-Templates/README|99-Templates]] — modelos reutilizáveis.
 
