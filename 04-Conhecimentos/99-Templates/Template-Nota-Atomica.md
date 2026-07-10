@@ -1,94 +1,41 @@
 ---
-title: "Template - Nota Atomica"
-date: 2026-06-07
-updated: 2026-06-07
-type: template
-status: active
-tags: [conhecimento-geral, template, obsidian, markdown]
-related: [[../../08-Arquivo/README-LEGACY-Conhecimentos-Gerais]], [[../03-Dados-e-Analytics/Taxonomia-Metadados-e-Ontologia]], [[../01-IA-e-Agentes/Token-Economy]]
-summary: "Template para criar notas pequenas, consistentes, linkáveis e úteis para humanos e IA."
----
-
-# Template - Nota Atômica
-
-Use este modelo para criar novas notas no vault.
-
-```md
----
-title: "Nome da Nota"
+title: "Template - Nota Atômica"
 date: YYYY-MM-DD
 updated: YYYY-MM-DD
 type: concept
-tags: [conhecimento-geral]
 status: draft
-related: [[]]
-summary: "Resumo curto para humanos e IA."
+tags: []
+classe_privacidade: publico-tecnico
+indexavel: true
+uso_ia: livre
+fonte_canonica: false
+related: []
+summary: "Resumo curto, factual e útil para humanos e IA."
 ---
 
 # Nome da Nota
 
 ## Resumo
 
-Explique em 2 a 5 linhas o que esta nota guarda e por que ela existe.
+Explique em 2 a 5 linhas o que esta nota guarda e por que existe.
 
 ## Definição
 
-Defina o conceito ou procedimento de forma clara.
+Defina o conceito, processo ou entidade com precisão.
 
-## Quando usar
+## Contexto e aplicação
 
-Liste situações onde isso é útil.
+Explique quando é útil e com quais temas se conecta.
 
-## Quando não usar
+## Limitações
 
-Liste limites, riscos ou casos onde outra abordagem é melhor.
+Registre escopo, exceções, riscos e o que ainda não está confirmado.
 
-## Exemplo
+## Evidências e fontes
 
-Mostre um exemplo simples.
-
-## Erros comuns
-
-- Erro 1.
-- Erro 2.
-- Erro 3.
-
-## Checklist
-
-- [ ] Critério 1.
-- [ ] Critério 2.
-- [ ] Critério 3.
+- Fonte primária:
+- Fonte secundária:
 
 ## Links relacionados
 
 - [[]]
-- [[]]
-- [[]]
-```
-
-## Regras
-
-- Uma nota deve ter um tema principal.
-- O título deve ser claro.
-- O YAML deve ser preenchido.
-- Toda nota importante deve ter links internos.
-- Se uma nota crescer demais, dividir em notas menores.
-- Se um conceito se repetir, criar nota canônica.
-
-## Tipos recomendados
-
-| Tipo | Uso |
-|---|---|
-| `concept` | conceito único |
-| `guide` | explicação completa |
-| `playbook` | procedimento prático |
-| `checklist` | revisão rápida |
-| `moc` | índice ou mapa |
-| `decision` | registro de decisão |
-| `template` | modelo reutilizável |
-
-## Links internos
-
-- [[../../08-Arquivo/README-LEGACY-Conhecimentos-Gerais]]
-- [[../03-Dados-e-Analytics/Taxonomia-Metadados-e-Ontologia]]
-- [[../01-IA-e-Agentes/Token-Economy]]
