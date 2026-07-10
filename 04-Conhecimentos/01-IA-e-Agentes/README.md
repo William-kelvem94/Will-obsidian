@@ -11,6 +11,9 @@ category: HUB
 
 ## Propósito e Estrutura
 Pipeline IA (dado cru ao deploy), explainability, fairness, ética, compliance, teoria e prática, copilotos, NLP, visão computacional, checklists, automação, painéis.
+- [[Pipeline-de-Pesquisa-Evidencia-e-Sintese]] — pesquisa multi-fonte e síntese rastreável.
+- [[Curadoria-de-Memoria-e-Tiered-Recall]] — memória em camadas e recuperação econômica.
+- [[MCP-Agentes-e-Tool-Use]] — ferramentas, agentes e guardrails.
 - **Projetos e atomic notes:** aplicação, benchmarks, dicionário IA/global, workflows/templates líderes
 - **Crosslinks:** [Skills](../../05-Skills/README), [Humanidades](../07-Humanidades/INDEX), [Dashboards](../../01-Hubs/dashboards/INDEX), [INDEX](../../INDEX)
 
