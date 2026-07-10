@@ -183,10 +183,10 @@ app/
 - **Monitoring**: APM (Application Performance Monitoring), distributed tracing
 
 ## 10. Conexão com o vault
-- Use `JARVIS/KnowledgeBase/Arquitetura.md` para arquitetura.
-- Use `JARVIS/KnowledgeBase/Personalidade.md` para persona.
-- Use `JARVIS/KnowledgeBase/Estrategia.md` para estratégia.
-- Use `JARVIS/KnowledgeBase/Ferramentas.md` para stack técnico.
-- Use `JARVIS/KnowledgeBase/Sistemas-Sensoriais.md` para integração multimodal.
+- Use `02-JARVIS/KnowledgeBase/Arquitetura.md` para arquitetura.
+- Use `02-JARVIS/KnowledgeBase/Personalidade.md` para persona.
+- Use `02-JARVIS/KnowledgeBase/Estrategia.md` para estratégia.
+- Use `02-JARVIS/KnowledgeBase/Ferramentas.md` para stack técnico.
+- Use `02-JARVIS/KnowledgeBase/Sistemas-Sensoriais.md` para integração multimodal.
 
 [[02-JARVIS/README|← Voltar ao Command Center]]

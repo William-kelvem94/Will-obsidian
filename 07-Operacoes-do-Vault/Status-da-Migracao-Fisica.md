@@ -5,7 +5,7 @@ updated: 2026-07-10
 type: status
 status: active
 tags: [vault-ops, migracao, status, organizacao]
-related: [[Mapa-de-Migracao-Fisica-do-Vault]], [[Reestruturacao-Geral-do-Vault]], [[Inventario-Inicial-do-Vault]], [[Auditoria-de-Organizacao-e-Preparacao-para-Expansao]]
+related: [[Mapa-de-Migracao-Fisica-do-Vault]], [[Reestruturacao-Geral-do-Vault]], [[Inventario-Inicial-do-Vault]], [[Auditoria-de-Organizacao-e-Preparacao-para-Expansao]], [[Auditoria-Final-de-Organizacao]]
 summary: "Registro do progresso real da reorganização física e da preparação do vault para expansão de conhecimento."
 ---
 
@@ -38,17 +38,16 @@ Esta nota registra o estado da reorganização na branch main. A estrutura numer
 
 ## Estado real
 
-A migração física principal está concluída, mas a organização completa da casa ainda exige validações de qualidade. A existência de um caminho canônico não prova, sozinha, que todos os links, hubs, frontmatters, mirrors, consultas e conteúdos duplicados estejam reconciliados.
+A migração física principal e a organização lógica necessária para expansão foram concluídas. O legado histórico permanece preservado e separado. A validação final está registrada em [[Auditoria-Final-de-Organizacao]].
 
-## Próximos lotes
+## Próxima fase
 
-- [ ] auditar links internos e notas órfãs;
-- [ ] comparar hubs com a árvore canônica;
-- [ ] detectar duplicatas entre legado e áreas atuais;
-- [ ] padronizar frontmatter por domínio;
-- [ ] verificar drift entre 05-Skills/ e mirrors;
-- [ ] validar dashboards e consultas;
-- [ ] preparar o primeiro lote de expansão geral.
+- [x] auditar links e referências canônicas nos arquivos ativos;
+- [x] comparar hubs com a estrutura numerada;
+- [x] classificar duplicatas e legado;
+- [x] validar frontmatter, scripts, JSON e governança;
+- [x] preparar o vault para expansão geral;
+- [ ] iniciar o primeiro lote de expansão de conhecimento.
 
 ## Regra de continuidade
 

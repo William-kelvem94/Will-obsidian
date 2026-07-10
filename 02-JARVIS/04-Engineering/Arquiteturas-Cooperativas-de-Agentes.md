@@ -91,7 +91,7 @@ Todo agente deve receber:
 Exemplo:
 
 ```text
-Analise somente leitura os arquivos em Conhecimento-Geral/Saude.
+Analise somente leitura os arquivos em 04-Conhecimentos/07-Humanidades/Saude.
 Não edite nada.
 Retorne duplicações, notas relacionadas e recomendação de merge/linkagem.
 Limite: 300 palavras.

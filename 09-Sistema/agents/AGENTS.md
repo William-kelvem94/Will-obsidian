@@ -17,15 +17,15 @@ The operating principle is:
 - `wiki/` is generated synthesis.
 - `schema/` is the evolving operating system.
 
-Use the visible skill documentation in `skills/` when the task matches a skill:
+Use the visible skill documentation in `05-Skills/` when the task matches a skill:
 
-- `skills/obsidian-markdown/SKILL.md` for Obsidian markdown, wikilinks, embeds, callouts, and frontmatter.
-- `skills/obsidian-bases/SKILL.md` for `.base` files, table/card/list/map views, formulas, filters, and Base validation.
-- `skills/obsidian-cli/SKILL.md` when interacting with a running Obsidian instance or verifying plugin/theme behavior through the Obsidian CLI.
-- `skills/json-canvas/SKILL.md` for `.canvas` files, visual canvases, and JSON Canvas graph work.
-- `skills/defuddle/SKILL.md` for extracting clean markdown from web pages before ingesting or analyzing web sources.
+- `05-Skills/obsidian-markdown/SKILL.md` for Obsidian markdown, wikilinks, embeds, callouts, and frontmatter.
+- `05-Skills/obsidian-bases/SKILL.md` for `.base` files, table/card/list/map views, formulas, filters, and Base validation.
+- `05-Skills/obsidian-cli/SKILL.md` when interacting with a running Obsidian instance or verifying plugin/theme behavior through the Obsidian CLI.
+- `05-Skills/json-canvas/SKILL.md` for `.canvas` files, visual canvases, and JSON Canvas graph work.
+- `05-Skills/defuddle/SKILL.md` for extracting clean markdown from web pages before ingesting or analyzing web sources.
 
-The hidden `.agents/skills/` directory may also exist as an agent-runtime install location. Treat `skills/` as the human-visible copy inside the vault and `.agents/skills/` as compatibility infrastructure.
+The hidden `.agents/05-Skills/` directory may also exist as an agent-runtime install location. Treat `05-Skills/` as the human-visible copy inside the vault and `.agents/05-Skills/` as compatibility infrastructure.
 
 For practical multi-agent content work, see [[05-Skills/01-agentic-intelligence/multi-agent-orchestration|Orquestracao Multi-Agente e Pipelines de Subagentes]].
 

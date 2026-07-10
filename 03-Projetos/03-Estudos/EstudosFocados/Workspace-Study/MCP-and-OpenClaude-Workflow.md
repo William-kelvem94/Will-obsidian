@@ -39,12 +39,12 @@ Descrever um fluxo prático para usar agentes no vault com MCP, OpenClaude, anti
    - Para notas, valide estilo e tags com o `Vault-Ops` ou script de limpeza.
 
 6. Registre e resuma
-   - Crie um trecho de summary no final da nota ou no `JARVIS/Decisoes`.
+   - Crie um trecho de summary no final da nota ou no `02-JARVIS/Decisoes`.
    - Use `Memorias/Diario` se for mudança importante.
 
 ## Exemplo de prompt para OpenClaude
 
-> "Você é um agente `Programador e Pesquisador`. Use MCP para analisar `Projetos/EstudosFocados/IA-LOCAL.md` e `skills/vscode-ai/mcp.md`. Crie uma nota prática em `Workspace-Study` com benchmark de IA local e fluxo de agente."
+> "Você é um agente `Programador e Pesquisador`. Use MCP para analisar `Projetos/EstudosFocados/IA-LOCAL.md` e `05-Skills/vscode-ai/mcp.md`. Crie uma nota prática em `Workspace-Study` com benchmark de IA local e fluxo de agente."
 
 ## Uso de OpenClaude no vault
 
@@ -54,10 +54,10 @@ Descrever um fluxo prático para usar agentes no vault com MCP, OpenClaude, anti
 
 ## Antigravity + agentes autônomos
 
-- `JARVIS/Decisoes/2026-04-12-perfeccionamento-do-vault.md` já registra o agente Antigravity.
+- `02-JARVIS/Decisoes/2026-04-12-perfeccionamento-do-vault.md` já registra o agente Antigravity.
 - Use `Antigravity` como referência de um agente de alto nível que toma decisões e organiza o vault.
 - Mantenha um padrão simples:
-  - decisões de alto nível em `JARVIS/Decisoes/`
+  - decisões de alto nível em `02-JARVIS/Decisoes/`
   - execução tática em `Workspace-Study/`
 
 ## Checklist de fluxo prático
@@ -71,9 +71,9 @@ Descrever um fluxo prático para usar agentes no vault com MCP, OpenClaude, anti
 ## Integração com o Vault
 - Conecte notas de estudo com `Projetos/EstudosFocados/README.md`.
 - Use tags `#mcp`, `#openclaude`, `#agent`, `#workspace-study`.
-- Adicione links de retorno ao `Skill Hub` e ao `JARVIS/README.md` se a pesquisa se tornar estratégica.
+- Adicione links de retorno ao `Skill Hub` e ao `02-JARVIS/README.md` se a pesquisa se tornar estratégica.
 
 ## Próxima ação sugerida
-- Automatizar um prompt de exemplo para `Programador e Pesquisador` no `skills/vscode-ai/prompts.md`.
+- Automatizar um prompt de exemplo para `Programador e Pesquisador` no `05-Skills/vscode-ai/prompts.md`.
 - Documentar um caso real de correção de nota no `Workspace-Study`.
-- Criar uma seção específica em `skills/vscode-ai/quick-start.md` para “usar agents com OpenClaude”.
+- Criar uma seção específica em `05-Skills/vscode-ai/quick-start.md` para “usar agents com OpenClaude”.

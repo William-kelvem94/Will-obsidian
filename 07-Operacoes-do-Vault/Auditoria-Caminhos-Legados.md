@@ -37,11 +37,11 @@ Regra: **não apagar legado sem validar links**, mas também não criar conteúd
 | Legado | Canônico |
 |---|---|
 | `Projetos/` | `03-Projetos/` |
-| `JARVIS/` | `02-JARVIS/` |
-| `skills/` | `05-Skills/` |
-| `Conhecimento-Geral/` | `04-Conhecimentos/07-Humanidades/` |
-| `Conhecimentos-Gerais/` | `04-Conhecimentos/` |
-| `Knowledge-Base/` | `04-Conhecimentos/` ou `02-JARVIS/` |
+| `02-JARVIS/` | `02-JARVIS/` |
+| `05-Skills/` | `05-Skills/` |
+| `04-Conhecimentos/07-Humanidades/` | `04-Conhecimentos/07-Humanidades/` |
+| `04-Conhecimentos/` | `04-Conhecimentos/` |
+| `04-Conhecimentos/` | `04-Conhecimentos/` ou `02-JARVIS/` |
 | `raw/` | `11-Dados-Brutos/raw/` |
 | `Clippings/` | `11-Dados-Brutos/Clippings/` |
 | `schema/` | `09-Sistema/schema/` |

@@ -20,7 +20,7 @@ Este hub reune skills, padroes e ferramentas de **Inteligencia Agentica** para o
 
 ```
 +----------------------------------------------------+
-|            skills/01-agentic-intelligence/           |
+|            05-Skills/01-agentic-intelligence/           |
 |                                                      |
 |  [README]---[INDEX]---[quick-reference]              |
 |      |         |            |                        |
@@ -103,7 +103,7 @@ Este hub reune skills, padroes e ferramentas de **Inteligencia Agentica** para o
 3. Use [[mcp-operators]] para guiar passos de leitura e edicao.
 4. Consulte `Projetos/EstudosFocados/Workspace-Study/README` para pesquisa pratica.
 5. Salve padroes uteis em [[templates]] ou em `Will-Pessoal/Conhecimento/Leituras.md`.
-6. Registre decisoes em `JARVIS/Decisoes/` com timestamp e contexto.
+6. Registre decisoes em `02-JARVIS/Decisoes/` com timestamp e contexto.
 
 ## Recomendacoes Importantes
 

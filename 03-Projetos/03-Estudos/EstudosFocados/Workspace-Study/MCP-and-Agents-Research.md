@@ -9,18 +9,18 @@ date: 2026-04-27
 # MCP and Agents Research
 
 ## Objetivo
-Mapear o uso de MCP, agentes e workflows no vault para guiar a integração técnica entre `JARVIS`, `skills/vscode-ai` e `Projetos`.
+Mapear o uso de MCP, agentes e workflows no vault para guiar a integração técnica entre `JARVIS`, `05-Skills/vscode-ai` e `Projetos`.
 
 ## Base existente
 
-- `skills/vscode-ai/mcp.md`
+- `05-Skills/vscode-ai/mcp.md`
   - Documenta o padrão MCP usado para leitura, edição e validação no VS Code.
   - Define um fluxo iterativo: analyze → plan → act → validate → reflect.
 
-- `skills/vscode-ai/programador-pesquisador.agent.md`
+- `05-Skills/vscode-ai/programador-pesquisador.agent.md`
   - Define perfil de agente híbrido para programação + pesquisa.
 
-- `JARVIS/KnowledgeBase/Arquitetura.md`, `Estrategia.md`, `SegundoCerebro.md`
+- `02-JARVIS/KnowledgeBase/Arquitetura.md`, `Estrategia.md`, `SegundoCerebro.md`
   - Fornecem base de conhecimento e princípios para agentes do segundo cérebro.
 
 ## Temas de pesquisa
@@ -38,13 +38,13 @@ Mapear o uso de MCP, agentes e workflows no vault para guiar a integração téc
    - Necessidade de fluxo de estado, gRPC e coordenação entre voz/visão.
 
 4. **Integração com o vault**
-   - Registrar decisões em `JARVIS/Decisoes/`.
-   - Aprender com `JARVIS/Aprendizado/` e atualizar `Memorias/`.
+   - Registrar decisões em `02-JARVIS/Decisoes/`.
+   - Aprender com `02-JARVIS/Aprendizado/` e atualizar `Memorias/`.
 
 ## Gaps identificados
 
 - Falta uma nota central que descreva claramente “como usar MCP no vault”.
-- Necessidade de conexão direta entre `skills/vscode-ai` e `JARVIS/KnowledgeBase`.
+- Necessidade de conexão direta entre `05-Skills/vscode-ai` e `02-JARVIS/KnowledgeBase`.
 - Pouca documentação de padrões para agentes autônomos vs assistentes interativos.
 
 ## Recomendações
@@ -57,7 +57,7 @@ Mapear o uso de MCP, agentes e workflows no vault para guiar a integração téc
 
 1. Identifique uma mudança pequena no vault (ex: atualizar `IA-Local-Research.md`).
 2. Use `search_files` para localizar o contexto relevante.
-3. Leia `skills/vscode-ai/mcp.md` e planeje os passos.
+3. Leia `05-Skills/vscode-ai/mcp.md` e planeje os passos.
 4. Edite a nota e crie links internos para `Benchmark-IA-Local.md`.
 5. Valide com `Vault-Ops.md` e registre no `Workspace-Study`.
 

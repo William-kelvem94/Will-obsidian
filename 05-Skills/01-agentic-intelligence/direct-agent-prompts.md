@@ -137,7 +137,7 @@ Inclua: diagrama de componentes, fluxo de dados, decisoes tecnicas.
 ```
 Voce e Programador e Pesquisador. Realize um estudo pratico usando:
 - Projetos/EstudosFocados/IA-LOCAL.md
-- skills/01-agentic-intelligence/mcp.md
+- 05-Skills/01-agentic-intelligence/mcp.md
 - Projetos/EstudosFocados/Workspace-Study/Benchmark-IA-Local.md
 
 Documente: passo a passo, benchmark de IA local, decisoes registradas.
@@ -147,7 +147,7 @@ Documente: passo a passo, benchmark de IA local, decisoes registradas.
 ```
 Avalie a saude do segundo cerebro do Jarvis usando:
 - Projetos/EstudosFocados/Workspace-Study/Brain-Health-Dashboard.md
-- JARVIS/KnowledgeBase/Brain-Integration.md
+- 02-JARVIS/KnowledgeBase/Brain-Integration.md
 
 Verifique: contexto ativo, ingestao de KB, decisoes recentes, memorias.
 Proponha ajustes operacionais com prioridade (alta/media/baixa).

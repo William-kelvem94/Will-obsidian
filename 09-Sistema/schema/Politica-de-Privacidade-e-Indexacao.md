@@ -32,7 +32,7 @@ Esta política define como tratar conteúdo do WILL-OBSIDIAN antes de expandir J
 | Material restrito | credenciais, dados íntimos, identificadores privados | Nunca | Manter fora de índices e automações |
 | Logs locais | erros, traces, dumps | Parcial | Sanitizar antes de uso |
 
-## Regras para JARVIS/RAG
+## Regras para 02-JARVIS/RAG
 
 - `02-JARVIS/` pode armazenar memória operacional.
 - `04-Conhecimentos/` deve conter síntese estável.

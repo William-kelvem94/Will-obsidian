@@ -11,7 +11,7 @@ updated: 2026-06-13
 ## O que foi decidido
 - Implementação de um servidor MCP local dedicado ao Vault para permitir acesso direto de agentes.
 - Enforçamento de cores no gráfico via `graph.json` e CSS Snippets.
-- Padronização de novos workflows de IA em `skills/`.
+- Padronização de novos workflows de IA em `05-Skills/`.
 
 ## Contexto
 O usuário solicitou um aperfeiçoamento profundo do projeto, com foco em automação (GitHub Sync) e integração técnica (MCP).

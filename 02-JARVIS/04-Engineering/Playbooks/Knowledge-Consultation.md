@@ -9,11 +9,11 @@ updated: 2026-06-13
 
 ## Objetivo
 
-Este playbook define como o JARVIS deve consultar, interpretar e compor respostas usando a base de conhecimento estruturada em `Conhecimento-Geral/`.O objetivo é maximizar a precisão, a rastreabilidade e a profundidade das respostas fornecidas ao usuário.
+Este playbook define como o JARVIS deve consultar, interpretar e compor respostas usando a base de conhecimento estruturada em `04-Conhecimentos/07-Humanidades/`.O objetivo é maximizar a precisão, a rastreabilidade e a profundidade das respostas fornecidas ao usuário.
 
 ## 1. Arquitetura da Base
 
-A base `Conhecimento-Geral/` contém 11 domínios, cada um com subdiretórios e arquivos Markdown.
+A base `04-Conhecimentos/07-Humanidades/` contém 11 domínios, cada um com subdiretórios e arquivos Markdown.
 
 | Domínio | Conteúdo |
 |---------|----------|
@@ -150,7 +150,7 @@ Conceitos complexos raramente vivem em um único domínio. Estratégia:
 
 ## 8. Atualização do Índice
 
-Sempre que novos arquivos forem adicionados a `Conhecimento-Geral/`:
+Sempre que novos arquivos forem adicionados a `04-Conhecimentos/07-Humanidades/`:
 
 ```powershell
 cd D:\GitHub\Will-obsidian

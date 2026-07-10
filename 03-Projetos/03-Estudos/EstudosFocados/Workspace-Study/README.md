@@ -38,7 +38,7 @@ Este é o ponto de entrada para a investigação do vault, a análise de sua est
 1. Leia a análise principal para entender o estado atual do vault.
 2. Escolha uma trilha de estudo e abra a nota correspondente.
 3. Adicione novas notas de pesquisa à pasta quando identificar temas novos.
-4. Atualize `Projetos/EstudosFocados/README`, `skills/README` ou `Vault-Ops.md` quando algo for consolidado.
+4. Atualize `Projetos/EstudosFocados/README`, `05-Skills/README` ou `Vault-Ops.md` quando algo for consolidado.
 5. Use tags como `#workspace-study`, `#study-track`, `#gap`, `#next-step`.
 
 ## Uso recomendado

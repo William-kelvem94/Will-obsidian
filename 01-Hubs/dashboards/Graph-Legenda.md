@@ -12,7 +12,7 @@ Este arquivo descreve as categorias do gráfico do Obsidian, as tags recomendada
 ## Tags e pastas principais
 - **Hub & índices** — laranja `#f97316`
   - Aplicar em notas de entrada, MOCs e índices.
-  - Pastas/arquivos: `Bem-vindo.md`, `Projetos.md`, `Projetos/README.md`, `Projetos/Privados/README.md`, `JARVIS/README.md`, `Will-Pessoal/README.md`, `Will-Pessoal/Perfil/README.md`, `Graph-Legenda.md`.
+  - Pastas/arquivos: `Bem-vindo.md`, `Projetos.md`, `Projetos/README.md`, `Projetos/Privados/README.md`, `02-JARVIS/README.md`, `Will-Pessoal/README.md`, `Will-Pessoal/Perfil/README.md`, `Graph-Legenda.md`.
   - Tag principal: `#hub`
   - Observação: `Will-Pessoal/README.md` é o hub pessoal principal para perfil, vida, objetivos e conhecimento.
 
@@ -28,17 +28,17 @@ Este arquivo descreve as categorias do gráfico do Obsidian, as tags recomendada
 
 - **Jarvis / IA** — azul `#2563eb`
   - Aplica a toda a estrutura do segundo cérebro e às notas de tomada de decisão ou conhecimento técnico do Jarvis.
-  - Pasta: `JARVIS/`.
+  - Pasta: `02-JARVIS/`.
   - Tag principal: `#jarvis`
 
 - **Estudos & pesquisa** — roxo `#c084fc`
   - Aplica a pesquisas técnicas, referências e estudos de caso.
-  - Pastas: `Projetos/EstudosPesquisas/`, `Projetos/EstudosFocados/`, `JARVIS/Aprendizado/`.
+  - Pastas: `Projetos/EstudosPesquisas/`, `Projetos/EstudosFocados/`, `02-JARVIS/Aprendizado/`.
   - Tags principais: `#estudos`, `#pesquisas`
 
 - **Memórias & decisões** — vermelho `#dc2626`
   - Aplica a notas de memória, histórico e escolhas importantes.
-  - Pastas: `JARVIS/Memorias/`, `JARVIS/Decisoes/`.
+  - Pastas: `02-JARVIS/Memorias/`, `02-JARVIS/Decisoes/`.
   - Tags principais: `#memoria`, `#decisao`
 
 - **Perfil & pessoal** — ciano `#0ea5e9`
@@ -48,12 +48,12 @@ Este arquivo descreve as categorias do gráfico do Obsidian, as tags recomendada
 
 - **Templates & configs** — turquesa `#14b8a6`
   - Aplica a templates e arquivos de estrutura.
-  - Pasta: `JARVIS/Templates/`.
+  - Pasta: `02-JARVIS/Templates/`.
   - Tag principal: `#template`
 
 - **Conhecimento-Geral** — âmbar `#f59e0b`
   - Aplica a toda a base de conhecimento multidisciplinar com 10 domínios.
-  - Pasta: `Conhecimento-Geral/`.
+  - Pasta: `04-Conhecimentos/07-Humanidades/`.
   - Tag principal: `#conhecimento`
 
 ## Mapas de tags por pasta
@@ -64,28 +64,28 @@ Este arquivo descreve as categorias do gráfico do Obsidian, as tags recomendada
 - `Projetos/GitHub-Completo.md` → `#projetos #github`
 - `Projetos/Plano-de-Acao.md` → `#projetos #prioridade`
 - `Projetos/Organizacao-Completa.md` → `#projetos #organizacao`
-- `JARVIS/README.md` → `#hub #jarvis`
-- `JARVIS/Memorias/README.md` → `#jarvis #memoria`
-- `JARVIS/Aprendizado/INDEX.md` → `#jarvis #aprendizado`
-- `JARVIS/Decisoes/INDEX.md` → `#jarvis #decisao`
-- `JARVIS/Templates/INDEX.md` → `#jarvis #template`
+- `02-JARVIS/README.md` → `#hub #jarvis`
+- `02-JARVIS/Memorias/README.md` → `#jarvis #memoria`
+- `02-JARVIS/Aprendizado/INDEX.md` → `#jarvis #aprendizado`
+- `02-JARVIS/Decisoes/INDEX.md` → `#jarvis #decisao`
+- `02-JARVIS/Templates/INDEX.md` → `#jarvis #template`
 - `Will-Pessoal/Perfil/README.md` → `#perfil #will`
 - `Will-Pessoal/README.md` → `#perfil #will`
-- `Conhecimento-Geral/INDEX.md` → `#hub #conhecimento`
+- `04-Conhecimentos/07-Humanidades/INDEX.md` → `#hub #conhecimento`
 
 ## Uso recomendado
 1. Abra `Bem-vindo.md` para entrar no cofre.
 2. Use `Projetos.md` como MOC de projetos públicos.
 3. Use `Projetos/Privados/README.md` para acessar clones privados.
-4. Use `JARVIS/README.md` como hub do segundo cérebro.
-5. Use `JARVIS/Memorias/README.md` para buscar memórias e decisões.
-6. Use `Conhecimento-Geral/INDEX.md` para navegar pelos 10 domínios de conhecimento.
+4. Use `02-JARVIS/README.md` como hub do segundo cérebro.
+5. Use `02-JARVIS/Memorias/README.md` para buscar memórias e decisões.
+6. Use `04-Conhecimentos/07-Humanidades/INDEX.md` para navegar pelos 10 domínios de conhecimento.
 7. Atualize os tags de cada nota nova no início do arquivo.
 
 ## Boas práticas de organização
 - Mantenha cada projeto dentro da pasta certa: `Projetos/` ou `Projetos/Privados/`.
 - Use uma nota de índice para cada subpasta importante.
-- Não misture notas de `JARVIS/` com notas de `Projetos/` sem um link claro.
+- Não misture notas de `02-JARVIS/` com notas de `Projetos/` sem um link claro.
 - Crie notas de status e diagnóstico em `Projetos/Plano-de-Acao.md` e `Projetos/Organizacao-Completa.md`.
 
 ## Observação

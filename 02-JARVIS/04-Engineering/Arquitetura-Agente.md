@@ -54,6 +54,6 @@ O LLM externo processa prompts contextualizados e gera respostas. O modelo receb
 
 ## Cenário de Uso
 
-Quando o usuário pede "resuma a nova área de neurociência", o MCP recupera notas de `Conhecimento-Geral/Neurociencia`, compõe o prompt e envia ao LLM. A resposta é retornada com referências ao conteúdo original.
+Quando o usuário pede "resuma a nova área de neurociência", o MCP recupera notas de `04-Conhecimentos/07-Humanidades/Neurociencia`, compõe o prompt e envia ao LLM. A resposta é retornada com referências ao conteúdo original.
 
 [[02-JARVIS/README|← Voltar ao Command Center]]

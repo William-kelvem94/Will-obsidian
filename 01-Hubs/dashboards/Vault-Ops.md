@@ -15,7 +15,7 @@ O objetivo final é ter um Second Brain que **cresce sozinho**, com mínima inte
 
 ## 🎯 Objetivo Geral
 
-- Manter todos os hubs centrais atualizados (`Bem-vindo.md`, `Cerebro-Will.md`, `Projetos.md`, `JARVIS/README.md`).
+- Manter todos os hubs centrais atualizados (`Bem-vindo.md`, `Cerebro-Will.md`, `Projetos.md`, `02-JARVIS/README.md`).
 - Garantir que a estrutura de pastas reflita a arquitetura de 5 tiers.
 - Usar metadados padronizados em **todas** as notas importantes (frontmatter YAML).
 - Executar automações regularmente para limpeza, indexação RAG e sincronização.
@@ -26,7 +26,7 @@ O objetivo final é ter um Second Brain que **cresce sozinho**, com mínima inte
 ## 📋 Principais Pontos de Manutenção
 
 - **HUBS**: Atualizar sempre que houver mudança significativa em projetos ou skills.
-- **Estrutura de Pastas**: Manter clara a separação entre `Projetos/01-Ativos/`, `Privados/`, `EstudosFocados/`, `EstudosPesquisas/`, `Will-Pessoal/` e `JARVIS/`.
+- **Estrutura de Pastas**: Manter clara a separação entre `Projetos/01-Ativos/`, `Privados/`, `EstudosFocados/`, `EstudosPesquisas/`, `Will-Pessoal/` e `02-JARVIS/`.
 - **Frontmatter Padrão** (obrigatório em notas importantes):
   ```yaml
   ---
@@ -71,7 +71,7 @@ python vault_cleanup.py
 
 ### 4. `daily_logger.py`
 **Objetivo**: Gerar log diário automático a partir do histórico git.  
-**Saída**: Nota em `JARVIS/03-Memory/Logs/`.
+**Saída**: Nota em `02-JARVIS/03-Memory/Logs/`.
 
 ### 5. `project_health_checker.py`
 **Objetivo**: Dar nota 0-100 para cada projeto ativo.  

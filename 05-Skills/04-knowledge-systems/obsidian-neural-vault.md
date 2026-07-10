@@ -39,7 +39,7 @@ vault/
 ├── Projetos/              # Projetos ativos
 │   ├── 01-Ativos/
 │   └── 02-Em-Andamento/
-├── JARVIS/                # Memórias do agente
+├── 02-JARVIS/                # Memórias do agente
 │   ├── Memorias/
 │   └── Decisoes/
 ├── softskills/
@@ -267,11 +267,11 @@ Para manter o grafo visualmente informativo, configure grupos no plugin Graph Vi
 ```json
 {
   "groups": [
-    { "query": "path:skills/01-agentic-intelligence", "color": {"a": 1, "rgb": [59, 130, 246]}},
-    { "query": "path:skills/02-software-engineering", "color": {"a": 1, "rgb": [34, 197, 94]}},
-    { "query": "path:skills/03-infrastructure-mcp", "color": {"a": 1, "rgb": [234, 179, 8]}},
-    { "query": "path:skills/04-knowledge-systems", "color": {"a": 1, "rgb": [168, 85, 247]}},
-    { "query": "path:skills/softskills", "color": {"a": 1, "rgb": [236, 72, 153]}},
+    { "query": "path:05-Skills/01-agentic-intelligence", "color": {"a": 1, "rgb": [59, 130, 246]}},
+    { "query": "path:05-Skills/02-software-engineering", "color": {"a": 1, "rgb": [34, 197, 94]}},
+    { "query": "path:05-Skills/03-infrastructure-mcp", "color": {"a": 1, "rgb": [234, 179, 8]}},
+    { "query": "path:05-Skills/04-knowledge-systems", "color": {"a": 1, "rgb": [168, 85, 247]}},
+    { "query": "path:05-Skills/softskills", "color": {"a": 1, "rgb": [236, 72, 153]}},
     { "query": "path:Projetos", "color": {"a": 1, "rgb": [249, 115, 22]}},
     { "query": "path:JARVIS", "color": {"a": 1, "rgb": [6, 182, 212]}}
   ]
@@ -304,7 +304,7 @@ Para manter o grafo visualmente informativo, configure grupos no plugin Graph Vi
 - Para níveis de skill: #beginner, #advanced
 
 ## Folders
-- Para separação física de áreas: skills/ vs Projetos/ vs JARVIS/
+- Para separação física de áreas: 05-Skills/ vs Projetos/ vs 02-JARVIS/
 - Para limites de privacidade: Projetos/01-Ativos/ vs Projetos/02-Em-Andamento/
 - Para plugins que exigem path (ex: Dataview queries)
 
@@ -318,7 +318,7 @@ Para manter o grafo visualmente informativo, configure grupos no plugin Graph Vi
 
 ```yaml
 # Use TUDO, mas com propósito:
-# - Folder para namespace (skills/04-knowledge-systems/)
+# - Folder para namespace (05-Skills/04-knowledge-systems/)
 # - Tag para metadados transversais (#rag, #vector-db)
 # - MOC para curadoria e navegação (INDEX.md)
 # - Links [[04-Conhecimentos/00-Mapas-e-Ontologia]] para conexões semânticas

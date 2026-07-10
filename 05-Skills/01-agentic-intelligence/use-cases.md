@@ -80,7 +80,7 @@ ferramentas: [create_file, edit_file, execute_command]
 ```yaml
 agente: direto (direct-agent-prompts)
 template_base: templates.md
-saida: skills/01-agentic-intelligence/prompts.md
+saida: 05-Skills/01-agentic-intelligence/prompts.md
 ```
 
 **Fluxo**:

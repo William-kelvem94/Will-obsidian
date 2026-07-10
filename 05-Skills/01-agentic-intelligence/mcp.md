@@ -70,7 +70,7 @@ Model Context Protocol (MCP) define como agentes de IA interagem com arquivos, c
   3. Planeje um roteiro de benchmark e criação de workflow usando `Practical-Example-Maximum-Files.md`.
   4. `edit_file` para atualizar/expandir `Benchmark-IA-Local.md` e `MCP-and-OpenClaude-Workflow.md`.
   5. `execute_command` para validar dependências e scripts básicos, por exemplo `pip install`, `ollama run` ou comandos do OpenClaude.
-  6. `create_file` ou `edit_file` para registrar a conclusão em `JARVIS/Decisoes` e no `Workspace-Study`.
+  6. `create_file` ou `edit_file` para registrar a conclusão em `02-JARVIS/Decisoes` e no `Workspace-Study`.
 
 ## Exemplo de MCP para correção de bug
 - Objetivo: corrigir função X no arquivo `src/service.py`

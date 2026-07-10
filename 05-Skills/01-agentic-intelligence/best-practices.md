@@ -11,9 +11,9 @@ Este guia reune boas praticas para usar IA no desenvolvimento e manter a organiz
 
 ## Estrutura de Trabalho
 
-- Use `skills/01-agentic-intelligence/README.md` como hub principal.
+- Use `05-Skills/01-agentic-intelligence/README.md` como hub principal.
 - Separe prompts, workflows e templates em arquivos diferentes.
-- Mantenha anotacoes do projeto em `skills/` e nao misture com codigo de producao.
+- Mantenha anotacoes do projeto em `05-Skills/` e nao misture com codigo de producao.
 - Use tags como `#agentic`, `#mcp`, `#skill`, `#memory` para localizacao rapida.
 - Prefixo de pastas numerico para ordenacao: `01-agentic-intelligence/`, `02-fullstack/`.
 
@@ -115,7 +115,7 @@ class IdealWorkflow:
 - Relacione cada skill ao projeto em `Projetos/` ou `Will-Pessoal/`.
 - Use [[project-jarvis-prompts]] para tarefas especificas do ecossistema JARVIS.
 - Crie notas de processo em `Will-Pessoal/Conhecimento/Leituras.md` se o aprendizado for valioso.
-- Registre decisoes importantes em `JARVIS/Decisoes/` com data e contexto.
+- Registre decisoes importantes em `02-JARVIS/Decisoes/` com data e contexto.
 
 ## Atualizacao Continua
 

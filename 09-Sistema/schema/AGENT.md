@@ -49,13 +49,13 @@ schema/
     schema-change-log.md
     schema-proposals/
     examples/
-skills/
+05-Skills/
 Bases/
 Canvases/
 .agents/
 ```
 
-Only `wiki/`, `schema/`, `skills/`, `Bases/`, `Canvases/`, and top-level agent instruction files should normally be modified by agents. `raw/` and `Clippings/` are source archives and should be treated as immutable during ingest.
+Only `wiki/`, `schema/`, `05-Skills/`, `Bases/`, `Canvases/`, and top-level agent instruction files should normally be modified by agents. `raw/` and `Clippings/` are source archives and should be treated as immutable during ingest.
 
 ## Schema Evolution Layer
 

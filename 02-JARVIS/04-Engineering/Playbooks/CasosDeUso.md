@@ -293,7 +293,7 @@ riscos_detectados = [
 ```markdown
 # Jarvis cria/atualiza notas automaticamente
 
-JARVIS/Memorias/Episodicas/2026-04-17-implementacao-jwt.md
+02-JARVIS/Memorias/Episodicas/2026-04-17-implementacao-jwt.md
 ---
 title: "Implementação de Autenticação JWT"
 data: 2026-04-17

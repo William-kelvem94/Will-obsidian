@@ -7,12 +7,12 @@ date: 2026-06-01
 
 # Indice de Inteligencia Agentica — JARVIS
 
-Este indice organiza e cataloga todas as skills do hub `skills/01-agentic-intelligence/`. Use como ponto de partida para navegar entre arquivos de agentes, protocolos, padroes de raciocinio e arquiteturas de memoria.
+Este indice organiza e cataloga todas as skills do hub `05-Skills/01-agentic-intelligence/`. Use como ponto de partida para navegar entre arquivos de agentes, protocolos, padroes de raciocinio e arquiteturas de memoria.
 
 ## Taxonomia do Hub
 
 ```
-skills/01-agentic-intelligence/
+05-Skills/01-agentic-intelligence/
 |
 |-- README.md              (visao geral e guia de inicio)
 |-- INDEX.md               (este arquivo — navegacao central)

@@ -34,7 +34,7 @@ updated: 2026-06-13
 ## 🔗 Referências
 
 - [[06-Will-Pessoal/01-Identidade/Perfil/Perfil|Perfil]]
-- [[../Contexto-Atual/Estado]]
+- [[../../02-Operational/Context/Estado]]
 
 ---
 *Salvo automaticamente pelo Jarvis em: {{TIMESTAMP}}*

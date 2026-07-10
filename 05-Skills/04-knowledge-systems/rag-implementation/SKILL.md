@@ -68,7 +68,7 @@ Instead of relying only on LLM's training data:
 ### 1. Embeddings Generator
 **Purpose:** Convert text → vector representations
 
-**Implementation:** `skills/04-knowledge-systems/rag-pipeline/embeddings_generator.py`
+**Implementation:** `05-Skills/04-knowledge-systems/rag-pipeline/embeddings_generator.py`
 
 **Key features:**
 - Uses `sentence-transformers` (all-MiniLM-L6-v2 by default)
@@ -93,7 +93,7 @@ python embeddings_generator.py /path/to/vault --force
 ### 2. Vector Store
 **Purpose:** Fast similarity search over embeddings
 
-**Implementation:** `skills/04-knowledge-systems/rag-pipeline/vector_store.py`
+**Implementation:** `05-Skills/04-knowledge-systems/rag-pipeline/vector_store.py`
 
 **Key features:**
 - FAISS (Facebook AI Similarity Search) backend
@@ -116,7 +116,7 @@ results = store.search("JARVIS architecture", model, top_k=5)
 ### 3. Query Engine
 **Purpose:** Combine retrieval + generation
 
-**Implementation:** `skills/04-knowledge-systems/rag-pipeline/query_engine.py`
+**Implementation:** `05-Skills/04-knowledge-systems/rag-pipeline/query_engine.py`
 
 **Key features:**
 - Retrieval from vector store
@@ -206,7 +206,7 @@ This will:
 
 **Option A: Interactive mode**
 ```bash
-cd skills/04-knowledge-systems/rag-pipeline
+cd 05-Skills/04-knowledge-systems/rag-pipeline
 python query_engine.py --index ../../../.knowledge_index/vault.index --interactive
 ```
 
@@ -488,7 +488,7 @@ def hybrid_kg_rag(question):
 
 2. **Try interactive mode:**
    ```bash
-   cd skills/04-knowledge-systems/rag-pipeline
+   cd 05-Skills/04-knowledge-systems/rag-pipeline
    python query_engine.py --index ../../../.knowledge_index/vault.index --interactive
    ```
 

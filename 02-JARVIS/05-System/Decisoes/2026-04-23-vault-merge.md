@@ -84,7 +84,7 @@ Successfully merged legacy vault from `D:\GitHub\Will-obsidian` into current Git
 |------|-------------|-------------|----------|
 | Bem-vindo.md | 09/04/2026 | **23/04/2026** | ✅ Keep current |
 | Projetos.md | 09/04/2026 | **23/04/2026** | ✅ Keep current |
-| JARVIS/README.md | 09/04/2026 | **23/04/2026** | ✅ Keep current |
+| 02-JARVIS/README.md | 09/04/2026 | **23/04/2026** | ✅ Keep current |
 | Projetos/README.md | 09/04/2026 | **23/04/2026** | ✅ Keep current |
 
 **Rationale**: Current versions include today's major vault expansion (30-day roadmap implementation).
@@ -94,8 +94,8 @@ Successfully merged legacy vault from `D:\GitHub\Will-obsidian` into current Git
 ## 🎯 Integration Status
 
 ### ✅ Successfully Integrated
-- Historical diaries now available in JARVIS/03-Memory/
-- Personal profile restored in JARVIS/Sobre-Will/
+- Historical diaries now available in 02-JARVIS/03-Memory/
+- Personal profile restored in 02-JARVIS/Sobre-Will/
 - Legacy KnowledgeBase preserved for reference
 - All project documentation recovered
 - Templates available for future use

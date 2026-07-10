@@ -92,7 +92,7 @@ Quando um dominio crescer rapido, use um `INDEX` auxiliar por subpasta sem alter
 ## Visualizacao rapida da arvore
 
 ```text
-skills/
+05-Skills/
   README.md
   INDEX.md
   ROADMAP-EXPANSAO.md
@@ -112,4 +112,4 @@ skills/
 
 - Fechar padrao canonico de skill.
 - Expandir trilhas rasas.
-- Reduzir drift entre `skills/`, `.agents/skills` e `.continue/skills`.
+- Reduzir drift entre `05-Skills/`, `.agents/skills` e `.continue/skills`.

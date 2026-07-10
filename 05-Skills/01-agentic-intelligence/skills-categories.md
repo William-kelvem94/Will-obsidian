@@ -7,7 +7,7 @@ date: 2026-06-01
 
 # Categorias de Skills para IA
 
-Este arquivo categoriza todas as skills do hub `skills/01-agentic-intelligence/` por dominio tecnico, com descricoes detalhadas, exemplos de uso e matriz de sobreposicao entre categorias.
+Este arquivo categoriza todas as skills do hub `05-Skills/01-agentic-intelligence/` por dominio tecnico, com descricoes detalhadas, exemplos de uso e matriz de sobreposicao entre categorias.
 
 ## Categorias Principais
 
@@ -109,10 +109,10 @@ Legenda: A = Alta sobreposicao, M = Media, B = Baixa
 | Se voce precisa... | Use a categoria... | E comeco por... |
 |-------------------|-------------------|-----------------|
 | Coordenar agentes | Inteligencia Agentica | [[multi-agent-orchestration]] |
-| Codar uma feature | Desenvolvimento Fullstack | skills/fullstack/ |
+| Codar uma feature | Desenvolvimento Fullstack | 05-Skills/fullstack/ |
 | Adicionar memoria | IA Local e RAG | [[memory-architectures]] |
-| Configurar ambiente | DevOps | skills/infra/ |
-| Automatizar tarefa | Automacao | skills/automation/ |
+| Configurar ambiente | DevOps | 05-Skills/infra/ |
+| Automatizar tarefa | Automacao | 05-Skills/automation/ |
 | Definir um agente | Agentes | [[programador.agent]] |
 | Usar ferramentas | MCP | [[mcp-operators]] |
 | Criar prompts | Prompt Engineering | [[prompts]] |

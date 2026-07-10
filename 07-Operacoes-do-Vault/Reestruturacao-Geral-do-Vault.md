@@ -32,11 +32,11 @@ O vault tem uma base forte, mas cresceu de forma orgânica. Existem bons pilares
 Por enquanto, estas áreas continuam existindo:
 
 ```txt
-JARVIS/
+02-JARVIS/
 Projetos/
-skills/
-Conhecimentos-Gerais/
-Conhecimento-Geral/
+05-Skills/
+04-Conhecimentos/
+04-Conhecimentos/07-Humanidades/
 Will-Pessoal/
 Vault-Ops
 Master-Glossary

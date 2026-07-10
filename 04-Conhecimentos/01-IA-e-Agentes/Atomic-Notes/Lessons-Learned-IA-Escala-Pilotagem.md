@@ -214,5 +214,5 @@ if __name__ == "__main__":
 ## 📑 5. Referências e Conexões Cruzadas
 - Arquitetura de integração com bancos de dados relacionais e vetoriais: [[05-Skills/alloydb-basics/SKILL]]
 - Tratamento de logs industriais de segurança: [[05-Skills/devops/opsec-minimum]]
-- Planejamento de projetos de Inteligência Artificial: [Knowledge-Base/IA-Aplicada/Projetos/POC-IA-Operacoes-Financeiras.md](04-Conhecimentos/01-IA-e-Agentes/Projetos/POC-IA-Operacoes-Financeiras.md)
+- Planejamento de projetos de Inteligência Artificial: [04-Conhecimentos/IA-Aplicada/Projetos/POC-IA-Operacoes-Financeiras.md](04-Conhecimentos/01-IA-e-Agentes/Projetos/POC-IA-Operacoes-Financeiras.md)
 - Organização geral dos experimentos de IA no vault: [ROADMAP.md](ROADMAP.md)

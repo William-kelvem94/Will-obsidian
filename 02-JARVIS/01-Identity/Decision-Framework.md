@@ -225,7 +225,7 @@ Python app? → YES → Railway/Fly.io
 ## 📊 Decision Log Template
 
 Every non-trivial decision should be logged in:
-`JARVIS/02-Operational/Decisions/YYYY-MM-DD-topic.md`
+`02-JARVIS/02-Operational/Decisions/YYYY-MM-DD-topic.md`
 
 ```markdown
 ---

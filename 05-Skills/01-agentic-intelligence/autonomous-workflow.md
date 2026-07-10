@@ -471,8 +471,8 @@ Conforme definido no vault:
 
 ### Regras de Integridade
 - Respeitar tags do [[01-agentic-intelligence/skills-categories|Graph-Legenda]]
-- Registrar memórias em `JARVIS/Memorias/Episodicas/`
-- Documentar decisões em `JARVIS/Decisoes/`
+- Registrar memórias em `02-JARVIS/Memorias/Episodicas/`
+- Documentar decisões em `02-JARVIS/Decisoes/`
 
 ## Ferramentas MCP Recomendadas
 

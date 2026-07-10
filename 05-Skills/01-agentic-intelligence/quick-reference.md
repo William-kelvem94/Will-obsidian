@@ -7,7 +7,7 @@ date: 2026-06-01
 
 # Referencia Rapida — Inteligencia Agentica
 
-Use este arquivo como atalho rapido para operadores, prompts e workflows essenciais do hub `skills/01-agentic-intelligence/`.
+Use este arquivo como atalho rapido para operadores, prompts e workflows essenciais do hub `05-Skills/01-agentic-intelligence/`.
 
 ## Operadores Principais (MCP)
 
@@ -109,8 +109,8 @@ VECTOR_DB_PATH=./data/vector_store
 EMBEDDING_MODEL=all-MiniLM-L6-v2
 
 # Projeto JARVIS
-JARVIS_VAULT_PATH=./JARVIS/KnowledgeBase
-JARVIS_MEMORY_PATH=./JARVIS/Memory
+JARVIS_VAULT_PATH=./02-JARVIS/KnowledgeBase
+JARVIS_MEMORY_PATH=./02-JARVIS/Memory
 ```
 
 ## Referencias

@@ -209,7 +209,7 @@ if (semCobertura.length > 0) {
 
 ---
 
-## 7. Skills sem Nota Dedicada (Gap no skills/)
+## 7. Skills sem Nota Dedicada (Gap no 05-Skills/)
 
 ```dataviewjs
 const skillsDir = dv.pages('"skills"').map(p => p.file.name.toLowerCase());
@@ -225,7 +225,7 @@ const semNota = skillsEssenciais.filter(s => {
 
 if (semNota.length > 0) {
   dv.paragraph("### ❌ Skills Essenciais sem Nota Dedicada");
-  dv.list(semNota.map(s => `- [ ] **${s}** — Criar nota em \`skills/\``));
+  dv.list(semNota.map(s => `- [ ] **${s}** — Criar nota em \`05-Skills/\``));
 } else {
   dv.paragraph("### ✅ Todas as skills essenciais têm nota dedicada!");
 }

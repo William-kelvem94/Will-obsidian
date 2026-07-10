@@ -37,7 +37,7 @@ A estrutura numerada foi criada e os principais blocos foram migrados para camin
 1. Conteúdo novo entra somente em caminho canônico.
 2. Conhecimento curado fica em `04-Conhecimentos/`.
 3. Fontes originais ficam em `11-Dados-Brutos/`.
-4. Skills ficam em `05-Skills/`; mirrors em `.agents/skills/` e `.continue/skills/` exigem controle de drift.
+4. Skills ficam em `05-Skills/`; mirrors em `.agents/05-Skills/` e `.continue/05-Skills/` exigem controle de drift.
 5. Regras, schemas e configurações ficam em `09-Sistema/`.
 6. Legado não deve ser duplicado nem indexado como conhecimento atual.
 7. Conteúdo pessoal permanece restrito por padrão.

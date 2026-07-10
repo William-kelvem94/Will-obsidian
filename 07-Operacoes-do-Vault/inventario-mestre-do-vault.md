@@ -17,8 +17,8 @@ summary: "Baseline operacional do vault com cobertura, densidade e prioridades d
 | Arquivos markdown detectados no vault | 1187 |
 | Arquivos totais detectados no vault | 2083 |
 | Tamanho total detectado | 103694531 bytes |
-| Trilhas de alto nivel em `skills/` | 29 |
-| Markdown em `skills/` (legacy/curado) | 225 |
+| Trilhas de alto nivel em `05-Skills/` | 29 |
+| Markdown em `05-Skills/` (legacy/curado) | 225 |
 | Skills curadas em `.agents/skills` | 82 |
 | Skills espelhadas em `.continue/skills` | 82 |
 | Markdown em `05-Skills/` | 3 |
@@ -39,7 +39,7 @@ summary: "Baseline operacional do vault com cobertura, densidade e prioridades d
 
 ### Skills layer
 
-- `skills/` tem boa cobertura inicial, especialmente em agentic intelligence, software engineering, infrastructure, knowledge systems, devops, frontend e AI.
+- `05-Skills/` tem boa cobertura inicial, especialmente em agentic intelligence, software engineering, infrastructure, knowledge systems, devops, frontend e AI.
 - A profundidade eh desigual: alguns hubs ja sao quase mini-cursos, enquanto outras trilhas ainda sao apenas pontos de partida.
 - O principal gap eh padronizacao de forma: estrutura, metadados, checklist, exemplos, metricas e links internos ainda variam demais entre trilhas.
 - `05-Skills/` ainda funciona como a nova camada fisica canônica em construcao, entao a expansao deve priorizar padrao e indexacao antes de copiar volume.

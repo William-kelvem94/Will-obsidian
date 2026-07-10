@@ -44,7 +44,7 @@ Inclua:
 
 Exemplo:
 
-\"Crie um Codebase Map em `JARVIS/04-Engineering/Codebase-Maps/` para o projeto Z. Nao copie segredos. Liste entrypoints, comandos e riscos.\"
+\"Crie um Codebase Map em `02-JARVIS/04-Engineering/Codebase-Maps/` para o projeto Z. Nao copie segredos. Liste entrypoints, comandos e riscos.\"
 
 ## Relacionado
 

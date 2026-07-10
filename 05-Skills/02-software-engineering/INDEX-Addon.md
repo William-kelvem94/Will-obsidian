@@ -8,7 +8,7 @@ updated: 2026-06-13
 
 # Software Engineering - Index Addon (Agents)
 
-Este arquivo existe para conectar notas novas sem modificar `skills/02-software-engineering/INDEX.md`.
+Este arquivo existe para conectar notas novas sem modificar `05-Skills/02-software-engineering/INDEX.md`.
 
 - [[integration-patterns-for-agents|Integration Patterns (Agent-Friendly)]]
 - [[test-pyramid-realistic-for-agents|Test Pyramid (Realistic) for Agents]]

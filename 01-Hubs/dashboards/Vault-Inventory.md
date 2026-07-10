@@ -24,7 +24,7 @@ summary: "Painel resumido do inventario e da cobertura operacional do vault."
 | Markdown files in vault | 1187 |
 | Total files in vault | 2083 |
 | Total bytes | 103694531 |
-| `skills/` markdown files | 225 |
+| `05-Skills/` markdown files | 225 |
 | `.agents/skills` markdown files | 82 |
 | `.continue/skills` markdown files | 82 |
 | `05-Skills/` markdown files | 3 |
