@@ -7,7 +7,7 @@ tags:
   - privados
   - analise
   - hub
-updated: 2026-06-13
+updated: 2026-07-13
 date: 2026-04-27
 ---
 
@@ -26,6 +26,20 @@ Esta pasta contém repositórios privados clonados localmente e documentados com
 - [[PROJECT_JARVIS_5.0]] — FastAPI, Next.js, LiveKit, visão e voz.
 - [[DEMANDAS/README|DEMANDAS]] — DEMANDAS_ORGANIZADAS, DEMANDAS_ORGANIZADAS_2.0 e WEBFLASH.
 - [[DEMANDAS/INDEX|Índice DEMANDAS]] — comparação cruzada e navegação rápida.
+
+## Repositórios ativos identificados na sincronização de 2026-07-13
+
+Além das notas já existentes, os seguintes repositórios foram confirmados no GitHub e ainda precisam de uma nota canônica individual:
+
+- [[JARVIS-2.0]] — assistente/servidor Node.js e bridges Python.
+- [[IA-POTENTE]] — núcleo experimental de IA e treinamento.
+- [[Gestor_Aluguel]] — gestor de aluguéis.
+- [[AUTOBOT]] — automações e agente.
+- [[WILLFINANCE-9.0]] — evolução do gerenciador financeiro.
+- [[WilletHub]] — hub/plataforma web.
+- [[rentai-manager]] — gestor de aluguel/automação.
+
+O inventário completo, incluindo repositórios sem nota individual, está em [[07-Operacoes-do-Vault/Inventario-GitHub-Atual-2026-07-13]].
 
 ## Papel desta pasta
 Cada arquivo em `Projetos/Privados/` é a nota canônica do projeto quando há um clone local ou trabalho ativo.
