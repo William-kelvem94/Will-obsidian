@@ -8,11 +8,13 @@ tags: [github, inventario, projetos, sincronizacao]
 
 # Inventário GitHub Atual
 
-> Snapshot sincronizado em **2026-07-13**. Total listado nesta sincronização: **78 repositórios**.
+> Snapshot sincronizado em **2026-07-13**. Total listado nesta sincronização: **80 repositórios**.
 > A branch indicada é a branch padrão retornada pelo GitHub. Branches adicionais podem existir.
 
 ## Repositórios e branches padrão
 
+- [ada_v2---jarvis](https://github.com/William-kelvem94/ada_v2---jarvis) — `main`
+- [att_18_ago](https://github.com/William-kelvem94/att_18_ago) — `main`
 - [AFFiNE-Will](https://github.com/William-kelvem94/AFFiNE-Will) — `canary`
 - [AGENTE-IA](https://github.com/William-kelvem94/AGENTE-IA) — `main`
 - [AULA_PROG_AVAN](https://github.com/William-kelvem94/AULA_PROG_AVAN) — `main`
