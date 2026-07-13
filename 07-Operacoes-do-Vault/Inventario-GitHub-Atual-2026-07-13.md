@@ -11,7 +11,7 @@ tags: [github, inventario, projetos, sincronizacao]
 > Snapshot sincronizado em **2026-07-13**. Total listado nesta sincronização: **80 repositórios**.
 > A branch indicada é a branch padrão retornada pelo GitHub. Branches adicionais podem existir.
 
-## Repositórios e branches padrão
+## Mapa cognitivo detalhado\n\nPara explicações, categorias, relações, fluxograma e perguntas para a IA, consulte [[03-Projetos/04-Master-Plan/Mapa-Cognitivo-Completo-dos-Repositorios]].\n\n## Repositórios e branches padrão
 
 - [ada_v2---jarvis](https://github.com/William-kelvem94/ada_v2---jarvis) — `main`
 - [att_18_ago](https://github.com/William-kelvem94/att_18_ago) — `main`
