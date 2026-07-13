@@ -2,7 +2,7 @@
 title: "Projetos Ativos — Estado Atual"
 description: "Estado atual de cada projeto de Will, prioridades e próximos passos."
 tags: [will, projetos, status, jarvis, jarvis-identidade]
-updated: 2026-06-13
+updated: 2026-07-13
 date: 2026-04-27
 ---
 
@@ -32,6 +32,19 @@ date: 2026-04-27
 - **Stack:** Flask, Playwright, OCR, PostgreSQL
 - **Próximos passos:** *a atualizar*
 
+## Repositórios confirmados no GitHub em 2026-07-13
+
+- **JARVIS-2.0** — branch padrão `main`; dependências Node/Python e alertas de segurança recentemente tratados.
+- **IA-POTENTE** — branch padrão `main`; Transformers desativado nos manifestos por segurança.
+- **Gerenciador_Financeiro-7.0** — branch padrão `main`; projeto financeiro principal.
+- **Gestor_Aluguel** — branch padrão `main`; produto de gestão de aluguéis.
+- **AUTOBOT** — branch padrão `main`; automação/agente.
+- **WILLFINANCE-9.0** — branch padrão `main`; evolução financeira.
+- **WilletHub** — branch padrão `main`; plataforma/hub.
+- **rentai-manager** — branch padrão `main`; produto de aluguel/automação.
+
+Para a relação completa, consulte [[07-Operacoes-do-Vault/Inventario-GitHub-Atual-2026-07-13]].
+
 ## 🟡 Média Prioridade
 
 ### IA-LOCAL
@@ -45,6 +58,6 @@ date: 2026-04-27
 - Java atividades
 
 ---
-*Última atualização: 2026-04-09 | Fonte: Jarvis*
+*Última atualização: 2026-07-13 | Fonte: Jarvis*
 
 [[02-JARVIS/README|← Voltar ao Command Center]]
