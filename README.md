@@ -9,6 +9,7 @@ Para navegar, comece por:
 - [[01-Hubs/README|Hubs Centrais do Vault]]
 - [[10-Interfaces/Painel-Cockpit-Operacional|Painel Cockpit Operacional]]
 - [[07-Operacoes-do-Vault/README|Operacoes do Vault]]
+- [[03-Projetos/04-Master-Plan/Mapa-Cognitivo-Completo-dos-Repositorios|Mapa Cognitivo Completo dos Repositórios]]
 
 ## Estrutura fisica canonica
 
