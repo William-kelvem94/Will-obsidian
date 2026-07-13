@@ -2,20 +2,20 @@
 title: "William-kelvem94 GitHub Completo"
 source: "https://github.com/William-kelvem94?tab=repositories"
 language: Markdown
-description: "Mapa completo de 67 repositórios (públicos/privados) - Atualizado via tela 2026"
+description: "Mapa completo sincronizado dos repositórios públicos e privados da conta GitHub"
 tags:
   - projetos
   - projetos
   - github
   - completo
   - hub
-updated: 2026-06-13
+updated: 2026-07-13
 date: 2026-04-27
 ---
 
-# GitHub Completo - William-kelvem94 (78 Repos)
+# GitHub Completo - William-kelvem94 (78 repositórios)
 
-**Stats**: 67 repos, Python/TS/JS/C# dominante, 3 followers, org @ProjetoMeta.
+**Snapshot atual**: 78 repositórios listados em 2026-07-13; branches padrão e links mantidos no [[07-Operacoes-do-Vault/Inventario-GitHub-Atual-2026-07-13|inventário sincronizado]].
 
 ## Gerais
 - Fonte: https://github.com/William-kelvem94?tab=repositories
@@ -58,7 +58,7 @@ date: 2026-04-27
 
 ## Lista de Repositórios (Automática)
 
-*Recuperado diretamente do perfil do GitHub em 2026-06-05*
+*Lista histórica preservada para rastreabilidade. Consulte o inventário sincronizado de 2026-07-13 para o estado atual.*
 
 - 🔒 **[ada_v2---jarvis](https://github.com/William-kelvem94/ada_v2---jarvis)** (N/A) - *É CÓPIA DE https://github.com/nazirlouis/ada_v2*
   - *Atualização:* `Updated on Feb 23`  | Status: `Private`
