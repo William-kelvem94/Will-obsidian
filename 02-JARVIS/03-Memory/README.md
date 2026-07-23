@@ -17,7 +17,6 @@ Esta pasta centraliza o registro das experiências do Jarvis e as notas de conti
 
 ## Estrutura
 - `02-JARVIS/03-Memory/Diario/` → notas de diário por data (`YYYY-MM-DD.md`)
-- `02-JARVIS/03-Memory/Dreams/` → sonhos e registros noturnos incorporados do antigo Caine
 - `02-JARVIS/03-Memory/Episodicas/` → memórias importantes de sessões específicas
 
 ## Objetivo
@@ -43,4 +42,4 @@ Esta pasta centraliza o registro das experiências do Jarvis e as notas de conti
 - `#continuidade` → para notas que orientam a próxima sessão
 
 ## Observação
-Mantenha a pasta `02-JARVIS/03-Memory/` atualizada sempre que uma sessão do JARVIS gerar um novo insight ou decisão.
+Mantenha a pasta `02-JARVIS/03-Memory/` atualizada sempre que uma sessão do Jarvis gerar um novo insight ou decisão.

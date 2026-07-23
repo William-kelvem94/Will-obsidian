@@ -10,7 +10,7 @@ date: 2026-06-01
 
 # Frontend Skills Index (Addon)
 
-This file links newly created notes in `skills/frontend/` without editing existing files.
+This file links newly created notes in `05-Skills/frontend/` without editing existing files.
 
 ## Next.js
 

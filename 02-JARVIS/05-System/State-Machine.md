@@ -53,7 +53,7 @@ stateDiagram-v2
 ### `LOADING_CONTEXT`
 - **Descrição**: Carrega o estado atual do vault, projeto ativo e memórias relevantes.
 - **Ações**:
-  - Lê [[02-JARVIS/02-Operational/Contexto-Atual|Contexto-Atual]]
+  - Lê [[02-JARVIS/02-Operational/Context/Estado|Estado atual]]
   - Consulta [[02-JARVIS/03-Memory|Memórias]] relevantes ao input
   - Verifica [[02-JARVIS/01-Identity|Identidade]] e regras aplicáveis
   - Monta o prompt base com contexto completo
@@ -133,8 +133,8 @@ stateDiagram-v2
 ## Implementação
 
 Este blueprint é implementado via:
-- `JARVIS/05-System/Comandos-JARVIS.md` — comandos que disparam transições
-- `JARVIS/02-Operational/Contexto-Atual/` — estado atual monitorado
+- `02-JARVIS/05-System/Comandos-JARVIS.md` — comandos que disparam transições
+  - `02-JARVIS/02-Operational/Context/` — estado atual monitorado
 - Scripts de automação no vault que utilizam os hooks de transição
 
 [[02-JARVIS/README|← Voltar ao Command Center]]

@@ -1,13 +1,15 @@
 # Will Vault - Obsidian Neural Hub
 
-Este repositorio e o vault principal do Obsidian do Will. A estrutura numerada abaixo e a fonte canonica para navegacao, conhecimento, projetos, JARVIS, skills, vida pessoal, operacoes do vault, sistema tecnico, dados brutos e templates.
+Este repositorio e o vault principal do Obsidian do Will. A estrutura numerada abaixo e a fonte canonica para navegacao, conhecimento, projetos, JARVIS, skills, vida pessoal, operacoes do vault, interfaces, sistema tecnico, dados brutos e templates.
 
 Para navegar, comece por:
 
 - [[Bem-vindo|Neural Hub]]
 - [[INDEX|INDEX global]]
 - [[01-Hubs/README|Hubs Centrais do Vault]]
+- [[10-Interfaces/Painel-Cockpit-Operacional|Painel Cockpit Operacional]]
 - [[07-Operacoes-do-Vault/README|Operacoes do Vault]]
+- [[03-Projetos/04-Master-Plan/Mapa-Cognitivo-Completo-dos-Repositorios|Mapa Cognitivo Completo dos Repositórios]]
 
 ## Estrutura fisica canonica
 
@@ -23,6 +25,7 @@ Will-obsidian/
 ├── 07-Operacoes-do-Vault/ <- Inventarios, migracao, auditoria e manutencao
 ├── 08-Arquivo/            <- Legado preservado e notas fora do fluxo ativo
 ├── 09-Sistema/            <- Regras, schemas, scripts e integracoes tecnicas
+├── 10-Interfaces/         <- Cockpits, dashboards, canvases e web-ui
 ├── 11-Dados-Brutos/       <- Fontes, bases e clippings sem curadoria
 └── 99-Templates/          <- Modelos reutilizaveis
 ```
@@ -41,6 +44,7 @@ Will-obsidian/
 | `07-Operacoes-do-Vault/` | inventarios, status, migracao, auditoria e saude do vault |
 | `08-Arquivo/` | legado preservado sem apagar historico |
 | `09-Sistema/` | schema, agentes, scripts, validacoes e governanca tecnica |
+| `10-Interfaces/` | cockpits, dashboards, canvases, paineis e web-ui |
 | `11-Dados-Brutos/` | dados brutos, fontes originais e materiais ainda nao curados |
 | `99-Templates/` | modelos canonicos para notas, projetos e operacao |
 
@@ -52,7 +56,7 @@ Os arquivos tecnicos do vault vivem em `09-Sistema/` e seguem a separacao:
 - `04-Conhecimentos/` para sintese e conhecimento curado;
 - `09-Sistema/schema/` para regras, contratos e governanca;
 - `09-Sistema/agents/` para instrucoes operacionais de modelos e agentes;
-- `09-Sistema/scripts/` para automacoes e suporte tecnico.
+- `09-Sistema/scripts/` e `.scripts/` para automacoes e suporte tecnico.
 
 ## Governanca e migracao
 
@@ -63,6 +67,13 @@ A migracao fisica e a organizacao do vault sao acompanhadas por:
 - [[07-Operacoes-do-Vault/Inventario-Inicial-do-Vault]]
 - [[07-Operacoes-do-Vault/Mapa-de-Migracao-Fisica-do-Vault]]
 - [[07-Operacoes-do-Vault/Status-da-Migracao-Fisica]]
+- [[07-Operacoes-do-Vault/Auditoria-Caminhos-Legados]]
+- [[09-Sistema/schema/Politica-de-Privacidade-e-Indexacao]]
+
+## Interfaces principais
+
+- [[10-Interfaces/Painel-Cockpit-Operacional|Painel Cockpit Operacional]] - mesa de controle para projetos, gaps e manutencao.
+- [[01-Hubs/dashboards/INDEX|Dashboards legados e complementares]] - consultas e paineis ainda em revisao.
 
 ## Regras rapidas
 
@@ -70,7 +81,8 @@ A migracao fisica e a organizacao do vault sao acompanhadas por:
 - prefira um unico hub por dominio;
 - mantenha metadados em notas centrais;
 - nao misture dado bruto com sintese;
-- nao mova em massa sem validar links e hubs.
+- nao mova em massa sem validar links e hubs;
+- antes de indexar conteudo para IA/RAG, consulte a politica de privacidade e indexacao.
 
 ## Como abrir
 

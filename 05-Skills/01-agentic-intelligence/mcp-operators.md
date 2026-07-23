@@ -190,7 +190,7 @@ def fluxo_refatoracao(arquivo_alvo: str) -> dict:
 
 1. Nao execute `delete_file` sem confirmar backup ou ausencia de dependencia.
 2. Nao altere grandes blocos sem um plano e validacao.
-3. Para mudancas criticas, crie nota de revisao em `skills/`.
+3. Para mudancas criticas, crie nota de revisao em `05-Skills/`.
 4. Evite edicoes multiplas sem `diff_file` e resumo final.
 5. Use `path_exists` antes de `read_file` ou `delete_file`.
 6. Prefira `edit_file` com substituicao exata em vez de reescrita completa.

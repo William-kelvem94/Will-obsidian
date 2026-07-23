@@ -66,7 +66,7 @@ These principles guide every technical decision in the Neural Hub ecosystem.
 **Implementation:**
 - README in every repo
 - Inline comments for "why", not "what"
-- Decision logs (JARVIS/02-Operational/Decisions/)
+- Decision logs (02-JARVIS/02-Operational/Decisions/)
 - Runbook for every deployment
 
 **When to break:**

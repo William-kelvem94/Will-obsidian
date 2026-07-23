@@ -90,9 +90,9 @@ Não precisa começar com reranker neural. Um reranking híbrido lexical + semâ
 
 Para um vault grande, um único índice pode misturar assuntos demais. Considere índices ou filtros por domínio:
 
-- `Conhecimento-Geral/Saude`
-- `Conhecimento-Geral/IA-para-Programacao`
-- `JARVIS/04-Engineering`
+- `04-Conhecimentos/07-Humanidades/Saude`
+- `04-Conhecimentos/07-Humanidades/IA-para-Programacao`
+- `02-JARVIS/04-Engineering`
 - `Projetos`
 - `Will-Pessoal` com regras de privacidade mais rígidas
 

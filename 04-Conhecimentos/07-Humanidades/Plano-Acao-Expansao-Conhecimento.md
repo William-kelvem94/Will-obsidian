@@ -13,14 +13,14 @@ category: governance-roadmap
 O diretório [Conhecimento-Geral](04-Conhecimentos/07-Humanidades) atua como a base cognitiva fundamental do segundo cérebro, modelando temas transdisciplinares cruciais que orientam o raciocínio crítico, a empatia simulada e a contextualização jurídica, ética e física do JARVIS.
 
 Atualmente, o repositório conta com **201 notas atômicas estruturadas**. Contudo, embora os ramos de **Ética**, **Matemática** e **Filosofia** gozem de densidade máxima no nível acadêmico, os seguintes **8 eixos** atuam como frestas funcionais rasas (possuindo arquivos de INDEX com menos de 30 linhas de conteúdo):
-1.  **Biologia** ([Conhecimento-Geral/Biologia/INDEX.md](04-Conhecimentos/07-Humanidades/Biologia/INDEX.md)) — ~24 linhas.
-2.  **Química** ([Conhecimento-Geral/Quimica/INDEX.md](04-Conhecimentos/07-Humanidades/Quimica/INDEX.md)) — ~21 linhas.
-3.  **Física** ([Conhecimento-Geral/Fisica/INDEX.md](04-Conhecimentos/07-Humanidades/Fisica/INDEX.md)) — ~25 linhas.
-4.  **Cosmologia** ([Conhecimento-Geral/Cosmologia/INDEX.md](04-Conhecimentos/07-Humanidades/Cosmologia/INDEX.md)) — ~24 linhas.
-5.  **História** ([Conhecimento-Geral/Historia/INDEX.md](04-Conhecimentos/07-Humanidades/Historia/INDEX.md)) — ~24 linhas.
-6.  **Metafísica** ([Conhecimento-Geral/Metafisica/INDEX.md](04-Conhecimentos/07-Humanidades/Metafisica/INDEX.md)) — ~24 linhas.
-7.  **Lógica** ([Conhecimento-Geral/Logica/INDEX.md](04-Conhecimentos/07-Humanidades/Logica/INDEX.md)) — ~19 linhas.
-8.  **Manual de Normas** ([Conhecimento-Geral/COMO-CONTRIBUIR.md](04-Conhecimentos/07-Humanidades/COMO-CONTRIBUIR.md)) — ~13 linhas.
+1.  **Biologia** ([04-Conhecimentos/07-Humanidades/Biologia/INDEX.md](04-Conhecimentos/07-Humanidades/Biologia/INDEX.md)) — ~24 linhas.
+2.  **Química** ([04-Conhecimentos/07-Humanidades/Quimica/INDEX.md](04-Conhecimentos/07-Humanidades/Quimica/INDEX.md)) — ~21 linhas.
+3.  **Física** ([04-Conhecimentos/07-Humanidades/Fisica/INDEX.md](04-Conhecimentos/07-Humanidades/Fisica/INDEX.md)) — ~25 linhas.
+4.  **Cosmologia** ([04-Conhecimentos/07-Humanidades/Cosmologia/INDEX.md](04-Conhecimentos/07-Humanidades/Cosmologia/INDEX.md)) — ~24 linhas.
+5.  **História** ([04-Conhecimentos/07-Humanidades/Historia/INDEX.md](04-Conhecimentos/07-Humanidades/Historia/INDEX.md)) — ~24 linhas.
+6.  **Metafísica** ([04-Conhecimentos/07-Humanidades/Metafisica/INDEX.md](04-Conhecimentos/07-Humanidades/Metafisica/INDEX.md)) — ~24 linhas.
+7.  **Lógica** ([04-Conhecimentos/07-Humanidades/Logica/INDEX.md](04-Conhecimentos/07-Humanidades/Logica/INDEX.md)) — ~19 linhas.
+8.  **Manual de Normas** ([04-Conhecimentos/07-Humanidades/COMO-CONTRIBUIR.md](04-Conhecimentos/07-Humanidades/COMO-CONTRIBUIR.md)) — ~13 linhas.
 
 ---
 
@@ -62,11 +62,11 @@ Projetamos um cronograma dividido em **Sprints de Execução** (7 dias por ciclo
 
 ### 3.4 Biologia (Genômica de Redes & Fisiologia Integradora)
 *   **Insuficiência**: Presença de notas isoladas de biologia molecular e evolutiva desprovidas de síntese de rede integradora.
-*   **Ação de Expansão**: Ampliar a visão em [Conhecimento-Geral/Biologia/INDEX.md](04-Conhecimentos/07-Humanidades/Biologia/INDEX.md) para modelar a vida sob o viés cibernético: sistemas autoregulados de feedback biológico (homeostase), redes de transcrição gênica e evolução baseada em algoritmos genéticos de seleção de aptidão (*fitness*).
+*   **Ação de Expansão**: Ampliar a visão em [04-Conhecimentos/07-Humanidades/Biologia/INDEX.md](04-Conhecimentos/07-Humanidades/Biologia/INDEX.md) para modelar a vida sob o viés cibernético: sistemas autoregulados de feedback biológico (homeostase), redes de transcrição gênica e evolução baseada em algoritmos genéticos de seleção de aptidão (*fitness*).
 
 ### 3.5 História (Cronologia Sistêmica e Fluidez Geopolítica)
 *   **Insuficiência**: O indexador de história é estático.
-*   **Ação de Expansão**: Expandir [Conhecimento-Geral/Historia/INDEX.md](04-Conhecimentos/07-Humanidades/Historia/INDEX.md) conectando-o ao subtema de Geopolítica de Recursos escassos (lítio, silício purificado, terras raras), cronologia de revoluções industriais e suas transições para a economia digital contemporânea.
+*   **Ação de Expansão**: Expandir [04-Conhecimentos/07-Humanidades/Historia/INDEX.md](04-Conhecimentos/07-Humanidades/Historia/INDEX.md) conectando-o ao subtema de Geopolítica de Recursos escassos (lítio, silício purificado, terras raras), cronologia de revoluções industriais e suas transições para a economia digital contemporânea.
 
 ### 3.6 Metafísica (Ontologias e Filosofia da Realidade)
 *   **Insuficiência**: Arquivo raso que não conecta com os modelos informacionais do segundo cérebro.

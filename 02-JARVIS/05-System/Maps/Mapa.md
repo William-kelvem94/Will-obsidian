@@ -17,7 +17,7 @@ Este documento mapeia toda a base de conhecimento do Jarvis e mostra como cada p
 
 ## Visão geral da estrutura
 
-- `JARVIS/KnowledgeBase/`
+- `02-JARVIS/KnowledgeBase/`
   - [[README|README.md]] — guia principal e explicação da KB.
   - [[CONFIG|CONFIG.md]] — variáveis de ambiente e caminhos de configuração.
   - [[INDEX|INDEX.md]] — índice textual dos arquivos e seus propósitos.

@@ -112,4 +112,4 @@ Analisar um PR ou mudança crítica com atenção a qualidade.
 - Sempre peça contexto se não houver detalhes suficientes.
 - Verifique paths antes de editar.
 - Execute validações automáticas.
-- Documente mudanças em `skills/vscode-ai/` ou no próprio projeto.
+- Documente mudanças em `05-Skills/vscode-ai/` ou no próprio projeto.

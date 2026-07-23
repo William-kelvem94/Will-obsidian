@@ -14,7 +14,7 @@ Este indice centraliza sugestoes de melhoria geradas automaticamente. Elas devem
 ## Regra de Uso
 
 - Sugestoes novas devem ser criadas nesta pasta quando possivel.
-- Arquivos antigos foram consolidados em `02-JARVIS/05-System/Improvements/Legacy/` e devem ser tratados como backlog legado.
+- Arquivos antigos `02-JARVIS/Improvement_*.md` ainda existem na raiz do `02-JARVIS/` e devem ser tratados como backlog legado.
 - Nao aplique sugestoes automaticamente em arquivos de identidade, preferencias, arquitetura ou projeto sem revisao humana.
 
 ## Backlog Legado
@@ -40,5 +40,5 @@ SORT file.mtime DESC
 1. Ler sugestao.
 2. Classificar como `accepted`, `rejected`, `duplicate` ou `needs-research`.
 3. Se aceita, transformar em issue, decisao ou nota tecnica.
-4. Se virar mudanca permanente, registrar em `JARVIS/02-Operational/Decisions/`.
+4. Se virar mudanca permanente, registrar em `02-JARVIS/02-Operational/Decisions/`.
 

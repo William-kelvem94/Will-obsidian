@@ -11,13 +11,13 @@ Este guia e o carregamento minimo para qualquer IA que use o Obsidian como segun
 
 ## Leitura Inicial
 
-1. Leia `JARVIS/README.md` para entender a arquitetura em camadas.
-2. Leia `JARVIS/05-System/AGENT-CONTRACT.md` antes de propor ou executar mudancas.
-3. Consulte `Graph-Legenda.md` para entender cores e tags.
-4. Use os comandos MCP documentados em `JARVIS/05-System/Comandos-JARVIS.md`.
-5. Para buscas semanticas, siga `JARVIS/04-Engineering/RAG-Local-Guide.md`.
-6. Use `Templates/Template Base.md` para novas notas.
-7. Antes de modificar conhecimento canonico, verifique `Conhecimento-Geral/COMO-CONTRIBUIR.md`.
+1. Leia `02-JARVIS/README.md` para entender a arquitetura em camadas.
+2. Leia `02-JARVIS/05-System/AGENT-CONTRACT.md` antes de propor ou executar mudancas.
+3. Consulte `01-Hubs/dashboards/Graph-Legenda.md` para entender cores e tags.
+4. Use os comandos MCP documentados em `02-JARVIS/05-System/Comandos-JARVIS.md`.
+5. Para buscas semanticas, siga `02-JARVIS/04-Engineering/RAG-Local-Guide.md`.
+6. Use [[04-Conhecimentos/99-Templates/Template-Nota-Atomica|o template de nota atômica]] para novas notas.
+7. Antes de modificar conhecimento canonico, verifique `04-Conhecimentos/07-Humanidades/COMO-CONTRIBUIR.md`.
 
 ## Regra de Seguranca
 
@@ -28,7 +28,7 @@ Este vault tambem e cerebro para modelos de IA na programacao. Preserve contexto
 - Verifique se ha mudancas locais no Git.
 - Leia o arquivo inteiro antes de alterar.
 - Prefira adicionar notas de memoria, decisoes ou improvements em vez de reescrever hubs centrais.
-- Quando a mudanca for estrutural, registre a decisao em `JARVIS/02-Operational/Decisions/`.
+- Quando a mudanca for estrutural, registre a decisao em `02-JARVIS/02-Operational/Decisions/`.
 
 ## Depois de Editar
 

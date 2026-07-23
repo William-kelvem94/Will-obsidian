@@ -28,7 +28,7 @@ Criar um fluxo onde:
 
 | Camada | Função | Exemplo |
 |---|---|---|
-| Fonte | arquivos Markdown do vault | `Conhecimentos-Gerais/` |
+| Fonte | arquivos Markdown do vault | `04-Conhecimentos/` |
 | Ingestão | leitura e normalização | script Python/Node |
 | Chunking | divisão por sentido | cabeçalhos Markdown |
 | Embeddings | representação vetorial | modelo local ou API |
@@ -61,8 +61,8 @@ Banco vetorial
 
 Indexar primeiro:
 
-- `Conhecimentos-Gerais/`;
-- `skills/`;
+- `04-Conhecimentos/`;
+- `05-Skills/`;
 - documentação técnica dos projetos;
 - decisões arquiteturais;
 - runbooks;

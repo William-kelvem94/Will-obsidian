@@ -13,7 +13,7 @@ category: HUB
 ## Propósito e Estrutura
 Governança, automação, painéis regulatórios, reporting, incidentes, compliance e estudos de caso reais, dictionary LGPD, scripts, dashboards, benchmarks.
 - **Projetos, atomic notes:** reporting/auditoria, templates, incidentes, estudos legais
-- **Crosslinks:** [Conhecimento-Geral/INDEX](../Conhecimento-Geral/INDEX), [dashboards/INDEX](../dashboards/INDEX), [INDEX](../../INDEX)
+- **Crosslinks:** [04-Conhecimentos/07-Humanidades/INDEX](../04-Conhecimentos/07-Humanidades/INDEX), [dashboards/INDEX](../dashboards/INDEX), [INDEX](../../INDEX)
 
 ---
 > _README do HUB deve sempre referenciar INDEX central e painéis LGPD relevantes._

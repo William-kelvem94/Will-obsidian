@@ -15,7 +15,7 @@ Este arquivo lista painéis, painéis operacionais e arquivos centrais antes sol
 - [[Master-Glossary|Glossário Mestre Unificado]]
 - [[SEGURANCA_PRIVACIDADE]]
 - [[Vault-Hierarchy-Map]]
-- [[Vault-Ops]]
+- [[07-Operacoes-do-Vault/README|Operações do Vault]]
 - [[TAXONOMY]]
 - [[ROADMAP]]
 

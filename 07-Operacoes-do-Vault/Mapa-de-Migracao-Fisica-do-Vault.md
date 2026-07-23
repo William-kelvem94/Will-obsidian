@@ -62,19 +62,19 @@ Will-obsidian/
 | `benchmarks/` | `09-Sistema/benchmarks/` | artefatos técnicos de avaliação |
 | `Canvases/` | `10-Interfaces/Canvases/` | recursos visuais do Obsidian |
 | `Clippings/` | `11-Dados-Brutos/Clippings/` | capturas e conteúdos importados |
-| `Conhecimento-Geral/` | `04-Conhecimentos/07-Humanidades/` | humanidades e conhecimento cultural |
-| `Conhecimentos-Gerais/` | `04-Conhecimentos/` | conhecimento técnico, IA, dados e vida prática |
+| `04-Conhecimentos/07-Humanidades/` | `04-Conhecimentos/07-Humanidades/` | humanidades e conhecimento cultural |
+| `04-Conhecimentos/` | `04-Conhecimentos/` | conhecimento técnico, IA, dados e vida prática |
 | `dashboards/` | `10-Interfaces/dashboards/` | painéis e visualizações |
 | `flashcards/` | `04-Conhecimentos/06-Estudos-e-Aprendizagem/flashcards/` | estudo e revisão |
 | `Ideias/` | `00-Inbox/Ideias/` | ideias precisam triagem antes de virar projeto ou conhecimento |
-| `JARVIS/` | `02-JARVIS/` | área própria de IA e memória |
-| `Knowledge-Base/` | `04-Conhecimentos/` | base de conhecimento legada ou complementar |
+| `02-JARVIS/` | `02-JARVIS/` | área própria de IA e memória |
+| `04-Conhecimentos/` | `04-Conhecimentos/` | base de conhecimento legada ou complementar |
 | `Projetos/` | `03-Projetos/` | execução e portfólio |
 | `raw/` | `11-Dados-Brutos/raw/` | dados brutos |
 | `schema/` | `09-Sistema/schema/` | estrutura técnica e configuração |
 | `scripts/` | `09-Sistema/scripts/` | scripts do repositório |
 | `simuladores/` | `09-Sistema/simuladores/` | ferramentas técnicas e testes práticos |
-| `skills/` | `05-Skills/` | habilidades e capacidades |
+| `05-Skills/` | `05-Skills/` | habilidades e capacidades |
 | `Templates/` | `99-Templates/Legado/` | templates antigos preservados |
 | `tests/` | `09-Sistema/tests/` | testes técnicos |
 | `web-ui/` | `10-Interfaces/web-ui/` | interface web |
@@ -145,4 +145,4 @@ Só prosseguir se o estado estiver entendido. Se houver alterações locais impo
 
 ## Próxima ação
 
-Usar o script [[../../09-Sistema/scripts/reorganizar-vault.ps1]] quando ele estiver disponível no repositório local.
+Usar o script [[../09-Sistema/scripts/reorganizar-vault.ps1]] quando ele estiver disponível no repositório local.

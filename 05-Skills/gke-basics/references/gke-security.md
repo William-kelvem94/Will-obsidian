@@ -128,7 +128,7 @@ Dataplane V2 (golden path) provides built-in Network Policy enforcement. Apply d
 apply_k8s_manifest(parent="...", yamlManifest="<contents of default-deny-netpol.yaml>")
 
 # kubectl fallback
-kubectl apply -f skills/gke/assets/default-deny-netpol.yaml -n <NAMESPACE>
+kubectl apply -f 05-Skills/gke/assets/default-deny-netpol.yaml -n <NAMESPACE>
 ```
 
 ## GKE Sandbox (gVisor)

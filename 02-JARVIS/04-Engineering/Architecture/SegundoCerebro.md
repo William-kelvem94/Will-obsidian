@@ -78,7 +78,7 @@ Esta nota define o segundo cérebro do Jarvis e como ele deve consumir todo o co
   - Não substituem o que está em `PROJECT_JARVIS_5.0-KnowledgeBase`.
 - Quando houver conflito:
   1. priorize a KB canônica.
-  2. consulte `JARVIS/Decisoes/` para histórico de mudanças.
+  2. consulte `02-JARVIS/Decisoes/` para histórico de mudanças.
   3. registre a divergência e atualize a KB se necessário.
 
 ## Uso de variáveis de ambiente no código

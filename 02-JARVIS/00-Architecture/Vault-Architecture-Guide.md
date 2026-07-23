@@ -40,7 +40,7 @@ Will-obsidian/
 ├── Projetos.md                     # Projects overview
 ├── Vault-Ops.md                    # Vault operations guide
 │
-├── JARVIS/                         🤖 AI Agent System
+├── 02-JARVIS/                         🤖 AI Agent System
 │   ├── 01-Identity/               # Who & Why
 │   │   ├── Will/
 │   │   │   ├── Perfil.md          # User profile
@@ -102,7 +102,7 @@ Will-obsidian/
 │   │   └── README.md
 │   └── GitHub-Completo.md         # GitHub inventory (67 repos)
 │
-├── skills/                         🎓 Skills Framework
+├── 05-Skills/                         🎓 Skills Framework
 │   ├── 01-agentic-intelligence/
 │   │   └── prompt-engineering/
 │   │       └── SKILL.md
@@ -184,9 +184,9 @@ Any tier → CheatSheets, Playbooks, Snippets
 
 Start: `Bem-vindo.md` (entry point)
 ↓
-JARVIS/01-Identity/ (understand who/why)
+02-JARVIS/01-Identity/ (understand who/why)
 ↓
-JARVIS/02-Operational/ (see current state)
+02-JARVIS/02-Operational/ (see current state)
 ↓
 Specific projects or tasks
 
@@ -194,21 +194,21 @@ Specific projects or tasks
 
 Start: Problem or task
 ↓
-JARVIS/04-Engineering/ (find solution in playbooks/cheat sheets)
+02-JARVIS/04-Engineering/ (find solution in playbooks/cheat sheets)
 ↓
-Execute and update JARVIS/02-Operational/Dashboard.md
+Execute and update 02-JARVIS/02-Operational/Dashboard.md
 ↓
-Log outcome in JARVIS/03-Memory/Logs/
+Log outcome in 02-JARVIS/03-Memory/Logs/
 
 ### Pattern 3: Lateral (Learning)
 
 Start: New technology to learn
 ↓
-skills/ (find SKILL.md for topic)
+05-Skills/ (find SKILL.md for topic)
 ↓
-JARVIS/04-Engineering/Wiki/CheatSheets/ (quick reference)
+02-JARVIS/04-Engineering/Wiki/CheatSheets/ (quick reference)
 ↓
-JARVIS/04-Engineering/Snippets/ (practical examples)
+02-JARVIS/04-Engineering/Snippets/ (practical examples)
 
 ---
 
@@ -219,10 +219,10 @@ JARVIS/04-Engineering/Snippets/ (practical examples)
 | File | Purpose | When to Use |
 |------|---------|-------------|
 | `Bem-vindo.md` | Vault entry point | First visit, reorientation |
-| `JARVIS/02-Operational/Dashboard.md` | Current state | Daily review, context switch |
+| `02-JARVIS/02-Operational/Dashboard.md` | Current state | Daily review, context switch |
 | `Projetos/GitHub-Completo.md` | 67 repos inventory | Finding projects, status check |
-| `JARVIS/01-Identity/Decision-Framework.md` | Decision templates | Tech choices, architecture decisions |
-| `JARVIS/04-Engineering/Playbooks/Debug/` | Troubleshooting | When something breaks |
+| `02-JARVIS/01-Identity/Decision-Framework.md` | Decision templates | Tech choices, architecture decisions |
+| `02-JARVIS/04-Engineering/Playbooks/Debug/` | Troubleshooting | When something breaks |
 
 ### 🔧 Automation Scripts
 
@@ -290,7 +290,7 @@ Logs/YYYY-MM-DD.md
 3. **Knowledge Index** (from `.knowledge_index/`)
    - Embeddings coverage >90% of notes
 
-4. **Daily Logging** (from `JARVIS/03-Memory/Logs/`)
+4. **Daily Logging** (from `02-JARVIS/03-Memory/Logs/`)
    - Automatic logs generated daily
 
 ---
@@ -301,30 +301,30 @@ Logs/YYYY-MM-DD.md
 
 1. Create project folder in `Projetos/01-Ativos/`
 2. Update `Projetos/GitHub-Completo.md` with repo
-3. Log decision in `JARVIS/05-System/Decisoes/`
-4. Add to `JARVIS/02-Operational/Dashboard.md`
-5. (Optional) Create skills/playbooks if new tech
+3. Log decision in `02-JARVIS/05-System/Decisoes/`
+4. Add to `02-JARVIS/02-Operational/Dashboard.md`
+5. (Optional) Create 05-Skills/playbooks if new tech
 
 ### Workflow 2: Debug Issue
 
 1. Identify problem domain (Docker, Python, Git, etc.)
-2. Check `JARVIS/04-Engineering/Playbooks/Debug/`
+2. Check `02-JARVIS/04-Engineering/Playbooks/Debug/`
 3. Follow troubleshooting steps
 4. If solved, update playbook with new insights
 5. Log resolution in daily log
 
 ### Workflow 3: Learn New Technology
 
-1. Check if skill exists in `skills/`
+1. Check if skill exists in `05-Skills/`
 2. If yes: Read SKILL.md → Try examples in Snippets/
 3. If no: Create new SKILL.md using template
-4. Add to `skills/README.md` index
-5. Create cheat sheet in `JARVIS/04-Engineering/Wiki/CheatSheets/`
+4. Add to `05-Skills/README.md` index
+5. Create cheat sheet in `02-JARVIS/04-Engineering/Wiki/CheatSheets/`
 
 ### Workflow 4: Weekly Review
 
-1. Read `JARVIS/03-Memory/Logs/` from past week
-2. Update `JARVIS/02-Operational/Dashboard.md`
+1. Read `02-JARVIS/03-Memory/Logs/` from past week
+2. Update `02-JARVIS/02-Operational/Dashboard.md`
 3. Run `project_health_checker.py` for active projects
 4. Archive completed projects to `Projetos/02-Arquivo/`
 5. Update `Projetos/Objetivos/OKRs.md`
@@ -357,7 +357,7 @@ Logs/YYYY-MM-DD.md
 
 ## 🔗 Related Files
 
-- [[Vault-Ops|Vault Operations Guide]]
+- [[07-Operacoes-do-Vault/README|Vault Operations Guide]]
 - [[Graph-Legenda|Graph Legend]]
 - [[03-Projetos|Projects Overview]]
 - [[05-Skills/README|Skills Index]]

@@ -85,7 +85,7 @@ Estratégia recomendada:
 ## Metadados úteis
 
 ```yaml
-source_path: Conhecimentos-Gerais/01-IA/Embeddings-e-Busca-Semantica.md
+source_path: 04-Conhecimentos/01-IA/Embeddings-e-Busca-Semantica.md
 title: Embeddings e Busca Semantica
 type: concept
 tags: [ia, embeddings, rag]

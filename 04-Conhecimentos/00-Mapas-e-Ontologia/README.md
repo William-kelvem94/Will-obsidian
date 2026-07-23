@@ -10,5 +10,11 @@ Use:
 - `wiki/summaries/` for cross-source topic overviews
 - `wiki/analysis/` for comparisons, audits, decisions, contradiction reports, and reusable query answers
 
-Do not place raw source archives here.
+## Núcleo de expansão
 
+- [[Engenharia-de-Conhecimento-para-Segundo-Cerebro]] — contrato geral de curadoria.
+- [[Ontologia-Taxonomia-e-Grafo-de-Conhecimento]] — estrutura semântica e relações.
+- [[Mapa-Mestre-de-Conhecimentos-Gerais]] — mapa global dos domínios.
+- [[Registro-de-Expansao-de-Conhecimentos-Gerais]] — histórico das expansões.
+
+Do not place raw source archives here.

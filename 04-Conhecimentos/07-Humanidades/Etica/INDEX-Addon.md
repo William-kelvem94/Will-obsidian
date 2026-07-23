@@ -8,7 +8,7 @@ status: "draft"
 
 # Etica - Index Addon (Agentes)
 
-Este arquivo adiciona trilhas praticas para agentes e programacao sem alterar `Conhecimento-Geral/Etica/INDEX.md`.
+Este arquivo adiciona trilhas praticas para agentes e programacao sem alterar `04-Conhecimentos/07-Humanidades/Etica/INDEX.md`.
 
 ## Guardrails para agentes (operacional)
 

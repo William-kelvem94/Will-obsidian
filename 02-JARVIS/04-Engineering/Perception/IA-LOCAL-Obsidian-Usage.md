@@ -28,9 +28,9 @@ O vault clonado deve ser usado como uma cópia local legível pelo agente.
 
 Recomenda-se criar notas em:
 
-- `JARVIS/KnowledgeBase/` para conhecimento do agente
-- `JARVIS/Aprendizado/` para evolução e aprendizado contínuo
-- `02-JARVIS/03-Memory/` para fatos importantes e histórico ativo
+- `02-JARVIS/KnowledgeBase/` para conhecimento do agente
+- `02-JARVIS/Aprendizado/` para evolução e aprendizado contínuo
+- `02-JARVIS/Memorias/` para fatos importantes e histórico ativo
 
 ## Como o agente ingere o conteúdo
 
@@ -50,9 +50,9 @@ Recomenda-se criar notas em:
 
 ## Ações que podem ser adicionadas
 
-- Registrar decisões do agente em `JARVIS/Decisoes/`.
-- Criar planos e objetivos em `JARVIS/Projetos/`.
-- Usar `JARVIS/Contexto-Atual/` para anotações de contexto de execução.
+- Registrar decisões do agente em `02-JARVIS/Decisoes/`.
+- Criar planos e objetivos em `02-JARVIS/Projetos/`.
+- Usar `02-JARVIS/02-Operational/Context/` para anotações de contexto de execução.
 
 ## Próximos upgrades
 

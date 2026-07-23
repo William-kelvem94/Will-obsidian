@@ -40,7 +40,7 @@ Every decision note should answer:
 
 ## File Placement
 
-Use `JARVIS/02-Operational/Decisions/` for durable operational decisions.
+Use `02-JARVIS/02-Operational/Decisions/` for durable operational decisions.
 
 Recommended filename:
 
@@ -57,7 +57,7 @@ Write the first paragraph as a compact summary that can stand alone in search re
 Avoid vague summaries like "updated process." Prefer concrete phrasing:
 
 ```text
-Agents must store automatic improvement proposals in JARVIS/05-System/Improvements/ before changing canonical guides.
+Agents must store automatic improvement proposals in 02-JARVIS/05-System/Improvements/ before changing canonical guides.
 ```
 
 ## Review Triggers

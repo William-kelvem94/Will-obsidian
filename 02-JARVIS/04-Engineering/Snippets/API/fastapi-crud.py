@@ -22,7 +22,7 @@ Example:
     # http://localhost:8000/docs
 
 See also:
-    - [[JARVIS/04-Engineering/Wiki/CheatSheets/FastAPI|FastAPI Cheat Sheet]]
+    - [[02-JARVIS/04-Engineering/Wiki/CheatSheets/FastAPI|FastAPI Cheat Sheet]]
     - [[Snippets/Database/prisma-setup.ts|Database Setup]]
 """
 

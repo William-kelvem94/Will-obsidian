@@ -11,7 +11,7 @@ category: HUB
 Projetos práticos, diagnósticos, protocolos críticos e lições aprendidas sobre saúde mental em contextos organizacionais/bem-estar.
 - **Projetos:** iniciativas multiprofissionais, atomic notes (incidentes, casos, melhorias)
 - **Ferramentas:** dicionário, modelos de protocolo, checklists críticos, automação de pesquisas
-- **Crosslinks:** [Conhecimento-Geral/INDEX](../Conhecimento-Geral/INDEX), [dashboards/INDEX](../dashboards/INDEX), [INDEX](../../INDEX)
+- **Crosslinks:** [04-Conhecimentos/07-Humanidades/INDEX](../04-Conhecimentos/07-Humanidades/INDEX), [dashboards/INDEX](../dashboards/INDEX), [INDEX](../../INDEX)
 
 ## Benchmarks e Exemplos
 - Buffer, Mindshare Partners, Microsoft, programas transparentes

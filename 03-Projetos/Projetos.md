@@ -47,4 +47,4 @@ SORT priority asc, file.mtime desc
 
 ![[.logs/skills_gap.md]]
 
-**Links:** [[Bem-vindo]] | [[03-Projetos/01-Ativos/Plano-de-Acao|🚀 Plano de Ação]] | [[Vault-Ops]]
+**Links:** [[Bem-vindo]] | [[03-Projetos/01-Ativos/Plano-de-Acao|🚀 Plano de Ação]] | [[07-Operacoes-do-Vault/README|Operações do Vault]]

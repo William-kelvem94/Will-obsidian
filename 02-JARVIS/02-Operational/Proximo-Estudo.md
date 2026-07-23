@@ -940,8 +940,8 @@ Esta recomendação foi gerada combinando:
 
 1. **GAPS.md** — Gaps de conhecimento declarados
 2. **skills_gap.md** — Skills não referenciadas por projetos ativos
-3. **skills/** — Notas com nível básico (`#level-basic`, `#level-init`, `nivel: iniciante`, ou `level ≤ 2`)
-4. **Conhecimento-Geral/** — Tópicos estudados nos últimos 14 dias (excluídos da recomendação)
+3. **05-Skills/** — Notas com nível básico (`#level-basic`, `#level-init`, `nivel: iniciante`, ou `level ≤ 2`)
+4. **04-Conhecimentos/07-Humanidades/** — Tópicos estudados nos últimos 14 dias (excluídos da recomendação)
 
 *Recomendação gerada automaticamente por `.scripts/study_recommender.py`*
 *Para regenerar, execute: `python .scripts/study_recommender.py`*

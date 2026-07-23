@@ -22,15 +22,15 @@ Por isso, agentes devem tratar o vault como uma fonte de verdade, nao como uma p
 
 | Area | Funcao | Leitura | Escrita automatica |
 |---|---|---:|---:|
-| `JARVIS/01-Identity/` | Identidade, preferencias e persona | Sim | Nao |
-| `JARVIS/02-Operational/` | Estado atual, decisoes e configuracao | Sim | Com cuidado |
+| `02-JARVIS/01-Identity/` | Identidade, preferencias e persona | Sim | Nao |
+| `02-JARVIS/02-Operational/` | Estado atual, decisoes e configuracao | Sim | Com cuidado |
 | `02-JARVIS/03-Memory/` | Logs, snapshots e aprendizados | Sim | Sim, em subpastas corretas |
-| `JARVIS/04-Engineering/` | Arquitetura, playbooks e wiki tecnica | Sim | Com confirmacao se alterar conhecimento canonico |
-| `JARVIS/05-System/` | Sistema, mapas, blueprints e governanca | Sim | Com cuidado |
-| `Conhecimento-Geral/` | Base conceitual ampla | Sim | Com confirmacao |
-| `skills/` | Skills tecnicas e agenticas | Sim | Com confirmacao |
-| `Will-Pessoal/` | Contexto pessoal do Will | Sim, quando relevante | Nao sem pedido explicito |
-| `Projetos/` | Projetos, estudos e planos | Sim | Com cuidado |
+| `02-JARVIS/04-Engineering/` | Arquitetura, playbooks e wiki tecnica | Sim | Com confirmacao se alterar conhecimento canonico |
+| `02-JARVIS/05-System/` | Sistema, mapas, blueprints e governanca | Sim | Com cuidado |
+| `04-Conhecimentos/07-Humanidades/` | Base conceitual ampla | Sim | Com confirmacao |
+| `05-Skills/` | Skills tecnicas e agenticas | Sim | Com confirmacao |
+| `06-Will-Pessoal/` | Contexto pessoal do Will | Sim, quando relevante | Nao sem pedido explicito |
+| `03-Projetos/` | Projetos, estudos e planos | Sim | Com cuidado |
 
 ## Regra de Escrita
 
@@ -41,14 +41,14 @@ Areas seguras para escrita automatica:
 - `02-JARVIS/03-Memory/Logs/`
 - `02-JARVIS/03-Memory/Snapshots/`
 - `02-JARVIS/03-Memory/Learned-Patterns/`
-- `JARVIS/05-System/Improvements/`
+- `02-JARVIS/05-System/Improvements/`
 - `.scripts/` somente para manutencao do vault, quando solicitado
 
 Areas que exigem confirmacao antes de edicao:
 
-- `JARVIS/01-Identity/`
-- `Will-Pessoal/`
-- hubs principais como `Bem-vindo.md`, `Cerebro-Will.md`, `Projetos.md`
+- `02-JARVIS/01-Identity/`
+- `06-Will-Pessoal/`
+- hubs principais como `Bem-vindo.md`, `INDEX.md`, `03-Projetos/README.md`
 - notas canonicas de arquitetura e regras
 - qualquer conteudo privado, autobiografico ou sensivel
 
@@ -57,17 +57,17 @@ Areas que exigem confirmacao antes de edicao:
 Antes de propor mudancas relevantes, carregue:
 
 1. `Bem-vindo.md`
-2. `Cerebro-Will.md`
-3. `Vault-Ops.md`
-4. `JARVIS/README.md`
-5. `JARVIS/02-Operational/Context/Estado.md`
+2. `06-Will-Pessoal/README.md`
+3. `07-Operacoes-do-Vault/README.md`
+4. `02-JARVIS/README.md`
+5. `02-JARVIS/02-Operational/Context/Estado.md`
 6. este arquivo
 
 Para tarefas tecnicas, carregue tambem:
 
-- `JARVIS/04-Engineering/Playbooks/Workflows-Praticos.md`
-- `skills/README.md`
-- notas do projeto em `Projetos/`
+- `02-JARVIS/04-Engineering/Playbooks/Workflows-Praticos.md`
+- `05-Skills/README.md`
+- notas do projeto em `03-Projetos/`
 
 ## Contrato com PROJECT_JARVIS_5.0
 
@@ -76,10 +76,10 @@ O projeto `PROJECT_JARVIS_5.0` deve tratar este vault como a fonte viva de conhe
 Diretrizes:
 
 - `JARVIS_VAULT_ROOT` deve apontar para a raiz deste vault.
-- `JARVIS_KB_PATH` deve apontar para uma subarvore focada, normalmente `JARVIS/` ou uma KB dedicada do projeto.
+- `JARVIS_KB_PATH` deve apontar para uma subarvore focada, normalmente `02-JARVIS/` ou uma KB dedicada do projeto.
 - `data/kb_local/` no projeto deve ser considerado seed/cache/fallback, nao a fonte viva principal.
 - Escritas vindas do app devem ir para areas seguras de memoria, nao para hubs canonicos.
-- Se o app gerar sugestoes, elas devem cair em `JARVIS/05-System/Improvements/` ou em um indice de revisao.
+- Se o app gerar sugestoes, elas devem cair em `02-JARVIS/05-System/Improvements/` ou em um indice de revisao.
 
 ## Padrao de Nota Nova
 

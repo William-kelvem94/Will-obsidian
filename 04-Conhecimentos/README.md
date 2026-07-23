@@ -22,8 +22,8 @@ Esta pasta e a area canonica para conhecimento estavel do vault.
 
 - [[08-Arquivo/README-LEGACY-Conhecimentos-Gerais|Conhecimentos Gerais]]
 - [[07-Humanidades/INDEX|Conhecimento-Geral]]
-- [[../Knowledge-Base]]
-- [[../wiki]]
+- [[../08-Arquivo/README-LEGACY-Knowledge-Base|Knowledge Base legada]]
+- [[../wiki/index|Wiki complementar]]
 - [[01-IA-e-Agentes/README|IA e Agentes]]
 - [[02-Engenharia-de-Software/INDEX|Engenharia de Software]]
 - [[03-Dados-e-Analytics/README|Dados e Analytics]]

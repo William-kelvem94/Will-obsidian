@@ -39,7 +39,7 @@ SORT priority DESC
 ## 🔗 Atalhos Rápidos
 - [[TODO|📋 Minha Lista de Tarefas]]
 - [[02-JARVIS/03-Memory/Logs/INDEX|📅 Índice de Logs]]
-- [[03-Projetos/Projetos|🚧 Painel de Projetos]]
+- [[03-Projetos|🚧 Painel de Projetos]]
 
 ---
 *Atualizado dinamicamente via Dataview*

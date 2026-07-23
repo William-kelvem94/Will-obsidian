@@ -14,13 +14,13 @@ summary: "Indice central da taxonomia de skills com foco em cobertura, padrao e 
 
 - [[README|README de Skills]]
 - [[ROADMAP-EXPANSAO|Roadmap de Expansao de Skills]]
-- [[../skills/01-agentic-intelligence/README|Agentic Intelligence]]
-- [[../skills/02-software-engineering/README|Software Engineering]]
-- [[../skills/03-infrastructure-mcp/README|Infrastructure MCP]]
-- [[../skills/04-knowledge-systems/INDEX|Knowledge Systems]]
-- [[../skills/ai/INDEX|AI]]
-- [[../skills/devops/Observabilidade|DevOps e Observabilidade]]
-- [[../skills/frontend/INDEX-Addon|Frontend]]
+- [[01-agentic-intelligence/README|Agentic Intelligence]]
+- [[02-software-engineering/README|Software Engineering]]
+- [[03-infrastructure-mcp/README|Infrastructure MCP]]
+- [[04-knowledge-systems/INDEX|Knowledge Systems]]
+- [[ai/INDEX|AI]]
+- [[devops/INDEX|DevOps e Observabilidade]]
+- [[frontend/INDEX-Addon|Frontend]]
 
 ## Prioridades de cobertura
 

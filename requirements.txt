@@ -1,29 +1,10 @@
 # Core dependencies for Vault scripts
-# Note: pathlib and datetime are part of the Python standard library and
-# must not be listed here. They were removed.
-
-# Runtime dependencies (pinned for reproducible installs). These are
-# suggestions — validate the exact versions in your environment and
-# adjust if you rely on GPU variants of torch / faiss.
 python-dotenv==1.0.0
 numpy==1.26.0
 tqdm==4.66.1
+requests==2.32.4
 
 # Knowledge Indexing (RAG Pipeline)
 sentence-transformers==2.2.2
-# sentence-transformers requires torch. Choose the right torch wheel
-# for CPU vs GPU. Example (CPU): torch==2.2.0
 torch==2.2.0
-
-# FAISS (native). On some platforms (Windows, certain CPUs) installing
-# faiss-cpu via pip may fail. Prefer conda if pip wheel is unavailable:
-#   conda install -c pytorch faiss-cpu
-# If you want to try pip first, pin a known-good version:
 faiss-cpu==1.7.4
-
-# Optional: requests if you migrate from urllib
-# requests==2.31.0
-
-# If you want a more reproducible workflow, keep a requirements.in and
-# run `pip-compile requirements.in` (pip-tools) to generate a locked
-# requirements.txt with transitive dependencies pinned.

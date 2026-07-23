@@ -14,16 +14,16 @@ A estrutura atual combina:
 - estratégia e roadmap em `Projetos/EstudosFocados/`
 - pesquisa técnica em `Projetos/EstudosPesquisas/`
 - execução local em `Projetos/Privados/`
-- memória e decisão em `JARVIS/`
-- suporte de workflow em `skills/`
+- memória e decisão em `02-JARVIS/`
+- suporte de workflow em `05-Skills/`
 - contexto pessoal em `Will-Pessoal/`
 - manutenção em `Vault-Ops.md`
 
 ## Hubs principais
 - `Bem-vindo.md` — ponto de entrada e mapa de navegação do vault.
 - `Projetos/README.md` — hub principal de projetos organizados por linguagem.
-- `JARVIS/README.md` — segundo cérebro operacional e memória ativa.
-- `skills/README.md` — central de prompts, MCP e workflows para IA.
+- `02-JARVIS/README.md` — segundo cérebro operacional e memória ativa.
+- `05-Skills/README.md` — central de prompts, MCP e workflows para IA.
 - `Will-Pessoal/README.md` — perfil, objetivos e rotina de Will.
 - `Vault-Ops.md` — guia operacional e scripts de manutenção.
 
@@ -44,8 +44,8 @@ A estrutura atual combina:
 - `Contexto-Atual/` — estado atual de foco e missão.
 
 ### Skills
-- `skills/vscode-ai/` — documentação para uso de IA no VS Code.
-- `skills/fullstack/` — padrões e guias de arquitetura fullstack.
+- `05-Skills/vscode-ai/` — documentação para uso de IA no VS Code.
+- `05-Skills/fullstack/` — padrões e guias de arquitetura fullstack.
 - `programador.agent.md` e `programador-pesquisador.agent.md` — agentes customizados para desenvolvimento.
 
 ## Projetos ativos e temas principais
@@ -60,7 +60,7 @@ A estrutura atual combina:
 - `Projetos/EstudosFocados/PROJECT_JARVIS_5.0.md` — visão multimodal e agentes.
 - `Projetos/EstudosPesquisas/AI-Local-Gratuita.md` — stack local gratuita de IA.
 - `Projetos/EstudosPesquisas/Next.js-SaaS-Evolution.md` — deploy gratuito e SaaS.
-- `skills/vscode-ai/mcp.md` — padrão MCP para VS Code AI.
+- `05-Skills/vscode-ai/mcp.md` — padrão MCP para VS Code AI.
 - `Vault-Ops.md` — operações do vault e scripts de manutenção.
 
 ## Forças do vault
@@ -71,7 +71,7 @@ A estrutura atual combina:
 
 ## Gaps e oportunidades
 1. **Documentação unificada de arquitetura**
-   - criar um mapa claro de dependências entre `IA-LOCAL`, `PROJECT_JARVIS_5.0`, `skills/vscode-ai` e `JARVIS`.
+   - criar um mapa claro de dependências entre `IA-LOCAL`, `PROJECT_JARVIS_5.0`, `05-Skills/vscode-ai` e `JARVIS`.
 
 2. **Priorização atual**
    - criar um dashboard ou nota única de prioridades de 30/60/90 dias.
@@ -106,7 +106,7 @@ A estrutura atual combina:
 ### VS Code e workflow
 - criar guia de uso do vault com Copilot e MCP.
 - registrar exemplos de prompts e agentes para tarefas diárias.
-- conectar `skills/vscode-ai` com o `Workspace-Study`.
+- conectar `05-Skills/vscode-ai` com o `Workspace-Study`.
 
 ### Estrutura do vault
 - documentar papéis de cada pasta.
@@ -127,7 +127,7 @@ A estrutura atual combina:
 - confirmar a arquitetura do workspace com `Workspace Structure Map`.
 - escolher uma trilha de estudo e iniciar com uma nota prática.
 - criar um dashboard de prioridades na pasta de estudos.
-- revisar `skills/vscode-ai` e `JARVIS/KnowledgeBase` para alinhar agentes e MCP.
+- revisar `05-Skills/vscode-ai` e `02-JARVIS/KnowledgeBase` para alinhar agentes e MCP.
 - executar o caso prático em `Projetos/EstudosFocados/Workspace-Study/Practical-Example-Maximum-Files`.
 
 ## Ações já realizadas

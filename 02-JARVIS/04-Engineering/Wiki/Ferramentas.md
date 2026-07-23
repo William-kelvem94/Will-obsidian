@@ -404,7 +404,7 @@ class RAGSystem:
             self.documentos = json.load(f)
 
 # Uso
-rag = RAGSystem("C:/Users/willi/Documents/GitHub/Will-obsidian/JARVIS/KnowledgeBase")
+rag = RAGSystem("C:/Users/willi/Documents/GitHub/Will-obsidian/02-JARVIS/KnowledgeBase")
 rag.indexar_conhecimento()
 rag.salvar_index("./rag_index")
 
@@ -472,7 +472,7 @@ services:
       - OLLAMA_HOST=http://ollama:11434
       - REDIS_URL=redis://redis:6379
     volumes:
-      - ./JARVIS/KnowledgeBase:/app/knowledge:ro
+      - ./02-JARVIS/KnowledgeBase:/app/knowledge:ro
       - ./backend:/app
     depends_on:
       - redis

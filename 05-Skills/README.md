@@ -69,19 +69,19 @@ Quando um dominio crescer rapido, use um `INDEX` auxiliar por subpasta sem alter
 
 ## Navegacao rapida
 
-- [[../skills/01-agentic-intelligence/README|Agentic Intelligence - fluxos/agents]]
-- [[../skills/02-software-engineering/README|Engenharia de Software (Fullstack)]]
-- [[../skills/03-infrastructure-mcp/README|Infraestrutura & MCP]]
-- [[../skills/04-knowledge-systems/INDEX|Sistemas de Conhecimento, RAG, Memoria]]
-- [[../skills/ai/|IA - Generative, RL, MLOps, Prompt Engineering]]
-- [[../skills/devops/|DevOps e Observabilidade]]
-- [[../skills/softskills/|Softskills, Product Management, Comunicacao]]
-- [[../skills/frontend/|Frontend (Web Components, JS, etc)]]
+- [[01-agentic-intelligence/README|Agentic Intelligence - fluxos/agents]]
+- [[02-software-engineering/README|Engenharia de Software (Fullstack)]]
+- [[03-infrastructure-mcp/README|Infraestrutura & MCP]]
+- [[04-knowledge-systems/INDEX|Sistemas de Conhecimento, RAG, Memoria]]
+- [[ai/INDEX|IA - Generative, RL, MLOps, Prompt Engineering]]
+- [[devops/INDEX|DevOps e Observabilidade]]
+- [[softskills/INDEX|Softskills, Product Management, Comunicacao]]
+- [[frontend/INDEX-Addon|Frontend (Web Components, JS, etc)]]
 
 ### Capacidades de Agentes
 
-- [[../skills/AGENT-FULLSTACK-CAPABILITIES|Fullstack Agent]] - stack completo de programacao para agentes IA
-- [[../skills/AGENT-RESEARCH-CAPABILITIES|Research Agent]] - metodologia de pesquisa tecnica e cientifica
+- [[AGENT-FULLSTACK-CAPABILITIES|Fullstack Agent]] - stack completo de programacao para agentes IA
+- [[AGENT-RESEARCH-CAPABILITIES|Research Agent]] - metodologia de pesquisa tecnica e cientifica
 
 ## Como esta organizado?
 
@@ -92,7 +92,7 @@ Quando um dominio crescer rapido, use um `INDEX` auxiliar por subpasta sem alter
 ## Visualizacao rapida da arvore
 
 ```text
-skills/
+05-Skills/
   README.md
   INDEX.md
   ROADMAP-EXPANSAO.md
@@ -105,12 +105,11 @@ skills/
 
 ## Painel: skills usados e relevantes
 
-- Veja dashboard: [[dashboards/Skill-Project-Matrix-Dinamica]]
+- Veja dashboard: [[01-Hubs/dashboards/Skill-Project-Matrix-Dinamica]]
 - Todo skill/projeto relevante usa campos `skills_usados` e `projetos_relacionados` para integracao.
 
 ## Proxima etapa
 
 - Fechar padrao canonico de skill.
 - Expandir trilhas rasas.
-- Reduzir drift entre `skills/`, `.agents/skills` e `.continue/skills`.
-
+- Reduzir drift entre `05-Skills/`, `.agents/skills` e `.continue/skills`.

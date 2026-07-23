@@ -25,11 +25,11 @@ Registre memoria quando houver:
 
 ## Onde Registrar
 
-- Decisao: `JARVIS/02-Operational/Decisions/`
-- Aprendizado reutilizavel: `JARVIS/03-Memory/Learned-Patterns/`
-- Marco de sessao: `JARVIS/03-Memory/Snapshots/`
-- Sugestao pendente: `JARVIS/05-System/Improvements/`
-- Mapa tecnico de projeto: `JARVIS/04-Engineering/Codebase-Maps/`
+- Decisao: `02-JARVIS/02-Operational/Decisions/`
+- Aprendizado reutilizavel: `02-JARVIS/03-Memory/Learned-Patterns/`
+- Marco de sessao: `02-JARVIS/03-Memory/Snapshots/`
+- Sugestao pendente: `02-JARVIS/05-System/Improvements/`
+- Mapa tecnico de projeto: `02-JARVIS/04-Engineering/Codebase-Maps/`
 
 ## Formato Minimo
 

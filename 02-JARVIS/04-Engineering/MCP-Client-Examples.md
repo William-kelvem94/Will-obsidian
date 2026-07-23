@@ -38,7 +38,7 @@ MCP_BASE_URL = "http://localhost:8000"
 payload = {
     "tool": "search_vault",
     "args": {
-        "query": "tag:#skills/ai"
+        "query": "tag:#05-Skills/ai"
     }
 }
 
@@ -59,7 +59,7 @@ curl -X POST http://localhost:8000/execute \
 ```bash
 curl -X POST http://localhost:8000/execute \
   -H "Content-Type: application/json" \
-  -d '{"tool": "search_vault", "args": {"query": "tag:#skills/ai"}}'
+  -d '{"tool": "search_vault", "args": {"query": "tag:#05-Skills/ai"}}'
 ```
 
 ## Notas

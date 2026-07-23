@@ -19,12 +19,12 @@ date: 2026-04-27
   - Divide por linguagens, objetivos, pesquisas e execução.
   - Contém `EstudosFocados/` e `EstudosPesquisas/` para separar estratégia de pesquisa.
 
-- `JARVIS/`
+- `02-JARVIS/`
   - Segundo cérebro operacional.
   - Memórias, decisões, aprendizado e base de conhecimento técnica.
   - Usado para manter contexto ativo e registrar progresso do agente.
 
-- `skills/`
+- `05-Skills/`
   - Prompts, agentes, MCP e workflows para IA no VS Code.
   - Hubs para `vscode-ai` e `fullstack` com documentação de uso e templates.
 
@@ -38,9 +38,9 @@ date: 2026-04-27
 
 ## Conexões críticas
 
-- `Bem-vindo.md` liga para `Projetos.md`, `skills/README.md`, `JARVIS/README.md` e `Vault-Ops.md`.
+- `Bem-vindo.md` liga para `Projetos.md`, `05-Skills/README.md`, `02-JARVIS/README.md` e `Vault-Ops.md`.
 - `Projetos/EstudosFocados/` e `Projetos/EstudosPesquisas/` devem operar como camadas complementar: visão vs base técnica.
-- `JARVIS/KnowledgeBase/` e `skills/vscode-ai/` se sobrepõem em pesquisa de IA e agentes; precisam ser referenciados mutuamente.
+- `02-JARVIS/KnowledgeBase/` e `05-Skills/vscode-ai/` se sobrepõem em pesquisa de IA e agentes; precisam ser referenciados mutuamente.
 - `Will-Pessoal/Perfil/Cerebro-Will.md` é o contexto humano que deve ser considerado em decisões de projeto.
 
 ## Mapa de pastas e arquivos-chave
@@ -52,8 +52,8 @@ date: 2026-04-27
 - `Projetos/EstudosPesquisas/Next.js-SaaS-Evolution.md` — deploy e SaaS gratuito.
 - `Projetos/EstudosPesquisas/openclaude-wk.md` — evolução do OpenClaude local.
 - `Projetos/Privados/openclaude-wk.md` — clone do agente CLI local.
-- `skills/vscode-ai/mcp.md` — padrão de ação para leitura e edição.
-- `skills/vscode-ai/quick-start.md` — configuração rápida do ambiente de IA.
+- `05-Skills/vscode-ai/mcp.md` — padrão de ação para leitura e edição.
+- `05-Skills/vscode-ai/quick-start.md` — configuração rápida do ambiente de IA.
 - `Vault-Ops.md` — operações e normalização do vault.
 
 ## Como usar este mapa
@@ -62,7 +62,7 @@ date: 2026-04-27
    - Pesquisa técnica → `Projetos/EstudosPesquisas/`
    - Estratégia e decisão → `Projetos/EstudosFocados/`
    - Implementação local → `Projetos/Privados/`
-   - IA / agents / MCP → `JARVIS/` e `skills/`
+   - IA / agents / MCP → `02-JARVIS/` e `05-Skills/`
    - Contexto humano → `Will-Pessoal/`
 2. Registre descobertas no `Workspace Study Hub`.
 3. Use `Vault-Ops.md` para normalizar frontmatter e tags após criar uma nova nota.
@@ -71,7 +71,7 @@ date: 2026-04-27
 
 - `Projetos/EstudosFocados/Workspace-Study/` → pesquisas de visão geral do vault
 - `Projetos/EstudosPesquisas/Workspace-Study/` → guias técnicas específicas, se precisar separar ainda mais
-- `skills/vscode-ai/Workspace-Study/` → exemplos práticos de uso de agentes no VS Code
+- `05-Skills/vscode-ai/Workspace-Study/` → exemplos práticos de uso de agentes no VS Code
 
 ## Recomendação de etiqueta de tags
 

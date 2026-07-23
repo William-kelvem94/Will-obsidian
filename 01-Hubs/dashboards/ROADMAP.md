@@ -22,23 +22,23 @@
 - Demonstração via gen_skill.py: "Explainable AI" criada com frontmatter padronizado
 
 ### ✅ Concluído (Expansão Sprint)
-- **História**: Mundial (547 linhas) + Brasil (408 linhas) — `Conhecimento-Geral/Historia/`
-- **Ciência Política**: 659 linhas — `Conhecimento-Geral/Ciencia-Politica.md`
-- **Sociologia expandida**: Teorias-Sociologicas (772 linhas) — `Conhecimento-Geral/Cultura/`
-- **Arte e Estética**: 649 linhas — `Conhecimento-Geral/Cultura/Estetica-e-Arte.md`
-- **Antropologia Cultural**: 459 linhas — `Conhecimento-Geral/Cultura/`
-- **Física**: Fundamental (633) + Quântica (417) — `Conhecimento-Geral/Fisica/`
-- **Química Geral**: 493 linhas — `Conhecimento-Geral/Quimica/`
-- **Biologia**: Celular/Molecular (697) + Evolução/Genética (514) + Fisiologia (540) — `Conhecimento-Geral/Biologia/`
-- **Psicologia Clínica**: 526 linhas — `Conhecimento-Geral/Psicologia/`
-- **Matemática expandida**: Discreta (527) + Equações Diferenciais (640) — `Conhecimento-Geral/Matematica/`
-- **Filosofia expandida**: Política (598) + Epistemologia (553) — `Conhecimento-Geral/Filosofia/`
-- **Mobile Development**: 1075 linhas — `skills/mobile/`
-- **Computer Vision**: 739 linhas — `skills/ai/`
-- **LLM Fine-Tuning**: 616 linhas — `skills/ai/`
-- **LLMOps**: 925 linhas — `skills/ai/`
+- **História**: Mundial (547 linhas) + Brasil (408 linhas) — `04-Conhecimentos/07-Humanidades/Historia/`
+- **Ciência Política**: 659 linhas — `04-Conhecimentos/07-Humanidades/Ciencia-Politica.md`
+- **Sociologia expandida**: Teorias-Sociologicas (772 linhas) — `04-Conhecimentos/07-Humanidades/Cultura/`
+- **Arte e Estética**: 649 linhas — `04-Conhecimentos/07-Humanidades/Cultura/Estetica-e-Arte.md`
+- **Antropologia Cultural**: 459 linhas — `04-Conhecimentos/07-Humanidades/Cultura/`
+- **Física**: Fundamental (633) + Quântica (417) — `04-Conhecimentos/07-Humanidades/Fisica/`
+- **Química Geral**: 493 linhas — `04-Conhecimentos/07-Humanidades/Quimica/`
+- **Biologia**: Celular/Molecular (697) + Evolução/Genética (514) + Fisiologia (540) — `04-Conhecimentos/07-Humanidades/Biologia/`
+- **Psicologia Clínica**: 526 linhas — `04-Conhecimentos/07-Humanidades/Psicologia/`
+- **Matemática expandida**: Discreta (527) + Equações Diferenciais (640) — `04-Conhecimentos/07-Humanidades/Matematica/`
+- **Filosofia expandida**: Política (598) + Epistemologia (553) — `04-Conhecimentos/07-Humanidades/Filosofia/`
+- **Mobile Development**: 1075 linhas — `05-Skills/mobile/`
+- **Computer Vision**: 739 linhas — `05-Skills/ai/`
+- **LLM Fine-Tuning**: 616 linhas — `05-Skills/ai/`
+- **LLMOps**: 925 linhas — `05-Skills/ai/`
 - **Automações Cognitivas**:
-  - `scripts/zotero_integrator.py`: Sincronização e fichamento automatizado de artigos acadêmicos diretamente do Zotero em `Conhecimento-Geral/Literatura/`.
+  - `scripts/zotero_integrator.py`: Sincronização e fichamento automatizado de artigos acadêmicos diretamente do Zotero em `04-Conhecimentos/07-Humanidades/Literatura/`.
   - `scripts/gen_bibliography.py`: Compilador de referências bibliográficas por DOI, BibTeX e frontmatter re-escrevendo dashboards/BIBLIOGRAFIA.md.
   - `scripts/generate_flashcards.py`: Processamento semântico de Conhecimento-Geral extraindo 3.203 cartões para Anki/CSV.
 

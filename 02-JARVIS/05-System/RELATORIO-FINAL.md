@@ -26,13 +26,13 @@ updated: 2026-06-13
 ## Próximos passos
 1. Executar `python .scripts/vault_cleanup.py` para aplicar a limpeza de frontmatter.
 2. Executar `python .scripts/knowledge_indexer.py --update` para manter o índice incrementalmente.
-3. Conferir `Projetos.md` e `JARVIS/03-Memory/Daily-Log.md` no Obsidian para validar as queries Dataview.
+3. Conferir `Projetos.md` e `02-JARVIS/03-Memory/Daily-Log.md` no Obsidian para validar as queries Dataview.
 4. Commitar as mudanças com mensagem semântica.
 
 ## Estrutura consolidada
-- `JARVIS/` — governança, sistema e onboarding do agente
-- `Conhecimento-Geral/` — 10 domínios: Filosofia, Psicologia, Neurociência, Matemática, Ética, Cultura, Economia Digital, Direito Digital, Tecnologia e Sociedade, Linguística
-- `skills/` — categorias de skills técnicas e agenticas
+- `02-JARVIS/` — governança, sistema e onboarding do agente
+- `04-Conhecimentos/07-Humanidades/` — 10 domínios: Filosofia, Psicologia, Neurociência, Matemática, Ética, Cultura, Economia Digital, Direito Digital, Tecnologia e Sociedade, Linguística
+- `05-Skills/` — categorias de skills técnicas e agenticas
 - `Templates/` — padrões reutilizáveis para criação de notas
 - `.scripts/` — automações operacionais do vault
 

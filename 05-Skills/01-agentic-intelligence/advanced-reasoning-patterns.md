@@ -38,9 +38,9 @@ Resposta:
 ### Exemplo Practico
 
 ```
-Pergunta: "Quantos arquivos .md existem em skills/01-agentic-intelligence/"
+Pergunta: "Quantos arquivos .md existem em 05-Skills/01-agentic-intelligence/"
 Raciocinio:
-1. Preciso listar o diretorio skills/01-agentic-intelligence/
+1. Preciso listar o diretorio 05-Skills/01-agentic-intelligence/
 2. Filtrar apenas arquivos com extensao .md
 3. Contar o numero de resultados
 4. Verificar se ha subdiretorios com .md
