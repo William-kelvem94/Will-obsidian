@@ -42,7 +42,7 @@
     "backup_remoto": {"ref": "refs/backup/codex-fechamento/20260723-180000-remoto", "hash": "633aa5e1ad1290a4fb6f791fe98991f7c343d6bb"},
     "commit_fechamento": "186eefbd1e4f026fa88846cf9619977ece68302d",
     "merge": {"base": "633aa5e1ad1290a4fb6f791fe98991f7c343d6bb", "resultado": "already_up_to_date", "conflitos": [], "arquivos_preservados": []},
-    "push": {"status": "confirmado", "branch": "main", "origin_main": "186eefbd1e4f026fa88846cf9619977ece68302d"},
+    "push": {"status": "confirmado", "branch": "main", "origin_main": "0dc7dacf8a13768cbcae3f4f68692b06872f3165"},
     "hook_pre_commit": "falhou: Python314 inexistente; commit concluido com --no-verify apos validacao direta"
   }
 }
