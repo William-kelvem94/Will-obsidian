@@ -1,0 +1,27 @@
+{
+  "versao": 1,
+  "ultima_execucao": "2026-07-23",
+  "modo": "manual",
+  "status": "concluido",
+  "janela": "sessao atual do Codex",
+  "fontes": [
+    {
+      "caminho": "C:\\Users\\willi\\Documents\\Codex\\2026-07-23\\mano",
+      "status": "analisada"
+    },
+    {
+      "caminho": "C:\\Users\\willi\\.codex\\sessions",
+      "status": "fonte configurada para as execucoes agendadas"
+    }
+  ],
+  "itens_processados": [
+    "configuracao das agendas de fechamento",
+    "deduplicacao e manifesto persistente",
+    "merge preservando local e remoto",
+    "execucao manual desta sessao"
+  ],
+  "notas_criadas": [
+    "09-Sistema/Codex/2026-07-23-Fechamento-Codex-Manual.md"
+  ],
+  "observacao": "Primeira execucao manual; as agendas permanecem ativas."
+}
