@@ -69,6 +69,14 @@ Foram consolidados quatro rollouts de 23/07/2026. A leitura preservou apenas obj
 - Corrigir ou documentar o hook de frontmatter que aponta para Python 3.14 antes de voltar a depender dele.
 - No TRANSCRITOR, comparar modelos no mesmo áudio com transcrição de referência antes de declarar precisão profissional.
 
+## Consolidação da tarde
+
+- [[03-Projetos/05-Coding/WILL-BOT/README]]: hub do projeto Will Bot, antes identificado como Agent Studio AI.
+- [[03-Projetos/05-Coding/WILL-BOT/Sessoes/2026-07-23-Will-Bot-Execucao-Real]]: execução real com Playwright/Chromium, memória por URL, Docker e seleção explícita de provedores.
+- O projeto foi validado com build, lint, container e teste ponta a ponta controlado; a camada de tarefas operacionais continua em refatoração.
+- Foram ignorados segredos encontrados em arquivos de dados e não foram reproduzidas chaves, credenciais, prompts ou payloads extensos.
+- A árvore histórica de `C:\Users\willi\Documents\Codex` não trouxe arquivos úteis novos no diretório de 23/07 após filtragem segura; o cursor seguirá incremental.
+
 ## Manifesto e resultado Git
 
 - Manifesto atualizado somente para os quatro rollouts de 23/07 após gravação e validação desta nota.

@@ -1,8 +1,8 @@
 {
   "versao": 2,
-  "ultima_execucao": "2026-07-23T12:00:00-03:00",
-  "automation_id": "fechamento-codex-manh",
-  "janela": "2026-07-23T09:57:05-03:00/2026-07-23T12:00:00-03:00",
+  "ultima_execucao": "2026-07-23T18:00:00-03:00",
+  "automation_id": "fechamento-codex-tarde",
+  "janela": "2026-07-23T12:00:00-03:00/2026-07-23T18:00:00-03:00",
   "status": "parcial",
   "politica": {
     "fontes_geradas_excluidas": ["09-Sistema/Codex", "09-Sistema/Sessoes"],
@@ -14,24 +14,26 @@
     {
       "caminho": "C:\\Users\\willi\\.codex\\sessions\\2026\\07\\23",
       "status": "concluida",
-      "arquivos_processados": 4,
+      "arquivos_processados": 5,
       "sessoes": [
         {"sessao": "019f8efb-f10d-7941-a04c-d1c222472ae5", "arquivo": "rollout-2026-07-23T09-38-28-019f8efb-f10d-7941-a04c-d1c222472ae5.jsonl", "status": "concluida"},
         {"sessao": "019f8f28-b6a0-7581-8759-64533a6d2a31", "arquivo": "rollout-2026-07-23T10-27-25-019f8f28-b6a0-7581-8759-64533a6d2a31.jsonl", "status": "concluida"},
         {"sessao": "019f8f60-2ff9-7f71-9e92-6a5ef523fc83", "arquivo": "rollout-2026-07-23T11-27-58-019f8f60-2ff9-7f71-9e92-6a5ef523fc83.jsonl", "status": "concluida"},
-        {"sessao": "019f8f76-4bc4-70c2-bbd6-67f3357b7838", "arquivo": "rollout-2026-07-23T11-52-07-019f8f76-4bc4-70c2-bbd6-67f3357b7838.jsonl", "status": "concluida", "observacao": "sessao atual; eventos do fechamento resumidos sem copiar prompt ou payload"}
+        {"sessao": "019f8f76-4bc4-70c2-bbd6-67f3357b7838", "arquivo": "rollout-2026-07-23T11-52-07-019f8f76-4bc4-70c2-bbd6-67f3357b7838.jsonl", "status": "concluida", "observacao": "sessao atual; eventos do fechamento resumidos sem copiar prompt ou payload"},
+        {"sessao": "019f904b-1f5e-7ff0-aa98-ba68c45c2fa0", "arquivo": "rollout-2026-07-23T15-44-30-019f904b-1f5e-7ff0-aa98-ba68c45c2fa0.jsonl", "status": "concluida", "observacao": "Will Bot; eventos operacionais resumidos sem segredos ou payloads"}
       ]
     },
     {
       "caminho": "C:\\Users\\willi\\Documents\\Codex",
-      "status": "pendente",
-      "motivo": "varredura filtrada excedeu o limite de tempo na árvore histórica; cursor anterior preservado",
-      "proxima_acao": "reprocessar com janela e diretórios de saída restritos"
+      "status": "concluida",
+      "arquivos_processados": 0,
+      "motivo": "varredura incremental filtrada; diretório de 2026-07-23 sem arquivos úteis novos; saídas, dependências e ambientes ignorados",
+      "proxima_acao": "manter cursor por hash, mtime, tamanho e janela"
     }
   ],
-  "notas_atualizadas": ["09-Sistema/Codex/2026-07-23-Fechamento-Codex-Manual.md"],
+  "notas_atualizadas": ["09-Sistema/Codex/2026-07-23-Fechamento-Codex-Manual.md", "03-Projetos/05-Coding/WILL-BOT/README.md", "03-Projetos/05-Coding/WILL-BOT/Sessoes/2026-07-23-Will-Bot-Execucao-Real.md"],
   "itens_processados": ["configuracao das agendas", "memoria operacional do TRANSCRITOR", "auditoria do Gerenciador Financeiro", "diagnosticos e validacoes relevantes"],
-  "deduplicacoes": ["nota diaria de 2026-07-23 atualizada em vez de duplicada", "fechamentos do Codex excluidos como fonte"],
+  "deduplicacoes": ["nota diaria de 2026-07-23 atualizada em vez de duplicada", "fechamentos do Codex excluidos como fonte", "sessao Will Bot registrada no hub do projeto em vez de nota avulsa", "Documents\\Codex filtrado sem reprocessar dependencias"],
   "git": {
     "status": "commit_local_criado_merge_pendente",
     "alteracao_nao_relacionada_preservada": "09-Sistema/agents/AGENTS.md",
