@@ -7,7 +7,7 @@ import json
 from pathlib import Path
 from datetime import datetime
 
-notas_dir = Path('JARVIS/03-Memory/Logs')
+notas_dir = Path('02-JARVIS/03-Memory/Logs')
 procrast_report = Path('dashboards/procrastinacao_report.json')
 padrao_adiado = r'adiado|procrastinar|depois|amanha|postergar'
 

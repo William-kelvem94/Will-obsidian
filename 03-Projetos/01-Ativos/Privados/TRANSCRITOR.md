@@ -45,3 +45,13 @@ Este arquivo foi criado de forma automática porque o diretório clonado físico
 
 ### 📦 Principais Dependências Mapeadas
 - **Python (requirements):** `openai-whisper>=20231117, torch>=2.0.0, torchaudio>=2.0.0, transformers>=4.30.0, sentencepiece>=0.1.99, protobuf>=3.20.0`
+
+## Engenharia e histórico
+
+A documentação viva do projeto foi organizada em [[../../05-Coding/TRANSCRITOR/README|TRANSCRITOR — Engenharia e Histórico]].
+
+- [[../../05-Coding/TRANSCRITOR/Arquitetura|Arquitetura]]
+- [[../../05-Coding/TRANSCRITOR/Roadmap|Roadmap e fases]]
+- [[../../05-Coding/TRANSCRITOR/Historico-de-Commits|Histórico de commits]]
+- [[../../05-Coding/TRANSCRITOR/Bugs-e-Correcoes/Indice|Bugs e correções]]
+- [[../../05-Coding/TRANSCRITOR/Testes-e-Validacoes/Estado-Atual|Testes e estado atual]]

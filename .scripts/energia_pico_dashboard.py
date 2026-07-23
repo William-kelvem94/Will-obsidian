@@ -7,7 +7,7 @@ import re
 from pathlib import Path
 from collections import Counter
 
-notas_dir = Path('JARVIS/03-Memory/Logs')
+notas_dir = Path('02-JARVIS/03-Memory/Logs')
 saida = Path('dashboards/energia_pico_report.json')
 horarios = []
 

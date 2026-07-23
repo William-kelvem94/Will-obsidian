@@ -38,5 +38,4 @@ TODO.md
 .knowledge_index/
 
 # JARVIS Data Persistence (Keep diaries and memories)
-# !JARVIS/Memorias/Diario/*.md
-# !JARVIS/Memorias/Episodicas/*.md
+# Canonical memory location: 02-JARVIS/03-Memory/

@@ -8,7 +8,7 @@ import json
 from pathlib import Path
 from datetime import datetime
 
-notas_dir = Path('JARVIS/03-Memory/Logs')  # altere conforme o local das notas
+notas_dir = Path('02-JARVIS/03-Memory/Logs')  # altere conforme o local das notas
 output_file = Path('dashboards/network_report.json')
 padrao_mencao = r'@([\w\-]+)'
 

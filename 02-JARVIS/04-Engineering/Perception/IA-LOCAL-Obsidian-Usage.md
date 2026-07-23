@@ -30,7 +30,7 @@ Recomenda-se criar notas em:
 
 - `JARVIS/KnowledgeBase/` para conhecimento do agente
 - `JARVIS/Aprendizado/` para evolução e aprendizado contínuo
-- `JARVIS/Memorias/` para fatos importantes e histórico ativo
+- `02-JARVIS/03-Memory/` para fatos importantes e histórico ativo
 
 ## Como o agente ingere o conteúdo
 

@@ -267,7 +267,7 @@ generated: {now.strftime("%Y-%m-%d %H:%M:%S")}
 
 - [[JARVIS/02-Operational/Dashboard|Dashboard]] — Current operational state
 - [[JARVIS/02-Operational/Context/Estado|Context]] — What I'm focused on
-- [[JARVIS/03-Memory/Logs/INDEX|Log Index]] — All daily logs
+- [[02-JARVIS/03-Memory/Logs/INDEX|Log Index]] — All daily logs
 
 ---
 

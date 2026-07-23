@@ -2,7 +2,7 @@
 """
 Pomodoro Report Generator — Gera um relatório semanal de pomodoros.
 Lê as notas diárias (#diario) e extrai checklists com a tag #pomodoro.
-Gera um resumo em JARVIS/03-Memory/Logs/Pomodoro-Report-YYYY-MM-DD.md.
+Gera um resumo em 02-JARVIS/03-Memory/Logs/Pomodoro-Report-YYYY-MM-DD.md.
 """
 
 import re
@@ -195,7 +195,7 @@ generated: {now.strftime('%Y-%m-%d %H:%M:%S')}
 ## 🔗 Links
 
 - [[Will-Pessoal/03-Vida-Estilo/Vida/Produtividade|🍅 Pomodoro Dashboard]]
-- [[JARVIS/03-Memory/Logs/Resumo-Semanal-{now.strftime('%Y-%m-%d')}|Resumo Semanal]]
+- [[02-JARVIS/03-Memory/Logs/Resumo-Semanal-{now.strftime('%Y-%m-%d')}|Resumo Semanal]]
 
 ---
 

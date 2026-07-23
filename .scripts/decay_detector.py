@@ -292,7 +292,7 @@ generated: {now}
 ## 🔗 Links Relacionados
 
 - [[JARVIS/02-Operational/Dashboard|Dashboard]] — Estado operacional
-- [[JARVIS/03-Memory/Logs/INDEX|Índice de Logs]] — Todos os registros
+- [[02-JARVIS/03-Memory/Logs/INDEX|Índice de Logs]] — Todos os registros
 
 ---
 

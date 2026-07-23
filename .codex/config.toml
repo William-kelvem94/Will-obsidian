@@ -1,0 +1,3 @@
+[mcp_servers.will-obsidian-vault]
+command = "node"
+args = [".scripts/mcp-vault-server/index.js"]

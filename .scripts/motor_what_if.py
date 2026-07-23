@@ -6,7 +6,7 @@ import json
 from pathlib import Path
 from datetime import datetime
 
-notas_dir = Path('JARVIS/03-Memory/Logs')
+notas_dir = Path('02-JARVIS/03-Memory/Logs')
 output_sim = Path('dashboards/simulador_what_if.json')
 
 # Simulação simples: se uma nota depende das outras (via tag #depende:Nota-Alvo)

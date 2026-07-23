@@ -9,7 +9,7 @@ import json
 from datetime import datetime, timedelta
 from pathlib import Path
 
-notas_dir = Path('JARVIS/03-Memory/Logs')  # ajustar conforme local das notas
+notas_dir = Path('02-JARVIS/03-Memory/Logs')  # ajustar conforme local das notas
 agenda_file = Path('dashboards/agenda_revisao.json')
 quantidade_diaria = 2  # quantas revisar por dia
 

@@ -62,7 +62,7 @@ Sugestoes encontradas (≥0.3): 50
 | 46 | [[03-Projetos/04-Master-Plan/Organizacao-Completa|Organização Completa do Vault de Projetos]] | [[03-Projetos/Organizacao-Completa|Organização Completa do Vault de Projetos]] | 0.9985 | ↔ |
 | 47 | [[02-JARVIS/05-System/Blueprints/Template-Perfil-Will|Questionário — Quem é Will?]] | [[02-JARVIS/Templates/Template-Perfil-Will|Questionário — Quem é Will?]] | 0.9982 | ↔ |
 | 48 | [[02-JARVIS/Sobre-Will/Preferencias|Preferências — Will]] | [[06-Will-Pessoal/01-Identidade/Perfil/Preferencias|Preferências — Will]] | 0.9981 | ↔ |
-| 49 | [[02-JARVIS/03-Memory/Logs/2026-04-09|Diário — 2026-04-09]] | [[02-JARVIS/Memorias/Diario/2026-04-09|Diário — 2026-04-09]] | 0.9977 | ↔ |
+| 49 | [[02-JARVIS/03-Memory/Logs/2026-04-09|Diário — 2026-04-09]] | [[02-JARVIS/03-Memory/Diario/2026-04-09|Diário — 2026-04-09]] | 0.9977 | ↔ |
 | 50 | [[02-JARVIS/Sobre-Will/Perfil|Perfil — William Pereira (kelvem94)]] | [[06-Will-Pessoal/01-Identidade/Perfil/Perfil|Perfil — William Pereira (kelvem94)]] | 0.9972 | ↔ |
 
 ---
@@ -107,7 +107,7 @@ Sugestoes encontradas (≥0.3): 50
 | # | Nota | Links |
 |---|------|-------|
 | 1 | [[04-Conhecimentos/07-Humanidades/INDEX|Conhecimento Geral — Índice]] | 115 |
-| 2 | [[02-JARVIS/Memorias/fatos_rapidos|Fatos Rapidos]] | 95 |
+| 2 | [[02-JARVIS/03-Memory/fatos_rapidos|Fatos Rapidos]] | 95 |
 | 3 | [[02-JARVIS/02-Operational/Proximo-Estudo|Próximo Estudo — Recomendação Automática]] | 77 |
 | 4 | [[04-Conhecimentos/08-Vida-Pratica/Cosmovisao-e-Sentido|Cosmovisão e Sentido]] | 37 |
 | 5 | [[INDEX|INDEX - Super Hub do Vault]] | 37 |

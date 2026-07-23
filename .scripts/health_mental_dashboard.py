@@ -9,7 +9,7 @@ from datetime import datetime
 from pathlib import Path
 import re
 
-diario_dir = Path('JARVIS/03-Memory/Logs')  # Ajuste se suas notas diárias ficam em outro local
+diario_dir = Path('02-JARVIS/03-Memory/Logs')  # Ajuste se suas notas diárias ficam em outro local
 saida_json = Path('dashboards/health_mental_report.json')
 
 # Exemplo de palavras-humor básicas (expanda conforme quiser)

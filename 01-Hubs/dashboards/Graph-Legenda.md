@@ -38,7 +38,7 @@ Este arquivo descreve as categorias do gráfico do Obsidian, as tags recomendada
 
 - **Memórias & decisões** — vermelho `#dc2626`
   - Aplica a notas de memória, histórico e escolhas importantes.
-  - Pastas: `JARVIS/Memorias/`, `JARVIS/Decisoes/`.
+  - Pastas: `02-JARVIS/03-Memory/`, `02-JARVIS/02-Operational/Decisions/`.
   - Tags principais: `#memoria`, `#decisao`
 
 - **Perfil & pessoal** — ciano `#0ea5e9`
@@ -65,7 +65,7 @@ Este arquivo descreve as categorias do gráfico do Obsidian, as tags recomendada
 - `Projetos/Plano-de-Acao.md` → `#projetos #prioridade`
 - `Projetos/Organizacao-Completa.md` → `#projetos #organizacao`
 - `JARVIS/README.md` → `#hub #jarvis`
-- `JARVIS/Memorias/README.md` → `#jarvis #memoria`
+- `02-JARVIS/03-Memory/README.md` → `#jarvis #memoria`
 - `JARVIS/Aprendizado/INDEX.md` → `#jarvis #aprendizado`
 - `JARVIS/Decisoes/INDEX.md` → `#jarvis #decisao`
 - `JARVIS/Templates/INDEX.md` → `#jarvis #template`
@@ -78,7 +78,7 @@ Este arquivo descreve as categorias do gráfico do Obsidian, as tags recomendada
 2. Use `Projetos.md` como MOC de projetos públicos.
 3. Use `Projetos/Privados/README.md` para acessar clones privados.
 4. Use `JARVIS/README.md` como hub do segundo cérebro.
-5. Use `JARVIS/Memorias/README.md` para buscar memórias e decisões.
+5. Use `02-JARVIS/03-Memory/README.md` para buscar memórias e decisões.
 6. Use `Conhecimento-Geral/INDEX.md` para navegar pelos 10 domínios de conhecimento.
 7. Atualize os tags de cada nota nova no início do arquivo.
 

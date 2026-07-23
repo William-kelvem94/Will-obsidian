@@ -6,7 +6,7 @@ import os
 import random
 from pathlib import Path
 
-notas_paths = [Path('JARVIS/03-Memory/Logs')] # adicione mais pastas conforme necessidade
+notas_paths = [Path('02-JARVIS/03-Memory/Logs')] # adicione mais pastas conforme necessidade
 sugestoes_file = Path('dashboards/inspiracao_diaria.json')
 
 # Pega uma nota aleatória do(s) diretório(s)

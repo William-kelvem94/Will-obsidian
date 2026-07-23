@@ -24,7 +24,7 @@ Por isso, agentes devem tratar o vault como uma fonte de verdade, nao como uma p
 |---|---|---:|---:|
 | `JARVIS/01-Identity/` | Identidade, preferencias e persona | Sim | Nao |
 | `JARVIS/02-Operational/` | Estado atual, decisoes e configuracao | Sim | Com cuidado |
-| `JARVIS/03-Memory/` | Logs, snapshots e aprendizados | Sim | Sim, em subpastas corretas |
+| `02-JARVIS/03-Memory/` | Logs, snapshots e aprendizados | Sim | Sim, em subpastas corretas |
 | `JARVIS/04-Engineering/` | Arquitetura, playbooks e wiki tecnica | Sim | Com confirmacao se alterar conhecimento canonico |
 | `JARVIS/05-System/` | Sistema, mapas, blueprints e governanca | Sim | Com cuidado |
 | `Conhecimento-Geral/` | Base conceitual ampla | Sim | Com confirmacao |
@@ -38,9 +38,9 @@ Agentes podem escrever automaticamente apenas quando a tarefa pedir isso clarame
 
 Areas seguras para escrita automatica:
 
-- `JARVIS/03-Memory/Logs/`
-- `JARVIS/03-Memory/Snapshots/`
-- `JARVIS/03-Memory/Learned-Patterns/`
+- `02-JARVIS/03-Memory/Logs/`
+- `02-JARVIS/03-Memory/Snapshots/`
+- `02-JARVIS/03-Memory/Learned-Patterns/`
 - `JARVIS/05-System/Improvements/`
 - `.scripts/` somente para manutencao do vault, quando solicitado
 

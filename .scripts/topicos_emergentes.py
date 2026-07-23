@@ -8,7 +8,7 @@ import json
 from pathlib import Path
 from collections import Counter
 
-pastas_busca = [Path('JARVIS/03-Memory/Logs')]
+pastas_busca = [Path('02-JARVIS/03-Memory/Logs')]
 output_emergentes = Path('dashboards/topicos_emergentes.json')
 tag_regex = r'#([\w\-]+)'
 

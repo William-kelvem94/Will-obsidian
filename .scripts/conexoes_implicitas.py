@@ -9,7 +9,7 @@ from pathlib import Path
 from collections import defaultdict
 from itertools import combinations
 
-analisar_dir = Path('JARVIS/03-Memory/Logs')
+analisar_dir = Path('02-JARVIS/03-Memory/Logs')
 output_file = Path('dashboards/conexoes_implicitas.json')
 
 # Função rudimentar: similaridade por número de palavras em comum

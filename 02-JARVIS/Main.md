@@ -1,49 +1,34 @@
 ---
-title: "JARVIS — Main Hub 🧠"
-date: 2026-06-01
-tags: [jarvis]
-updated: 2026-06-13
----
-
-﻿---
 title: "JARVIS — Main Hub"
-description: "Ponto de entrada principal para o sistema JARVIS. Redireciona para o Neural Command Center."
+description: "Ponto de entrada principal para o sistema JARVIS."
 tags: [jarvis, hub, main]
-date: 2026-05-16
-updated: 2026-05-16
+date: 2026-07-21
+updated: 2026-07-21
+status: active
 ---
 
-# JARVIS — Main Hub 🧠
+# JARVIS — Main Hub
 
-Bem-vindo ao núcleo do sistema JARVIS.
+Este é o ponto de entrada principal do sistema JARVIS.
 
-## 🚀 Acesso Rápido
+## Acesso rápido
 
-| Destino | Descrição |
-|---|---|
-| [[README\|Neural Command Center]] | Arquitetura completa do cérebro JARVIS |
-| [[01-Identity/Will/README\|Perfil do Will]] | Preferências, valores e persona |
-| [[02-Operational/Context/Estado\|Estado Atual]] | Projeto ativo e foco momentâneo |
-| [[02-Operational/Decisions/INDEX\|Decision Log]] | Histórico de decisões |
-| [[04-Engineering/Playbooks/Workflows-Praticos\|Playbooks]] | Fluxos de trabalho testados |
-| [[Aprendizado/INDEX\|Aprendizados]] | Padrões, erros e conhecimento |
-| [[05-System/Evolution/INDEX\|Evolução]] | Como o Jarvis melhora |
+- [[README|Command Center do JARVIS]]
+- [[../01-Hubs/Hub-JARVIS|Hub de navegação]]
+- [[01-Identity/Persona/Personalidade|Personalidade]]
+- [[01-Identity/Will/Perfil|Perfil do Will]]
+- [[02-Operational/Dashboard|Estado operacional]]
+- [[02-Operational/Context/Estado|Contexto atual]]
+- [[02-Operational/Decisions/INDEX|Decisões]]
+- [[03-Memory/README|Memória]]
+- [[04-Engineering/Playbooks/Workflows-Praticos|Playbooks e workflows]]
+- [[05-System/Maps/INDEX|Mapas do sistema]]
 
-## 💰 Token Economy JARVIS
+## Protocolos principais
 
-| Destino | Descrição |
-|---|---|
-| [[TOKEN-COMPRESSION\|Token Compression]] | Protocolo de contexto enxuto do JARVIS |
-| [[../04-Conhecimentos/03-Dados-e-Analytics/TOKEN-ECONOMY|Token Economy]] | Guia geral de otimização de tokens |
-| [[../04-Conhecimentos/03-Dados-e-Analytics/TOKEN-SHORTHAND|Token Shorthand]] | Abreviações padronizadas |
+- [[TOKEN-COMPRESSION|Compressão de contexto]]
+- [[05-System/AGENT-CONTRACT|Contrato do agente]]
+- [[05-System/ONBOARDING-AGENTE|Onboarding do agente]]
+- [[05-System/Improvements/INDEX|Fila de melhorias]]
 
-## 🔗 Redirect
-
-> Este arquivo é o ponto de entrada referenciado por skills externas.
-> Para a documentação completa, vá para [[README|JARVIS — Neural Command Center]].
-
----
-
-*Maintained by JARVIS 5.0 — Última atualização: 2026-05-16*
-
-[[02-JARVIS/README|← Voltar ao Command Center]]
+> Use este arquivo para entrar no JARVIS. A documentação canônica está em [[README]].

@@ -16,7 +16,7 @@ Monitorar a saúde do segundo cérebro do Jarvis e garantir que o contexto, a in
 - **Recência**: data da última atualização de `Will-Pessoal/Perfil/Cerebro-Will.md` e `JARVIS/KnowledgeBase/SegundoCerebro.md`.
 - **Reindexação**: data da última reindexação de `PROJECT_JARVIS_5.0-KnowledgeBase`.
 - **Decisões atualizadas**: número de entradas em `JARVIS/Decisoes/` nas últimas 30 dias.
-- **Memória ativa**: número de notas recentes em `JARVIS/Memorias/Diario/` e `JARVIS/Memorias/Episodicas/`.
+- **Memória ativa**: número de notas recentes em `02-JARVIS/03-Memory/Diario/` e `02-JARVIS/03-Memory/Episodicas/`.
 - **Confiança RAG**: presença de notas confiáveis em `Projectos/EstudosFocados` e `JARVIS/KnowledgeBase`.
 
 ## Checklist de saúde
@@ -37,7 +37,7 @@ Monitorar a saúde do segundo cérebro do Jarvis e garantir que o contexto, a in
 - Atualizar `Will-Pessoal/Perfil/Cerebro-Will.md` quando valores ou prioridades mudarem.
 - Reindexar a base de conhecimento se `RULES.md`, `INDEX.md` ou `CONFIG.md` mudarem.
 - Registrar decisões em `JARVIS/Decisoes/` sempre que uma mudança de cérebro ocorrer.
-- Revisar `JARVIS/Memorias/` e identificar aprendizados que devem virar regras ou KB.
+- Revisar `02-JARVIS/03-Memory/` e identificar aprendizados que devem virar regras ou KB.
 
 ## Links úteis
 - [[02-JARVIS/KnowledgeBase/Brain-Integration|Brain Integration]]

@@ -71,7 +71,7 @@ python vault_cleanup.py
 
 ### 4. `daily_logger.py`
 **Objetivo**: Gerar log diário automático a partir do histórico git.  
-**Saída**: Nota em `JARVIS/03-Memory/Logs/`.
+**Saída**: Nota em `02-JARVIS/03-Memory/Logs/`.
 
 ### 5. `project_health_checker.py`
 **Objetivo**: Dar nota 0-100 para cada projeto ativo.  
