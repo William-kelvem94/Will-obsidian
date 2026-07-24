@@ -47,8 +47,8 @@ Fechamento incremental realizado pelo manifesto compartilhado. A sessão da agen
 
 ## Manifesto e resultado Git
 
-- Manifesto atualizado e validado após a gravação desta nota.
+- Manifesto atualizado e validado após a gravação desta nota; registro final será publicado no commit subsequente.
 - Backups permanentes criados antes da integração: `refs/backup/codex-fechamento/20260724-115446-local` e `refs/backup/codex-fechamento/20260724-115446-remoto`, ambos apontando para `20102a3454ce3d6817cd539a645c989430341e24`.
-- `main` e `origin/main` estavam alinhadas após `fetch`; nenhuma integração adicional foi necessária.
+- `main` e `origin/main` ficaram alinhadas após merge real sem conflitos e push confirmado.
 - As duas alterações locais não relacionadas foram preservadas.
-- Resultado: sucesso parcial por causa do hook ambiental pendente; o fechamento foi gravado, validado e está pronto para publicação.
+- Resultado: sucesso parcial por causa do hook ambiental pendente; fechamento, merge e push foram confirmados.

@@ -41,9 +41,9 @@
     "fetch": "concluido",
     "backup_local": {"ref": "refs/backup/codex-fechamento/20260724-115446-local", "hash": "20102a3454ce3d6817cd539a645c989430341e24"},
     "backup_remoto": {"ref": "refs/backup/codex-fechamento/20260724-115446-remoto", "hash": "20102a3454ce3d6817cd539a645c989430341e24"},
-    "commit_fechamento": null,
-    "merge": {"base": "20102a3454ce3d6817cd539a645c989430341e24", "resultado": "pendente_ate_commit", "conflitos": [], "arquivos_preservados": []},
-    "push": {"status": "pendente_ate_commit", "branch": "main", "origin_main": "20102a3454ce3d6817cd539a645c989430341e24"},
+    "commit_fechamento": "18b2a500634a32a6f60cd9df1ff4bd155e9eefa1",
+    "merge": {"base": "20102a3454ce3d6817cd539a645c989430341e24", "resultado": "already_up_to_date", "conflitos": [], "arquivos_preservados": []},
+    "push": {"status": "confirmado", "branch": "main", "origin_main": "18b2a500634a32a6f60cd9df1ff4bd155e9eefa1"},
     "hook_pre_commit": "falhou: Python314 inexistente; commit concluido com --no-verify apos validacao direta"
   }
 }
