@@ -52,3 +52,12 @@ Fechamento incremental realizado pelo manifesto compartilhado. A sessão da agen
 - `main` e `origin/main` ficaram alinhadas após merge real sem conflitos e push confirmado.
 - As duas alterações locais não relacionadas foram preservadas.
 - Resultado: sucesso parcial por causa do hook ambiental pendente; fechamento, merge e push foram confirmados.
+
+## Complemento da agenda da tarde
+
+- Período complementar: 11:54–17:50 America/Fortaleza.
+- A sessão de 24/07 das 11:50 já estava consolidada pela agenda da manhã; a sessão das 17:50 corresponde à execução corrente e não foi usada como fonte, evitando autocaptura.
+- `C:\Users\willi\Documents\Codex` não apresentou arquivos úteis novos após os filtros de saídas, dependências, ambientes e conteúdo sensível.
+- Nenhum projeto, decisão, bug, teste, commit ou release novo foi identificado nesta janela.
+- Duplicações evitadas: notas geradas em `09-Sistema/Codex` e `09-Sistema/Sessoes`, a sessão matinal já consolidada e a própria sessão corrente.
+- O manifesto compartilhado foi avançado para a agenda `fechamento-codex-tarde`; o resultado Git continua parcial apenas pela falha ambiental do hook que referencia Python 3.14 inexistente.
