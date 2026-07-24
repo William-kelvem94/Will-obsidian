@@ -1,8 +1,8 @@
 {
   "versao": 2,
-  "ultima_execucao": "2026-07-23T18:00:00-03:00",
-  "automation_id": "fechamento-codex-tarde",
-  "janela": "2026-07-23T12:00:00-03:00/2026-07-23T18:00:00-03:00",
+  "ultima_execucao": "2026-07-24T11:54:46-03:00",
+  "automation_id": "fechamento-codex-manh",
+  "janela": "2026-07-23T18:00:00-03:00/2026-07-24T11:54:46-03:00",
   "status": "parcial",
   "politica": {
     "fontes_geradas_excluidas": ["09-Sistema/Codex", "09-Sistema/Sessoes"],
@@ -20,7 +20,8 @@
         {"sessao": "019f8f28-b6a0-7581-8759-64533a6d2a31", "arquivo": "rollout-2026-07-23T10-27-25-019f8f28-b6a0-7581-8759-64533a6d2a31.jsonl", "status": "concluida"},
         {"sessao": "019f8f60-2ff9-7f71-9e92-6a5ef523fc83", "arquivo": "rollout-2026-07-23T11-27-58-019f8f60-2ff9-7f71-9e92-6a5ef523fc83.jsonl", "status": "concluida"},
         {"sessao": "019f8f76-4bc4-70c2-bbd6-67f3357b7838", "arquivo": "rollout-2026-07-23T11-52-07-019f8f76-4bc4-70c2-bbd6-67f3357b7838.jsonl", "status": "concluida", "observacao": "sessao atual; eventos do fechamento resumidos sem copiar prompt ou payload"},
-        {"sessao": "019f904b-1f5e-7ff0-aa98-ba68c45c2fa0", "arquivo": "rollout-2026-07-23T15-44-30-019f904b-1f5e-7ff0-aa98-ba68c45c2fa0.jsonl", "status": "concluida", "observacao": "Will Bot; eventos operacionais resumidos sem segredos ou payloads"}
+        {"sessao": "019f904b-1f5e-7ff0-aa98-ba68c45c2fa0", "arquivo": "rollout-2026-07-23T15-44-30-019f904b-1f5e-7ff0-aa98-ba68c45c2fa0.jsonl", "status": "concluida", "observacao": "Will Bot; eventos operacionais resumidos sem segredos ou payloads"},
+        {"sessao": "019f90c0-4132-7610-9a66-5c91aebf44b4", "arquivo": "rollout-2026-07-23T17-52-31-019f90c0-4132-7610-9a66-5c91aebf44b4.jsonl", "status": "concluida", "observacao": "sessao da tarde já consolidada; delta deduplicado"}
       ]
     },
     {
@@ -31,18 +32,18 @@
       "proxima_acao": "manter cursor por hash, mtime, tamanho e janela"
     }
   ],
-  "notas_atualizadas": ["09-Sistema/Codex/2026-07-23-Fechamento-Codex-Manual.md", "03-Projetos/05-Coding/WILL-BOT/README.md", "03-Projetos/05-Coding/WILL-BOT/Sessoes/2026-07-23-Will-Bot-Execucao-Real.md"],
+  "notas_atualizadas": ["09-Sistema/Codex/2026-07-24-Fechamento-Codex-Manha.md"],
   "itens_processados": ["configuracao das agendas", "memoria operacional do TRANSCRITOR", "auditoria do Gerenciador Financeiro", "diagnosticos e validacoes relevantes"],
-  "deduplicacoes": ["nota diaria de 2026-07-23 atualizada em vez de duplicada", "fechamentos do Codex excluidos como fonte", "sessao Will Bot registrada no hub do projeto em vez de nota avulsa", "Documents\\Codex filtrado sem reprocessar dependencias"],
+  "deduplicacoes": ["nota diaria de 2026-07-23 atualizada em vez de duplicada", "fechamentos do Codex excluidos como fonte", "sessao Will Bot registrada no hub do projeto em vez de nota avulsa", "Documents\\Codex filtrado sem reprocessar dependencias", "sessao 019f90c0 já consolidada pela agenda da tarde", "sessao corrente de 24/07 excluida como fonte"],
   "git": {
     "status": "sucesso_parcial_push_confirmado_hook_pre_commit_quebrado",
     "alteracao_nao_relacionada_preservada": "09-Sistema/agents/AGENTS.md",
     "fetch": "concluido",
-    "backup_local": {"ref": "refs/backup/codex-fechamento/20260723-180000-local", "hash": "633aa5e1ad1290a4fb6f791fe98991f7c343d6bb"},
-    "backup_remoto": {"ref": "refs/backup/codex-fechamento/20260723-180000-remoto", "hash": "633aa5e1ad1290a4fb6f791fe98991f7c343d6bb"},
-    "commit_fechamento": "186eefbd1e4f026fa88846cf9619977ece68302d",
-    "merge": {"base": "633aa5e1ad1290a4fb6f791fe98991f7c343d6bb", "resultado": "already_up_to_date", "conflitos": [], "arquivos_preservados": []},
-    "push": {"status": "confirmado", "branch": "main", "origin_main": "0dc7dacf8a13768cbcae3f4f68692b06872f3165"},
+    "backup_local": {"ref": "refs/backup/codex-fechamento/20260724-115446-local", "hash": "20102a3454ce3d6817cd539a645c989430341e24"},
+    "backup_remoto": {"ref": "refs/backup/codex-fechamento/20260724-115446-remoto", "hash": "20102a3454ce3d6817cd539a645c989430341e24"},
+    "commit_fechamento": null,
+    "merge": {"base": "20102a3454ce3d6817cd539a645c989430341e24", "resultado": "pendente_ate_commit", "conflitos": [], "arquivos_preservados": []},
+    "push": {"status": "pendente_ate_commit", "branch": "main", "origin_main": "20102a3454ce3d6817cd539a645c989430341e24"},
     "hook_pre_commit": "falhou: Python314 inexistente; commit concluido com --no-verify apos validacao direta"
   }
 }
