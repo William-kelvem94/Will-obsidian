@@ -49,4 +49,7 @@ Fechamento incremental executado com o manifesto compartilhado. A sessão estáv
 
 - Manifesto atualizado e validado após a gravação desta nota; o cursor da sessão corrente foi preservado como pendente.
 - A integração Git será feita somente com os arquivos deste fechamento e do manifesto, preservando as duas alterações locais não relacionadas.
-- Resultado desta etapa: consolidação documental concluída; publicação Git pendente de validação final de backup, merge e push.
+- Backups permanentes: `refs/backup/codex-fechamento/20260725-115439-local` e `refs/backup/codex-fechamento/20260725-115439-remoto`, ambos apontando para `6f66c0ed78ada995194ec1952660b944d64a10a2`.
+- Commit do fechamento: `3bd457a3abdc9b3f1d2feefe841282bad90c37a6`; registro final publicado: `3b3d99b780852eefc6a9fa3b9fd8592cd123e8b5`.
+- `main` local e `origin/main` estão alinhadas após merge real sem conflitos e push confirmado.
+- Resultado: sucesso parcial por causa do hook ambiental do Python 3.14; o fechamento foi publicado e as alterações locais não relacionadas foram preservadas.
