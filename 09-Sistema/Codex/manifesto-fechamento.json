@@ -49,11 +49,11 @@
     "status": "sucesso_parcial_push_confirmado_hook_pre_commit_quebrado",
     "alteracao_nao_relacionada_preservada": "09-Sistema/agents/AGENTS.md",
     "fetch": "concluido",
-    "backup_local": {"ref": "refs/backup/codex-fechamento/20260724-175300-local", "hash": "a2a75b37713394623d684fc48121f50d92d531fb"},
-    "backup_remoto": {"ref": "refs/backup/codex-fechamento/20260724-175300-remoto", "hash": "a2a75b37713394623d684fc48121f50d92d531fb"},
-    "commit_fechamento": "51d8bb5926853cab75f0de5400d10c030c379c61",
-    "merge": {"base": "a2a75b37713394623d684fc48121f50d92d531fb", "resultado": "already_up_to_date", "conflitos": [], "arquivos_preservados": []},
-    "push": {"status": "confirmado", "branch": "main", "origin_main": "51d8bb5926853cab75f0de5400d10c030c379c61"},
+    "backup_local": {"ref": "refs/backup/codex-fechamento/20260725-115439-local", "hash": "6f66c0ed78ada995194ec1952660b944d64a10a2"},
+    "backup_remoto": {"ref": "refs/backup/codex-fechamento/20260725-115439-remoto", "hash": "6f66c0ed78ada995194ec1952660b944d64a10a2"},
+    "commit_fechamento": "3bd457a3abdc9b3f1d2feefe841282bad90c37a6",
+    "merge": {"base": "6f66c0ed78ada995194ec1952660b944d64a10a2", "resultado": "already_up_to_date_origin_ancestral", "conflitos": [], "arquivos_preservados": []},
+    "push": {"status": "confirmado", "branch": "main", "origin_main": "3bd457a3abdc9b3f1d2feefe841282bad90c37a6"},
     "hook_pre_commit": "falhou: Python314 inexistente; commit concluido com --no-verify apos validacao direta"
   }
 }
