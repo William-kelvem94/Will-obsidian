@@ -1,8 +1,8 @@
 {
   "versao": 2,
-  "ultima_execucao": "2026-07-24T17:50:38-03:00",
-  "automation_id": "fechamento-codex-tarde",
-  "janela": "2026-07-24T11:54:46-03:00/2026-07-24T17:50:38-03:00",
+  "ultima_execucao": "2026-07-25T11:54:00-03:00",
+  "automation_id": "fechamento-codex-manh",
+  "janela": "2026-07-24T17:50:38-03:00/2026-07-25T11:54:00-03:00",
   "status": "parcial",
   "politica": {
     "fontes_geradas_excluidas": ["09-Sistema/Codex", "09-Sistema/Sessoes"],
@@ -32,15 +32,17 @@
       "proxima_acao": "manter cursor por hash, mtime, tamanho e janela"
     }
   ],
-  "notas_atualizadas": ["09-Sistema/Codex/2026-07-24-Fechamento-Codex-Manha.md"],
+  "notas_atualizadas": ["09-Sistema/Codex/2026-07-24-Fechamento-Codex-Manha.md", "09-Sistema/Codex/2026-07-25-Fechamento-Codex-Manha.md"],
   "itens_processados": ["configuracao das agendas", "memoria operacional do TRANSCRITOR", "auditoria do Gerenciador Financeiro", "diagnosticos e validacoes relevantes"],
   "deduplicacoes": ["nota diaria de 2026-07-23 atualizada em vez de duplicada", "fechamentos do Codex excluidos como fonte", "sessao Will Bot registrada no hub do projeto em vez de nota avulsa", "Documents\\Codex filtrado sem reprocessar dependencias", "sessao 019f90c0 já consolidada pela agenda da tarde", "sessao corrente de 24/07 excluida como fonte"],
   "cursor": {
-    "janela_anterior": "2026-07-24T11:54:46-03:00",
+    "janela_anterior": "2026-07-24T17:50:38-03:00",
     "fontes": [
       {"caminho": "C:\\Users\\willi\\.codex\\sessions\\2026\\07\\24\\rollout-2026-07-24T11-50-54-019f949b-9e2a-7b70-a654-3989f7a6eb9f.jsonl", "sessao": "019f949b-9e2a-7b70-a654-3989f7a6eb9f", "mtime": "2026-07-24T11:58:03-03:00", "tamanho": 289989, "hash_sha256": null, "status": "pendente_arquivo_em_uso_deduplicada_sessao_matinal"},
       {"caminho": "C:\\Users\\willi\\.codex\\sessions\\2026\\07\\24\\rollout-2026-07-24T17-50-29-019f95e4-d2a0-7561-ac57-dbc7044a8354.jsonl", "sessao": "019f95e4-d2a0-7561-ac57-dbc7044a8354", "mtime": "2026-07-24T17:52:38-03:00", "tamanho": 183877, "hash_sha256": null, "status": "pendente_arquivo_em_uso_sessao_corrente_ignorada"},
       {"caminho": "C:\\Users\\willi\\Documents\\Codex", "mtime": "2026-07-24T17:50:38-03:00", "tamanho": 0, "hash_sha256": null, "status": "concluida_sem_arquivos_elegiveis"}
+      ,{"caminho": "C:\\Users\\willi\\.codex\\sessions\\2026\\07\\24\\rollout-2026-07-24T17-50-29-019f95e4-d2a0-7561-ac57-dbc7044a8354.jsonl", "sessao": "019f95e4-d2a0-7561-ac57-dbc7044a8354", "mtime": "2026-07-24T17:57:00.1335727-03:00", "tamanho": 362784, "hash_sha256": "687D018B7E243F64B85B60E7540859805EAB676D9180100F1B33E8335BB0B150", "status": "concluida_deduplicada_sem_delta"},
+      {"caminho": "C:\\Users\\willi\\.codex\\sessions\\2026\\07\\25\\rollout-2026-07-25T11-51-13-019f99c2-450f-7b91-a07c-cc667eed780f.jsonl", "sessao": "019f99c2-450f-7b91-a07c-cc667eed780f", "mtime": "2026-07-25T11:53:36.7735249-03:00", "tamanho": 190352, "hash_sha256": null, "status": "pendente_arquivo_em_uso_sessao_corrente_ignorada"}
     ]
   },
   "git": {
