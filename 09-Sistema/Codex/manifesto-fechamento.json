@@ -47,15 +47,15 @@
     ]
   },
   "git": {
-    "status": "pendente_publicacao",
+    "status": "commit_local_pronto_push_pendente",
     "alteracoes_nao_relacionadas_preservadas": ["09-Sistema/agents/AGENTS.md", "JARVIS/Memorias/Diario/2026-07-21.md", "JARVIS/Memorias/fatos_rapidos.md", "02-JARVIS/Improvement_*.md", "JARVIS/Memorias/Diario/2026-07-25.md"],
-    "fetch": "a_confirmar",
+    "fetch": "concluido",
     "head_antes": "2dd2acb6d6e3860a25e88d99a3c82ad9848299fb",
     "origin_main_antes": "2dd2acb6d6e3860a25e88d99a3c82ad9848299fb",
-    "backup_local": null,
-    "backup_remoto": null,
-    "commit_fechamento": null,
-    "merge": null,
+    "backup_local": {"ref": "refs/backup/codex-fechamento/20260725-215200-local", "hash": "2dd2acb6d6e3860a25e88d99a3c82ad9848299fb"},
+    "backup_remoto": {"ref": "refs/backup/codex-fechamento/20260725-215200-remoto", "hash": "2dd2acb6d6e3860a25e88d99a3c82ad9848299fb"},
+    "commit_fechamento": "26fa88c73b1a12d1119220d3ee7590084b6846ae",
+    "merge": {"base": "2dd2acb6d6e3860a25e88d99a3c82ad9848299fb", "resultado": "origin_main_ancestral_sem_conflitos", "conflitos": [], "arquivos_preservados": []},
     "push": null,
     "hook_pre_commit": "conhecido: Python314 inexistente; usar --no-verify somente após validações diretas"
   }
