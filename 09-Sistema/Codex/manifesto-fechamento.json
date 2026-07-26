@@ -47,7 +47,7 @@
     ]
   },
   "git": {
-    "status": "commit_local_pronto_push_pendente",
+    "status": "sucesso_parcial_push_confirmado_sessoes_pendentes",
     "alteracoes_nao_relacionadas_preservadas": ["09-Sistema/agents/AGENTS.md", "JARVIS/Memorias/Diario/2026-07-21.md", "JARVIS/Memorias/fatos_rapidos.md", "02-JARVIS/Improvement_*.md", "JARVIS/Memorias/Diario/2026-07-25.md"],
     "fetch": "concluido",
     "head_antes": "2dd2acb6d6e3860a25e88d99a3c82ad9848299fb",
@@ -56,7 +56,7 @@
     "backup_remoto": {"ref": "refs/backup/codex-fechamento/20260725-215200-remoto", "hash": "2dd2acb6d6e3860a25e88d99a3c82ad9848299fb"},
     "commit_fechamento": "26fa88c73b1a12d1119220d3ee7590084b6846ae",
     "merge": {"base": "2dd2acb6d6e3860a25e88d99a3c82ad9848299fb", "resultado": "origin_main_ancestral_sem_conflitos", "conflitos": [], "arquivos_preservados": []},
-    "push": null,
+    "push": {"status": "confirmado", "branch": "main", "origin_main": "06effa96054081014e61f26a2ba6b9c05ebfb11b", "observacao": "último ajuste do manifesto será o commit final desta execução"},
     "hook_pre_commit": "conhecido: Python314 inexistente; usar --no-verify somente após validações diretas"
   }
 }
