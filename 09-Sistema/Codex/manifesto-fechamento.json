@@ -1,8 +1,8 @@
 {
   "versao": 2,
-  "ultima_execucao": "2026-07-25T11:54:00-03:00",
-  "automation_id": "fechamento-codex-manh",
-  "janela": "2026-07-24T17:50:38-03:00/2026-07-25T11:54:00-03:00",
+  "ultima_execucao": "2026-07-25T21:51:00-03:00",
+  "automation_id": "fechamento-codex-tarde",
+  "janela": "2026-07-25T18:04:26-03:00/2026-07-25T21:51:00-03:00",
   "status": "parcial",
   "politica": {
     "fontes_geradas_excluidas": ["09-Sistema/Codex", "09-Sistema/Sessoes"],
@@ -12,48 +12,51 @@
   },
   "fontes": [
     {
-      "caminho": "C:\\Users\\willi\\.codex\\sessions\\2026\\07\\23",
-      "status": "concluida",
-      "arquivos_processados": 5,
+      "caminho": "C:\\Users\\willi\\.codex\\sessions",
+      "status": "parcial",
+      "arquivos_processados": 1,
+      "arquivos_pendentes": 4,
+      "motivo": "sessões em uso ou incompletas preservadas para próxima execução",
       "sessoes": [
-        {"sessao": "019f8efb-f10d-7941-a04c-d1c222472ae5", "arquivo": "rollout-2026-07-23T09-38-28-019f8efb-f10d-7941-a04c-d1c222472ae5.jsonl", "status": "concluida"},
-        {"sessao": "019f8f28-b6a0-7581-8759-64533a6d2a31", "arquivo": "rollout-2026-07-23T10-27-25-019f8f28-b6a0-7581-8759-64533a6d2a31.jsonl", "status": "concluida"},
-        {"sessao": "019f8f60-2ff9-7f71-9e92-6a5ef523fc83", "arquivo": "rollout-2026-07-23T11-27-58-019f8f60-2ff9-7f71-9e92-6a5ef523fc83.jsonl", "status": "concluida"},
-        {"sessao": "019f8f76-4bc4-70c2-bbd6-67f3357b7838", "arquivo": "rollout-2026-07-23T11-52-07-019f8f76-4bc4-70c2-bbd6-67f3357b7838.jsonl", "status": "concluida", "observacao": "sessao atual; eventos do fechamento resumidos sem copiar prompt ou payload"},
-        {"sessao": "019f904b-1f5e-7ff0-aa98-ba68c45c2fa0", "arquivo": "rollout-2026-07-23T15-44-30-019f904b-1f5e-7ff0-aa98-ba68c45c2fa0.jsonl", "status": "concluida", "observacao": "Will Bot; eventos operacionais resumidos sem segredos ou payloads"},
-        {"sessao": "019f90c0-4132-7610-9a66-5c91aebf44b4", "arquivo": "rollout-2026-07-23T17-52-31-019f90c0-4132-7610-9a66-5c91aebf44b4.jsonl", "status": "concluida", "observacao": "sessao da tarde já consolidada; delta deduplicado"}
+        {"sessao": "019f9bb6-2fdb-7710-b81f-3e2dccb7b653", "arquivo": "rollout-2026-07-25T20-57-16-019f9bb6-2fdb-7710-b81f-3e2dccb7b653.jsonl", "status": "concluida_com_interrupcao", "hash_sha256": "BF7550A50DC8A1B662E23BE6A02B5F7E498F74563AD22FD1E15BFC48F2462D3C"},
+        {"sessao": "019f9b16-5986-7a40-adc1-274f734704df", "arquivo": "rollout-2026-07-25T18-02-47-019f9b16-5986-7a40-adc1-274f734704df.jsonl", "status": "pendente_sessao_incompleta", "hash_sha256": "EAFDD1E08D70EF92A330DFA221B5CFA4518045D4E1C72E90539CCA89A6808A7F"},
+        {"sessao": "019f9bac-aaca-70d3-a62c-801ca8a19341", "arquivo": "rollout-2026-07-25T20-46-52-019f9bac-aaca-70d3-a62c-801ca8a19341.jsonl", "status": "pendente_arquivo_em_uso", "hash_sha256": null},
+        {"sessao": "019f9bcf-de78-7852-9b7b-09260b562f94", "arquivo": "rollout-2026-07-25T21-25-19-019f9bcf-de78-7852-9b7b-09260b562f94.jsonl", "status": "pendente_arquivo_em_uso", "hash_sha256": null},
+        {"sessao": "019f9be6-552a-7de0-b08c-dc1e68ae0050", "arquivo": "rollout-2026-07-25T21-49-51-019f9be6-552a-7de0-b08c-dc1e68ae0050.jsonl", "status": "pendente_sessao_corrente_ignorada", "hash_sha256": null}
       ]
     },
     {
       "caminho": "C:\\Users\\willi\\Documents\\Codex",
       "status": "concluida",
       "arquivos_processados": 0,
-      "motivo": "varredura incremental filtrada; diretório de 2026-07-23 sem arquivos úteis novos; saídas, dependências e ambientes ignorados",
+      "motivo": "varredura incremental filtrada; não foram encontrados arquivos elegíveis novos; saídas, dependências, ambientes e conteúdo sensível ignorados",
       "proxima_acao": "manter cursor por hash, mtime, tamanho e janela"
     }
   ],
-  "notas_atualizadas": ["09-Sistema/Codex/2026-07-24-Fechamento-Codex-Manha.md", "09-Sistema/Codex/2026-07-25-Fechamento-Codex-Manha.md"],
-  "itens_processados": ["configuracao das agendas", "memoria operacional do TRANSCRITOR", "auditoria do Gerenciador Financeiro", "diagnosticos e validacoes relevantes"],
-  "deduplicacoes": ["nota diaria de 2026-07-23 atualizada em vez de duplicada", "fechamentos do Codex excluidos como fonte", "sessao Will Bot registrada no hub do projeto em vez de nota avulsa", "Documents\\Codex filtrado sem reprocessar dependencias", "sessao 019f90c0 já consolidada pela agenda da tarde", "sessao corrente de 24/07 excluida como fonte"],
+  "notas_atualizadas": ["09-Sistema/Codex/2026-07-25-Fechamento-Codex-Manha.md"],
+  "itens_processados": ["auditoria operacional do PROJECT_JARVIS_5.0", "testes backend e build frontend", "falhas de runtime frontend", "fila cognitiva sem worker geral", "health check bloqueante", "log de instalação excessivo", "processos duplicados"],
+  "deduplicacoes": ["nota diária de 2026-07-25 atualizada em vez de duplicada", "fechamentos do Codex excluídos como fonte", "Documents\\Codex filtrado sem reprocessar dependências", "sessão corrente excluída", "sessões em uso mantidas pendentes", "repetições da auditoria do JARVIS consolidadas por sessão e hash"],
   "cursor": {
-    "janela_anterior": "2026-07-24T17:50:38-03:00",
+    "janela_anterior": "2026-07-25T18:04:26-03:00",
     "fontes": [
-      {"caminho": "C:\\Users\\willi\\.codex\\sessions\\2026\\07\\24\\rollout-2026-07-24T11-50-54-019f949b-9e2a-7b70-a654-3989f7a6eb9f.jsonl", "sessao": "019f949b-9e2a-7b70-a654-3989f7a6eb9f", "mtime": "2026-07-24T11:58:03-03:00", "tamanho": 289989, "hash_sha256": null, "status": "pendente_arquivo_em_uso_deduplicada_sessao_matinal"},
-      {"caminho": "C:\\Users\\willi\\.codex\\sessions\\2026\\07\\24\\rollout-2026-07-24T17-50-29-019f95e4-d2a0-7561-ac57-dbc7044a8354.jsonl", "sessao": "019f95e4-d2a0-7561-ac57-dbc7044a8354", "mtime": "2026-07-24T17:52:38-03:00", "tamanho": 183877, "hash_sha256": null, "status": "pendente_arquivo_em_uso_sessao_corrente_ignorada"},
-      {"caminho": "C:\\Users\\willi\\Documents\\Codex", "mtime": "2026-07-24T17:50:38-03:00", "tamanho": 0, "hash_sha256": null, "status": "concluida_sem_arquivos_elegiveis"}
-      ,{"caminho": "C:\\Users\\willi\\.codex\\sessions\\2026\\07\\24\\rollout-2026-07-24T17-50-29-019f95e4-d2a0-7561-ac57-dbc7044a8354.jsonl", "sessao": "019f95e4-d2a0-7561-ac57-dbc7044a8354", "mtime": "2026-07-24T17:57:00.1335727-03:00", "tamanho": 362784, "hash_sha256": "687D018B7E243F64B85B60E7540859805EAB676D9180100F1B33E8335BB0B150", "status": "concluida_deduplicada_sem_delta"},
-      {"caminho": "C:\\Users\\willi\\.codex\\sessions\\2026\\07\\25\\rollout-2026-07-25T11-51-13-019f99c2-450f-7b91-a07c-cc667eed780f.jsonl", "sessao": "019f99c2-450f-7b91-a07c-cc667eed780f", "mtime": "2026-07-25T11:53:36.7735249-03:00", "tamanho": 190352, "hash_sha256": null, "status": "pendente_arquivo_em_uso_sessao_corrente_ignorada"}
+      {"caminho": "C:\\Users\\willi\\.codex\\sessions\\2026\\07\\25\\rollout-2026-07-25T20-57-16-019f9bb6-2fdb-7710-b81f-3e2dccb7b653.jsonl", "sessao": "019f9bb6-2fdb-7710-b81f-3e2dccb7b653", "mtime": "2026-07-25T21:24:21-03:00", "tamanho": 1175167, "hash_sha256": "BF7550A50DC8A1B662E23BE6A02B5F7E498F74563AD22FD1E15BFC48F2462D3C", "status": "concluida_com_interrupcao"},
+      {"caminho": "C:\\Users\\willi\\.codex\\sessions\\2026\\07\\25\\rollout-2026-07-25T18-02-47-019f9b16-5986-7a40-adc1-274f734704df.jsonl", "sessao": "019f9b16-5986-7a40-adc1-274f734704df", "mtime": "2026-07-25T18:05:53-03:00", "tamanho": 184102, "hash_sha256": "EAFDD1E08D70EF92A330DFA221B5CFA4518045D4E1C72E90539CCA89A6808A7F", "status": "pendente_sessao_incompleta"},
+      {"caminho": "C:\\Users\\willi\\.codex\\sessions\\2026\\07\\25\\rollout-2026-07-25T20-46-52-019f9bac-aaca-70d3-a62c-801ca8a19341.jsonl", "sessao": "019f9bac-aaca-70d3-a62c-801ca8a19341", "mtime": "2026-07-25T20:57:06-03:00", "tamanho": 455079, "hash_sha256": null, "status": "pendente_arquivo_em_uso"},
+      {"caminho": "C:\\Users\\willi\\.codex\\sessions\\2026\\07\\25\\rollout-2026-07-25T21-25-19-019f9bcf-de78-7852-9b7b-09260b562f94.jsonl", "sessao": "019f9bcf-de78-7852-9b7b-09260b562f94", "mtime": "2026-07-25T21:51:58-03:00", "tamanho": 990268, "hash_sha256": null, "status": "pendente_arquivo_em_uso"},
+      {"caminho": "C:\\Users\\willi\\.codex\\sessions\\2026\\07\\25\\rollout-2026-07-25T21-49-51-019f9be6-552a-7de0-b08c-dc1e68ae0050.jsonl", "sessao": "019f9be6-552a-7de0-b08c-dc1e68ae0050", "mtime": "2026-07-25T21:51:14-03:00", "tamanho": 206194, "hash_sha256": null, "status": "pendente_sessao_corrente_ignorada"}
     ]
   },
   "git": {
-    "status": "sucesso_parcial_push_confirmado_hook_pre_commit_quebrado",
-    "alteracao_nao_relacionada_preservada": "09-Sistema/agents/AGENTS.md",
-    "fetch": "concluido",
-    "backup_local": {"ref": "refs/backup/codex-fechamento/20260725-115439-local", "hash": "6f66c0ed78ada995194ec1952660b944d64a10a2"},
-    "backup_remoto": {"ref": "refs/backup/codex-fechamento/20260725-115439-remoto", "hash": "6f66c0ed78ada995194ec1952660b944d64a10a2"},
-    "commit_fechamento": "3bd457a3abdc9b3f1d2feefe841282bad90c37a6",
-    "merge": {"base": "6f66c0ed78ada995194ec1952660b944d64a10a2", "resultado": "already_up_to_date_origin_ancestral", "conflitos": [], "arquivos_preservados": []},
-    "push": {"status": "confirmado", "branch": "main", "origin_main": "adbfdebc0370dbbbe48865bfe5df5618ed88d030"},
-    "hook_pre_commit": "falhou: Python314 inexistente; commit concluido com --no-verify apos validacao direta"
+    "status": "pendente_publicacao",
+    "alteracoes_nao_relacionadas_preservadas": ["09-Sistema/agents/AGENTS.md", "JARVIS/Memorias/Diario/2026-07-21.md", "JARVIS/Memorias/fatos_rapidos.md", "02-JARVIS/Improvement_*.md", "JARVIS/Memorias/Diario/2026-07-25.md"],
+    "fetch": "a_confirmar",
+    "head_antes": "2dd2acb6d6e3860a25e88d99a3c82ad9848299fb",
+    "origin_main_antes": "2dd2acb6d6e3860a25e88d99a3c82ad9848299fb",
+    "backup_local": null,
+    "backup_remoto": null,
+    "commit_fechamento": null,
+    "merge": null,
+    "push": null,
+    "hook_pre_commit": "conhecido: Python314 inexistente; usar --no-verify somente após validações diretas"
   }
 }
