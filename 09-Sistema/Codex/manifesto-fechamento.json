@@ -56,11 +56,11 @@
     "fetch": "concluido",
     "head_antes": "ee110163252de2e6cd799b006cb39be9d29769a4",
     "origin_main_antes": "ee110163252de2e6cd799b006cb39be9d29769a4",
-    "backup_local": {"ref": "refs/backup/codex-fechamento/20260725-215200-local", "hash": "2dd2acb6d6e3860a25e88d99a3c82ad9848299fb"},
-    "backup_remoto": {"ref": "refs/backup/codex-fechamento/20260725-215200-remoto", "hash": "2dd2acb6d6e3860a25e88d99a3c82ad9848299fb"},
+    "backup_local": {"ref": "refs/backup/codex-fechamento/20260726-134003-local", "hash": "ee110163252de2e6cd799b006cb39be9d29769a4"},
+    "backup_remoto": {"ref": "refs/backup/codex-fechamento/20260726-134003-remoto", "hash": "ee110163252de2e6cd799b006cb39be9d29769a4"},
     "commit_fechamento": "64b7a16800d8444316c4a409317463e46c6919f5",
-    "merge": {"base": "2dd2acb6d6e3860a25e88d99a3c82ad9848299fb", "resultado": "origin_main_ancestral_sem_conflitos", "conflitos": [], "arquivos_preservados": []},
-    "push": {"status": "confirmado", "branch": "main", "origin_main": "06effa96054081014e61f26a2ba6b9c05ebfb11b", "observacao": "último ajuste do manifesto será o commit final desta execução"},
+    "merge": {"base": "ee110163252de2e6cd799b006cb39be9d29769a4", "resultado": "main_e_origin_main_alinhadas_sem_merge_necessario", "conflitos": [], "arquivos_preservados": []},
+    "push": {"status": "confirmado", "branch": "main", "origin_main": "995110aa3d3ed10fd7bb34003b2dcbddbc898b0b", "observacao": "commit escopado publicado sem force push; fontes pendentes preservadas"},
     "hook_pre_commit": "conhecido: Python314 inexistente; usar --no-verify somente após validações diretas"
   }
 }
