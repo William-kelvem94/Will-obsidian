@@ -1,8 +1,8 @@
 {
   "versao": 2,
-  "ultima_execucao": "2026-07-25T21:51:00-03:00",
-  "automation_id": "fechamento-codex-tarde",
-  "janela": "2026-07-25T18:04:26-03:00/2026-07-25T21:51:00-03:00",
+  "ultima_execucao": "2026-07-26T13:40:03-03:00",
+  "automation_id": "fechamento-codex-manh",
+  "janela": "2026-07-25T21:51:04-03:00/2026-07-26T13:40:03-03:00",
   "status": "parcial",
   "politica": {
     "fontes_geradas_excluidas": ["09-Sistema/Codex", "09-Sistema/Sessoes"],
@@ -22,7 +22,9 @@
         {"sessao": "019f9b16-5986-7a40-adc1-274f734704df", "arquivo": "rollout-2026-07-25T18-02-47-019f9b16-5986-7a40-adc1-274f734704df.jsonl", "status": "pendente_sessao_incompleta", "hash_sha256": "EAFDD1E08D70EF92A330DFA221B5CFA4518045D4E1C72E90539CCA89A6808A7F"},
         {"sessao": "019f9bac-aaca-70d3-a62c-801ca8a19341", "arquivo": "rollout-2026-07-25T20-46-52-019f9bac-aaca-70d3-a62c-801ca8a19341.jsonl", "status": "pendente_arquivo_em_uso", "hash_sha256": null},
         {"sessao": "019f9bcf-de78-7852-9b7b-09260b562f94", "arquivo": "rollout-2026-07-25T21-25-19-019f9bcf-de78-7852-9b7b-09260b562f94.jsonl", "status": "pendente_arquivo_em_uso", "hash_sha256": null},
-        {"sessao": "019f9be6-552a-7de0-b08c-dc1e68ae0050", "arquivo": "rollout-2026-07-25T21-49-51-019f9be6-552a-7de0-b08c-dc1e68ae0050.jsonl", "status": "pendente_sessao_corrente_ignorada", "hash_sha256": null}
+        {"sessao": "019f9be6-552a-7de0-b08c-dc1e68ae0050", "arquivo": "rollout-2026-07-25T21-49-51-019f9be6-552a-7de0-b08c-dc1e68ae0050.jsonl", "status": "pendente_sessao_corrente_ignorada", "hash_sha256": null},
+        {"sessao": "019f9f41-d18b-7cd0-b1ed-a8a584f38ac6", "arquivo": "rollout-2026-07-26T13-28-38-019f9f41-d18b-7cd0-b1ed-a8a584f38ac6.jsonl", "status": "pendente_arquivo_em_uso", "hash_sha256": null},
+        {"sessao": "019f9f49-f360-7d71-a62e-21ff320ac7c2", "arquivo": "rollout-2026-07-26T13-37-31-019f9f49-f360-7d71-a62e-21ff320ac7c2.jsonl", "status": "pendente_arquivo_em_uso", "hash_sha256": null}
       ]
     },
     {
@@ -33,7 +35,7 @@
       "proxima_acao": "manter cursor por hash, mtime, tamanho e janela"
     }
   ],
-  "notas_atualizadas": ["09-Sistema/Codex/2026-07-25-Fechamento-Codex-Manha.md"],
+  "notas_atualizadas": ["09-Sistema/Codex/2026-07-25-Fechamento-Codex-Manha.md", "09-Sistema/Codex/2026-07-26-Fechamento-Codex-Manha.md"],
   "itens_processados": ["auditoria operacional do PROJECT_JARVIS_5.0", "testes backend e build frontend", "falhas de runtime frontend", "fila cognitiva sem worker geral", "health check bloqueante", "log de instalação excessivo", "processos duplicados"],
   "deduplicacoes": ["nota diária de 2026-07-25 atualizada em vez de duplicada", "fechamentos do Codex excluídos como fonte", "Documents\\Codex filtrado sem reprocessar dependências", "sessão corrente excluída", "sessões em uso mantidas pendentes", "repetições da auditoria do JARVIS consolidadas por sessão e hash"],
   "cursor": {
@@ -43,18 +45,20 @@
       {"caminho": "C:\\Users\\willi\\.codex\\sessions\\2026\\07\\25\\rollout-2026-07-25T18-02-47-019f9b16-5986-7a40-adc1-274f734704df.jsonl", "sessao": "019f9b16-5986-7a40-adc1-274f734704df", "mtime": "2026-07-25T18:05:53-03:00", "tamanho": 184102, "hash_sha256": "EAFDD1E08D70EF92A330DFA221B5CFA4518045D4E1C72E90539CCA89A6808A7F", "status": "pendente_sessao_incompleta"},
       {"caminho": "C:\\Users\\willi\\.codex\\sessions\\2026\\07\\25\\rollout-2026-07-25T20-46-52-019f9bac-aaca-70d3-a62c-801ca8a19341.jsonl", "sessao": "019f9bac-aaca-70d3-a62c-801ca8a19341", "mtime": "2026-07-25T20:57:06-03:00", "tamanho": 455079, "hash_sha256": null, "status": "pendente_arquivo_em_uso"},
       {"caminho": "C:\\Users\\willi\\.codex\\sessions\\2026\\07\\25\\rollout-2026-07-25T21-25-19-019f9bcf-de78-7852-9b7b-09260b562f94.jsonl", "sessao": "019f9bcf-de78-7852-9b7b-09260b562f94", "mtime": "2026-07-25T21:51:58-03:00", "tamanho": 990268, "hash_sha256": null, "status": "pendente_arquivo_em_uso"},
-      {"caminho": "C:\\Users\\willi\\.codex\\sessions\\2026\\07\\25\\rollout-2026-07-25T21-49-51-019f9be6-552a-7de0-b08c-dc1e68ae0050.jsonl", "sessao": "019f9be6-552a-7de0-b08c-dc1e68ae0050", "mtime": "2026-07-25T21:51:14-03:00", "tamanho": 206194, "hash_sha256": null, "status": "pendente_sessao_corrente_ignorada"}
+      {"caminho": "C:\\Users\\willi\\.codex\\sessions\\2026\\07\\25\\rollout-2026-07-25T21-49-51-019f9be6-552a-7de0-b08c-dc1e68ae0050.jsonl", "sessao": "019f9be6-552a-7de0-b08c-dc1e68ae0050", "mtime": "2026-07-25T21:51:14-03:00", "tamanho": 206194, "hash_sha256": null, "status": "pendente_sessao_corrente_ignorada"},
+      {"caminho": "C:\\Users\\willi\\.codex\\sessions\\2026\\07\\26\\rollout-2026-07-26T13-28-38-019f9f41-d18b-7cd0-b1ed-a8a584f38ac6.jsonl", "sessao": "019f9f41-d18b-7cd0-b1ed-a8a584f38ac6", "mtime": "2026-07-26T13:28:38-03:00", "tamanho": 220354, "hash_sha256": null, "status": "pendente_arquivo_em_uso"},
+      {"caminho": "C:\\Users\\willi\\.codex\\sessions\\2026\\07\\26\\rollout-2026-07-26T13-37-31-019f9f49-f360-7d71-a62e-21ff320ac7c2.jsonl", "sessao": "019f9f49-f360-7d71-a62e-21ff320ac7c2", "mtime": "2026-07-26T13:37:31-03:00", "tamanho": 142775, "hash_sha256": null, "status": "pendente_arquivo_em_uso"}
     ]
   },
   "git": {
-    "status": "sucesso_parcial_push_confirmado_sessoes_pendentes",
+    "status": "sucesso_parcial_nota_manifesto_prontos_fontes_pendentes",
     "alteracoes_nao_relacionadas_preservadas": ["09-Sistema/agents/AGENTS.md", "JARVIS/Memorias/Diario/2026-07-21.md", "JARVIS/Memorias/fatos_rapidos.md", "02-JARVIS/Improvement_*.md", "JARVIS/Memorias/Diario/2026-07-25.md"],
     "fetch": "concluido",
-    "head_antes": "2dd2acb6d6e3860a25e88d99a3c82ad9848299fb",
-    "origin_main_antes": "2dd2acb6d6e3860a25e88d99a3c82ad9848299fb",
+    "head_antes": "ee110163252de2e6cd799b006cb39be9d29769a4",
+    "origin_main_antes": "ee110163252de2e6cd799b006cb39be9d29769a4",
     "backup_local": {"ref": "refs/backup/codex-fechamento/20260725-215200-local", "hash": "2dd2acb6d6e3860a25e88d99a3c82ad9848299fb"},
     "backup_remoto": {"ref": "refs/backup/codex-fechamento/20260725-215200-remoto", "hash": "2dd2acb6d6e3860a25e88d99a3c82ad9848299fb"},
-    "commit_fechamento": "26fa88c73b1a12d1119220d3ee7590084b6846ae",
+    "commit_fechamento": null,
     "merge": {"base": "2dd2acb6d6e3860a25e88d99a3c82ad9848299fb", "resultado": "origin_main_ancestral_sem_conflitos", "conflitos": [], "arquivos_preservados": []},
     "push": {"status": "confirmado", "branch": "main", "origin_main": "06effa96054081014e61f26a2ba6b9c05ebfb11b", "observacao": "último ajuste do manifesto será o commit final desta execução"},
     "hook_pre_commit": "conhecido: Python314 inexistente; usar --no-verify somente após validações diretas"
