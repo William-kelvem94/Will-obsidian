@@ -36,7 +36,7 @@ Fechamento incremental executado com o manifesto compartilhado. Foram consolidad
 ## Arquivos, itens ignorados e duplicações evitadas
 
 - Rollouts estáveis processados por hash, mtime e tamanho: 11 arquivos entre 26/07 e 27/07; a sessão `019fa032-31f0-7ad3-9cee-06b04896f730` foi apenas deduplicada por já estar representada no fechamento da tarde.
-- Pendentes por mudança durante a leitura ou sessão em uso: rollouts iniciados em 27/07 15:00 e em 28/07 10:28, 11:01 e 11:52; os cursores e hashes instáveis foram preservados para a próxima execução.
+- Sete pendências antigas foram reavaliadas e deduplicadas quando estabilizaram. Permaneceram pendentes por mudança durante a leitura: seis rollouts iniciados em 27/07 15:00 e em 28/07 10:28/11:01, além da sessão corrente de 11:52; os cursores e hashes instáveis foram preservados para a próxima execução.
 - `C:\Users\willi\Documents\Codex` não apresentou fonte elegível nova dentro do filtro; a varredura recursiva foi limitada para não atravessar saídas, dependências, ambientes e artefatos.
 - `09-Sistema/Codex` e `09-Sistema/Sessoes` foram excluídos como fontes. Duplicações por sessão, título, conteúdo e hash foram evitadas; nenhuma nota vazia foi criada.
 
@@ -44,7 +44,7 @@ Fechamento incremental executado com o manifesto compartilhado. Foram consolidad
 
 - Rollouts estáveis consolidados: 11.
 - Sessões deduplicadas: 1.
-- Fontes mantidas pendentes/corrente: 9.
+- Fontes mantidas pendentes/corrente: 7.
 - Fontes elegíveis novas em `Documents\Codex`: 0.
 - Alterações locais não relacionadas preservadas: todos os caminhos já existentes no `git status`, incluindo `09-Sistema/agents/AGENTS.md`, diários JARVIS e melhorias em `02-JARVIS`.
 
@@ -59,4 +59,4 @@ Fechamento incremental executado com o manifesto compartilhado. Foram consolidad
 - O manifesto compartilhado foi atualizado com a janela desta execução, os hashes dos 11 rollouts estáveis, a deduplicação e os pendentes instáveis. O JSON foi validado antes do commit.
 - `git fetch origin` foi concluído; `main` local e `origin/main` estavam em `cb25f23d9796d73d2ca1e2b767bb9d0611e3ff9e` antes da integração. Backups permanentes para ambos os ponteiros foram criados antes do commit.
 - Nenhuma alteração local não relacionada foi incluída. A integração não exige merge neste momento; o push será confirmado após o commit escopado.
-- Resultado: sucesso parcial, pois a nota e o manifesto podem ser publicados, mas nove fontes ainda aguardam estabilidade.
+- Resultado: sucesso parcial, pois a nota e o manifesto podem ser publicados, mas sete fontes ainda aguardam estabilidade ou encerramento.

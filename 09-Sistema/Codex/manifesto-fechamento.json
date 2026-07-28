@@ -57,7 +57,7 @@
     "status": "parcial",
     "rollouts_estaveis_processados": 11,
     "sessoes_deduplicadas": 1,
-    "fontes_pendentes": 9,
+    "fontes_pendentes": 7,
     "estaveis": [
       {"sessao": "019fa03f-0663-7232-8725-d3880c7dcaf0", "arquivo": "rollout-2026-07-26T18-05-12-019fa03f-0663-7232-8725-d3880c7dcaf0.jsonl", "mtime": "2026-07-27T15:01:00-03:00", "tamanho": 9778648, "hash_sha256": "5AB03ADCA012EA5FE0BE676A1BE7C7A70F550A9193BF2DD435D5DDAA95C0B060"},
       {"sessao": "019fa047-b39f-7011-ba65-77fa63534bf9", "arquivo": "rollout-2026-07-26T18-14-41-019fa047-b39f-7011-ba65-77fa63534bf9.jsonl", "mtime": "2026-07-27T09:10:10-03:00", "tamanho": 1040578, "hash_sha256": "157CCD5D7C09DED69AE08B00E85BD05D07D107362F0BBCA6A097D7C8A17CFB24"},
