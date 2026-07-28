@@ -79,16 +79,16 @@
     "observacao": "Hashes dos pendentes não foram avançados porque mtime/tamanho mudaram durante a leitura; a sessão corrente foi excluída como fonte."
   },
   "git": {
-    "status": "sucesso_parcial_nota_manifesto_prontos_fontes_pendentes",
+    "status": "sucesso_parcial_fontes_pendentes_push_confirmado",
     "alteracoes_nao_relacionadas_preservadas": ["09-Sistema/agents/AGENTS.md", "JARVIS/Memorias/Diario/2026-07-21.md", "JARVIS/Memorias/fatos_rapidos.md", "02-JARVIS/Improvement_*.md", "JARVIS/Memorias/Diario/2026-07-25.md"],
     "fetch": "concluido",
-    "head_antes": "ee110163252de2e6cd799b006cb39be9d29769a4",
-    "origin_main_antes": "ee110163252de2e6cd799b006cb39be9d29769a4",
-    "backup_local": {"ref": "refs/backup/codex-fechamento/20260726-134003-local", "hash": "ee110163252de2e6cd799b006cb39be9d29769a4"},
-    "backup_remoto": {"ref": "refs/backup/codex-fechamento/20260726-134003-remoto", "hash": "ee110163252de2e6cd799b006cb39be9d29769a4"},
-    "commit_fechamento": "64b7a16800d8444316c4a409317463e46c6919f5",
-    "merge": {"base": "ee110163252de2e6cd799b006cb39be9d29769a4", "resultado": "main_e_origin_main_alinhadas_sem_merge_necessario", "conflitos": [], "arquivos_preservados": []},
-    "push": {"status": "confirmado", "branch": "main", "origin_main": "995110aa3d3ed10fd7bb34003b2dcbddbc898b0b", "observacao": "commit escopado publicado sem force push; fontes pendentes preservadas"},
+    "head_antes": "cb25f23d9796d73d2ca1e2b767bb9d0611e3ff9e",
+    "origin_main_antes": "cb25f23d9796d73d2ca1e2b767bb9d0611e3ff9e",
+    "backup_local": {"ref": "refs/backup/codex-fechamento/20260728-115637-local", "hash": "cb25f23d9796d73d2ca1e2b767bb9d0611e3ff9e"},
+    "backup_remoto": {"ref": "refs/backup/codex-fechamento/20260728-115637-remoto", "hash": "cb25f23d9796d73d2ca1e2b767bb9d0611e3ff9e"},
+    "commit_fechamento": "f237eb18a2c0e301185815ffa2a93efe8d21cdeb",
+    "merge": {"base": "cb25f23d9796d73d2ca1e2b767bb9d0611e3ff9e", "resultado": "main_e_origin_main_alinhadas_sem_merge_necessario", "conflitos": [], "arquivos_preservados": []},
+    "push": {"status": "confirmado", "branch": "main", "origin_main": "f237eb18a2c0e301185815ffa2a93efe8d21cdeb", "observacao": "commit escopado publicado sem force push; fontes pendentes preservadas"},
     "hook_pre_commit": "conhecido: Python314 inexistente; usar --no-verify somente após validações diretas"
   }
 }
