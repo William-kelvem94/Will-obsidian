@@ -52,6 +52,6 @@ Fechamento incremental executado com o manifesto compartilhado. Não surgiram ro
 
 ## Manifesto e resultado Git
 
-- Manifesto, frontmatter e `git diff --check` serão validados antes da publicação.
-- `git fetch origin` e backups permanentes serão registrados no manifesto antes do commit. Somente esta nota e o manifesto entram no fechamento; alterações locais não relacionadas permanecem intocadas.
-- Resultado da execução: sucesso parcial por fontes pendentes; o push será confirmado após o commit e a verificação final de `HEAD = origin/main`.
+- Manifesto, frontmatter e o diff staged dos arquivos do fechamento foram validados; o `git diff --check` global mantém apenas whitespace preexistente em alteração não relacionada.
+- Backups permanentes: `refs/backup/codex-fechamento/20260729-175312-local` e `refs/backup/codex-fechamento/20260729-175312-remoto`, ambos no HEAD anterior. Somente esta nota e o manifesto entraram nos commits.
+- Resultado da execução: sucesso parcial por fontes pendentes, com merge desnecessário e push confirmado; `HEAD = origin/main = 69ce1dad473d6483f256fdf0c152fc5a403f07a6`.
