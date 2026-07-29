@@ -1,8 +1,8 @@
 {
   "versao": 2,
-  "ultima_execucao": "2026-07-29T11:52:00-03:00",
-  "automation_id": "fechamento-codex-manh",
-  "janela": "2026-07-28T11:56:37-03:00/2026-07-29T11:52:00-03:00",
+  "ultima_execucao": "2026-07-29T17:53:12-03:00",
+  "automation_id": "fechamento-codex-tarde",
+  "janela": "2026-07-29T11:56:37-03:00/2026-07-29T17:53:12-03:00",
   "status": "parcial",
   "politica": {
     "fontes_geradas_excluidas": ["09-Sistema/Codex", "09-Sistema/Sessoes"],
@@ -43,15 +43,15 @@
         {"sessao":"019faa7e-c473-71d3-9cb1-1c7102437a19","arquivo":"rollout-2026-07-28T17-51-02-019faa7e-c473-71d3-9cb1-1c7102437a19.jsonl","status":"pendente_arquivo_em_uso"},
         {"sessao":"019fadc8-68ef-7be0-a961-1496548bb62e","arquivo":"rollout-2026-07-29T09-10-20-019fadc8-68ef-7be0-a961-1496548bb62e.jsonl","status":"pendente_arquivo_em_uso"},
         {"sessao":"019fade2-0a91-7ad1-81cd-43cb0b26cdfc","arquivo":"rollout-2026-07-29T09-38-20-019fade2-0a91-7ad1-81cd-43cb0b26cdfc.jsonl","status":"pendente_arquivo_em_uso"},
-        {"sessao":"019fae5b-bc5f-77c1-aa32-1a35f6f46dd1","arquivo":"rollout-2026-07-29T11-51-15-019fae5b-bc5f-77c1-aa32-1a35f6f46dd1.jsonl","status":"pendente_sessao_corrente_ignorada"}
+        {"sessao":"019fafa5-2af1-7cc2-af2c-95c80522b0f9","arquivo":"rollout-2026-07-29T17-51-05-019fafa5-2af1-7cc2-af2c-95c80522b0f9.jsonl","status":"pendente_sessao_corrente_ignorada"}
       ]
     },
     {"caminho":"C:\\Users\\willi\\Documents\\Codex","status":"concluida","arquivos_processados":0,"arquivos_pendentes":0,"motivo":"varredura filtrada sem arquivos elegíveis novos; saídas, dependências, ambientes e conteúdo sensível ignorados"}
   ],
-  "notas_atualizadas": ["09-Sistema/Codex/2026-07-29-Fechamento-Codex-Manha.md"],
+  "notas_atualizadas": ["09-Sistema/Codex/2026-07-29-Fechamento-Codex-Manha.md", "09-Sistema/Codex/2026-07-29-Fechamento-Codex-Tarde.md"],
   "itens_processados": ["auditoria canônica do JARVIS", "orquestração de tarefas e chat", "providers e streaming", "segurança por sessão", "ferramentas em streaming", "WebSocket e voz", "validação de dados sem db push"],
   "deduplicacoes": ["fechamentos do Codex excluídos como fonte", "sessão corrente excluída", "seis pendências antigas reavaliadas por estabilidade", "Documents\\Codex filtrado sem dependências e saídas", "repetições de auditorias consolidadas por sessão e hash"],
   "cursor": {"janela_anterior":"2026-07-28T11:56:37-03:00","fontes":"ver fontes[0].sessoes e fontes[0].pendentes; cursores estáveis só avançados após hash"},
-  "execucao_atual": {"status":"parcial","rollouts_estaveis_processados":19,"fontes_pendentes":5,"sessoes_deduplicadas":6,"observacao":"quatro arquivos estavam bloqueados durante o hash; a sessão corrente foi excluída como fonte"},
+  "execucao_atual": {"status":"parcial","rollouts_estaveis_processados":0,"rollouts_estaveis_acumulados":19,"fontes_pendentes":5,"sessoes_deduplicadas":19,"observacao":"quatro arquivos continuam bloqueados durante o hash; a sessão corrente foi excluída como fonte"},
   "git": {"status":"sucesso_parcial_fontes_pendentes_push_pendente","fetch":"concluido","head_antes":"6c3646148627d9bed7445200f7da3a96985ba763","origin_main_antes":"6c3646148627d9bed7445200f7da3a96985ba763","backup_local":{"ref":"refs/backup/codex-fechamento/20260729-115150-local","hash":"6c3646148627d9bed7445200f7da3a96985ba763"},"backup_remoto":{"ref":"refs/backup/codex-fechamento/20260729-115150-remoto","hash":"6c3646148627d9bed7445200f7da3a96985ba763"},"merge":{"resultado":"main_e_origin_main_alinhadas_sem_merge_necessario","conflitos":[],"arquivos_preservados":[]},"push":{"status":"pendente_apos_commit"},"alteracoes_nao_relacionadas_preservadas":["09-Sistema/agents/AGENTS.md","JARVIS/Memorias/Diario/2026-07-21.md","JARVIS/Memorias/fatos_rapidos.md","02-JARVIS/Improvement_*.md","JARVIS/Memorias/Diario/2026-07-25.md"],"hook_pre_commit":"Python 3.14 inexistente; validar diretamente e usar --no-verify somente se necessário"}
 }
