@@ -1,8 +1,8 @@
 {
   "versao": 2,
-  "ultima_execucao": "2026-07-28T11:56:37-03:00",
+  "ultima_execucao": "2026-07-29T11:52:00-03:00",
   "automation_id": "fechamento-codex-manh",
-  "janela": "2026-07-26T17:53:45-03:00/2026-07-28T11:56:37-03:00",
+  "janela": "2026-07-28T11:56:37-03:00/2026-07-29T11:52:00-03:00",
   "status": "parcial",
   "politica": {
     "fontes_geradas_excluidas": ["09-Sistema/Codex", "09-Sistema/Sessoes"],
@@ -14,81 +14,44 @@
     {
       "caminho": "C:\\Users\\willi\\.codex\\sessions",
       "status": "parcial",
-      "arquivos_processados": 2,
-      "arquivos_pendentes": 7,
-      "motivo": "sessões em uso ou incompletas preservadas para próxima execução",
+      "arquivos_processados": 19,
+      "arquivos_pendentes": 5,
+      "motivo": "19 rollouts estáveis processados; quatro arquivos bloqueados e a sessão corrente preservados para a próxima execução",
       "sessoes": [
-        {"sessao": "019f9bb6-2fdb-7710-b81f-3e2dccb7b653", "arquivo": "rollout-2026-07-25T20-57-16-019f9bb6-2fdb-7710-b81f-3e2dccb7b653.jsonl", "status": "concluida_com_interrupcao", "hash_sha256": "BF7550A50DC8A1B662E23BE6A02B5F7E498F74563AD22FD1E15BFC48F2462D3C"},
-        {"sessao": "019f9b16-5986-7a40-adc1-274f734704df", "arquivo": "rollout-2026-07-25T18-02-47-019f9b16-5986-7a40-adc1-274f734704df.jsonl", "status": "pendente_sessao_incompleta", "hash_sha256": "EAFDD1E08D70EF92A330DFA221B5CFA4518045D4E1C72E90539CCA89A6808A7F"},
-        {"sessao": "019f9bac-aaca-70d3-a62c-801ca8a19341", "arquivo": "rollout-2026-07-25T20-46-52-019f9bac-aaca-70d3-a62c-801ca8a19341.jsonl", "status": "pendente_arquivo_em_uso", "hash_sha256": null},
-        {"sessao": "019f9bcf-de78-7852-9b7b-09260b562f94", "arquivo": "rollout-2026-07-25T21-25-19-019f9bcf-de78-7852-9b7b-09260b562f94.jsonl", "status": "pendente_arquivo_em_uso", "hash_sha256": null},
-        {"sessao": "019f9be6-552a-7de0-b08c-dc1e68ae0050", "arquivo": "rollout-2026-07-25T21-49-51-019f9be6-552a-7de0-b08c-dc1e68ae0050.jsonl", "status": "pendente_sessao_corrente_ignorada", "hash_sha256": null},
-        {"sessao": "019f9f41-d18b-7cd0-b1ed-a8a584f38ac6", "arquivo": "rollout-2026-07-26T13-28-38-019f9f41-d18b-7cd0-b1ed-a8a584f38ac6.jsonl", "status": "concluida_com_interrupcao", "hash_sha256": "E1A292BC506CC7C0DFEE4107FD3F46819E6483E60013BA2755F15289E8A7CDF5"},
-        {"sessao": "019f9f49-f360-7d71-a62e-21ff320ac7c2", "arquivo": "rollout-2026-07-26T13-37-31-019f9f49-f360-7d71-a62e-21ff320ac7c2.jsonl", "status": "pendente_arquivo_em_uso", "hash_sha256": null}
-        ,{"sessao": "019f9f4b-7798-7922-b1f5-5fc16d6d05d9", "arquivo": "rollout-2026-07-26T13-39-11-019f9f4b-7798-7922-b1f5-5fc16d6d05d9.jsonl", "status": "pendente_arquivo_em_uso", "hash_sha256": null}
-        ,{"sessao": "019fa009-7cab-7bc3-aa6e-7fdc8b3d5c56", "arquivo": "rollout-2026-07-26T17-06-44-019fa009-7cab-7bc3-aa6e-7fdc8b3d5c56.jsonl", "status": "pendente_arquivo_em_uso", "hash_sha256": null}
-        ,{"sessao": "019fa032-31f0-7ad3-9cee-06b04896f730", "arquivo": "rollout-2026-07-26T17-51-12-019fa032-31f0-7ad3-9cee-06b04896f730.jsonl", "status": "pendente_sessao_corrente_ignorada", "hash_sha256": null}
+        {"sessao":"019fa4bc-4262-7b63-98b8-d91ffe071c21","arquivo":"rollout-2026-07-27T15-00-29-019fa4bc-4262-7b63-98b8-d91ffe071c21.jsonl","mtime":"2026-07-28T15:25:32-03:00","tamanho":2925104,"hash_sha256":"DA6EF5DB13E40243264E15E8CC4257978FE7E1909E8967906366645CAE8D8696","status":"concluida_com_interrupcao"},
+        {"sessao":"019fa8ea-0624-7b10-abd8-bc11abccae8e","arquivo":"rollout-2026-07-28T10-28-57-019fa8ea-0624-7b10-abd8-bc11abccae8e.jsonl","mtime":"2026-07-28T10:59:30-03:00","tamanho":1117122,"hash_sha256":"80072BF42487AAB25C7865E4C43A7F49F141BFDA65FEBFB769E77CC5F4C60004","status":"concluida_com_interrupcao"},
+        {"sessao":"019fa8ea-0851-7ed0-83cc-e89803c09a81","arquivo":"rollout-2026-07-28T10-28-57-019fa8ea-0851-7ed0-83cc-e89803c09a81.jsonl","mtime":"2026-07-28T14:43:33-03:00","tamanho":2722399,"hash_sha256":"9150ECF2C8ED101DC8D148F6427EFA41A7A791AB450B682C9D2F9DA5871F440E","status":"concluida_com_interrupcao"},
+        {"sessao":"019fa8ea-09cc-7f82-9c2c-8d4bf495e838","arquivo":"rollout-2026-07-28T10-28-58-019fa8ea-09cc-7f82-9c2c-8d4bf495e838.jsonl","mtime":"2026-07-28T10:44:31-03:00","tamanho":984546,"hash_sha256":"0DA3A923DB9243296E593FDFAE66E067A4A38ACA5EAD353274600477C793B83D","status":"concluida_com_interrupcao"},
+        {"sessao":"019fa907-79e2-7a41-9697-d23f601647eb","arquivo":"rollout-2026-07-28T11-01-07-019fa907-79e2-7a41-9697-d23f601647eb.jsonl","mtime":"2026-07-28T12:00:32-03:00","tamanho":1287912,"hash_sha256":"22619DD55A893CFBEB450AEA8ACD67F69DB6F0C990F2EEC32DF370E0C9053E07","status":"concluida_com_interrupcao"},
+        {"sessao":"019fa907-7c1a-7720-97d0-84765dac5ce1","arquivo":"rollout-2026-07-28T11-01-07-019fa907-7c1a-7720-97d0-84765dac5ce1.jsonl","mtime":"2026-07-28T14:23:01-03:00","tamanho":2920001,"hash_sha256":"09768BD3FF834F1659F2DE236B4BC296BA858E2D62699E7FD8CE664AFBAA532D","status":"concluida_com_interrupcao"},
+        {"sessao":"019fa9f7-6c50-75c1-82dd-6f0123d3b563","arquivo":"rollout-2026-07-28T15-23-12-019fa9f7-6c50-75c1-82dd-6f0123d3b563.jsonl","mtime":"2026-07-28T15:27:07-03:00","tamanho":997820,"hash_sha256":"65F6146ED3601164DA90A0915E0F66D494A45D51BE33521824A6FC8FA2D35BE3","status":"concluida_com_interrupcao"},
+        {"sessao":"019fa9f7-6d72-7590-8454-2a668c239dea","arquivo":"rollout-2026-07-28T15-23-12-019fa9f7-6d72-7590-8454-2a668c239dea.jsonl","mtime":"2026-07-28T15:27:06-03:00","tamanho":1030881,"hash_sha256":"14951192BCB9971017FBC70040737587C6AA3EFEF9BA2B90D9F63B433D2CC9B0","status":"concluida_com_interrupcao"},
+        {"sessao":"019fa9f7-6e68-71a0-bf58-3ca7b73eeb5c","arquivo":"rollout-2026-07-28T15-23-13-019fa9f7-6e68-71a0-bf58-3ca7b73eeb5c.jsonl","mtime":"2026-07-28T15:27:08-03:00","tamanho":1022454,"hash_sha256":"B3933880FB25CF92A2F5D0CD2DD9D2EED5DB541C7D22E92A9850060A4BB4CBCE","status":"concluida_com_interrupcao"},
+        {"sessao":"019fa9fa-613b-79b0-bcd7-c526f743cb65","arquivo":"rollout-2026-07-28T15-26-26-019fa9fa-613b-79b0-bcd7-c526f743cb65.jsonl","mtime":"2026-07-29T08:32:01-03:00","tamanho":1355928,"hash_sha256":"1A8E49C815656C1BEECDDB43FEE88325BE7D55063EE893FF2486DAB9B7121FFF","status":"concluida_com_interrupcao"},
+        {"sessao":"019fa9fc-027a-7da2-a70c-cd78eb02c723","arquivo":"rollout-2026-07-28T15-28-13-019fa9fc-027a-7da2-a70c-cd78eb02c723.jsonl","mtime":"2026-07-28T15:32:43-03:00","tamanho":353853,"hash_sha256":"1A17776EC9F654EFE6C613BE4CE5E893E1421C7C8E029A29A398FB95AF638966","status":"concluida_com_interrupcao"},
+        {"sessao":"019fa9fc-04ee-7dc0-ab10-7175b463d7b7","arquivo":"rollout-2026-07-28T15-28-14-019fa9fc-04ee-7dc0-ab10-7175b463d7b7.jsonl","mtime":"2026-07-28T15:33:48-03:00","tamanho":464143,"hash_sha256":"8F46E3DD7819181F9938FB428430E809C71AEBF14F8CF349A75762382568288D","status":"concluida_com_interrupcao"},
+        {"sessao":"019fa9fc-0a1c-7c62-b28a-6dbaef4855ac","arquivo":"rollout-2026-07-28T15-28-15-019fa9fc-0a1c-7c62-b28a-6dbaef4855ac.jsonl","mtime":"2026-07-28T15:35:26-03:00","tamanho":413457,"hash_sha256":"B576C46A415C3D5CFB618F36368A18B605BF898C7DBD4B491E0B4F2F18D2AD74","status":"concluida_com_interrupcao"},
+        {"sessao":"019faa05-82f4-7783-910a-b590aaff105b","arquivo":"rollout-2026-07-28T15-38-35-019faa05-82f4-7783-910a-b590aaff105b.jsonl","mtime":"2026-07-28T15:40:31-03:00","tamanho":589057,"hash_sha256":"94F22C36B398FAE281C2365C38B69BF8783A6F26B31BF08C87C237A475BD194A","status":"concluida_com_interrupcao"},
+        {"sessao":"019faa05-8694-7210-a304-d0f2ed0a145a","arquivo":"rollout-2026-07-28T15-38-37-019faa05-8694-7210-a304-d0f2ed0a145a.jsonl","mtime":"2026-07-28T15:40:08-03:00","tamanho":611021,"hash_sha256":"A72F92A3ED5EAA4E39232862246FD628B09DEE2DB50C36BF1E1D9B8A1FA34C19","status":"concluida_com_interrupcao"},
+        {"sessao":"019faa05-8d23-7e62-97b6-7333f20ba53e","arquivo":"rollout-2026-07-28T15-38-39-019faa05-8d23-7e62-97b6-7333f20ba53e.jsonl","mtime":"2026-07-28T15:43:12-03:00","tamanho":555193,"hash_sha256":"F00A387E45709794FF494F24DBC332CCBBA7FB98EE6994246D62B83D2A892589","status":"concluida_com_interrupcao"},
+        {"sessao":"019faa0b-d497-7de1-856d-85e80293b9bd","arquivo":"rollout-2026-07-28T15-45-30-019faa0b-d497-7de1-856d-85e80293b9bd.jsonl","mtime":"2026-07-28T15:48:22-03:00","tamanho":714490,"hash_sha256":"84D6ECC7B2373A97E8CE37E5E73FAB230812083765D31B22E28E2E8BE9891862","status":"concluida_com_interrupcao"},
+        {"sessao":"019faa0b-d891-7fb3-841e-b95319bbe998","arquivo":"rollout-2026-07-28T15-45-31-019faa0b-d891-7fb3-841e-b95319bbe998.jsonl","mtime":"2026-07-28T15:49:01-03:00","tamanho":707341,"hash_sha256":"1D6D5C799CF85BF58E22BAE32F7C9A501571BFD92726FC652C2EC2764C30C4A9","status":"concluida_com_interrupcao"},
+        {"sessao":"019faa0b-e043-7a40-8b64-ed2dd7dbde63","arquivo":"rollout-2026-07-28T15-45-33-019faa0b-e043-7a40-8b64-ed2dd7dbde63.jsonl","mtime":"2026-07-28T15:47:19-03:00","tamanho":668463,"hash_sha256":"2E820CF94E948C95A5EA4D8A40B8C6B631322318DD8350241917B807DCABF6AA","status":"concluida_com_interrupcao"}
+      ],
+      "pendentes": [
+        {"sessao":"019fa936-9ce5-7880-99f9-0aca8328dd9a","arquivo":"rollout-2026-07-28T11-52-36-019fa936-9ce5-7880-99f9-0aca8328dd9a.jsonl","status":"pendente_arquivo_em_uso"},
+        {"sessao":"019faa7e-c473-71d3-9cb1-1c7102437a19","arquivo":"rollout-2026-07-28T17-51-02-019faa7e-c473-71d3-9cb1-1c7102437a19.jsonl","status":"pendente_arquivo_em_uso"},
+        {"sessao":"019fadc8-68ef-7be0-a961-1496548bb62e","arquivo":"rollout-2026-07-29T09-10-20-019fadc8-68ef-7be0-a961-1496548bb62e.jsonl","status":"pendente_arquivo_em_uso"},
+        {"sessao":"019fade2-0a91-7ad1-81cd-43cb0b26cdfc","arquivo":"rollout-2026-07-29T09-38-20-019fade2-0a91-7ad1-81cd-43cb0b26cdfc.jsonl","status":"pendente_arquivo_em_uso"},
+        {"sessao":"019fae5b-bc5f-77c1-aa32-1a35f6f46dd1","arquivo":"rollout-2026-07-29T11-51-15-019fae5b-bc5f-77c1-aa32-1a35f6f46dd1.jsonl","status":"pendente_sessao_corrente_ignorada"}
       ]
     },
-    {
-      "caminho": "C:\\Users\\willi\\Documents\\Codex",
-      "status": "concluida",
-      "arquivos_processados": 0,
-      "motivo": "varredura incremental filtrada; não foram encontrados arquivos elegíveis novos; saídas, dependências, ambientes e conteúdo sensível ignorados",
-      "proxima_acao": "manter cursor por hash, mtime, tamanho e janela"
-    }
+    {"caminho":"C:\\Users\\willi\\Documents\\Codex","status":"concluida","arquivos_processados":0,"arquivos_pendentes":0,"motivo":"varredura filtrada sem arquivos elegíveis novos; saídas, dependências, ambientes e conteúdo sensível ignorados"}
   ],
-  "notas_atualizadas": ["09-Sistema/Codex/2026-07-25-Fechamento-Codex-Manha.md", "09-Sistema/Codex/2026-07-26-Fechamento-Codex-Manha.md", "09-Sistema/Codex/2026-07-26-Fechamento-Codex-Tarde.md", "09-Sistema/Codex/2026-07-28-Fechamento-Codex-Manha.md"],
-  "itens_processados": ["auditoria operacional do PROJECT_JARVIS_5.0", "testes backend e build frontend", "falhas de runtime frontend", "fila cognitiva sem worker geral", "health check bloqueante", "log de instalação excessivo", "processos duplicados"],
-  "deduplicacoes": ["nota diária de 2026-07-25 atualizada em vez de duplicada", "fechamentos do Codex excluídos como fonte", "Documents\\Codex filtrado sem reprocessar dependências", "sessão corrente excluída", "sessões em uso mantidas pendentes", "repetições da auditoria do JARVIS consolidadas por sessão e hash"],
-  "cursor": {
-    "janela_anterior": "2026-07-25T18:04:26-03:00",
-    "fontes": [
-      {"caminho": "C:\\Users\\willi\\.codex\\sessions\\2026\\07\\25\\rollout-2026-07-25T20-57-16-019f9bb6-2fdb-7710-b81f-3e2dccb7b653.jsonl", "sessao": "019f9bb6-2fdb-7710-b81f-3e2dccb7b653", "mtime": "2026-07-25T21:24:21-03:00", "tamanho": 1175167, "hash_sha256": "BF7550A50DC8A1B662E23BE6A02B5F7E498F74563AD22FD1E15BFC48F2462D3C", "status": "concluida_com_interrupcao"},
-      {"caminho": "C:\\Users\\willi\\.codex\\sessions\\2026\\07\\25\\rollout-2026-07-25T18-02-47-019f9b16-5986-7a40-adc1-274f734704df.jsonl", "sessao": "019f9b16-5986-7a40-adc1-274f734704df", "mtime": "2026-07-25T18:05:53-03:00", "tamanho": 184102, "hash_sha256": "EAFDD1E08D70EF92A330DFA221B5CFA4518045D4E1C72E90539CCA89A6808A7F", "status": "pendente_sessao_incompleta"},
-      {"caminho": "C:\\Users\\willi\\.codex\\sessions\\2026\\07\\25\\rollout-2026-07-25T20-46-52-019f9bac-aaca-70d3-a62c-801ca8a19341.jsonl", "sessao": "019f9bac-aaca-70d3-a62c-801ca8a19341", "mtime": "2026-07-25T20:57:06-03:00", "tamanho": 455079, "hash_sha256": null, "status": "pendente_arquivo_em_uso"},
-      {"caminho": "C:\\Users\\willi\\.codex\\sessions\\2026\\07\\25\\rollout-2026-07-25T21-25-19-019f9bcf-de78-7852-9b7b-09260b562f94.jsonl", "sessao": "019f9bcf-de78-7852-9b7b-09260b562f94", "mtime": "2026-07-25T21:51:58-03:00", "tamanho": 990268, "hash_sha256": null, "status": "pendente_arquivo_em_uso"},
-      {"caminho": "C:\\Users\\willi\\.codex\\sessions\\2026\\07\\25\\rollout-2026-07-25T21-49-51-019f9be6-552a-7de0-b08c-dc1e68ae0050.jsonl", "sessao": "019f9be6-552a-7de0-b08c-dc1e68ae0050", "mtime": "2026-07-25T21:51:14-03:00", "tamanho": 206194, "hash_sha256": null, "status": "pendente_sessao_corrente_ignorada"},
-      {"caminho": "C:\\Users\\willi\\.codex\\sessions\\2026\\07\\26\\rollout-2026-07-26T13-28-38-019f9f41-d18b-7cd0-b1ed-a8a584f38ac6.jsonl", "sessao": "019f9f41-d18b-7cd0-b1ed-a8a584f38ac6", "mtime": "2026-07-26T13:40:11-03:00", "tamanho": 230872, "hash_sha256": "E1A292BC506CC7C0DFEE4107FD3F46819E6483E60013BA2755F15289E8A7CDF5", "status": "concluida_com_interrupcao"},
-      {"caminho": "C:\\Users\\willi\\.codex\\sessions\\2026\\07\\26\\rollout-2026-07-26T13-37-31-019f9f49-f360-7d71-a62e-21ff320ac7c2.jsonl", "sessao": "019f9f49-f360-7d71-a62e-21ff320ac7c2", "mtime": "2026-07-26T13:37:31-03:00", "tamanho": 142775, "hash_sha256": null, "status": "pendente_arquivo_em_uso"}
-    ]
-  },
-  "execucao_atual": {
-    "status": "parcial",
-    "rollouts_estaveis_processados": 11,
-    "sessoes_deduplicadas": 1,
-    "fontes_pendentes": 7,
-    "estaveis": [
-      {"sessao": "019fa03f-0663-7232-8725-d3880c7dcaf0", "arquivo": "rollout-2026-07-26T18-05-12-019fa03f-0663-7232-8725-d3880c7dcaf0.jsonl", "mtime": "2026-07-27T15:01:00-03:00", "tamanho": 9778648, "hash_sha256": "5AB03ADCA012EA5FE0BE676A1BE7C7A70F550A9193BF2DD435D5DDAA95C0B060"},
-      {"sessao": "019fa047-b39f-7011-ba65-77fa63534bf9", "arquivo": "rollout-2026-07-26T18-14-41-019fa047-b39f-7011-ba65-77fa63534bf9.jsonl", "mtime": "2026-07-27T09:10:10-03:00", "tamanho": 1040578, "hash_sha256": "157CCD5D7C09DED69AE08B00E85BD05D07D107362F0BBCA6A097D7C8A17CFB24"},
-      {"sessao": "019fa086-2ca3-7f42-9465-75a7e29327b0", "arquivo": "rollout-2026-07-26T19-22-55-019fa086-2ca3-7f42-9465-75a7e29327b0.jsonl", "mtime": "2026-07-27T09:10:11-03:00", "tamanho": 883950, "hash_sha256": "F294A0B1574CF48091C30B1AA9DC0762F9FCB0D2DFD28D741122460A97692F29"},
-      {"sessao": "019fa047-b52c-7581-9510-9dcce7aba650", "arquivo": "rollout-2026-07-26T18-14-42-019fa047-b52c-7581-9510-9dcce7aba650.jsonl", "mtime": "2026-07-27T09:10:13-03:00", "tamanho": 1397883, "hash_sha256": "D856E8038859B5C91A183538309600CB0DDBB993D214556E182135AD7CC27B77"},
-      {"sessao": "019fa047-bcb0-7c90-bcec-743ac00d813d", "arquivo": "rollout-2026-07-26T18-14-44-019fa047-bcb0-7c90-bcec-743ac00d813d.jsonl", "mtime": "2026-07-27T09:10:34-03:00", "tamanho": 1017413, "hash_sha256": "F839A2DCA39562435A94C6701D827FC625530B9202041E9424E53AB89A1CB95B"},
-      {"sessao": "019fa047-b809-7f80-a90c-34f913791d9c", "arquivo": "rollout-2026-07-26T18-14-42-019fa047-b809-7f80-a90c-34f913791d9c.jsonl", "mtime": "2026-07-27T09:10:37-03:00", "tamanho": 1257416, "hash_sha256": "5FAAF71A60416CCCF72E5E5A3C5D96DD7010AD148D2EFCE482F0B0F6502C4B4B"},
-      {"sessao": "019fa047-c262-7c90-9407-ab7b876cf996", "arquivo": "rollout-2026-07-26T18-14-46-019fa047-c262-7c90-9407-ab7b876cf996.jsonl", "mtime": "2026-07-27T14:53:52-03:00", "tamanho": 1337716, "hash_sha256": "18E42EC52C6D4010A49105FF218474F7F2969D612298A3D2A0AF93E4930FB0B6"},
-      {"sessao": "019fa3c1-8702-7343-97eb-1edc496e3074", "arquivo": "rollout-2026-07-27T10-26-37-019fa3c1-8702-7343-97eb-1edc496e3074.jsonl", "mtime": "2026-07-27T10:32:51-03:00", "tamanho": 355762, "hash_sha256": "93E3FD459371FA1E27B7B9F2CE7F64683A861DEEE9A50DC44B3D377B35954F18"},
-      {"sessao": "019fa3c1-9869-7ae2-8c8a-f6ed7724bcc8", "arquivo": "rollout-2026-07-27T10-26-41-019fa3c1-9869-7ae2-8c8a-f6ed7724bcc8.jsonl", "mtime": "2026-07-27T10:33:08-03:00", "tamanho": 285298, "hash_sha256": "E381F7AD8483E2CAE95234DCE8AD6E8A82508C0C58290C62F89F809237A012FF"},
-      {"sessao": "019fa3c1-a8ec-7062-8140-f85978fdc2ee", "arquivo": "rollout-2026-07-27T10-26-46-019fa3c1-a8ec-7062-8140-f85978fdc2ee.jsonl", "mtime": "2026-07-27T10:34:56-03:00", "tamanho": 644336, "hash_sha256": "A052D151EF4100EC17EE1C27D567C8C0BB05C03972340E5396F0567A887D378F"},
-      {"sessao": "019fa3c1-b94b-7102-8321-2d0d58e38656", "arquivo": "rollout-2026-07-27T10-26-50-019fa3c1-b94b-7102-8321-2d0d58e38656.jsonl", "mtime": "2026-07-27T10:38:48-03:00", "tamanho": 709817, "hash_sha256": "E7C4FC5D0620E512856B4BF76DA727CE128BD86411F137E3A554C7215622C3C2"},
-      {"sessao": "019fa3c1-c45e-7043-a968-86cc23b31d5c", "arquivo": "rollout-2026-07-27T10-26-53-019fa3c1-c45e-7043-a968-86cc23b31d5c.jsonl", "mtime": "2026-07-27T10:36:03-03:00", "tamanho": 893894, "hash_sha256": "8DFA4224AF5DE247A6190BC0F7EC3D0F4E513D79483B56A119DC654F1B06C982"}
-    ],
-    "pendentes_instaveis": [
-      "019fa4bc-4262-7b63-98b8-d91ffe071c21", "019fa8ea-09cc-7f82-9c2c-8d4bf495e838", "019fa8ea-0624-7b10-abd8-bc11abccae8e", "019fa8ea-0851-7ed0-83cc-e89803c09a81", "019fa907-79e2-7a41-9697-d23f601647eb", "019fa907-7c1a-7720-97d0-84765dac5ce1"
-    ],
-    "sessao_corrente_ignorada": "019fa936-9ce5-7880-99f9-0aca8328dd9a",
-    "observacao": "Hashes dos pendentes não foram avançados porque mtime/tamanho mudaram durante a leitura; a sessão corrente foi excluída como fonte."
-  },
-  "git": {
-    "status": "sucesso_parcial_fontes_pendentes_push_confirmado",
-    "alteracoes_nao_relacionadas_preservadas": ["09-Sistema/agents/AGENTS.md", "JARVIS/Memorias/Diario/2026-07-21.md", "JARVIS/Memorias/fatos_rapidos.md", "02-JARVIS/Improvement_*.md", "JARVIS/Memorias/Diario/2026-07-25.md"],
-    "fetch": "concluido",
-    "head_antes": "cb25f23d9796d73d2ca1e2b767bb9d0611e3ff9e",
-    "origin_main_antes": "cb25f23d9796d73d2ca1e2b767bb9d0611e3ff9e",
-    "backup_local": {"ref": "refs/backup/codex-fechamento/20260728-115637-local", "hash": "cb25f23d9796d73d2ca1e2b767bb9d0611e3ff9e"},
-    "backup_remoto": {"ref": "refs/backup/codex-fechamento/20260728-115637-remoto", "hash": "cb25f23d9796d73d2ca1e2b767bb9d0611e3ff9e"},
-    "commit_fechamento": "f237eb18a2c0e301185815ffa2a93efe8d21cdeb",
-    "merge": {"base": "cb25f23d9796d73d2ca1e2b767bb9d0611e3ff9e", "resultado": "main_e_origin_main_alinhadas_sem_merge_necessario", "conflitos": [], "arquivos_preservados": []},
-    "push": {"status": "confirmado", "branch": "main", "origin_main": "f237eb18a2c0e301185815ffa2a93efe8d21cdeb", "observacao": "commit escopado publicado sem force push; fontes pendentes preservadas"},
-    "hook_pre_commit": "conhecido: Python314 inexistente; usar --no-verify somente após validações diretas"
-  }
+  "notas_atualizadas": ["09-Sistema/Codex/2026-07-29-Fechamento-Codex-Manha.md"],
+  "itens_processados": ["auditoria canônica do JARVIS", "orquestração de tarefas e chat", "providers e streaming", "segurança por sessão", "ferramentas em streaming", "WebSocket e voz", "validação de dados sem db push"],
+  "deduplicacoes": ["fechamentos do Codex excluídos como fonte", "sessão corrente excluída", "seis pendências antigas reavaliadas por estabilidade", "Documents\\Codex filtrado sem dependências e saídas", "repetições de auditorias consolidadas por sessão e hash"],
+  "cursor": {"janela_anterior":"2026-07-28T11:56:37-03:00","fontes":"ver fontes[0].sessoes e fontes[0].pendentes; cursores estáveis só avançados após hash"},
+  "execucao_atual": {"status":"parcial","rollouts_estaveis_processados":19,"fontes_pendentes":5,"sessoes_deduplicadas":6,"observacao":"quatro arquivos estavam bloqueados durante o hash; a sessão corrente foi excluída como fonte"},
+  "git": {"status":"sucesso_parcial_fontes_pendentes_push_pendente","fetch":"concluido","head_antes":"6c3646148627d9bed7445200f7da3a96985ba763","origin_main_antes":"6c3646148627d9bed7445200f7da3a96985ba763","backup_local":{"ref":"refs/backup/codex-fechamento/20260729-115150-local","hash":"6c3646148627d9bed7445200f7da3a96985ba763"},"backup_remoto":{"ref":"refs/backup/codex-fechamento/20260729-115150-remoto","hash":"6c3646148627d9bed7445200f7da3a96985ba763"},"merge":{"resultado":"main_e_origin_main_alinhadas_sem_merge_necessario","conflitos":[],"arquivos_preservados":[]},"push":{"status":"pendente_apos_commit"},"alteracoes_nao_relacionadas_preservadas":["09-Sistema/agents/AGENTS.md","JARVIS/Memorias/Diario/2026-07-21.md","JARVIS/Memorias/fatos_rapidos.md","02-JARVIS/Improvement_*.md","JARVIS/Memorias/Diario/2026-07-25.md"],"hook_pre_commit":"Python 3.14 inexistente; validar diretamente e usar --no-verify somente se necessário"}
 }
