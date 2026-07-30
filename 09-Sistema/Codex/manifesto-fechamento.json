@@ -1,8 +1,8 @@
 {
   "versao": 2,
-  "ultima_execucao": "2026-07-29T17:53:12-03:00",
-  "automation_id": "fechamento-codex-tarde",
-  "janela": "2026-07-29T11:56:37-03:00/2026-07-29T17:53:12-03:00",
+  "ultima_execucao": "2026-07-30T11:52:27-03:00",
+  "automation_id": "fechamento-codex-manh",
+  "janela": "2026-07-29T17:53:12-03:00/2026-07-30T11:52:27-03:00",
   "status": "parcial",
   "politica": {
     "fontes_geradas_excluidas": ["09-Sistema/Codex", "09-Sistema/Sessoes"],
@@ -48,10 +48,10 @@
     },
     {"caminho":"C:\\Users\\willi\\Documents\\Codex","status":"concluida","arquivos_processados":0,"arquivos_pendentes":0,"motivo":"varredura filtrada sem arquivos elegíveis novos; saídas, dependências, ambientes e conteúdo sensível ignorados"}
   ],
-  "notas_atualizadas": ["09-Sistema/Codex/2026-07-29-Fechamento-Codex-Manha.md", "09-Sistema/Codex/2026-07-29-Fechamento-Codex-Tarde.md"],
+  "notas_atualizadas": ["09-Sistema/Codex/2026-07-29-Fechamento-Codex-Manha.md", "09-Sistema/Codex/2026-07-29-Fechamento-Codex-Tarde.md", "09-Sistema/Codex/2026-07-30-Fechamento-Codex-Manha.md"],
   "itens_processados": ["auditoria canônica do JARVIS", "orquestração de tarefas e chat", "providers e streaming", "segurança por sessão", "ferramentas em streaming", "WebSocket e voz", "validação de dados sem db push"],
   "deduplicacoes": ["fechamentos do Codex excluídos como fonte", "sessão corrente excluída", "seis pendências antigas reavaliadas por estabilidade", "Documents\\Codex filtrado sem dependências e saídas", "repetições de auditorias consolidadas por sessão e hash"],
   "cursor": {"janela_anterior":"2026-07-28T11:56:37-03:00","fontes":"ver fontes[0].sessoes e fontes[0].pendentes; cursores estáveis só avançados após hash"},
-  "execucao_atual": {"status":"parcial","rollouts_estaveis_processados":0,"rollouts_estaveis_acumulados":19,"fontes_pendentes":5,"sessoes_deduplicadas":19,"observacao":"quatro arquivos continuam bloqueados durante o hash; a sessão corrente foi excluída como fonte"},
-  "git": {"status":"sucesso_parcial_fontes_pendentes_push_confirmado","fetch":"concluido","head_antes":"2c1c6bfbaf74be686bfc7214b0b3d4babb9faf55","origin_main_antes":"2c1c6bfbaf74be686bfc7214b0b3d4babb9faf55","backup_local":{"ref":"refs/backup/codex-fechamento/20260729-175312-local","hash":"2c1c6bfbaf74be686bfc7214b0b3d4babb9faf55"},"backup_remoto":{"ref":"refs/backup/codex-fechamento/20260729-175312-remoto","hash":"2c1c6bfbaf74be686bfc7214b0b3d4babb9faf55"},"commit_fechamento":"aad54c6","head_final":"aad54c6","origin_main_final":"aad54c6","merge":{"resultado":"main_e_origin_main_alinhadas_sem_merge_necessario","conflitos":[],"arquivos_preservados":[]},"push":{"status":"confirmado","commit":"aad54c6"},"alteracoes_nao_relacionadas_preservadas":["09-Sistema/agents/AGENTS.md","JARVIS/Memorias/Diario/2026-07-21.md","JARVIS/Memorias/fatos_rapidos.md","02-JARVIS/Improvement_*.md","JARVIS/Memorias/Diario/2026-07-25.md"],"hook_pre_commit":"Python 3.14 inexistente; validação direta aprovada e --no-verify usado"}
+  "execucao_atual": {"status":"parcial","rollouts_estaveis_processados":0,"rollouts_estaveis_acumulados":19,"fontes_pendentes":5,"sessoes_deduplicadas":19,"observacao":"cinco fontes não puderam ser hashadas por arquivo em uso; a sessão corrente de 30/07 foi excluída como fonte"},
+  "git": {"status":"em_validacao_sucesso_parcial_fontes_pendentes","fetch":"concluido","head_antes":"a7000e9ba3b6e27da6ec7417921eea3c30a016de","origin_main_antes":"a7000e9ba3b6e27da6ec7417921eea3c30a016de","backup_local":{"ref":"refs/backup/codex-fechamento/20260730-115227-local","hash":"a7000e9ba3b6e27da6ec7417921eea3c30a016de"},"backup_remoto":{"ref":"refs/backup/codex-fechamento/20260730-115227-remoto","hash":"a7000e9ba3b6e27da6ec7417921eea3c30a016de"},"commit_fechamento":null,"head_final":null,"origin_main_final":null,"merge":{"resultado":"main_e_origin_main_alinhadas_sem_merge_necessario","conflitos":[],"arquivos_preservados":[]},"push":{"status":"pendente_apos_validacao","commit":null},"alteracoes_nao_relacionadas_preservadas":["09-Sistema/agents/AGENTS.md","JARVIS/Memorias/Diario/2026-07-21.md","JARVIS/Memorias/fatos_rapidos.md","02-JARVIS/Improvement_*.md","JARVIS/Memorias/Diario/2026-07-25.md","JARVIS/Memorias/Diario/2026-07-26.md","JARVIS/Memorias/Diario/2026-07-27.md","JARVIS/Memorias/Diario/2026-07-28.md"],"hook_pre_commit":"Python 3.14 inexistente; validação direta e --no-verify após aprovação"}
 }
