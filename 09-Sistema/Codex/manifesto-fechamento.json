@@ -1,8 +1,8 @@
 {
   "versao": 2,
-  "ultima_execucao": "2026-07-30T11:52:27-03:00",
-  "automation_id": "fechamento-codex-manh",
-  "janela": "2026-07-29T17:53:12-03:00/2026-07-30T11:52:27-03:00",
+  "ultima_execucao": "2026-07-30T17:53:30-03:00",
+  "automation_id": "fechamento-codex-tarde",
+  "janela": "2026-07-30T11:52:27-03:00/2026-07-30T17:53:30-03:00",
   "status": "parcial",
   "politica": {
     "fontes_geradas_excluidas": ["09-Sistema/Codex", "09-Sistema/Sessoes"],
@@ -15,43 +15,32 @@
       "caminho": "C:\\Users\\willi\\.codex\\sessions",
       "status": "parcial",
       "arquivos_processados": 19,
-      "arquivos_pendentes": 5,
-      "motivo": "19 rollouts estáveis processados; quatro arquivos bloqueados e a sessão corrente preservados para a próxima execução",
-      "sessoes": [
-        {"sessao":"019fa4bc-4262-7b63-98b8-d91ffe071c21","arquivo":"rollout-2026-07-27T15-00-29-019fa4bc-4262-7b63-98b8-d91ffe071c21.jsonl","mtime":"2026-07-28T15:25:32-03:00","tamanho":2925104,"hash_sha256":"DA6EF5DB13E40243264E15E8CC4257978FE7E1909E8967906366645CAE8D8696","status":"concluida_com_interrupcao"},
-        {"sessao":"019fa8ea-0624-7b10-abd8-bc11abccae8e","arquivo":"rollout-2026-07-28T10-28-57-019fa8ea-0624-7b10-abd8-bc11abccae8e.jsonl","mtime":"2026-07-28T10:59:30-03:00","tamanho":1117122,"hash_sha256":"80072BF42487AAB25C7865E4C43A7F49F141BFDA65FEBFB769E77CC5F4C60004","status":"concluida_com_interrupcao"},
-        {"sessao":"019fa8ea-0851-7ed0-83cc-e89803c09a81","arquivo":"rollout-2026-07-28T10-28-57-019fa8ea-0851-7ed0-83cc-e89803c09a81.jsonl","mtime":"2026-07-28T14:43:33-03:00","tamanho":2722399,"hash_sha256":"9150ECF2C8ED101DC8D148F6427EFA41A7A791AB450B682C9D2F9DA5871F440E","status":"concluida_com_interrupcao"},
-        {"sessao":"019fa8ea-09cc-7f82-9c2c-8d4bf495e838","arquivo":"rollout-2026-07-28T10-28-58-019fa8ea-09cc-7f82-9c2c-8d4bf495e838.jsonl","mtime":"2026-07-28T10:44:31-03:00","tamanho":984546,"hash_sha256":"0DA3A923DB9243296E593FDFAE66E067A4A38ACA5EAD353274600477C793B83D","status":"concluida_com_interrupcao"},
-        {"sessao":"019fa907-79e2-7a41-9697-d23f601647eb","arquivo":"rollout-2026-07-28T11-01-07-019fa907-79e2-7a41-9697-d23f601647eb.jsonl","mtime":"2026-07-28T12:00:32-03:00","tamanho":1287912,"hash_sha256":"22619DD55A893CFBEB450AEA8ACD67F69DB6F0C990F2EEC32DF370E0C9053E07","status":"concluida_com_interrupcao"},
-        {"sessao":"019fa907-7c1a-7720-97d0-84765dac5ce1","arquivo":"rollout-2026-07-28T11-01-07-019fa907-7c1a-7720-97d0-84765dac5ce1.jsonl","mtime":"2026-07-28T14:23:01-03:00","tamanho":2920001,"hash_sha256":"09768BD3FF834F1659F2DE236B4BC296BA858E2D62699E7FD8CE664AFBAA532D","status":"concluida_com_interrupcao"},
-        {"sessao":"019fa9f7-6c50-75c1-82dd-6f0123d3b563","arquivo":"rollout-2026-07-28T15-23-12-019fa9f7-6c50-75c1-82dd-6f0123d3b563.jsonl","mtime":"2026-07-28T15:27:07-03:00","tamanho":997820,"hash_sha256":"65F6146ED3601164DA90A0915E0F66D494A45D51BE33521824A6FC8FA2D35BE3","status":"concluida_com_interrupcao"},
-        {"sessao":"019fa9f7-6d72-7590-8454-2a668c239dea","arquivo":"rollout-2026-07-28T15-23-12-019fa9f7-6d72-7590-8454-2a668c239dea.jsonl","mtime":"2026-07-28T15:27:06-03:00","tamanho":1030881,"hash_sha256":"14951192BCB9971017FBC70040737587C6AA3EFEF9BA2B90D9F63B433D2CC9B0","status":"concluida_com_interrupcao"},
-        {"sessao":"019fa9f7-6e68-71a0-bf58-3ca7b73eeb5c","arquivo":"rollout-2026-07-28T15-23-13-019fa9f7-6e68-71a0-bf58-3ca7b73eeb5c.jsonl","mtime":"2026-07-28T15:27:08-03:00","tamanho":1022454,"hash_sha256":"B3933880FB25CF92A2F5D0CD2DD9D2EED5DB541C7D22E92A9850060A4BB4CBCE","status":"concluida_com_interrupcao"},
-        {"sessao":"019fa9fa-613b-79b0-bcd7-c526f743cb65","arquivo":"rollout-2026-07-28T15-26-26-019fa9fa-613b-79b0-bcd7-c526f743cb65.jsonl","mtime":"2026-07-29T08:32:01-03:00","tamanho":1355928,"hash_sha256":"1A8E49C815656C1BEECDDB43FEE88325BE7D55063EE893FF2486DAB9B7121FFF","status":"concluida_com_interrupcao"},
-        {"sessao":"019fa9fc-027a-7da2-a70c-cd78eb02c723","arquivo":"rollout-2026-07-28T15-28-13-019fa9fc-027a-7da2-a70c-cd78eb02c723.jsonl","mtime":"2026-07-28T15:32:43-03:00","tamanho":353853,"hash_sha256":"1A17776EC9F654EFE6C613BE4CE5E893E1421C7C8E029A29A398FB95AF638966","status":"concluida_com_interrupcao"},
-        {"sessao":"019fa9fc-04ee-7dc0-ab10-7175b463d7b7","arquivo":"rollout-2026-07-28T15-28-14-019fa9fc-04ee-7dc0-ab10-7175b463d7b7.jsonl","mtime":"2026-07-28T15:33:48-03:00","tamanho":464143,"hash_sha256":"8F46E3DD7819181F9938FB428430E809C71AEBF14F8CF349A75762382568288D","status":"concluida_com_interrupcao"},
-        {"sessao":"019fa9fc-0a1c-7c62-b28a-6dbaef4855ac","arquivo":"rollout-2026-07-28T15-28-15-019fa9fc-0a1c-7c62-b28a-6dbaef4855ac.jsonl","mtime":"2026-07-28T15:35:26-03:00","tamanho":413457,"hash_sha256":"B576C46A415C3D5CFB618F36368A18B605BF898C7DBD4B491E0B4F2F18D2AD74","status":"concluida_com_interrupcao"},
-        {"sessao":"019faa05-82f4-7783-910a-b590aaff105b","arquivo":"rollout-2026-07-28T15-38-35-019faa05-82f4-7783-910a-b590aaff105b.jsonl","mtime":"2026-07-28T15:40:31-03:00","tamanho":589057,"hash_sha256":"94F22C36B398FAE281C2365C38B69BF8783A6F26B31BF08C87C237A475BD194A","status":"concluida_com_interrupcao"},
-        {"sessao":"019faa05-8694-7210-a304-d0f2ed0a145a","arquivo":"rollout-2026-07-28T15-38-37-019faa05-8694-7210-a304-d0f2ed0a145a.jsonl","mtime":"2026-07-28T15:40:08-03:00","tamanho":611021,"hash_sha256":"A72F92A3ED5EAA4E39232862246FD628B09DEE2DB50C36BF1E1D9B8A1FA34C19","status":"concluida_com_interrupcao"},
-        {"sessao":"019faa05-8d23-7e62-97b6-7333f20ba53e","arquivo":"rollout-2026-07-28T15-38-39-019faa05-8d23-7e62-97b6-7333f20ba53e.jsonl","mtime":"2026-07-28T15:43:12-03:00","tamanho":555193,"hash_sha256":"F00A387E45709794FF494F24DBC332CCBBA7FB98EE6994246D62B83D2A892589","status":"concluida_com_interrupcao"},
-        {"sessao":"019faa0b-d497-7de1-856d-85e80293b9bd","arquivo":"rollout-2026-07-28T15-45-30-019faa0b-d497-7de1-856d-85e80293b9bd.jsonl","mtime":"2026-07-28T15:48:22-03:00","tamanho":714490,"hash_sha256":"84D6ECC7B2373A97E8CE37E5E73FAB230812083765D31B22E28E2E8BE9891862","status":"concluida_com_interrupcao"},
-        {"sessao":"019faa0b-d891-7fb3-841e-b95319bbe998","arquivo":"rollout-2026-07-28T15-45-31-019faa0b-d891-7fb3-841e-b95319bbe998.jsonl","mtime":"2026-07-28T15:49:01-03:00","tamanho":707341,"hash_sha256":"1D6D5C799CF85BF58E22BAE32F7C9A501571BFD92726FC652C2EC2764C30C4A9","status":"concluida_com_interrupcao"},
-        {"sessao":"019faa0b-e043-7a40-8b64-ed2dd7dbde63","arquivo":"rollout-2026-07-28T15-45-33-019faa0b-e043-7a40-8b64-ed2dd7dbde63.jsonl","mtime":"2026-07-28T15:47:19-03:00","tamanho":668463,"hash_sha256":"2E820CF94E948C95A5EA4D8A40B8C6B631322318DD8350241917B807DCABF6AA","status":"concluida_com_interrupcao"}
-      ],
+      "arquivos_pendentes": 7,
+      "historico_deduplicado": "19 rollouts estaveis consolidados por sessao, caminho, mtime, tamanho e SHA-256",
       "pendentes": [
         {"sessao":"019fa936-9ce5-7880-99f9-0aca8328dd9a","arquivo":"rollout-2026-07-28T11-52-36-019fa936-9ce5-7880-99f9-0aca8328dd9a.jsonl","status":"pendente_arquivo_em_uso"},
         {"sessao":"019faa7e-c473-71d3-9cb1-1c7102437a19","arquivo":"rollout-2026-07-28T17-51-02-019faa7e-c473-71d3-9cb1-1c7102437a19.jsonl","status":"pendente_arquivo_em_uso"},
         {"sessao":"019fadc8-68ef-7be0-a961-1496548bb62e","arquivo":"rollout-2026-07-29T09-10-20-019fadc8-68ef-7be0-a961-1496548bb62e.jsonl","status":"pendente_arquivo_em_uso"},
         {"sessao":"019fade2-0a91-7ad1-81cd-43cb0b26cdfc","arquivo":"rollout-2026-07-29T09-38-20-019fade2-0a91-7ad1-81cd-43cb0b26cdfc.jsonl","status":"pendente_arquivo_em_uso"},
-        {"sessao":"019fafa5-2af1-7cc2-af2c-95c80522b0f9","arquivo":"rollout-2026-07-29T17-51-05-019fafa5-2af1-7cc2-af2c-95c80522b0f9.jsonl","status":"pendente_sessao_corrente_ignorada"}
-      ]
+        {"sessao":"019fafa5-2af1-7cc2-af2c-95c80522b0f9","arquivo":"rollout-2026-07-29T17-51-05-019fafa5-2af1-7cc2-af2c-95c80522b0f9.jsonl","status":"pendente_arquivo_em_uso"},
+        {"sessao":"019fb381-6b6e-7b32-a05b-592295762227","arquivo":"rollout-2026-07-30T11-50-31-019fb381-6b6e-7b32-a05b-592295762227.jsonl","status":"pendente_arquivo_em_uso"},
+        {"sessao":"019fb424-edd7-7192-b373-b99f90f659d5","arquivo":"rollout-2026-07-30T14-49-07-019fb424-edd7-7192-b373-b99f90f659d5.jsonl","status":"pendente_arquivo_em_uso"}
+      ],
+      "sessao_corrente_ignorada": {"sessao":"019fb4cc-3326-7320-8c85-94a1b42291e7","arquivo":"rollout-2026-07-30T17-51-50-019fb4cc-3326-7320-8c85-94a1b42291e7.jsonl","status":"pendente_sessao_corrente_ignorada"}
     },
-    {"caminho":"C:\\Users\\willi\\Documents\\Codex","status":"concluida","arquivos_processados":0,"arquivos_pendentes":0,"motivo":"varredura filtrada sem arquivos elegíveis novos; saídas, dependências, ambientes e conteúdo sensível ignorados"}
+    {
+      "caminho": "C:\\Users\\willi\\Documents\\Codex",
+      "status": "concluida",
+      "arquivos_processados": 0,
+      "arquivos_pendentes": 0,
+      "itens_ignorados": ["README de hub", "copia documental em outputs", "dependencias, ambientes, imagens e artefatos"],
+      "motivo": "nenhum arquivo operacional elegivel novo"
+    }
   ],
-  "notas_atualizadas": ["09-Sistema/Codex/2026-07-29-Fechamento-Codex-Manha.md", "09-Sistema/Codex/2026-07-29-Fechamento-Codex-Tarde.md", "09-Sistema/Codex/2026-07-30-Fechamento-Codex-Manha.md"],
-  "itens_processados": ["auditoria canônica do JARVIS", "orquestração de tarefas e chat", "providers e streaming", "segurança por sessão", "ferramentas em streaming", "WebSocket e voz", "validação de dados sem db push"],
-  "deduplicacoes": ["fechamentos do Codex excluídos como fonte", "sessão corrente excluída", "seis pendências antigas reavaliadas por estabilidade", "Documents\\Codex filtrado sem dependências e saídas", "repetições de auditorias consolidadas por sessão e hash"],
-  "cursor": {"janela_anterior":"2026-07-28T11:56:37-03:00","fontes":"ver fontes[0].sessoes e fontes[0].pendentes; cursores estáveis só avançados após hash"},
-  "execucao_atual": {"status":"parcial","rollouts_estaveis_processados":0,"rollouts_estaveis_acumulados":19,"fontes_pendentes":5,"sessoes_deduplicadas":19,"observacao":"cinco fontes não puderam ser hashadas por arquivo em uso; a sessão corrente de 30/07 foi excluída como fonte"},
-  "git": {"status":"sucesso_parcial_fontes_pendentes_push_confirmado","fetch":"concluido","head_antes":"a7000e9ba3b6e27da6ec7417921eea3c30a016de","origin_main_antes":"a7000e9ba3b6e27da6ec7417921eea3c30a016de","backup_local":{"ref":"refs/backup/codex-fechamento/20260730-115227-local","hash":"a7000e9ba3b6e27da6ec7417921eea3c30a016de"},"backup_remoto":{"ref":"refs/backup/codex-fechamento/20260730-115227-remoto","hash":"a7000e9ba3b6e27da6ec7417921eea3c30a016de"},"commit_fechamento":"ddbe681ad3e95c01c9db960ccd5437a062c9e3b7","head_final":"5246c7bbc94b3046ff75ddac812857bc22bd4552","origin_main_final":"5246c7bbc94b3046ff75ddac812857bc22bd4552","merge":{"resultado":"main_e_origin_main_alinhadas_sem_merge_necessario","conflitos":[],"arquivos_preservados":[]},"push":{"status":"confirmado","commit":"5246c7bbc94b3046ff75ddac812857bc22bd4552"},"alteracoes_nao_relacionadas_preservadas":["09-Sistema/agents/AGENTS.md","JARVIS/Memorias/Diario/2026-07-21.md","JARVIS/Memorias/fatos_rapidos.md","02-JARVIS/Improvement_*.md","JARVIS/Memorias/Diario/2026-07-25.md","JARVIS/Memorias/Diario/2026-07-26.md","JARVIS/Memorias/Diario/2026-07-27.md","JARVIS/Memorias/Diario/2026-07-28.md"],"hook_pre_commit":"Python 3.14 inexistente; validação direta e --no-verify após aprovação"}
+  "notas_atualizadas": ["09-Sistema/Codex/2026-07-30-Fechamento-Codex-Manha.md", "09-Sistema/Codex/2026-07-30-Fechamento-Codex-Tarde.md"],
+  "itens_processados": [],
+  "deduplicacoes": ["fechamentos gerados excluidos", "sessao corrente excluida", "19 rollouts historicos mantidos por chave incremental", "Documentos e saidas filtrados"],
+  "cursor": {"janela_anterior":"2026-07-30T11:52:27-03:00","regra":"so avancar cursor apos gravar, validar e obter hash estavel"},
+  "execucao_atual": {"status":"parcial","rollouts_estaveis_processados":0,"rollouts_estaveis_acumulados":19,"fontes_pendentes":7,"sessoes_deduplicadas":19,"observacao":"sete fontes bloqueadas; sessao corrente excluida como fonte"},
+  "git": {"status":"sucesso_parcial_fontes_pendentes_push_pendente","fetch":"concluido","head_antes":"68c7fd75a1ce73904486c4e2e24398669805e618","origin_main_antes":"68c7fd75a1ce73904486c4e2e24398669805e618","backup_local":{"ref":"refs/backup/codex-fechamento/20260730-175330-local","hash":"68c7fd75a1ce73904486c4e2e24398669805e618"},"backup_remoto":{"ref":"refs/backup/codex-fechamento/20260730-175330-remoto","hash":"68c7fd75a1ce73904486c4e2e24398669805e618"},"commit_fechamento":null,"head_final":null,"origin_main_final":null,"merge":{"resultado":"a_realizar_apos_commit_escopado","conflitos":[],"arquivos_preservados":[]},"push":{"status":"pendente","commit":null},"alteracoes_nao_relacionadas_preservadas":true,"hook_pre_commit":"Python 3.14 inexistente; validacao direta e --no-verify se necessario"}
 }
