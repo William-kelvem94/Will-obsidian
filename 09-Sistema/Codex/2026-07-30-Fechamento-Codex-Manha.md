@@ -51,7 +51,7 @@ Fechamento incremental executado pelo manifesto compartilhado. Nenhum novo rollo
 
 ## Manifesto e resultado Git
 
-- Manifesto, frontmatter e \`git diff --check\` dos arquivos do fechamento serão validados antes do commit.
-- Backups permanentes serão criados antes da publicação; somente esta nota e o manifesto entrarão no commit.
-- \`git fetch origin\` concluído; \`main\` e \`origin/main\` estavam alinhadas em \`a7000e9ba3b6e27da6ec7417921eea3c30a016de\`, sem merge necessário e sem conflitos.
+- Manifesto, frontmatter e \`git diff --check\` foram validados; somente esta nota e o manifesto entraram no commit.
+- Backups permanentes: \`refs/backup/codex-fechamento/20260730-115227-local\` e \`refs/backup/codex-fechamento/20260730-115227-remoto\`, ambos em \`a7000e9ba3b6e27da6ec7417921eea3c30a016de\`.
+- \`git fetch origin\` concluído; \`main\` e \`origin/main\` estavam alinhadas antes da publicação. Commit de fechamento: \`ddbe681ad3e95c01c9db960ccd5437a062c9e3b7\`; merge sem conflitos.
 - Resultado: sucesso parcial, com a consolidação preservada e cinco fontes aguardando reprocessamento.
