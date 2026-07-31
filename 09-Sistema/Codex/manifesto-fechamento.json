@@ -1,8 +1,8 @@
 {
   "versao": 2,
-  "ultima_execucao": "2026-07-30T17:53:30-03:00",
-  "automation_id": "fechamento-codex-tarde",
-  "janela": "2026-07-30T11:52:27-03:00/2026-07-30T17:53:30-03:00",
+  "ultima_execucao": "2026-07-31T11:52:49-03:00",
+  "automation_id": "fechamento-codex-manh",
+  "janela": "2026-07-30T17:53:30-03:00/2026-07-31T11:52:49-03:00",
   "status": "parcial",
   "politica": {
     "fontes_geradas_excluidas": ["09-Sistema/Codex", "09-Sistema/Sessoes"],
@@ -20,13 +20,18 @@
       "pendentes": [
         {"sessao":"019fa936-9ce5-7880-99f9-0aca8328dd9a","arquivo":"rollout-2026-07-28T11-52-36-019fa936-9ce5-7880-99f9-0aca8328dd9a.jsonl","status":"pendente_arquivo_em_uso"},
         {"sessao":"019faa7e-c473-71d3-9cb1-1c7102437a19","arquivo":"rollout-2026-07-28T17-51-02-019faa7e-c473-71d3-9cb1-1c7102437a19.jsonl","status":"pendente_arquivo_em_uso"},
-        {"sessao":"019fadc8-68ef-7be0-a961-1496548bb62e","arquivo":"rollout-2026-07-29T09-10-20-019fadc8-68ef-7be0-a961-1496548bb62e.jsonl","status":"pendente_arquivo_em_uso"},
         {"sessao":"019fade2-0a91-7ad1-81cd-43cb0b26cdfc","arquivo":"rollout-2026-07-29T09-38-20-019fade2-0a91-7ad1-81cd-43cb0b26cdfc.jsonl","status":"pendente_arquivo_em_uso"},
         {"sessao":"019fafa5-2af1-7cc2-af2c-95c80522b0f9","arquivo":"rollout-2026-07-29T17-51-05-019fafa5-2af1-7cc2-af2c-95c80522b0f9.jsonl","status":"pendente_arquivo_em_uso"},
         {"sessao":"019fb381-6b6e-7b32-a05b-592295762227","arquivo":"rollout-2026-07-30T11-50-31-019fb381-6b6e-7b32-a05b-592295762227.jsonl","status":"pendente_arquivo_em_uso"},
-        {"sessao":"019fb424-edd7-7192-b373-b99f90f659d5","arquivo":"rollout-2026-07-30T14-49-07-019fb424-edd7-7192-b373-b99f90f659d5.jsonl","status":"pendente_arquivo_em_uso"}
+        {"sessao":"019fb424-edd7-7192-b373-b99f90f659d5","arquivo":"rollout-2026-07-30T14-49-07-019fb424-edd7-7192-b373-b99f90f659d5.jsonl","status":"pendente_arquivo_em_uso"},
+        {"sessao":"019fb85e-6add-7b00-9a6e-7c3d0a2db7f1","arquivo":"rollout-2026-07-31T10-30-23-019fb85e-6add-7b00-9a6e-7c3d0a2db7f1.jsonl","status":"pendente_arquivo_em_uso"},
+        {"sessao":"019fb85e-6cec-75e0-b336-5bded488c6d7","arquivo":"rollout-2026-07-31T10-30-24-019fb85e-6cec-75e0-b336-5bded488c6d7.jsonl","status":"pendente_arquivo_em_uso"},
+        {"sessao":"019fb85e-6fdc-77d1-af7c-19223bf4627d","arquivo":"rollout-2026-07-31T10-30-25-019fb85e-6fdc-77d1-af7c-19223bf4627d.jsonl","status":"pendente_arquivo_em_uso"},
+        {"sessao":"019fb85e-7388-7af2-97d4-72b8223a9b5c","arquivo":"rollout-2026-07-31T10-30-26-019fb85e-7388-7af2-97d4-72b8223a9b5c.jsonl","status":"pendente_arquivo_em_uso"},
+        {"sessao":"019fb865-ffba-7f21-8fac-f77b9a0034ba","arquivo":"rollout-2026-07-31T10-38-40-019fb865-ffba-7f21-8fac-f77b9a0034ba.jsonl","status":"pendente_arquivo_em_uso"},
+        {"sessao":"019fb866-00eb-7160-8d07-68874444baa4","arquivo":"rollout-2026-07-31T10-38-41-019fb866-00eb-7160-8d07-68874444baa4.jsonl","status":"pendente_arquivo_em_uso"}
       ],
-      "sessao_corrente_ignorada": {"sessao":"019fb4cc-3326-7320-8c85-94a1b42291e7","arquivo":"rollout-2026-07-30T17-51-50-019fb4cc-3326-7320-8c85-94a1b42291e7.jsonl","status":"pendente_sessao_corrente_ignorada"}
+    "sessao_corrente_ignorada": {"sessao":"019fb8a7-bab1-7330-ac57-3f241470e307","arquivo":"rollout-2026-07-31T11-50-28-019fb8a7-bab1-7330-ac57-3f241470e307.jsonl","status":"pendente_sessao_corrente_ignorada"}
     },
     {
       "caminho": "C:\\Users\\willi\\Documents\\Codex",
@@ -37,10 +42,10 @@
       "motivo": "nenhum arquivo operacional elegivel novo"
     }
   ],
-  "notas_atualizadas": ["09-Sistema/Codex/2026-07-30-Fechamento-Codex-Manha.md", "09-Sistema/Codex/2026-07-30-Fechamento-Codex-Tarde.md"],
-  "itens_processados": [],
-  "deduplicacoes": ["fechamentos gerados excluidos", "sessao corrente excluida", "19 rollouts historicos mantidos por chave incremental", "Documentos e saidas filtrados"],
-  "cursor": {"janela_anterior":"2026-07-30T11:52:27-03:00","regra":"so avancar cursor apos gravar, validar e obter hash estavel"},
-  "execucao_atual": {"status":"parcial","rollouts_estaveis_processados":0,"rollouts_estaveis_acumulados":19,"fontes_pendentes":7,"sessoes_deduplicadas":19,"observacao":"sete fontes bloqueadas; sessao corrente excluida como fonte"},
+  "notas_atualizadas": ["09-Sistema/Codex/2026-07-31-Fechamento-Codex-Manha.md", "03-Projetos/01-Ativos/Privados/Gerenciador_Financeiro-7.0.md"],
+  "itens_processados": [{"sessao":"019fadc8-68ef-7be0-a961-1496548bb62e","arquivo":"rollout-2026-07-29T09-10-20-019fadc8-68ef-7be0-a961-1496548bb62e.jsonl","sha256":"09DEE2E5723003567AB5DCDFE9692306943E636F377769B76B722C66EAF342F8","resultado":"delta consolidado no hub do Gerenciador_Financeiro-7.0"}],
+  "deduplicacoes": ["fechamentos gerados excluidos", "sessao corrente excluida", "19 rollouts historicos mantidos por chave incremental", "Documents e saidas filtrados", "fonte 019fadc8 consolidada por sessao, caminho, mtime, tamanho e SHA-256"],
+  "cursor": {"janela_anterior":"2026-07-30T17:53:30-03:00","regra":"so avancar cursor apos gravar, validar e obter hash estavel"},
+  "execucao_atual": {"status":"parcial","rollouts_estaveis_processados":1,"rollouts_estaveis_acumulados":20,"fontes_pendentes":12,"sessoes_deduplicadas":19,"observacao":"uma fonte desbloqueada consolidada; doze fontes permanecem bloqueadas; sessao corrente excluida como fonte"},
   "git": {"status":"sucesso_parcial_fontes_pendentes_push_confirmado","fetch":"concluido","head_antes":"68c7fd75a1ce73904486c4e2e24398669805e618","origin_main_antes":"68c7fd75a1ce73904486c4e2e24398669805e618","backup_local":{"ref":"refs/backup/codex-fechamento/20260730-175330-local","hash":"68c7fd75a1ce73904486c4e2e24398669805e618"},"backup_remoto":{"ref":"refs/backup/codex-fechamento/20260730-175330-remoto","hash":"68c7fd75a1ce73904486c4e2e24398669805e618"},"commit_fechamento":"1fa8c5a","head_final":"bf2f7b34965487edc7e68022754faff18e0990db","origin_main_final":"bf2f7b34965487edc7e68022754faff18e0990db","merge":{"resultado":"main_local_e_origin_main_alinhadas_sem_merge_necessario","conflitos":[],"arquivos_preservados":[]},"push":{"status":"confirmado","commit":"bf2f7b34965487edc7e68022754faff18e0990db"},"alteracoes_nao_relacionadas_preservadas":true,"hook_pre_commit":"Python 3.14 inexistente; validacao direta e --no-verify se necessario"}
 }
