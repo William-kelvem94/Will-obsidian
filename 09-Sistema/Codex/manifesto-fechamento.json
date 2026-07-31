@@ -1,8 +1,8 @@
 {
   "versao": 2,
-  "ultima_execucao": "2026-07-31T11:52:49-03:00",
-  "automation_id": "fechamento-codex-manh",
-  "janela": "2026-07-30T17:53:30-03:00/2026-07-31T11:52:49-03:00",
+  "ultima_execucao": "2026-07-31T17:52:24-03:00",
+  "automation_id": "fechamento-codex-tarde",
+  "janela": "2026-07-31T11:52:49-03:00/2026-07-31T17:52:24-03:00",
   "status": "parcial",
   "politica": {
     "fontes_geradas_excluidas": ["09-Sistema/Codex", "09-Sistema/Sessoes"],
@@ -14,9 +14,9 @@
     {
       "caminho": "C:\\Users\\willi\\.codex\\sessions",
       "status": "parcial",
-      "arquivos_processados": 19,
-      "arquivos_pendentes": 7,
-      "historico_deduplicado": "19 rollouts estaveis consolidados por sessao, caminho, mtime, tamanho e SHA-256",
+      "arquivos_processados": 20,
+      "arquivos_pendentes": 14,
+      "historico_deduplicado": "20 rollouts estaveis consolidados por sessao, caminho, mtime, tamanho e SHA-256",
       "pendentes": [
         {"sessao":"019fa936-9ce5-7880-99f9-0aca8328dd9a","arquivo":"rollout-2026-07-28T11-52-36-019fa936-9ce5-7880-99f9-0aca8328dd9a.jsonl","status":"pendente_arquivo_em_uso"},
         {"sessao":"019faa7e-c473-71d3-9cb1-1c7102437a19","arquivo":"rollout-2026-07-28T17-51-02-019faa7e-c473-71d3-9cb1-1c7102437a19.jsonl","status":"pendente_arquivo_em_uso"},
@@ -29,7 +29,9 @@
         {"sessao":"019fb85e-6fdc-77d1-af7c-19223bf4627d","arquivo":"rollout-2026-07-31T10-30-25-019fb85e-6fdc-77d1-af7c-19223bf4627d.jsonl","status":"pendente_arquivo_em_uso"},
         {"sessao":"019fb85e-7388-7af2-97d4-72b8223a9b5c","arquivo":"rollout-2026-07-31T10-30-26-019fb85e-7388-7af2-97d4-72b8223a9b5c.jsonl","status":"pendente_arquivo_em_uso"},
         {"sessao":"019fb865-ffba-7f21-8fac-f77b9a0034ba","arquivo":"rollout-2026-07-31T10-38-40-019fb865-ffba-7f21-8fac-f77b9a0034ba.jsonl","status":"pendente_arquivo_em_uso"},
-        {"sessao":"019fb866-00eb-7160-8d07-68874444baa4","arquivo":"rollout-2026-07-31T10-38-41-019fb866-00eb-7160-8d07-68874444baa4.jsonl","status":"pendente_arquivo_em_uso"}
+        {"sessao":"019fb866-00eb-7160-8d07-68874444baa4","arquivo":"rollout-2026-07-31T10-38-41-019fb866-00eb-7160-8d07-68874444baa4.jsonl","status":"pendente_arquivo_em_uso"},
+        {"sessao":"019fb8bb-5a88-7ed2-9279-d2277041936e","arquivo":"rollout-2026-07-31T12-11-54-019fb8bb-5a88-7ed2-9279-d2277041936e.jsonl","status":"pendente_arquivo_em_uso"},
+        {"sessao":"019fb92d-8655-77e3-86ea-85b63b342877","arquivo":"rollout-2026-07-31T14-16-36-019fb92d-8655-77e3-86ea-85b63b342877.jsonl","status":"pendente_arquivo_em_uso"}
       ],
     "sessao_corrente_ignorada": {"sessao":"019fb8a7-bab1-7330-ac57-3f241470e307","arquivo":"rollout-2026-07-31T11-50-28-019fb8a7-bab1-7330-ac57-3f241470e307.jsonl","status":"pendente_sessao_corrente_ignorada"}
     },
@@ -42,10 +44,10 @@
       "motivo": "nenhum arquivo operacional elegivel novo"
     }
   ],
-  "notas_atualizadas": ["09-Sistema/Codex/2026-07-31-Fechamento-Codex-Manha.md", "03-Projetos/01-Ativos/Privados/Gerenciador_Financeiro-7.0.md"],
+  "notas_atualizadas": ["09-Sistema/Codex/2026-07-31-Fechamento-Codex-Manha.md", "09-Sistema/Codex/2026-07-31-Fechamento-Codex-Tarde.md", "03-Projetos/01-Ativos/Privados/Gerenciador_Financeiro-7.0.md"],
   "itens_processados": [{"sessao":"019fadc8-68ef-7be0-a961-1496548bb62e","arquivo":"rollout-2026-07-29T09-10-20-019fadc8-68ef-7be0-a961-1496548bb62e.jsonl","sha256":"09DEE2E5723003567AB5DCDFE9692306943E636F377769B76B722C66EAF342F8","resultado":"delta consolidado no hub do Gerenciador_Financeiro-7.0"}],
-  "deduplicacoes": ["fechamentos gerados excluidos", "sessao corrente excluida", "19 rollouts historicos mantidos por chave incremental", "Documents e saidas filtrados", "fonte 019fadc8 consolidada por sessao, caminho, mtime, tamanho e SHA-256"],
-  "cursor": {"janela_anterior":"2026-07-30T17:53:30-03:00","regra":"so avancar cursor apos gravar, validar e obter hash estavel"},
-  "execucao_atual": {"status":"parcial","rollouts_estaveis_processados":1,"rollouts_estaveis_acumulados":20,"fontes_pendentes":12,"sessoes_deduplicadas":19,"observacao":"uma fonte desbloqueada consolidada; doze fontes permanecem bloqueadas; sessao corrente excluida como fonte"},
-  "git": {"status":"sucesso_parcial_fontes_pendentes_push_confirmado","fetch":"concluido","head_antes":"a5b45d4c3f28aa89223d47f4e48774c01c450d96","origin_main_antes":"a5b45d4c3f28aa89223d47f4e48774c01c450d96","backup_local":{"ref":"refs/backup/codex-fechamento/20260731-115249-local","hash":"a5b45d4c3f28aa89223d47f4e48774c01c450d96"},"backup_remoto":{"ref":"refs/backup/codex-fechamento/20260731-115249-remoto","hash":"a5b45d4c3f28aa89223d47f4e48774c01c450d96"},"commit_fechamento":"7fc83c2d6e8bebe067595ce8101e4d81b7cecfe4","registro_git":"049b0138cfed54caea50f1f27cf659d3f7af176e","head_final":"049b0138cfed54caea50f1f27cf659d3f7af176e","origin_main_final":"049b0138cfed54caea50f1f27cf659d3f7af176e","merge":{"resultado":"main_local_e_origin_main_alinhadas_sem_merge_necessario","conflitos":[],"arquivos_preservados":[]},"push":{"status":"confirmado","commit":"049b0138cfed54caea50f1f27cf659d3f7af176e"},"alteracoes_nao_relacionadas_preservadas":true,"hook_pre_commit":"Python 3.14 inexistente; --no-verify usado apos validacoes diretas; hook requer Python 3.14 ausente"}
+  "deduplicacoes": ["fechamentos gerados excluidos", "sessao corrente excluida", "20 rollouts historicos mantidos por chave incremental", "Documents e saidas filtrados", "fonte 019fadc8 consolidada por sessao, caminho, mtime, tamanho e SHA-256", "duas fontes novas mantidas pendentes por arquivo em uso"],
+  "cursor": {"janela_anterior":"2026-07-31T11:52:49-03:00","regra":"so avancar cursor apos gravar, validar e obter hash estavel"},
+  "execucao_atual": {"status":"parcial","rollouts_estaveis_processados":0,"rollouts_estaveis_acumulados":20,"fontes_pendentes":14,"sessoes_deduplicadas":20,"observacao":"nenhuma fonte nova consolidada; duas fontes novas permanecem bloqueadas; sessao corrente excluida como fonte"},
+  "git": {"status":"pendente_publicacao_local","fetch":"pendente_antes_da_publicacao","head_antes":"ainda_nao_auditado","origin_main_antes":"ainda_nao_auditado","backup_local":"sera_criado_antes_da_integracao","backup_remoto":"sera_criado_antes_da_integracao","commit_fechamento":"pendente","registro_git":"pendente","head_final":"pendente","origin_main_final":"pendente","merge":{"resultado":"pendente","conflitos":[],"arquivos_preservados":[]},"push":{"status":"pendente","commit":"pendente"},"alteracoes_nao_relacionadas_preservadas":true,"hook_pre_commit":"Python 3.14 inexistente; validar diretamente e usar --no-verify somente se necessario"}
 }
