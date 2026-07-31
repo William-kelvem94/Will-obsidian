@@ -54,5 +54,6 @@ Fechamento incremental pelo manifesto compartilhado. Uma fonte anteriormente blo
 ## Manifesto e resultado Git
 
 - Manifesto, frontmatter e `git diff --check` foram validados; somente esta nota, o manifesto e o delta do hub serao escopados.
-- Backups permanentes serao criados antes da integracao; alteracoes locais nao relacionadas permanecem fora do commit.
-- Resultado da consolidacao: sucesso parcial, com uma fonte publicada e doze fontes aguardando reprocessamento.
+- Backups permanentes: `refs/backup/codex-fechamento/20260731-115249-local` e `refs/backup/codex-fechamento/20260731-115249-remoto`, ambos em `a5b45d4c3f28aa89223d47f4e48774c01c450d96`.
+- Commits escopados: `7fc83c2d` (nota, hub e manifesto) e `049b0138` (registro Git); push para `origin/main` confirmado. Nao houve merge porque local e remoto ja estavam alinhados antes da publicacao.
+- Resultado da consolidacao: sucesso parcial, com uma fonte publicada, doze fontes aguardando reprocessamento e alteracoes locais nao relacionadas preservadas.
