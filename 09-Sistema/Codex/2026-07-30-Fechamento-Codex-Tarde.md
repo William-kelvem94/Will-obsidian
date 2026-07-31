@@ -54,4 +54,4 @@ Fechamento incremental executado pelo manifesto compartilhado. Não houve novo r
 - Manifesto, frontmatter e `git diff --check` serão validados antes do commit; somente esta nota e o manifesto serão escopados.
 - Backups permanentes criados antes da integração: `refs/backup/codex-fechamento/20260730-175330-local` e `refs/backup/codex-fechamento/20260730-175330-remoto`, ambos em `68c7fd75a1ce73904486c4e2e24398669805e618`.
 - `git fetch origin` concluído; `main` e `origin/main` estavam alinhadas antes da publicação. Alterações locais não relacionadas permanecerão fora do commit.
-- Resultado esperado: sucesso parcial, com a consolidação publicada e sete fontes aguardando reprocessamento.
+- Resultado: sucesso parcial, com a consolidação publicada em `bf2f7b34965487edc7e68022754faff18e0990db` e sete fontes aguardando reprocessamento.
