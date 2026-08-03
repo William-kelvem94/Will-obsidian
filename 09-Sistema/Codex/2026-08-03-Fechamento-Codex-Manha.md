@@ -59,5 +59,5 @@ Rodada manual da agenda da manhã porque o scheduler não criou uma execução �
 
 - Frontmatter e manifesto foram validados; somente esta nota e o manifesto serão escopados.
 - Backups anteriores foram preservados em `refs/backup/codex-fechamento/20260731-175508-local` e `-remoto`.
-- Estado final: `HEAD=origin/main=df2d1163ceef644156dbaf0ec14e897a6cb66618`; push confirmado. O hook pre-commit falhou porque o Python 3.14 não existe; a validação direta passou e o commit foi feito com `--no-verify`.
+- Estado final: `HEAD=origin/main=8c207e07495cff2c29e5a415422ff121c9037279`; push confirmado. O hook pre-commit falhou porque o Python 3.14 não existe; a validação direta passou e os commits foram feitos com `--no-verify`.
 - Alterações locais não relacionadas permanecem fora do escopo.
