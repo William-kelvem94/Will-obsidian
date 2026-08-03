@@ -1,8 +1,8 @@
 {
   "versao": 2,
-  "ultima_execucao": "2026-07-31T17:52:24-03:00",
-  "automation_id": "fechamento-codex-tarde",
-  "janela": "2026-07-31T11:52:49-03:00/2026-07-31T17:52:24-03:00",
+  "ultima_execucao": "2026-08-03T11:50:16-03:00",
+  "automation_id": "fechamento-codex-manh",
+  "janela": "2026-07-31T17:52:24-03:00/2026-08-03T11:50:16-03:00",
   "status": "parcial",
   "politica": {
     "fontes_geradas_excluidas": ["09-Sistema/Codex", "09-Sistema/Sessoes"],
@@ -14,9 +14,9 @@
     {
       "caminho": "C:\\Users\\willi\\.codex\\sessions",
       "status": "parcial",
-      "arquivos_processados": 20,
-      "arquivos_pendentes": 14,
-      "historico_deduplicado": "20 rollouts estaveis consolidados por sessao, caminho, mtime, tamanho e SHA-256",
+      "arquivos_processados": 26,
+      "arquivos_pendentes": 18,
+      "historico_deduplicado": "26 rollouts estaveis consolidados por sessao, caminho, mtime, tamanho e SHA-256",
       "pendentes": [
         {"sessao":"019fa936-9ce5-7880-99f9-0aca8328dd9a","arquivo":"rollout-2026-07-28T11-52-36-019fa936-9ce5-7880-99f9-0aca8328dd9a.jsonl","status":"pendente_arquivo_em_uso"},
         {"sessao":"019faa7e-c473-71d3-9cb1-1c7102437a19","arquivo":"rollout-2026-07-28T17-51-02-019faa7e-c473-71d3-9cb1-1c7102437a19.jsonl","status":"pendente_arquivo_em_uso"},
@@ -31,7 +31,11 @@
         {"sessao":"019fb865-ffba-7f21-8fac-f77b9a0034ba","arquivo":"rollout-2026-07-31T10-38-40-019fb865-ffba-7f21-8fac-f77b9a0034ba.jsonl","status":"pendente_arquivo_em_uso"},
         {"sessao":"019fb866-00eb-7160-8d07-68874444baa4","arquivo":"rollout-2026-07-31T10-38-41-019fb866-00eb-7160-8d07-68874444baa4.jsonl","status":"pendente_arquivo_em_uso"},
         {"sessao":"019fb8bb-5a88-7ed2-9279-d2277041936e","arquivo":"rollout-2026-07-31T12-11-54-019fb8bb-5a88-7ed2-9279-d2277041936e.jsonl","status":"pendente_arquivo_em_uso"},
-        {"sessao":"019fb92d-8655-77e3-86ea-85b63b342877","arquivo":"rollout-2026-07-31T14-16-36-019fb92d-8655-77e3-86ea-85b63b342877.jsonl","status":"pendente_arquivo_em_uso"}
+        {"sessao":"019fb92d-8655-77e3-86ea-85b63b342877","arquivo":"rollout-2026-07-31T14-16-36-019fb92d-8655-77e3-86ea-85b63b342877.jsonl","status":"pendente_arquivo_em_uso"},
+        {"sessao":"019fbd7a-08d9-73e1-8d97-90817f89bccf","arquivo":"rollout-2026-08-01T10-18-39-019fbd7a-08d9-73e1-8d97-90817f89bccf.jsonl","status":"pendente_arquivo_em_uso"},
+        {"sessao":"019fbdcd-eb13-7460-95c2-fc5b9726a5f1","arquivo":"rollout-2026-08-01T11-50-16-019fbdcd-eb13-7460-95c2-fc5b9726a5f1.jsonl","status":"pendente_arquivo_em_uso"},
+        {"sessao":"019fc372-fdce-7090-b78e-644870aa154d","arquivo":"rollout-2026-08-02T10-08-41-019fc372-fdce-7090-b78e-644870aa154d.jsonl","status":"pendente_arquivo_em_uso"},
+        {"sessao":"019fc373-0770-7cc2-883d-7d6b084a7497","arquivo":"rollout-2026-08-02T10-08-47-019fc373-0770-7cc2-883d-7d6b084a7497.jsonl","status":"pendente_arquivo_em_uso"}
       ],
     "sessao_corrente_ignorada": {"sessao":"019fb8a7-bab1-7330-ac57-3f241470e307","arquivo":"rollout-2026-07-31T11-50-28-019fb8a7-bab1-7330-ac57-3f241470e307.jsonl","status":"pendente_sessao_corrente_ignorada"}
     },
@@ -44,10 +48,18 @@
       "motivo": "nenhum arquivo operacional elegivel novo"
     }
   ],
-  "notas_atualizadas": ["09-Sistema/Codex/2026-07-31-Fechamento-Codex-Manha.md", "09-Sistema/Codex/2026-07-31-Fechamento-Codex-Tarde.md", "03-Projetos/01-Ativos/Privados/Gerenciador_Financeiro-7.0.md"],
-  "itens_processados": [{"sessao":"019fadc8-68ef-7be0-a961-1496548bb62e","arquivo":"rollout-2026-07-29T09-10-20-019fadc8-68ef-7be0-a961-1496548bb62e.jsonl","sha256":"09DEE2E5723003567AB5DCDFE9692306943E636F377769B76B722C66EAF342F8","resultado":"delta consolidado no hub do Gerenciador_Financeiro-7.0"}],
+  "notas_atualizadas": ["09-Sistema/Codex/2026-07-31-Fechamento-Codex-Manha.md", "09-Sistema/Codex/2026-07-31-Fechamento-Codex-Tarde.md", "09-Sistema/Codex/2026-08-03-Fechamento-Codex-Manha.md", "03-Projetos/01-Ativos/Privados/Gerenciador_Financeiro-7.0.md"],
+  "itens_processados": [
+    {"sessao":"019fadc8-68ef-7be0-a961-1496548bb62e","arquivo":"rollout-2026-07-29T09-10-20-019fadc8-68ef-7be0-a961-1496548bb62e.jsonl","sha256":"09DEE2E5723003567AB5DCDFE9692306943E636F377769B76B722C66EAF342F8","resultado":"delta consolidado no hub do Gerenciador_Financeiro-7.0"},
+    {"sessao":"019fc43f-794b-7fd3-915d-74c515b951c6","arquivo":"rollout-2026-08-02T17-52-02-019fc43f-794b-7fd3-915d-74c515b951c6.jsonl","sha256":"B895394361ED1B529E139D7C9D60F10560C6F4A5A8093DAC97928A4AE3B9457B","resultado":"resultado operacional do fechamento da tarde registrado"},
+    {"sessao":"019fc469-df1c-7002-94b2-8086a913e88c","arquivo":"rollout-2026-08-02T18-38-20-019fc469-df1c-7002-94b2-8086a913e88c.jsonl","sha256":"EB57850F95F3E3FAE76DAE97CCFD27601DD0783E54527C5B054C594A14788824","resultado":"curadoria de conversas da WEBFLASH registrada"},
+    {"sessao":"019fc469-e090-7420-a3e5-c6f983bd343a","arquivo":"rollout-2026-08-02T18-38-21-019fc469-e090-7420-a3e5-c6f983bd343a.jsonl","sha256":"BE3A7EF992CE9DACA4307B2C075805AC3A19FC302A9071FADE4CF67614264DDE","resultado":"curadoria de PDFs da WEBFLASH registrada"},
+    {"sessao":"019fc469-e279-7412-8950-b2fb86e94031","arquivo":"rollout-2026-08-02T18-38-21-019fc469-e279-7412-8950-b2fb86e94031.jsonl","sha256":"2AD0BD19E54B46C2B70DAE1CDAAD944BE6E70F24E10E73CC978513624D726920","resultado":"curadoria documental da WEBFLASH registrada"},
+    {"sessao":"019fc469-e487-7c73-a69e-31d6906e7340","arquivo":"rollout-2026-08-02T18-38-22-019fc469-e487-7c73-a69e-31d6906e7340.jsonl","sha256":"F098E30F0D7B345CC5884CD35BB64D37A152FD1849627AE76615D7D6D01F6B70","resultado":"curadoria de mídia da WEBFLASH registrada"},
+    {"sessao":"019fc469-e7d0-73a3-b623-b981961a7086","arquivo":"rollout-2026-08-02T18-38-23-019fc469-e7d0-73a3-b623-b981961a7086.jsonl","sha256":"15FB26C1851111AB264CE5ED5C2ED41FA929E153A269DF1D5758CD9AAA6A1862","resultado":"validação escopada da WEBFLASH registrada"}
+  ],
   "deduplicacoes": ["fechamentos gerados excluidos", "sessao corrente excluida", "20 rollouts historicos mantidos por chave incremental", "Documents e saidas filtrados", "fonte 019fadc8 consolidada por sessao, caminho, mtime, tamanho e SHA-256", "duas fontes novas mantidas pendentes por arquivo em uso"],
   "cursor": {"janela_anterior":"2026-07-31T11:52:49-03:00","regra":"so avancar cursor apos gravar, validar e obter hash estavel"},
-  "execucao_atual": {"status":"parcial","rollouts_estaveis_processados":0,"rollouts_estaveis_acumulados":20,"fontes_pendentes":14,"sessoes_deduplicadas":20,"observacao":"nenhuma fonte nova consolidada; duas fontes novas permanecem bloqueadas; sessao corrente excluida como fonte"},
-  "git": {"status":"pendente_publicacao_local","fetch":"pendente_antes_da_publicacao","head_antes":"ainda_nao_auditado","origin_main_antes":"ainda_nao_auditado","backup_local":"sera_criado_antes_da_integracao","backup_remoto":"sera_criado_antes_da_integracao","commit_fechamento":"pendente","registro_git":"pendente","head_final":"pendente","origin_main_final":"pendente","merge":{"resultado":"pendente","conflitos":[],"arquivos_preservados":[]},"push":{"status":"pendente","commit":"pendente"},"alteracoes_nao_relacionadas_preservadas":true,"hook_pre_commit":"Python 3.14 inexistente; validar diretamente e usar --no-verify somente se necessario"}
+  "execucao_atual": {"status":"parcial","rollouts_estaveis_processados":6,"rollouts_estaveis_acumulados":26,"fontes_pendentes":18,"sessoes_deduplicadas":26,"observacao":"seis fontes estaveis consolidadas; quatro fontes permanecem bloqueadas; fontes de 03/08 e sessao corrente excluidas"},
+  "git": {"status":"sucesso_parcial_fontes_pendentes_push_pendente","fetch":"concluido","head_antes":"9ec4ca8017a710b05fc8c2d85fb73d06afbc8cab","origin_main_antes":"9ec4ca8017a710b05fc8c2d85fb73d06afbc8cab","backup_local":{"ref":"refs/backup/codex-fechamento/20260731-175508-local","hash":"9ec4ca8017a710b05fc8c2d85fb73d06afbc8cab"},"backup_remoto":{"ref":"refs/backup/codex-fechamento/20260731-175508-remoto","hash":"9ec4ca8017a710b05fc8c2d85fb73d06afbc8cab"},"commit_fechamento":"99b6b3f9e50d0300cfe69defbb4675f397012edb","registro_git":"pendente","head_final":"pendente","origin_main_final":"9ec4ca8017a710b05fc8c2d85fb73d06afbc8cab","merge":{"resultado":"main_local_e_origin_main_alinhadas_sem_merge_necessario","conflitos":[],"arquivos_preservados":[]},"push":{"status":"pendente","commit":"pendente"},"alteracoes_nao_relacionadas_preservadas":true,"hook_pre_commit":"Python 3.14 inexistente; --no-verify usado apos validacao direta dos arquivos do fechamento"}
 }
